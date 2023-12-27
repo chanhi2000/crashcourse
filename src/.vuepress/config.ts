@@ -60,6 +60,7 @@ export default defineUserConfig({
   title: 'chanhi2000\'s Crashcourse(s)',
   description: description,
   head: [['link', { rel: 'icon', href: imgLogoPath }]],
+  base: '/crashcourse/',
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
