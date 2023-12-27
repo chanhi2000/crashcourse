@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 100 Days of Swift
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-100-days-of-swift
+    content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -224,16 +224,16 @@ After two tough projects and yet another important technique, it’s time to hit
 
 - [Day 74][day-74] – Milestone: Projects 19-21
 
-### Days 75-81: Beacons and bombs
+### ✅Days 75-81: Beacons and bombs
 
 These next three projects will start to show you just how much you’re now able to build with iOS – your skills are really starting to flourish!
 
-- ✅[Day 75][day-75] – Project 22, part one
-- ✅[Day 76][day-76] – Project 22, part two
-- ✅[Day 77][day-77] – Project 23, part one
-- ✅[Day 78][day-78] – Project 23, part two
-- ✅[Day 79][day-79] – Project 23, part three
-- ✅[Day 80][day-80] – Project 24, part one
+- [Day 75][day-75] – Project 22, part one
+- [Day 76][day-76] – Project 22, part two
+- [Day 77][day-77] – Project 23, part one
+- [Day 78][day-78] – Project 23, part two
+- [Day 79][day-79] – Project 23, part three
+- [Day 80][day-80] – Project 24, part one
 - [Day 81][day-81] – Project 24, part two
 
 ### Day 82: Consolidation IX
@@ -370,7 +370,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-78]: 78.md
 [day-79]: 79.md
 [day-80]: 80.md
-[day-81]: https://www.hackingwithswift.com/100/81
+[day-81]: 81.md
 [day-82]: https://www.hackingwithswift.com/100/82
 [day-83]: https://www.hackingwithswift.com/100/83
 [day-84]: https://www.hackingwithswift.com/100/84

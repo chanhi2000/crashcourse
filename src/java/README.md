@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
 title: Intro
-description: ☕️Java / 🅺Kotlin / 🍃Spring'
+description: ☕️Java / 🅺Kotlin / 🍃Spring
 ---
 
 # {{ $frontmatter.description }} 관련

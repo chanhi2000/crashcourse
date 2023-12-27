@@ -48,7 +48,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const CONSTS = {
   __VERSION__: version
 }
-const imgLogoPath = '/images/ico-wind.svg'
+const imgLogoPath = '/images/ico-school.svg'
 // const imgLogoPath = 'https://avatars.githubusercontent.com/u/6296241?v=4'
 
 export default defineUserConfig({
@@ -57,7 +57,7 @@ export default defineUserConfig({
     __YOUTUBE_API_KEY__: process.env.YOUTUBE_API_KEY,
     __IS_DEBUG__: process.env.IS_DEBUG ?? false,
   },
-  title: 'chanhi2000\'s Crashcourse(s)',
+  title: 'crashcourse',
   description: description,
   head: [['link', { rel: 'icon', href: imgLogoPath }]],
   base: '/crashcourse/',

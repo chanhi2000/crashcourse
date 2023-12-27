@@ -128,6 +128,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/78.md',
         '/swift/100-days-of-swift/79.md',
         '/swift/100-days-of-swift/80.md',
+        '/swift/100-days-of-swift/81.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -200,6 +201,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/64.md',
         '/swift/100-days-of-swiftui/65.md',
         '/swift/100-days-of-swiftui/66.md',
+        '/swift/100-days-of-swiftui/67.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -238,18 +240,18 @@ export const sidebarEn: SidebarConfig = {
       text: '☕️Effective Java',
       collapsible: true,
       children: [
-        '/java/java-effective-java/README.md',
-        '/java/java-effective-java/01-creating-and-destroying-objects.md',
-        '/java/java-effective-java/02-methods-common-to-all-objects.md',
-        '/java/java-effective-java/03-classes-and-interfaces.md',
-        '/java/java-effective-java/04-generics.md',
-        '/java/java-effective-java/05-enums-and-annotations.md',
-        '/java/java-effective-java/06-lambda-and-stream.md',
-        '/java/java-effective-java/07-methods.md',
-        '/java/java-effective-java/08-general-programming.md',
-        '/java/java-effective-java/09-exceptions.md',
-        '/java/java-effective-java/10-concurrency.md',
-        '/java/java-effective-java/11-serialization.md'
+        '/java/effective-java/README.md',
+        '/java/effective-java/01-creating-and-destroying-objects.md',
+        '/java/effective-java/02-methods-common-to-all-objects.md',
+        '/java/effective-java/03-classes-and-interfaces.md',
+        '/java/effective-java/04-generics.md',
+        '/java/effective-java/05-enums-and-annotations.md',
+        '/java/effective-java/06-lambda-and-stream.md',
+        '/java/effective-java/07-methods.md',
+        '/java/effective-java/08-general-programming.md',
+        '/java/effective-java/09-exceptions.md',
+        '/java/effective-java/10-concurrency.md',
+        '/java/effective-java/11-serialization.md'
       ]
     }, {
       text: '🅺Kodeco - Android & Kotlin',
@@ -459,6 +461,9 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/devops/': [
     {
+      text: 'Intro',
+      children: [ '/devops/README.md' ]
+    }, {
       text: '🔺Red Hat Container Tools',
       collapsible: true,
       children: [

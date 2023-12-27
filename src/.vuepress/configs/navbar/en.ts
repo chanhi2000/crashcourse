@@ -23,10 +23,10 @@ export const navbarEn: NavbarConfig = [
         link: '/swift/README.md'
       }, {
         text: '🕊️100 Days of Swift',
-        link: '/swift/100-days-of-swift/80.md'
+        link: '/swift/100-days-of-swift/81.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/66.md'
+        link: '/swift/100-days-of-swiftui/67.md'
       }, {
         text: '🕊️SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
@@ -99,6 +99,49 @@ export const navbarEn: NavbarConfig = [
         text: '🔻Jets - Learning Content',
         link: '/ruby/rubyonjets-learning-content/README.md',
       },
+    ]
+  }, {
+    text: '🏗️',
+    children: [
+      {
+        text: 'Intro',
+        link: '/devops/README.md'
+      }, {
+        text: '🔺Red Hat Container Tools',
+        link: '/devops/red-hat-container-tools/README.md',
+      }, {
+        text: '🔺Containerize Your Application With Buildah And Podman',
+        link: '/devops/red-hat-containerize-your-application-w-buildah-and-podman/README.md',
+      }, {
+        text: '🦊freecodecamp.org - DevOps with GitLab CI',
+        link: '/devops/freecodecamp-gitlab-ci/README.md',
+      }, {
+        text: '☸DigitalOcean - Kubernetes',
+        link: '/devops/digitalocean-kubernetes/README.md',
+      }, {
+        text: '📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
+        link: '/devops/art-of-aws/README.md',
+      }, {
+        text: '🐧Linux Journey',
+        link: '/devops/linux-journey/README.md',
+      }
+    ]
+  }, {
+    text: '📍',
+    children: [
+      {
+        text: '🎨Colt Steele - Mastering CSS Grid',
+        link: '/misc/colt-steele-mastering-css-grid/README.md',
+      }, {
+        text: '🧶Must Know JavaScript API',
+        link: '/misc/js-must-know-javascript-api/README.md',
+      }, {
+        text: '🦙Microsoft - Generative AI for Beginners',
+        link: '/misc/llm-generative-ai-for-beginners/README.md',
+      }, {
+        text: "DB Server 성능 향상 분석 및 튜닝 전문가 향상과정",
+        link: '/misc/oracle-sql-db-tuning/README.md',
+      }
     ]
   }
 // {
