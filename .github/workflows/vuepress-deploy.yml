@@ -1,0 +1,27 @@
+name: run-deploy-sh
+run-name: ${{ github.actor }} is Running deploy.sh 🚀
+on: 
+  push:
+    tags:
+      - v*
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs: 
+  run-deploy-sh:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout project's main branch
+        uses: actions/checkout@main
+
+      - name: vuepress-deploy
+        uses: chanhi2000/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: chanhi2000/crashcourse
+          TARGET_BRANCH: gh-pages
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: src/.vuepress/dist
+          CNAME: https://chanhi2000.github.io/crashcourse
+

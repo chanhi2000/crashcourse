@@ -1,0 +1,60 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "name": "chanhi2000.github.io/crashcourse",
+  "description": "My Crashcourse(s)",
+  "authors": {
+    "name": "Chan Hee Lee",
+    "email": "chanhi2000@gmail.com"
+  },
+  "repository": "https://github.com/chanhi2000/crashcourse",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress dev src",
+    "clean-dev": "vuepress dev src --clean-cache",
+  "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 vuepress build src",
+    "clean-build": "vuepress build src --clean-cache"
+  },
+  "engines": {
+    
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.62",   
+    "@vuepress/core": "2.0.0-beta.62",
+    "@vuepress/plugin-active-header-links": "2.0.0-beta.62",
+    "@vuepress/plugin-container": "2.0.0-beta.62",
+    "@vuepress/plugin-git": "2.0.0-beta.62",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.62",
+    "@vuepress/plugin-medium-zoom": "2.0.0-beta.62",
+    "@vuepress/plugin-nprogress": "2.0.0-beta.62",
+    "@vuepress/plugin-prismjs": "2.0.0-beta.62",
+    "@vuepress/plugin-register-components": "2.0.0-beta.62",
+    "@vuepress/plugin-search": "2.0.0-beta.62",
+    "@vuepress/plugin-toc": "2.0.0-beta.62",
+    "@vuepress/shared": "2.0.0-beta.62",
+    "@vuepress/utils": "2.0.0-beta.62",
+    "axios": "1.5.1",
+    "dotenv": "16.3.1",
+    "express": "^4.18.2",
+    "vuepress": "2.0.0-beta.62",
+    "vuepress-plugin-anchor-right": "0.0.1-beta.18",
+    "vuepress-plugin-components": "2.0.0-beta.210",
+    "vuepress-plugin-copy-code2": "2.0.0-beta.210",
+    "vuepress-plugin-copyright2": "2.0.0-beta.210",
+    "vuepress-plugin-markdown-define2": "^1.0.0",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.210",
+    "vuepress-plugin-search-pro": "2.0.0-beta.210",
+    "vuepress-plugin-use-pages": "1.0.5"
+  },
+  "dependencies": {
+    "cross-env": "7.0.3",
+    "moment": "^2.29.4"
+  },
+  "overrides": {
+    "globby": "13.2.2",
+    "@vuepress/utils": {
+      "globby": "13.2.2"
+    }
+  }
+}
