@@ -236,7 +236,7 @@ These next three projects will start to show you just how much you’re now able
 - [Day 80][day-80] – Project 24, part one
 - [Day 81][day-81] – Project 24, part two
 
-### Day 82: Consolidation IX
+### ✅Day 82: Consolidation IX
 
 Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.
 
@@ -371,7 +371,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-79]: 79.md
 [day-80]: 80.md
 [day-81]: 81.md
-[day-82]: https://www.hackingwithswift.com/100/82
+[day-82]: 82.md
 [day-83]: https://www.hackingwithswift.com/100/83
 [day-84]: https://www.hackingwithswift.com/100/84
 [day-85]: https://www.hackingwithswift.com/100/85

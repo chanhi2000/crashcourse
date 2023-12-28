@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/llm-generative-ai-for-beginners/01-introduction-to-genai.html
+    content: https://chanhi2000.github.io/misc/llm-generative-ai-for-beginners/01-introduction-to-genai.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -120,21 +120,54 @@ In the next chapter we are going to explore different types of Generative AI mod
 
 ## How can our startup leverage Large Language Models?
 
+Now that we have a better understanding of the inner working of a large language model, let’s see some practical examples of the most common tasks they can perform pretty well, with an eye to our business scenario. We said that the main capability of a Large Language Model is __generating a text from scratch, starting from a textual input, written in natural language__.
+
+But what kind of textual input and output? The input of a large language model is known as prompt, while the output is known as completion, term that refers to the model mechanism of generating the next token to complete the current input. We are going to dive deep into what is a prompt and how to design it in a way to get the most out of our model. But for now, let’s just say that a prompt may include:
+
+- An __instruction__ specifying the type of output we expect from the model. This instruction sometimes might embed some examples or some additional data.
+
+![Summarization of an article, book, product reviews and more, along with extraction of insights from unstructured data.](https://microsoft.github.io/generative-ai-for-beginners/01-introduction-to-genai/images/summarization-example.png)
+
+![Creative ideation and design of an article, an essay, an assignment or more.](https://microsoft.github.io/generative-ai-for-beginners/01-introduction-to-genai/images/creative-writing-example.png)
+
+![A __question__, asked in the form of a conversation with an agent.](https://microsoft.github.io/generative-ai-for-beginners/01-introduction-to-genai/images/conversation-example.png)
+
+![A chunk of __text to complete__, which implicitly is an ask for writing assistance.](https://microsoft.github.io/generative-ai-for-beginners/01-introduction-to-genai/images/text-completion-example.png)
+
+![A chunk of __code__ together with the ask of explaining and documenting it, or a comment asking to generate a piece of code performing a specific task.](https://microsoft.github.io/generative-ai-for-beginners/01-introduction-to-genai/images/coding-example.png)
+
+The examples above are quite simple and don’t want to be an exhaustive demonstration of Large Language Models capabilities. They just want to show the potential of using generative AI, in particular but not limited to educational context.
+
+Also, the output of a generative AI model is not perfect and sometimes the creativity of the model can work against it, resulting in an output which is a combination of words that the human user can interpret as a mystification of reality, or it can be offensive. Generative AI is not intelligent - at least in the more comprehensive definition of intelligence, including critical and creative reasoning or emotional intelligence; it is not deterministic, and it is not trustworthy, since fabrications, such as erroneous references, content, and statements, may be combined with correct information, and presented in a persuasive and confident manner. In the following lessons, we’ll be dealing with all these limitations and we’ll see what we can do to mitigate them.
+
 ---
 
 ## Assignment
+
+Your assignment is to read up more on [generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) and try to identify an area where you would add generative AI today that doesn't have it. How would the impact be different from doing it the "old way", can you do something you couldn't before, or are you faster? Write a 300 word summary on what your dream AI startup would look like and include headers like "Problem", "How I would use AI", "Impact" and optionally a business plan.
+
+If you did this task, you might even be ready to apply to Microsoft's incubator, [Microsoft for Startups Founders Hub](https://www.microsoft.com/startups) we offer credits for both Azure, OpenAI, mentoring and much more, check it out!
 
 ---
 
 ## Knowledge check
 
+What's true about large language models?
+
+1. You get the exact same response every time.
+2. It does things perfectly, great at adding numbers, produce working code etc.
+3. The response may vary despite using the same prompt. It's also great at giving you a first draft of something, be it text or code. But you need to improve on the results.
+
+A: 3, an LLM is non-deterministic, the response vary, however, you can control its variance via a temperature setting. You also shouldn't expect it to do things perfectly, it's here to do the heavy-lifting for you which often means you get a good first attempt at something that you need to gradually improve.
+
 ---
 
 ## Great Work! Continue the Journey
 
+After completing this lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection) to continue leveling up your Generative AI knowledge!
+
+Head over to Lesson 2 where we will look at how to [explore and compare different LLM types](02-exploring-and-comparing-different-llms.md)!
+
 ---
-
-
-
 
 <TagLinks />

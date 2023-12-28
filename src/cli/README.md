@@ -10,7 +10,7 @@ description: 🐚CLI
 {{ $frontmatter.description }} 관련 정리내용입니다.
 :::
 
-<ShieldsGroup logos="cli,youtube,swift,xcode"/>
+<ShieldsGroup logos="gnubash,gnometerminal,apple,linux"/>
 
 ---
 

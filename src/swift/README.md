@@ -10,7 +10,7 @@ description: 🕊️Swift
 {{ $frontmatter.description }} 관련 정리내용입니다.
 :::
 
-<ShieldsGroup logos="cli,youtube,swift,xcode"/>
+<ShieldsGroup logos="swift,xcode,cocoapods"/>
 
 ---
 

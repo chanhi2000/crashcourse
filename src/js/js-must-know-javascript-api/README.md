@@ -4,14 +4,14 @@ title: Intro
 description: 🧶Must Know JavaScript API
 tags: ["blog", "js" , "api" , "broadcast"]
 meta:
-  - name: Linux Journey
-    content: Linux Journey
+  - name: 🧶Must Know JavaScript API
+    content: Intro
   - property: og:title
-    content: Linux Journey
+    content: 🧶Must Know JavaScript API
   - property: og:description
-    content: Linux Journey
+    content: Intro
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/js-js-must-know-javascript-api
+    content: https://chanhi2000.github.io/js/must-know-javascript-api
 ---
 
 # {{ $frontmatter.title }} 관련

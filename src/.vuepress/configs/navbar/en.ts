@@ -23,10 +23,10 @@ export const navbarEn: NavbarConfig = [
         link: '/swift/README.md'
       }, {
         text: '🕊️100 Days of Swift',
-        link: '/swift/100-days-of-swift/81.md'
+        link: '/swift/100-days-of-swift/82.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/67.md'
+        link: '/swift/100-days-of-swiftui/68.md'
       }, {
         text: '🕊️SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
@@ -57,6 +57,20 @@ export const navbarEn: NavbarConfig = [
         text: '☕️Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
       }
+    ]
+  }, {
+    text: '🧶',
+    children: [
+      {
+        text: 'Intro',
+        link: '/js/README.md'
+      }, {
+        text: '🧶Learn Typescript',
+        link: '/js/learn-ts/README.md',
+      }, {
+        text: '🧶Must Know JavaScript API',
+        link: '/js/must-know-javascript-api/README.md',
+      },
     ]
   }, {
     text: '🐍',
@@ -132,9 +146,6 @@ export const navbarEn: NavbarConfig = [
       {
         text: '🎨Colt Steele - Mastering CSS Grid',
         link: '/misc/colt-steele-mastering-css-grid/README.md',
-      }, {
-        text: '🧶Must Know JavaScript API',
-        link: '/misc/js-must-know-javascript-api/README.md',
       }, {
         text: '🦙Microsoft - Generative AI for Beginners',
         link: '/misc/llm-generative-ai-for-beginners/README.md',

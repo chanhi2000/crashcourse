@@ -129,6 +129,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/79.md',
         '/swift/100-days-of-swift/80.md',
         '/swift/100-days-of-swift/81.md',
+        '/swift/100-days-of-swift/82.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -202,6 +203,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/65.md',
         '/swift/100-days-of-swiftui/66.md',
         '/swift/100-days-of-swiftui/67.md',
+        '/swift/100-days-of-swiftui/68.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -331,6 +333,29 @@ export const sidebarEn: SidebarConfig = {
         '/java/freecodecamp-quarkus-jpastreamer/03.md',
       ]
     },
+  ], '/js/': [
+    {
+      text: 'Intro',
+      children: [ '/js/README.md' ]
+    }, {
+      text: '🧶Learn Typescript',
+      collapsible: true,
+      children: [
+        '/js/learn-ts/README.md',
+      ]
+    }, {
+      text: '🧶Must Know JavaScript API',
+      collapsible: true,
+      children: [
+        '/js/must-know-javascript-api/README.md',
+        '/js/must-know-javascript-api/page-visibility.md',
+        '/js/must-know-javascript-api/broadcast-channel.md',
+        '/js/must-know-javascript-api/resize-observer.md',
+        '/js/must-know-javascript-api/beacon.md',
+        '/js/must-know-javascript-api/clipboard.md',
+        '/js/must-know-javascript-api/fetch.md'
+      ]
+    }, 
   ], '/python/': [
     {
       text: 'Intro',
@@ -589,24 +614,13 @@ export const sidebarEn: SidebarConfig = {
         '/misc/colt-steele-mastering-css-grid/07-building-an-example-layout',
       ]
     }, {
-      text: '🧶Must Know JavaScript API',
-      collapsible: true,
-      children: [
-        '/misc/js-must-know-javascript-api/README.md',
-        '/misc/js-must-know-javascript-api/page-visibility.md',
-        '/misc/js-must-know-javascript-api/broadcast-channel.md',
-        '/misc/js-must-know-javascript-api/resize-observer.md',
-        '/misc/js-must-know-javascript-api/beacon.md',
-        '/misc/js-must-know-javascript-api/clipboard.md',
-        '/misc/js-must-know-javascript-api/fetch.md'
-      ]
-    }, {
       text: '🦙Microsoft - Generative AI for Beginners',
       collapsible: true,
       children: [
         '/misc/llm-generative-ai-for-beginners/README.md',
         '/misc/llm-generative-ai-for-beginners/00-course-setup.md',
         '/misc/llm-generative-ai-for-beginners/01-introduction-to-genai.md',
+        '/misc/llm-generative-ai-for-beginners/02-exploring-and-comparing-different-llms.md',
       ]
     }, {
       text: "DB Server 성능 향상 분석 및 튜닝 전문가 향상과정",
