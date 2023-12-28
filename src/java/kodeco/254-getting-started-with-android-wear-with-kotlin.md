@@ -154,21 +154,247 @@ And that cutoff text is just a darn shame. But you’re going to fix it!
 
 ## Building a Simple Recipe Layout
 
+Android Wear devices come in lots of shapes and sizes. There’s three main form factors you need to consider as a Wear developer:
+
+- Square watches
+- Round watches
+- Round watches with a chin
+
+By default, all Wear devices treat the root layout of the view as a square, even if the device itself has a circular form factor. That means your views can be clipped if they sit at the edges of the screen. Here’s a few examples:
+
+![Clipping](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-8.44.22-AM-265x320.png)
+
+![Clipping](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-8.44.50-AM-265x320.png)
+
+![Clipping](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-8.45.07-AM-275x320.png)
+
+![Clipping](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-8.45.29-AM-260x320.png)
+
+Luckily, there’s a handy dandy support widget you can use to work around the clipping issue!
+
 ### Using the `BoxInsetLayout` Widget
 
+The `BoxInsetLayout` is a top-level widget that can box its children into a square that will fit inside a round screen. If your code is running on a square screen it will have no affect. You can define which sides to box in by using the `app:boxedEdges` attribute on a direct child of the `BoxInsetLayout`. The possible values are `left`, `right`, `top`, `bottom`, and `all`. You can combine different values too – so `app:boxedEdges:"left|top|bottom"` is totally legal.
+
+Now that you’ve got the idea down, open the <FontIcon icon="iconfont icon-folder"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
+
+```xml
+<android.support.wear.widget.BoxInsetLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:boxedEdges="all">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Hello World!"/>
+  </LinearLayout>
+</android.support.wear.widget.BoxInsetLayout>
+```
+
+Here’s what’s happening in this new layout:
+
+- The top level layout is now a `BoxInsetLayout`
+- The `BoxInsetLayout` has one child – a `LinearLayout`
+- That `LinearLayout` has the `app:boxedEdges="all"` layout attribute, meaning that this view will be boxed in on all sides.
+
+::: note Note
+
+In the preview tab, you can change the device type used to render the preview.
+Feel free to change to __Wear Round__ or __Wear Square__ to see how the `BoxInsetLayout` works.
+
+:::
+
+![Preview tab](https://koenig-media.raywenderlich.com/uploads/2017/11/Capture-d%E2%80%99e%CC%81cran-2017-12-01-a%CC%80-00.16.55-254x320.png)
+
+Run the Wear app again. 
+
+![You should see that the text is no longer being clipped, and the screen now looks like this](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-9.47.44-AM-299x320.png)
+
+Just for fun, you can set the background of the `LinearLayout` to gray to see where the bounding box is.
+Add `android:background="@android:color/darker_gray"` to the `LinearLayout`. If you run the app again you should see the following:
+Fixed
+
+Since you specified `app:boxedEdges="all"`, the box is bounded on all four sides. Cool stuff!
+
 ### Fleshing out the Recipe Layout
+
+Replace the contents of the <FontIcon icon="iconfont icon-file"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file you just edited with the following:
+
+```xml
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="8dp"
+      app:boxedEdges="all">
+
+    <TextView
+        android:id="@+id/mealTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meal title"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Number of calories"/>
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Ingredients"/>
+  </LinearLayout>
+</android.support.wear.widget.BoxInsetLayout>
+```
+
+Nothing too crazy going on here – you added 3 new `TextView` that will contain the recipes title, calories and ingredients. You’ll update them soon, so don’t worry about the placeholder values.
+
+![Run the watch app now so that you should see a screen like this](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-02-174553.png)
 
 ---
 
 ## Sharing Code Between the Watch and the Phone
 
+When you create a wearable app you’ll want to share code between the phone and watch apps. The app you’re creating has a `Meal` model that should be shared across both apps. You can accomplish this by using a __shared module__.
+
+![In the toolbar, click <FontIcon icon="iconfont icon-select"/>`[File]` > `[New]` -> `[New Module]`](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.25.13-AM-480x180.png)
+
+![Choose a <FontIcon icon="iconfont icon-select"/>`[Java Library]`.](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.30.10-AM-442x320.png)
+
+A Java library contains no Android references. If you wanted to include drawable files or other Android files, you would instead choose the Android library option.
+
+::: note Note
+
+Ideally you’d create a Kotlin library instead of a Java library. But this is Android land, and that would be WAY too easy. Android Studio doesn’t have the option to create a pre-configured Kotlin module yet.
+
+:::
+
+![Name the module `shared` and name the class `Meal`. You can leave the <FontIcon icon="iconfont icon-select"/>`[Create .gitignore file]` option checked.](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-27-17-480x289.png) 
+
+Click <FontIcon icon="iconfont icon-select"/>`[Finish]`.
+
+Gradle will run a sync and if you’ve done the right Gradle dance it will succeed!
+
+However, we now have a Java library. Not a Kotlin library. And let’s be serious – who uses Java anymore?
+
+![Navigate to `[Gradle Scripts/build.gradle]` for the `shared` module](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-31-38.png)
+
+Replace the contents with the following code:
+
+```gradle
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+```
+
+The code above adds Kotlin support to the new module.
+
 ### Importing the Shared Library
 
+Now that you’ve got a helpful shared library, it’s time to actually share that library.
+
+![Open the <FontIcon icon="iconfont icon-engine"/>`build.gradle` file for your mobile app](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-33-16.png)
+
+in the `dependencies` block, add the following line: `compile project(':shared')`
+
+Your `dependencies` block should now look like this:
+
+```gradle
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile project(':shared')
+  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  compile 'com.google.android.gms:play-services-wearable:11.6.0'
+  compile "com.android.support:support-v4:$support_version"
+  compile "com.android.support:appcompat-v7:$support_version"
+  compile "com.android.support:recyclerview-v7:$support_version"
+  compile "com.android.support:cardview-v7:$support_version"
+  compile 'com.android.support.constraint:constraint-layout:1.0.2'
+  compile 'com.google.code.gson:gson:2.8.2'
+  androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    exclude group: 'com.android.support', module: 'support-annotations'
+  })
+  testCompile 'junit:junit:4.12'
+}
+```
+
+The compile project method is the way to include a local module in your project.
+
+Now you need to do the same thing for the watch app.
+
+![Open the <FontIcon icon="iconfont icon-code"/>`build.gradle` file for your Wear app](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.32.27-AM-416x320.png)
+
+Just like before, in the `dependencies` block, add the compile `project(':shared')` line.
+
+The `dependencies` block of the Wear app should now look like this:
+
+
+```gradle
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile project(':shared')
+  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  compile "com.android.support:support-v4:$support_version"
+  compile "com.android.support:wear:$support_version"
+  compile 'com.google.android.gms:play-services-wearable:11.6.0'
+  compile 'com.google.android.support:wearable:2.1.0'
+  provided 'com.google.android.wearable:wearable:2.1.0'
+  compile 'com.google.code.gson:gson:2.8.2'
+}
+```
+
+This recipe app is really __HEATING__ up! Because you cook with heat. And the app has to do with meals. Which you cook. With heat. Why does no one understand my witty humor?
+
 ### Adding the Meal Class
+
+Your shared library contains one class – a `Meal` model written in Java. However, your mobile module actually already contains an even __better__ meal class written in Kotlin. That’s the model that you want to share 
+
+![so go ahead and delete the java `Meal` class in your shared library](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-26-13.png)
+
+![Click <FontIcon icon="iconfont icon-select"/>`[OK]` on the delete dialog](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.40.41-AM-480x140.png)
+
+![Now drag the Kotlin `Meal` class from your mobile module to your `shared` module](https://koenig-media.raywenderlich.com/uploads/2017/11/move_class.gif)
+
+Click the <FontIcon icon="iconfont icon-select"/>`[Refactor]` button in the popup. Now the phone app is using the `Meal` class from the shared module.
 
 ---
 
 ## Sending Messages Between Devices
+
+Now that both the watch app and the phone app know about your `Meal` class, it’s time to pass some data around.
+
+Phone apps communicate with Wear apps via the __Message__ API and the __Data__ API.
+
+The __Data__ API should be used for messages you _need_ delivered. If the system can’t immediately deliver it, it will queue it up until the watch is connected to the phone.
+
+![Data API - good](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-12.43.39-PM.png)
+
+The __Message__ API, on the other hand, should be used for short messages that you don’t mind losing. If the system can’t immediately deliver the message it won’t try again and that will be that. Your message will be dropped on the floor.
+
+![Data API - bad](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-12.40.58-PM.png)
 
 ### Using the Message API
 

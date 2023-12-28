@@ -1,15 +1,15 @@
 ---
 lang: ko-KR
-title: 04 WebAssembly Outside of the Browser
-description: 🦀Wasm by Example (for Rust) > 04 WebAssembly Outside of the Browser
+title: 04. WebAssembly Outside of the Browser
+description: 🦀Wasm by Example (for Rust) > 04. WebAssembly Outside of the Browser
 tags: ["crashcourse", "wasm", "rust", "assemblyscript", "c", "cpp"]
 meta:
   - name: 🦀Wasm by Example (for Rust)
-    content: 🦀Wasm by Example (for Rust) > 04 WebAssembly Outside of the Browser
+    content: 🦀Wasm by Example (for Rust) > 04. WebAssembly Outside of the Browser
   - property: og:title
     content: 🦀Wasm by Example (for Rust)
   - property: og:description
-    content: 04 WebAssembly Outside of the Browser
+    content: 04. WebAssembly Outside of the Browser
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/rs-wasm-by-example/04-webassembly-outside-of-the-browser.html
 ---

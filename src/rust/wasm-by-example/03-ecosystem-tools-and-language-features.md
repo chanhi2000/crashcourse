@@ -1,15 +1,15 @@
 ---
 lang: ko-KR
-title: 03 Ecosystem tools and Language features
-description: 🦀Wasm by Example (for Rust) > 03 Ecosystem tools and Language features
+title: 03. Ecosystem tools and Language features
+description: 🦀Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
 tags: ["crashcourse", "wasm", "rust", "assemblyscript", "c", "cpp"]
 meta:
   - name: 🦀Wasm by Example (for Rust)
-    content: 🦀Wasm by Example (for Rust) > 03 Ecosystem tools and Language features
+    content: 🦀Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
   - property: og:title
     content: 🦀Wasm by Example (for Rust)
   - property: og:description
-    content: 03 Ecosystem tools and Language features
+    content: 03. Ecosystem tools and Language features
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/rs-wasm-by-example/03-ecosystem-tools-and-language-features.html
 ---

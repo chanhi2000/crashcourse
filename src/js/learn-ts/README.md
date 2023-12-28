@@ -22,7 +22,6 @@ meta:
 
 ---
 
-
 ```card
 title: Learn TypeScript
 desc: LWelcome to Learn TypeScript - the Interactive TypeScript Tutorial

@@ -196,7 +196,7 @@ color: rgba(221,34,114,0.2)
 
 ```card
 title: Rails Support - Jets Afterburner
-desc: ...
+desc: Jets Afterburner - Serverless Rails on AWS Lambda in 5 Minutes
 link: 20181221-jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes.md
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_470/https://blog.boltops.com/img/posts/2018/12/jets-afterburner-v1.png
 color: rgba(250,113,21,0.2)
@@ -204,10 +204,10 @@ color: rgba(250,113,21,0.2)
 
 ```card
 title: Image Upload Carrierwave Tutorial
-desc: ...
-link: https://blog.boltops.com/2018/12/13/jets-image-upload-carrierwave-tutorial-binary-support
+desc: Jets Image Upload Carrierwave Tutorial - Binary Support
+link: 20181213-jets-image-upload-carrierwave-tutorial-binary-support.md
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_490/https://blog.boltops.com/img/posts/2018/12/image-upload-tutorial-v1.png
-color: rgba(220,30,34,0.2)
+color: rgba(54,70,153,0.2)
 ```
 
 ```card

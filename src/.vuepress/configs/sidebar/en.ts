@@ -130,6 +130,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/80.md',
         '/swift/100-days-of-swift/81.md',
         '/swift/100-days-of-swift/82.md',
+        '/swift/100-days-of-swift/83.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -204,6 +205,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/66.md',
         '/swift/100-days-of-swiftui/67.md',
         '/swift/100-days-of-swiftui/68.md',
+        '/swift/100-days-of-swiftui/69.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -479,6 +481,7 @@ export const sidebarEn: SidebarConfig = {
         '/ruby/rubyonjets-learning-content/20181112-jets-tutorial-jets-delete.md',
         '/ruby/rubyonjets-learning-content/20180818-introducing-jets-a-ruby-serverless-framework.md',
         '/ruby/rubyonjets-learning-content/20181212-official-aws-ruby-support-for-jets-serverless-framework.md',
+        '/ruby/rubyonjets-learning-content/20181213-jets-image-upload-carrierwave-tutorial-binary-support.md',
         '/ruby/rubyonjets-learning-content/20190113-build-an-api-service-with-jets-ruby-serverless-framework.md',
         '/ruby/rubyonjets-learning-content/20190114-serverless-slack-commands-with-ruby.md',
         '/ruby/rubyonjets-learning-content/20181221-jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes.md',
