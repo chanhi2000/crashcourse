@@ -333,6 +333,8 @@ export const sidebarEn: SidebarConfig = {
         '/java/freecodecamp-quarkus-jpastreamer/01.md',
         '/java/freecodecamp-quarkus-jpastreamer/02.md',
         '/java/freecodecamp-quarkus-jpastreamer/03.md',
+        '/java/freecodecamp-quarkus-jpastreamer/04.md',
+        '/java/freecodecamp-quarkus-jpastreamer/05.md',
       ]
     },
   ], '/js/': [
