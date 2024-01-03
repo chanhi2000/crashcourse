@@ -302,8 +302,8 @@ Replace the contents with the following code:
 
 ```gradle
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  implementation fileTree(dir: "libs", include: ["*.jar"])
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 }
 
 sourceCompatibility = "1.7"
@@ -324,16 +324,16 @@ Your `dependencies` block should now look like this:
 
 ```gradle
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile project(':shared')
-  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-  compile 'com.google.android.gms:play-services-wearable:11.6.0'
-  compile "com.android.support:support-v4:$support_version"
-  compile "com.android.support:appcompat-v7:$support_version"
-  compile "com.android.support:recyclerview-v7:$support_version"
-  compile "com.android.support:cardview-v7:$support_version"
-  compile 'com.android.support.constraint:constraint-layout:1.0.2'
-  compile 'com.google.code.gson:gson:2.8.2'
+  implementation fileTree(dir: "libs", include: ["*.jar"])
+  implementation project(':shared')
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  implementation 'com.google.android.gms:play-services-wearable:11.6.0'
+  implementation "com.android.support:support-v4:$support_version"
+  implementation "com.android.support:appcompat-v7:$support_version"
+  implementation "com.android.support:recyclerview-v7:$support_version"
+  implementation "com.android.support:cardview-v7:$support_version"
+  implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+  implementation 'com.google.code.gson:gson:2.8.2'
   androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
     exclude group: 'com.android.support', module: 'support-annotations'
   })
@@ -351,18 +351,17 @@ Just like before, in the `dependencies` block, add the compile `project(':shared
 
 The `dependencies` block of the Wear app should now look like this:
 
-
 ```gradle
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile project(':shared')
-  compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-  compile "com.android.support:support-v4:$support_version"
-  compile "com.android.support:wear:$support_version"
-  compile 'com.google.android.gms:play-services-wearable:11.6.0'
-  compile 'com.google.android.support:wearable:2.1.0'
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation project(':shared')
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  implementation "com.android.support:support-v4:$support_version"
+  implementation "com.android.support:wear:$support_version"
+  implementation 'com.google.android.gms:play-services-wearable:11.6.0'
+  implementation 'com.google.android.support:wearable:2.1.0'
   provided 'com.google.android.wearable:wearable:2.1.0'
-  compile 'com.google.code.gson:gson:2.8.2'
+  implementation 'com.google.code.gson:gson:2.8.2'
 }
 ```
 
@@ -398,21 +397,305 @@ The __Message__ API, on the other hand, should be used for short messages that y
 
 ### Using the Message API
 
+You’re now going to use the __Message__ API to send a recipe from your phone to your watch.
+
+First, open the <FontIcon icon="iconfont icon-java"/>`MealListActivity` file. Add the following code to your imports:
+
+```kotlin
+import com.google.android.gms.common.api.GoogleApiClient
+import com.google.android.gms.wearable.Node
+```
+
+The __Message__ and __Data__ APIs both use the `GoogleApiClient` system under the hood, so that’s why you’re importing the `GoogleApiClient`. A `Node` is fancy speak for a wearable device.
+
+Under the `adapter` property declaration add the following two properties:
+
+```kotlin
+private lateinit var client: GoogleApiClient
+private var connectedNode: List<Node>? = null
+```
+
+One is for your `GoogleApiClient` and the other is for your Nodes. There could be multiple connected watches (cooouuuullllldd be….) so that’s why it’s a List of __Nodes__.
+
+Next, make the <FontIcon icon="iconfont icon-java"/>`MealListActivity` implement the `GoogleApiClient.ConnectionCallbacks` interface.
+
+```kotlin
+class MealListActivity : AppCompatActivity(),
+    MealListAdapter.Callback,
+    GoogleApiClient.ConnectionCallbacks {
+```
+
+When you connect to the `GoogleApiClient`, the `ConnectionCallbacks` will provide you with a callback to store your nodes.
+Now, you need to implement two methods – `onConnected` and `onConnectionSuspended`. Add the following below your `onCreate` method:
+
+```kotlin
+override fun onConnected(bundle: Bundle?) {
+  Wearable.NodeApi.getConnectedNodes(client).setResultCallback {
+    connectedNode = it.nodes
+  }
+}
+
+override fun onConnectionSuspended(code: Int) {
+  connectedNode = null
+}
+```
+
+The `onConnected` method gets called once the `GoogleApiClient` connects. At that point, you want to get all of the __Nodes__ from the `Wearable.NodeApi` and save them in your list.
+
+`onConnectionSuspended` is called when the `GoogleApiClient` you’re using gets disconnected. In this scenario you no longer have access to your __Nodes__ (wearable devices) so you clear out your `connectedNode` list.
+
+Next, in your onCreate method, add the following:
+
+```kotlin
+client = GoogleApiClient.Builder(this)
+    .addApi(Wearable.API)
+    .addConnectionCallbacks(this)
+    .build()
+client.connect()
+```
+
+Here your building up a `GoogleApiClient` that has access to the __Wearable__ API. You’ll use this client shortly to actually send messages to the watch!
+
+You’ll notice that there’s a stub for the `mealClicked` method in your activity. Replace that with the following:
+
+```kotlin
+override fun mealClicked(meal: Meal) {
+  val gson = Gson()
+  connectedNode?.forEach { node ->
+    val bytes = gson.toJson(meal).toByteArray()
+    Wearable.MessageApi.sendMessage(client, node.id, "/meal", bytes)
+  }
+}
+```
+
+This method uses `Gson` to serialize your meal. It then uses the `MessageApi.sendMessage` method to send the meal to your watch. The `String` can be used to filter messages on the receiving side. You can ignore it for this tutorial.
+
+Alright – onto the watch!
+
 ### Listening for Messages
+
+Good news: your phone app is sending messages! Bad news: your watch isn’t receiving any messages.
+
+But that’s all about to change.
+
+The code you’re going to add to your watch app is very similar to the code you just added to your phone app.
+
+To start, open the <FontIcon icon="iconfont icon-java"/>`MealActivity` class in your __Wear__ module.
+
+Add the following import:
+
+```kotlin
+import kotlinx.android.synthetic.main.activity_meal.*.
+```
+
+This will allow you to reference your views without using all that old-school `findViewById` junk!
+
+Next, add the following two properties to your activity:
+
+```kotlin
+private lateinit var client: GoogleApiClient
+private var currentMeal: Meal? = null
+```
+
+One is your now-familiar `GoogleApiClient`, which you’ll use to listen for messages. The other is the current meal being displayed.
+
+Next make your activity implement the `GoogleApiClient.ConnectionCallbacks` interface. Then, add the following code below your `onCreate` method:
+
+```kotlin
+override fun onConnected(bundle: Bundle?) {
+  Wearable.MessageApi.addListener(client) { messageEvent ->
+    currentMeal = Gson().fromJson(String(messageEvent.data), Meal::class.java)
+    updateView()
+  }
+}
+
+override fun onConnectionSuspended(code: Int) {
+  Log.w("Wear", "Google Api Client connection suspended!")
+}
+
+private fun updateView() {
+  currentMeal?.let {
+    mealTitle.text = it.title
+    calories.text = getString(R.string.calories, it.calories)
+    ingredients.text = it.ingredients.joinToString(separator = ", ")
+  }
+}
+```
+
+The `updateView()` method is pretty simple – it looks at the current `Meal` and updates your view accordingly.
+
+The `onConnectionSuspended` method isn’t doing too much. You don’t have anything to clear out when the connection ends.
+
+The `onConnected` method is where the magic is. Once the `GoogleApiClient` has connected, you added a `MessageListener` to listen for new __Message__ API events from the phone. In the callback, you are doing the opposite of what you did on the phones side. The `MessageEvent` object has a `data` parameter. You used Gson to deserialize the `ByteArray` into a `Meal`.
+
+Finally, initialize your `GoogleApiClient` in onCreate:
+
+```kotlin
+client = GoogleApiClient.Builder(this)
+    .addConnectionCallbacks(this)
+    .addApi(Wearable.API)
+    .build()
+client.connect()
+```
+
+Boom! Your Wear app is listening for messages for your phone.
 
 ### Testing the App
 
+First run the mobile app on your phone. After that, run the Wear app on your watch.
+
+Now, do a rain dance. Followed by a little prayer. Followed by an offering of chocolates to the Android gods.
+
+Then tap the Apple Pie list item on your phone app.
+
+If everything runs smoothly, you should see this screen on your watch:
+
+![Result on Watch device](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-02-141657.png)
+
 ### Using the Data Api
 
+This app is already pretty hot, but its time to make it a bit spicier. Maybe throw some red pepper on there.
+
+You’re going to add a star button to your watch layout so you can favorite specific meals.
+
+Open up the <FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file in your `wear` module.
+
+Add the following widget as the last item in your `LinearLayout`:
+
+```xml
+<ImageView
+    android:id="@+id/star"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:src="@drawable/ic_star_border_black_24dp"
+    android:tint="@android:color/white"/>
+
+```
+
+You just added a simple `ImageView` with a black border star. This will be your “like” button. The height is set to `0dp` and the `layout_weight` is set to `1` so the star fills the rest of the screen.
+
+In your <FontIcon icon="iconfont icon-java"/>`MealActivity` class, adding the following method:
+
+```kotlin
+private fun sendLike() {
+  currentMeal?.let {
+    val bytes = Gson().toJson(it.copy(favorited = true)).toByteArray()
+    Wearable.DataApi.putDataItem(client, PutDataRequest.create("/liked").setData(bytes).setUrgent())
+  }
+}
+```
+
+Here’s the breakdown of the new method: First it creates a copy of your meal with the favorited flag set to `true`. Then it serializes that new copy into a `ByteArray`. Next it creates a `PutDataRequest`. You can think of a `PutDataRequest` as the __DataApi__ version of a __Message__. Why didn’t they call it something like…__DataItem__? Again – that’d be too easy. Finally, the method sends that request on the `/liked` path with the `ByteArray` attached as the data.
+
+You may also notice the `setUrgent` call. You can toggle that option to gently encourage the system to deliver the `PutDataRequest` as fast as possible.
+
+Next, add the following code in your <FontIcon icon="iconfont icon-java"/>`MealActivity` `onCreate` method:
+
+```kotlin
+star.setOnClickListener {
+  sendLike()
+}
+```
+
+Now your __Wear__ app is sending __Data API__ items to your `mobile` app.
+
 ### Listening for Data Items
+
+Next up is adding code to your `mobile` app to listen for __Data API__ items.
+
+Open your <FontIcon icon="iconfont icon-java"/>`MealListActivity` class. In the `onConnected` method, add the following code after the `connectedNode = it.nodes` line:
+
+```kotlin
+Wearable.DataApi.addListener(client) { data ->
+  val meal = Gson().fromJson(String(data[0].dataItem.data), Meal::class.java)
+  adapter?.updateMeal(meal)
+}
+```
+
+This code is very similar to the __Message__ code you added previously. It adds a `DataListener` to the `DataApi`. The `DataListener` deserializes the `ByteArray` contained in the `DataItem`. Then it makes a call to the `adapter` to update the newly favorited meal.
+
+Do a few more rain dances and run the mobile app and the Wear app.
+
+Send one of the recipes to the watch again by tapping a recipe list item.
+
+Once the recipe makes it to the watch, tap the star. If everything went well, you should see a black star appear next to that list item on the phone – like so:
+
+![starred receipe](https://koenig-media.raywenderlich.com/uploads/2017/12/Capture-d%E2%80%99e%CC%81cran-2017-12-08-a%CC%80-14.54.22-650x270.png)
+
+After running that test, try sending a new recipe to the watch and putting your phone in airplane mode. Wait a few seconds and then tap the like button on the watch again. Then take your phone out of airplane mode. Once the phone pairs to the watch again, you should see the item starred!
 
 ---
 
 ## Adding a Confirmation View
 
+One nice thing about developing for Wear is that it comes with a few juicy animations built in. You’re going to take advantage of that by adding a <FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` to your Wear app.
+
+First, add the following import to the top of <FontIcon icon="iconfont icon-java"/>`MealActivity` in the `wear` module:
+
+```kotlin
+import android.support.wearable.activity.ConfirmationActivity
+```
+
+Then, add a new method in your <FontIcon icon="iconfont icon-java"/>`MealActivity` class:
+
+```kotlin
+private fun showConfirmationScreen() {
+  val intent = Intent(this, ConfirmationActivity::class.java)
+  intent.putExtra(
+      ConfirmationActivity.EXTRA_ANIMATION_TYPE,
+      ConfirmationActivity.SUCCESS_ANIMATION
+  )
+  intent.putExtra(
+      ConfirmationActivity.EXTRA_MESSAGE,
+      getString(R.string.starred_meal)
+  )
+  startActivity(intent)
+}
+```
+
+.<FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` is a built-in activity. Specifically, it’s a fullscreen activity that shows a checkmark and then disappears.
+
+The method above creates an `Intent` to launch the <FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` with two extras.
+
+- `EXTRA_ANIMATION_TYPE` dictates the animation type.
+- `EXTRA_MESSAGE` is used to show a small text message below the animation.
+
+Next up you need to trigger the animation. So, In the `sendLike` method, replace the `putDataItem` line with the following:
+
+```kotlin
+Wearable.DataApi.putDataItem(
+    client,
+    PutDataRequest.create("/liked")
+        .setData(bytes)
+        .setUrgent()
+).setResultCallback {
+  showConfirmationScreen()
+}
+```
+
+The only difference is that after the `putDataItem` call, it adds a `ResultCallback` where you check to see if the `put` request was successful. If it was, you make a call to show the confirmation.
+
+Try it out on your watch. Eventually, once you send a like for a recipe, you should see the following view:
+
+![`ConfirmationActivity`](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-02-160045.png)
+
 ---
 
 ## Uploading your Wear App to the Play Store
+
+When Android Wear first came out, the only way to get a Wear app to users was to `embed` the APK in your `mobile` app. Wear 2.0 changed that. Now you can upload your Wear app to the play store in exactly the same way you’d upload a normal phone app.
+
+The only requirement is that you have the following line in your Wear apps manifest:
+
+```xml
+uses-feature android:name="android.hardware.type.watch"
+```
+
+As long as you have that line, your Wear app will show up on the Wear play store.
+
+Your Wear app will also be installed whenever a user downloads your phone app from the play store.
 
 ---
 

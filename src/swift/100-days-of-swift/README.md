@@ -247,7 +247,7 @@ Your head is probably spinning with Bezier paths and iBeacons, so before we cont
 These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
 
 - ✅[Day 83][day-83] – Project 25, part one
-- [Day 84][day-84] – Project 25, part two
+- ✅[Day 84][day-84] – Project 25, part two
 - [Day 85][day-85] – Project 26, part one
 - [Day 86][day-86] – Project 26, part two
 - [Day 87][day-87] – Project 26, part three
@@ -373,8 +373,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-81]: 81.md
 [day-82]: 82.md
 [day-83]: 83.md
-[day-84]: https://www.hackingwithswift.com/100/84
-[day-85]: https://www.hackingwithswift.com/100/85
+[day-84]: 84.md
+[day-85]: 85.md
 [day-86]: https://www.hackingwithswift.com/100/86
 [day-87]: https://www.hackingwithswift.com/100/87
 [day-88]: https://www.hackingwithswift.com/100/88
