@@ -248,8 +248,8 @@ These next three projects give you chance to go over some earlier topics again, 
 
 - ✅[Day 83][day-83] – Project 25, part one
 - ✅[Day 84][day-84] – Project 25, part two
-- [Day 85][day-85] – Project 26, part one
-- [Day 86][day-86] – Project 26, part two
+- ✅[Day 85][day-85] – Project 26, part one
+- ✅[Day 86][day-86] – Project 26, part two
 - [Day 87][day-87] – Project 26, part three
 - [Day 88][day-88] – Project 27, part one
 - [Day 89][day-89] – Project 27, part two
@@ -375,7 +375,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-83]: 83.md
 [day-84]: 84.md
 [day-85]: 85.md
-[day-86]: https://www.hackingwithswift.com/100/86
+[day-86]: 86.md
 [day-87]: https://www.hackingwithswift.com/100/87
 [day-88]: https://www.hackingwithswift.com/100/88
 [day-89]: https://www.hackingwithswift.com/100/89

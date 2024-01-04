@@ -133,6 +133,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/83.md',
         '/swift/100-days-of-swift/84.md',
         '/swift/100-days-of-swift/85.md',
+        '/swift/100-days-of-swift/86.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -209,6 +210,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/68.md',
         '/swift/100-days-of-swiftui/69.md',
         '/swift/100-days-of-swiftui/70.md',
+        '/swift/100-days-of-swiftui/71.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
