@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > My App Crashed, Now What?
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6334294-my-app-crashed-now-what.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6334294-my-app-crashed-now-what.html
 ---
 
 # {{ $frontmatter.title }} 관련

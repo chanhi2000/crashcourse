@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ You’ll also try out some cool extra features like:
 
 This tutorial assumes you’re familiar with the basic concepts of __storyboards__. If you’re new to them, you may wish to check out our [storyboard](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started) tutorials first.
 
-The monkey just gave you the thumbs-up gesture, so it’s time to get started! :]
+The monkey just gave you the thumbs-up gesture, so it’s time to get started!
 
 Getting Started
 

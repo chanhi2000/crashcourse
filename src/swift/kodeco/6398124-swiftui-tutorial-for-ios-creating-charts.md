@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -595,7 +595,7 @@ You can download the finished project by clicking the [<FontIcon icon="iconfont 
 
 With all UI things, the Apple Human Interface Guidelines are a good starting point if you’d like to learn more. You'll find a brief section on [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit/app-architecture/charts/) in the Human Interface Guidelines. You should also read the guidelines on [Color](https://developer.apple.com/design/human-interface-guidelines/carekit/visual-design/color/) when choosing colors for your charts.
 
-Chapter 13: Drawing and Custom Graphics in [SwiftUI by Tutorials](https://store.raywenderlich.com/products/swiftui-by-tutorials) is a good introduction to creating SwiftUI graphics. But perhaps I'm biased since I wrote it. :]
+Chapter 13: Drawing and Custom Graphics in [SwiftUI by Tutorials](https://store.raywenderlich.com/products/swiftui-by-tutorials) is a good introduction to creating SwiftUI graphics. But perhaps I'm biased since I wrote it.
 
 If you have any questions or comments, please join the discussion below.
 

@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -320,7 +320,7 @@ The app looks good, but you can still improve it.
 
 Did you notice the app takes a second to download the flavors file? If you’re on a fast Internet connection, you might not notice the delay, but your customers won’t always be so lucky.
 
-Your next step is to show a loading indicator in your app, to help customers understand it’s loading data and not just twiddling its libraries. [<FontIcon icon="iconfont icon-github"/>`jdg/MBProgressHUD`](https://github.com/jdg/MBProgressHUD) is a really nice indicator that will work well here. And it supports CocoaPods; what a coincidence! :]
+Your next step is to show a loading indicator in your app, to help customers understand it’s loading data and not just twiddling its libraries. [<FontIcon icon="iconfont icon-github"/>`jdg/MBProgressHUD`](https://github.com/jdg/MBProgressHUD) is a really nice indicator that will work well here. And it supports CocoaPods; what a coincidence!
 
 To use this pod, you need to add it to your Podfile. Rather than opening the Podfile from the command line, you can now find it in the Pods target in the workspace:
 
@@ -456,7 +456,7 @@ Now, in `loadFlavors()`, add the following two lines (as indicated):
 
 As the method names imply, `showLoadingHUD()` shows an instance of `MBProgressHUD` while the GET request downloads. `hideLoadingHUD()` hides the HUD when the request finishes. Since `showLoadingHUD()` is outside the closure, it doesn't need the `self` prefix.
 
-Build and run. You'll now see a loading indicator while the flavors are loading. If your internet connection is too fast for this, you can add a `sleep(_:)` statement just before `hideLoadingHUD()` so that you can experience the goodness that is __MBProgressHUD__. :]
+Build and run. You'll now see a loading indicator while the flavors are loading. If your internet connection is too fast for this, you can add a `sleep(_:)` statement just before `hideLoadingHUD()` so that you can experience the goodness that is __MBProgressHUD__.
 
 ![App with loading symbol](https://koenig-media.raywenderlich.com/uploads/2017/04/HUD_Loading-281x500.png =240x)
 

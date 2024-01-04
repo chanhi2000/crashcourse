@@ -1763,7 +1763,7 @@ color: rgba(135, 99, 210, 0.2)
 ```card
 title: Unsafe Swift - Using Pointers and Interacting With C
 desc: In this tutorial, you’ll learn how to use unsafe Swift to directly access memory through a variety of pointer types.
-link: https://www.kodeco.com/7181017-unsafe-swift-using-pointers-and-interacting-with-c
+link: 7181017-unsafe-swift-using-pointers-and-interacting-with-c.md
 logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-software-engineering-ios-182a6e99292aa8fcc83771b698910d30fc0033f11a0bec8e892d092efc8e3ff4.svg
 color: rgba(135, 99, 210, 0.2)
 ```

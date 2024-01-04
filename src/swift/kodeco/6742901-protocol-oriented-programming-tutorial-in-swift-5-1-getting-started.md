@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련

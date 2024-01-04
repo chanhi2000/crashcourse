@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-kodeco/6620276-sqlite-with-swift-tutorial-getting-started.html
+    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -44,7 +44,7 @@ In this SQLite with Swift tutorial, you’ll learn how to perform the following 
 - Query the database.
 - Handle SQLite errors.
 
-After learning how to perform these fundamental operations, you’ll see how to wrap them in a Swift-like manner. This will let you write abstraction APIs for your apps and avoid working with the more complicated SQLite C APIs. :]
+After learning how to perform these fundamental operations, you’ll see how to wrap them in a Swift-like manner. This will let you write abstraction APIs for your apps and avoid working with the more complicated SQLite C APIs.
 
 Finally, you’ll briefly learn about the popular open-source Swift wrapper [<FontIcon icon="iconfont icon-github"/>stephencelis/SQLite](https://github.com/stephencelis/SQLite.swift). This will give you a basic understanding of how underlying frameworks work within a wrapper.
 
@@ -91,7 +91,7 @@ SQLite has some advantages:
 - It uses a query language that’s familiar to database developers and administrators.
 - Cross-platform.
 
-The cons of SQLite are subjective and opinionated, so that research is up to you! :]
+The cons of SQLite are subjective and opinionated, so that research is up to you!
 
 Now that you’ve committed to finding out how SQLite works with Swift, it’s time to get to know some of the most basic SQLite APIs.
 
@@ -364,7 +364,7 @@ Great, you’ve now mastered adding data to your database. In the next section o
 
 ### Querying Contacts
 
-Now that you’ve inserted some rows, it’d be nice to verify they’re really there. :]
+Now that you’ve inserted some rows, it’d be nice to verify they’re really there.
 
 Add the following to the playground:
 
@@ -380,8 +380,7 @@ Now, add the following function to the query:
 func query() {
   var queryStatement: OpaquePointer?
   // 1
-  if sqlite3_prepare_v2(db, queryStatementString, -1, &queryStatement, nil) == 
-      SQLITE_OK {
+  if sqlite3_prepare_v2(db, queryStatementString, -1, &queryStatement, nil) == SQLITE_OK {
     // 2
     if sqlite3_step(queryStatement) == SQLITE_ROW {
       // 3
@@ -430,7 +429,7 @@ Query Result:
 1 | Ray
 ```
 
-WOOt! It looks like your data made it to the database after all, unless you got adventurous. :]
+WOOt! It looks like your data made it to the database after all, unless you got adventurous.
 
 ### Challenge: Printing Every Row
 
@@ -555,7 +554,8 @@ Successfully updated row.
 Query Result:
 1 | Adam
 ```
-Congratulations on updating your first row! How easy was that? :]
+
+Congratulations on updating your first row! How easy was that?
 
 You’re doing great! You can now create a table, add contacts to it and update those contacts. In the next step, you’ll learn how to delete those contacts.
 
@@ -589,7 +589,7 @@ func delete() {
 }
 ```
 
-Are you feeling it now? Prepare, step and finalize. :]
+Are you feeling it now? Prepare, step and finalize.
 
 Execute this new function as below:
 
@@ -948,7 +948,7 @@ extension SQLiteDatabase {
 }
 ```
 
-Now that you’ve got your SQLegs – see what I did there? :] – this code shouldn’t be too surprising. Given a `Contact` instance, you prepare a statement, bind the values, execute and finalize.
+Now that you’ve got your SQLegs – see what I did there? – this code shouldn’t be too surprising. Given a `Contact` instance, you prepare a statement, bind the values, execute and finalize.
 
 Again, using a potent mix of `defer`, `guard` and `throw` allows you to take advantage of modern Swift language features.
 

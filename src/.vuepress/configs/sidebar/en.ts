@@ -134,6 +134,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/84.md',
         '/swift/100-days-of-swift/85.md',
         '/swift/100-days-of-swift/86.md',
+        '/swift/100-days-of-swift/87.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -211,6 +212,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/69.md',
         '/swift/100-days-of-swiftui/70.md',
         '/swift/100-days-of-swiftui/71.md',
+        '/swift/100-days-of-swiftui/72.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -228,7 +230,8 @@ export const sidebarEn: SidebarConfig = {
         '/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.md',
         '/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.md',
         '/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.md',
-        '/swift/kodeco/7076593-cocoapods-tutorial-for-swift-getting-started',
+        '/swift/kodeco/7076593-cocoapods-tutorial-for-swift-getting-started.md',
+        '/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.md',
       ]
     }, 
   ], '/java/' : [

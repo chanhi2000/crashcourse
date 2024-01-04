@@ -211,7 +211,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - ✅[Day 69][day-69] – Project 14, part two
 - ✅[Day 70][day-70] – Project 14, part three
 - ✅[Day 71][day-71] – Project 14, part four
-- [Day 72][day-72] – Project 14, part five
+- ✅[Day 72][day-72] – Project 14, part five
 - [Day 73][day-73] – Project 14, part six
 - [Day 74][day-74] – Project 15, part one
 - [Day 75][day-75] – Project 15, part two
@@ -347,7 +347,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-69]: 69.md
 [day-70]: 70.md
 [day-71]: 71.md
-[day-72]: https://www.hackingwithswift.com/100/swiftui/72
+[day-72]: 72.md
 [day-73]: https://www.hackingwithswift.com/100/swiftui/73
 [day-74]: https://www.hackingwithswift.com/100/swiftui/74
 [day-75]: https://www.hackingwithswift.com/100/swiftui/75
