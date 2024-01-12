@@ -142,19 +142,141 @@ By examining the app <FontIcon icon="iconfont icon-engine"/>`build.gradle` file,
 
 ### MVP
 
+In case you’re unfamiliar with the MVP pattern, there are many good online resources for getting started.
+
+MVP is similar to other structural patterns for implementing separation of concerns. Examples are __Model-View-Controller__ and __Model-View-ViewModel__. In MVP on Android, your activities and fragments typically act as the view objects. They do so by implementing a view interface and handling interaction of the app with the user.
+
+The view passes on user actions to the __presenter__, which handles the business logic and interaction with data repositories, such as a server API or database. The __model__ layer consists of the objects that make up the content of the app.
+
+In the case of DroidWiki, the `HomepageActivity` class implements the `HomepageView` interface. `HomepageActivity` has a reference to a `HomepagePresenter` interface. This controls access to model objects of type `Homepage`
+
+The use of OkHttp 3 is found in the `WikiApi` class in the `network` package. This class defines the interface to the WikiMedia API required by the app. There are two calls of type __GET__ defined and the `JSONObject` will let you parse the obtained responses. The parsing will be executed in the `HomepageResult` and the `SearchResult` classes. And you will get a `WikiHomepage` object and a list of `Entry` objects.
+
+::: note Note
+
+Since Kotlin doesn’t need you to write getters and setters, you can replace POJO classes with a `data class`. For more information, see [the official kotlin data classes documentation](https://kotlinlang.org/docs/reference/data-classes.html).
+
+:::
+
+
 ### Dependencies in DroidWiki
+
+Open the `HomepageActivity` class in the `ui.homepage` package. In its `onCreate()` method, there are several calls to configure a `HomepagePresenter`:
+
+```kotlin
+private val presenter: HomepagePresenter = HomepagePresenterImpl()
+...
+presenter.setView(this)
+presenter.loadHomepage()
+```
+
+Here, you create a concrete implementation of a `HomepagePresenter` when the activity is instantiated.
+
+Open <FontIcon icon="iconfont icon-java"/>`HomepagePresenterImpl.kt` and take a look at `loadHomepage()`. Both an `OkHttpClient` object and a `WikiApi` object are created and configured in the `loadHomepage()` method. The same happens for the `SearchActivity` with an `EntryPresenter` and a list of `EntryView`.
+
+This creation of dependencies couple the model, view, and presenter layers too tightly. Swapping in a mock presenter for the view is impossible as written without updating the view code. The code for creating the `OkHttpClient` and `WikiApi` objects is repeated between the two presenter implementations in the app: `HomepagePresenterImpl` and `EntryPresenterImpl`.
+
+Finally, it’s time to start writing some code to remove code duplication and some coupling between layers!
 
 ---
 
 ## Configure the Project With Dagger 2
 
+Configuring Dagger with Kotlin is a little bit different from how you may have done with Java.
+Dagger requires an __annotation processor__, and thus the main difference is which one you are going to use. In fact with Java you used the Groovy methods `apt` or the newer `annotationProcessor`, while with Kotlin you need to use `kapt`.
+
+By default kapt is not enabled in Kotlin, and to enable it you must apply its plugin to your app <FontIcon icon="iconfont icon-engine"/>`build.gradle`, so add the line 
+`apply plugin: 'kotlin-kapt'`:
+
+```groovy
+plugins {
+  id("com.android.application")
+  id("kotlin-android")
+  id("kotlin-kapt")
+}
+```
+
+Then add these dependencies to actually “install” dagger
+
+```groovy
+dependencies {
+  // ...
+  implementation 'com.google.dagger:dagger:2.11'
+  kapt 'com.google.dagger:dagger-compiler:2.11'
+  provided 'javax.annotation:jsr250-api:1.0'
+  // ...
+}
+```
+
+Here we’re using Dagger 2.11, you can check the latest version in the [Maven repository](https://mvnrepository.com/artifact/com.google.dagger/dagger).
+
+Android Studio will prompt you to sync your gradle files on this change, so please go ahead and do so to ensure that you’re including Dagger correctly. Notice that you are including an annotation library from `javax`, because many of the features of Dagger are provided by __Java annotations__.
+
 ---
 
 ## Dagger 2 public APIs
 
+Dagger 2 can seem complex at the beginning, but it’s really not so hard. In fact, the _complete_ public API of Dagger is composed by less than 30 lines of code. And from these lines you can remove a pair of interfaces that are rarely used (Lazy and MapKey), so the most used public APIs are composed of 3 annotations:
+
+```java
+public @interface Component {
+  Class<?> [] modules() default {};
+  Class<?> [] dependencies() default {};
+}
+public @interface Module {
+  Class<?> [] includes() default {};
+}
+public @interface Provides {}
+```
+
+Now let’s see how these annotations are used to bring dependency injection to your projects!
+
 ### Module
 
+The first annotation you’ll use is the `@Module` annotation.
+
+![Start by creating a new package named `dagger` under the app main package, by right-clicking the main package and selecting <FontIcon icon="iconfont icon-select"/>`[New/Package]`](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-04-15-27-13-650x167.png)
+
+Next, create a new file in the `dagger` package. 
+
+![Right-click `dagger` and select <FontIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`. Name the class `AppModule`.](https://koenig-media.raywenderlich.com/uploads/2017/09/DroidWiki-NewKotlinClass-480x122.png)
+
+Add the following empty class to the new file:
+
+```kotlin
+@Module
+class AppModule {
+}
+```
+
+Here, you’ve created a class named `AppModule` and annotated it with the Dagger `@Module` annotation. Android Studio should automatically create any necessary import statements for you. But if not, hit <kbd>option</kbd>+<kbd>return</kbd> on Mac or <kbd>Alt</kbd>+<kbd>Enter</kbd> on PC to create them as needed.
+
+The `@Module` annotation tells Dagger that the `AppModule` class will provide dependencies for a part of the application. It is normal to have multiple Dagger modules in a project, and it is typical for one of them to provide app-wide dependencies.
+
+Add that capability now by inserting the following code within the body of the `AppModule` class:
+
+```kotlin
+@Module
+class AppModule(private val app: Application) {
+  @Provides
+  @Singleton
+  fun provideContext(): Context = app
+}
+```
+
+You’ve added a private field to hold a reference to the `app` object, a constructor to configure `app`, and a `provideContext()` method that returns the `app` object. Notice that there are two more Dagger annotations on that method: `@Provides` and `@Singleton`.
+
 ### `@Provides` and `@Singleton`
+
+The `@Provides` annotation tells Dagger that the method provides a certain type of dependency, in this case, a `Context` object. When a part of the app requests that Dagger inject a `Context`, the `@Provides` annotation tells Dagger where to find it.
+
+::: note Note
+
+The method names for the providers, such as `provideContext()`, are not important and can be named anything you like. Dagger only looks at the return type. Using `provide` as a prefix is a common convention.
+
+:::
+
+The `@Singleton` annotation is not part of the Dagger API. It’s contained inside the javax package you added to your build.gradle at the beginning. It tells Dagger that there should only be a single instance of that dependency. So when generating the code Dagger will handle all the logic for you, and you won’t write all the boilerplate code to check if another instance of the object is already available.
 
 ### Component
 

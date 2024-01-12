@@ -55,7 +55,7 @@ This tutorial assumes you have basic Kotlin knowledge. If not, check out [Progra
 
 Download the project materials by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta__rter project.
 
-Run the project, and you’ll notice it’s just a simple “Hello World” app. If you came here hoping to implement some cool app full of sequences everywhere, the sad truth is that you won’t even touch the app’s code. :]
+Run the project, and you’ll notice it’s just a simple “Hello World” app. If you came here hoping to implement some cool app full of sequences everywhere, the sad truth is that you won’t even touch the app’s code.
 
 ![A simple "Hello World" app on a phone screen.](https://koenig-media.raywenderlich.com/uploads/2022/02/hello-world.png =240x)
 
@@ -292,7 +292,7 @@ Now that you've played around with sequences a bit, all that's left is to addres
 
 You now know how to build and use sequences. But when should you use them instead of collections? Should you use them at all?
 
-This can be quickly answered with one of the most famous sayings in software development: It depends. :]
+This can be quickly answered with one of the most famous sayings in software development: It depends.
 
 The long answer is a bit more complex. It _always_ depends on your use case. In fact, to be really sure, you should always measure both implementations to check which one is faster. However, knowing about a few quirks surrounding sequences will also help you make a better-informed decision.
 
@@ -312,7 +312,7 @@ In the code above, `filter` would create a new list, then `take` would operate o
 
 ::: note Note
 
-It might not be wise to run this code in your scratch file. Computers aren't fond of working with such large lists. It might even stop responding! And if it doesn't, the scratch file will probably crash while building and output nothing. :]
+It might not be wise to run this code in your scratch file. Computers aren't fond of working with such large lists. It might even stop responding! And if it doesn't, the scratch file will probably crash while building and output nothing.
 
 :::
 
@@ -415,7 +415,7 @@ To learn more about how they compare to collections, you can read [Collections a
 
 To measure the performance of an app, you'll find several methods and tools. You can check the [user guide](https://developer.android.com/studio/profile) from Android Developers or the tutorial [Android Memory Profiler: Getting Started](https://www.raywenderlich.com/4557771-android-memory-profiler-getting-started).
 
-I hope you've enjoyed this tutorial. If you have any questions, tips or comments, feel free to join the discussion below. :]
+I hope you've enjoyed this tutorial. If you have any questions, tips or comments, feel free to join the discussion below.
 
 ---
 

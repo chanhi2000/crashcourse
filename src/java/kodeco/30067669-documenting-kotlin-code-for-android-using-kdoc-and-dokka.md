@@ -303,19 +303,19 @@ To integrate Dokka in this project, you’ll use `gradle`. You’ll do a quick D
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:5` in the `dependencies` block with the following:
 
-```gradle
+```groovy
 classpath "org.jetbrains.dokka:dokka-gradle-plugin:1.6.0"
 ```
 
 This adds the Dokka gradle plugin to the project’s classpath. Next, apply it to the project and modules. Replace `TODO:6` in the same file with following:
 
-```gradle
+```groovy
 apply plugin: "org.jetbrains.dokka"
 ```
 
 You can manually add the Dokka plugin to each module or use the `subprojects` block to dynamically add it. Replace the `TODO:7` with the following:
 
-```gradle
+```groovy
 apply plugin: "org.jetbrains.dokka"
 ```
 
@@ -366,7 +366,7 @@ Do the same for the index.html file in the root-level <FontIcon icon="iconfont i
 
 ![Dokka generated HTML for multiple modules](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.20.56-PM-650x430.png)
 
-Congratulations! You’ve successfully generated documentation for your project. :]
+Congratulations! You’ve successfully generated documentation for your project.
 
 If you’re facing this issue, don’t worry. You’ll fix this next by setting a custom output directory for the documentation.
 
@@ -388,7 +388,7 @@ If you remember the gradle tasks from before, `dokkaHtml` is the task responsibl
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:8` with following:
 
-```gradle
+```groovy
 tasks.named("dokkaHtml") {
   outputDirectory.set(file("$rootProject.name-$project.name-dokka"))
 }
@@ -400,7 +400,7 @@ But now, calling the `clean` task in gradle won’t delete the documentation dir
 
 To fix that, replace the `TODO:9` line with the snippet shown below:
 
-```gradle
+```groovy
 task cleanDokkaModuleDocs() {
   subprojects {
     delete file("$rootProject.name-$project.name-dokka")
@@ -410,7 +410,7 @@ task cleanDokkaModuleDocs() {
 
 To invoke this task automatically when calling `./gradlew clean`, update the `clean` task to depend on `dokkaHtmlMultiModule`. The task should look like this:
 
-```gradle
+```groovy
 task clean(type: Delete, dependsOn: cleanDokkaModuleDocs) {
   delete rootProject.buildDir
 }
@@ -455,7 +455,7 @@ One thing to keep in mind is that the external link has to end with a `/`.
 
 Add the external documentation links for dokkaHtml task too by adding the below snippet in `tasks.named("dokkaHtml")`:
 
-```gradle
+```groovy
 dokkaSourceSets {
   named("main") {
     externalDocumentationLink {
@@ -550,7 +550,7 @@ Dokka provides a flag to hide the members of the parent class you didn’t expli
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and add `suppressInheritedMembers.set(true`) in both `dokkaHtml` and `dokkaHtmlPartial` tasks. Tasks should look like this:
 
-```gradle
+```groovy
 // Truncated code above
 
 tasks.named("dokkaHtml") {
@@ -575,7 +575,7 @@ The functions and properties from the parent classes are gone, but the overridde
 
 Dokka hides non public members by default. To show non-public properties and methods, you need to add `includeNonPublic.set(true)` in the __main__ source set in the `dokkaSourceSets` block. It should look like this:
 
-```gradle
+```groovy
 dokkaSourceSets {
   named("main") {
     includeNonPublic.set(true)
@@ -608,7 +608,7 @@ Remember the changes you did in the __Documenting Modules and Packages__ section
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and add `includes.from("module.md")` below `includeNonPublic.set(true)` for both the custom tasks. It will look something like this:
 
-```gradle
+```groovy
 // Truncated code above
 
 named("main") {
@@ -623,7 +623,7 @@ If you try generating the documentation now, the custom markdown for packages wi
 
 To fix this, you need to customize the module names in the documentation. Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` and add the following snippet in `tasks.named("dokkaHtml")` and `tasks.named("dokkaHtmlPartial")`:
 
-```gradle
+```groovy
 moduleName.set("$rootProject.name-$project.name")
 ```
 
@@ -641,7 +641,7 @@ In this section, you’ll add a custom footer message and learn to add and repla
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:18` with the following snippet:
 
-```gradle
+```groovy
 customFooterMessage = "Made with ❤️ at raywenderlich.com"
 customLogoFile = projectDir.toString() + "/logo-style.css"
 ````
@@ -650,7 +650,7 @@ This defines extra properties for custom footer messages and CSS file paths in t
 
 In the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file, add the following snippet under `dokkaHtml` and `dokkaHtmlPartial` tasks:
 
-```gradle
+```groovy
 pluginsMapConfiguration.set(
   [
     "org.jetbrains.dokka.base.DokkaBase": """{
@@ -673,7 +673,7 @@ In case of multimodule projects, the `dokkaHtmlMultiModule` task generates the p
 
 To customize that page, you need to add the same snippet in the `dokkaHtmlMultiModule` task, too. You’ll add this in the `afterEvaluate` block so that it gets executed after all the definitions in the build script are applied. Replace `TODO:20` with the snippet below:
 
-```gradle
+```groovy
 afterEvaluate {
   tasks.named("dokkaHtmlMultiModule") {
     pluginsMapConfiguration.set(

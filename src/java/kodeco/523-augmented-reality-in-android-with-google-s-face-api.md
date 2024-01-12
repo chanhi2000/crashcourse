@@ -90,7 +90,7 @@ Open the project’s <FontIcon icon="iconfont icon-folder"/>`app`/<FontIcon icon
 
 At the end of the `dependencies` section, you’ll see the following:
 
-```gradle
+```groovy
 implementaion 'com.google.android.gms:play-services-vision:10.2.0'
 implementaion 'com.android.support:design:25.2.0'
 ```

@@ -300,7 +300,7 @@ However, we now have a Java library. Not a Kotlin library. And let’s be seriou
 
 Replace the contents with the following code:
 
-```gradle
+```groovy
 dependencies {
   implementation fileTree(dir: "libs", include: ["*.jar"])
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
@@ -322,7 +322,7 @@ in the `dependencies` block, add the following line: `compile project(':shared')
 
 Your `dependencies` block should now look like this:
 
-```gradle
+```groovy
 dependencies {
   implementation fileTree(dir: "libs", include: ["*.jar"])
   implementation project(':shared')
@@ -332,8 +332,8 @@ dependencies {
   implementation "com.android.support:appcompat-v7:$support_version"
   implementation "com.android.support:recyclerview-v7:$support_version"
   implementation "com.android.support:cardview-v7:$support_version"
-  implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-  implementation 'com.google.code.gson:gson:2.8.2'
+  implementation "com.android.support.constraint:constraint-layout:1.0.2"
+  implementation "com.google.code.gson:gson:2.8.2"
   androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
     exclude group: 'com.android.support', module: 'support-annotations'
   })
@@ -351,17 +351,17 @@ Just like before, in the `dependencies` block, add the compile `project(':shared
 
 The `dependencies` block of the Wear app should now look like this:
 
-```gradle
+```groovy
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
   implementation project(':shared')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
   implementation "com.android.support:support-v4:$support_version"
   implementation "com.android.support:wear:$support_version"
-  implementation 'com.google.android.gms:play-services-wearable:11.6.0'
-  implementation 'com.google.android.support:wearable:2.1.0'
-  provided 'com.google.android.wearable:wearable:2.1.0'
-  implementation 'com.google.code.gson:gson:2.8.2'
+  implementation "com.google.android.gms:play-services-wearable:11.6.0"
+  implementation "com.google.android.support:wearable:2.1.0"
+  provided "com.google.android.wearable:wearable:2.1.0"
+  implementation "com.google.code.gson:gson:2.8.2"
 }
 ```
 

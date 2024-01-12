@@ -251,7 +251,7 @@ These next three projects give you chance to go over some earlier topics again, 
 - ✅[Day 85][day-85] – Project 26, part one
 - ✅[Day 86][day-86] – Project 26, part two
 - ✅[Day 87][day-87] – Project 26, part three
-- [Day 88][day-88] – Project 27, part one
+- ✅[Day 88][day-88] – Project 27, part one
 - [Day 89][day-89] – Project 27, part two
 
 ### Days 90-91: Consolidation X
@@ -377,7 +377,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-85]: 85.md
 [day-86]: 86.md
 [day-87]: 87.md
-[day-88]: https://www.hackingwithswift.com/100/88
+[day-88]: 88.md
 [day-89]: https://www.hackingwithswift.com/100/89
 [day-90]: https://www.hackingwithswift.com/100/90
 [day-91]: https://www.hackingwithswift.com/100/91

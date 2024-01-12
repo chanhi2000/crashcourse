@@ -94,7 +94,7 @@ Exception breakpoints are triggered by things going wrong in the Objective-C run
 
 The __Console Log__ is at the bottom of the Xcode window. It’ll display plenty of useful logs while the app is running. Whenever your app crashes, you’ll find a log message that contains information on the nature of the crash, whether it was an index out of range exception, a `nil` reference or something else.
 
-The log also contains information on warnings, so pay attention to it even if your app isn’t crashing. It could highlight something that can help you make your app better. :]
+The log also contains information on warnings, so pay attention to it even if your app isn’t crashing. It could highlight something that can help you make your app better.
 
 This window will be completely empty while the app isn’t running. It’ll start showing logs when you run the app.
 
@@ -343,7 +343,7 @@ The log contains information about the crash and the stack trace information for
 
 __Assertions__ are manually-triggered crashes you can insert into your own code. The obvious question that comes to mind is: Why would you write code to crash your own app?
 
-That’s a very good question. However illogical it may seem, you’ll understand why this is helpful in a moment. :]
+That’s a very good question. However illogical it may seem, you’ll understand why this is helpful in a moment.
 
 Imagine you’re writing a complicated piece of code, and there are some flows in your logic that no one should reach because reaching them means something fatally wrong has happened.
 
@@ -379,7 +379,7 @@ Your app crashed in <FontIcon icon="fas fa-dove"/>`ForceUnwrappingViewController
 
 As expected, the crash line is the assertion call, but you haven’t fully answered the question. Should crashing code be in the final app on the AppStore if the developer doesn’t cover all cases?
 
-The answer to the question is: It doesn’t matter. :]
+The answer to the question is: It doesn’t matter.
 
 The assertions do indeed exist in your final product, but it’ll be as if they aren’t there at all.
 
@@ -423,7 +423,7 @@ Do your best to get the most information about why a crash happened. There are m
 
 You can learn more about debugging from the video course, [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging).
 
-I hope you enjoyed this tutorial! If you have any questions or comments, please join the forum discussion below. :]
+I hope you enjoyed this tutorial! If you have any questions or comments, please join the forum discussion below.
 
 ---
 

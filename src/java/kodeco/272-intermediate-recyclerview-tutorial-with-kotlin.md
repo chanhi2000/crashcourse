@@ -44,11 +44,11 @@ Here is a screenshot from the final version of our app:
 
 ![mars rover screenshot](https://koenig-media.raywenderlich.com/uploads/2017/10/Screenshot_1507091574-281x500.png =240x)
 
-Checkout those amazing Mars landscapes! :]
+Checkout those amazing Mars landscapes!
 
 You’re going to continue with the NASA site used in the previous `RecyclerView` tutorial, but do things a bit differently. You’ll be using an API that will return a list of Mars rover photos. Along with the `RecyclerView` of photos, there are two spinners to change the list of photos: one for rovers and the other for cameras.
 
---- 
+---
 
 ## Getting Started
 
@@ -99,7 +99,7 @@ To populate the spinners on the main screen, you will need to add strings for th
   <item>MAST</item>
 </string-array>
 ```
---- 
+---
 
 ## Main Layout
 
@@ -191,7 +191,7 @@ Now, run the app and you should see the following:
 
 ![mars rover screenshot](https://koenig-media.raywenderlich.com/uploads/2017/10/Screenshot_1507085951-281x500.png =240x)
 
---- 
+---
 
 ## ViewHolder
 
@@ -201,7 +201,7 @@ Before `RecyclerView`, Android developers used `ListView` to achieve similar beh
 
 You’ll be creating a special `ViewHolder` class that will allow you to handle text and image views without using `findViewById`. In this `DefaultViewHolder` class, you’ll start by going through all of the child views and putting them in a map so that you can easily retrieve the view later. See the starter project for the full `DefaultViewHolder` class.
 
---- 
+---
 
 ## Adapter Layouts
 
@@ -317,41 +317,468 @@ The `type` property will distinguish between photos and headers. The row will ha
 
 ## Adapter
 
---- 
+Your adapter will extend the `RecyclerView.Adapter` class and use `DefaultViewHolder`. Navigate to the <FontIcon icon="iconfont icon-folder"/>`com.raywenderlich.marsrovers.recyclerview` package and add a new Kotlin class called `PhotoAdapter`.
+
+The class will start out like so:
+
+```kotlin
+class PhotoAdapter(private var photoList: ArrayList<PhotoRow>) : RecyclerView.Adapter<DefaultViewHolder>() {
+```
+
+Along with the passed in list of photos, create two more variables at the beginning of the class:
+
+```kotlin
+private var filteredPhotos = ArrayList<PhotoRow>()
+private var filtering = false
+```
+
+
+The `filterPhotos` list is used to hold photos for a specific camera, and the `filtering` flag will be true when the user is filtering.
+
+There are three abstract methods of `RecyclerView.Adapter` that have to be implemented: `getItemCount`, `onCreateViewHolder`, and `onBindViewHolder`. You will also override the `getItemViewType` method to return different values for the header and photo row type.
+
+`getItemCount` returns the number of photos available. If filtering is on, return the size from the filtered list:
+
+```kotlin
+override fun getItemCount(): Int {
+ if (filtering) {
+     return filteredPhotos.size
+ }
+ return photoList.size
+}
+```
+
+`onBindViewHolder` is where you load the photo or set the header text.
+
+```kotlin
+override fun onBindViewHolder(holder: DefaultViewHolder, position: Int) {
+  val photoRow : PhotoRow = if (filtering) {
+    filteredPhotos[position]
+  } else {
+    photoList[position]
+  }
+  if (photoRow.type == RowType.PHOTO) {
+    val photo = photoRow.photo
+    Glide.with(holder.itemView.context)
+        .load(photo?.img_src)
+        .into(holder.getImage(R.id.camera_image))
+    photo?.earth_date?.let { holder.setText(R.id.date, it) }
+  } else {
+    photoRow.header?.let { holder.setText(R.id.header_text, it) }
+  }
+}
+```
+
+
+You can see that you’re using [<FontIcon icon="iconfont icon-github"/>`bumptech/glide`](https://github.com/bumptech/glide) to load images into the `ImageView`. Glide seemed to work better for all of the Mars photos than [Picasso](http://square.github.io/picasso/), which was only able to load some of the images.
+
+`onCreateViewHolder` is where you inflate the layout and return the __ViewHolder__:
+
+```kotlin
+override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DefaultViewHolder {
+  val layoutInflater = LayoutInflater.from(parent.context)
+
+  val inflatedView : View = when (viewType) {
+    RowType.PHOTO.ordinal -> layoutInflater.inflate(R.layout.row_item, parent,false)
+    else -> layoutInflater.inflate(R.layout.header_item, parent,false)
+  }
+  return DefaultViewHolder(inflatedView)
+}
+```
+
+
+For the two methods `onCreateViewHolder` and `onBindViewHolder`, you need to distinguish between a header and photo row. You can do that by checking the PhotoRow’s type, as you’ll see in the next section.
+
+---
 
 ## Section Headers
 
---- 
+To provide headers for rows, you just need to have different row types. This is done by letting the `RecyclerView` know what type to use for each row.
+
+Override the `getItemViewType` method and return a different integer for each type. You will be returning two different types, one for the header and one for the photo. You can use the ordinal of the enum (so the returned values will be 0 and 1). Add the following method after `onCreateViewHolder`.
+
+```kotlin
+override fun getItemViewType(position: Int) =
+  if (filtering) {
+    filteredPhotos[position].type.ordinal
+  } else {
+    photoList[position].type.ordinal
+  }
+```
+
+Both `getItemCount` and `getItemViewType` need to take into account the filtering flags to use either the original `photoList` or the `filteredPhotos` list.
+
+In `onCreateViewHolder`, you load in a row_item layout for photos and a head_item layout for the header. The `onBindViewHolder` checks the type and binds the appropriate items to the __ViewHolder__.
+
+Now run the app to make sure it builds. Since you haven’t added the adapter to the __RecyclerView__ yet, you won’t see anything quite yet, only the spinning ProgressBar.
+
+---
 
 ## DiffUtil
 
+`DiffUtil` is a utility class from the `RecyclerView` support library used to calculate the difference between two lists and create the operations that will morph one list into another. It will be used by the `RecyclerView.Adapter` to trigger the optimal data change notifications that are used to animate the __RecyclerView__‘s rows.
+
+To use this method, you need to implement the `DiffUtil.Callback`. Add this to the end of the `PhotoAdapter` class:
+
+```kotlin
+class PhotoRowDiffCallback(private val newRows : List<PhotoRow>, private val oldRows : List<PhotoRow>) : DiffUtil.Callback() {
+  override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+    val oldRow = oldRows[oldItemPosition]
+    val newRow = newRows[newItemPosition]
+    return oldRow.type == newRow.type
+  }
+
+  override fun getOldListSize(): Int = oldRows.size
+
+  override fun getNewListSize(): Int = newRows.size
+
+  override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+    val oldRow = oldRows[oldItemPosition]
+    val newRow = newRows[newItemPosition]
+    return oldRow == newRow
+  }
+}
+```
+
+This class checks the items to see if they are the same type or have the same values. The `areItemsTheSame` method just checks the row type but the `areContentsTheSame` checks to see if the rows are equal.
+
 ### Additional Methods
 
---- 
+To update the photo list, you need to pass in a new list, calculate the difference between the two lists and clear the filter. Add the following methods after `getItemViewType` in `PhotoAdapter` to support clearing the filter list, use `DiffUtil` to tell the __Adapter__ how to update the photo views, and remove rows:
+
+```kotlin
+private fun clearFilter() {
+    filtering = false
+    filteredPhotos.clear()
+  }
+
+fun updatePhotos(photos : ArrayList<PhotoRow>) {
+   DiffUtil.calculateDiff(PhotoRowDiffCallback(photos, photoList), false).dispatchUpdatesTo(this)
+   photoList = photos
+   clearFilter()
+}
+
+fun removeRow(row : Int) {
+   if (filtering) {
+       filteredPhotos.removeAt(row)
+   } else {
+       photoList.removeAt(row)
+   }
+   notifyItemRemoved(row)
+}
+```
+
+Notice the `notifyItemRemoved` method. That method will allow animations to occur for the rows around the deleted row because it tells __RecyclerView__ exactly how the data in the adapter has changed. It’s best not to use `notifyDataSetChanged` for this case, as that does not provide __RecyclerView__ with details about exactly what has changed.
+
+---
 
 ## Retrofit
 
---- 
+To get the data from NASA, you’ll be using the [Retrofit](http://square.github.io/retrofit/) and [Moshi](https://github.com/square/moshi) libraries. You’ll use Retrofit for downloading the data and Moshi for converting it from JSON to our models.
+
+First, create a service interface. Create a new package named __service__ and then right click to create a new Kotlin interface named _`NasaApi`_. Replace the code with the following:
+
+```kotlin
+interface NasaApi {
+   @GET("mars-photos/api/v1/rovers/{rover}/photos?sol=1000&api_key=<key>")
+   fun getPhotos(@Path("rover") rover: String) : Call<PhotoList>
+}
+```
+
+Substitute your key from the NASA site for `<key>`. This sets up the method to get the list of Photos. The passed in rover string will be substitued for {rover}.
+
+If you need to add an import for `Call`, be sure to use the one from the `retrofit2` package.
+
+Next, you’ll need to create the actual service. Your service should be a Singleton and in Kotlin, creating one is extremely easy.
+
+Right click on the `service` package and select <FontIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`, name it `NasaPhotos`, and change the __Kind__ to <FontIcon icon="iconfont icon-select"/>`[Object]`. That’s it! You now have a Kotlin Singleton.
+
+Create a variable named `service` that is used in the `getPhotos` method:
+
+```kotlin
+object NasaPhotos {
+  private val service : NasaApi
+```
+
+And then add an `init` method. This will create the instance of Retrofit, set Moshi as the JSON converter, and finally create the `service` object:
+
+```kotlin
+init {
+    val retrofit = Retrofit.Builder()
+       .baseUrl("https://api.nasa.gov/")
+       .addConverterFactory(MoshiConverterFactory.create())
+       .build()
+    service = retrofit.create(NasaApi::class.java)
+}
+```
+
+Then, create a new method to make the call for the photos:
+
+```kotlin
+fun getPhotos(rover: String) : Call<PhotoList> = service.getPhotos(rover)
+```
+
+You’re almost there. You just need to setup the spinners and the __RecyclerView__ adapter, which you’ll do next.
+
+---
 
 ## Updating the main UI
 
---- 
+It’s time to update `MainActivity` to setup the spinners and load some photos!
+
+Add a few variables to hold the current rover string and the spinner positions, at the top of `MainActivity`
+
+```kotlin
+private var currentRover = "curiosity"
+private var currentRoverPosition = 0
+private var currentCameraPosition = 0
+```
+
+Above the `MainActivity` class declaration add:
+
+```kotlin
+private const val TAG = "MarsRover"
+```
+
+The `TAG` will be used for logging errors.
+
+Add the following below the `onCreate` method:
+
+```kotlin
+private fun setupSpinners() {
+   setupRoverSpinner()
+   setupCameraSpinner()
+}
+
+private fun setupCameraSpinner() {
+   // Camera spinner
+   val cameraStrings = resources.getStringArray(R.array.camera_values)
+   val cameraAdapter = ArrayAdapter.createFromResource(this, R.array.camera_names, android.R.layout.simple_spinner_item)
+   cameraAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+   cameras.adapter = cameraAdapter
+   cameras.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+       override fun onNothingSelected(parent: AdapterView<*>) {
+       }
+
+       override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
+           currentCameraPosition = position
+       }
+   }
+}
+
+private fun setupRoverSpinner() {
+   // Setup the spinners for selecting different rovers and cameras
+   val roverStrings = resources.getStringArray(R.array.rovers)
+   val adapter = ArrayAdapter.createFromResource(this, R.array.rovers, android.R.layout.simple_spinner_item)
+   adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+   rovers.adapter = adapter
+   rovers.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+       override fun onNothingSelected(parent: AdapterView<*>) {
+       }
+
+       override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
+           if (currentRoverPosition != position) {
+               currentRover = roverStrings[position].toLowerCase()
+               loadPhotos()
+           }
+           currentRoverPosition = position
+       }
+   }
+}
+```
+
+These setup the spinners to hold the corresponding string arrays.
+
+At the end of the `onCreate` method, add the following two lines that will setup the spinners and load the photos:
+
+```kotlin
+setupSpinners()
+loadPhotos()
+```
+
+Next, you’ll load and sort our photos. Add the following after `setupRoverSpinner` in the `MainActivity`:
+
+```kotlin
+private fun loadPhotos() {
+    progress.visibility = View.VISIBLE
+    recycler_view.visibility = View.GONE
+    NasaPhotos.getPhotos(currentRover).enqueue(object : Callback<PhotoList> {
+       override fun onFailure(call: Call<PhotoList>?, t: Throwable?) {
+           Snackbar.make(recycler_view, R.string.api_error, Snackbar.LENGTH_LONG)
+           Log.e(TAG, "Problems getting Photos with error: $t.msg")
+       }
+
+       override fun onResponse(call: Call<PhotoList>?, response: Response<PhotoList>?) {
+           response?.let { photoResponse ->
+               if (photoResponse.isSuccessful) {
+                  val body = photoResponse.body()
+                  body?.let {
+                     Log.d(TAG, "Received ${body.photos.size} photos")
+                     if (recycler_view.adapter == null) {
+                        val adapter = PhotoAdapter(sortPhotos(body))
+                        recycler_view.adapter = adapter
+                     } else {
+                        (recycler_view.adapter as PhotoAdapter).updatePhotos(sortPhotos(body))
+                     }
+                   }
+                   recycler_view.scrollToPosition(0)
+                   recycler_view.visibility = View.VISIBLE
+                   progress.visibility = View.GONE
+               }
+           }
+       }
+   })
+}
+
+fun sortPhotos(photoList: PhotoList) : ArrayList<PhotoRow> {
+   val map = HashMap<String, ArrayList<Photo>>()
+   for (photo in photoList.photos) {
+       var photos = map[photo.camera.full_name]
+       if (photos == null) {
+           photos = ArrayList()
+           map[photo.camera.full_name] = photos
+       }
+       photos.add(photo)
+   }
+   val newPhotos = ArrayList<PhotoRow>()
+   for ((key, value) in map) {
+       newPhotos.add(PhotoRow(RowType.HEADER, null, key))
+       value.mapTo(newPhotos) { PhotoRow(RowType.PHOTO, it, null) }
+   }
+   return newPhotos
+}
+```
+
+You’ll have to import a few classes to get rid of the errors. Note that any of the imports that provide multiple options should use the ones in the `retrofit2` package.
+
+In the `sortPhotos` method, you put the photos into sections arranged by camera.
+
+Now it’s time to try it out. Build and run the app, and within about 10 or 20 seconds, you should see something like:
+
+![mars rover screenshot](https://koenig-media.raywenderlich.com/uploads/2017/10/Screenshot_1507091574-281x500.png =240x)
+
+If you don’t see any images, make sure you have your personal key in the Retrofit `@GET` annotation.
+
+You can choose different rovers from the spinner in the top right and different cameras from the spinner below the rover spinner but they won’t do anything until they are hooked up. Note also that not all rovers have images from all cameras.
+
+---
 
 ## Filtering
 
---- 
+In order to filter the list, add the filterCamera method to PhotoAdapter below `getItemViewType`:
+
+```kotlin
+fun filterCamera(camera: String) {
+   filtering = true
+   val newPhotos = photoList.filter { photo -> photo.type == RowType.PHOTO && photo.photo?.camera?.name.equals(camera) } as ArrayList<PhotoRow>
+   DiffUtil.calculateDiff(PhotoRowDiffCallback(newPhotos, photoList), false).dispatchUpdatesTo(this)
+   filteredPhotos = newPhotos
+}
+```
+
+Now go back to your `MainActivity` and hook up the camera filtering. Add the following code to the beginning of the `OnItemSelectedListener.onItemSelected()` in the `setupCameraSpinner` method:
+
+```kotlin
+if (recycler_view.adapter != null && currentCameraPosition != position) {
+   (recycler_view.adapter as PhotoAdapter).filterCamera(cameraStrings[position])
+}
+```
+
+You pass in the camera string to filter on and create a new list with just those photos. You use Kotlin’s `filter` function on the collection and return a list of photos and has the given camera value.
+
+![Now run the app and choose Opportunity as the new rover and you should see something like](https://koenig-media.raywenderlich.com/uploads/2017/12/opportunity-281x500.png =240x)
+
+---
 
 ## ItemDecorators
 
---- 
+Unlike __ListView__, __RecyclerView__ does not come with any built-in dividers. Instead, __RecyclerView__ allows you to add your own decorators.
+
+The __RecyclerView__ library comes with a `DividerItemDecoration` that can be used to put dividers between your rows. You can add a divider with this one line, which you should add to `onCreate()` in `MainActivity` after the line: `recycler_view.visibility = View.GONE`:
+
+```kotlin
+recycler_view.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
+```
+
+You can see the divider after the photo date on the last photo in a section.
+
+To create your own decorator, just subclass `ItemDecoration` and implement the `onDraw` and/or the `onDrawOver` methods.
+
+---
 
 ## Animations
 
---- 
+__RecyclerView__s allow animations for each row and provides built-in animations for adding and removing rows.
+
+To show an animation for adding a row, make sure you use `notifyItemAdded(position)` instead of calling `notifyDataChanged()`. This lets the view know that just one row has been added and can animate that addition.
+
+For deleting, call `notifyItemRemoved(position)`.
+
+To animate the addition of each item, add the following method to `PhotoAdapter`:
+
+```kotlin
+private fun setAnimation(viewToAnimate: View) {
+  if (viewToAnimate.animation == null) {
+    val animation = AnimationUtils.loadAnimation(viewToAnimate.context, android.R.anim.slide_in_left)
+    viewToAnimate.animation = animation
+  }
+}
+```
+
+This will provide an animation where the row slides in from the left.
+
+Then add:
+
+```kotlin
+setAnimation(holder.itemView)
+```
+
+as the last line in `onBindViewHolder`. Now try running again.
+
+![The animation adds a nice dynamic effect to the presentation of the photos.](https://koenig-media.raywenderlich.com/uploads/2017/10/mars4.gif =240x)
+
+---
 
 ## Swiping
 
---- 
+Swiping is great way to let your user delete rows. You’re going to implement swiping in both the left and right direction to delete a row.
+
+__RecyclerView__ uses an `ItemTouchHelper` class along with a swipe callback to handle the movement. The callback is simple and you will just call your adapter’s `removeRow` method in the `onSwiped` callback.
+
+Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following at the bottom of the class:
+
+```kotlin
+class SwipeHandler(val adapter: PhotoAdapter, dragDirs : Int, swipeDirs : Int) : ItemTouchHelper.SimpleCallback(dragDirs, swipeDirs) {
+  override fun onMove(recyclerView: RecyclerView?, viewHolder: RecyclerView.ViewHolder?, target: RecyclerView.ViewHolder?): Boolean {
+    return false
+  }
+
+  override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+    adapter.removeRow(viewHolder.adapterPosition)
+  }
+}
+```
+
+In `loadPhotos` you will find the following in the `onResponse` method:
+
+```kotlin
+if (recycler_view.adapter == null) {
+  val adapter = PhotoAdapter(sortPhotos(body))
+  recycler_view.adapter = adapter
+```
+
+Add the following after setting the `adapter` value:
+
+```kotlin
+val touchHandler = ItemTouchHelper(SwipeHandler(adapter, 0, (ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT)))
+touchHandler.attachToRecyclerView(recycler_view)
+```
+
+![Run the app and try swiping left or right to delete a row.](https://koenig-media.raywenderlich.com/uploads/2017/10/mars5.gif =240x)
+
+Awesome! You’re just deleting the row from the display in the __RecyclerView__. In another app you would likely delete the item from a database and/or make an API call to delete the corresponding item on a server.
+
+---
 
 ## Where to go from here
 

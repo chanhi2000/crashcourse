@@ -54,7 +54,7 @@ Navigate to the sample project directory and click <FontIcon icon="iconfont icon
 
 ![select the project](https://koenig-media.raywenderlich.com/uploads/2017/08/select-project.png)
 
-Take a look at the existing code before going on with the tutorial. Inside the <FontIcon icon="iconfont icon-folder"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made. :]
+Take a look at the existing code before going on with the tutorial. Inside the <FontIcon icon="iconfont icon-folder"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made.
 
 You can find the helper methods used to read the JSON data inside <FontIcon icon="iconfont icon-java"/>`MovieHelper.kt`. [The Picasso library](http://square.github.io/picasso) helps to easily download and display the images on the screen.
 
@@ -223,7 +223,7 @@ This initializes your `MoviesPagerAdapter` and connects it to the `ViewPager`.
 
 :::
 
-Build and run. The app should behave like the original version, but you can now navigate between movies by swiping rather than pressing buttons :].
+Build and run. The app should behave like the original version, but you can now navigate between movies by swiping rather than pressing buttons.
 
 ![Swiping ViewPager](https://koenig-media.raywenderlich.com/uploads/2017/11/swipe.gif =240x)
 
@@ -287,13 +287,13 @@ If you try to add a `TabLayout` to your `ViewPager` you won’t be able to see a
 
 Luckily, there is a third party library called [<FontIcon icon="iconfont icon-github"/>`nshmura/RecyclerTabLayout`](https://github.com/nshmura/RecyclerTabLayout) that solves this problem. The library uses the `RecyclerView` in its implementation. You can learn more about the mysterious `RecyclerView` from [this tutorial](https://www.raywenderlich.com/126528/android-recyclerview-tutorial). To install the library, open up <FontIcon icon="iconfont icon-folder"/>`/app/`<FontIcon icon="iconfont icon-engine"/>`build.grade` and add the following line inside `dependencies`:
 
-```gradle
+```groovy
 implementation 'com.nshmura:recyclertablayout:1.5.0'
 ```
 
 The recyclertablayout library uses an old version of the Android Support Libraries, so you’ll need to add the following to make the Gradle sync happy:
 
-```gradle
+```groovy
 implementation 'com.android.support:recyclerview-v7:26.1.0'
 ```
 
@@ -367,7 +367,7 @@ override fun getPageTitle(position: Int): CharSequence {
 
 This method tells the `TabLayout` what to write on the tab placed at a particular position. It returns the title of the movie that corresponds with the fragment created inside `getItem(position: Int)`.
 
-Run the app. You should be able to see the tabs changing as you swipe through the pages. Try tapping on a tab and see how the `ViewPager` will scroll automatically to the corresponding movie :].
+Run the app. You should be able to see the tabs changing as you swipe through the pages. Try tapping on a tab and see how the `ViewPager` will scroll automatically to the corresponding movie.
 
 ![Tabs](https://koenig-media.raywenderlich.com/uploads/2017/11/tabs.gif =240x)
 
