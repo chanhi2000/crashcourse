@@ -214,7 +214,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - ✅[Day 72][day-72] – Project 14, part five
 - ✅[Day 73][day-73] – Project 14, part six
 - ✅[Day 74][day-74] – Project 15, part one
-- [Day 75][day-75] – Project 15, part two
+- ✅[Day 75][day-75] – Project 15, part two
 - [Day 76][day-76] – Project 15, part three
  
 ### Days 77-78: Consolidation VI
@@ -350,7 +350,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-72]: 72.md
 [day-73]: 73.md
 [day-74]: 74.md
-[day-75]: https://www.hackingwithswift.com/100/swiftui/75
+[day-75]: 75.md
 [day-76]: https://www.hackingwithswift.com/100/swiftui/76
 [day-77]: https://www.hackingwithswift.com/100/swiftui/77
 [day-78]: https://www.hackingwithswift.com/100/swiftui/78

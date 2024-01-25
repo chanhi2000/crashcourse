@@ -136,6 +136,8 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/86.md',
         '/swift/100-days-of-swift/87.md',
         '/swift/100-days-of-swift/88.md',
+        '/swift/100-days-of-swift/89.md',
+        '/swift/100-days-of-swift/90.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -216,6 +218,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/72.md',
         '/swift/100-days-of-swiftui/73.md',
         '/swift/100-days-of-swiftui/74.md',
+        '/swift/100-days-of-swiftui/75.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -232,11 +235,39 @@ export const sidebarEn: SidebarConfig = {
         '/swift/kodeco/6334294-my-app-crashed-now-what.md',
         '/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.md',
         '/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.md',
+        '/swift/kodeco/6827616-ios-accessibility-getting-started.md',
         '/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.md',
         '/swift/kodeco/7076593-cocoapods-tutorial-for-swift-getting-started.md',
         '/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.md',
       ]
-    }, 
+    }, {
+      text: '🕊️OSX 구조를 이해하면서 배우는 Objective-C',
+      collapsible: true,
+      children: [
+        '/swift/shuokai-objc/README.md',
+        '/swift/shuokai-objc/01.md',
+        '/swift/shuokai-objc/02.md',
+        '/swift/shuokai-objc/03.md',
+        '/swift/shuokai-objc/04.md',
+        '/swift/shuokai-objc/05.md',
+        '/swift/shuokai-objc/06.md',
+        '/swift/shuokai-objc/07.md',
+        '/swift/shuokai-objc/08.md',
+        '/swift/shuokai-objc/09.md',
+        '/swift/shuokai-objc/10.md',
+        '/swift/shuokai-objc/11.md',
+        '/swift/shuokai-objc/12.md',
+        '/swift/shuokai-objc/13.md',
+        '/swift/shuokai-objc/14.md',
+        '/swift/shuokai-objc/15.md',
+        '/swift/shuokai-objc/16.md',
+        '/swift/shuokai-objc/17.md',
+        '/swift/shuokai-objc/18.md',
+        '/swift/shuokai-objc/19.md',
+        '/swift/shuokai-objc/20.md',
+        '/swift/shuokai-objc/21.md',
+      ]
+    }
   ], '/java/' : [
     {
       text: 'Intro',

@@ -23,17 +23,20 @@ export const navbarEn: NavbarConfig = [
         link: '/swift/README.md'
       }, {
         text: '🕊️100 Days of Swift',
-        link: '/swift/100-days-of-swift/88.md'
+        link: '/swift/100-days-of-swift/90.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/74.md'
+        link: '/swift/100-days-of-swiftui/75.md'
       }, {
         text: '🕊️SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
       }, {
         text: '🕊️Kodeco - Swift',
         link: '/swift/kodeco/README.md'
-      }          
+      }, {
+        text: '🕊️OSX 구조를 이해하면서 배우는 Objective-C',
+        link: '/swift/shuokai-objc/README.md'
+      }
     ]
   }, {
     text: '☕️🅺🍃',

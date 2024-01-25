@@ -241,24 +241,24 @@ These next three projects will start to show you just how much you’re now able
 Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.
 
 - [Day 82][day-82] – Milestone: Projects 22-24
- 
-### Days 83-89: Multipeer and motion
+
+### ✅Days 83-89: Multipeer and motion
 
 These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
 
-- ✅[Day 83][day-83] – Project 25, part one
-- ✅[Day 84][day-84] – Project 25, part two
-- ✅[Day 85][day-85] – Project 26, part one
-- ✅[Day 86][day-86] – Project 26, part two
-- ✅[Day 87][day-87] – Project 26, part three
-- ✅[Day 88][day-88] – Project 27, part one
+- [Day 83][day-83] – Project 25, part one
+- [Day 84][day-84] – Project 25, part two
+- [Day 85][day-85] – Project 26, part one
+- [Day 86][day-86] – Project 26, part two
+- [Day 87][day-87] – Project 26, part three
+- [Day 88][day-88] – Project 27, part one
 - [Day 89][day-89] – Project 27, part two
 
 ### Days 90-91: Consolidation X
 
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
 
-- [Day 90][day-90] – Milestone: Projects 25-27
+- ✅[Day 90][day-90] – Milestone: Projects 25-27
 - [Day 91][day-91] – Core Graphics redux
 
 ### Days 92-98: The Final Countdown
@@ -378,7 +378,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-86]: 86.md
 [day-87]: 87.md
 [day-88]: 88.md
-[day-89]: https://www.hackingwithswift.com/100/89
+[day-89]: 89.md
 [day-90]: https://www.hackingwithswift.com/100/90
 [day-91]: https://www.hackingwithswift.com/100/91
 [day-92]: https://www.hackingwithswift.com/100/92

@@ -180,21 +180,193 @@ Unsafe Swift pointers use a predictable naming scheme that describes the pointer
 
 ## Using Raw Pointers
 
+In this section, you’ll use unsafe Swift pointers to store and load two integers. Add the following code to your playground:
+
+```swift
+// 1
+let count = 2
+let stride = MemoryLayout<Int>.stride
+let alignment = MemoryLayout<Int>.alignment
+let byteCount = stride * count
+
+// 2
+do {
+  print("Raw pointers")
+  
+  // 3
+  let pointer = UnsafeMutableRawPointer.allocate(
+    byteCount: byteCount,
+    alignment: alignment)
+  // 4
+  defer {
+    pointer.deallocate()
+  }
+  
+  // 5
+  pointer.storeBytes(of: 42, as: Int.self)
+  pointer.advanced(by: stride).storeBytes(of: 6, as: Int.self)
+  pointer.load(as: Int.self)
+  pointer.advanced(by: stride).load(as: Int.self)
+  
+  // 6
+  let bufferPointer = UnsafeRawBufferPointer(start: pointer, count: byteCount)
+  for (index, byte) in bufferPointer.enumerated() {
+    print("byte \(index): \(byte)")
+  }
+}
+```
+
+Here’s what’s going on:
+
+- __Count__ holds the number of integers to store.
+- __Stride__ holds the stride of type `Int`.
+- __Alignment__ holds the alignment of type `Int`.
+- __ByteCount__ holds the total number of bytes needed.
+
+1. These constants hold frequently used values:
+2. A `do` block adds a scope level, so you can reuse the variable names in upcoming examples.
+3. `UnsafeMutableRawPointer.allocate` allocates the required bytes. This method returns an `UnsafeMutableRawPointer`. The name of that type tells you the pointer can load and store, or mutate, raw bytes.
+4. A `defer` block makes sure you deallocate the pointer properly. ARC isn’t going to help you here — you need to handle memory management yourself! You can read more about [defer statements](https://docs.swift.org/swift-book/ReferenceManual/Statements.html#grammar_defer-statement) in the official Swift documentation.
+5. `storeBytes` and `load`, unsurprisingly, store and load bytes. You calculate the memory address of the second integer by advancing the pointer `stride` bytes. Since pointers are `Strideable`, you can also use pointer arithmetic like: `(pointer+stride).storeBytes(of: 6, as: Int.self)`.
+6. An `UnsafeRawBufferPointer` lets you access memory as if it were a collection of bytes. This means you can iterate over the bytes and access them using subscripting. You can also use cool methods like `filter`, `map` and `reduce`. You initialize the buffer pointer using the raw pointer.
+
+Even though `UnsafeRawBufferPointer` is unsafe, you can still make it safer by constraining it to specific types.
+
 ---
 
 ## Using Typed Pointers
+
+You can simplify the previous example by using typed pointers. Add the following code to your playground:
+
+```sh
+do {
+  print("Typed pointers")
+  
+  let pointer = UnsafeMutablePointer<Int>.allocate(capacity: count)
+  pointer.initialize(repeating: 0, count: count)
+  defer {
+    pointer.deinitialize(count: count)
+    pointer.deallocate()
+  }
+  
+  pointer.pointee = 42
+  pointer.advanced(by: 1).pointee = 6
+  pointer.pointee
+  pointer.advanced(by: 1).pointee
+  
+  let bufferPointer = UnsafeBufferPointer(start: pointer, count: count)
+  for (index, value) in bufferPointer.enumerated() {
+    print("value \(index): \(value)")
+  }
+}
+```
+
+Notice the following differences:
+
+- You allocate memory using `UnsafeMutablePointer.allocate`. The generic parameter lets Swift know you’re using the pointer to load and store values of type `Int`.
+- You must initialize typed memory before use and deinitialize it after use. You do this using the `initialize` and `deinitialize` methods, respectively. Deinitialization is only required for __non-trivial types__. However, including deinitialization is a good way to future-proof your code in case you change to something non-trivial. It usually doesn’t cost anything since the compiler will optimize it out.
+- Typed pointers have a `pointee` property that provides a type-safe way to load and store values.
+- When advancing a typed pointer, you can simply state the number of values you want to advance. The pointer can calculate the correct stride based on the type of values it points to. Again, pointer arithmetic also works. You can also say `(pointer+1).pointee = 6`
+- The same holds true for typed buffer pointers: They iterate over values instead of bytes.
+
+Next, you’ll learn how to go from unconstrained UnsafeRawBufferPointer to safer, type constrained UnsafeRawBufferPointer.
 
 ---
 
 ## Converting Raw Pointers to Typed Pointers
 
+You don’t always need to initialize typed pointers directly. You can derive them from raw pointers as well.
+
+Add the following code to your playground:
+
+```swift
+do {
+  print("Converting raw pointers to typed pointers")
+  
+  let rawPointer = UnsafeMutableRawPointer.allocate(
+    byteCount: byteCount,
+    alignment: alignment)
+  defer {
+    rawPointer.deallocate()
+  }
+  
+  let typedPointer = rawPointer.bindMemory(to: Int.self, capacity: count)
+  typedPointer.initialize(repeating: 0, count: count)
+  defer {
+    typedPointer.deinitialize(count: count)
+  }
+
+  typedPointer.pointee = 42
+  typedPointer.advanced(by: 1).pointee = 6
+  typedPointer.pointee
+  typedPointer.advanced(by: 1).pointee
+  
+  let bufferPointer = UnsafeBufferPointer(start: typedPointer, count: count)
+  for (index, value) in bufferPointer.enumerated() {
+    print("value \(index): \(value)")
+  }
+}
+```
+
+This example is similar to the previous one, except that it first creates a raw pointer. You create the typed pointer by __binding__ the memory to the required type `Int`.
+
+By binding memory, you can access it in a type-safe way. Memory binding goes on behind the scenes when you create a typed pointer.
+
+The rest of this example is also the same as the previous one. Once you’re in typed pointer land, you can make use of `pointee`, for example.
+
 ---
 
 ## Getting the Bytes of an Instance
 
+Often, you have an existing instance of a type and you want to inspect the bytes that form it. You can achieve this using a method called `withUnsafeBytes(of:)`.
+
+To do so, add the following code to your playground:
+
+```swift
+do {
+  print("Getting the bytes of an instance")
+  
+  var sampleStruct = SampleStruct(number: 25, flag: true)
+
+  withUnsafeBytes(of: &sampleStruct) { bytes in
+    for byte in bytes {
+      print(byte)
+    }
+  }
+}
+```
+
+This prints out the raw bytes of the `SampleStruct` instance.
+
+`withUnsafeBytes(of:)` gives you access to an `UnsafeRawBufferPointer` that you can use inside the closure.
+
+`withUnsafeBytes` is also available as an instance method on `Array` and `Data`.
+
 ---
 
 ## Computing a Checksum
+
+Using `withUnsafeBytes(of:)`, you can return a result. For example, you might use this to compute a 32-bit checksum of the bytes in a structure.
+
+Add the following code to your playground:
+
+```swift
+do {
+  print("Checksum the bytes of a struct")
+  
+  var sampleStruct = SampleStruct(number: 25, flag: true)
+  
+  let checksum = withUnsafeBytes(of: &sampleStruct) { (bytes) -> UInt32 in
+    return ~bytes.reduce(UInt32(0)) { $0 + numericCast($1) }
+  }
+  
+  print("checksum", checksum) // prints checksum 4294967269
+}
+```
+
+The `reduce` call adds the bytes, then `~` flips the bits. While not the most robust error detection, it shows the concept.
+
+Now that you know how to use unsafe Swift, it’s time to learn some things you should absolutely not do with it.
 
 ---
 

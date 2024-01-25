@@ -476,9 +476,6 @@ I hope you enjoyed reading this CocoaPods tutorial as much I did writing it. Wha
 
 ---
 
-
----
-
 <TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/IceCreamShop-Materials-1.zip
