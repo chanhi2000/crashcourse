@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
 title: Intro
-description: 🕊️100 Days of Swift 
+description: 🕊️100 Days of Swift
 tags: ["crashcourse", "swift" , "paul-hudson" , "xcode", "appstore"]
 meta:
   - name: 100 Days of Swift
@@ -254,18 +254,18 @@ These next three projects give you chance to go over some earlier topics again, 
 - [Day 88][day-88] – Project 27, part one
 - [Day 89][day-89] – Project 27, part two
 
-### Days 90-91: Consolidation X
+### ✅Days 90-91: Consolidation X
 
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
 
-- ✅[Day 90][day-90] – Milestone: Projects 25-27
+- [Day 90][day-90] – Milestone: Projects 25-27
 - [Day 91][day-91] – Core Graphics redux
 
 ### Days 92-98: The Final Countdown
 
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
 
-- [Day 92][day-92] – Project 28, part one
+- ✅[Day 92][day-92] – Project 28, part one
 - [Day 93][day-93] – Project 28, part two
 - [Day 94][day-94] – Project 29, part one
 - [Day 95][day-95] – Project 29, part two
@@ -379,9 +379,9 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-87]: 87.md
 [day-88]: 88.md
 [day-89]: 89.md
-[day-90]: https://www.hackingwithswift.com/100/90
-[day-91]: https://www.hackingwithswift.com/100/91
-[day-92]: https://www.hackingwithswift.com/100/92
+[day-90]: 90.md
+[day-91]: 91.md
+[day-92]: 92.md
 [day-93]: https://www.hackingwithswift.com/100/93
 [day-94]: https://www.hackingwithswift.com/100/94
 [day-95]: https://www.hackingwithswift.com/100/95

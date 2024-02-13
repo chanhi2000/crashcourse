@@ -197,24 +197,24 @@ You’ve learned about data, data, and some more data, so it’s time to pause a
 - [Day 60][day-60] – Milestone: Projects 10-12
 - [Day 61][day-61] – Time for Core Data
 
-### Days 62-76: Views and view controllers
+### ✅Days 62-76: Views and view controllers
 
 In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
 
-- ✅[Day 62][day-62] – Project 13, part one
-- ✅[Day 63][day-63] – Project 13, part two
-- ✅[Day 64][day-64] – Project 13, part three
-- ✅[Day 65][day-65] – Project 13, part four
-- ✅[Day 66][day-66] – Project 13, part five
-- ✅[Day 67][day-67] – Project 13, part six
-- ✅[Day 68][day-68] – Project 14, part one
-- ✅[Day 69][day-69] – Project 14, part two
-- ✅[Day 70][day-70] – Project 14, part three
-- ✅[Day 71][day-71] – Project 14, part four
-- ✅[Day 72][day-72] – Project 14, part five
-- ✅[Day 73][day-73] – Project 14, part six
-- ✅[Day 74][day-74] – Project 15, part one
-- ✅[Day 75][day-75] – Project 15, part two
+- [Day 62][day-62] – Project 13, part one
+- [Day 63][day-63] – Project 13, part two
+- [Day 64][day-64] – Project 13, part three
+- [Day 65][day-65] – Project 13, part four
+- [Day 66][day-66] – Project 13, part five
+- [Day 67][day-67] – Project 13, part six
+- [Day 68][day-68] – Project 14, part one
+- [Day 69][day-69] – Project 14, part two
+- [Day 70][day-70] – Project 14, part three
+- [Day 71][day-71] – Project 14, part four
+- [Day 72][day-72] – Project 14, part five
+- [Day 73][day-73] – Project 14, part six
+- [Day 74][day-74] – Project 15, part one
+- [Day 75][day-75] – Project 15, part two
 - [Day 76][day-76] – Project 15, part three
  
 ### Days 77-78: Consolidation VI
@@ -351,8 +351,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-73]: 73.md
 [day-74]: 74.md
 [day-75]: 75.md
-[day-76]: https://www.hackingwithswift.com/100/swiftui/76
-[day-77]: https://www.hackingwithswift.com/100/swiftui/77
+[day-76]: 76.md
+[day-77]: 77.md
 [day-78]: https://www.hackingwithswift.com/100/swiftui/78
 [day-79]: https://www.hackingwithswift.com/100/swiftui/79
 [day-80]: https://www.hackingwithswift.com/100/swiftui/80

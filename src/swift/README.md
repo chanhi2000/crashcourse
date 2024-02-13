@@ -16,7 +16,7 @@ description: 🕊️Swift
 
 ## Table of Contents
 
-::: details 🕊️100 Days of Swift',
+::: details 🕊️100 Days of Swift
 
 <ToCLocal basePath="/swift/100-days-of-swift" />
 
