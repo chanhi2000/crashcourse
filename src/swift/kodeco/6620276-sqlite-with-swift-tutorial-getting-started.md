@@ -48,7 +48,7 @@ After learning how to perform these fundamental operations, you’ll see how to 
 
 Finally, you’ll briefly learn about the popular open-source Swift wrapper [<FontIcon icon="iconfont icon-github"/>stephencelis/SQLite](https://github.com/stephencelis/SQLite.swift). This will give you a basic understanding of how underlying frameworks work within a wrapper.
 
-::: note Note
+::: tip Note
 
 Databases like SQLite are massive topics to cover, and covering how to use them is out of scope for this tutorial. This tutorial assumes that you have a basic understanding of relational databases and that you’re primarily here to learn to use SQLite with Swift.
 
@@ -60,7 +60,7 @@ Databases like SQLite are massive topics to cover, and covering how to use them 
 
 Start by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="iconfont icon-file"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
 
-::: note Note
+::: tip Note
 
 The project is in an Xcode workspace because it uses the __SQLite3__ dependency as an embedded binary. This binary contains all the functionality for the SQLite code you’ll write in this tutorial.
 
@@ -194,7 +194,7 @@ Next, you check the returned status code to ensure the statement compiled succes
 3. `sqlite3_step()` runs the compiled statement. In this case, you only step once because this statement has a single result. Later in this tutorial, you’ll see when it’s necessary to step multiple times for a single statement.
 4. You must always call `sqlite3_finalize()` on your compiled statement to delete it and avoid resource leaks. Once a statement finalizes, you should never use it again.
 
-::: note Note
+::: tip Note
 
 If you want to learn more about what happened in step 2, check out the SQLite documentation about [compiling an SQL statement](https://www.sqlite.org/c3ref/prepare.html).
 
@@ -266,7 +266,7 @@ The first parameter of the function is the statement to bind to, while the secon
 4. Use `sqlite3_step()` to execute the statement and verify that it finished.
 5. Finalize the statement. If you were going to insert multiple contacts, you’d retain the statement and reuse it with different values.
 
-::: note Note
+::: tip Note
 
 If you’d like, you can read more about [binding parameters](https://www.sqlite.org/c3ref/bind_blob.html) on the SQLite website.
 
@@ -605,7 +605,7 @@ Successfully deleted row.
 Query returned no results.
 ```
 
-::: note Note
+::: tip Note
 
 If you completed the __Multiple Inserts__ challenge above, your output will look different from that above due to rows still being present in the table.
 

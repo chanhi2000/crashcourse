@@ -139,7 +139,7 @@ Open <FontIcon icon="fas fa-dove"/>`PrecipitationTab.swift` and delete the no lo
 PrecipitationChart(measurements: station.measurements)
 ```
 
-::: note Note
+::: tip Note
 
 When you run the app make sure you're on the Precipitation tab after selecting a location to see the results.
 

@@ -372,7 +372,7 @@ Build and run your app; you should now see six questions on the home screen.
 
 Well done! In the next section, you’ll add a row click handler to open the Question activity.
 
-::: note Note
+::: tip Note
 
 Run the same query using the Listener. The result has the same questions you see in the app. This lets you examine the details of each question document. The query link is **http://localhost:5984/quizzdroid/_design/app/_view/questions?include_docs=true**
 

@@ -140,6 +140,9 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/90.md',
         '/swift/100-days-of-swift/91.md',
         '/swift/100-days-of-swift/92.md',
+        '/swift/100-days-of-swift/93.md',
+        '/swift/100-days-of-swift/94.md',
+        '/swift/100-days-of-swift/95.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -223,6 +226,8 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/75.md',
         '/swift/100-days-of-swiftui/76.md',
         '/swift/100-days-of-swiftui/77.md',
+        '/swift/100-days-of-swiftui/78.md',
+        '/swift/100-days-of-swiftui/79.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -308,6 +313,7 @@ export const sidebarEn: SidebarConfig = {
       collapsible: true,
       children: [
         '/java/kodeco/README.md',
+        '/java/kodeco/247-react-native-tutorial-building-android-apps-with-javascript.md',
         '/java/kodeco/249-gradle-tutorial-for-android-getting-started.md',
         '/java/kodeco/254-getting-started-with-android-wear-with-kotlin.md',
         '/java/kodeco/262-dependency-injection-in-android-with-dagger-2-and-kotlin.md',

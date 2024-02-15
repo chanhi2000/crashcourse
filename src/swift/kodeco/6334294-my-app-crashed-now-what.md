@@ -82,7 +82,7 @@ The exception breakpoint automatically stops the app when a crash happens and sh
 
 To add an exception breakpoint, open the <FontIcon icon="iconfont icon-select"/>`[Debug navigator]` and click the <FontIcon icon="iconfont icon-select"/>`[+]` in the navigator’s lower left corner. Choose <FontIcon icon="iconfont icon-select"/>`[Exception Breakpoint…]` from resulting menu. Click anywhere outside the resulting dialog to set the breakpoint.
 
-::: note Note
+::: tip Note
 
 Exception breakpoints are triggered by things going wrong in the Objective-C runtime, which in most cases means things internal to UIKit. Most Swift crashes will make the debugger stop on the actual line you’re looking for.
 
@@ -255,7 +255,7 @@ The second crash you’re going to fix involves an unusual way of showing and hi
 
 The __Weak References__ screen is a simple form with two steps, where the second step is only active if the answer to the first question is “yes.”
 
-::: note Note
+::: tip Note
 
 There are many ways you can achieve the same result other than the one shown in this app. The intention is to show a made-up scenario that causes a crash, not to make a form that works well.
 
@@ -405,7 +405,7 @@ Use this configuration if you want to measure performance, not for code tracing 
 
 Assertions are a handy tool to help your fellow developers or yourself fix things before you forget them. But don’t overuse them, as they can become more annoying than helpful.
 
-::: note Note
+::: tip Note
 
 Use `preconditionFailure(_:file:line:)` or `fatalError(_:file:line:)` instead of `assertionFailure(_:file:line:)` to make your app crash under the release configuration.
 

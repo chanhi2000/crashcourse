@@ -36,7 +36,7 @@ In this tutorial, you’ll become familiar with the `ViewPager` by modifying an 
 - How to keep it memory-efficient
 - How to add some nice features to your `ViewPager`
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you have previous experience with developing for Android in Kotlin. If you are unfamiliar with the language have a look at this tutorial. If you’re beginning with Android, check out some of our Getting Started and other Android tutorials.
 
@@ -128,7 +128,7 @@ Now you can add the following line at the top of the class to declare the ViewPa
 private lateinit var viewPager: ViewPager
 ```
 
-::: note Note
+::: tip Note
 
 Use the keyword `lateinit` to avoid making the view nullable if you want to initialize it later. Read more about `lateinit` and other Kotlin modifiers [here](https://kotlinlang.org/docs/reference/properties.html#late-initialized-properties).
 
@@ -217,7 +217,7 @@ viewPager.adapter = pagerAdapter
 
 This initializes your `MoviesPagerAdapter` and connects it to the `ViewPager`. 
 
-::: note Note
+::: tip Note
 
 `supportFragmentManager` is equivalent to the `getSupportFragmentManager()` method you would use in Java and `viewPager.adapter = pagerAdapter` is the same as `viewPager.setAdapter(pagerAdapter)`. Read more about getters and setters in Kotlin [here](https://kotlinlang.org/docs/reference/properties.html#getters-and-setters).
 
@@ -227,7 +227,7 @@ Build and run. The app should behave like the original version, but you can now 
 
 ![Swiping ViewPager](https://koenig-media.raywenderlich.com/uploads/2017/11/swipe.gif =240x)
 
-::: note Note
+::: tip Note
 
 Using the `FragmentStatePagerAdapter` saves you from having to deal with saving the current page across a runtime configuration change, like rotating the device. The state of the `Activity` is usually lost in those situations and you would have to save it in the `Bundle` object passed as a parameter in `onCreate(savedInstanceState: Bundle?)`. Luckily, the `PagerAdapter` you used does all the work for you. You can read more about the `savedInstanceState` object and the `Activity` lifecycle [here](https://developer.android.com/guide/components/activities/activity-lifecycle.html).
 

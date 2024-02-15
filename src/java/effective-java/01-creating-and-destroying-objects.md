@@ -800,7 +800,7 @@ __캐시도 메모리 누수가 흔히 발생하는 장소다. 메모리 누수�
 
 종료자(`finalizer`) 사용은 예측할 수 없고 종종 위험하고 일반적으로 필요없다. 종료자를 사용하면 시스템 오류, 성능 문제, 이식성 문제가 발생할 수 있다.
 
-::: note Note
+::: tip Note
 
 As of Java 9, finalizers have been deprecated, but they are still being used by the Java libraries. The Java 9 replacement for finalizers is cleansers. Cleaners are less dangerous than finalizers, but still unpredictable, slow, and generally unnecessary.
 
@@ -814,7 +814,7 @@ C++에서 소멸자는 객체에 배정된 자원을 반환하는 일반적인 �
 
 그리고 finalizers 와 cleaners 실행 시점은 GC 알고리즘 구현에 따라 다양하다. 그래서 JVM에 따라 동작이 달라질 수 있기 때문에 이식성 문제가 발생할 수 있다. 또한 자바 언어 명세서에는 어떤 스레드가 종료자를 실행해야 하는지 아무 언급도 없으므로 이식성(portability)을 보장하면서 이 문제를 해결할 방법은 없다. 종료자 사용을 피하는 것만이 유일한 길이다.
 
-::: note Note
+::: tip Note
 
 There is no portable way to prevent this sort of problem other than to refrain from using finalizers. Cleaners are a bit better than finalizers in this regard because class authors have control over their own cleaner threads, but cleaners still run in the background, under the control of the garbage collector, so there can be no guarantee of prompt cleaning.
 
@@ -825,7 +825,7 @@ There is no portable way to prevent this sort of problem other than to refrain f
 
 자바 명세는 종료자가 즉시 샐행되어야 한다는 문구도 없지만, 종료자가 결국에는 반드시 실행되어야 한다는 문구도 없다. 따라서 종료자가 실행되지 않은 객체가 남은 상태로 프로그램이 끝나게 되는 일도 충분히 가능하다. 그러므로 지속성이 보장되어야 하는 중요 상태 정보(critical persistent state)는 종료자로 갱신하면 안된다.
 
-::: note Note
+::: tip Note
 
 As a consequence, you should never depend on a finalizer or cleaner to update persistent state. for example, depending on a finalizer or cleaner to release a persistent lock on a shared resource such as a database is a good way to bring your entire distributed system to a grinding halt.
 
@@ -857,7 +857,7 @@ protected void finalize() throws Throwable {
 }
 ```
 
-::: note Note
+::: tip Note
 
 Cleaners do not have this problem because a library using a cleaner has control over its thread. 
 
@@ -867,7 +867,7 @@ Cleaners do not have this problem because a library using a cleaner has control 
 
 그리고 종료자를 사용하면 성능이 심각하게 떨어진다. 필자의 컴퓨터에서 일반 AutoCloseable 객체를 만들고 try-with-resources를 이용해 close 시킬 때는 GC에 반환하는데 12ns가 걸렸다. finalizer를 사용하면 550ns로 증가했다. 왜냐하면 종료자가 GC 효율성을 억제시키기 때문이다.
 
-::: note Note 
+::: tip Note 
 
 Cleaners are comparable in speed to finalizers if you use them to clean all instances of the class (about 500 ns per instance on my machine), but cleaners are much faster if you use them only as a safety net, as discussed below. Under these circumstances, creating, cleaning, and destroying an object takes about 66 ns on my machine, which means you pay a factor of five (not fifty) for the insurance of a safety net if you don't use it.
 
@@ -875,7 +875,7 @@ Cleaners are comparable in speed to finalizers if you use them to clean all inst
 
 :::
 
-::: note Note
+::: tip Note
 
 Finalizers have a serious security problem: they open your class up to finalizer attacks.
 

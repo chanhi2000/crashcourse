@@ -39,7 +39,7 @@ In this tutorial, you’ll gain a better understanding of what Gradle is, and ho
 3. Create your own Gradle plugin
 4. Create build flavors for profit!
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you’re already familiar with the basics of Android development. If you are completely new to Android development, read through our [Beginning Android Development](https://www.raywenderlich.com/177533/beginning-android-development-kotlin-part-one-installing-android-studio) tutorials to familiarize yourself with the basics.
 

@@ -1834,7 +1834,7 @@ color: rgba(0, 184, 126, 0.2)
 ```card
 title: React Native Tutorial - Building Android Apps with JavaScript
 desc: In this React Native tutorial you’ll learn how to build native apps based on the hugely popular React JavaScript library, with a focus on Android.
-link: https://www.kodeco.com/247-react-native-tutorial-building-android-apps-with-javascript
+link: https://www.kodeco.com/247-react-native-tutorial-building-android-apps-with-javascript.md
 logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg
 color: rgba(0, 184, 126, 0.2)
 ```

@@ -54,7 +54,7 @@ In this tutorial, you’ll learn how to use CocoaPods with Swift. Specifically, 
 
 This tutorial also includes classes that use Core Graphics. While knowledge of Core Graphics is beneficial, it’s not required. If you’d like to learn more, read our [Modern Core Graphics With Swift](https://www.kodeco.com/8003281-core-graphics-tutorial-getting-started) series.
 
-::: note Note
+::: tip Note
 
 This CocoaPods tutorial requires basic familiarity with iOS and Swift development. If you’re completely new to iOS and/or Swift, then please check out some of the other [written](https://www.kodeco.com/ios/articles) and/or [video](https://www.kodeco.com/ios/videos) tutorials on this site before doing this tutorial. Or, dive into our book, [iOS Apprentice](http://www.kodeco.com/store/ios-apprentice).
 
@@ -78,7 +78,7 @@ sudo gem install cocoapods
 
 Enter your password when requested. The Terminal output will show various fetching, installing and documentation-related outputs, concluding with “XX gems installed”.
 
-::: note Note
+::: tip Note
 
 You must use `sudo` to install CocoaPods, but once it’s installed, you won’t need to use it again in this tutorial.
 
@@ -162,7 +162,7 @@ Finally, type the following command to open the Podfile using Xcode for editing:
 open -a Xcode Podfile
 ```
 
-::: note Note
+::: tip Note
 
 Don’t use TextEdit to edit the Podfile because it replaces standard quotes with more graphically-appealing typeset quotes. This can cause CocoaPods to become confused and throw errors. Instead, use Xcode or another programming text editor to edit your Podfile.
 
@@ -243,7 +243,7 @@ pod install
 
 Open the __project folder__ using __Finder__ and you’ll see CocoaPods created a new <FontIcon icon="iconfont icon-file"/>`IceCreamShop.xcworkspace` file and a Pods folder to store all the project’s dependencies.
 
-::: note Note
+::: tip Note
 
 From now on, as the command line warning mentioned, you must always open the project with the `.xcworkspace` file and not the `.xcodeproj`. Otherwise, you’ll encounter build errors.
 

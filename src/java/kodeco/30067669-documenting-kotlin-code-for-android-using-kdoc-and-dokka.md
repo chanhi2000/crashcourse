@@ -53,7 +53,7 @@ By the end of this article, you’ll have documentation generated in HTML for th
 
 This article assumes you have previous experience developing for Android in Kotlin. If you’re unfamiliar with Kotlin, take a look at this [Introduction to Kotlin for Android](https://www.raywenderlich.com/1144981-kotlin-for-android-an-introduction) article. If you’re also new to Android development, check out these [Getting Started With Android](https://www.raywenderlich.com/android) tutorials.
 
-::: note Note
+::: tip Note
 
 This article uses an Android project to showcase KDoc and Dokka, but you can apply the concepts shown to any Kotlin project.
 
@@ -275,7 +275,7 @@ KDoc uses first-level headings for module and package names. You can reference t
 
 This accounts for changes you’ll make later in this article.
 
-::: note Note
+::: tip Note
 
 The name of the file doesn’t have to be <FontIcon icon="iconfont icon-page"/>`module.md`. Also, in this example, the name of the module used in the first-level heading differs from the actual name.
 
@@ -325,7 +325,7 @@ One more thing to note is that if you open multiple projects with the same rootP
 
 Make sure you either open the starter project or the final project at this time.
 
-::: note Note
+::: tip Note
 
 Dokka’s [official documentation](https://kotlin.github.io/dokka/1.6.10/user_guide/base-specific/frontend/#prerequisites) page suggests using a web server to see the HTML format correctly. If you directly open <FontIcon icon="iconfont icon-page"/>`index.html` file, Dokka with fail to load things like the navigation pane and search bars. You’ll use the built-in server provided by `IntelliJ` in this article.
 
@@ -370,7 +370,7 @@ Congratulations! You’ve successfully generated documentation for your project.
 
 If you’re facing this issue, don’t worry. You’ll fix this next by setting a custom output directory for the documentation.
 
-::: note Note
+::: tip Note
 
 With the multi-module setup, the current version of Dokka sometimes places the generated documentation in the incorrect module. For instance, you may open the app module’s index.html and see some other module’s documentation.
 

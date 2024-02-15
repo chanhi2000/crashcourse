@@ -104,7 +104,7 @@ Refer to this link on creating a [conda environments](https://docs.conda.io/proj
 
 Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
-::: note Note
+::: tip Note
 
 Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above.
 

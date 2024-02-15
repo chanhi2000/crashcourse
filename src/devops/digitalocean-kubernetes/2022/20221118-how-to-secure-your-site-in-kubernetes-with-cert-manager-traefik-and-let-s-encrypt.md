@@ -92,7 +92,7 @@ Using a secure certificate for your website is a way to tell your users they can
 
 In this section, you will create a [`ClusterIssuer`](https://cert-manager.io/docs/concepts/issuer/) for your cluster to tell cert-manager how to issue certificates from Let’s Encrypt and which credentials to use to complete the DNS challenges required by Let’s Encrypt.
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you are using DigitalOcean for your DNS provider and configures the `ClusterIssuer` with that assumption. cert-manager supports a number of different cloud providers for both HTTP and DNS challenges, so the same concepts can be applied to them.
 
@@ -204,7 +204,7 @@ Using a secure certificate for your website is a way to tell your users they can
 
 In this section, you will create a [`ClusterIssuer`](https://cert-manager.io/docs/concepts/issuer) for your cluster to tell cert-manager how to issue certificates from Let’s Encrypt and which credentials to use to complete the DNS challenges required by Let’s Encrypt.
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you are using DigitalOcean for your DNS provider and configures the ClusterIssuer with that assumption. cert-manager supports a number of different cloud providers for both HTTP and DNS challenges, so the same concepts can be applied to them.
 

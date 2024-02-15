@@ -46,7 +46,7 @@ In this iOS accessibility tutorial, you’ll transform an existing app to make i
 
 This tutorial requires Xcode 11.3 and Swift 5.1. It assumes you already know the basics of Swift development. If you’re new to Swift, you should first check out our book, [Swift Apprentice](https://store.raywenderlich.com/products/swift-apprentice).
 
-::: note Note
+::: tip Note
 
 You’ll need a physical device to work with VoiceOver. This accessibility feature is not supported in the simulator at this time.
 
@@ -117,7 +117,7 @@ The quickest way to use VoiceOver is to open the Settings app on your iOS device
 
 This creates a shortcut so you can triple-tap the home button — or the side button, for newer phones — on a physical device to toggle VoiceOver on and off.
 
-::: note Note
+::: tip Note
 
 There are many other accessibility features besides VoiceOver including Invert Colors, Increase Contrast, Color Filters, Reduce White Point, Zoom, Switch Control and a lot more. In this tutorial, you’ll mostly focus on VoiceOver.
 

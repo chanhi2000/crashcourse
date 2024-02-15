@@ -217,7 +217,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - [Day 75][day-75] – Project 15, part two
 - [Day 76][day-76] – Project 15, part three
  
-### Days 77-78: Consolidation VI
+### ✅Days 77-78: Consolidation VI
 
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
 
@@ -353,8 +353,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-75]: 75.md
 [day-76]: 76.md
 [day-77]: 77.md
-[day-78]: https://www.hackingwithswift.com/100/swiftui/78
-[day-79]: https://www.hackingwithswift.com/100/swiftui/79
+[day-78]: 78.md
+[day-79]: 79.md
 [day-80]: https://www.hackingwithswift.com/100/swiftui/80
 [day-81]: https://www.hackingwithswift.com/100/swiftui/81
 [day-82]: https://www.hackingwithswift.com/100/swiftui/82

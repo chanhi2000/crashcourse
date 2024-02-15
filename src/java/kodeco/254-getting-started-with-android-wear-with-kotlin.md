@@ -55,7 +55,7 @@ The latest update in our Wear saga came in February of 2017, when Google announc
 
 Before you get started, you’ll need to connect your Wear device to your computer so you can debug the app.
 
-::: note Note
+::: tip Note
 
 If you don’t own an Android Wear device, don’t worry! You can still follow this tutorial with a watch AVD. If you choose this option, you can simply follow the very detailed [step-by-step tutorial on the official documentation](https://developer.android.com/training/wearables/apps/creating.html#creating) and skip directly to the next section.
 
@@ -204,7 +204,7 @@ Here’s what’s happening in this new layout:
 - The `BoxInsetLayout` has one child – a `LinearLayout`
 - That `LinearLayout` has the `app:boxedEdges="all"` layout attribute, meaning that this view will be boxed in on all sides.
 
-::: note Note
+::: tip Note
 
 In the preview tab, you can change the device type used to render the preview.
 Feel free to change to __Wear Round__ or __Wear Square__ to see how the `BoxInsetLayout` works.
@@ -282,7 +282,7 @@ When you create a wearable app you’ll want to share code between the phone and
 
 A Java library contains no Android references. If you wanted to include drawable files or other Android files, you would instead choose the Android library option.
 
-::: note Note
+::: tip Note
 
 Ideally you’d create a Kotlin library instead of a Java library. But this is Android land, and that would be WAY too easy. Android Studio doesn’t have the option to create a pre-configured Kotlin module yet.
 

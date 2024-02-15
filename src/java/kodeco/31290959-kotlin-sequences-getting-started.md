@@ -43,7 +43,7 @@ In this tutorial, you’ll learn about Kotlin’s __Sequences API__. Specificall
 - How to work with a sequence and its operators.
 - When should you consider using sequences instead of collections.
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you have basic Kotlin knowledge. If not, check out [Programming in Kotlin](https://www.raywenderlich.com/4736-programming-in-kotlin) first.
 
@@ -83,7 +83,7 @@ Look at your project structure, and you’ll notice that the scratch file is now
 
 This is useful if you want to share scratch files between different projects, for example. You can move it to the project’s directory, but that’s not relevant for what you’ll do in this tutorial. That said, it’s time to build some sequences!
 
-::: note Note
+::: tip Note
 
 If you want to know more about scratch files, check the [Jetbrains documentation](https://www.jetbrains.com/help/idea/scratches.html) about them.
 
@@ -257,7 +257,7 @@ val firstHundredEvenNaturalNumbers = naturalNumbersUpToTwoHundredMillion
 
 You'll see the result printed on the top right side of the scratch file.
 
-::: note Note
+::: tip Note
 
 If you don't see anything, click the green <FontIcon icon="iconfont icon-select"/>`[play]` button — "run scratch file" — at the top of the file, next to the <FontIcon icon="iconfont icon-select"/>`[trash can]` — "clear results". Clicking the button cleans up all the output and runs the code again.
 
@@ -276,7 +276,7 @@ val firstHundredEvenNaturalNumbers = naturalNumbersUpToTwoHundredMillion
   .forEach { number -> println(number) }
 ```
 
-::: note Note
+::: tip Note
 
 Before doing this change, you may want to disable <FontIcon icon="iconfont icon-select"/>`[Interactive mode]`. Otherwise, if you happen to cut the `take(100)` line — with the intent of pasting it later — the IDE will run the code from the scratch file, and it'll take a while before you get any results. This is because `forEach` is a terminal operator, therefore, it'll iterate two hundred million elements.
 
@@ -310,7 +310,7 @@ val list = naturalNumbersUpToTwoHundredMillion
 
 In the code above, `filter` would create a new list, then `take` would operate on that list, creating a new one of its own, and so on and so forth. That's a lot of wasted work! Especially since you're only taking 100 elements in the end. There's absolutely no need to bother with the elements after the hundredth one.
 
-::: note Note
+::: tip Note
 
 It might not be wise to run this code in your scratch file. Computers aren't fond of working with such large lists. It might even stop responding! And if it doesn't, the scratch file will probably crash while building and output nothing.
 
@@ -328,7 +328,7 @@ public fun Sequence.filter(predicate: (T) -> Boolean): Sequence {
 }
 ```
 
-::: note Note
+::: tip Note
 
 You won't be able to properly check the implementation of `filter` in the scratch file. If you try, the IDE will show you a decompiled <FontIcon icon="iconfont icon-file"/>`.class` file. For that reason, the final project has a Sequences.kt file with all the tutorial code, where you can easily check the inner workings of sequences. Or you can also check the [Jetbrains source code](https://github.com/JetBrains/kotlin/blob/v1.6.10/libraries/stdlib/common/src/generated/_Sequences.kt#L429).
 

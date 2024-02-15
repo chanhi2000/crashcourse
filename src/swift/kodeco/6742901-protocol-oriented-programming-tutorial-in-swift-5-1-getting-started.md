@@ -51,7 +51,7 @@ In this tutorial, you’ll learn about:
 
 What are you waiting for? Time to start your Swift engines!
 
-::: note Note
+::: tip Note
 
 This tutorial assumes you know the basics of Swift development and more advanced topics like generics. If you are new to Swift development, check [out Swift Tutorial for Beginners](https://www.raywenderlich.com/6338-swift-tutorial-part-1-expressions-variables-and-constants) and [Swift Generics Tutorial: Getting Started](https://www.raywenderlich.com/3535703-swift-generics-tutorial-getting-started) beforehand.
 

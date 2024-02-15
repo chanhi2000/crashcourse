@@ -98,7 +98,7 @@ gem "carrierwave", git: "https://github.com/tongueroo/carrierwave.git"
 gem "fog-aws" # to use s3 as the storage backend
 ```
 
-::: note Note
+::: tip Note
 
 we’re using a [<FontIcon icon="iconfont icon-github"/>fork of Carriewave](https://github.com/tongueroo/carrierwave) which adds Jets support via [Turbines](http://rubyonjets.com/docs/jets-turbines/).
 

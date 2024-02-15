@@ -38,7 +38,7 @@ Unsafe doesn’t mean dangerously bad code that might not work. Instead, it refe
 
 These features are useful if you interoperate with an unsafe language such as C, need to gain additional runtime performance or simply want to explore the internals of Swift. In this tutorial, you’ll learn how to use pointers and interact with the memory system directly.
 
-::: note Note
+::: tip Note
 
 While this is an advanced topic, you’ll be able to follow along if you have reasonable competency in Swift. If you need to brush up on your skills, please check out our [iOS and Swift for Beginners](https://www.raywenderlich.com/ios/learn) series. C experience is beneficial but not necessary.
 

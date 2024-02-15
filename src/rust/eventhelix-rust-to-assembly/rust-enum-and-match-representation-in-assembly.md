@@ -73,7 +73,7 @@ Before we proceed any further, let's look at the enum organization in memory. Th
 | 8 | i64 | f64 | f64 |
 | 16 | | | f64 |
 
-::: note Note
+::: tip Note
 
 __Note__: A 64-bit discriminator might seem wasteful here. Due to padding rules, a smaller discriminator would not have saved any memory. Rust does switch to a smaller discriminator when reducing the size permits addition of smaller fields.
 

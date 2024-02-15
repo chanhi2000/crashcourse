@@ -234,7 +234,7 @@ The generated assembly code looks like the `&self` case. The major differences a
 
 Once the `real` and `imaginary` parts have been saved in `xmm1`, the reference counts are decremented in preparation of the method going out of scope. If the reference count hits zero, the object pointed from the `Rc` will be deleted. If not, the memory block containing the reference counts and `Complex` objects live as there are other Rc smart pointers pointing to the same memory block.
 
-::: note Note
+::: tip Note
 
 We have ignored the weak reference in this discussion.
 

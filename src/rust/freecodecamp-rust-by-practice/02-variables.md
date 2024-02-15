@@ -438,7 +438,7 @@ fn main() {
 - 🌟 Only one solution
 - 🌟🌟 Two distinct solutions
 
-::: note Note
+::: tip Note
 
 none of the solutions is to remove the line `let x = 1`
 
@@ -557,7 +557,7 @@ Introduced in Rust 1.59: You can now use tuple, slice, and struct patterns as th
 
 ### 9. 🌟🌟
 
-::: note Note
+::: tip Note
 
 the feature `Destructuring assignments` need 1.59 or higher Rust version
 

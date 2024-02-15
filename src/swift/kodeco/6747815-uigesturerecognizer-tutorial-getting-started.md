@@ -187,7 +187,7 @@ And here’s how you’ll accomplish those goals:
 - __To detect when the gesture ends__: Multiple calls to the gesture recognizer’s callback occur as the gesture recognizer’s state changes. Examples of those states are: `began`, `changed` or `ended`. You can find the current state of a gesture recognizer by looking at its `state` property.
 - __To detect the touch velocity__: Some gesture recognizers return additional information. For example, `UIPanGestureRecognizer` has a handy method called `velocity(in:)` that returns, you guessed it, the velocity!
 
-::: note Note
+::: tip Note
 
 You can view a full list of the methods for each gesture recognizer in [the API guide](https://developer.apple.com/documentation/uikit/uipangesturerecognizer).
 

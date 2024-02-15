@@ -266,9 +266,9 @@ As we enter the last few days of this challenge, it’s as important as ever to 
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
 
 - ✅[Day 92][day-92] – Project 28, part one
-- [Day 93][day-93] – Project 28, part two
-- [Day 94][day-94] – Project 29, part one
-- [Day 95][day-95] – Project 29, part two
+- ✅[Day 93][day-93] – Project 28, part two
+- ✅[Day 94][day-94] – Project 29, part one
+- ✅[Day 95][day-95] – Project 29, part two
 - [Day 96][day-96] – Project 29, part three
 - [Day 97][day-97] – Project 30, part one
 - [Day 98][day-98] – Project 30, part two
@@ -382,9 +382,9 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-90]: 90.md
 [day-91]: 91.md
 [day-92]: 92.md
-[day-93]: https://www.hackingwithswift.com/100/93
-[day-94]: https://www.hackingwithswift.com/100/94
-[day-95]: https://www.hackingwithswift.com/100/95
+[day-93]: 93.md
+[day-94]: 94.md
+[day-95]: 95.md
 [day-96]: https://www.hackingwithswift.com/100/96
 [day-97]: https://www.hackingwithswift.com/100/97
 [day-98]: https://www.hackingwithswift.com/100/98
