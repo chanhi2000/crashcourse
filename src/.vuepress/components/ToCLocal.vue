@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     async fetchItems() {
-      const _rBasePath = new RegExp(this.basePath+"(.*?.html)")
+      const _rBasePath = new RegExp(this.basePath+"/(.*?.html)")
       const _items = this.$router.options.routes.filter((e) => e.path.match(_rBasePath) && e.name != null)
             .map((e) => {
               return {

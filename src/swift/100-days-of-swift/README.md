@@ -269,8 +269,8 @@ These final three projects introduce you to some key functionality that will rea
 - ✅[Day 93][day-93] – Project 28, part two
 - ✅[Day 94][day-94] – Project 29, part one
 - ✅[Day 95][day-95] – Project 29, part two
-- [Day 96][day-96] – Project 29, part three
-- [Day 97][day-97] – Project 30, part one
+- ✅[Day 96][day-96] – Project 29, part three
+- ✅[Day 97][day-97] – Project 30, part one
 - [Day 98][day-98] – Project 30, part two
 
 ### Day 99: Consolidation XI
@@ -287,7 +287,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 - [Epilogue][epilog] – What now?
 
 [ask-me]: https://twitter.com/twostraws
-[100-days-of-swiftui]: ../swift-100-days-of-swiftui/README.md
+[100-days-of-swiftui]: ../100-days-of-swiftui/README.md
 [glossary]: https://www.hackingwithswift.com/glossary
 
 [day-1]: 1.md
@@ -385,8 +385,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-93]: 93.md
 [day-94]: 94.md
 [day-95]: 95.md
-[day-96]: https://www.hackingwithswift.com/100/96
-[day-97]: https://www.hackingwithswift.com/100/97
+[day-96]: 96.md
+[day-97]: 97.md
 [day-98]: https://www.hackingwithswift.com/100/98
 [day-99]: https://www.hackingwithswift.com/100/99
 [day-100]: https://www.hackingwithswift.com/100/100

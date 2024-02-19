@@ -29,7 +29,7 @@ title: HACKING WITH SWIFT
 desc: 🕊️100 Days of SwiftUI
 link: https://www.hackingwithswift.com/100/swiftui
 logo: https://www.hackingwithswift.com/favicon-96x96.png
-color: rgba(174, 10, 10, 0.2)
+color: rgba(174,10,10,0.2)
 ```
 
 ---
@@ -216,7 +216,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - [Day 74][day-74] – Project 15, part one
 - [Day 75][day-75] – Project 15, part two
 - [Day 76][day-76] – Project 15, part three
- 
+
 ### ✅Days 77-78: Consolidation VI
 
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
@@ -228,8 +228,8 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
-- [Day 79][day-79] – Project 16, part one
-- [Day 80][day-80] – Project 16, part two
+- ✅[Day 79][day-79] – Project 16, part one
+- ✅[Day 80][day-80] – Project 16, part two
 - [Day 81][day-81] – Project 16, part three
 - [Day 82][day-82] – Project 16, part four
 - [Day 83][day-83] – Project 16, part five
@@ -355,7 +355,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-77]: 77.md
 [day-78]: 78.md
 [day-79]: 79.md
-[day-80]: https://www.hackingwithswift.com/100/swiftui/80
+[day-80]: 80.md
 [day-81]: https://www.hackingwithswift.com/100/swiftui/81
 [day-82]: https://www.hackingwithswift.com/100/swiftui/82
 [day-83]: https://www.hackingwithswift.com/100/swiftui/83

@@ -23,10 +23,10 @@ export const navbarEn: NavbarConfig = [
         link: '/swift/README.md'
       }, {
         text: '🕊️100 Days of Swift',
-        link: '/swift/100-days-of-swift/95.md'
+      link: '/swift/100-days-of-swift/97.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/78.md'
+        link: '/swift/100-days-of-swiftui/80.md'
       }, {
         text: '🕊️SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
