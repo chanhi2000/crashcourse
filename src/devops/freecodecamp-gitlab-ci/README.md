@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Intro
 description: 🦊freecodecamp.org - DevOps with GitLab CI 
-tags: ["crashcourse", "java", "jdk", "jdk8"]
-meta:
-  - name: 🦊freecodecamp.org - DevOps with GitLab CI
-    content: 🦊freecodecamp.org - DevOps with GitLab CI
-  - property: og:title
-    content: 🦊freecodecamp.org - DevOps with GitLab CI
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-freecodecamp-gitlab-ci
+category:
+  🦊Gitlab
+tag:
+  - crashcourse
+  - youtube
+  - freecodecamp
+  - vdespa
+  - gitlab
+  - yaml
+  - ci
+  - cd
+  - cicd
+head: 
+  - - meta:
+    - property: og:title
+      content: 🦊freecodecamp.org - DevOps with GitLab CI
+    - property: og:description
+      content: 🦊freecodecamp.org - DevOps with GitLab CI
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/freecodecamp-gitlab-ci.html
 ---
 
 # {{ $frontmatter.title }} 관련

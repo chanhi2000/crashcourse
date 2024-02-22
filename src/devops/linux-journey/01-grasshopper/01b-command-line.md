@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Command Line
 description: 🐧Linux Journey > GrassHopper > Command Line
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Command Line
-    content: Command Line
-  - property: og:title
-    content: Command Line
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Command Line
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper/01b-the-shell
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Command Line
+    - property: og:description
+      content: Command Line
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01b-command-line.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Command Line
 desc: Learn the fundamentals of the command line, navigating files, directories and more.
 link: https://linuxjourney.com/lesson/the-shell

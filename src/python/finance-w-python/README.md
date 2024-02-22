@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Intro
 description: 🐍Finance with Python
-tags: ["crashcourse", "py", "python", "pandas"]
-meta:
-  - name: 🐍Finance with Python
-    content: 🐍Finance with Python
+category:
+  - 🐍Python
+tag: 
+  - crashcourse
+  - python
+  - py
+  - google
+  - google-colab
+  - jupyter-notebook
+  - numpy
+  - pandas
+  - ipython
+head:
+- - meta:
   - property: og:title
     content: 🐍Finance with Python
   - property: og:description
-    content: Intro
+    content: 🐍Finance with Python
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/py-finance-w-python.html
+    content: https://chanhi2000.github.io/crashcourse/python/finance-w-python.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 금융 데이터 분석을 위한 파이썬
 desc: 금융 데이터 분석을 위한 파이썬 - WikiDocs
 link: https://wikidocs.net/book/8434

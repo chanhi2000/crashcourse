@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Logging
 description: 🐧Linux Journey > Journeyman > Logging
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Logging
-    content: Logging
-  - property: og:title
-    content: Logging
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Logging
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02g-logging.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Logging
+    - property: og:description
+      content: Logging
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02g-logging.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Logging
 desc: Learn about system logs and the /var/log directory.
 link: https://linuxjourney.com/lesson/system-logging

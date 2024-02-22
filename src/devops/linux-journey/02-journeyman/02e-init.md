@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Init
 description: 🐧Linux Journey > Journeyman > Init
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Init
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Init
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02e-init.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Init
+    - property: og:description
+      content: Init
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02e-init.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Init
 desc: Learn about the different init systems, SysV, Upstart and systemd.
 link: https://linuxjourney.com/lesson/sysv-overview

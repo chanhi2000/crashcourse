@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Documenting Kotlin Code for Android Using KDoc and Dokka
 description: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
-    content: Documenting Kotlin Code for Android Using KDoc and Dokka
-  - property: og:title
-    content: Documenting Kotlin Code for Android Using KDoc and Dokka
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
+    - property: og:description
+      content: Documenting Kotlin Code for Android Using KDoc and Dokka
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Documenting Kotlin Code for Android Using KDoc and Dokka
 desc: Learn how to use KDoc to document your Kotlin code and generate beautiful-looking documentation pages using Dokka.
 link: https://www.kodeco.com/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka

@@ -2,16 +2,22 @@
 lang: ko-KR
 title: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
 description: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-    content: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-  - property: og:title
-    content: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-  - property: og:description
-    content: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
+    - property: og:description
+      content: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
 desc: In this protocol-oriented programming tutorial, you’ll learn about extensions, default implementations and other techniques to add abstraction to your code. 
 link: https://www.kodeco.com/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started

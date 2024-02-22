@@ -2,16 +2,22 @@
 lang: ko-KR
 title: SwiftUI Tutorial for iOS - Creating Charts
 description: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
-    content: SwiftUI Tutorial for iOS - Creating Charts
-  - property: og:title
-    content: SwiftUI Tutorial for iOS - Creating Charts
-  - property: og:description
-    content: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
+    - property: og:description
+      content: SwiftUI Tutorial for iOS - Creating Charts
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: SwiftUI Tutorial for iOS - Creating Charts
 desc: In this SwiftUI tutorial, you’ll learn how to build a variety of custom charts to effectively model your iOS app data to your users.
 link: https://www.kodeco.com/6398124-swiftui-tutorial-for-ios-creating-charts

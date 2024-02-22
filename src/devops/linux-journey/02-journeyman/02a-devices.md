@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Devices
 description: 🐧Linux Journey > Journeyman > Devices
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Devices
-    content: Devices
-  - property: og:title
-    content: Devices
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Devices
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02a-devices.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Devices
+    - property: og:description
+      content: Devices
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02a-devices.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Devices
 desc: Learn about Linux devices and how they interact with the kernel and user space.
 link: https://linuxjourney.com/lesson/dev-directory

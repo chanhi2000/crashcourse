@@ -2,16 +2,22 @@
 lang: ko-KR
 title: iOS Accessibility - Getting Started
 description: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
-    content: iOS Accessibility - Getting Started
-  - property: og:title
-    content: iOS Accessibility - Getting Started
-  - property: og:description
-    content: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6827616-ios-accessibility-getting-started.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
+    - property: og:description
+      content: iOS Accessibility - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6827616-ios-accessibility-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: iOS Accessibility - Getting Started
 desc: In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. 
 link: https://www.kodeco.com/6827616-ios-accessibility-getting-started

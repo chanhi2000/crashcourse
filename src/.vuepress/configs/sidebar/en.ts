@@ -1,9 +1,9 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
+import { sidebar } from 'vuepress-theme-hope'
 
-export const sidebarEn: SidebarConfig = {
+export const sidebarEn = sidebar({
   '/cli/': [
     {
-      text: 'Intro',
+      text: '🐚CLI',
       children: [ '/cli/README.md' ]
     }, {
       text: '🐚Text Processing with GNU awk',
@@ -41,7 +41,7 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/swift/' : [
     {
-      text: 'Intro',
+      text: '🕊️Swift',
       children: [ '/swift/README.md' ]
     }, {
       text: '🕊️100 Days of Swift',
@@ -145,6 +145,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swift/95.md',
         '/swift/100-days-of-swift/96.md',
         '/swift/100-days-of-swift/97.md',
+        '/swift/100-days-of-swift/98.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -231,6 +232,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/100-days-of-swiftui/78.md',
         '/swift/100-days-of-swiftui/79.md',
         '/swift/100-days-of-swiftui/80.md',
+        '/swift/100-days-of-swiftui/81.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -253,7 +255,7 @@ export const sidebarEn: SidebarConfig = {
         '/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.md',
       ]
     }, {
-      text: '🕊️OSX 구조를 이해하면서 배우는 Objective-C',
+      text: '🏛OSX 구조를 이해하면서 배우는 Objective-C',
       collapsible: true,
       children: [
         '/swift/shuokai-objc/README.md',
@@ -282,7 +284,7 @@ export const sidebarEn: SidebarConfig = {
     }
   ], '/java/' : [
     {
-      text: 'Intro',
+      text: '☕️Java',
       children: [ '/java/README.md' ]
     }, {
       text: '☕️Java8 in Action',
@@ -382,7 +384,7 @@ export const sidebarEn: SidebarConfig = {
         '/java/jump-to-spring-boot/a.md',
       ]
     }, {
-      text: '☕️Java Web App with Quarkus and JPAStreamer',
+      text: '💠Java Web App with Quarkus and JPAStreamer',
       collapsible: true,
       children: [
         '/java/freecodecamp-quarkus-jpastreamer/README.md',
@@ -395,7 +397,7 @@ export const sidebarEn: SidebarConfig = {
     },
   ], '/js/': [
     {
-      text: 'Intro',
+      text: '🧶JavaScript',
       children: [ '/js/README.md' ]
     }, {
       text: '🧶Learn Typescript',
@@ -418,7 +420,7 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/python/': [
     {
-      text: 'Intro',
+      text: '🐍Python',
       children: [ '/python/README.md' ]
     }, {
       text: '🐍Finance with Python',
@@ -458,6 +460,9 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/rust/': [
     {
+      text: '🦀Rust',
+      children: [ '/rust/README.md' ]
+    }, {
       text: '🦀freecodecamp.org - Rust by Practice',
       collapsible: true,
       children: [
@@ -516,7 +521,7 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/ruby/': [
     {
-      text: 'Intro',
+      text: '🔻Ruby',
       children: [ '/ruby/README.md' ]
     }, {
       text: '🔻Jets - Learning Content',
@@ -547,7 +552,7 @@ export const sidebarEn: SidebarConfig = {
     }, 
   ], '/devops/': [
     {
-      text: 'Intro',
+      text: '🏗️DevOps',
       children: [ '/devops/README.md' ]
     }, {
       text: '🔺Red Hat Container Tools',
@@ -699,4 +704,4 @@ export const sidebarEn: SidebarConfig = {
       ],
     }
   ]
-}
+});

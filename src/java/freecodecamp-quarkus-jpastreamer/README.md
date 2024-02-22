@@ -1,17 +1,28 @@
 ---
 lang: ko-KR
-title: Intro
-description: Java Web App with Quarkus and JPAStreamer
-tags: ["crashcourse", "java", "jdk8", "stream", "quarkus", "jpa", "jpastreamer"]
-meta:
-  - name: Java Web App with Quarkus and JPAStreamer
-    content: Java Web App with Quarkus and JPAStreamer
-  - property: og:title
-    content: Java Web App with Quarkus and JPAStreamer
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-freecodecamp-quarkus-jpastreamer.html
+title: 💠Java Web App with Quarkus and JPAStreamer
+description: 💠Java Web App with Quarkus and JPAStreamer
+category: 
+  - ☕️Java
+  - 💠Quarkus
+tag: 
+  - crashcourse
+  - freecodecamp
+  - java
+  - jdk
+  - jdk8
+  - stream
+  - quarkus
+  - jpa
+  - jpastreamer
+head:
+  - - meta:
+    - property: og:title
+      content: Java Web App with Quarkus and JPAStreamer
+    - property: og:description
+      content: Java Web App with Quarkus and JPAStreamer
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/freecodecamp-quarkus-jpastreamer/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +33,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Get started with Quarkus and JPAStreamer
 desc: In the world of software development, innovation often arrives in the form of powerful tools that transform the way we build applications - enter Quarkus, a development platform that's reshaping the Java landscape.
 link: https://www.freecodecamp.org/news/get-started-with-quarkus-and-jpastreamer-2/
@@ -37,7 +48,7 @@ If you are new to the Quarkiverse, this tutorial is a great way to start explori
 
 By the end of this walkthrough, you'll possess the know-how to seamlessly streamline your forthcoming Java applications for cloud deployment. Moreover, I wouldn't be surprised if you discover that Java is far more enjoyable with live code reloads and continuous testing.
 
-<YouTube id="KZnQ5R8Kd4I" />
+<VidStack src="youtube/KZnQ5R8Kd4I" />
 
 In this course, you'll learn how to use Quarkus and JPAStreamer to build a REST web application. Quarkus is an open-source framework tailored for Java, optimized for building speedy cloud-native microservices and serverless applications, especially in containerized environments like Kubernetes. JPAStreamer, on the other hand, is a Java library that simplifies database interactions by allowing JPA entities to harness the expressiveness of Java Stream operations.
 

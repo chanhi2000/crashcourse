@@ -2,16 +2,22 @@
 lang: ko-KR
 title: Unsafe Swift - Using Pointers and Interacting With C
 description: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
-    content: Unsafe Swift - Using Pointers and Interacting With C
-  - property: og:title
-    content: Unsafe Swift - Using Pointers and Interacting With C
-  - property: og:description
-    content: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
+    - property: og:description
+      content: Unsafe Swift - Using Pointers and Interacting With C
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Unsafe Swift - Using Pointers and Interacting With C
 desc: In this tutorial, you’ll learn how to use unsafe Swift to directly access memory through a variety of pointer types.
 link: https://www.kodeco.com/7181017-unsafe-swift-using-pointers-and-interacting-with-c
@@ -156,7 +162,7 @@ Classes are reference types, so `MemoryLayout` reports the size of a reference: 
 
 If you want to explore memory layout in greater detail, check out Mike Ash’s excellent talk, [Exploring Swift Memory Layout](https://www.youtube.com/watch?v=ERYNyrfXjlg/).
 
-<YouTube id="ERYNyrfXjlg" />
+<VidStack src="youtube/ERYNyrfXjlg" />
 
 ---
 

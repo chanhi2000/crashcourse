@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 15. Gotchas and Tips
 description: 🐚Text Processing with GNU awk > 15. Gotchas and Tips
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 15. Gotchas and Tips
-    content: 15. Gotchas and Tips
-  - property: og:title
-    content: 15. Gotchas and Tips
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 15. Gotchas and Tips
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/15-gotchas-and-tips.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tag:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 15. Gotchas and Tips
+    - property: og:description
+      content: 15. Gotchas and Tips
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/15-gotchas-and-tips.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 15. Gotchas and Tips
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/gotchas-and-tips.html
@@ -33,7 +42,6 @@ color: rgba(22, 25, 35, 0.2)
 ---
 
 This chapter will discuss some of the often made beginner mistakes, corner cases as well as a few tricks to improve performance.
-
 
 ::: info
 
@@ -520,7 +528,6 @@ rm f[123]
 
 Here's another example.
 
-
 ::: tabs
 
 @tab:active Case 1
@@ -541,7 +548,7 @@ time mawk -F'a' 'NF==4{cnt++} END{print +cnt}' words.txt
 
 :::
 
-::: info 
+::: info
 
 See also [<FontIcon icon="iconfont icon-github"/> ezrosent/frawk](https://github.com/ezrosent/frawk), an efficient awk-like language implemented in Rust. And [<FontIcon icon="iconfont icon-github"/> koraa/huniq](https://github.com/koraa/huniq), a faster alternative for removing line based duplicates.
 

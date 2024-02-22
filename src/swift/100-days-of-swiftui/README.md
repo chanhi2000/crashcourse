@@ -1,30 +1,38 @@
 ---
 lang: ko-KR
-title: Intro
-description: 🕊️100 Days of SwiftUI 
-tags: ["crashcourse", "swift" , "paul-hudson" , "swiftui", "xcode", "appstore"]
-meta:
-  - name: 100 Days of SwiftUI
-    content: 100 Days of SwiftUI
-  - property: og:title
-    content: 100 Days of SwiftUI
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/100-days-of-swiftui
+title: 🕊️100 Days of SwiftUI 
+description: 🕊️100 Days of SwiftUI
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - paul-hudson
+  - swift
+  - swiftui
+  - hacking-with-swift
+  - xcode
+  - appstore
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️100 Days of SwiftUI
+    - property: og:description
+      content: 🕊️100 Days of SwiftUI
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련
 
 > {{ $frontmatter.description }}
 
-<YouTube id="AWZzEGwkenQ" />
+<VidStack src="youtube/AWZzEGwkenQ" />
 
 [[toc]]
 
 ---
 
-```card
+```component VPCard
 title: HACKING WITH SWIFT
 desc: 🕊️100 Days of SwiftUI
 link: https://www.hackingwithswift.com/100/swiftui
@@ -259,7 +267,6 @@ In this final project we cover some last tips and techniques to help you build g
 - [Day 97][day-97] – Project 19, part two
 - [Day 98][day-98] – Project 19, part three
 - [Day 99][day-99] – Project 19, part four
- 
 
 ### Wrap up
 
@@ -268,23 +275,25 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 - [Day 100][day-100] – Final exam
 - [Epilogue][epilogue] – What now?
 
+---
+
 <TagLinks />
 
 [ask-me]: https://twitter.com/twostraws
-[100-days-of-swift]: ../swift-100-days-of-swift/README.md
+[100-days-of-swift]: ../100-days-of-swift/README.md
 [swiftui-by-example]: https://www.hackingwithswift.com/quick-start/swiftui
 [glossary]: https://www.hackingwithswift.com/glossary
 
 [day-0]: https://www.hackingwithswift.com/100/swiftui/0
-[day-1]: 1.md
-[day-2]: 2.md
-[day-3]: 3.md
-[day-4]: 4.md
-[day-5]: 5.md
-[day-6]: 6.md
-[day-7]: 7.md
-[day-8]: 8.md
-[day-9]: 9.md
+[day-1]: 01.md
+[day-2]: 02.md
+[day-3]: 03.md
+[day-4]: 04.md
+[day-5]: 05.md
+[day-6]: 06.md
+[day-7]: 07.md
+[day-8]: 08.md
+[day-9]: 09.md
 [day-10]: 10.md
 [day-11]: 11.md
 [day-12]: 12.md

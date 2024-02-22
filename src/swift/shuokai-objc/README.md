@@ -1,17 +1,22 @@
 ---
 lang: ko-KR
-title: Intro
-description: 🕊️OSX 구조를 이해하면서 배우는 Objective-C
-tags: ["crashcourse", "xcode", "objc"]
-meta:
-  - name: OSX 구조를 이해하면서 배우는 Objective-C
-    content: OSX 구조를 이해하면서 배우는 Objective-C
-  - property: og:title
-    content: OSX 구조를 이해하면서 배우는 Objective-C
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/shuokai-objc
+title: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+description: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+category:
+  - 🏛Objective-C
+tag: 
+  - crashcourse
+  - xcode
+  - objective-c
+  - objc
+head:
+  - - meta:
+    - property: og:title
+      content: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+    - property: og:description
+      content: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/shuokai-objc.html
 ---
 
 # {{ $frontmatter.title }} 관련

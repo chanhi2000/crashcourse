@@ -1,17 +1,22 @@
 ---
 lang: ko-KR
-title: Intro
+title: ☕️Effective Java
 description: ☕️Effective Java
-tags: ["crashcourse", "java", "jdk8"]
-meta:
-  - name: ☕️Effective Java
-    content: ☕️Effective Java
-  - property: og:title
-    content: ☕️Effective Java
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-effective-java.html
+category: 
+  - ☕️Java
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+head:
+  - - meta:
+    - property: og:title
+      content: ☕️Effective Java
+    - property: og:description
+      content: ☕️Effective Java
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java-effective-java/
 ---
 
 # {{ $frontmatter.title }} 관련

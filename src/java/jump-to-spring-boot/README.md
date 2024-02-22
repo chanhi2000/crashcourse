@@ -1,17 +1,27 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🍃Jump to Spring Boot
 description: 🍃Jump to Spring Boot
-tags: ["crashcourse", "java", "jdk8", "stream"]
-meta:
-  - name: 🍃Jump to Spring Boot
-    content: 🍃Jump to Spring Boot
-  - property: og:title
-    content: 🍃Jump to Spring Boot
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-jump-to-spring-boot.html
+category:
+  - ☕️Java
+  - 🍃Spring
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+  - stream
+  - spring
+  - springframework
+  - springboot
+head:
+  - - meta:
+    - property: og:title
+      content: 🍃Jump to Spring Boot
+    - property: og:description
+      content: 🍃Jump to Spring Boot
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/jump-to-spring-boot.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 점프 투 스프링부트
 desc: 점프 투 스프링부트 - WikiDocs
 link: https://wikidocs.net/book/7601

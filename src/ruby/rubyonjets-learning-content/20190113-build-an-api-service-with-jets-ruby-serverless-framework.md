@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Build an API with the Jets Ruby Serverless Framework
 description: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
-    content: Build an API with the Jets Ruby Serverless Framework
-  - property: og:title
-    content: Build an API with the Jets Ruby Serverless Framework
-  - property: og:description
-    content: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20190113-build-an-api-service-with-jets-ruby-serverless-framework.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
+    - property: og:description
+      content: Build an API with the Jets Ruby Serverless Framework
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20190113-build-an-api-service-with-jets-ruby-serverless-framework.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Build an API with the Jets Ruby Serverless Framework
 desc: ...
 link: https://blog.boltops.com/2019/01/13/build-an-api-service-with-jets-ruby-serverless-framework
@@ -32,7 +39,7 @@ color: rgba(54,70,153,0.2)
 
 ---
 
-<YouTube id="7nB1kfNz5Vs" />
+<VidStack src="youtube/7nB1kfNz5Vs" />
 
 
 In this blog post, I’ll cover how to build a simple API service on AWS Lambda with the [Jets](http://rubyonjets.com/) Ruby Serverless Framework.

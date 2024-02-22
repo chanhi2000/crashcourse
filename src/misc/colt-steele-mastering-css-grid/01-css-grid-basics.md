@@ -2,16 +2,21 @@
 lang: ko-KR
 title: 01. CSS Grid Basics
 description: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
-tags: ["crashcourse", "swift" , "paul-hudson" , "xcode", "appstore"]
-meta:
-  - name: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
-    content: 01. CSS Grid Basics
-  - property: og:title
-    content: 01. CSS Grid Basics
-  - property: og:description
-    content: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/colt-steele-mastering-css-grid/01-css-grid-basics.html
+category:
+  - 🎨CSS
+tag: 
+  - crashcourse
+  - colt-steele
+  - css
+  - grid
+head:
+  - - meta:
+    - property: og:title
+      content: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
+    - property: og:description
+      content: 01. CSS Grid Basics
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/misc/colt-steele-mastering-css-grid/01-css-grid-basics.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -26,7 +31,7 @@ meta:
 
 ## 01. Enabling CSS Grid
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 01. Enabling CSS Grid
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/enabling-css-grid
@@ -130,7 +135,7 @@ You have two choices to turn on the grid system in a container:
 
 <!-- https://stream.mux.com/X1X01Vpqml8RGYGbyxUsJfxXEP9WHCA55NW7LCl1ATcA.m3u8?redundant_streams=true -->
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 02. Visualize CSS Grid with DevTools
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/visualize-css-grid-with-devtools
@@ -168,7 +173,7 @@ You can toggle the grid overlay on and off by checking or unchecking the box in 
 
 <!-- https://stream.mux.com/OUowQUs1eRPquGOGU8MQjtX4W7Z70002QI1jFQxEW02VWU.m3u8?redundant_streams=true -->
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 03. Define CSS Grid Columns with `grid-template-columns`
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
@@ -257,7 +262,7 @@ We have so far only used the `grid-template-columns` property to define columns 
 
 ## 04. Converting a Single-Column Layout
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics >  > 04. Converting a Single-Column Layout
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
@@ -445,7 +450,7 @@ Now, you should have a three column layout with evenly sized columns. Each colum
 
 ## 05. Define CSS Grid Rows with `grid-template-rows`
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 05. Define CSS Grid Rows with `grid-template-rows`
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/define-css-grid-rows-with-grid-template-rows
@@ -521,7 +526,7 @@ In this case the first two elements will fill the 400-pixel tall rows, and the r
 
 ## 06. Adjust Row Heights in an Existing Layout
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 06. Adjust Row Heights in an Existing Layout
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/adjust-row-heights-in-an-existing-layout
@@ -678,7 +683,7 @@ And that's it! We now have a grid container with four rows of the exact dimensio
 
 ## 07. Combining Rows and Columns to Create Layouts
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 07. Combining Rows and Columns to Create Layouts
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/combining-rows-and-columns-to-create-layouts
@@ -692,7 +697,7 @@ color: rgba(225, 176, 102, 0.2)
 
 ## 08. Practice Creating a Two-Column, Three-Row Layout
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 08. Practice Creating a Two-Column, Three-Row Layout
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/practice-creating-a-two-column-three-row-layout
@@ -706,7 +711,7 @@ color: rgba(225, 176, 102, 0.2)
 
 ## 09. Paragraph Layout with CSS Grid
 
-```card
+```component VPCard
 title: 01. CSS Grid Basics > 09. Paragraph Layout with CSS Grid
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/paragraph-layout-with-css-grid

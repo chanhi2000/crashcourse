@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 12. Two file processing
 description: 🐚Text Processing with GNU awk > 12. Two file processing
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 12. Two file processing
-    content: 12. Two file processing
-  - property: og:title
-    content: 12. Two file processing
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 12. Two file processing
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/12-two-file-processing.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 12. Two file processing
+    - property: og:description
+      content: 12. Two file processing
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/12-two-file-processing.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 12. Two file processing
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/two-file-processing.html
@@ -577,7 +586,6 @@ awk 'NR==FNR{a[$1,$2]; next} ($1,$2) in a && $3 > 80' criteria.txt FS=, result.c
 ```
 
 :::
-
 
 ---
 

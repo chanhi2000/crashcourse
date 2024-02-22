@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 24. Errors
 description: 🦀freecodecamp.org - Rust by Practice > 24. Errors
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 24. Errors
-    content: 24. Errors
-  - property: og:title
-    content: 24. Errors
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 24. Errors
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/24
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 24. Errors
+    - property: og:description
+      content: 24. Errors
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/24.html
 ---
 
 # {{ $frontmatter.title }} 관련

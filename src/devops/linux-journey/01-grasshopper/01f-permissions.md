@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Permissions
 description: 🐧Linux Journey > GrassHopper > Permissions
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Permissions
-    content: Permissions
-  - property: og:title
-    content: Permissions
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Permissions
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Permissions
+    - property: og:description
+      content: Permissions
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01f-permissions.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Permissions
 desc: Learn about permission levels and modifying permissions.
 link: https://linuxjourney.com/lesson/file-permissions
@@ -280,7 +285,7 @@ One last special permission bit I want to talk about is the sticky bit.
 This permission bit, "sticks a file/directory" this means that only the owner or the root user can delete or modify the file. This is very useful for shared directories. Take a look at the example below:
 
 ```sh
-$ ls -ld /tmp
+ls -ld /tmp
 # drwxrwxrwxt 6 root root 4096 Dec 15 11:45 /tmp
 ```
 
@@ -289,8 +294,8 @@ You'll see a special permission bit at the end here t, this means everyone can a
 Modify sticky bit
 
 ```sh
-$ sudo chmod +t mydir
-$ sudo chmod 1755 mydir
+sudo chmod +t mydir
+sudo chmod 1755 mydir
 ```
 
 The numerical representation for the sticky bit is 1

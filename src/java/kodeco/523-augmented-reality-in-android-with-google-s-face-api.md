@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Augmented Reality in Android with Google’s Face API
 description: 🅺Kodeco - Android & Kotlin > Augmented Reality in Android with Google’s Face API
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Augmented Reality in Android with Google’s Face API
-    content: Augmented Reality in Android with Google’s Face API
-  - property: og:title
-    content: Augmented Reality in Android with Google’s Face API
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Augmented Reality in Android with Google’s Face API
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/523-augmented-reality-in-android-with-google-s-face-api.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Augmented Reality in Android with Google’s Face API
+    - property: og:description
+      content: Augmented Reality in Android with Google’s Face API
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/523-augmented-reality-in-android-with-google-s-face-api.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Augmented Reality in Android with Google’s Face API
 desc: You’ll build a Snapchat Lens-like app called FaceSpotter which draws cartoony features over faces in a camera feed using augmented reality. 
 link: https://www.kodeco.com/523-augmented-reality-in-android-with-google-s-face-api

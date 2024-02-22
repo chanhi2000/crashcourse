@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Processes
 description: 🐧Linux Journey > GrassHopper > Processes
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Processes
-    content: Processes
-  - property: og:title
-    content: Processes
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Processes
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Processes
+    - property: og:description
+      content: Processes
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01g-processes.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Processes
 desc: Learn about the running processes on the system.
 link: https://linuxjourney.com/lesson/monitor-processes-ps-command
@@ -39,7 +44,7 @@ Processes are the programs that are running on your machine. They are managed by
 Go ahead and run the ps command to see a list of running processes:
 
 ```sh
-$ ps
+ps
 # PID        TTY     STAT   TIME          CMD
 # 41230    pts/4    Ss        00:00:00     bash
 # 51224    pts/4    R+        00:00:00     ps
@@ -349,7 +354,7 @@ jobs
 To move a job out of the background just specify the job ID you want. If you run `fg` without any options, it will bring back the most recent background job (the job with the `+` sign next to it)
 
 ```sh
-$ fg %1
+fg %1
 ```
 
 ### Kill background jobs

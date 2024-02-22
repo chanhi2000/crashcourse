@@ -1,7 +1,9 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🐚CLI
 description: 🐚CLI
+category:
+  - 🐚CLI
 ---
 
 # {{ $frontmatter.description }} 관련

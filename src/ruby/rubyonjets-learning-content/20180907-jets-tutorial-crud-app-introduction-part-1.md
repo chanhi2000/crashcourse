@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Intro CRUD App Part 1
 description: 🔻Jets - Learning Content > Intro CRUD App Part 1
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Intro CRUD App Part 1
-    content: Intro CRUD App Part 1
-  - property: og:title
-    content: Intro CRUD App Part 1
-  - property: og:description
-    content: 🔻Jets - Learning Content > Intro CRUD App Part 1
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180907-jets-tutorial-crud-app-introduction-part-1.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Intro CRUD App Part 1
+    - property: og:description
+      content: Intro CRUD App Part 1
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180907-jets-tutorial-crud-app-introduction-part-1.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Intro CRUD App Part 1
 desc: ...
 link: https://blog.boltops.com/2018/09/07/jets-tutorial-crud-app-introduction-part-1
@@ -32,7 +39,7 @@ color: rgba(0,0,0,0.2)
 
 ---
 
-<YouTube id="yJIZFc9TZJo" />
+<VidStack src="youtube/yJIZFc9TZJo" />
 
 In this video tutorial, we cover how get to started with the Jets Ruby Serverless Framework that adds Ruby support to AWS Lambda. We’ll build the quintessential CRUD application, and more we’ll importantly explore and edit it to understand how it works. Here’s the link to the Live CRUD Demo.
 

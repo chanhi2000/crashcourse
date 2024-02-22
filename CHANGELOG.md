@@ -1,9 +1,16 @@
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
- 
+
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
+
+---
+
+## [v0.1.0: 2024-02-22][v0.1.0]
+
+- Theme Hope 적용
+- 내용채워넣기
 
 ---
 
@@ -109,3 +116,4 @@ github pages에서 표시 잘 되도록 `base` 변경
 [v0.0.12]: https://github.com/chanhi2000/crashcourse/compare/v0.0.11...v0.0.12
 [v0.0.13]: https://github.com/chanhi2000/crashcourse/compare/v0.0.12...v0.0.13
 [v0.0.14]: https://github.com/chanhi2000/crashcourse/compare/v0.0.13...v0.0.14
+[v0.1.0]: https://github.com/chanhi2000/crashcourse/compare/v0.0.14...v0.1.0

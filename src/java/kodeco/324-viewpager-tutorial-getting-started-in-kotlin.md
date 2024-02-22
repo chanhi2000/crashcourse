@@ -2,16 +2,26 @@
 lang: ko-KR
 title: ViewPager Tutorial - Getting Started in Kotlin
 description: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
-    content: ViewPager Tutorial - Getting Started in Kotlin
-  - property: og:title
-    content: ViewPager Tutorial - Getting Started in Kotlin
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/324-viewpager-tutorial-getting-started-in-kotlin.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
+    - property: og:description
+      content: ViewPager Tutorial - Getting Started in Kotlin
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/324-viewpager-tutorial-getting-started-in-kotlin.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: ViewPager Tutorial - Getting Started in Kotlin
 desc: In this ViewPager tutorial for Android, you’ll learn how to use a ViewPager to navigate between content pages in Kotlin.
 link: https://www.kodeco.com/324-viewpager-tutorial-getting-started-in-kotlin

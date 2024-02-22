@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 30. Fighting with Compiler
 description: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
-    content: 30. Fighting with Compiler
-  - property: og:title
-    content: 30. Fighting with Compiler
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/30
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
+    - property: og:description
+      content: 30. Fighting with Compiler
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/30.html
 ---
 
 # {{ $frontmatter.title }} 관련

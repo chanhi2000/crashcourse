@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Resize Observer API
 description: 🧶Must Know JavaScript API > Resize Observer API
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🧶Must Know JavaScript API > Resize Observer API
-    content: Resize Observer API
-  - property: og:title
-    content: Resize Observer API
-  - property: og:description
-    content: 🧶Must Know JavaScript API > Resize Observer API
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/js-must-know-javascript-api/resize-observer
+categroy:
+  - 🧶JavaScript
+tag: 
+  - blog
+  - js
+  - api
+  - broadcast
+head:
+  - - meta:
+    - property: og:title
+      content: 🧶Must Know JavaScript API > Resize Observer API
+    - property: og:description
+      content: Resize Observer API
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/js/must-know-javascript-api/resize-observer.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -222,5 +227,7 @@ In this article, we introduced the basic usage of Resize Observer API and provid
 
 - [MDN Web Docs: Resize Observer API](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 - [W3C: Resize Observer](https://www.w3.org/TR/resize-observer)
+
+---
 
 <TagLinks />

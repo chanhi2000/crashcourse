@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Clipboard API
 description: 🧶Must Know JavaScript API > Clipboard API
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🧶Must Know JavaScript API > Clipboard API
-    content: Clipboard API
-  - property: og:title
-    content: Clipboard API
-  - property: og:description
-    content: 🧶Must Know JavaScript API > Clipboard API
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/js-must-know-javascript-api/clipboard.html
+categroy:
+  - 🧶JavaScript
+tag: 
+  - blog
+  - js
+  - api
+  - broadcast
+head:
+  - - meta:
+    - property: og:title
+      content: 🧶Must Know JavaScript API > Clipboard API
+    - property: og:description
+      content: Clipboard API
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/js/must-know-javascript-api/clipboard.html
 ---
 
 # {{ $frontmatter.title }} 관련

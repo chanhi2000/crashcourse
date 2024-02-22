@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 3. Regular Expressions
 description: 🐚Text Processing with GNU awk > 3. Regular Expressions
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk", "regex"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 3. Regular Expressions
-    content: 3. Regular Expressions
-  - property: og:title
-    content: 3. Regular Expressions
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 3. Regular Expressions
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/03-regular-expressions.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 3. Regular Expressions
+    - property: og:description
+      content: 3. Regular Expressions
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/03-regular-expressions.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 3. Regular Expressions
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/regular-expressions.html
@@ -2243,6 +2252,5 @@ awk -v IGNORECASE=1 'gsub(/\<(0x)?[0-9a-f]{4,}\>/, "[&]")' patterns.txt
 :::
 
 ---
-
 
 <TagLinks/>

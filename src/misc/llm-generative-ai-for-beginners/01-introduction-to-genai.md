@@ -2,16 +2,22 @@
 lang: ko-KR
 title: 01. Introduction to Generative AI and LLMs
 description: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
-tags: ["crashcourse", "java", "spring", "spring-boot" , "jdk", "wikidocs"]
-meta:
-  - name: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
-    content: 01. Introduction to Generative AI and LLMs
-  - property: og:title
-    content: 01. Introduction to Generative AI and LLMs
-  - property: og:description
-    content: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
-  - property: og:url
-    content: https://chanhi2000.github.io/misc/llm-generative-ai-for-beginners/01-introduction-to-genai.html
+category:
+  - 🦙LLM
+tag: 
+  - crashcourse
+  - microsoft
+  - llm
+  - ai
+  - generative-ai
+head:
+  - - meta:
+    - property: og:title
+      content: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
+    - property: og:description
+      content: 01. Introduction to Generative AI and LLMs
+    - property: og:url
+      content: https://chanhi2000.github.io/misc/llm-generative-ai-for-beginners/01-introduction-to-genai.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Introduction to Generative AI and LLMs
 desc: Generative AI and the current technology landscape
 link: https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README
@@ -32,7 +38,7 @@ color: rgba(255,255,255,0.2)
 
 ---
 
-<YouTube id="vf_mZrn8ibc"/>
+<VidStack src="youtube/vf_mZrn8ibc"/>
 
 Generative AI is artificial intelligence capable of generating text, images and other types of content. What makes it a fantastic technology is that it democratizes AI, anyone can use it with as little as a text prompt, a sentence written in a natural language. There's no need for you to learn a language like Java or SQL to accomplish something worthwhile, all you need is to use your language, state what you want and out comes a suggestion from an AI model. The applications and impact for this is huge, you write or understand reports, write applications and much more, all in seconds.
 

@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Process Utilization
 description: 🐧Linux Journey > Journeyman > Process Utilization
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Process Utilization
-    content: Process Utilization
-  - property: og:title
-    content: Process Utilization
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Process Utilization
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02f-process-utilization.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Process Utilization
+    - property: og:description
+      content: Process Utilization
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02f-process-utilization.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Process Utilization
 desc: Learn resource monitoring with top, load averages, iostat and more!
 link: https://linuxjourney.com/lesson/tracking-processes-top

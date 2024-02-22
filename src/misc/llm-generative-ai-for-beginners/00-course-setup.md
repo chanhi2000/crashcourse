@@ -2,16 +2,20 @@
 lang: ko-KR
 title: 00. Course Introduction - How to Take This Course
 description: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
-tags: ["crashcourse", "java", "spring", "spring-boot" , "jdk", "wikidocs"]
-meta:
-  - name: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
-    content: 00. Course Introduction - How to Take This Course
-  - property: og:title
-    content: 00. Course Introduction - How to Take This Course
-  - property: og:description
-    content: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/llm-generative-ai-for-beginners/00-course-setup.html
+tag: 
+  - crashcourse
+  - microsoft
+  - llm
+  - ai
+  - generative-ai
+head:
+  - - meta:
+    - property: og:title
+      content: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
+    - property: og:description
+      content: 00. Course Introduction - How to Take This Course
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/llm-generative-ai-for-beginners/00-course-setup.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +26,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Course Introduction - How to Take This Course
 desc: Tech setup and course structure
 link: https://microsoft.github.io/generative-ai-for-beginners/#/00-course-setup/README

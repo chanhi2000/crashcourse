@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > Routing
 description: 🐧Linux Journey > Networking Nomad > Routing
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > Routing
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > Routing
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > Routing
+    - property: og:description
+      content: Routing
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03d-routing.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Routing
 desc: Learn how packets are routed across networks!
 link: https://linuxjourney.com/lesson/what-is-a-router

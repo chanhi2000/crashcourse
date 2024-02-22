@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 9. Built-in functions
 description: 🐚Text Processing with GNU awk > 9. Built-in functions
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 9. Built-in functions
-    content: 9. Built-in functions
-  - property: og:title
-    content: 9. Built-in functions
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 9. Built-in functions
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/09-built-in-functions.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 9. Built-in functions
+    - property: og:description
+      content: 9. Built-in functions
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/09-built-in-functions.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 9. Built-in functions
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/built-in-functions.html
@@ -41,7 +50,6 @@ See [gawk manual: Functions](https://www.gnu.org/software/gawk/manual/gawk.html#
 The [<FontIcon icon="iconfont icon-github"/> example_files](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in the examples.
 
 :::
-
 
 ---
 
@@ -1391,5 +1399,7 @@ s="$s" awk 'index($0, ENVIRON["s"])' patterns.txt sum.txt
 ```
 
 :::
+
+---
 
 <TagLinks/>

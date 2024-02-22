@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > Subnetting
 description: 🐧Linux Journey > Networking Nomad > Subnetting
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > Subnetting
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > Subnetting
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > Subnetting
+    - property: og:description
+      content: Subnetting
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03c-subnetting.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Subnetting
 desc: Learn about subnets and how to do subnet arithmetic!
 link: https://linuxjourney.com/lesson/ipv4
@@ -201,3 +206,7 @@ We've heard the term IPv6 here and there, but what is it? Every device that conn
 ```
 
 Check `ifconfig` to see if you have an IPv6 address listed.
+
+---
+
+<TagLinks />

@@ -2,16 +2,21 @@
 lang: ko-KR
 title: 모든 객체의 공통 메서드
 description: ☕️Effective Java > 모든 객체의 공통 메서드
-tags: ["crashcourse", "java", "jdk"]
-meta:
-  - name: ☕️Effective Java > 모든 객체의 공통 메서드
-    content: 모든 객체의 공통 메서드
-  - property: og:title
-    content: 모든 객체의 공통 메서드
-  - property: og:description
-    content: ☕️Effective Java > 모든 객체의 공통 메서드
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-effective-java.html
+category: 
+  - ☕️Java
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+head:
+  - - meta:
+    - property: og:title
+      content: ☕️Effective Java > 모든 객체의 공통 메서드
+    - property: og:description
+      content: 모든 객체의 공통 메서드
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/effective-java/02-methods-common-to-all-objects.html
 ---
 
 # {{ $frontmatter.title }} 관련

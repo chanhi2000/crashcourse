@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Airline
 description: 🐧Linux Aviation HOWTO > Airline
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Airline
-    content: Airline
-  - property: og:title
-    content: Airline
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Airline
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/02-airline.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Airline
+    - property: og:description
+      content: Airline
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/02-airline.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 2. Airline
 desc: GNU/Linux Aviation HOWTO - Chapter 2. Airline
 link: https://tldp.org/HOWTO/Aviation-HOWTO/c446.html

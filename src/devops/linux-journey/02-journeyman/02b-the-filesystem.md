@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > The Filesystem
 description: 🐧Linux Journey > Journeyman > The Filesystem
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-- name: 🐧Linux Journey > Journeyman > The Filesystem
-  content: The Filesystem
-- property: og:title
-  content: The Filesystem
-- property: og:description
-  content: 🐧Linux Journey > Journeyman > The Filesystem
-- property: og:url
-  content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02b-the-filesystems.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > The Filesystem
+    - property: og:description
+      content: The Filesystem
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02b-the-filesystems.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: The Filesystem
 desc: Learn about the Linux filesystem, the different types of filesystems, partitioning and more.
 link: https://linuxjourney.com/lesson/filesystem-hierarchy
@@ -517,4 +522,6 @@ Similar to a symlink creation, except this time you leave out the `-s`.
 
 Play around with making symlinks and hardlinks, delete a couple and see what happens.
 
+---
 
+<TagLinks />

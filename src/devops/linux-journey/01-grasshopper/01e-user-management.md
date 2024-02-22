@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > User Management
 description: 🐧Linux Journey > GrassHopper > User Management
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > User Management
-    content: User Management
-  - property: og:title
-    content: User Management
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > User Management
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > User Management
+    - property: og:description
+      content: User Management
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01e-user-management.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: User Management
 desc: Learn about user roles and management.
 link: https://linuxjourney.com/lesson/users-and-groups

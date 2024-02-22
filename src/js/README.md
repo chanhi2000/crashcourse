@@ -1,7 +1,10 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🧶JavaScript
 description: 🧶JavaScript
+categroy:
+  - 🧶JavaScript
+  - ⚜TypeScript
 ---
 
 # {{ $frontmatter.description }} 관련

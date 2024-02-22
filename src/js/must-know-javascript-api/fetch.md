@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Fetch API
 description: 🧶Must Know JavaScript API > Fetch API
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🧶Must Know JavaScript API > Fetch API
-    content: Fetch API
-  - property: og:title
-    content: Fetch API
-  - property: og:description
-    content: 🧶Must Know JavaScript API > Fetch API
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/js-must-know-javascript-api/fetch.html
+categroy:
+  - 🧶JavaScript
+tag: 
+  - blog
+  - js
+  - api
+  - broadcast
+head:
+  - - meta:
+    - property: og:title
+      content: 🧶Must Know JavaScript API > Fetch API
+    - property: og:description
+      content: Fetch API
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/js/must-know-javascript-api/fetch.html
 ---
 
 # {{ $frontmatter.title }} 관련

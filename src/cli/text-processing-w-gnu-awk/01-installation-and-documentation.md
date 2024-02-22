@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 1. Installation and Documentation
 description: 🐚Text Processing with GNU awk > 1. Installation and Documentation
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 1. Installation and Documentation
-    content: 1. Installation and Documentation
-  - property: og:title
-    content: 1. Installation and Documentation
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 1. Installation and Documentation
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/01-installation-and-documentation.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head: 
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 1. Installation and Documentation
+    - property: og:description
+      content: 1. Installation and Documentation
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/01-installation-and-documentation.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 1. Installation and Documentation
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/installation-and-documentation.html

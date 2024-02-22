@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > DNS
 description: 🐧Linux Journey > Networking Nomad > DNS
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > DNS
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > DNS
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > DNS
+    - property: og:description
+      content: DNS
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03g-dns.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: DNS
 desc: Everything and more that you wanted to know about DNS.
 link: https://linuxjourney.com/lesson/what-is-dns
@@ -197,3 +202,7 @@ dig www.google.com
 ```
 
 Read up on the manpage for `dig`.
+
+---
+
+<TagLinks />

@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 4. Field separators
 description: 🐚Text Processing with GNU awk > 4. Field separators
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 4. Field separators
-    content: 4. Field separators
-  - property: og:title
-    content: 4. Field separators
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 4. Field separators
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/04-field-separators.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 4. Field separators
+    - property: og:description
+      content: 4. Field separators
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/04-field-separators.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 4. Field separators
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/field-separators.html
@@ -1182,3 +1191,7 @@ awk '$1=="###"{$1 = ++c ")"} 1' concat.txt
 ```
 
 :::
+
+---
+
+<TagLinks />

@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 16. Lifetime
 description: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
-    content: 16. Lifetime
-  - property: og:title
-    content: 16. Lifetime
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/16
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
+    - property: og:description
+      content: 16. Lifetime
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/16.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 6. In-place file editing
 description: 🐚Text Processing with GNU awk > 6. In-place file editing
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 6. In-place file editing
-    content: 6. In-place file editing
-  - property: og:title
-    content: 6. In-place file editing
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 6. In-place file editing
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/06-in-place-file-editing.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 6. In-place file editing
+    - property: og:description
+      content: 6. In-place file editing
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/06-in-place-file-editing.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 6. In-place file editing
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/in-place-file-editing.html

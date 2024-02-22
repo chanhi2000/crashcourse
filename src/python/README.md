@@ -1,7 +1,18 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🐍Python
 description: 🐍Python
+category:
+  - 🐍Python
+tag: 
+  - crashcourse
+  - python
+  - py
+  - OpenPyxl
+  - pywin32
+  - xlwings
+  - python-docx
+  - excel
 ---
 
 # {{ $frontmatter.description }} 관련

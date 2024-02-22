@@ -2,16 +2,21 @@
 lang: ko-KR
 title: 객체의 생성과 삭제
 description: ☕️Effective Java > 객체의 생성과 삭제
-tags: ["crashcourse", "java", "jdk"]
-meta:
-  - name: ☕️Effective Java > 객체의 생성과 삭제
-    content: 객체의 생성과 삭제
-  - property: og:title
-    content: 객체의 생성과 삭제
-  - property: og:description
-    content: ☕️Effective Java > 객체의 생성과 삭제
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-effective-java.html
+category: 
+  - ☕️Java
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+head:
+  - - meta:
+    - property: og:title
+      content: ☕️Effective Java > 객체의 생성과 삭제
+    - property: og:description
+      content: 객체의 생성과 삭제
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/effective-java/01-creating-and-destroying-objects.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -33,7 +38,7 @@ meta:
 클래스를 통해 객체를 만드는 일반적인 방법(`public` 생성자 이용)말고 또 다른 방법이 있다. 바로 `public static` factory method를 만드는 것이다.
 
 ```java
-public static Boolean valueOf(boolean b){
+public static Boolean valueOf(boolean b) {
 	return b ? Boolean.TRUE : Boolean.FALSE;
 }
 ```

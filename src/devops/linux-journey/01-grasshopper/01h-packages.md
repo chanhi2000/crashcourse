@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Packages
 description: 🐧Linux Journey > GrassHopper > Packages
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Packages
-    content: Packages
-  - property: og:title
-    content: Packages
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Packages
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: Packages
+    - property: og:description
+      content: 🐧Linux Journey > GrassHopper > Packages
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01h-packages.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Packages
 desc: Learn all about the dpkg, apt-get, rpm and yum package management tools.
 link: https://linuxjourney.com/lesson/software-distribution
@@ -225,7 +230,7 @@ Often times you will encounter an obscure package that only comes in the form of
 First thing is first, you'll need to have software to install the tools that will allow you to compile source code.
 
 ```sh
-$ sudo apt install build-essential
+sudo apt install build-essential
 ```
 
 Once you do that, extract the contents of the package file, most likely a .tar.gz file.
@@ -249,13 +254,13 @@ $ ./configure
 The `./` allows you to execute a script in the current directory.
 
 ```sh
-$ make
+make
 ```
 
 Inside of the package contents, there is a file called Makefile that contains rules to building the software. When you run the make command, it looks at this file to build the software.
 
 ```sh
-$ sudo make install
+sudo make install
 ```
 
 This command actually installs the package, it will copy the correct files to the correct locations on your computer.
@@ -263,15 +268,19 @@ This command actually installs the package, it will copy the correct files to th
 If you want to uninstall the package, use:
 
 ```sh
-$ sudo make uninstall
+sudo make uninstall
 ```
 
 Be wary when using make install, you may not realize how much is actually going on in the background. If you decide to remove this package, you may not actually remove everything because you didn't realize what was added to your system. Instead forget everything about make install that I just explained to you and use the `checkinstall` command. This command will make a .deb file for you that you can easily install and uninstall.
 
 ```sh
-$ sudo checkinstall
+sudo checkinstall
 ```
 
 This command will essentially "make install" and build a `.deb` package and install it. This makes it easier to remove the package later on.
 
 Find a source code program (from a trusted site) and install from source.
+
+---
+
+<TagLinks />

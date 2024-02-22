@@ -1,17 +1,32 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
 description: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
-tags: ["crashcourse", "python", "py", "OpenPyxl", "pywin32", "xlwings", "python-docx", "excel"]
-meta:
-  - name: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
-    content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
-  - property: og:title
-    content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/py-rpa-excel.html
+category:
+  - 🐍Python
+tag: 
+  - crashcourse
+  - python
+  - py
+  - google
+  - google-colab
+  - jupyter-notebook
+  - numpy
+  - pandas
+  - ipython
+  - OpenPyxl
+  - pywin32
+  - xlwings
+  - python-docx
+  - excel
+head:
+  - - meta:
+    - property: og:title
+      content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+    - property: og:description
+      content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/python/rpa-excel.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +37,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
 desc: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐) - WikiDocs
 link: https://wikidocs.net/book/6353

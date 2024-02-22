@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Intro
 description: 🐧Linux Aviation HOWTO
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO
-    content: 🐧Linux Aviation HOWTO
-  - property: og:title
-    content: 🐧Linux Aviation HOWTO
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO
+    - property: og:description
+      content: 🐧Linux Aviation HOWTO
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 --- 
 
-```card
+```component VPCard
 title: GNU/Linux Aviation HOWTO
 desc: Flying with GNU/Linux
 link: https://tldp.org/HOWTO/Aviation-HOWTO/index.html

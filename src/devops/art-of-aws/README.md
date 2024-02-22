@@ -1,17 +1,22 @@
 ---
 lang: ko-KR
-title: Intro
+title: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
 description: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
-tags: ["crashcourse", "pyrasis", "aws", "amazon-web-services"]
-meta:
-  - name: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
-    content: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+category:
+  - 📦AWS
+tag: 
+  - crashcourse
+  - pyrasis
+  - aws 
+  - amazon-web-services
+head:
+- - meta:
   - property: og:title
     content: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
   - property: og:description
-    content: Intro
+    content: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-art-of-aws
+    content: https://chanhi2000.github.io/crashcourse/devops/art-of-aws.html
 ---
 
 # {{ $frontmatter.title }} 관련

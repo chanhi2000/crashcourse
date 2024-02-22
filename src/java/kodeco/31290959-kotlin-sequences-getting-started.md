@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Kotlin Sequences - Getting Started
 description: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
-    content: Kotlin Sequences - Getting Started
-  - property: og:title
-    content: Kotlin Sequences - Getting Started
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
+    - property: og:description
+      content: Kotlin Sequences - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Kotlin Sequences - Getting Started
 desc: In this Kotlin Sequences tutorial, you’ll learn what a sequence is, its operators and when you should consider using them instead of collections.
 link: https://www.kodeco.com/31290959-kotlin-sequences-getting-started

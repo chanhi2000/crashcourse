@@ -1,15 +1,24 @@
 ---
 lang: ko-KR
-title: Preface
+title: 🐚Text Processing with GNU awk
 description: 🐚Text Processing with GNU awk
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk
-    content: 🐚Text Processing with GNU awk
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
   - property: og:title
     content: 🐚Text Processing with GNU awk
   - property: og:description
-    content: Preface
+    content: 🐚Text Processing with GNU awk
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk.html
 ---
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Preface 
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk
@@ -112,3 +121,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 Code snippets are available under [MIT License](https://github.com/learnbyexample/learn_gnuawk/blob/master/LICENSE).
 
 Resources mentioned in Acknowledgements section are available under original licenses.
+
+---
+
+<TagLinks />

@@ -1,17 +1,22 @@
 ---
 lang: ko-KR
-title: Intro
+title: ☕️Java 8 in Action
 description: ☕️Java 8 in Action
-tags: ["crashcourse", "java", "jdk8", "stream"]
-meta:
-  - name: ☕️Java 8 in Action
-    content: ☕️Java 8 in Action
-  - property: og:title
-    content: ☕️Java 8 in Action
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-8-in-action.html
+category: 
+  - ☕️Java
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+head:
+  - - meta:
+    - property: og:title
+      content: ☕️Java 8 in Action
+    - property: og:description
+      content: ☕️Java 8 in Action
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/java-8-in-action/
 ---
 
 # {{ $frontmatter.title }} 관련

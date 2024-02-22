@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Text-Fu
 description: 🐧Linux Journey > GrassHopper > Text-Fu
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Text-Fu
-    content: Text-Fu
-  - property: og:title
-    content: Text-Fu
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Text-Fu
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Text-Fu
+    - property: og:description
+      content: Text-Fu
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01c-test-fu.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Text-Fu
 desc: Learn basic text manipulation and navigation.
 link: https://linuxjourney.com/lesson/stdout-standard-out-redirect

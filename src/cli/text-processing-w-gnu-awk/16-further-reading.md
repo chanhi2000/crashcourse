@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 16. Further Reading
 description: 🐚Text Processing with GNU awk > 16. Further Reading
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 16. Further Reading
-    content: 16. Further Reading
-  - property: og:title
-    content: 16. Further Reading
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 16. Further Reading
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/16-further-reading.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 16. Further Reading
+    - property: og:description
+      content: 16. Further Reading
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/16-further-reading.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 16. Further Reading
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/further-reading.html

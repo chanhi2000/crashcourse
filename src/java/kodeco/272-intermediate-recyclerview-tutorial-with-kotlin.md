@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Intermediate RecyclerView Tutorial with Kotlin
 description: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
-    content: Intermediate RecyclerView Tutorial with Kotlin
-  - property: og:title
-    content: Intermediate RecyclerView Tutorial with Kotlin
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/272-intermediate-recyclerview-tutorial-with-kotlin.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
+    - property: og:description
+      content: Intermediate RecyclerView Tutorial with Kotlin
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/272-intermediate-recyclerview-tutorial-with-kotlin.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Intermediate RecyclerView Tutorial with Kotlin
 desc: In this RecyclerView tutorial you will learn how to build out intermediate techniques like swiping, animation and filtering in Kotlin.
 link: https://www.kodeco.com/272-intermediate-recyclerview-tutorial-with-kotlin

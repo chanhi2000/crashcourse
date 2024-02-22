@@ -1,17 +1,26 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🦀Wasm by Example
 description: 🦀Wasm by Example
-tags: ["crashcourse", "wasm", "rust", "assemblyscript", "c", "cpp"]
-meta:
-  - name: 🦀Wasm by Example (for Rust)
-    content: 🦀Wasm by Example (for Rust)
-  - property: og:title
-    content: 🦀Wasm by Example (for Rust)
-  - property: og:description
-    content: An Overview of Container Tools
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-wasm-by-example
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - rust
+  - rs
+  - wasm 
+  - assembly
+  - assemblyscript
+  - c 
+  - cpp
+head: 
+  - - meta:
+    - property: og:title
+      content: 🦀Wasm by Example (for Rust)
+    - property: og:description
+      content: 🦀Wasm by Example (for Rust)
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/wasm-by-example.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Wasm By Example
 desc: Wasm By Example is a concise, hands-on introduction to WebAssembly using code snippets and annotated WebAssembly example programs
 link: https://wasmbyexample.dev/home.en-us.html

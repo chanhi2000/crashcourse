@@ -2,16 +2,22 @@
 lang: ko-KR
 title: SQLite With Swift Tutorial - Getting Started
 description: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
-    content: SQLite With Swift Tutorial - Getting Started
-  - property: og:title
-    content: SQLite With Swift Tutorial - Getting Started
-  - property: og:description
-    content: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
+    - property: og:description
+      content: SQLite With Swift Tutorial - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: SQLite With Swift Tutorial - Getting Started
 desc: In this SQLite with Swift tutorial, you’ll learn to use a SQLite database with Swift projects by creating tables and inserting, updating and deleting rows.
 link: https://www.kodeco.com/6620276-sqlite-with-swift-tutorial-getting-started

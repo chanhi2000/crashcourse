@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Extra Environments Part 7
 description: 🔻Jets - Learning Content > Extra Environments Part 7
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Extra Environments Part 7
-    content: Extra Environments Part 7
-  - property: og:title
-    content: Extra Environments Part 7
-  - property: og:description
-    content: 🔻Jets - Learning Content > Extra Environments Part 7
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180913-jets-tutorial-extra-environments-part-7.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Extra Environments Part 7
+    - property: og:description
+      content: Extra Environments Part 7
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180913-jets-tutorial-extra-environments-part-7.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Extra Environments Part 7
 desc: ...
 link: https://blog.boltops.com/2018/09/13/jets-tutorial-extra-environments-part-7
@@ -56,3 +63,7 @@ JETS_ENV_EXTRA=2 jets delete
 ```
 
 Note, you’ll be prompted with an ‘Are you sure?’ message.
+
+---
+
+<TagLinks />

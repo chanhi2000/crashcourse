@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 1. Small projects with Elegant code
 description: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
-    content: 1. Small projects with Elegant code
-  - property: og:title
-    content: 1. Small projects with Elegant code
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/01
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
+    - property: og:description
+      content: 1. Small projects with Elegant code
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/01.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rust By Practice
 desc: 1. Small projects with Elegant code
 link: https://practice.rs/elegant-code-base.html
@@ -98,3 +107,7 @@ On [CodeCrafters](https://codecrafters.io/for/rust), you can recreate your favor
 ## 9. Writing Interpreters in Rust
 
 [This online book (<FontIcon icon="iconfont icon-github"/>`rust-hosted-langs/book`)](https://github.com/rust-hosted-langs/book) will walk through the basics of interpreted language implementation in Rust with a focus on the challenges that are specific to using Rust.
+
+---
+
+<TagLinks />

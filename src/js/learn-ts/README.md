@@ -1,17 +1,24 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🧶Learn Typescript
 description: 🧶Learn Typescript
-tags: ["blog", "js" , "ts"]
-meta:
-  - name: 🧶Learn Typescript
-    content: Intro
-  - property: og:title
-    content: 🧶Learn Typescript
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/js/learn-ts
+category: 
+  - 🧶JavaScript
+  - ⚜TypeScript
+tag: 
+  - blog
+  - js
+  - javascript
+  - ts
+  - typescript
+head:
+  - - meta:
+    - property: og:title
+      content: 🧶Learn Typescript
+    - property: og:description
+      content: 🧶Learn Typescript
+    - property: og:url
+      content: https://chanhi2000.github.io/js/learn-ts.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Learn TypeScript
 desc: LWelcome to Learn TypeScript - the Interactive TypeScript Tutorial
 link: https://www.learn-ts.org

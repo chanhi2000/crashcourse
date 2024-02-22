@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Getting Started with Android Wear with Kotlin
 description: 🅺Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
-    content: Getting Started with Android Wear with Kotlin
-  - property: og:title
-    content: Getting Started with Android Wear with Kotlin
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/254-getting-started-with-android-wear-with-kotlin.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
+    - property: og:description
+      content: Getting Started with Android Wear with Kotlin
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/254-getting-started-with-android-wear-with-kotlin.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Getting Started with Android Wear with Kotlin
 desc: In this Android Wear tutorial, you’ll learn how to build an Android app for the Android Wear platform using the Kotlin language.
 link: https://www.kodeco.com/254-getting-started-with-android-wear-with-kotlin
@@ -423,6 +433,8 @@ Next, make the <FontIcon icon="iconfont icon-java"/>`MealListActivity` implement
 class MealListActivity : AppCompatActivity(),
     MealListAdapter.Callback,
     GoogleApiClient.ConnectionCallbacks {
+    // ... 생략
+    }
 ```
 
 When you connect to the `GoogleApiClient`, the `ConnectionCallbacks` will provide you with a callback to store your nodes.

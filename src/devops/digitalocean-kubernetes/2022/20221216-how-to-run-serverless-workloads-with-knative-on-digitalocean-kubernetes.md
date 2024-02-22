@@ -2,16 +2,22 @@
 lang: ko-KR
 title: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
 description: ☸DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-tags: ["crashcourse", "digitalocean", "kubernetes", "kubctl", "serverless"]
-meta:
-  - name: ☸DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-    content: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
+category:
+  - ☸Kubernetes
+tag:
+  - crashcourse
+  - digitalocean
+  - kubernetes
+  - kubctl
+  - serverless
+head:
+- - meta:
   - property: og:title
-    content: ☸DigitalOcean - Kubernetes
+    content: ☸DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
   - property: og:description
     content: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-digitalocean-kubernetes/20221216-how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes.html
+    content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/20221216-how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
 desc: December 16, 2022
 link: https://digitalocean.com/community/tutorials/how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes
@@ -570,3 +576,7 @@ In this tutorial, you deployed a serverless workload using Knative. You created 
 For more about the features that Knative offers, like [Autoscaling](https://knative.dev/docs/serving/autoscaling/) of pods, [gradual rollout](https://knative.dev/docs/serving/rolling-out-latest-revision) of traffic to revision, and the [Eventing](https://knative.dev/docs/eventing) component, visit the official [Knative documentation](https://knative.dev/docs).
 
 To continue building with DigitalOcean Kubernetes (DOKS), refer to our [Kubernetes How-To documentation](https://docs.digitalocean.com/products/kubernetes). You can also [learn more about DOKS](https://docs.digitalocean.com/products/kubernetes/details), such as [features](https://docs.digitalocean.com/products/kubernetes/details/features) and [availability](https://docs.digitalocean.com/products/kubernetes/details/availability). For DOKS troubleshooting, you can refer to our [Kubernetes Support guides](https://docs.digitalocean.com/products/kubernetes/support).
+
+---
+
+<TagLinks />

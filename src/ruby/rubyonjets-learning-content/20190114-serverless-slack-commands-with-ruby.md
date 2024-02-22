@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Serverless Slack Commands - Fun with AWS Image Recognition
 description: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
-    content: Serverless Slack Commands - Fun with AWS Image Recognition
-  - property: og:title
-    content: Serverless Slack Commands - Fun with AWS Image Recognition
-  - property: og:description
-    content: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20190114-serverless-slack-commands-with-ruby.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
+    - property: og:description
+      content: Serverless Slack Commands - Fun with AWS Image Recognition
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20190114-serverless-slack-commands-with-ruby.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Serverless Slack Commands - Fun with AWS Image Recognition
 desc: ...
 link: https://blog.boltops.com/2019/01/14/serverless-slack-commands-with-ruby

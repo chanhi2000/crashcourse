@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Official AWS Ruby Support for Jets
 description: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
-    content: Official AWS Ruby Support for Jets
-  - property: og:title
-    content: Official AWS Ruby Support for Jets
-  - property: og:description
-    content: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20181212-official-aws-ruby-support-for-jets-serverless-framework.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
+    - property: og:description
+      content: Official AWS Ruby Support for Jets
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20181212-official-aws-ruby-support-for-jets-serverless-framework.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Official AWS Ruby Support for Jets
 desc: ...
 link: https://blog.boltops.com/2018/12/12/official-aws-ruby-support-for-jets-serverless-framework

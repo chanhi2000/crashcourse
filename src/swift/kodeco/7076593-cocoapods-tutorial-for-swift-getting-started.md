@@ -2,16 +2,22 @@
 lang: ko-KR
 title: CocoaPods Tutorial for Swift - Getting Started
 description: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
-    content: CocoaPods Tutorial for Swift - Getting Started
-  - property: og:title
-    content: CocoaPods Tutorial for Swift - Getting Started
-  - property: og:description
-    content: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
+    - property: og:description
+      content: CocoaPods Tutorial for Swift - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: CocoaPods Tutorial for Swift - Getting Started
 desc: Use this CocoaPods Tutorial for Swift to learn how to install and manage third-party library dependencies in your Swift projects. 
 link: https://www.kodeco.com/7076593-cocoapods-tutorial-for-swift-getting-started

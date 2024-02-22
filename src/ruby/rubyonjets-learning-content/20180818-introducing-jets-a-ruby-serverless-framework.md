@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Introducing Jets - A Ruby Serverless Framework
 description: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
-    content: Introducing Jets - A Ruby Serverless Framework
-  - property: og:title
-    content: Introducing Jets - A Ruby Serverless Framework
-  - property: og:description
-    content: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180818-introducing-jets-a-ruby-serverless-framework.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
+    - property: og:description
+      content: Introducing Jets - A Ruby Serverless Framework
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180818-introducing-jets-a-ruby-serverless-framework.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Introducing Jets - A Ruby Serverless Framework
 desc: ...
 link: https://blog.boltops.com/2018/08/18/introducing-jets-a-ruby-serverless-framework
@@ -32,7 +39,7 @@ color: rgba(20,27,106,0.2)
 
 ---
 
-<YouTube id="17Y3AJl9dw4" />
+<VidStack src="youtube/17Y3AJl9dw4" />
 
 ---
 

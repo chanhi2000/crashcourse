@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 18. newtype and DST
 description: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
-    content: 18. newtype and DST
-  - property: og:title
-    content: 18. newtype and DST
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/18
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
+    - property: og:description
+      content: 18. newtype and DST
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/18.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -21,3 +30,5 @@ meta:
 [[toc]]
 
 ---
+
+<TagLinks />

@@ -2,16 +2,25 @@
 lang: ko-KR
 title: Intro
 description: 🦀freecodecamp.org - Rust by Practice
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice
-    content: 🦀freecodecamp.org - Rust by Practice
-  - property: og:title
-    content: 🦀freecodecamp.org - Rust by Practice
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice
+    - property: og:description
+      content: 🦀freecodecamp.org - Rust by Practice
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rust By Practice
 desc: Practice Rust with challenging examples, exercises and projects
 link: https://practice.rs

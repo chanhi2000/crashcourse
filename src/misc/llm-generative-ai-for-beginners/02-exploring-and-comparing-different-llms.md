@@ -2,16 +2,22 @@
 lang: ko-KR
 title: 02. Exploring and comparing different LLMs
 description: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
-tags: ["crashcourse", "java", "spring", "spring-boot" , "jdk", "wikidocs"]
-meta:
-  - name: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
-    content: 02. Exploring and comparing different LLMs
-  - property: og:title
-    content: 02. Exploring and comparing different LLMs
-  - property: og:description
-    content: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
-  - property: og:url
-    content: https://chanhi2000.github.io/misc/llm-generative-ai-for-beginners/02-exploring-and-comparing-different-llms.html
+category:
+  - 🦙LLM
+tag: 
+  - crashcourse
+  - microsoft
+  - llm
+  - ai
+  - generative-ai
+head:
+  - - meta:
+    - property: og:title
+      content: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
+    - property: og:description
+      content: 02. Exploring and comparing different LLMs
+    - property: og:url
+      content: https://chanhi2000.github.io/misc/llm-generative-ai-for-beginners/02-exploring-and-comparing-different-llms.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Exploring and comparing different LLMs
 desc: Testing, iterating, and comparing different Large Language Models
 link: https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README
@@ -32,7 +38,7 @@ color: rgba(255,255,255,0.2)
 
 ---
 
-<YouTube id="J1mWzw0P74c" />
+<VidStack src="youtube/J1mWzw0P74c" />
 
 With the previous lesson, we have seen how Generative AI is changing the technology landscape, how Large Language Models (LLMs) work and how a business - like our startup - can apply them to their use cases and grow! In this chapter, we're looking to compare and contrast different types of large language models, LLMs to understand their pros and cons.
 

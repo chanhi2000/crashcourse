@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Function Properties Part 6
 description: 🔻Jets - Learning Content > Function Properties Part 6
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Function Properties Part 6
-    content: Function Properties Part 6
-  - property: og:title
-    content: Function Properties Part 6
-  - property: og:description
-    content: 🔻Jets - Learning Content > Function Properties Part 6
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180912-jets-tutorial-function-properties-part-6.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Function Properties Part 6
+    - property: og:description
+      content: Function Properties Part 6
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180912-jets-tutorial-function-properties-part-6.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Function Properties Part 6
 desc: ...
 link: https://blog.boltops.com/2018/09/12/jets-tutorial-function-properties-part-6
@@ -32,7 +39,7 @@ color: rgba(20,27,106,0.2)
 
 ---
 
-<YouTube id="q8sfqR3GRpw" />
+<VidStack src="youtube/q8sfqR3GRpw" />
 
 In this video, we continue the tutorials on the [Jets Ruby Serverless Framework](http://rubyonjets.com/) that adds Ruby support to AWS Lambda. We’ll demonstrate how to customize the properties associated with the Lambda functions that Jets creates. There are 3 ways to set function properties with Jets: at the function level, class level or application level. We’ll also explore the AWS Lambda console and shows how the Lambda function properties connect with Jets.
 

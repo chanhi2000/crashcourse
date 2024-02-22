@@ -2,16 +2,23 @@
 lang: ko-KR
 title: IAM Policies Part 5
 description: 🔻Jets - Learning Content > IAM Policies Part 5
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > IAM Policies Part 5
-    content: IAM Policies Part 5
-  - property: og:title
-    content: IAM Policies Part 5
-  - property: og:description
-    content: 🔻Jets - Learning Content > IAM Policies Part 5
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180911-jets-tutorial-iam-policies-part-5.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Con > IAM Policies Part 5
+    - property: og:description
+      content: IAM Policies Part 5
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180911-jets-tutorial-iam-policies-part-5.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: IAM Policies Part 5
 desc: ...
 link: https://blog.boltops.com/2018/09/11/jets-tutorial-iam-policies-part-5
@@ -32,7 +39,7 @@ color: rgba(32,11,15,0.2)
 
 ---
 
-<YouTube id="T6F61kPSZCc" />
+<VidStack src="youtube/T6F61kPSZCc" />
 
 In this video, we continue the tutorials on the [Jets Ruby Serverless Framework](http://rubyonjets.com/) that adds Ruby support to AWS Lambda. We’ll demonstrate how to customize the IAM policies and roles associated with Jets Lambda functions. IAM policies are important because they handle securing access to your AWS resources so it’s worth learning them. Jets provides you with fine-grain control over the IAM permissions at the function, class, and application level.
 

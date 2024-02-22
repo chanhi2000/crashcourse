@@ -2,16 +2,22 @@
 lang: ko-KR
 title: My App Crashed, Now What?
 description: 🕊️Kodeco - Swift > My App Crashed, Now What?
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > My App Crashed, Now What?
-    content: My App Crashed, Now What?
-  - property: og:title
-    content: My App Crashed, Now What?
-  - property: og:description
-    content: 🕊️Kodeco - Swift > My App Crashed, Now What?
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6334294-my-app-crashed-now-what.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: My App Crashed, Now What?
+    - property: og:description
+      content: 🕊️Kodeco - Swift > My App Crashed, Now What?
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6334294-my-app-crashed-now-what.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: My App Crashed, Now What?
 desc: In this tutorial, you’ll learn what makes your app crash and how to fix it when it does. 
 link: https://www.kodeco.com/6334294-my-app-crashed-now-what
@@ -427,6 +433,6 @@ I hope you enjoyed this tutorial! If you have any questions or comments, please 
 
 ---
 
-[download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/CrashGallery.zip
-
 <TagLinks />
+
+[download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/CrashGallery.zip

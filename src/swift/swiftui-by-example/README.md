@@ -1,17 +1,25 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🕊️SwiftUI by Example
 description: 🕊️SwiftUI by Example
-tags: ["crashcourse", "swift" , "paul-hudson" , "swiftui", "xcode", "appstore"]
-meta:
-  - name: 🕊️SwiftUI by Example
-    content: 🕊️SwiftUI by Example
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - paul-hudson
+  - swift
+  - swiftui
+  - hacking-with-swift
+  - xcode
+  - appstore
+head:
+- - meta:
   - property: og:title
     content: 🕊️SwiftUI by Example
   - property: og:description
-    content: Intro
+    content: 🕊️SwiftUI by Example
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift-swiftui-by-example
+    content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +30,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: HACKING WITH SWIFT
 desc: 🕊️SwiftUI by Example
 link: https://www.hackingwithswift.com/quick-start/swiftui
@@ -555,7 +563,6 @@ color: rgba(174, 10, 10, 0.2)
 - [How to fix “`Missing argument for parameter 'content' in call`”][how-to-fix-missing-argument-for-parameter-content-in-call]
 - [How to fix images not resizing][how-to-fix-images-not-resizing]
 - [How to fix a Form Picker or a `NavigationLink` that isn’t tappable][how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]
-
 
 <!-- Introduction -->
 [dont-panic]: https://www.hackingwithswift.com/quick-start/swiftui/dont-panic

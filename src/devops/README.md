@@ -1,7 +1,13 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🏗️DevOps
 description: 🏗️DevOps
+category:
+  - 🦊Gitlab
+  - ☸Kubernetes
+  - 🐧Linux
+  - 🔺RedHat
+  - 📦AWS
 ---
 
 # {{ $frontmatter.description }} 관련

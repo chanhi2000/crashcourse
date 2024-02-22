@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > Network Sharing
 description: 🐧Linux Journey > Networking Nomad > Network Sharing
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > Network Sharing
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > Network Sharing
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > Network Sharing
+    - property: og:description
+      content: Network Sharing
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03a-network-sharing.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Network Sharing
 desc: Learn about network sharing with rsync, scp, nfs and more.
 link: https://linuxjourney.com/lesson/network-file-sharing

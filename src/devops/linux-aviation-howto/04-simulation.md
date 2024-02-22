@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Simulation
 description: 🐧Linux Aviation HOWTO > Simulation
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Simulation
-    content: Simulation
-  - property: og:title
-    content: Simulation
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Simulation
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/04-simulation.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Simulation
+    - property: og:description
+      content: Simulation
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/04-simulation.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 4. Simulation
 desc: GNU/Linux Aviation HOWTO - Chapter 4. Simulation
 link: https://tldp.org/HOWTO/Aviation-HOWTO/c469.html

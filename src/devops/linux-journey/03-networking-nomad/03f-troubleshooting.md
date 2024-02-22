@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > Troubleshooting
 description: 🐧Linux Journey > Networking Nomad > Troubleshooting
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > Troubleshooting
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > Troubleshooting
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > Troubleshooting
+    - property: og:description
+      content: Troubleshooting
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03f-troubleshooting.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Troubleshooting
 desc: Learn about common networking tools to help you diagnose and troubleshoot issues!
 link: https://linuxjourney.com/lesson/icmp

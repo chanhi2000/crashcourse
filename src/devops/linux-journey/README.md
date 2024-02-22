@@ -1,17 +1,22 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🐧Linux Journey 
 description: 🐧Linux Journey 
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: Linux Journey
-    content: Linux Journey
-  - property: og:title
-    content: Linux Journey
-  - property: og:description
-    content: Linux Journey
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey 
+    - property: og:description
+      content: 🐧Linux Journey 
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Linux Journey
 desc: 🐧Linux Journey
 link: https://linuxjourney.com

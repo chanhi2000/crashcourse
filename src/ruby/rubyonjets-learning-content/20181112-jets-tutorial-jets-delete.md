@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Jets Delete Tutorial
 description: 🔻Jets - Learning Content > Jets Delete Tutorial
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Jets Delete Tutorial
-    content: Jets Delete Tutorial
-  - property: og:title
-    content: Jets Delete Tutorial
-  - property: og:description
-    content: 🔻Jets - Learning Content > Jets Delete Tutorial
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20181112-jets-tutorial-jets-delete.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Jets Delete Tutorial
+    - property: og:description
+      content: Jets Delete Tutorial
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20181112-jets-tutorial-jets-delete.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Jets Delete Tutorial
 desc: ...
 link: https://blog.boltops.com/2018/11/12/jets-tutorial-jets-delete
@@ -32,7 +39,7 @@ color: rgba(240,130,26,0.2)
 
 ---
 
-<YouTube id="RwRMTAjWVtM" />
+<VidStack src="youtube/RwRMTAjWVtM" />
 
 This video tutorial demos the jets delete command. Since all the infrastructure is codified, deleting a Jets application is a straightforward process. What’s more interesting is that it is also easy to recreate the entire environment.
 

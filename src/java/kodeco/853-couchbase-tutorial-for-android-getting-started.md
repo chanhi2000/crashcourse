@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Couchbase Tutorial for Android - Getting Started
 description: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
-    content: Couchbase Tutorial for Android - Getting Started
-  - property: og:title
-    content: Couchbase Tutorial for Android - Getting Started
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/853-couchbase-tutorial-for-android-getting-started.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: Couchbase Tutorial for Android - Getting Started
+    - property: og:description
+      content: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/853-couchbase-tutorial-for-android-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Couchbase Tutorial for Android - Getting Started
 desc: In this couchbase tutorial, you will learn how to use prebuilt Couchbase Lite databases, model, query, upload and sync data including attachments.
 link: https://www.kodeco.com/853-couchbase-tutorial-for-android-getting-started

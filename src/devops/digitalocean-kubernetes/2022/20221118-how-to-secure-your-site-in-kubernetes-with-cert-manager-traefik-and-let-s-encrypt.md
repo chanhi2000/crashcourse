@@ -2,16 +2,22 @@
 lang: ko-KR
 title: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
 description: ☸DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-tags: ["crashcourse", "digitalocean", "kubernetes", "kubctl", "serverless"]
-meta:
-  - name: ☸DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-    content: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-  - property: og:title
-    content: ☸DigitalOcean - Kubernetes
-  - property: og:description
-    content: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-digitalocean-kubernetes/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.html
+category:
+  - ☸Kubernetes
+tag:
+  - crashcourse
+  - digitalocean
+  - kubernetes
+  - kubctl
+  - serverless
+head:
+  - - meta:
+    - property: og:title
+      content: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
+    - property: og:description
+      content: ☸DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
 desc: November 18, 2022
 link: https://digitalocean.com/community/tutorials/how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt
@@ -310,3 +316,4 @@ In this section, you set up cert-manager and configured it to issue certificates
 
 ---
 
+<TagLinks />

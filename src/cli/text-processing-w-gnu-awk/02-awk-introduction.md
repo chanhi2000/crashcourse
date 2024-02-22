@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 2. awk Introduction
 description: 🐚Text Processing with GNU awk > 2. awk Introduction
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Text Processing with GNU awk > 2. awk Introduction
-    content: 2. awk Introduction
-  - property: og:title
-    content: 2. awk Introduction
-  - property: og:description
-    content: 🐚Text Processing with GNU awk > 2. awk Introduction
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/02-awk-introduction.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tags:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head: 
+  - - meta:
+    - property: og:title
+      content: 🐚Text Processing with GNU awk > 2. awk Introduction
+    - property: og:description
+      content: 2. awk Introduction
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/02-awk-introduction.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 2. awk Introduction
 desc: CLI Text Processing with GNU awk
 link: https://learnbyexample.github.io/learn_gnuawk/awk-introduction.html

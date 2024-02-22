@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Polymorphic Support Part 9
 description: 🔻Jets - Learning Content > Polymorphic Support Part 9
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Polymorphic Support Part 9
-    content: Polymorphic Support Part 9
-  - property: og:title
-    content: Polymorphic Support Part 9
-  - property: og:description
-    content: 🔻Jets - Learning Content > Polymorphic Support Part 9
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180927-jets-tutorial-polymorphic-support-part-9.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Polymorphic Support Part 9
+    - property: og:description
+      content: Polymorphic Support Part 9
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180927-jets-tutorial-polymorphic-support-part-9.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Polymorphic Support Part 9
 desc: ...
 link: https://blog.boltops.com/2018/09/27/jets-tutorial-polymorphic-support-part-9
@@ -32,7 +39,7 @@ color: rgba(26,14,21,0.2)
 
 ---
 
-<YouTube id="asylnFoKAYA"/>
+<VidStack src="youtube/asylnFoKAYA"/>
 
 In this video tutorial, we cover Jets Polymorphic Support Ability. Jets allows you to write Lambda functions not just in Ruby but also in other languages like Node and Python. This can be useful if you have pre-existing Lambda code. You can re-use the code and and move on with life.
 

@@ -1,17 +1,25 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🔺Red Hat Container Tools
 description: 🔺Red Hat Container Tools
-tags: ["crashcourse", "redhat", "buildah", "podman", "skopeo", "sesearch", "semodule"]
-meta:
-  - name: Red Hat Container Tools
-    content: Red Hat Container Tools
-  - property: og:title
-    content: Red Hat Container Tools
-  - property: og:description
-    content: An Overview of Container Tools
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-red-hat-container-tools
+category:
+  - 🔺RedHat
+tag: 
+  - crashcourse
+  - redhat
+  - buildah
+  - podman
+  - skopeo
+  - sesearch
+  - semodule
+head:
+  - - meta:
+    - property: og:title
+      content: 🔺Red Hat Container Tools
+    - property: og:description
+      content: 🔺Red Hat Container Tools
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-container-tools.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +30,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Red Hat Container Tools
 desc: Intro
 link: https://developers.redhat.com/courses/devops-red-hat-container-tools

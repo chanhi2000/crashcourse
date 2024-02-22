@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Training
 description: 🐧Linux Aviation HOWTO > Training
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Training
-    content: Training
-  - property: og:title
-    content: Training
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Training
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/05-training.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Training
+    - property: og:description
+      content: Training
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/05-training.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 5. Training
 desc: GNU/Linux Aviation HOWTO - Chapter 5. Training
 link: https://tldp.org/HOWTO/Aviation-HOWTO/c633.html

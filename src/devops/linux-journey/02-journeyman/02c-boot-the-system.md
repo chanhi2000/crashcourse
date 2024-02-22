@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Boot the System
 description: 🐧Linux Journey > Journeyman > Boot the System
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Boot the System
-    content: Boot the System
-  - property: og:title
-    content: Boot the System
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Boot the System
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02c-boot-the-system.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Boot the System
+    - property: og:description
+      content: Boot the System
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02c-boot-the-system.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Boot the System
 desc: Learn about the stages of the Linux boot process.
 link: https://linuxjourney.com/lesson/boot-process-overview

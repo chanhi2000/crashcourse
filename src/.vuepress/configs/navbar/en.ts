@@ -1,13 +1,10 @@
-import type { NavbarConfig } from '@vuepress/theme-default'
+import { navbar } from "vuepress-theme-hope";
 
-export const navbarEn: NavbarConfig = [
+export const navbarEn = navbar([
   {
     text: '🐚', // Projects
-    children: [
+  children: [
       {
-        text: 'Intro',
-        link: '/cli/README.md'
-      }, {
         text: '🐚Text Processing with GNU awk',
         link: '/cli/text-processing-w-gnu-awk/README.md'
       }, {
@@ -19,14 +16,11 @@ export const navbarEn: NavbarConfig = [
     text: '🕊️',
     children: [
       {
-        text: 'Intro',
-        link: '/swift/README.md'
-      }, {
         text: '🕊️100 Days of Swift',
-      link: '/swift/100-days-of-swift/97.md'
+      link: '/swift/100-days-of-swift/98.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/80.md'
+        link: '/swift/100-days-of-swiftui/81.md'
       }, {
         text: '🕊️SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
@@ -42,9 +36,6 @@ export const navbarEn: NavbarConfig = [
     text: '☕️🅺🍃',
     children: [
       {
-        text: 'Intro',
-        link: '/java/README.md'
-      }, {
         text: '☕️Java8 in Action',
         link: '/java/java-8-in-action/README.md',
       }, {
@@ -65,9 +56,6 @@ export const navbarEn: NavbarConfig = [
     text: '🧶',
     children: [
       {
-        text: 'Intro',
-        link: '/js/README.md'
-      }, {
         text: '🧶Learn Typescript',
         link: '/js/learn-ts/README.md',
       }, {
@@ -79,9 +67,6 @@ export const navbarEn: NavbarConfig = [
     text: '🐍',
     children: [
       {
-        text: 'Intro',
-        link: '/python/README.md'
-      }, {
         text: '🐍Finance with Python',
         link: '/python/finance-w-python/README.md',
       }, {
@@ -93,9 +78,6 @@ export const navbarEn: NavbarConfig = [
     text: '🦀',
     children: [
       {
-        text: 'Intro',
-        link: '/rust/README.md'
-      }, {
         text: '🦀freecodecamp.org - Rust by Practice',
         link: '/rust/freecodecamp-rust-by-practice/README.md',
       }, {
@@ -110,9 +92,6 @@ export const navbarEn: NavbarConfig = [
     text: '🔻',
     children: [
       {
-        text: 'Intro',
-        link: '/ruby/README.md'
-      }, {
         text: '🔻Jets - Learning Content',
         link: '/ruby/rubyonjets-learning-content/README.md',
       },
@@ -121,9 +100,6 @@ export const navbarEn: NavbarConfig = [
     text: '🏗️',
     children: [
       {
-        text: 'Intro',
-        link: '/devops/README.md'
-      }, {
         text: '🔺Red Hat Container Tools',
         link: '/devops/red-hat-container-tools/README.md',
       }, {
@@ -173,4 +149,4 @@ export const navbarEn: NavbarConfig = [
 //     }
 //   ]
 // }, 
-];
+])

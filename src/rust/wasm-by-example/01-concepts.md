@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 01. Concepts
 description: 🦀Wasm by Example (for Rust) > 01. Concepts
-tags: ["crashcourse", "wasm", "rust", "assemblyscript", "c", "cpp"]
-meta:
-  - name: 🦀Wasm by Example (for Rust)
-    content: 🦀Wasm by Example (for Rust) > 01. Concepts
-  - property: og:title
-    content: 🦀Wasm by Example (for Rust)
-  - property: og:description
-    content: 01. Concepts
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-wasm-by-example/01-concepts.html
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - rust
+  - rs
+  - wasm 
+  - assembly
+  - assemblyscript
+  - c 
+  - cpp
+head: 
+  - - meta:
+    - property: og:title
+      content: 🦀Wasm by Example (for Rust) > 01. Concepts
+    - property: og:description
+      content: 01. Concepts
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/wasm-by-example/01-concepts.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -28,7 +37,7 @@ Examples that express some of the major underlying concepts in WebAssembly. Some
 
 ## Introduction
 
-```card
+```component VPCard
 title: Wasm By Example - Introduction
 desc: Introduction
 link: https://wasmbyexample.dev/examples/introduction/introduction.all.en-us.html
@@ -51,7 +60,7 @@ With that, let's take a look at our [Hello World](#hello-world) to see some of t
 
 ## Hello World!
 
-```card
+```component VPCard
 title: Wasm By Example - Hello World!
 desc: Hello World!
 link: https://wasmbyexample.dev/examples/hello-world/hello-world.rust.en-us.html
@@ -193,7 +202,7 @@ Next let's take a deeper look at WebAssembly [Exports](#Exports).
 
 ## Exports
 
-```card
+```component VPCard
 title: Wasm By Example - Exports
 desc: Exports
 link: https://wasmbyexample.dev/examples/exports/exports.rust.en-us.html
@@ -303,7 +312,7 @@ Next let's take a look at [WebAssembly Linear Memory](#webassembly-linear-memory
 
 ## WebAssembly Linear Memory
 
-```card
+```component VPCard
 title: Wasm By Example - WebAssembly Linear Memory
 desc: WebAssembly Linear Memory
 link: https://wasmbyexample.dev/examples/webassembly-linear-memory/webassembly-linear-memory.rust.en-us.html
@@ -468,7 +477,7 @@ Next let's take a look at [importing JavaScript functions into WebAssembly](#imp
 
 ## Importing Javascript Functions Into WebAssembly
 
-```card
+```component VPCard
 title: Wasm By Example - Importing Javascript Functions Into WebAssembly
 desc: Importing Javascript Functions Into WebAssembly
 link: https://wasmbyexample.dev/examples/importing-javascript-functions-into-webassembly/importing-javascript-functions-into-webassembly.rust.en-us.html

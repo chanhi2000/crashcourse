@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Different Environments Part 8
 description: 🔻Jets - Learning Content > Different Environments Part 8
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Different Environments Part 8
-    content: Different Environments Part 8
-  - property: og:title
-    content: Different Environments Part 8
-  - property: og:description
-    content: 🔻Jets - Learning Content > Different Environments Part 8
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20180926-jets-tutorial-different-environments-part-8.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Different Environments Part 8
+    - property: og:description
+      content: Different Environments Part 8
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20180926-jets-tutorial-different-environments-part-8.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Different Environments Part 8
 desc: ...
 link: https://blog.boltops.com/2018/09/26/jets-tutorial-different-environments-part-8
@@ -32,7 +39,7 @@ color: rgba(13,31,56,0.2)
 
 ---
 
-<YouTube id="-fiSQ2nBSxw" />
+<VidStack src="youtube/-fiSQ2nBSxw" />
 
 In this video, we continue the tutorials on the [Jets Ruby Serverless Framework](http://rubyonjets.com/) that adds Ruby support to AWS Lambda. We talk about the difference between Jets extra vs different environments. Different environments refer to development, staging, uat, production environments. Extra environments refer to instances of each of those environments. For example, development-1, development-2, development-3, etc.
 

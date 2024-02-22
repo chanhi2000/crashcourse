@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Data Sources
 description: 🐧Linux Aviation HOWTO > Data Sources
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Data Sources
-    content: Data Sources
-  - property: og:title
-    content: Data Sources
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Data Sources
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/06-data-sources.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Data Sources
+    - property: og:description
+      content: Data Sources
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/06-data-sources.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 5. Data Sources
 desc: GNU/Linux Aviation HOWTO - Chapter 6. Data Sources
 link: https://tldp.org/HOWTO/Aviation-HOWTO/c700.html

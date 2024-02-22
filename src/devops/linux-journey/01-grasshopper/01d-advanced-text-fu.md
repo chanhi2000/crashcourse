@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Advanced Text-Fu
 description: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
-    content: Advanced Text-Fu
-  - property: og:title
-    content: Advanced Text-Fu
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
+    - property: og:description
+      content: Advanced Text-Fu
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01d-advanced-text-fu.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Advanced Text-Fu
 desc: Navigate text like a Linux spider monkey with vim and emacs.
 link: https://linuxjourney.com/lesson/regular-expressions-regex

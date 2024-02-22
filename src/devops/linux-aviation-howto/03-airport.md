@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Airport
 description: 🐧Linux Aviation HOWTO > Airport
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Airport
-    content: Airport
-  - property: og:title
-    content: Airport
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Airport
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/03-airport.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Airport
+    - property: og:description
+      content: Airport
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/03-airport.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 3. Airport
 desc: GNU/Linux Aviation HOWTO - Chapter 3. Airport
 link: https://tldp.org/HOWTO/Aviation-HOWTO/x451.html

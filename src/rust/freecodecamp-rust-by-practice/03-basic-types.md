@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 3. Basic Types
 description: 🦀freecodecamp.org - Rust by Practice > 3. Basic Types
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 3. Basic Types
-    content: 3. Basic Types
-  - property: og:title
-    content: 3. Basic Types
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 3. Basic Types
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/03
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 3. Basic Types
+    - property: og:description
+      content: 3. Basic Types
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/03.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rust By Practice
 desc: 3. Basic Types
 link: https://practice.rs/basic-types/numbers.html
@@ -2219,3 +2228,7 @@ fn main() {
 You can find the solutions [here (<FontIcon icon="iconfont icon-github"/>`sunface/rust-by-practice`)](https://github.com/sunface/rust-by-practice) (under the solutions path), but only use it when you need it
 
 :::
+
+---
+
+<TagLinks />

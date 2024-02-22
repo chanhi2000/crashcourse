@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 4. Ownership and Borrowing
 description: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
-    content: 4. Ownership and Borrowing
-  - property: og:title
-    content: 4. Ownership and Borrowing
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/04
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
+    - property: og:description
+      content: 4. Ownership and Borrowing
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/04.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rust By Practice
 desc: 4. Ownership and Borrowing
 link: https://practice.rs/ownership/ownership.html

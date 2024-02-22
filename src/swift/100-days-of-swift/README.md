@@ -2,29 +2,36 @@
 lang: ko-KR
 title: Intro
 description: 🕊️100 Days of Swift
-tags: ["crashcourse", "swift" , "paul-hudson" , "xcode", "appstore"]
-meta:
-  - name: 100 Days of Swift
-    content: 100 Days of Swift
-  - property: og:title
-    content: 100 Days of Swift
-  - property: og:description
-    content: 100 Days of Swift
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - paul-hudson
+  - swift
+  - hacking-with-swift
+  - xcode
+  - appstore
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️100 Days of Swift
+    - property: og:description
+      content: 🕊️100 Days of Swift
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift
 ---
 
 # {{ $frontmatter.title }} 관련
 
 > {{ $frontmatter.description }}
 
-<YouTube id="RB5nWzdl-b8" />
+<VidStack src="youtube/RB5nWzdl-b8" />
 
 [[toc]]
 
 ---
 
-```card
+```component VPCard
 title: HACKING WITH SWIFT
 desc: 🕊️100 Days of Swift
 link: https://www.hackingwithswift.com/100
@@ -261,16 +268,16 @@ As we enter the last few days of this challenge, it’s as important as ever to 
 - [Day 90][day-90] – Milestone: Projects 25-27
 - [Day 91][day-91] – Core Graphics redux
 
-### Days 92-98: The Final Countdown
+### ✅Days 92-98: The Final Countdown
 
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
 
-- ✅[Day 92][day-92] – Project 28, part one
-- ✅[Day 93][day-93] – Project 28, part two
-- ✅[Day 94][day-94] – Project 29, part one
-- ✅[Day 95][day-95] – Project 29, part two
-- ✅[Day 96][day-96] – Project 29, part three
-- ✅[Day 97][day-97] – Project 30, part one
+- [Day 92][day-92] – Project 28, part one
+- [Day 93][day-93] – Project 28, part two
+- [Day 94][day-94] – Project 29, part one
+- [Day 95][day-95] – Project 29, part two
+- [Day 96][day-96] – Project 29, part three
+- [Day 97][day-97] – Project 30, part one
 - [Day 98][day-98] – Project 30, part two
 
 ### Day 99: Consolidation XI
@@ -290,15 +297,15 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [100-days-of-swiftui]: ../100-days-of-swiftui/README.md
 [glossary]: https://www.hackingwithswift.com/glossary
 
-[day-1]: 1.md
-[day-2]: 2.md
-[day-3]: 3.md
-[day-4]: 4.md
-[day-5]: 5.md
-[day-6]: 6.md
-[day-7]: 7.md
-[day-8]: 8.md
-[day-9]: 9.md
+[day-1]: 01.md
+[day-2]: 02.md
+[day-3]: 03.md
+[day-4]: 04.md
+[day-5]: 05.md
+[day-6]: 06.md
+[day-7]: 07.md
+[day-8]: 08.md
+[day-9]: 09.md
 [day-10]: 10.md
 [day-11]: 11.md
 [day-12]: 12.md
@@ -387,7 +394,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-95]: 95.md
 [day-96]: 96.md
 [day-97]: 97.md
-[day-98]: https://www.hackingwithswift.com/100/98
+[day-98]: 98.md
 [day-99]: https://www.hackingwithswift.com/100/99
 [day-100]: https://www.hackingwithswift.com/100/100
 [epilog]: https://www.hackingwithswift.com/100/101

@@ -1,15 +1,20 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🎨Colt Steele - Mastering CSS Grid
 description: 🎨Colt Steele - Mastering CSS Grid
-tags: ["crashcourse", "swift" , "paul-hudson" , "swiftui", "xcode", "appstore"]
-meta:
-  - name: Colt Steele - Mastering CSS Grid
-    content: Colt Steele - Mastering CSS Grid
+category:
+  - 🎨CSS
+tag: 
+  - crashcourse
+  - colt-steele
+  - css
+  - grid
+head:
+- - meta:
   - property: og:title
-    content: Colt Steele - Mastering CSS Grid
+    content: 🎨Colt Steele - Mastering CSS Grid
   - property: og:description
-    content: Intro
+    content: 🎨Colt Steele - Mastering CSS Grid
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/colt-steele-mastering-css-grid
 ---
@@ -58,18 +63,14 @@ To wrap up the CSS Grid tutorial, follow along as a common layout is built step-
 
 ## Contents
 
-- [CSS Grid Basics][01-css-grid-basics]
-- [Units and Utilities][02-units-and-utilities]
-- [Positioning Elements by Lines][03-positioning-elements-by-lines]
-- [Grid Areas][04-grid-areas]
-- [The Implicit Grid][05-the-implicit-grid]
-- [Creating Responsive Grids][06-creating-responsive-grids]
-- [Building an Example Layout][07-building-an-example-layout]
+- [CSS Grid Basics](01-css-grid-basics.md)
+- [Units and Utilities](02-units-and-utilities.md)
+- [Positioning Elements by Lines](03-positioning-elements-by-lines.md)
+- [Grid Areas](04-grid-areas.md)
+- [The Implicit Grid](05-the-implicit-grid.md)
+- [Creating Responsive Grids](06-creating-responsive-grids.md)
+- [Building an Example Layout](07-building-an-example-layout.md)
 
-[01-css-grid-basics]: 01-css-grid-basics.md
-[02-units-and-utilities]: 02-units-and-utilities.md
-[03-positioning-elements-by-lines]: 03-positioning-elements-by-lines.md
-[04-grid-areas]: 04-grid-areas.md
-[05-the-implicit-grid]: 05-the-implicit-grid.md
-[06-creating-responsive-grids]: 06-creating-responsive-grids.md
-[07-building-an-example-layout]: 07-building-an-example-layout.md
+---
+
+<TagLinks />

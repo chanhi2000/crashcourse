@@ -1,7 +1,9 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🔻Ruby
 description: 🔻Ruby
+category:
+  - 🔻Ruby
 ---
 
 # {{ $frontmatter.description }} 관련

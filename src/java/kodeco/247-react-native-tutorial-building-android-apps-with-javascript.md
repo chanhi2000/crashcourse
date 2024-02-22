@@ -2,16 +2,28 @@
 lang: ko-KR
 title: React Native Tutorial - Building Android Apps with JavaScript
 description: 🅺Kodeco - Android & Kotlin > React Native Tutorial - Building Android Apps with JavaScript
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > React Native Tutorial - Building Android Apps with JavaScript
-    content: React Native Tutorial - Building Android Apps with JavaScript
-  - property: og:title
-    content: React Native Tutorial - Building Android Apps with JavaScript
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > React Native Tutorial - Building Android Apps with JavaScript
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java/kodeco/247-react-native-tutorial-building-android-apps-with-javascript.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+  - react
+  - react-native
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > React Native Tutorial - Building Android Apps with JavaScript
+    - property: og:description
+      content: React Native Tutorial - Building Android Apps with JavaScript
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/247-react-native-tutorial-building-android-apps-with-javascript.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +34,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: React Native Tutorial - Building Android Apps with JavaScript
 desc: In this React Native tutorial you’ll learn how to build native apps based on the hugely popular React JavaScript library, with a focus on Android.
 link: https://www.kodeco.com/247-react-native-tutorial-building-android-apps-with-javascript

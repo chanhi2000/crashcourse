@@ -2,16 +2,24 @@
 lang: ko-KR
 title: Map Rust vector iteration to assembly
 description: 🦀Rust to Assembly > Map Rust vector iteration to assembly
-tags: ["crashcourse", "digitalocean", "rust", "rs", "assembly"]
-meta:
-  - name: 🦀Rust to Assembly - Map Rust vector iteration to assembly
-    content: Map Rust vector iteration to assembly
-  - property: og:title
-    content: 🦀Rust to Assembly
-  - property: og:description
-    content: Map Rust vector iteration to assembly
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-eventhelix-rust-to-assembly/rust-enum-and-match-representation-in-assembly.html
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - digitalocean
+  - eventhelix
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀Rust to Assembly > Map Rust vector iteration to assembly
+    - property: og:description
+      content: Map Rust vector iteration to assembly
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-to-assembly/rust-enum-and-match-representation-in-assembly.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +30,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Map Rust vector iteration to assembly
 desc: Learn how to map Rust vector iteration to assembly. Also understand how the compiler optimizes the loop with vector instructions.
 link: https://eventhelix.com/rust/rust-to-assembly-vector-iteration

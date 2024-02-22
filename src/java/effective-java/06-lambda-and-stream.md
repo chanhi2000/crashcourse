@@ -2,16 +2,21 @@
 lang: ko-KR
 title: 람다와 스트림
 description: ☕️Effective Java > 람다와 스트림
-tags: ["crashcourse", "java", "jdk"]
-meta:
-  - name: ☕️Effective Java > 람다와 스트림
-    content: 람다와 스트림
-  - property: og:title
-    content: 람다와 스트림
-  - property: og:description
-    content: ☕️Effective Java > 람다와 스트림
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/java-effective-java.html
+category: 
+  - ☕️Java
+tag: 
+  - crashcourse
+  - java
+  - jdk
+  - jdk8
+head:
+  - - meta:
+    - property: og:title
+      content: ☕️Effective Java > 람다와 스트림
+    - property: og:description
+      content: 람다와 스트림
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/effective-java/06-lambda-and-stream.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -21,3 +26,5 @@ meta:
 [[toc]]
 
 ---
+
+<TagLinks />

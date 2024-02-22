@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 26. Macro
 description: 🦀freecodecamp.org - Rust by Practice > 26. Macro
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 26. Macro
-    content: 26. Macro
-  - property: og:title
-    content: 26. Macro
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 26. Macro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/26
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 26. Macro
+    - property: og:description
+      content: 26. Macro
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/26.html
 ---
 
 # {{ $frontmatter.title }} 관련

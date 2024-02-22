@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Assembly code generated when self is passed by value, reference or as a smart pointer
 description: 🦀Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
-tags: ["crashcourse", "digitalocean", "rust", "rs", "assembly"]
-meta:
-  - name: 🦀Rust to Assembly - Assembly code generated when self is passed by value, reference or as a smart pointer
-    content: Assembly code generated when self is passed by value, reference or as a smart pointer
-  - property: og:title
-    content: 🦀Rust to Assembly
-  - property: og:description
-    content: Assembly code generated when self is passed by value, reference or as a smart pointer
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-eventhelix-rust-to-assembly/assembly-code-generated-when-self-is-passed-by-value-reference-or-as-a-smart-pointer.html
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - digitalocean
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: Assembly code generated when self is passed by value, reference or as a smart pointer
+    - property: og:description
+      content: 🦀Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-to-assembly/assembly-code-generated-when-self-is-passed-by-value-reference-or-as-a-smart-pointer.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Assembly code generated when self is passed by value, reference or as a smart pointer
 desc: Learn how enums are organized in memory. Also understand the generated assembly code for match on an enum.
 link: https://eventhelix.com/rust/rust-to-assembly-enum-match
@@ -383,3 +390,7 @@ On a 64-bit machine, `Rc` and `Arc` add a 16 byte overhead on the heap.
 ## View in the Compiler Explorer
 
 See the direct mapping from the Rust code to the assembly for [all the methods we have covered in this article.](https://godbolt.org/z/b344MYPc6)
+
+---
+
+<TagLinks />

@@ -2,16 +2,21 @@
 lang: ko-KR
 title: 02. Units and Utilities
 description: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
-tags: ["crashcourse", "swift" , "paul-hudson" , "xcode", "appstore"]
-meta:
-  - name: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
-    content: 02. Units and Utilities
-  - property: og:title
-    content: 02. Units and Utilities
-  - property: og:description
-    content: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/colt-steele-mastering-css-grid/02-units-and-utilities.html
+category:
+  - 🎨CSS
+tag: 
+  - crashcourse
+  - colt-steele
+  - css
+  - grid
+head:
+  - - meta:
+    - property: og:title
+      content: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
+    - property: og:description
+      content: 02. Units and Utilities
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/misc/colt-steele-mastering-css-grid/02-units-and-utilities.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Journeyman > Kernel
 description: 🐧Linux Journey > Journeyman > Kernel
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Journeyman > Kernel
-    content: Kernel
-  - property: og:title
-    content: Kernel
-  - property: og:description
-    content: 🐧Linux Journey > Journeyman > Kernel
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-journeyman/02d-kernel.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Journeyman > Kernel
+    - property: og:description
+      content: Kernel
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02d-kernel.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Kernel
 desc: The most important part of the Linux system, learn about how it works and how to configure it.
 link: https://linuxjourney.com/lesson/kernel-overview

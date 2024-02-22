@@ -2,16 +2,22 @@
 lang: ko-KR
 title: UIGestureRecognizer Tutorial - Getting Started
 description: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
-    content: UIGestureRecognizer Tutorial - Getting Started
-  - property: og:title
-    content: UIGestureRecognizer Tutorial - Getting Started
-  - property: og:description
-    content: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
+category:
+  - 🕊️Swift
+tag: 
+  - crashcourse
+  - kodeco
+  - swift
+  - ios
+  - xcode
+head:
+  - - meta:
+    - property: og:title
+      content: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
+    - property: og:description
+      content: UIGestureRecognizer Tutorial - Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +28,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: UIGestureRecognizer Tutorial - Getting Started
 desc: In this tutorial, you’ll learn how to configure UIGestureRecognizer objects and how to create custom recognizers in code.
 link: https://www.kodeco.com/6747815-uigesturerecognizer-tutorial-getting-started

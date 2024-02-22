@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Websites and Catalogs
 description: 🐧Linux Aviation HOWTO > Websites and Catalogs
-tags: ["crashcourse", "linux" , "os" , "aviation"]
-meta:
-  - name: 🐧Linux Aviation HOWTO > Websites and Catalogs
-    content: Websites and Catalogs
-  - property: og:title
-    content: Websites and Catalogs
-  - property: og:description
-    content: 🐧Linux Aviation HOWTO > Websites and Catalogs
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-aviation-howto/07-websites-and-catalogs.html
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux 
+  - os
+  - aviation
+haed:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Aviation HOWTO > Websites and Catalogs
+    - property: og:description
+      content: Websites and Catalogs
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/07-websites-and-catalogs.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Chapter 7. Websites and Catalogs
 desc: GNU/Linux Aviation HOWTO - Chapter 7. Websites and Catalogs
 link: https://tldp.org/HOWTO/Aviation-HOWTO/c748.html

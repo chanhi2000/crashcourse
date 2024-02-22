@@ -2,16 +2,24 @@
 lang: ko-KR
 title: Rust enum and match representation in assembly
 description: 🦀Rust to Assembly > Rust enum and match representation in assembly
-tags: ["crashcourse", "digitalocean", "rust", "rs", "assembly"]
-meta:
-  - name: 🦀Rust to Assembly - Rust enum and match representation in assembly
-    content: Rust enum and match representation in assembly
-  - property: og:title
-    content: 🦀Rust to Assembly
-  - property: og:description
-    content: Rust enum and match representation in assembly
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-eventhelix-rust-to-assembly/rust-enum-and-match-representation-in-assembly.html
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - digitalocean
+  - eventhelix
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀Rust to Assembly > Rust enum and match representation in assembly
+    - property: og:description
+      content: Rust enum and match representation in assembly
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-to-assembly/rust-enum-and-match-representation-in-assembly.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +30,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rust enum and match representation in assembly
 desc: Learn how enums are organized in memory. Also understand the generated assembly code for match on an enum.
 link: https://eventhelix.com/rust/rust-to-assembly-enum-match

@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Broadcast Channel API
 description: 🧶Must Know JavaScript API > Broadcast Channel API
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🧶Must Know JavaScript API > Broadcast Channel API
-    content: Broadcast Channel API
-  - property: og:title
-    content: Broadcast Channel API
-  - property: og:description
-    content: 🧶Must Know JavaScript API > Broadcast Channel API
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/js-must-know-javascript-api/broadcast-channel.html
+categroy:
+  - 🧶JavaScript
+tag: 
+  - blog
+  - js
+  - api
+  - broadcast
+head:
+  - - meta:
+    - property: og:title
+      content: 🧶Must Know JavaScript API > Broadcast Channel API
+    - property: og:description
+      content: Broadcast Channel API
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/js/must-know-javascript-api/broadcast-channel.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -189,6 +194,6 @@ A few Github open-source projects based on the Broadcast Channel API wrapper are
 
 The Broadcast Channel API is a Web API that enables easy sharing of data between different browser windows. We hope this article will help readers to use this API better.
 
-
+---
 
 <TagLinks />

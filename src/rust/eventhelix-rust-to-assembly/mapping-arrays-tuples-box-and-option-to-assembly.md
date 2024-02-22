@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Mapping Arrays, Tuples, Box and Option to assembly
 description: 🦀Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
-tags: ["crashcourse", "digitalocean", "rust", "rs", "assembly"]
-meta:
-  - name: 🦀Rust to Assembly - Mapping Arrays, Tuples, Box and Option to assembly
-    content: Mapping Arrays, Tuples, Box and Option to assembly
-  - property: og:title
-    content: 🦀Rust to Assembly
-  - property: og:description
-    content: Mapping Arrays, Tuples, Box and Option to assembly
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-eventhelix-rust-to-assembly/mapping-arrays-tuples-box-and-option-to-assembly.html
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - digitalocean
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
+    - property: og:description
+      content: Mapping Arrays, Tuples, Box and Option to assembly
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rs-eventhelix-rust-to-assembly/mapping-arrays-tuples-box-and-option-to-assembly.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Mapping Arrays, Tuples, Box and Option to assembly
 desc: Learn how Arrays, Tuples, Box and Option are represented in memory. Also understand the generated assembly code for these types.
 link: https://eventhelix.com/rust/rust-to-assembly-arrays-option-box
@@ -374,3 +381,7 @@ You can hover over the opcodes in the assembly code to learn about the individua
 
 - `shufps` is a vectorized instruction that can shuffle the contents of a move based on two-bit control fields.
 - `pshufd` also supports fancy shuffling options that are explained in a [stack exchange article](https://reverseengineering.stackexchange.com/questions/20338/how-do-the-pshuflw-and-pshufd-instructions-work).
+
+---
+
+<TagLinks />

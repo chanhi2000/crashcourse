@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Rails Support - Jets Afterburner
 description: 🔻Jets - Learning Content > Rails Support - Jets Afterburner
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Rails Support - Jets Afterburner
-    content: Rails Support - Jets Afterburner
-  - property: og:title
-    content: Rails Support - Jets Afterburner
-  - property: og:description
-    content: 🔻Jets - Learning Content > Rails Support - Jets Afterburner
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20181221-jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Rails Support - Jets Afterburner
+    - property: og:description
+      content: Rails Support - Jets Afterburner
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20181221-jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Rails Support - Jets Afterburner
 desc: Jets Afterburner - Serverless Rails on AWS Lambda in 5 Minutes
 link: https://blog.boltops.com/2018/12/21/jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes
@@ -32,7 +39,7 @@ color: rgba(250,113,21,0.2)
 
 ---
 
-<YouTube id="P44Le1VF6us" />
+<VidStack src="youtube/P44Le1VF6us" />
 
 In this post and video, we’ll cover how to deploy a Rails application to AWS Lambda Serverless in a few minutes. With Jets Afterburner, you don’t have to make any changes to your Rails application to get it on AWS Lambda. 🎉
 

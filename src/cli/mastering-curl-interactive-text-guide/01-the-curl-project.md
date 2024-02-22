@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 1. The curl Project
 description: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
-    content: 1. The curl Project
-  - property: og:title
-    content: 1. The curl Project
-  - property: og:description
-    content: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/01-the-curl-project.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head:
+  - - meta:
+    - property: og:title
+      content: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
+    - property: og:description
+      content: 1. The curl Project
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/01-the-curl-project.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 1. The curl Project
 desc: Mastering curl - interactive text guide
 link: https://antonz.org/mastering-curl/#the-curl-project
@@ -73,3 +82,6 @@ To see the full version, try `curl --manual` (be careful, it's _huge_).
 
 There is also a book named [Everything curl](https://curl.se/book.html) available online, and [commercial support](https://curl.se/support.html) provided by the company Daniel works for.
 
+---
+
+<TagLinks />

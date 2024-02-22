@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 21. Self referential
 description: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
-tags: ["crashcourse", "rust", "rs", "youtube", "freecodecamp", "zubiarfan"]
-meta:
-  - name: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
-    content: 21. Self referential
-  - property: og:title
-    content: 21. Self referential
-  - property: og:description
-    content: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/rs-freecodecamp-rust-by-practice/21
+category: 
+  - 🦀Rust
+tag: 
+  - crashcourse
+  - freecodecamp
+  - zubiarfan
+  - youtube
+  - rust
+  - rs
+  - wasm
+  - assembly
+head:
+  - - meta:
+    - property: og:title
+      content: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
+    - property: og:description
+      content: 21. Self referential
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/21.html
 ---
 
 # {{ $frontmatter.title }} 관련

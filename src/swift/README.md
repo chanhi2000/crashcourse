@@ -1,7 +1,16 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🕊️Swift
 description: 🕊️Swift
+category: 
+  - 🕊️Swift
+  - 🏛Objective-C
+tag: 
+  - crashcourse
+  - swift
+  - objc
+  - objective-c
+  - cocoapods
 ---
 
 # {{ $frontmatter.description }} 관련

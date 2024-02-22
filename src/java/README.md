@@ -1,7 +1,18 @@
 ---
 lang: ko-KR
-title: Intro
+title: ☕️Java / 🅺Kotlin / 🍃Spring
 description: ☕️Java / 🅺Kotlin / 🍃Spring
+category:
+  - ☕️Java 
+  - 🅺Kotlin
+  - 🍃Spring
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - java
+  - kotiln
+  - android
+  - gradle
 ---
 
 # {{ $frontmatter.description }} 관련

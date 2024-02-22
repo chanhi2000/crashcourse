@@ -2,16 +2,21 @@
 lang: ko-KR
 title: GrassHopper > Getting Started
 description: 🐧Linux Journey > GrassHopper > Getting Started
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > GrassHopper > Getting Started
-    content: Getting Started
-  - property: og:title
-    content: Getting Started
-  - property: og:description
-    content: 🐧Linux Journey > GrassHopper > Getting Started
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/01-grasshopper/01a-getting-started
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > GrassHopper > Getting Started
+    - property: og:description
+      content: Getting Started
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01a-getting-started.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Getting Started
 desc: What is Linux? Get started with choosing a distribution and installation.
 link: https://linuxjourney.com/lesson/linux-history

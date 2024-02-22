@@ -2,16 +2,26 @@
 lang: ko-KR
 title: Dependency Injection in Android with Dagger 2 and Kotlin
 description: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
-tags: ["crashcourse", "kotiln", "android"]
-meta:
-  - name: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
-    content: Dependency Injection in Android with Dagger 2 and Kotlin
-  - property: og:title
-    content: Dependency Injection in Android with Dagger 2 and Kotlin
-  - property: og:description
-    content: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/262-dependency-injection-in-android-with-dagger-2-and-kotlin.html
+category:
+  - ☕️Java
+  - 🅺Kotlin
+  - 🤖Android
+  - 🐘Gradle
+tag: 
+  - crashcourse
+  - kodeco
+  - java
+  - kotiln
+  - android
+  - gradle
+head:
+  - - meta:
+    - property: og:title
+      content: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
+    - property: og:description
+      content: Dependency Injection in Android with Dagger 2 and Kotlin
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/java/kodeco/262-dependency-injection-in-android-with-dagger-2-and-kotlin.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +32,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Dependency Injection in Android with Dagger 2 and Kotlin
 desc: In this Android with Kotlin tutorial, you’ll learn about dependency injection and how to make use of the Dagger 2 Java/Android framework for this purpose.
 link: https://www.kodeco.com/262-dependency-injection-in-android-with-dagger-2-and-kotlin
@@ -218,7 +228,7 @@ Android Studio will prompt you to sync your gradle files on this change, so plea
 
 Dagger 2 can seem complex at the beginning, but it’s really not so hard. In fact, the _complete_ public API of Dagger is composed by less than 30 lines of code. And from these lines you can remove a pair of interfaces that are rarely used (Lazy and MapKey), so the most used public APIs are composed of 3 annotations:
 
-```java
+```kotlin
 public @interface Component {
   Class<?> [] modules() default {};
   Class<?> [] dependencies() default {};
@@ -320,7 +330,7 @@ There’s much more to learn about in Dagger 2 and its usage, including:
 
 There are many great resources out there on the interwebs to dive into these topics and one I must suggest is a __talk by Jake Wharton at DevOxx__, where you can get some more information about the history of DI on Android, some theory and some nice examples. As you do, happy injecting!
 
-<YouTube id="plK0zyRLIP8"/>
+<VidStack src="youtube/plK0zyRLIP8"/>
 
 If you have any questions or comments, please join the discussion below!
 

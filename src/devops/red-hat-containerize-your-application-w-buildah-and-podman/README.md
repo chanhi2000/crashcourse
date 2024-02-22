@@ -1,17 +1,25 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🔺Containerize Your Application With Buildah And Podman
 description: 🔺Containerize Your Application With Buildah And Podman
-tags: ["crashcourse", "redhat", "buildah", "podman"]
-meta:
-  - name: 🔺Containerize Your Application With Buildah And Podman
-    content: 🔺Containerize Your Application With Buildah And Podman
-  - property: og:title
-    content: 🔺Containerize Your Application With Buildah And Podman
-  - property: og:description
-    content: Intro
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-red-hat-containerize-your-application-w-buildah-and-podman
+category:
+  - 🔺RedHat
+tag: 
+  - crashcourse
+  - redhat
+  - buildah
+  - podman
+  - skopeo
+  - sesearch
+  - semodule
+head:
+  - - meta:
+    - property: og:title
+      content: 🔺Containerize Your Application With Buildah And Podman
+    - property: og:description
+      content: 🔺Containerize Your Application With Buildah And Podman
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-containerize-your-application-w-buildah-and-podman.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +30,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title:  Containerize Your Application With Buildah And Podman
 desc: Intro
 link: https://developers.redhat.com/courses/containerize-your-application-buildah-and-podman

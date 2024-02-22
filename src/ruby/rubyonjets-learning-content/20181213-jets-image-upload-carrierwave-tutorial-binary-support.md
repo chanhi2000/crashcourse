@@ -2,16 +2,23 @@
 lang: ko-KR
 title: Image Upload Carrierwave Tutorial
 description: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
-tags: ["crashcourse", "ruby", "jets", "aws", "aws-lambda", "cloudwatch"]
-meta:
-  - name: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
-    content: Image Upload Carrierwave Tutorial
-  - property: og:title
-    content: Image Upload Carrierwave Tutorial
-  - property: og:description
-    content: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content/20181213-jets-image-upload-carrierwave-tutorial-binary-support.html
+category:
+  - 🔻Ruby
+tag:
+  - crashcourse
+  - ruby
+  - jets
+  - aws
+  - aws-lambda
+  - cloudwatch
+head:
+  - - meta:
+    - property: og:title
+      content: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
+    - property: og:description
+      content: Image Upload Carrierwave Tutorial
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/ruby/rubyonjets-learning-content/20181213-jets-image-upload-carrierwave-tutorial-binary-support.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +29,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Image Upload Carrierwave Tutorial
 desc: Jets Image Upload Carrierwave Tutorial - Binary Support
 link: https://blog.boltops.com/2018/12/13/jets-image-upload-carrierwave-tutorial-binary-support

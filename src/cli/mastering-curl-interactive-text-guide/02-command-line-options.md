@@ -2,16 +2,25 @@
 lang: ko-KR
 title: 2. Command line options
 description: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
-tags: ["crashcourse", "cli", "sh", "shell", "gnu", "linux", "awk"]
-meta:
-  - name: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
-    content: 2. Command line options
-  - property: og:title
-    content: 2. Command line options
-  - property: og:description
-    content: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/02-command-line-options.html
+category: 
+  - 🐚CLI
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
+head: 
+  - - meta:
+    - property: og:title
+      content: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
+    - property: og:description
+      content: 2. Command line options
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/02-command-line-options.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +31,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: 2. Command line options
 desc: Mastering curl - interactive text guide
 link: https://antonz.org/mastering-curl/#command-line-options
@@ -110,3 +119,7 @@ Arguments that contain spaces should be enclosed in quotes:
 curl -o /dev/null --write-out "type: %{content_type}" http://httpbin/uuid
 # type: application/json; charset=utf-8
 ```
+
+---
+
+<TagLinks />

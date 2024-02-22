@@ -2,16 +2,21 @@
 lang: ko-KR
 title: Networking Nomad > Network Config
 description: 🐧Linux Journey > Networking Nomad > Network Config
-tags: ["crashcourse", "linux" , "os" , "networking"]
-meta:
-  - name: 🐧Linux Journey > Networking Nomad > Network Config
-    content: Init
-  - property: og:title
-    content: Init
-  - property: og:description
-    content: 🐧Linux Journey > Networking Nomad > Network Config
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops-linux-journey/02-networking-nomad
+category:
+  - 🐧Linux
+tag: 
+  - crashcourse
+  - linux
+  - os
+  - networking
+head:
+  - - meta:
+    - property: og:title
+      content: 🐧Linux Journey > Networking Nomad > Network Config
+    - property: og:description
+      content: Network Config
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03e-network-config.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -22,7 +27,7 @@ meta:
 
 ---
 
-```card
+```component VPCard
 title: Network Config
 desc: Learn about network configuration using Linux tools!
 link: https://linuxjourney.com/lesson/network-interfaces
@@ -232,3 +237,7 @@ ip neighbour show
 ```
 
 Observe what happens to your ARP cache when you reboot your machine and then do something on the network.
+
+---
+
+<TagLinks />
