@@ -146,6 +146,9 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swift/96.md',
         '/swift/100-days-of-swift/97.md',
         '/swift/100-days-of-swift/98.md',
+        '/swift/100-days-of-swift/99.md',
+        '/swift/100-days-of-swift/100.md',
+        '/swift/100-days-of-swift/101.md',
       ]
     }, {
       text: '🕊️100 Days of SwiftUI',
@@ -233,6 +236,8 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/79.md',
         '/swift/100-days-of-swiftui/80.md',
         '/swift/100-days-of-swiftui/81.md',
+        '/swift/100-days-of-swiftui/82.md',
+        '/swift/100-days-of-swiftui/83.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',

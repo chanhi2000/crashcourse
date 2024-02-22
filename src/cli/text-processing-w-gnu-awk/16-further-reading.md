@@ -5,7 +5,7 @@ description: 🐚Text Processing with GNU awk > 16. Further Reading
 category: 
   - 🐚CLI
   - 🐧Linux
-tags:
+tag:
   - crashcourse
   - cli
   - sh
@@ -32,14 +32,14 @@ head:
 ---
 
 ```component VPCard
-title: 16. Further Reading
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/further-reading.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "16. Further Reading",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/further-reading.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22, 25, 35, 0.2)"
+}
 ```
-
----
 
 - `man awk` and `info awk` and [online manual](https://www.gnu.org/software/gawk/manual/gawk.html)
 - Information about various implementations of `awk`
