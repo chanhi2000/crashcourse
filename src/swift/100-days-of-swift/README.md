@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-title: Intro
+title: 🕊️100 Days of Swift
 description: 🕊️100 Days of Swift
 category:
   - 🕊️Swift
@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: HACKING WITH SWIFT
-desc: 🕊️100 Days of Swift
-link: https://www.hackingwithswift.com/100
-logo: https://www.hackingwithswift.com/favicon-96x96.png
-color: rgba(174, 10, 10, 0.2)
+{
+  "title": "HACKING WITH SWIFT",
+  "desc": "🕊️100 Days of Swift",
+  "link": "https://www.hackingwithswift.com/100",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
 ```
 
 ---
@@ -175,123 +177,123 @@ The next three projects we’ll be making are markedly different from the previo
 
 Now that you have conquered `UICollectionViewController` and `Codable`, it’s time to pause for a day and review what you learned – while also tackling a fresh challenge.
 
-- [Day 50](50.md) – Milestone: Projects 10-12
-- [Day 51](51.md) – Expanding your horizons
+- [Day 50 – Milestone: Projects 10-12](50.md)
+- [Day 51 – Expanding your horizons](51.md)
  
 ### Days 52-58: Images and animation
 
 The next three projects we’ll be making move into the realm of richer user interfaces – you’ll learn about manipulating images using Core Image, animation views, and more.
 
-- [Day 52](52.md) – Project 13, part one
-- [Day 53](53.md) – Project 13, part two
-- [Day 54](54.md) – Project 13, part three
-- [Day 55](55.md) – Project 14, part one
-- [Day 56](56.md) – Project 14, part two
-- [Day 57](57.md) – Project 15, part one
-- [Day 58](58.md) – Project 15, part two
+- [Day 52 – Project 13, part one](52.md)
+- [Day 53 – Project 13, part two](53.md)
+- [Day 54 – Project 13, part three](54.md)
+- [Day 55 – Project 14, part one](55.md)
+- [Day 56 – Project 14, part two](56.md)
+- [Day 57 – Project 15, part one](57.md)
+- [Day 58 – Project 15, part two](58.md)
  
 ### Day 59: Consolidation VI
 
 We’ve covered some hugely important iOS technologies that you’ll be relying on time and time again, so let’s take a brief pause to recap what you’ve learned.
 
-- [Day 59](59.md) – Milestone: Projects 13-15
+- [Day 59 – Milestone: Projects 13-15](59.md)
  
 ### Days 60-65: Maps and bugs
 
 In the next three projects we’ll be edging a little further away from UIKit as we explore MapKit, Apple’s powerful and flexible mapping framework, then we’ll tackle a skill you’re more than ready for: debugging.
 
-- [Day 60](60.md) – Project 16, part one
-- [Day 61](61.md) – Project 16, part two
-- [Day 62](62.md) – Project 17, part one
-- [Day 63](63.md) – Project 17, part two
-- [Day 64](64.md) – Project 18, part one
-- [Day 65](65.md) – Project 18, part two
+- [Day 60 – Project 16, part one](60.md)
+- [Day 61 – Project 16, part two](61.md)
+- [Day 62 – Project 17, part one](62.md)
+- [Day 63 – Project 17, part two](63.md)
+- [Day 64 – Project 18, part one](64.md)
+- [Day 65 – Project 18, part two](65.md)
  
 ### Day 66: Consolidation VII
 
 Although these last few projects should have been nice and easy for you, it’s still worth pausing for a day to review what was learned and try out a fresh challenge.
 
-- [Day 66](66.md) – Milestone: Projects 16-18
+- [Day 66 – Milestone: Projects 16-18](66.md)
 
 ### Days 67-73: Leveling up
 
 We’re going to tackle two tough projects back to back, but in doing so you’ll start to really be amazed at the things you can build on iOS – brace yourself!
 
-- [Day 67](67.md) – Project 19, part one
-- [Day 68](68.md) – Project 19, part two
-- [Day 69](69.md) – Project 19, part three
-- [Day 70](70.md) – Project 20, part one
-- [Day 71](71.md) – Project 20, part two
-- [Day 72](72.md) – Project 21, part one
-- [Day 73](73.md) – Project 21, part two
+- [Day 67 – Project 19, part one](67.md)
+- [Day 68 – Project 19, part two](68.md)
+- [Day 69 – Project 19, part three](69.md)
+- [Day 70 – Project 20, part one](70.md)
+- [Day 71 – Project 20, part two](71.md)
+- [Day 72 – Project 21, part one](72.md)
+- [Day 73 – Project 21, part two](73.md)
 
 ### Day 74: Consolidation VIII
 
 After two tough projects and yet another important technique, it’s time to hit the brakes for a day and double check everything is sinking in.
 
-- [Day 74](74.md) – Milestone: Projects 19-21
+- [Day 74 – Milestone: Projects 19-21](74.md)
 
 ### Days 75-81: Beacons and bombs
 
 These next three projects will start to show you just how much you’re now able to build with iOS – your skills are really starting to flourish!
 
-- [Day 75](75.md) – Project 22, part one
-- [Day 76](76.md) – Project 22, part two
-- [Day 77](77.md) – Project 23, part one
-- [Day 78](78.md) – Project 23, part two
-- [Day 79](79.md) – Project 23, part three
-- [Day 80](80.md) – Project 24, part one
-- [Day 81](81.md) – Project 24, part two
+- [Day 75 – Project 22, part one](75.md)
+- [Day 76 – Project 22, part two](76.md)
+- [Day 77 – Project 23, part one](77.md)
+- [Day 78 – Project 23, part two](78.md)
+- [Day 79 – Project 23, part three](79.md)
+- [Day 80 – Project 24, part one](80.md)
+- [Day 81 – Project 24, part two](81.md)
 
 ### Day 82: Consolidation IX
 
 Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.
 
-- [Day 82](82.md) – Milestone: Projects 22-24
+- [Day 82 – Milestone: Projects 22-24](82.md)
 
 ### Days 83-89: Multipeer and motion
 
 These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
 
-- [Day 83](83.md) – Project 25, part one
-- [Day 84](84.md) – Project 25, part two
-- [Day 85](85.md) – Project 26, part one
-- [Day 86](86.md) – Project 26, part two
-- [Day 87](87.md) – Project 26, part three
-- [Day 88](88.md) – Project 27, part one
-- [Day 89](89.md) – Project 27, part two
+- [Day 83 – Project 25, part one](83.md)
+- [Day 84 – Project 25, part two](84.md)
+- [Day 85 – Project 26, part one](85.md)
+- [Day 86 – Project 26, part two](86.md)
+- [Day 87 – Project 26, part three](87.md)
+- [Day 88 – Project 27, part one](88.md)
+- [Day 89 – Project 27, part two](89.md)
 
 ### Days 90-91: Consolidation X
 
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
 
-- [Day 90](90.md) – Milestone: Projects 25-27
-- [Day 91](91.md) – Core Graphics redux
+- [Day 90 – Milestone: Projects 25-27](90.md)
+- [Day 91 – Core Graphics redux](91.md)
 
 ### Days 92-98: The Final Countdown
 
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
 
-- [Day 92](92.md) – Project 28, part one
-- [Day 93](93.md) – Project 28, part two
-- [Day 94](94.md) – Project 29, part one
-- [Day 95](95.md) – Project 29, part two
-- [Day 96](96.md) – Project 29, part three
-- [Day 97](97.md) – Project 30, part one
-- [Day 98](98.md) – Project 30, part two
+- [Day 92 – Project 28, part one](92.md)
+- [Day 93 – Project 28, part two](93.md)
+- [Day 94 – Project 29, part one](94.md)
+- [Day 95 – Project 29, part two](95.md)
+- [Day 96 – Project 29, part three](96.md)
+- [Day 97 – Project 30, part one](97.md)
+- [Day 98 – Project 30, part two](98.md)
 
 ### Day 99: Consolidation XI
 
 It’s time to recap all the things you’ve learned in the last few days, and start work on a big challenge to go out with. You’ve got this!
 
-- [Day 99](99.md) – Milestone: Projects 28-30
+- [Day 99 – Milestone: Projects 28-30](99.md)
 
 ### Wrap up
 
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 
-- [Day 100](100.md) – Final exam
-- [Epilogue](101.md) – What now?
+- [Day 100 – Final exam](100.md)
+- [Epilogue – What now?](101.md)
 
 ---
 

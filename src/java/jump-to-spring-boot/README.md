@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: 점프 투 스프링부트
-desc: 점프 투 스프링부트 - WikiDocs
-link: https://wikidocs.net/book/7601
-logo: https://wikidocs.net/static/img/favicon.ico
-color: rgba(255, 255, 255, 0.2)
+{
+  "title": "점프 투 스프링부트",
+  "desc": "점프 투 스프링부트 - WikiDocs",
+  "link": "https://wikidocs.net/book/7601",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(255,255,255,0.2)"
+}
 ```
 
 ---

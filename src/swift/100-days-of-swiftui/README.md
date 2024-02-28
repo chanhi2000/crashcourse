@@ -88,7 +88,6 @@ You’ve already read the two rules of these 100 days, but to maximize your chan
 This introductory day prepares you for the course, explains core concepts, and helps you avoid the most common mistakes faced by other learners.
 
 - [Day 0][day-0] – tips and advice before you start.
- 
 
 ### ✅Days 1-14: Introduction to Swift
 
@@ -231,17 +230,17 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 
 - [Day 77][day-77] – Milestone: Projects 13-15
 - [Day 78][day-78] – Time for MapKit
- 
+
 ### Days 79-94: Controlling UI flow
 
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
 - ✅[Day 79][day-79] – Project 16, part one
 - ✅[Day 80][day-80] – Project 16, part two
-- [Day 81][day-81] – Project 16, part three
-- [Day 82][day-82] – Project 16, part four
-- [Day 83][day-83] – Project 16, part five
-- [Day 84][day-84] – Project 16, part six
+- ✅[Day 81][day-81] – Project 16, part three
+- ✅[Day 82][day-82] – Project 16, part four
+- ✅[Day 83][day-83] – Project 16, part five
+- ✅[Day 84][day-84] – Project 16, part six
 - [Day 85][day-85] – Project 16, part seven
 - [Day 86][day-86] – Project 17, part one
 - [Day 87][day-87] – Project 17, part two
@@ -365,10 +364,10 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-78]: 78.md
 [day-79]: 79.md
 [day-80]: 80.md
-[day-81]: https://www.hackingwithswift.com/100/swiftui/81
-[day-82]: https://www.hackingwithswift.com/100/swiftui/82
-[day-83]: https://www.hackingwithswift.com/100/swiftui/83
-[day-84]: https://www.hackingwithswift.com/100/swiftui/84
+[day-81]: 81.md
+[day-82]: 82.md
+[day-83]: 83.md
+[day-84]: 84.md
 [day-85]: https://www.hackingwithswift.com/100/swiftui/85
 [day-86]: https://www.hackingwithswift.com/100/swiftui/86
 [day-87]: https://www.hackingwithswift.com/100/swiftui/87
