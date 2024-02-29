@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: HACKING WITH SWIFT
-desc: 🕊️100 Days of SwiftUI
-link: https://www.hackingwithswift.com/100/swiftui
-logo: https://www.hackingwithswift.com/favicon-96x96.png
-color: rgba(174,10,10,0.2)
+{
+  "title": "HACKING WITH SWIFT",
+  "desc": "🕊️100 Days of SwiftUI",
+  "link": "https://www.hackingwithswift.com/100/swiftui",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
 ```
 
 ---
@@ -48,7 +50,7 @@ Welcome to the 100 Days of SwiftUI! This is a free collection of videos, tutoria
 
 It’s aimed squarely at beginners who want to learn to build real iOS apps, but struggle to find a good, free course that can help them achieve their goals. If that’s you, welcome – I hope you’re ready to show the iOS world what you’re made of!
 
-If you’re looking for [my original 100 Days of Swift, click here][100-days-of-swift] – 100 Days of SwiftUI and 100 Days of Swift both teach you to build apps with Swift, but this one focuses on SwiftUI whereas the other teaches UIKit, SpriteKit, and more. If you’re not sure which to choose, stay here with SwiftUI.
+If you’re looking for [my original 100 Days of Swift, click here](/swift/100-days-of-swift/README.md) – 100 Days of SwiftUI and 100 Days of Swift both teach you to build apps with Swift, but this one focuses on SwiftUI whereas the other teaches UIKit, SpriteKit, and more. If you’re not sure which to choose, stay here with SwiftUI.
 
 __PS: If you have questions, [ask me][ask-me] – I’m here to help!__
 
@@ -241,8 +243,8 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - ✅[Day 82][day-82] – Project 16, part four
 - ✅[Day 83][day-83] – Project 16, part five
 - ✅[Day 84][day-84] – Project 16, part six
-- [Day 85][day-85] – Project 16, part seven
-- [Day 86][day-86] – Project 17, part one
+- ✅[Day 85][day-85] – Project 16, part seven
+- ✅[Day 86][day-86] – Project 17, part one
 - [Day 87][day-87] – Project 17, part two
 - [Day 88][day-88] – Project 17, part three
 - [Day 89][day-89] – Project 17, part four
@@ -279,7 +281,6 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 <TagLinks />
 
 [ask-me]: https://twitter.com/twostraws
-[100-days-of-swift]: ../100-days-of-swift/README.md
 [swiftui-by-example]: https://www.hackingwithswift.com/quick-start/swiftui
 [glossary]: https://www.hackingwithswift.com/glossary
 
@@ -368,8 +369,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-82]: 82.md
 [day-83]: 83.md
 [day-84]: 84.md
-[day-85]: https://www.hackingwithswift.com/100/swiftui/85
-[day-86]: https://www.hackingwithswift.com/100/swiftui/86
+[day-85]: 85.md
+[day-86]: 86.md
 [day-87]: https://www.hackingwithswift.com/100/swiftui/87
 [day-88]: https://www.hackingwithswift.com/100/swiftui/88
 [day-89]: https://www.hackingwithswift.com/100/swiftui/89

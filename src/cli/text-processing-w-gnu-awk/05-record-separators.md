@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 5. Record separators
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/record-separators.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "5. Record separators",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/record-separators.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
@@ -1135,7 +1137,7 @@ echo "$s" | awk -v RS='cat' -v IGNORECASE=1 'NR%2==0{print s $0; s="\n"}'
 
 Input has the ASCII NUL character as the record separator. Change it to dot and newline characters as shown below.
 
-::: tabs 
+::: tabs
 
 @tab:active Question
 

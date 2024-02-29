@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 15. Gotchas and Tips
 description: 🐚Text Processing with GNU awk > 15. Gotchas and Tips
-category: 
+category:
   - 🐚CLI
   - 🐧Linux
 tag:
@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 15. Gotchas and Tips
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/gotchas-and-tips.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "15. Gotchas and Tips",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/gotchas-and-tips.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
@@ -498,7 +500,8 @@ Changing the locale to ASCII (assuming that the default is not ASCII) can give a
 
 time shown is the best result from multiple runs
 speed benefit will vary depending on computing resources, input, etc
-<FontIcon icon="iconfont icon-file"/> `words.txt` contains dictionary words, one word per line
+
+.<FontIcon icon="iconfont icon-file"/>`words.txt` contains dictionary words, one word per line
 
 ```sh
 time awk '/^([a-d][r-z]){3}$/' words.txt > f1

@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 7. Using shell variables
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/using-shell-variables.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "7. Using shell variables",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/using-shell-variables.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
@@ -45,15 +47,16 @@ When it comes to automation and scripting, you'd often need to construct command
 
 In this chapter, you'll see how to pass information saved in shell variables to `awk` commands. As mentioned before, this book assumes `bash` as the shell being used.
 
-::: info 
+::: info
 
-As an example, see my repo [ch: command help](https://github.com/learnbyexample/command_help/blob/master/ch) for a practical shell script where commands are constructed dynamically.
+As an example, see my repo [`ch`: command help](https://github.com/learnbyexample/command_help/blob/master/ch) for a practical shell script where commands are constructed dynamically.
 
 The [<FontIcon icon="iconfont icon-github"/> example_files](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in the examples.
 
 :::
 
 ---
+
 ## `-v` option
 
 The most common method is to use the `-v` command line option.
@@ -184,7 +187,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-Use contents of the s variable to display all matching lines from the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`. Assume that the s variable doesn't have any regexp metacharacters and construct a solution such that only whole words are matched.
+Use contents of the s variable to display all matching lines from the input file <FontIcon icon="iconfont icon-file"/>`sample.txt`. Assume that the s variable doesn't have any regexp metacharacters and construct a solution such that only whole words are matched.
 
 ::: tabs 
 
@@ -207,10 +210,9 @@ awk -v s="$s" '$0 ~ "\\<" s "\\>"' sample.txt
 
 ### Exercise 2
 
-Replace all occurrences of `o` for the input file <FontIcon icon="iconfont icon-file"/> `addr.txt` with the literal contents of the s variable. Assume that the s variable has regexp metacharacters.
+Replace all occurrences of `o` for the input file <FontIcon icon="iconfont icon-file"/>`addr.txt` with the literal contents of the s variable. Assume that the s variable has regexp metacharacters.
 
-
-::: tabs 
+::: tabs
 
 @tab:active Question
 

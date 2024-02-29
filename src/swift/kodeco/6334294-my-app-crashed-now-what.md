@@ -29,14 +29,14 @@ head:
 ---
 
 ```component VPCard
-title: My App Crashed, Now What?
-desc: In this tutorial, you’ll learn what makes your app crash and how to fix it when it does. 
-link: https://www.kodeco.com/6334294-my-app-crashed-now-what
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-core-concepts-ios-9b6476c1af44d264387282a9dc162550a9aaf8d51f0636206d7079b8820da7be.svg
-color: rgba(135, 99, 210, 0.2)
+{
+  "title": "My App Crashed, Now What?",
+  "desc": "In this tutorial, you’ll learn what makes your app crash and how to fix it when it does. ",
+  "link": "https://www.kodeco.com/6334294-my-app-crashed-now-what",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-core-concepts-ios-9b6476c1af44d264387282a9dc162550a9aaf8d51f0636206d7079b8820da7be.svg",
+  "background": "rgba(135,99,210,0.2)"
+}
 ```
-
----
 
 App crashes are a natural part of the development cycle. The challenge is to understand the real reason behind the crash and apply the proper fix, not just hide the crash.
 

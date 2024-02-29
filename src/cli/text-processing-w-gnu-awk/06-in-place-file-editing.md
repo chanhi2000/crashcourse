@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 6. In-place file editing
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/in-place-file-editing.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "6. In-place file editing",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/in-place-file-editing.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22, 25, 35, 0.2)"
+}
 ```
 
 ---

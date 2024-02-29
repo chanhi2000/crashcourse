@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: iOS Accessibility - Getting Started
-desc: In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. 
-link: https://www.kodeco.com/6827616-ios-accessibility-getting-started
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-user-interface-ios-21d0f43f2b43d30763411dc88f25ae51608b428e8a186f1cd5468dcf58496168.svg
-color: rgba(135, 99, 210, 0.2)
+{
+  "title": "iOS Accessibility - Getting Started",
+  "desc": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector.",
+  "link": "https://www.kodeco.com/6827616-ios-accessibility-getting-started",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-user-interface-ios-21d0f43f2b43d30763411dc88f25ae51608b428e8a186f1cd5468dcf58496168.svg",
+  "background": "rgba(135, 99, 210, 0.2)"
+}
 ```
 
 ::: note Update note

@@ -32,18 +32,20 @@ head:
 ---
 
 ```component VPCard
-title: 3. URLs
-desc: Mastering curl - interactive text guide
-link: https://antonz.org/mastering-curl/#urls
-logo: https://antonz.org/assets/favicon/favicon.ico
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "3. URLs",
+  "desc": "Mastering curl - interactive text guide",
+  "link": "https://antonz.org/mastering-curl/#urls",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
 
 Curl supports URLs (URIs, really) similar to how [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) defines them:
 
-```
+```sh
 scheme://user:password@host:port/path?query#fragment
 ```
 
@@ -109,6 +111,7 @@ curl
 #   "uuid": "be26b2f8-dcde-4de5-9db1-ef5d879c8fe8"
 # }
 ```
+
 > (Here and beyond, I will sometimes show multiline commands for illustrative purposes. In reality curl expects a single line or line breaks with \)
 
 The `-O` derives the filename from the URL:
@@ -122,6 +125,7 @@ curl --output-dir /tmp
 # one
 # two
 ```
+
 To write both responses to the same file, you can use redirection:
 
 ```sh
@@ -156,6 +160,7 @@ curl --output-dir /tmp -o "out_#1_#2.txt"
 # out_gm_1.txt
 # out_gm_2.txt
 ```
+
 You can disable globbing with the `--globoff` option if `[]{}` characters are valid in your URLs. Then curl will treat them literally.
 
 ![Parallel transfers](https://antonz.org/mastering-curl/parallel-transfers.jpg)
@@ -214,6 +219,7 @@ curl --no-silent --progress-bar http://httpbin/uuid
 # 
 # ######################################################################## 100.0%
 ```
+
 The `--silent` option turns the meter off completely:
 
 ```sh
@@ -224,6 +230,7 @@ curl --silent http://httpbin/uuid
 ```
 
 ---
+
 ## State reset
 
 When you set options, they apply to all URLs curl processes. For example, here both headers are sent to both URLs:

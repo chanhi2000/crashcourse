@@ -9,7 +9,7 @@ tag:
   - java
   - jdk
   - jdk8
-head: 
+head:
   - - meta:
     - property: og:title
       content: ☕️Effective Java > 클래스와 인터페이스

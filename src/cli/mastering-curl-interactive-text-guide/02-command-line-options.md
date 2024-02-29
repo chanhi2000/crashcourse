@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 2. Command line options
-desc: Mastering curl - interactive text guide
-link: https://antonz.org/mastering-curl/#command-line-options
-logo: https://antonz.org/assets/favicon/favicon.ico
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "2. Command line options",
+  "desc": "Mastering curl - interactive text guide",
+  "link": "https://antonz.org/mastering-curl/#command-line-options",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
@@ -90,6 +92,7 @@ curl --silent http://httpbin/uuid
 #   "uuid": "8cf5314e-2c21-42ae-a417-f78f85469f74"
 # }
 ```
+
 @tab off
 
 ```sh
@@ -113,6 +116,7 @@ Some options accept arguments:
 curl --output /tmp/uuid.json http://httpbin/uuid
 #
 ```
+
 Arguments that contain spaces should be enclosed in quotes:
 
 ```sh

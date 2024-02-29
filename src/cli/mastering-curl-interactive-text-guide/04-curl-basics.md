@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 4. Curl basics
-desc: Mastering curl - interactive text guide
-link: https://antonz.org/mastering-curl/#curl-basics
-logo: https://antonz.org/assets/favicon/favicon.ico
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "4. Curl basics",
+  "desc": "Mastering curl - interactive text guide",
+  "link": "https://antonz.org/mastering-curl/#curl-basics",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---
@@ -56,7 +58,8 @@ curl -V
 
 ```
 
-It lists (line by line) 
+It lists (line by line)
+
 - ➊ versions of curl itself and its dependencies, 
 - ➋ the release date, 
 - ➌ available protocols, and 

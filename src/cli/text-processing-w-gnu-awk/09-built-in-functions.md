@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 9. Built-in functions
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/built-in-functions.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "9. Built-in functions",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/built-in-functions.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22, 25, 35, 0.2)"
+}
 ```
 
 ---

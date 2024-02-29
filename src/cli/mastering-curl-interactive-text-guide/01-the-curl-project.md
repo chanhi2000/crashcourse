@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 1. The curl Project
-desc: Mastering curl - interactive text guide
-link: https://antonz.org/mastering-curl/#the-curl-project
-logo: https://antonz.org/assets/favicon/favicon.ico
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "1. The curl Project",
+  "desc": "Mastering curl - interactive text guide",
+  "link": "https://antonz.org/mastering-curl/#the-curl-project",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 ---

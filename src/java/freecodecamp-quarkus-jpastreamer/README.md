@@ -34,11 +34,13 @@ head:
 ---
 
 ```component VPCard
-title: Get started with Quarkus and JPAStreamer
-desc: In the world of software development, innovation often arrives in the form of powerful tools that transform the way we build applications - enter Quarkus, a development platform that's reshaping the Java landscape.
-link: https://www.freecodecamp.org/news/get-started-with-quarkus-and-jpastreamer-2/
-logo: https://cdn.freecodecamp.org/universal/favicons/favicon.ico
-color: rgba(10, 10, 33, 0.2)
+{
+  "title": "Get started with Quarkus and JPAStreamer",
+  "desc": "In the world of software development, innovation often arrives in the form of powerful tools that transform the way we build applications - enter Quarkus, a development platform that's reshaping the Java landscape.",
+  "link": "https://www.freecodecamp.org/news/get-started-with-quarkus-and-jpastreamer-2",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,33,0.2)"
+}
 ```
 
 
@@ -88,7 +90,7 @@ Imagine fetching 10 films from a database where each title starts with "A" and i
 ```java
 List<Film> films = jpaStreamer.stream(Film.class)
 	.filter(Film$.title.startsWith("A")
-		.and(Film$.length.greaterThan(60))
+	.and(Film$.length.greaterThan(60))
 	.limit(10)
 	.collect(Collectors.toList());
 ```

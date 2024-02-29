@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: Unsafe Swift - Using Pointers and Interacting With C
-desc: In this tutorial, you’ll learn how to use unsafe Swift to directly access memory through a variety of pointer types.
-link: https://www.kodeco.com/7181017-unsafe-swift-using-pointers-and-interacting-with-c
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-software-engineering-ios-182a6e99292aa8fcc83771b698910d30fc0033f11a0bec8e892d092efc8e3ff4.svg
-color: rgba(135, 99, 210, 0.2)
+{
+  "title": "Unsafe Swift - Using Pointers and Interacting With C",
+  "desc": "In this tutorial, you’ll learn how to use unsafe Swift to directly access memory through a variety of pointer types.",
+  "link": "https://www.kodeco.com/7181017-unsafe-swift-using-pointers-and-interacting-with-c",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-software-engineering-ios-182a6e99292aa8fcc83771b698910d30fc0033f11a0bec8e892d092efc8e3ff4.svg",
+  "background": "rgba(135,99,210,0.2)"
+}
 ```
 
 By default, Swift is memory safe: It prevents direct access to memory and makes sure you’ve initialized everything before you use it. The key phrase is “by default.” You can also use __unsafe Swift__, which lets you access memory directly through pointers.

@@ -31,11 +31,13 @@ head:
 ---
 
 ```component VPCard
-title: HACKING WITH SWIFT
-desc: 🕊️SwiftUI by Example
-link: https://www.hackingwithswift.com/quick-start/swiftui
-logo: https://www.hackingwithswift.com/favicon-96x96.png
-color: rgba(174, 10, 10, 0.2)
+{
+  "title": "HACKING WITH SWIFT",
+  "desc": "🕊️SwiftUI by Example",
+  "link": "https://www.hackingwithswift.com/quick-start/swiftui",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
 ```
 
 ---
