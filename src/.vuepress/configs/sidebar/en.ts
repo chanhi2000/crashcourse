@@ -238,6 +238,10 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/81.md',
         '/swift/100-days-of-swiftui/82.md',
         '/swift/100-days-of-swiftui/83.md',
+        '/swift/100-days-of-swiftui/84.md',
+        '/swift/100-days-of-swiftui/85.md',
+        '/swift/100-days-of-swiftui/85.md',
+        '/swift/100-days-of-swiftui/87.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -555,6 +559,57 @@ export const sidebarEn = sidebar({
         '/ruby/rubyonjets-learning-content/20181221-jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes.md',
       ]
     }, 
+  ], '/haskell/': [
+    {
+      text: '🐑Haskell',
+      children: [ '/haskell/README.md' ]
+
+    }, {
+      text: '🐑Megaparsec tutorial',
+      collapsible: true,
+      children: [
+        '/haskell/megaparsec/README.md',
+        '/haskell/megaparsec/01.md',
+        '/haskell/megaparsec/02.md',
+        '/haskell/megaparsec/03.md',
+        '/haskell/megaparsec/04.md',
+        '/haskell/megaparsec/05.md',
+        '/haskell/megaparsec/06.md',
+        '/haskell/megaparsec/07.md',
+        '/haskell/megaparsec/08.md',
+        '/haskell/megaparsec/09.md',
+        '/haskell/megaparsec/10.md',
+        '/haskell/megaparsec/11.md',
+        '/haskell/megaparsec/12.md',
+        '/haskell/megaparsec/13.md',
+        '/haskell/megaparsec/14.md',
+        '/haskell/megaparsec/15.md',
+        '/haskell/megaparsec/16.md',
+        '/haskell/megaparsec/17.md',
+        '/haskell/megaparsec/18.md',
+      ]
+    }, {
+      text: '🐑Template Haskell tutorial',
+      collapsible: true,
+      children: [
+        '/haskell/template-haskell/README.md',
+        '/haskell/template-haskell/01.md',
+        '/haskell/template-haskell/02.md',
+        '/haskell/template-haskell/03.md',
+        '/haskell/template-haskell/04.md',
+        '/haskell/template-haskell/05.md',
+        '/haskell/template-haskell/06.md',
+        '/haskell/template-haskell/07.md',
+        '/haskell/template-haskell/08.md',
+        '/haskell/template-haskell/09.md',
+        '/haskell/template-haskell/10.md',
+        '/haskell/template-haskell/11.md',
+        '/haskell/template-haskell/12.md',
+        '/haskell/template-haskell/13.md',
+        '/haskell/template-haskell/14.md',
+        '/haskell/template-haskell/15.md',
+      ]
+    }
   ], '/devops/': [
     {
       text: '🏗️DevOps',

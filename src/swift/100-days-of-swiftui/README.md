@@ -245,7 +245,7 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - ✅[Day 84][day-84] – Project 16, part six
 - ✅[Day 85][day-85] – Project 16, part seven
 - ✅[Day 86][day-86] – Project 17, part one
-- [Day 87][day-87] – Project 17, part two
+- ✅[Day 87][day-87] – Project 17, part two
 - [Day 88][day-88] – Project 17, part three
 - [Day 89][day-89] – Project 17, part four
 - [Day 90][day-90] – Project 17, part five
@@ -371,7 +371,7 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-84]: 84.md
 [day-85]: 85.md
 [day-86]: 86.md
-[day-87]: https://www.hackingwithswift.com/100/swiftui/87
+[day-87]: 87.md
 [day-88]: https://www.hackingwithswift.com/100/swiftui/88
 [day-89]: https://www.hackingwithswift.com/100/swiftui/89
 [day-90]: https://www.hackingwithswift.com/100/swiftui/90
