@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Hello World Examples - Jets Introduction Series Part 4
-desc: ...
-link: https://blog.boltops.com/2019/02/11/hello-world-examples-jets-introductory-series-part-4
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_470/https://blog.boltops.com/img/posts/2019/02/intro-series-hello-world-v1.png
-color: rgba(255,245,101,0.2)
+{
+  "title": "Hello World Examples - Jets Introduction Series Part 4",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2019/02/11/hello-world-examples-jets-introductory-series-part-4",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_470/https://blog.boltops.com/img/posts/2019/02/intro-series-hello-world-v1.png",
+  "background": "rgba(255,245,101,0.2)"
+}
 ```
 
 ---

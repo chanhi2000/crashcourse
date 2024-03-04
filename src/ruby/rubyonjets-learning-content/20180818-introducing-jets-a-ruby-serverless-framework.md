@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Introducing Jets - A Ruby Serverless Framework
-desc: ...
-link: https://blog.boltops.com/2018/08/18/introducing-jets-a-ruby-serverless-framework
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_800/https://blog.boltops.com/img/posts/2018/08/introducing-jets-v5.png
-color: rgba(20,27,106,0.2)
+{
+  "title": "Introducing Jets - A Ruby Serverless Framework",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2018/08/18/introducing-jets-a-ruby-serverless-framework",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_800/https://blog.boltops.com/img/posts/2018/08/introducing-jets-v5.png",
+  "background": "rgba(20,27,106,0.2)"
+}
 ```
 
 ---

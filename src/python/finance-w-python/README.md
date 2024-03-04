@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: 금융 데이터 분석을 위한 파이썬
-desc: 금융 데이터 분석을 위한 파이썬 - WikiDocs
-link: https://wikidocs.net/book/8434
-logo: https://wikidocs.net/static/img/favicon.ico
-color: rgba(255, 255, 255, 0.2)
+{
+  "title": "금융 데이터 분석을 위한 파이썬",
+  "desc": "금융 데이터 분석을 위한 파이썬 - WikiDocs",
+  "link": "https://wikidocs.net/book/8434",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(255,255,255,0.2)"
+}
 ```
 
 ---

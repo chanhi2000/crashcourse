@@ -38,7 +38,7 @@ title: Wasm By Example - Passing High Level Data Types with wasm-bindgen
 desc: Passing High Level Data Types with wasm-bindgen
 link: https://wasmbyexample.dev/examples/passing-high-level-data-types-with-wasm-bindgen/passing-high-level-data-types-with-wasm-bindgen.rust.en-us.html#
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ---

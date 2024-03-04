@@ -27,11 +27,13 @@ head:
 ---
 
 ```component VPCard
-title: Course Introduction - How to Take This Course
-desc: Tech setup and course structure
-link: https://microsoft.github.io/generative-ai-for-beginners/#/00-course-setup/README
-logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+{
+  "title": "Course Introduction - How to Take This Course",
+  "desc": "Tech setup and course structure",
+  "link": "https://microsoft.github.io/generative-ai-for-beginners/#/00-course-setup/README",
+  "logo": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png",
+  "background": "rgba(255,255,255,0.2)"
+}
 ```
 
 ---

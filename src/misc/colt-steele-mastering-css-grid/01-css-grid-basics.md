@@ -32,11 +32,13 @@ head:
 ## 01. Enabling CSS Grid
 
 ```component VPCard
-title: 01. CSS Grid Basics > 01. Enabling CSS Grid
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/enabling-css-grid
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. Enabling CSS Grid > 01. CSS Grid Basics",
+  "desc": "01. CSS Grid Basics",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/enabling-css-grid",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
 
@@ -136,11 +138,13 @@ You have two choices to turn on the grid system in a container:
 <!-- https://stream.mux.com/X1X01Vpqml8RGYGbyxUsJfxXEP9WHCA55NW7LCl1ATcA.m3u8?redundant_streams=true -->
 
 ```component VPCard
-title: 01. CSS Grid Basics > 02. Visualize CSS Grid with DevTools
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/visualize-css-grid-with-devtools
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 02. Visualize CSS Grid with DevTools",
+  "desc": "02. Visualize CSS Grid with DevTools",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/visualize-css-grid-with-devtools",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
 Modern browsers have grid developer tools that you can use to visualize and inspect grid layouts.
@@ -178,7 +182,7 @@ title: 01. CSS Grid Basics > 03. Define CSS Grid Columns with `grid-template-col
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 
@@ -267,7 +271,7 @@ title: 01. CSS Grid Basics >  > 04. Converting a Single-Column Layout
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 <!-- https://stream.mux.com/GBpoVloI328OToQi2WSHpVPt3gUfOL6BEFDRXU89mrE.m3u8?redundant_streams=true -->
@@ -455,7 +459,7 @@ title: 01. CSS Grid Basics > 05. Define CSS Grid Rows with `grid-template-rows`
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/define-css-grid-rows-with-grid-template-rows
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 <!-- https://stream.mux.com/sJ6s00mktrrm010266hWFBLgOWHBOTzegXVdG4CcOxO0101c.m3u8?redundant_streams=true -->
@@ -531,7 +535,7 @@ title: 01. CSS Grid Basics > 06. Adjust Row Heights in an Existing Layout
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/adjust-row-heights-in-an-existing-layout
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 ### Problem
@@ -688,7 +692,7 @@ title: 01. CSS Grid Basics > 07. Combining Rows and Columns to Create Layouts
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/combining-rows-and-columns-to-create-layouts
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 <!-- https://stream.mux.com/JwWeJBvbCrm3uw9hEVFWxm996U8oFQcrHe7cCVNkk5M.m3u8?redundant_streams=true -->
@@ -702,7 +706,7 @@ title: 01. CSS Grid Basics > 08. Practice Creating a Two-Column, Three-Row Layou
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/practice-creating-a-two-column-three-row-layout
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 
 <!-- https://stream.mux.com/jrLFVRjCTJrSbTDqjUvZB008CISfKLnNlcSQR7G6xo4k.m3u8?redundant_streams=true -->
@@ -716,7 +720,7 @@ title: 01. CSS Grid Basics > 09. Paragraph Layout with CSS Grid
 desc: 🎨Colt Steele - Mastering CSS Grid
 link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/paragraph-layout-with-css-grid
 logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-color: rgba(225, 176, 102, 0.2)
+background: rgba(225, 176, 102, 0.2)
 ```
 <!-- https://stream.mux.com/E02E0102cPp801GmD026y5008gbNuxLqNKyFsjPOtCw9jGq0100.m3u8?redundant_streams=true -->
 

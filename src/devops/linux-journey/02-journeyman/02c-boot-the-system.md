@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Boot the System
-desc: Learn about the stages of the Linux boot process.
-link: https://linuxjourney.com/lesson/boot-process-overview
-logo: https://linuxjourney.com/assets/booting-32f576a824d0160350167ece5da8fb719edd1e814ecbfaec20f6da7d9f31bfa0.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Boot the System",
+  "desc": "Learn about the stages of the Linux boot process.",
+  "link": "https://linuxjourney.com/lesson/boot-process-overview",
+  "logo": "https://linuxjourney.com/assets/booting-32f576a824d0160350167ece5da8fb719edd1e814ecbfaec20f6da7d9f31bfa0.png",
+  "background": "rgba(24,188,156,0.2)"`
+}
 ```
 
 ---
@@ -141,3 +143,7 @@ This is the init you'll find on older Ubuntu installations. Upstart uses the ide
 This is the new standard for init, it is goal oriented. Basically you have a goal that you want to achieve and systemd tries to satisfy the goal's dependencies to complete the goal.
 
 We have an entire course on Init systems where we will dive into each of these systems in more detail.
+
+---
+
+<TagLinks />

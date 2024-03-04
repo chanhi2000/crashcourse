@@ -34,7 +34,7 @@ title: Polymorphic Support Part 9
 desc: ...
 link: https://blog.boltops.com/2018/09/27/jets-tutorial-polymorphic-support-part-9
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_584/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-9-polymorphic-support-v1.png
-color: rgba(26,14,21,0.2)
+background: rgba(26,14,21,0.2)
 ```
 
 ---

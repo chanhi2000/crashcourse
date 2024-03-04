@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Mapping Arrays, Tuples, Box and Option to assembly
-desc: Learn how Arrays, Tuples, Box and Option are represented in memory. Also understand the generated assembly code for these types.
-link: https://eventhelix.com/rust/rust-to-assembly-arrays-option-box
-logo: https://eventhelix.com/images/EventHelix-white-rounded-bg-blue.png
-color: rgba(250, 250, 250, 0.2)
+{
+  "title": "Mapping Arrays, Tuples, Box and Option to assembly",
+  "desc": "Learn how Arrays, Tuples, Box and Option are represented in memory. Also understand the generated assembly code for these types.",
+  "link": "https://eventhelix.com/rust/rust-to-assembly-arrays-option-box",
+  "logo": "https://eventhelix.com/images/EventHelix-white-rounded-bg-blue.png",
+  "background": "rgba(250,250,250,0.2)"
+}
 ```
 
 ---

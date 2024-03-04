@@ -35,7 +35,7 @@ title:  Containerize Your Application With Buildah And Podman
 desc: Intro
 link: https://developers.redhat.com/courses/containerize-your-application-buildah-and-podman
 logo: https://developers.redhat.com/themes/custom/rhdp2/images/branding/2023_RHDLogo_black_text.svg
-color: rgba(255, 255, 255, 0.2)
+background: rgba(255, 255, 255, 0.2)
 ```
 
 ---

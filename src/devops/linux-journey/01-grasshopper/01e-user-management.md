@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: User Management
-desc: Learn about user roles and management.
-link: https://linuxjourney.com/lesson/users-and-groups
-logo: https://linuxjourney.com/assets/user-management-11b3136e7e9f551e6efa2929fbef7b3f4693dd8e9d33f8db709c3415b6815dca.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "User Management",
+  "desc": "Learn about user roles and management.",
+  "link": "https://linuxjourney.com/lesson/users-and-groups",
+  "logo": "https://linuxjourney.com/assets/user-management-11b3136e7e9f551e6efa2929fbef7b3f4693dd8e9d33f8db709c3415b6815dca.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -173,6 +175,7 @@ You can use the adduser or the useradd command. The adduser command contains mor
 ```sh
 sudo useradd bob
 ```
+
 You'll see that the above command creates an entry in <FontIcon icon="iconfont icon-file"/>`/etc/passwd` for bob, sets up default groups and adds an entry to the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file.
 
 ### Removing Users
@@ -182,6 +185,7 @@ To remove a user, you can use the userdel command.
 ```sh
 sudo userdel bob
 ```
+
 This basically does its best to undo the file changes by useradd.
 
 ### Changing Passwords
@@ -189,7 +193,11 @@ This basically does its best to undo the file changes by useradd.
 ```sh
 passwd bob
 ```
+
 This will allow you to change the password of yourself or another user (if you are root).
 
 Create a new user then change their password and login as the new user.
 
+---
+
+<TagLinks />

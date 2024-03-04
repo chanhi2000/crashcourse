@@ -34,7 +34,7 @@ title: Official AWS Ruby Support for Jets
 desc: ...
 link: https://blog.boltops.com/2018/12/12/official-aws-ruby-support-for-jets-serverless-framework
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_604/https://blog.boltops.com/img/posts/2018/12/official-ruby-support-v1.png
-color: rgba(34,18,53,0.2)
+background: rgba(34,18,53,0.2)
 ```
 
 ---

@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Assembly code generated when self is passed by value, reference or as a smart pointer
-desc: Learn how enums are organized in memory. Also understand the generated assembly code for match on an enum.
-link: https://eventhelix.com/rust/rust-to-assembly-enum-match
-logo: https://eventhelix.com/images/EventHelix-white-rounded-bg-blue.png
-color: rgba(250, 250, 250, 0.2)
+{
+  "title": "Assembly code generated when self is passed by value, reference or as a smart pointer",
+  "desc": "Learn how enums are organized in memory. Also understand the generated assembly code for match on an enum.",
+  "link": "https://eventhelix.com/rust/rust-to-assembly-enum-match",
+  "logo": "https://eventhelix.com/images/EventHelix-white-rounded-bg-blue.png",
+  "background": "rgba(250,250,250,0.2)"
+}
 ```
 
 > Assembly code generated from Rust for parameter passing

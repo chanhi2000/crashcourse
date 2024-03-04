@@ -42,7 +42,7 @@ title: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아�
 desc: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐) - WikiDocs
 link: https://wikidocs.net/book/6353
 logo: https://wikidocs.net/static/img/favicon.ico
-color: rgba(255, 255, 255, 0.2)
+background: rgba(255, 255, 255, 0.2)
 ```
 
 ---

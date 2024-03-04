@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-desc: December 16, 2022
-link: https://digitalocean.com/community/tutorials/how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes
-logo: https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
-color: rgba(0, 105, 225, 0.2)
+{
+  "title": "DigitalOcean - How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes",
+  "desc": "How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes",
+  "link": "https://digitalocean.com/community/tutorials/how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes",
+  "logo": "https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg",
+  "background": "rgba(0,105,225,0.2)"
+}
 ```
 
 ---

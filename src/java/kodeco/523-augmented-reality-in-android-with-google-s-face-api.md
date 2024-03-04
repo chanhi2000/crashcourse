@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: Augmented Reality in Android with Google’s Face API
-desc: You’ll build a Snapchat Lens-like app called FaceSpotter which draws cartoony features over faces in a camera feed using augmented reality. 
-link: https://www.kodeco.com/523-augmented-reality-in-android-with-google-s-face-api
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-ar-vr-android-847ca6fdd6f2a12866d7e3b66eb5ecf5420ad5695418a64c57f800b1ad89a4d3.svg
-color: rgba(0, 184, 126, 0.2)
+{
+  "title": "Augmented Reality in Android with Google’s Face API",
+  "desc": "You’ll build a Snapchat Lens-like app called FaceSpotter which draws cartoony features over faces in a camera feed using augmented reality. ",
+  "link": "https://www.kodeco.com/523-augmented-reality-in-android-with-google-s-face-api",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-ar-vr-android-847ca6fdd6f2a12866d7e3b66eb5ecf5420ad5695418a64c57f800b1ad89a4d3.svg",
+  "background": "rgba(0,184,126,0.2)"
+}
 ```
 
 If you’ve ever used [Snapchat’s “Lenses” feature](https://support.snapchat.com/en-US/a/lenses1), you’ve used a combination of __augmented reality__ and __face detection__.

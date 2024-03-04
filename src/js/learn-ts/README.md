@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Learn TypeScript
-desc: LWelcome to Learn TypeScript - the Interactive TypeScript Tutorial
-link: https://www.learn-ts.org
-logo: https://www.learn-ts.org/static/img/favicons/learn-ts.org.ico
-color: rgba(34, 34, 34, 0.2)
+{
+  "title": "Learn TypeScript",
+  "desc": "LWelcome to Learn TypeScript - the Interactive TypeScript Tutorial",
+  "link": "https://www.learn-ts.org",
+  "logo": "https://www.learn-ts.org/static/img/favicons/learn-ts.org.ico",
+  "background": "rgba(34,34,34,0.2)"
+}
 ```
 
 Welcome to learn-ts.org - the Interactive TypeScript tutorial. Whether you are new to TypeScript or aiming to deepen your knowledge, this guide is curated for learners of all levels. TypeScript, as a superset of JavaScript, brings static typing and several other powerful features to the table, enhancing the development experience and ensuring more robust applications.

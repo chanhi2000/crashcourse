@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: API Gateway - Jets Introduction Series Part 2
-desc: ...
-link: https://blog.boltops.com/2019/02/05/api-gateway-jets-introductory-series-part-2
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_520/https://blog.boltops.com/img/posts/2019/02/intro-series-api-gateway-v1.png
-color: rgba(40,40,40,0.2)
+{
+  "title": "API Gateway - Jets Introduction Series Part 2",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2019/02/05/api-gateway-jets-introductory-series-part-2",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_520/https://blog.boltops.com/img/posts/2019/02/intro-series-api-gateway-v1.png",
+  "background": "rgba(40,40,40,0.2)"
+}
 ```
 
 ---

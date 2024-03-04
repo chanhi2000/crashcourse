@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: Introduction to Generative AI and LLMs
-desc: Generative AI and the current technology landscape
-link: https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README
-logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+{
+  "title": "Introduction to Generative AI and LLMs",
+  "desc": "Generative AI and the current technology landscape",
+  "link": "https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README",
+  "logo": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png",
+  "background": "rgba(255,255,255,0.2)"
+}
 ```
 
 ---

@@ -71,7 +71,7 @@ title: Course Introduction - How to Take This Course
 desc: Tech setup and course structure
 link: 00-course-setup.md
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Goal: Setting you up for success while learning in this course
@@ -82,7 +82,7 @@ title: Introduction to Generative AI and LLMs
 desc: Generative AI and the current technology landscape
 link: 01-introduction-to-genai.md
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Understanding what Generative AI is and how Large Language Models (LLMs) work.
@@ -92,7 +92,7 @@ title: Exploring and comparing different LLMs
 desc: Testing, iterating, and comparing different Large Language Models
 link: 02-exploring-and-comparing-different-llms.md
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Select the right model for your use case
@@ -102,7 +102,7 @@ title: Using Generative AI Responsibly
 desc: Understanding the limitations of foundation models and the risks behind AI	
 link: https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Learn how to build Generative AI Applications responsibly
@@ -112,7 +112,7 @@ title: Understanding Prompt Engineering Fundamentals
 desc: Hands-on application of Prompt Engineering Best Practices	
 link: https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Understand prompt structure & usage
@@ -122,7 +122,7 @@ title: Creating Advanced Prompts
 desc: Extend your knowledge of prompt engineering by applying different techniques to your prompts	
 link: https://microsoft.github.io/generative-ai-for-beginners/#/05-advanced-prompts/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Apply prompt engineering techniques that improve the outcome of your prompts.
@@ -132,7 +132,7 @@ title: Building Text Generation Applications
 desc: Build a text generation app using Azure OpenAI
 link: https://microsoft.github.io/generative-ai-for-beginners/#/06-text-generation-apps/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Understand how to efficiently use tokens and temperature to vary the model's output
@@ -143,7 +143,7 @@ title: Building Chat Applications
 desc: Techniques for efficiently building and integrating chat applications.
 link: https://microsoft.github.io/generative-ai-for-beginners/#/07-building-chat-applications/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Identify key metrics and considerations to effectively monitor and maintain the quality of AI-powered chat applications 
@@ -153,7 +153,7 @@ title: Building Search Apps Vector Databases
 desc: Semantic vs Keyword search. Learn about text embeddings and how they apply to search
 link: https://microsoft.github.io/generative-ai-for-beginners/#/08-building-search-applications/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Create an application that uses Embeddings to search for data.
@@ -163,7 +163,7 @@ title: Building Image Generation Applications
 desc: Image generation and why it's useful in building applications
 link: https://microsoft.github.io/generative-ai-for-beginners/#/09-building-image-applications/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Build an image generation application
@@ -173,7 +173,7 @@ title: Building Low Code AI Applications
 desc: Introduction to Generative AI in Power Platform
 link: https://microsoft.github.io/generative-ai-for-beginners/#/10-building-low-code-ai-applications/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Build a Student Assignment Tracker App for our education startup with Low Code
@@ -183,7 +183,7 @@ title: Integrating External Applications with Function Calling
 desc: What is function calling and its use cases for applications
 link: https://microsoft.github.io/generative-ai-for-beginners/#/11-integrating-with-function-calling/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Setup a function call to retrieve data from an external API
@@ -193,7 +193,7 @@ title: Designing UX for AI Applications
 desc: Designing AI Applications for Trust and Transparency
 link: https://microsoft.github.io/generative-ai-for-beginners/#/12-designing-ux-for-ai-applications/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Apply UX design principles when developing Generative AI Applications
@@ -203,7 +203,7 @@ title: Continue Your Learning
 desc: Links to continue your learning from each lesson!
 link: https://microsoft.github.io/generative-ai-for-beginners/#/13-continued-learning/README
 logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+background: rgba(255,255,255,0.2)
 ```
 
 > Mastering your Generative AI skills

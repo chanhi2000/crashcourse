@@ -34,7 +34,7 @@ title: IAM Policies Part 5
 desc: ...
 link: https://blog.boltops.com/2018/09/11/jets-tutorial-iam-policies-part-5
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_655/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-5-iam-policies-v1.png
-color: rgba(32,11,15,0.2)
+background: rgba(32,11,15,0.2)
 ```
 
 ---

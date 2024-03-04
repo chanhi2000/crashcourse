@@ -34,7 +34,7 @@ title: Build an API with the Jets Ruby Serverless Framework
 desc: ...
 link: https://blog.boltops.com/2019/01/13/build-an-api-service-with-jets-ruby-serverless-framework
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_590/https://blog.boltops.com/img/posts/2019/01/build-an-api-v2.png
-color: rgba(54,70,153,0.2)
+background: rgba(54,70,153,0.2)
 ```
 
 ---

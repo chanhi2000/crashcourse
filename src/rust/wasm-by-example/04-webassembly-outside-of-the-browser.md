@@ -42,7 +42,7 @@ title: Wasm By Example - WASI Introduction
 desc: WASI Introduction
 link: https://wasmbyexample.dev/examples/wasi-introduction/wasi-introduction.all.en-us.html#
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ---
@@ -54,7 +54,7 @@ title: Wasm By Example - WASI Hello World
 desc: WASI Hello World
 link: https://wasmbyexample.dev/examples/wasi-hello-world/wasi-hello-world.rust.en-us.html#
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ---

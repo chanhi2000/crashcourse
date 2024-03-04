@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: Rust By Practice
-desc: 1. Small projects with Elegant code
-link: https://practice.rs/elegant-code-base.html
-logo: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "Rust By Practice",
+  "desc": "1. Small projects with Elegant code",
+  "link": "https://practice.rs/elegant-code-base.html",
+  "logo": "https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 <!-- https://practice.rs/elegant-code-base.html -->

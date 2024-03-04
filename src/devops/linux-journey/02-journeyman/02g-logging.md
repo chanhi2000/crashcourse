@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Logging
-desc: Learn about system logs and the /var/log directory.
-link: https://linuxjourney.com/lesson/system-logging
-logo: https://linuxjourney.com/assets/logging-6a62164e665c33b2f4d0fa4d1a002a934c291ce3fa9eebb8398612256ddb5241.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Logging",
+  "desc": "Learn about system logs and the /var/log directory.",
+  "link": "https://linuxjourney.com/lesson/system-logging",
+  "logo": "https://linuxjourney.com/assets/logging-6a62164e665c33b2f4d0fa4d1a002a934c291ce3fa9eebb8398612256ddb5241.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -156,3 +158,6 @@ There are other logrotating tools you can use to manage your logs, but `logrotat
 
 Look at your `logrotate` configuration file and see how it manages some of your logs.
 
+---
+
+<TagLinks />

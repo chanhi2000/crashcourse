@@ -32,11 +32,13 @@ head:
 ---
 
 ```component VPCard
-title: 14. awk scripts
-desc: CLI Text Processing with GNU awk
-link: https://learnbyexample.github.io/learn_gnuawk/awk-scripts.html
-logo: https://learnbyexample.github.io/favicon.svg
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "14. awk scripts",
+  "desc": "CLI Text Processing with GNU awk",
+  "link": "https://learnbyexample.github.io/learn_gnuawk/awk-scripts.html",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22, 25, 35, 0.2)"
+}
 ```
 
 ---

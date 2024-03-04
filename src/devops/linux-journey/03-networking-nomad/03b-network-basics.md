@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Network Basics
-desc: Learn about networking basics and the TCP/IP model.
-link: https://linuxjourney.com/lesson/network-basics
-logo: https://linuxjourney.com/assets/network-fundamentals-23b42f49c6f57d45884285ffbfdf44127863ae96243eb51ce39fb139f585cab1.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Network Basics",
+  "desc": "Learn about networking basics and the TCP/IP model.",
+  "link": "https://linuxjourney.com/lesson/network-basics",
+  "logo": "https://linuxjourney.com/assets/network-fundamentals-23b42f49c6f57d45884285ffbfdf44127863ae96243eb51ce39fb139f585cab1.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -211,3 +213,7 @@ The way DHCP gets all your dynamic host information is:
 4. DHCP ACK: Acknowledgement is sent by the server.
 
 DHCP gets more involved than this, but this is the gist of it.
+
+---
+
+<TagLinks />

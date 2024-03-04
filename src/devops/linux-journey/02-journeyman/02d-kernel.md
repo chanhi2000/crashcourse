@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Kernel
-desc: The most important part of the Linux system, learn about how it works and how to configure it.
-link: https://linuxjourney.com/lesson/kernel-overview
-logo: https://linuxjourney.com/assets/kernel-99533d3ebf83d9bb34e8971887d90acb259f72d0092aa1f628d6c7036bd62144.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Kernel",
+  "desc": "The most important part of the Linux system, learn about how it works and how to configure it.",
+  "link": "https://linuxjourney.com/lesson/kernel-overview",
+  "logo": "https://linuxjourney.com/assets/kernel-99533d3ebf83d9bb34e8971887d90acb259f72d0092aa1f628d6c7036bd62144.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -180,3 +182,6 @@ You can also make sure a module does not load on bootup by adding a configuratio
 
 Unload your bluetooth module with modprobe and see what happens. How will you fix this?
 
+---
+
+<TagLinks />

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: The Filesystem
-desc: Learn about the Linux filesystem, the different types of filesystems, partitioning and more.
-link: https://linuxjourney.com/lesson/filesystem-hierarchy
-logo: https://linuxjourney.com/assets/filesystem-6bfae474a9f31492fcc960a1c49ed97ac7d64038ddbde2d69258e3e7cd79f241.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "The Filesystem",
+  "desc": "Learn about the Linux filesystem, the different types of filesystems, partitioning and more.",
+  "link": "https://linuxjourney.com/lesson/filesystem-hierarchy",
+  "logo": "https://linuxjourney.com/assets/filesystem-6bfae474a9f31492fcc960a1c49ed97ac7d64038ddbde2d69258e3e7cd79f241.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---

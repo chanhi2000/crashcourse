@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: Dependency Injection in Android with Dagger 2 and Kotlin
-desc: In this Android with Kotlin tutorial, you’ll learn about dependency injection and how to make use of the Dagger 2 Java/Android framework for this purpose.
-link: https://www.kodeco.com/262-dependency-injection-in-android-with-dagger-2-and-kotlin
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg
-color: rgba(0, 184, 126, 0.2)
+{
+  "title": "Dependency Injection in Android with Dagger 2 and Kotlin",
+  "desc": "In this Android with Kotlin tutorial, you’ll learn about dependency injection and how to make use of the Dagger 2 Java/Android framework for this purpose.",
+  "link": "https://www.kodeco.com/262-dependency-injection-in-android-with-dagger-2-and-kotlin",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg",
+  "background": "rgba(0,184,126,0.2)"
+}
 ```
 
 ---

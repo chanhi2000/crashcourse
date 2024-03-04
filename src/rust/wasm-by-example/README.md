@@ -36,7 +36,7 @@ title: Wasm By Example
 desc: Wasm By Example is a concise, hands-on introduction to WebAssembly using code snippets and annotated WebAssembly example programs
 link: https://wasmbyexample.dev/home.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 WebAssembly (Wasm) is an universal low level bytecode that runs on the web. It is a compilation target for languages like `Rust`, `AssemblyScript (Typescript-like)`, `Emscripten (C/C++)`, and much more! Wasm offer a compact binary format with predictable performance, and portability to run alongside Javascript and other host languages. Wasm is currently shipped in all major browsers, and has runtimes meant for running on servers or interfacing with systems using WASI.

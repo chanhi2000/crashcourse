@@ -35,7 +35,7 @@ title: AWS Lambda Function - Jets Introduction Series Part 1
 desc: ...
 link: https://blog.boltops.com/2019/02/04/aws-lambda-function-jets-introductory-series-part-1
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_535/https://blog.boltops.com/img/posts/2019/02/intro-series-lambda-function-v1.png
-color: rgba(127,2,20,0.2)
+background: rgba(127,2,20,0.2)
 ```
 
 ---

@@ -34,7 +34,7 @@ title: Background Jobs Part 4
 desc: ...
 link: https://blog.boltops.com/2018/09/10/jets-tutorial-background-jobs-part-4
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_531/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-4-jobs-v1.png
-color: rgba(0,1,35,0.2)
+background: rgba(0,1,35,0.2)
 ```
 
 ---

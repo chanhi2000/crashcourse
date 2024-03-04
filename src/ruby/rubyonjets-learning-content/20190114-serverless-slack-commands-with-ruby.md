@@ -34,7 +34,7 @@ title: Serverless Slack Commands - Fun with AWS Image Recognition
 desc: ...
 link: https://blog.boltops.com/2019/01/14/serverless-slack-commands-with-ruby
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_586/https://blog.boltops.com/img/posts/2019/01/slack-command-title-image-v6.png
-color: rgba(221,34,114,0.2)
+background: rgba(221,34,114,0.2)
 ```
 
 ---

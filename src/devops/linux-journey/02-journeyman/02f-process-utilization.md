@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Process Utilization
-desc: Learn resource monitoring with top, load averages, iostat and more!
-link: https://linuxjourney.com/lesson/tracking-processes-top
-logo: https://linuxjourney.com/assets/process-utilization-7cbd9417e89126a2548cb7ce59555fe53682fe00aa9e509840c4f22fa25b4d16.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Process Utilization",
+  "desc": "Learn resource monitoring with top, load averages, iostat and more!",
+  "link": "https://linuxjourney.com/lesson/tracking-processes-top",
+  "logo": "https://linuxjourney.com/assets/process-utilization-7cbd9417e89126a2548cb7ce59555fe53682fe00aa9e509840c4f22fa25b4d16.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -103,6 +105,7 @@ You can also specify a process ID if you just want to track certain processes:
 ```sh
 top -p 1
 ```
+
 Play around with the top command and see what processes are using the most resources.
 
 ---
@@ -243,6 +246,7 @@ vmstat
 #  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
 #  1  0      0 396528  38816 384036    0    0     4     2   38   79  0  0 99  0  0
 ```
+
 The fields are as follows:
 
 ### procs
@@ -310,6 +314,7 @@ This will list the details of memory usage from the start of the day.
 ```sh
 sudo sar -P
 ```
+
 This will list the details of CPU usage.
 
 To see a view of a different day, you can go into <FontIcon icon="iconfont icon-folder"/>`/var/log/sysstat/saXX` where XX is the day you want to view.
@@ -331,6 +336,7 @@ For example, let's say I have a script located in <FontIcon icon="iconfont icon-
 ```sh
 # 30 08 * * * /home/pete/scripts/change_wallpaper
 ```
+
 The fields are as follows from left to right:
 
 - __Minute__: (0-59)

@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: Intermediate RecyclerView Tutorial with Kotlin
-desc: In this RecyclerView tutorial you will learn how to build out intermediate techniques like swiping, animation and filtering in Kotlin.
-link: https://www.kodeco.com/272-intermediate-recyclerview-tutorial-with-kotlin
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-user-interface-android-d049bddfca80caac9854127a21a7287890d0ad1cd10fc7d7cb6538dc0d8d76a0.svg
-color: rgba(0, 184, 126, 0.2)
+{
+  "title": "Intermediate RecyclerView Tutorial with Kotlin",
+  "desc": "In this RecyclerView tutorial you will learn how to build out intermediate techniques like swiping, animation and filtering in Kotlin.",
+  "link": "https://www.kodeco.com/272-intermediate-recyclerview-tutorial-with-kotlin",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-user-interface-android-d049bddfca80caac9854127a21a7287890d0ad1cd10fc7d7cb6538dc0d8d76a0.svg",
+  "background": "rgba(0,184,126,0.2)"
+}
 ```
 
 Have you ever wanted to go to Mars or just look out over Mars’ horizon? We can’t send you there but we can give you the next best thing: an app with images from all the Mars rovers.

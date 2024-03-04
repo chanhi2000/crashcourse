@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Getting Started
-desc: What is Linux? Get started with choosing a distribution and installation.
-link: https://linuxjourney.com/lesson/linux-history
-logo: https://linuxjourney.com/assets/getting-started-cd39013b87fac4b4b5d668752511f154a673adc94fad86c9be53f0016bf3bc35.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Getting Started",
+  "desc": "What is Linux? Get started with choosing a distribution and installation.",
+  "link": "https://linuxjourney.com/lesson/linux-history",
+  "logo": "https://linuxjourney.com/assets/getting-started-cd39013b87fac4b4b5d668752511f154a673adc94fad86c9be53f0016bf3bc35.png",
+  "background": "rgba(24, 188, 156, 0.2)"
+}
 ```
 
 ---

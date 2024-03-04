@@ -42,7 +42,7 @@ title: Wasm By Example - Introduction
 desc: Introduction
 link: https://wasmbyexample.dev/examples/introduction/introduction.all.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 Let's do a brief introduction into major concepts of WebAssembly:
@@ -65,7 +65,7 @@ title: Wasm By Example - Hello World!
 desc: Hello World!
 link: https://wasmbyexample.dev/examples/hello-world/hello-world.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 __Before getting started, be sure to check out all of the languages available, by clicking the "languages" dropdown in the header.__
@@ -207,7 +207,7 @@ title: Wasm By Example - Exports
 desc: Exports
 link: https://wasmbyexample.dev/examples/exports/exports.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ### Overview
@@ -317,7 +317,7 @@ title: Wasm By Example - WebAssembly Linear Memory
 desc: WebAssembly Linear Memory
 link: https://wasmbyexample.dev/examples/webassembly-linear-memory/webassembly-linear-memory.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ### Overview
@@ -482,7 +482,7 @@ title: Wasm By Example - Importing Javascript Functions Into WebAssembly
 desc: Importing Javascript Functions Into WebAssembly
 link: https://wasmbyexample.dev/examples/importing-javascript-functions-into-webassembly/importing-javascript-functions-into-webassembly.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ### Overview

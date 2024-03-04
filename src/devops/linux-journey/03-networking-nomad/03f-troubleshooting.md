@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Troubleshooting
-desc: Learn about common networking tools to help you diagnose and troubleshoot issues!
-link: https://linuxjourney.com/lesson/icmp
-logo: https://linuxjourney.com/assets/network-troubleshooting-5551300f3d2be9d5b3c6165a001ee7861a4d78c7482b130e54d4127ef95cdc14.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Troubleshooting",
+  "desc": "Learn about common networking tools to help you diagnose and troubleshoot issues!",
+  "link": "https://linuxjourney.com/lesson/icmp",
+  "logo": "https://linuxjourney.com/assets/network-troubleshooting-5551300f3d2be9d5b3c6165a001ee7861a4d78c7482b130e54d4127ef95cdc14.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---

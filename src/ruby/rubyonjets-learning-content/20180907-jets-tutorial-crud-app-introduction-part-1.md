@@ -34,7 +34,7 @@ title: Intro CRUD App Part 1
 desc: ...
 link: https://blog.boltops.com/2018/09/07/jets-tutorial-crud-app-introduction-part-1
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_708/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-1-crud-v1.png
-color: rgba(0,0,0,0.2)
+background: rgba(0,0,0,0.2)
 ```
 
 ---

@@ -34,7 +34,7 @@ title: Image Upload Carrierwave Tutorial
 desc: Jets Image Upload Carrierwave Tutorial - Binary Support
 link: https://blog.boltops.com/2018/12/13/jets-image-upload-carrierwave-tutorial-binary-support
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_490/https://blog.boltops.com/img/posts/2018/12/image-upload-tutorial-v1.png
-color: rgba(54,70,153,0.2)
+background: rgba(54,70,153,0.2)
 ```
 
 ---

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Devices
-desc: Learn about Linux devices and how they interact with the kernel and user space.
-link: https://linuxjourney.com/lesson/dev-directory
-logo: https://linuxjourney.com/assets/devices-5088f49b6a0d4ce892e106ee1e837e401de62d8f1ee8648ac00bd9a0e9f576c2.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Devices",
+  "desc": "Learn about Linux devices and how they interact with the kernel and user space.",
+  "link": "https://linuxjourney.com/lesson/dev-directory",
+  "logo": "https://linuxjourney.com/assets/devices-5088f49b6a0d4ce892e106ee1e837e401de62d8f1ee8648ac00bd9a0e9f576c2.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -240,5 +242,8 @@ Our `backup.img` file is 10M, however, we are saying in this command to copy ove
 
 `dd` is extremely powerful, you can use it to make backups of anything, including whole disk drives, restoring disks images, and more. Be careful, that powerful tool can come at a price if you aren't sure what you are doing.
 
-
 Use the `dd` command to make a backup of your drive and set the output to a `.img` file.
+
+---
+
+<TagLinks />

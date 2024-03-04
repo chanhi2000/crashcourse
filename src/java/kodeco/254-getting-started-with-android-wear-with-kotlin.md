@@ -33,11 +33,13 @@ head:
 ---
 
 ```component VPCard
-title: Getting Started with Android Wear with Kotlin
-desc: In this Android Wear tutorial, you’ll learn how to build an Android app for the Android Wear platform using the Kotlin language.
-link: https://www.kodeco.com/254-getting-started-with-android-wear-with-kotlin
-logo: https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-how-tos-android-55975187ac5a00b562ac524384d38defcd70c18864bc981c935584f2ff6a5767.svg
-color: rgba(0, 184, 126, 0.2)
+{
+  "title": "Getting Started with Android Wear with Kotlin",
+  "desc": "In this Android Wear tutorial, you’ll learn how to build an Android app for the Android Wear platform using the Kotlin language.",
+  "link": "https://www.kodeco.com/254-getting-started-with-android-wear-with-kotlin",
+  "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-how-tos-android-55975187ac5a00b562ac524384d38defcd70c18864bc981c935584f2ff6a5767.svg",
+  "background": "rgba(0, 184, 126, 0.2)"
+}
 ```
 
 ---

@@ -36,7 +36,7 @@ title: Rust By Practice
 desc: 3. Basic Types
 link: https://practice.rs/basic-types/numbers.html
 logo: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
-color: rgba(22, 25, 35, 0.2)
+background: rgba(22, 25, 35, 0.2)
 ```
 
 <!-- https://practice.rs/elegant-code-base.html -->

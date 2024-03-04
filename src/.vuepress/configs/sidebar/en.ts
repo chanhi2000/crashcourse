@@ -242,6 +242,8 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/85.md',
         '/swift/100-days-of-swiftui/85.md',
         '/swift/100-days-of-swiftui/87.md',
+        '/swift/100-days-of-swiftui/88.md',
+        '/swift/100-days-of-swiftui/89.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',

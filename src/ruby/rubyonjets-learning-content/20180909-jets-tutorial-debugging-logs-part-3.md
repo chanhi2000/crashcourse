@@ -34,7 +34,7 @@ title: Debugging Logs Part 3
 desc: ...
 link: https://blog.boltops.com/2018/09/09/jets-tutorial-debugging-logs-part-3
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_637/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-3-debugging-v3.png
-color: rgba(32,32,40,0.2)
+background: rgba(32,32,40,0.2)
 ```
 
 ---

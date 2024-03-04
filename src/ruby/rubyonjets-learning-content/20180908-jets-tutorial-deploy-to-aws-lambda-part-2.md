@@ -34,7 +34,7 @@ title: Deploy to AWS Lambda Part 2
 desc: ...
 link: https://blog.boltops.com/2018/09/08/jets-tutorial-deploy-to-aws-lambda-part-2
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_600/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-2-aws-lambda-deploy-v2.png
-color: rgba(37,39,54,0.2)
+background: rgba(37,39,54,0.2)
 ```
 
 ---

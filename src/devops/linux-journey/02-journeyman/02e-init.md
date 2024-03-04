@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Init
-desc: Learn about the different init systems, SysV, Upstart and systemd.
-link: https://linuxjourney.com/lesson/sysv-overview
-logo: https://linuxjourney.com/assets/init-36c89d8f5958b7a10251e5958735345be7997426ab3d6db3f84c4dc04a99f9af.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Init",
+  "desc": "Learn about the different init systems, SysV, Upstart and systemd.",
+  "link": "https://linuxjourney.com/lesson/sysv-overview",
+  "logo": "https://linuxjourney.com/assets/init-36c89d8f5958b7a10251e5958735345be7997426ab3d6db3f84c4dc04a99f9af.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -329,3 +331,7 @@ sudo reboot
 ```
 
 What do you think is happening with `init` when you shutdown your machine?
+
+---
+
+<TagLinks />

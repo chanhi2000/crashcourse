@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Packages
-desc: Learn all about the dpkg, apt-get, rpm and yum package management tools.
-link: https://linuxjourney.com/lesson/software-distribution
-logo: https://linuxjourney.com/assets/package-management-9a40f89dde6d2e2d861722093b97eadc3b852446125df64ea2ce344dc47ef00d.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Packages",
+  "desc": "Learn all about the dpkg, apt-get, rpm and yum package management tools.",
+  "link": "https://linuxjourney.com/lesson/software-distribution",
+  "logo": "https://linuxjourney.com/assets/package-management-9a40f89dde6d2e2d861722093b97eadc3b852446125df64ea2ce344dc47ef00d.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---

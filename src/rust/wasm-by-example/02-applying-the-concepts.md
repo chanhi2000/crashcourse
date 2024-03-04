@@ -42,7 +42,7 @@ title: Wasm By Example - Reading and Writing Graphics
 desc: Reading and Writing Graphics
 link: https://wasmbyexample.dev/examples/reading-and-writing-graphics/reading-and-writing-graphics.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ### Overview
@@ -284,7 +284,7 @@ title: Wasm By Example - Reading and Writing Audio
 desc: Reading and Writing Audio
 link: https://wasmbyexample.dev/examples/reading-and-writing-audio/reading-and-writing-audio.rust.en-us.html
 logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-color: rgba(136,103,249,0.2)
+background: rgba(136,103,249,0.2)
 ```
 
 ---

@@ -34,7 +34,7 @@ title: Rails Support - Jets Afterburner
 desc: Jets Afterburner - Serverless Rails on AWS Lambda in 5 Minutes
 link: https://blog.boltops.com/2018/12/21/jets-afterburner-serverless-rails-on-aws-lambda-in-5-minutes
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_470/https://blog.boltops.com/img/posts/2018/12/jets-afterburner-v1.png
-color: rgba(250,113,21,0.2)
+background: rgba(250,113,21,0.2)
 ```
 
 ---

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Permissions
-desc: Learn about permission levels and modifying permissions.
-link: https://linuxjourney.com/lesson/file-permissions
-logo: https://linuxjourney.com/assets/access-6157a84d9ecc01b59ff9ed57040090948fc8851e60647033087af0f58d4236f4.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Permissions",
+  "desc": "Learn about permission levels and modifying permissions.",
+  "link": "https://linuxjourney.com/lesson/file-permissions",
+  "logo": "https://linuxjourney.com/assets/access-6157a84d9ecc01b59ff9ed57040090948fc8851e60647033087af0f58d4236f4.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -300,3 +302,6 @@ sudo chmod 1755 mydir
 
 The numerical representation for the sticky bit is 1
 
+---
+
+<TagLinks />

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Processes
-desc: Learn about the running processes on the system.
-link: https://linuxjourney.com/lesson/monitor-processes-ps-command
-logo: https://linuxjourney.com/assets/processes-bf5fd64c3ace61821e8378b9911ef0606de5721e178d319abdc443fb82c9547a.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Processes",
+  "desc": "Learn about the running processes on the system.",
+  "link": "https://linuxjourney.com/lesson/monitor-processes-ps-command",
+  "logo": "https://linuxjourney.com/assets/processes-bf5fd64c3ace61821e8378b9911ef0606de5721e178d319abdc443fb82c9547a.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---

@@ -34,7 +34,7 @@ title: Function Properties Part 6
 desc: ...
 link: https://blog.boltops.com/2018/09/12/jets-tutorial-function-properties-part-6
 logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_620/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-6-function-properties-v1.png
-color: rgba(20,27,106,0.2)
+background: rgba(20,27,106,0.2)
 ```
 
 ---

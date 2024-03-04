@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-desc: November 18, 2022
-link: https://digitalocean.com/community/tutorials/how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt
-logo: https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
-color: rgba(0, 105, 225, 0.2)
+{
+  "title": "DigitalOcean - How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt",
+  "desc": "How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt",
+  "link": "https://digitalocean.com/community/tutorials/how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt",
+  "logo": "https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg",
+  "background": "rgba(0, 105, 225, 0.2)"
+}
 ```
 
 ---

@@ -36,7 +36,7 @@ title: Rust By Practice
 desc: Practice Rust with challenging examples, exercises and projects
 link: https://practice.rs
 logo: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
-color: rgba(22, 25, 35, 0.2)
+background: rgba(22, 25, 35, 0.2)
 ```
 
 ---

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Command Line
-desc: Learn the fundamentals of the command line, navigating files, directories and more.
-link: https://linuxjourney.com/lesson/the-shell
-logo: https://linuxjourney.com/assets/command-line-dd6a59e10b5ec94f43e805d35d8556dfd070c25871788dd8b5a09a536a477b0a.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Command Line",
+  "desc": "Learn the fundamentals of the command line, navigating files, directories and more.",
+  "link": "https://linuxjourney.com/lesson/the-shell",
+  "logo": "https://linuxjourney.com/assets/command-line-dd6a59e10b5ec94f43e805d35d8556dfd070c25871788dd8b5a09a536a477b0a.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---

@@ -28,11 +28,13 @@ head:
 ---
 
 ```component VPCard
-title: Network Sharing
-desc: Learn about network sharing with rsync, scp, nfs and more.
-link: https://linuxjourney.com/lesson/network-file-sharing
-logo: https://linuxjourney.com/assets/network-sharing-160c16689bb42ee68a9047bb8e3741a00934d9e70cf5c9feb8caef9b62a0b8e8.png
-color: rgba(24, 188, 156, 0.2)
+{
+  "title": "Network Sharing",
+  "desc": "Learn about network sharing with rsync, scp, nfs and more.",
+  "link": "https://linuxjourney.com/lesson/network-file-sharing",
+  "logo": "https://linuxjourney.com/assets/network-sharing-160c16689bb42ee68a9047bb8e3741a00934d9e70cf5c9feb8caef9b62a0b8e8.png",
+  "background": "rgba(24,188,156,0.2)"
+}
 ```
 
 ---
@@ -204,3 +206,6 @@ sudo mount -t cifs servername:directory mountpount -o user=username,pass=passwor
 
 Setup a Samba share, if you don't have one, open up <FontIcon icon="iconfont icon-file"/>`smb.conf` and familiarize yourself with the options in the config file.
 
+---
+
+<TagLinks />

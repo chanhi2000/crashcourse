@@ -29,11 +29,13 @@ head:
 ---
 
 ```component VPCard
-title: Exploring and comparing different LLMs
-desc: Testing, iterating, and comparing different Large Language Models
-link: https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README
-logo: https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png
-color: rgba(255,255,255,0.2)
+{
+  "title": "Exploring and comparing different LLMs",
+  "desc": "Testing, iterating, and comparing different Large Language Models",
+  "link": "https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README",
+  "logo": "https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/android-chrome-512x512.png",
+  "background": "rgba(255,255,255,0.2)"
+}
 ```
 
 ---

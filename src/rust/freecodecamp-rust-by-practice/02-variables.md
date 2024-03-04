@@ -29,20 +29,17 @@ head:
 
 [[toc]]
 
-
 ---
 
 ```component VPCard
-title: Rust By Practice
-desc: 2. Variables
-link: https://practice.rs/variables.html
-logo: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
-color: rgba(22, 25, 35, 0.2)
+{
+  "title": "Rust By Practice",
+  "desc": "2. Variables",
+  "link": "https://practice.rs/variables.html",
+  "logo": "https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
-
-<!-- https://practice.rs/elegant-code-base.html -->
-
----
 
 ## Binding and mutability
 
@@ -618,3 +615,7 @@ fn main() {
 You can find the solutions [here (<FontIcon icon="iconfont icon-github"/>`sunface/rust-by-practice`)](https://github.com/sunface/rust-by-practice) (under the solutions path), but only use it when you need it
 
 :::
+
+---
+
+<TagLinks />
