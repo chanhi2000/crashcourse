@@ -20,7 +20,7 @@ export const navbarEn = navbar([
       link: '/swift/100-days-of-swift/README.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/89.md'
+        link: '/swift/100-days-of-swiftui/90.md'
       }, {
         text: '🕊️SwiftUI by Example',
       link: '/swift/swiftui-by-example/README.md',
@@ -40,7 +40,7 @@ export const navbarEn = navbar([
         link: '/java/java-8-in-action/README.md',
       }, {
         text: '☕️Effective Java',
-        link: '/java/java-effective-java/README.md',
+        link: '/java/effective-java/README.md',
       }, {
         text: '🅺Kodeco - Android & Kotlin',
         link: '/java/kodeco/README.md'

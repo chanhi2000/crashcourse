@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: CloudWatch Event Rule - Jets Introduction Series Part 3
-desc: ...
-link: https://blog.boltops.com/2019/02/06/cloudwatch-event-rule-jets-introductory-series-part-3
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_468/https://blog.boltops.com/img/posts/2019/02/intro-series-cloudwatch-event-rule-v1.png
-background: rgba(243,136,41,0.2)
+{
+  "title": "CloudWatch Event Rule - Jets Introduction Series Part 3",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2019/02/06/cloudwatch-event-rule-jets-introductory-series-part-3",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_468/https://blog.boltops.com/img/posts/2019/02/intro-series-cloudwatch-event-rule-v1.png",
+  "background": "rgba(243,136,41,0.2)"
+}
 ```
 
 ---

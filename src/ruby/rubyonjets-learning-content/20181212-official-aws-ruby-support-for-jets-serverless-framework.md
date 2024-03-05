@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Official AWS Ruby Support for Jets
-desc: ...
-link: https://blog.boltops.com/2018/12/12/official-aws-ruby-support-for-jets-serverless-framework
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_604/https://blog.boltops.com/img/posts/2018/12/official-ruby-support-v1.png
-background: rgba(34,18,53,0.2)
+{
+  "title": "Official AWS Ruby Support for Jets",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2018/12/12/official-aws-ruby-support-for-jets-serverless-framework",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_604/https://blog.boltops.com/img/posts/2018/12/official-ruby-support-v1.png",
+  "background": "rgba(34,18,53,0.2)"
+}
 ```
 
 ---
@@ -80,7 +82,6 @@ Having the ability to change your code and debug live significantly increases yo
 Hopefully, you found the background info above interesting. 
 
 ![Now here’s a Jets application running on official Ruby support.](https://blog.boltops.com/img/posts/2018/12/lambda-console-official-ruby.png)
-
 
 ---
 

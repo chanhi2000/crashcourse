@@ -34,11 +34,13 @@ head:
 Examples that highlight tools, libraries, and features of your selected programming language. These ecosystem components can drastically help in building powerful applications. For example, tools can be used to help pass data between your host runtime and WebAssembly module, and/or languages features can abstract away some of the lower-level parts of WebAssembly such as memory management.
 
 ```component VPCard
-title: Wasm By Example - Passing High Level Data Types with wasm-bindgen
-desc: Passing High Level Data Types with wasm-bindgen
-link: https://wasmbyexample.dev/examples/passing-high-level-data-types-with-wasm-bindgen/passing-high-level-data-types-with-wasm-bindgen.rust.en-us.html#
-logo: https://wasmbyexample.dev/Web_Assembly_Logo.svg
-background: rgba(136,103,249,0.2)
+{
+  "title": "Wasm By Example - Passing High Level Data Types with wasm-bindgen",
+  "desc": "Passing High Level Data Types with wasm-bindgen",
+  "link": "https://wasmbyexample.dev/examples/passing-high-level-data-types-with-wasm-bindgen/passing-high-level-data-types-with-wasm-bindgen.rust.en-us.html#",
+  "logo": "https://wasmbyexample.dev/Web_Assembly_Logo.svg",
+  "background": "rgba(136,103,249,0.2)"
+}
 ```
 
 ---

@@ -33,7 +33,7 @@ head:
   "desc": "Learn about the stages of the Linux boot process.",
   "link": "https://linuxjourney.com/lesson/boot-process-overview",
   "logo": "https://linuxjourney.com/assets/booting-32f576a824d0160350167ece5da8fb719edd1e814ecbfaec20f6da7d9f31bfa0.png",
-  "background": "rgba(24,188,156,0.2)"`
+  "background": "rgba(24,188,156,0.2)"
 }
 ```
 

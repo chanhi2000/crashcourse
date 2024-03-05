@@ -30,11 +30,13 @@ head:
 ---
 
 ```component VPCard
-title: Extra Environments Part 7
-desc: ...
-link: https://blog.boltops.com/2018/09/13/jets-tutorial-extra-environments-part-7
-logo: https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_677/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-7-extra-environments-v1.png
-background: rgba(192,86,86,0.2)
+{
+  "title": "Extra Environments Part 7",
+  "desc": "...",
+  "link": "https://blog.boltops.com/2018/09/13/jets-tutorial-extra-environments-part-7",
+  "logo": "https://res.cloudinary.com/boltops/image/fetch/c_limit,f_auto,q_auto,w_677/https://blog.boltops.com/img/posts/2018/09/jets-tutorial-part-7-extra-environments-v1.png",
+  "background": "rgba(192,86,86,0.2)"
+}
 ```
 
 ---

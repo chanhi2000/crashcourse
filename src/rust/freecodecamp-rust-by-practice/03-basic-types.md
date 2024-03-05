@@ -32,17 +32,16 @@ head:
 ---
 
 ```component VPCard
-title: Rust By Practice
-desc: 3. Basic Types
-link: https://practice.rs/basic-types/numbers.html
-logo: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
-background: rgba(22, 25, 35, 0.2)
+{
+  "title": "Rust By Practice",
+  "desc": "3. Basic Types",
+  "link": "https://practice.rs/basic-types/numbers.html",
+  "logo": "https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true",
+  "background": "rgba(22,25,35,0.2)"
+}
 ```
 
 <!-- https://practice.rs/elegant-code-base.html -->
-
----
-
 
 ## Data Types
 
@@ -55,6 +54,7 @@ Keep in mind that Rust is a _statically typed_ language, which means that it mus
 ```rs
 let guess: u32 = "42".parse().expect("Not a number!");
 ```
+
 If we don’t add the `: u32` type annotation shown in the preceding code, Rust will display the following error, which means the compiler needs more information from us to know which type we want to use:
 
 ```sh

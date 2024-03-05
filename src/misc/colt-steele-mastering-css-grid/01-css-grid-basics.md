@@ -27,8 +27,6 @@ head:
 
 ---
 
-<!-- https://stream.mux.com/qr7EZ02ekkXDffeBlUmE8nwBabUJpk74Vnmqprm301HgU.m3u8?redundant_streams=true -->
-
 ## 01. Enabling CSS Grid
 
 ```component VPCard
@@ -41,6 +39,7 @@ head:
 }
 ```
 
+<VidStack src="https://stream.mux.com/qr7EZ02ekkXDffeBlUmE8nwBabUJpk74Vnmqprm301HgU.m3u8?redundant_streams=true" />
 
 Let's enable CSS Grid in a container element and explore the difference between `grid` and `inline-grid`.
 
@@ -59,7 +58,6 @@ First, let's look at a simple container with 10 colored boxes inside it:
 ```
 
 With no grid involved, the container is centered with a black border and each colored box is an individual `div`. Each `div` goes all the way across the screen, and the height is dictated by the text inside.
-
 
 ![screenshot rainbow](https://res.cloudinary.com/dwppkb069/image/upload/v1684351359/tutorials/images-01_Enabling_Grid.mp4/01_enabling_grid_7_00-27240-and-then-each-of-these-little-rainbow-boxes_ook46y.png)
 
@@ -135,8 +133,6 @@ You have two choices to turn on the grid system in a container:
 
 ## 02. Visualize CSS Grid with DevTools
 
-<!-- https://stream.mux.com/X1X01Vpqml8RGYGbyxUsJfxXEP9WHCA55NW7LCl1ATcA.m3u8?redundant_streams=true -->
-
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 02. Visualize CSS Grid with DevTools",
@@ -146,6 +142,8 @@ You have two choices to turn on the grid system in a container:
   "background": "rgba(225,176,102,0.2)"
 }
 ```
+
+<VidStack src="https://stream.mux.com/X1X01Vpqml8RGYGbyxUsJfxXEP9WHCA55NW7LCl1ATcA.m3u8?redundant_streams=true" />
 
 Modern browsers have grid developer tools that you can use to visualize and inspect grid layouts.
 
@@ -175,16 +173,17 @@ You can toggle the grid overlay on and off by checking or unchecking the box in 
 
 ## 03. Define CSS Grid Columns with `grid-template-columns`
 
-<!-- https://stream.mux.com/OUowQUs1eRPquGOGU8MQjtX4W7Z70002QI1jFQxEW02VWU.m3u8?redundant_streams=true -->
-
 ```component VPCard
-title: 01. CSS Grid Basics > 03. Define CSS Grid Columns with `grid-template-columns`
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 03. Define CSS Grid Columns with `grid-template-columns`",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
+<VidStack src="https://stream.mux.com/OUowQUs1eRPquGOGU8MQjtX4W7Z70002QI1jFQxEW02VWU.m3u8?redundant_streams=true" />
 
 Now that we have grid enabled for our container of 10 boxes, let's set up some rows and columns.
 
@@ -267,14 +266,16 @@ We have so far only used the `grid-template-columns` property to define columns 
 ## 04. Converting a Single-Column Layout
 
 ```component VPCard
-title: 01. CSS Grid Basics >  > 04. Converting a Single-Column Layout
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 04. Converting a Single-Column Layout",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
-<!-- https://stream.mux.com/GBpoVloI328OToQi2WSHpVPt3gUfOL6BEFDRXU89mrE.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/GBpoVloI328OToQi2WSHpVPt3gUfOL6BEFDRXU89mrE.m3u8?redundant_streams=true" />
 
 ### Problem
 
@@ -455,14 +456,16 @@ Now, you should have a three column layout with evenly sized columns. Each colum
 ## 05. Define CSS Grid Rows with `grid-template-rows`
 
 ```component VPCard
-title: 01. CSS Grid Basics > 05. Define CSS Grid Rows with `grid-template-rows`
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/define-css-grid-rows-with-grid-template-rows
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 05. Define CSS Grid Rows with `grid-template-rows`",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/define-css-grid-rows-with-grid-template-rows",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
-<!-- https://stream.mux.com/sJ6s00mktrrm010266hWFBLgOWHBOTzegXVdG4CcOxO0101c.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/sJ6s00mktrrm010266hWFBLgOWHBOTzegXVdG4CcOxO0101c.m3u8?redundant_streams=true" />
 
 The `grid-template-rows` property is used to set up the rows in a grid container.
 
@@ -531,16 +534,18 @@ In this case the first two elements will fill the 400-pixel tall rows, and the r
 ## 06. Adjust Row Heights in an Existing Layout
 
 ```component VPCard
-title: 01. CSS Grid Basics > 06. Adjust Row Heights in an Existing Layout
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/adjust-row-heights-in-an-existing-layout
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 06. Adjust Row Heights in an Existing Layout",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/adjust-row-heights-in-an-existing-layout",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
 ### Problem
 
-<!-- https://stream.mux.com/XqZSMWTir01puBB56mp0200j9wMLSMtOW9m7woMZlzRNfk.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/XqZSMWTir01puBB56mp0200j9wMLSMtOW9m7woMZlzRNfk.m3u8?redundant_streams=true" />
 
 [<FontIcon icon="iconfont icon-github"/> Colt/CSSGridTutorial/Exercise-02-grid-template-rows/Starter](https://github.com/Colt/CSSGridTutorial/tree/master/Exercise-02-grid-template-rows/Starter)
 
@@ -571,7 +576,7 @@ You do not need to touch the HTML file. In the CSS file, do not touch any of the
 
 :::
 
-### Exercise 
+### Exercise
 
 ::: normal-demo Exercise
 
@@ -652,7 +657,7 @@ You do not need to touch the HTML file. In the CSS file, do not touch any of the
 
 [<FontIcon icon="iconfont icon-github"/> Colt/CSSGridTutorial/Exercise-02-grid-template-rows/Solution](https://github.com/Colt/CSSGridTutorial/tree/master/Exercise-02-grid-template-rows/Solution)
 
-<!-- https://stream.mux.com/NTI56KdH241PStWCZiAqjp4HlVsYZPSj6oswsivxBmw.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/NTI56KdH241PStWCZiAqjp4HlVsYZPSj6oswsivxBmw.m3u8?redundant_streams=true" />
 
 The first step is to turn the container into a grid container, by setting the `display` property to `grid`. This is essential, as our second property won't work otherwise:
 
@@ -682,47 +687,52 @@ And that's it! We now have a grid container with four rows of the exact dimensio
 
 ![rows screenshot](https://res.cloudinary.com/dwppkb069/image/upload/v1684351362/tutorials/images-04.2_Exercise2_Solution.mp4/042_exercise2_solution_3_00-51760-and-thats-it-we-have-our-four-rows-of-those-exact-dimensions_gggppt.png)
 
-
 ---
 
 ## 07. Combining Rows and Columns to Create Layouts
 
 ```component VPCard
-title: 01. CSS Grid Basics > 07. Combining Rows and Columns to Create Layouts
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/combining-rows-and-columns-to-create-layouts
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 07. Combining Rows and Columns to Create Layouts",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/combining-rows-and-columns-to-create-layouts",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
-<!-- https://stream.mux.com/JwWeJBvbCrm3uw9hEVFWxm996U8oFQcrHe7cCVNkk5M.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/JwWeJBvbCrm3uw9hEVFWxm996U8oFQcrHe7cCVNkk5M.m3u8?redundant_streams=true" />
 
 ---
 
 ## 08. Practice Creating a Two-Column, Three-Row Layout
 
 ```component VPCard
-title: 01. CSS Grid Basics > 08. Practice Creating a Two-Column, Three-Row Layout
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/practice-creating-a-two-column-three-row-layout
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 08. Practice Creating a Two-Column, Three-Row Layout",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/practice-creating-a-two-column-three-row-layout",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
 
-<!-- https://stream.mux.com/jrLFVRjCTJrSbTDqjUvZB008CISfKLnNlcSQR7G6xo4k.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/jrLFVRjCTJrSbTDqjUvZB008CISfKLnNlcSQR7G6xo4k.m3u8?redundant_streams=true" />
 
 ---
 
 ## 09. Paragraph Layout with CSS Grid
 
 ```component VPCard
-title: 01. CSS Grid Basics > 09. Paragraph Layout with CSS Grid
-desc: 🎨Colt Steele - Mastering CSS Grid
-link: https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/paragraph-layout-with-css-grid
-logo: https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100
-background: rgba(225, 176, 102, 0.2)
+{
+  "title": "01. CSS Grid Basics > 09. Paragraph Layout with CSS Grid",
+  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/paragraph-layout-with-css-grid",
+  "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
+  "background": "rgba(225,176,102,0.2)"
+}
 ```
-<!-- https://stream.mux.com/E02E0102cPp801GmD026y5008gbNuxLqNKyFsjPOtCw9jGq0100.m3u8?redundant_streams=true -->
+<VidStack src="https://stream.mux.com/E02E0102cPp801GmD026y5008gbNuxLqNKyFsjPOtCw9jGq0100.m3u8?redundant_streams=true" />
 
 ---
 
