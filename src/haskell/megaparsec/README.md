@@ -11,13 +11,13 @@ tag:
   - attoparsec
   - trifecta
 head:
-- - meta:
-  - property: og:title
-    content: 🐑Megaparsec tutorial
-  - property: og:description
-    content: 🐑Megaparsec tutorial
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/haskell/megaparsec/
+  - - meta:
+    - property: og:title
+      content: 🐑Megaparsec tutorial
+    - property: og:description
+      content: 🐑Megaparsec tutorial
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/haskell/megaparsec/
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -20,7 +20,7 @@ export const navbarEn = navbar([
       link: '/swift/100-days-of-swift/README.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/90.md'
+        link: '/swift/100-days-of-swiftui/92.md'
       }, {
         text: '🕊️SwiftUI by Example',
       link: '/swift/swiftui-by-example/README.md',
@@ -86,6 +86,14 @@ export const navbarEn = navbar([
       }, {
         text: '🦀Rust to Assembly',
         link: '/rust/eventhelix-rust-to-assembly/README.md',
+      }
+    ]
+  }, {
+    text: '➕',
+    children: [
+      {
+        text: '➕Algorithms for Competitive Programming',
+        link: '/cpp/algorithms-for-competitive-programming/README.md',
       }
     ]
   }, {

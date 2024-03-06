@@ -17,12 +17,15 @@ actions:
   - text: 🦀Rust
     link: /rust/
     type: primary
+  - text: ➕Cpp
+    link: /cpp/
+    type: secndary
   - text: 🔻Ruby
     link: /ruby/
-    type: secndary
+    type: primary
   - text: 🐑Haskell
     link: /haskell/
-    type: primary
+    type: secndary
 footerHtml: true
 footer: <i>v__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2023-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 ---

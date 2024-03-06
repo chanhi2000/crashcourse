@@ -245,6 +245,8 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/88.md',
         '/swift/100-days-of-swiftui/89.md',
         '/swift/100-days-of-swiftui/90.md',
+        '/swift/100-days-of-swiftui/91.md',
+        '/swift/100-days-of-swiftui/92.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -531,6 +533,22 @@ export const sidebarEn = sidebar({
         '/rust/eventhelix-rust-to-assembly/rust-to-assembly-vector-iteration.md'
       ]
     }, 
+  ], '/cpp/':  [ 
+    {
+      text: '➕Cpp',
+      children: [ 
+        '/cpp/algorithms-for-competitive-programming/README.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
+        '/cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
+        '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
+        '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
+        '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
+      ]
+    }
   ], '/ruby/': [
     {
       text: '🔻Ruby',

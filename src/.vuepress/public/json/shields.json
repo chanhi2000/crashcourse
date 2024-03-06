@@ -21,6 +21,7 @@
   { "logo": "cockroachlabs", "name": "CockroachDB", "colorHex": "6933FF" },
   { "logo": "cocoapods", "name": "CocoaPods", "colorHex": "EE3322" },
   { "logo": "confluence", "name": "Confluence", "colorHex": "#172B4D" },
+  { "logo": "cplusplus", "name": "C++", "colorHex": "#00599C" },
   { "logo": "createreactapp", "name": "CRA", "colorHex": "09D3AC" },
   { "logo": "csharp", "name": "CSharp", "colorHex": "239120" },
   { "logo": "css3", "name": "CSS", "colorHex": "1572B6" },
