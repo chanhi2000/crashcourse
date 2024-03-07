@@ -249,9 +249,9 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - ✅[Day 88][day-88] – Project 17, part three
 - ✅[Day 89][day-89] – Project 17, part four
 - ✅[Day 90][day-90] – Project 17, part five
-- [Day 91][day-91] – Project 17, part six
-- [Day 92][day-92] – Project 18, part one
-- [Day 93][day-93] – Project 18, part two
+- ✅[Day 91][day-91] – Project 17, part six
+- ✅[Day 92][day-92] – Project 18, part one
+- ✅[Day 93][day-93] – Project 18, part two
 - [Day 94][day-94] – Project 18, part three
 
 ### Days 95: Consolidation VII
@@ -375,9 +375,9 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-88]: 88.md
 [day-89]: 89.md
 [day-90]: 90.md
-[day-91]: https://www.hackingwithswift.com/100/swiftui/91
-[day-92]: https://www.hackingwithswift.com/100/swiftui/92
-[day-93]: https://www.hackingwithswift.com/100/swiftui/93
+[day-91]: 91.md
+[day-92]: 92.md
+[day-93]: 93.md
 [day-94]: https://www.hackingwithswift.com/100/swiftui/94
 [day-95]: https://www.hackingwithswift.com/100/swiftui/95
 [day-96]: https://www.hackingwithswift.com/100/swiftui/96

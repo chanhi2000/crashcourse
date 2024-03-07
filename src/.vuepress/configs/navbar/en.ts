@@ -20,7 +20,7 @@ export const navbarEn = navbar([
       link: '/swift/100-days-of-swift/README.md'
       }, {
         text: '🕊️100 Days of SwiftUI',
-        link: '/swift/100-days-of-swiftui/92.md'
+        link: '/swift/100-days-of-swiftui/93.md'
       }, {
         text: '🕊️SwiftUI by Example',
       link: '/swift/swiftui-by-example/README.md',

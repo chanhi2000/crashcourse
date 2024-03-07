@@ -46,10 +46,36 @@ head:
 
 > A brief explanation of the basics of SwiftUI
 
-- [Don’t panic!][dont-panic]
-- [What is SwiftUI?][what-is-swiftui]
-- [SwiftUI vs Interface Builder and storyboards][swiftui-vs-interface-builder-and-storyboards]
-- [Frequently asked questions about SwiftUI][frequently-asked-questions-about-swiftui]
+```component VPCard
+{
+  "title": "SwiftUI by Example – What is SwiftUI?",
+  "desc": "What is SwiftUI?",
+  "link": "00-introduction/what-is-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example – SwiftUI vs Interface Builder and storyboards",
+  "desc": "SwiftUI vs Interface Builder and storyboards",
+  "link": "00-introduction/swiftui-vs-interface-builder-and-storyboards.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example – Frequently asked questions about SwiftUI",
+  "desc": "Frequently asked questions about SwiftUI",
+  "link": "00-introduction/frequently-asked-questions-about-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
 - [Answering the big question: should you learn SwiftUI, UIKit, or both?][answering-the-big-question-should-you-learn-swiftui-uikit-or-both]
 - [How to follow this quick start guide][how-to-follow-this-quick-start-guide]
 - [Migrating from UIKit to SwiftUI][migrating-from-uikit-to-swiftui]
@@ -567,10 +593,7 @@ head:
 - [How to fix a Form Picker or a `NavigationLink` that isn’t tappable][how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]
 
 <!-- Introduction -->
-[dont-panic]: https://www.hackingwithswift.com/quick-start/swiftui/dont-panic
-[what-is-swiftui]: https://www.hackingwithswift.com/quick-start/swiftui/what-is-swiftui
-[swiftui-vs-interface-builder-and-storyboards]: https://www.hackingwithswift.com/quick-start/swiftui/swiftui-vs-interface-builder-and-storyboards
-[frequently-asked-questions-about-swiftui]: https://www.hackingwithswift.com/quick-start/swiftui/frequently-asked-questions-about-swiftui
+
 [answering-the-big-question-should-you-learn-swiftui-uikit-or-both]: https://www.hackingwithswift.com/quick-start/swiftui/answering-the-big-question-should-you-learn-swiftui-uikit-or-both
 [how-to-follow-this-quick-start-guide]: https://www.hackingwithswift.com/quick-start/swiftui/how-to-follow-this-quick-start-guide
 [migrating-from-uikit-to-swiftui]: https://www.hackingwithswift.com/quick-start/swiftui/migrating-from-uikit-to-swiftui

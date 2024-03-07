@@ -2180,7 +2180,7 @@ head:
 {
   "title": "Alamofire 5 Tutorial for iOS - Getting Started",
   "desc": "In this Alamofire tutorial, you’ll build an iOS companion app to perform networking tasks, send request parameters, decode/encode responses and more.",
-  "link": "https://www.kodeco.com/6587213-alamofire-5-tutorial-for-ios-getting-started",
+  "link": "6587213-alamofire-5-tutorial-for-ios-getting-started.md",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-networking-ios-6b4c9f198b8600dc0247a590887715b4a22ecc501984031c40b11e78a54ce886.svg",
   "background": "rgba(135,99,210,0.2)"
 }

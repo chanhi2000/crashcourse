@@ -247,12 +247,16 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/90.md',
         '/swift/100-days-of-swiftui/91.md',
         '/swift/100-days-of-swiftui/92.md',
+        '/swift/100-days-of-swiftui/93.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
       collapsible: true,
       children: [
         '/swift/swiftui-by-example/README.md',
+        '/swift/swiftui-by-example/00-introduction/what-is-swiftui.md',
+        '/swift/swiftui-by-example/00-introduction/swiftui-vs-interface-builder-and-storyboards.md',
+        '/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md',
       ]
     }, {
       text: '🕊️Kodeco - Swift',
@@ -261,6 +265,7 @@ export const sidebarEn = sidebar({
         '/swift/kodeco/README.md',
         '/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.md',
         '/swift/kodeco/6334294-my-app-crashed-now-what.md',
+        '/swift/kodeco/6587213-alamofire-5-tutorial-for-ios-getting-started.md',        
         '/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.md',
         '/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.md',
         '/swift/kodeco/6827616-ios-accessibility-getting-started.md',
