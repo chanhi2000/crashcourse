@@ -55,15 +55,15 @@ The goal of this project is to translate [the wonderful resource](https://e-maxx
   - [02B. Trees](02-data-structures/02B.md)
   - [02C. Advanced](02-data-structures/02C.md)
 - 03. Dynamic Programming
-  - 03A. Introduction
-  - 03B. DP Optimizations
-  - 03C. Tasks
+  - [03A. Introduction](03-dynamic-programming/03A.md)
+  - [03B. DP Optimizations](03-dynamic-programming/03B.md)
+  - [03C. Tasks](03-dynamic-programming/03C.md)
 - 04. String Processing
-  - 04A. Fundamentals
-  - 04B. Advanced
-  - 04C. Tasks
+  - [04A. Fundamentals](04-string-processing/04A.md)
+  - [04B. Advanced](04-string-processing/04B.md)
+  - [04C. Tasks](04-string-processing/04C.md)
 - 05. Linear Algebra
-  - 05A. Metrices
+  - [05A. Metrices](05-linear-algebra/05A.md)
 - 06. Combinatorics
   - 06A. Fundamentals
   - 06B. Techniques

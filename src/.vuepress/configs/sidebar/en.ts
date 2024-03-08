@@ -248,6 +248,8 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/91.md',
         '/swift/100-days-of-swiftui/92.md',
         '/swift/100-days-of-swiftui/93.md',
+        '/swift/100-days-of-swiftui/94.md',
+        '/swift/100-days-of-swiftui/95.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -419,10 +421,28 @@ export const sidebarEn = sidebar({
       text: '🧶JavaScript',
       children: [ '/js/README.md' ]
     }, {
-      text: '🧶Learn Typescript',
+      text: '⚜Learn Typescript',
       collapsible: true,
       children: [
         '/js/learn-ts/README.md',
+        '/js/learn-ts/advanced/01.md',
+        '/js/learn-ts/advanced/02.md',
+        '/js/learn-ts/advanced/03.md',
+        '/js/learn-ts/advanced/04.md',
+        '/js/learn-ts/advanced/05.md',
+        '/js/learn-ts/advanced/06.md',
+        '/js/learn-ts/advanced/07.md',
+        '/js/learn-ts/advanced/08.md',
+        '/js/learn-ts/advanced/09.md',
+        '/js/learn-ts/advanced/10.md',
+        '/js/learn-ts/advanced/11.md',
+        '/js/learn-ts/advanced/12.md',
+        '/js/learn-ts/advanced/13.md',
+        '/js/learn-ts/advanced/14.md',
+        '/js/learn-ts/advanced/15.md',
+        '/js/learn-ts/advanced/16.md',
+        '/js/learn-ts/advanced/17.md',
+        '/js/learn-ts/advanced/18.md',
       ]
     }, {
       text: '🧶Must Know JavaScript API',
@@ -436,7 +456,35 @@ export const sidebarEn = sidebar({
         '/js/must-know-javascript-api/clipboard.md',
         '/js/must-know-javascript-api/fetch.md'
       ]
-    }, 
+    }, {
+      text: '🧶Eloquent Javascript',
+      collapsible: true,
+      children: [
+        '/js/eloquent-javascript/README.md',
+        '/js/eloquent-javascript/00.md',
+        '/js/eloquent-javascript/01.md',
+        '/js/eloquent-javascript/02.md',
+        '/js/eloquent-javascript/03.md',
+        '/js/eloquent-javascript/04.md',
+        '/js/eloquent-javascript/05.md',
+        '/js/eloquent-javascript/06.md',
+        '/js/eloquent-javascript/07.md',
+        '/js/eloquent-javascript/08.md',
+        '/js/eloquent-javascript/09.md',
+        '/js/eloquent-javascript/10.md',
+        '/js/eloquent-javascript/11.md',
+        '/js/eloquent-javascript/12.md',
+        '/js/eloquent-javascript/13.md',
+        '/js/eloquent-javascript/14.md',
+        '/js/eloquent-javascript/15.md',
+        '/js/eloquent-javascript/16.md',
+        '/js/eloquent-javascript/17.md',
+        '/js/eloquent-javascript/18.md',
+        '/js/eloquent-javascript/19.md',
+        '/js/eloquent-javascript/20.md',
+        '/js/eloquent-javascript/21.md',
+      ]
+    }
   ], '/python/': [
     {
       text: '🐍Python',
@@ -552,6 +600,13 @@ export const sidebarEn = sidebar({
         '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
         '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
         '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
+        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
+        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
+        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
+        '/cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
+        '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
+        '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
+        '/cpp/algorithms-for-competitive-programming/05-linear-algebra/05A.md',
       ]
     }
   ], '/ruby/': [

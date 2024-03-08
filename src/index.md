@@ -11,21 +11,24 @@ actions:
   - text: ☕️Java / 🅺Kotlin / 🍃Spring
     link: /java/
     type: primary
+  - text: 🧶Javascript / ⚜Typescript  
+    link: /js/
+    type: secondary
   - text: 🐍Python
     link: /python/
-    type: secondary
+    type: primary
   - text: 🦀Rust
     link: /rust/
-    type: primary
+    type: secondary
   - text: ➕Cpp
     link: /cpp/
-    type: secndary
+    type: primary
   - text: 🔻Ruby
     link: /ruby/
-    type: primary
+    type: secndary
   - text: 🐑Haskell
     link: /haskell/
-    type: secndary
+    type: primary
 footerHtml: true
 footer: <i>v__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2023-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 ---

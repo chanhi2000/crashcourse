@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: 🧶Must Know JavaScript API
     - property: og:url
-      content: https://chanhi2000.github.io/js/must-know-javascript-api
+      content: https://chanhi2000.github.io/crashcourse/js/must-know-javascript-api
 ---
 
 # {{ $frontmatter.title }} 관련

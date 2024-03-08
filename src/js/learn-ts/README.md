@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 🧶Learn Typescript
-description: 🧶Learn Typescript
+title: ⚜Learn Typescript
+description: ⚜Learn Typescript
 category: 
   - 🧶JavaScript
   - ⚜TypeScript
@@ -14,11 +14,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Learn Typescript
+      content: ⚜Learn Typescript
     - property: og:description
-      content: 🧶Learn Typescript
+      content: ⚜Learn Typescript
     - property: og:url
-      content: https://chanhi2000.github.io/js/learn-ts.html
+      content: https://chanhi2000.github.io/crashcourse/js/learn-ts/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -32,7 +32,7 @@ head:
 ```component VPCard
 {
   "title": "Learn TypeScript",
-  "desc": "LWelcome to Learn TypeScript - the Interactive TypeScript Tutorial",
+  "desc": "Welcome to Learn TypeScript - the Interactive TypeScript Tutorial",
   "link": "https://www.learn-ts.org",
   "logo": "https://www.learn-ts.org/static/img/favicons/learn-ts.org.ico",
   "background": "rgba(34,34,34,0.2)"
@@ -47,24 +47,24 @@ Dive into the chapters below to embark on your TypeScript journey. Each section 
 
 ## Table of Contents
 
-1. keyof and typeof Operators
-2. Type Unions and Intersections
-3. Conditional Types
-4. Enum Type
-5. Generics
-6. Index Types
-7. Literal Types
-8. Discriminated Unions
-9. Mapped Types
-10. Mixins
-11. Namespaces
-12. Readonly Type
-13. Tuple Types
-14. Type Aliases
-15. Type Guards
-16. Decorators
-17. Utility Types
-18. Abstract Classes
+- [01. `keyof` and `typeof` Operators](advanced/01.md)
+- [02. Type Unions and Intersections](advanced/02.md)
+- [03. Conditional Types](advanced/03.md)
+- [04. Enum Type](advanced/04.md)
+- [05. Generics](advanced/05.md)
+- [06. Index Types](advanced/06.md)
+- [07. Literal Types](advanced/07.md)
+- [08. Discriminated Unions](advanced/08.md)
+- [09. Mapped Types](advanced/09.md)
+- [10. Mixins](advanced/10.md)
+- [11. Namespaces](advanced/11.md)
+- [12. Readonly Type](advanced/12.md)
+- [13. Tuple Types](advanced/13.md)
+- [14. Type Aliases](advanced/14.md)
+- [15. Type Guards](advanced/15.md)
+- [16. Decorators](advanced/16.md)
+- [17. Utility Types](advanced/17.md)
+- [18. Abstract Classes](advanced/18.md)
 
 ---
 

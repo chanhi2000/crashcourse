@@ -233,28 +233,28 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 - [Day 77][day-77] – Milestone: Projects 13-15
 - [Day 78][day-78] – Time for MapKit
 
-### Days 79-94: Controlling UI flow
+### ✅Days 79-94: Controlling UI flow
 
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
-- ✅[Day 79][day-79] – Project 16, part one
-- ✅[Day 80][day-80] – Project 16, part two
-- ✅[Day 81][day-81] – Project 16, part three
-- ✅[Day 82][day-82] – Project 16, part four
-- ✅[Day 83][day-83] – Project 16, part five
-- ✅[Day 84][day-84] – Project 16, part six
-- ✅[Day 85][day-85] – Project 16, part seven
-- ✅[Day 86][day-86] – Project 17, part one
-- ✅[Day 87][day-87] – Project 17, part two
-- ✅[Day 88][day-88] – Project 17, part three
-- ✅[Day 89][day-89] – Project 17, part four
-- ✅[Day 90][day-90] – Project 17, part five
-- ✅[Day 91][day-91] – Project 17, part six
-- ✅[Day 92][day-92] – Project 18, part one
-- ✅[Day 93][day-93] – Project 18, part two
+- [Day 79][day-79] – Project 16, part one
+- [Day 80][day-80] – Project 16, part two
+- [Day 81][day-81] – Project 16, part three
+- [Day 82][day-82] – Project 16, part four
+- [Day 83][day-83] – Project 16, part five
+- [Day 84][day-84] – Project 16, part six
+- [Day 85][day-85] – Project 16, part seven
+- [Day 86][day-86] – Project 17, part one
+- [Day 87][day-87] – Project 17, part two
+- [Day 88][day-88] – Project 17, part three
+- [Day 89][day-89] – Project 17, part four
+- [Day 90][day-90] – Project 17, part five
+- [Day 91][day-91] – Project 17, part six
+- [Day 92][day-92] – Project 18, part one
+- [Day 93][day-93] – Project 18, part two
 - [Day 94][day-94] – Project 18, part three
 
-### Days 95: Consolidation VII
+### ✅Days 95: Consolidation VII
 
 As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
 
@@ -378,8 +378,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-91]: 91.md
 [day-92]: 92.md
 [day-93]: 93.md
-[day-94]: https://www.hackingwithswift.com/100/swiftui/94
-[day-95]: https://www.hackingwithswift.com/100/swiftui/95
+[day-94]: 94.md
+[day-95]: 95.md
 [day-96]: https://www.hackingwithswift.com/100/swiftui/96
 [day-97]: https://www.hackingwithswift.com/100/swiftui/97
 [day-98]: https://www.hackingwithswift.com/100/swiftui/98
