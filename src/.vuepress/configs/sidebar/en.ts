@@ -250,15 +250,16 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/93.md',
         '/swift/100-days-of-swiftui/94.md',
         '/swift/100-days-of-swiftui/95.md',
+        '/swift/100-days-of-swiftui/96.md',
+        '/swift/100-days-of-swiftui/97.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
       collapsible: true,
       children: [
         '/swift/swiftui-by-example/README.md',
-        '/swift/swiftui-by-example/00-introduction/what-is-swiftui.md',
-        '/swift/swiftui-by-example/00-introduction/swiftui-vs-interface-builder-and-storyboards.md',
-        '/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md',
+        '/swift/swiftui-by-example/01-building-a-complete-project.md',
+        '/swift/swiftui-by-example/02-working-with-static-text.md',
       ]
     }, {
       text: '🕊️Kodeco - Swift',
@@ -524,7 +525,16 @@ export const sidebarEn = sidebar({
         '/python/rpa-excel/02i.md',
         '/python/rpa-excel/03.md',
       ]
-    }, 
+    },  {
+      text: '🐍OpenCV – Python 고급 기법 프로그래밍',
+      collapsible: true,
+      children: [
+        '/python/opencv-advacned/README.md',
+        '/python/opencv-advacned/00.md',
+        '/python/opencv-advacned/01.md',
+        '/python/opencv-advacned/02.md',
+      ],
+    }
   ], '/rust/': [
     {
       text: '🦀Rust',

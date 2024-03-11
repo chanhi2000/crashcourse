@@ -89,7 +89,37 @@ You’ve already read the two rules of these 100 days, but to maximize your chan
 
 This introductory day prepares you for the course, explains core concepts, and helps you avoid the most common mistakes faced by other learners.
 
-- [Day 0][day-0] – tips and advice before you start.
+::: details Day 0 – tips and advice before you start.
+
+```component VPCard
+{
+  "title": "Hacking with SwiftUI - Day 0",
+  "desc": "Before you start",
+  "link": "https://www.hackingwithswift.com/100/swiftui/0",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+You have 100 days of learning ahead of you, and along the way you’re going to learn a heck of a lot about Swift, SwiftUI, and iOS app development.
+
+Chances are you have a lot of questions, and that’s perfectly normal – questions are how we learn and grow. Voltaire once said, “judge someone by their questions, not by their answers,” and I hope that no matter how much you learn and how experienced you get, you never get tired of asking questions.
+
+Today I have one article you should follow that I hope will answer many of your questions. It’s available as both text and as a video, so you can use whichever you prefer.
+
+The content of both the article and video are identical: both are packed with tips on how to learn effectively, _what_ to learn, what common mistakes learners encounter, and much more, and regardless of which you choose they form the single best way to prepare yourself for this course.
+
+Here’s the article link: [How to become an iOS developer](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer).
+
+And here’s the video:
+
+<VidStack src="youtube/HNXzcAwNqMc" />
+
+Again, it’s available as both an article and a video, and the content is identical so you really can use whichever works best for you.
+
+__While you’re reading the article or watching the video, now would be a great time to download Xcode from the Mac App Store by [clicking here](https://apps.apple.com/gb/app/xcode/id497799835?mt=12).__
+
+:::
 
 ### ✅Days 1-14: Introduction to Swift
 
@@ -97,18 +127,18 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-- [Day 1][day-1] – variables, constants, strings, and numbers
-- [Day 2][day-2] – Booleans, string interpolation, and checkpoint 1
-- [Day 3][day-3] – Arrays, dictionaries, sets, and enums
-- [Day 4][day-4] – type annotations and checkpoint 2
-- [Day 5][day-5] – if, switch, and the ternary operator
-- [Day 6][day-6] – loops, summary, and checkpoint 3
-- [Day 7][day-7] – functions, parameters, and return values
-- [Day 8][day-8] – default values, throwing functions, and checkpoint 4
-- [Day 9][day-9] – closures, passing functions into functions, and checkpoint 5
-- [Day 10][day-10] – structs, computed properties, and property observers
-- [Day 11][day-11] – access control, static properties and methods, and checkpoint 6
-- [Day 12][day-12] – classes, inheritance, and checkpoint 7
+- [Day 1 – variables, constants, strings, and numbers](01.md)
+- [Day 2 – Booleans, string interpolation, and checkpoint 1](02.md)
+- [Day 3 – Arrays, dictionaries, sets, and enums](03.md)
+- [Day 4 – type annotations and checkpoint 2](04.md)
+- [Day 5 – if, switch, and the ternary operator](05.md)
+- [Day 6 – loops, summary, and checkpoint 3](06.md)
+- [Day 7 – functions, parameters, and return values](07.md)
+- [Day 8 – default values, throwing functions, and checkpoint 4](08.md)
+- [Day 9 – closures, passing functions into functions, and checkpoint 5](09.md)
+- [Day 10 – structs, computed properties, and property observers](10.md)
+- [Day 11 – access control, static properties and methods, and checkpoint 6](11.md)
+- [Day 12 – classes, inheritance, and checkpoint 7](12.md)
 - [Day 13][day-13] – protocols, extensions, and checkpoint 8
 - [Day 14][day-14] – optionals, nil coalescing, and checkpoint 9
 
@@ -264,8 +294,8 @@ As we approach the end of our 100 days it’s time to pause and reflect on the m
 
 In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
-- [Day 96][day-96] – Project 19, part one
-- [Day 97][day-97] – Project 19, part two
+- ✅[Day 96][day-96] – Project 19, part one
+- ✅[Day 97][day-97] – Project 19, part two
 - [Day 98][day-98] – Project 19, part three
 - [Day 99][day-99] – Project 19, part four
 
@@ -284,19 +314,6 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [swiftui-by-example]: https://www.hackingwithswift.com/quick-start/swiftui
 [glossary]: https://www.hackingwithswift.com/glossary
 
-[day-0]: https://www.hackingwithswift.com/100/swiftui/0
-[day-1]: 01.md
-[day-2]: 02.md
-[day-3]: 03.md
-[day-4]: 04.md
-[day-5]: 05.md
-[day-6]: 06.md
-[day-7]: 07.md
-[day-8]: 08.md
-[day-9]: 09.md
-[day-10]: 10.md
-[day-11]: 11.md
-[day-12]: 12.md
 [day-13]: 13.md
 [day-14]: 14.md
 [day-15]: 15.md
@@ -380,8 +397,8 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [day-93]: 93.md
 [day-94]: 94.md
 [day-95]: 95.md
-[day-96]: https://www.hackingwithswift.com/100/swiftui/96
-[day-97]: https://www.hackingwithswift.com/100/swiftui/97
+[day-96]: 96.md
+[day-97]: 97.md
 [day-98]: https://www.hackingwithswift.com/100/swiftui/98
 [day-99]: https://www.hackingwithswift.com/100/swiftui/99
 [day-100]: https://www.hackingwithswift.com/100/swiftui/100
