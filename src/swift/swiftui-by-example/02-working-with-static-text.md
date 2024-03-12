@@ -32,6 +32,8 @@ head:
 
 ## How to create static labels with a Text view
 
+::: details How to create static labels with a Text view
+
 ```component VPCard
 {
   "title": "SwiftUI by Example > How to create static labels with a Text view",
@@ -42,9 +44,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to style text views with fonts, colors, line spacing, and more
+
+::: details How to style text views with fonts, colors, line spacing, and more
 
 ```component VPCard
 {
@@ -56,9 +62,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to add advanced text styling using `AttributedString`
+
+::: details How to add advanced text styling using `AttributedString`
 
 ```component VPCard
 {
@@ -70,9 +80,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to adjust text alignment using `multilineTextAlignment()`
+
+::: details How to adjust text alignment using `multilineTextAlignment()`
 
 ```component VPCard
 {
@@ -84,9 +98,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to format text inside text views
+
+::: details How to format text inside text views
 
 ```component VPCard
 {
@@ -98,9 +116,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to add spacing between letters in text
+
+::: details How to add spacing between letters in text
 
 ```component VPCard
 {
@@ -112,9 +134,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to format dates inside text views
+
+::: details How to format dates inside text views
 
 ```component VPCard
 {
@@ -126,9 +152,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to make `TextField` uppercase or lowercase using `textCase()`
+
+::: details How to make `TextField` uppercase or lowercase using `textCase()`
 
 ```component VPCard
 {
@@ -140,9 +170,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to show text and an icon side by side using Label
+
+::: details How to show text and an icon side by side using Label
 
 ```component VPCard
 {
@@ -154,9 +188,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to mark content as a placeholder using `redacted()`
+
+::: details How to mark content as a placeholder using `redacted()`
 
 ```component VPCard
 {
@@ -168,9 +206,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to mark content as private using `privacySensitive()`
+
+::: details How to mark content as private using `privacySensitive()`
 
 ```component VPCard
 {
@@ -182,9 +224,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to render Markdown content in text
+
+::: details How to render Markdown content in text
 
 ```component VPCard
 {
@@ -196,9 +242,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to customize the way links are opened
+
+::: details How to customize the way links are opened
 
 ```component VPCard
 {
@@ -210,9 +260,13 @@ head:
 }
 ```
 
+:::
+
 ---
 
 ## How to let users select text
+
+::: details How to let users select text
 
 ```component VPCard
 {
@@ -223,6 +277,8 @@ head:
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+:::
 
 ---
 

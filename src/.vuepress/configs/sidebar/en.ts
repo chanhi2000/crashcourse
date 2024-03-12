@@ -252,6 +252,10 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/95.md',
         '/swift/100-days-of-swiftui/96.md',
         '/swift/100-days-of-swiftui/97.md',
+        '/swift/100-days-of-swiftui/98.md',
+        '/swift/100-days-of-swiftui/99.md',
+        '/swift/100-days-of-swiftui/100.md',
+        '/swift/100-days-of-swiftui/101.md',
       ]
     }, {
       text: '🕊️SwiftUI by Example',
@@ -260,6 +264,9 @@ export const sidebarEn = sidebar({
         '/swift/swiftui-by-example/README.md',
         '/swift/swiftui-by-example/01-building-a-complete-project.md',
         '/swift/swiftui-by-example/02-working-with-static-text.md',
+        '/swift/swiftui-by-example/03-images-shapes-and-media.md',
+        '/swift/swiftui-by-example/04-view-layout.md',
+        '/swift/swiftui-by-example/05-stacks-grids-scrollviews.md',
       ]
     }, {
       text: '🕊️Kodeco - Swift',

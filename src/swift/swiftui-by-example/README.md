@@ -524,23 +524,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Draw icons, circles, gradients, and more
 
-- [How to draw images using Image views][how-to-draw-images-using-image-views]
-- [How to adjust the way an image is fitted to its space][how-to-adjust-the-way-an-image-is-fitted-to-its-space]
-- [How to tile an image][how-to-tile-an-image]
-- [How to render images using `SF Symbols`][how-to-render-images-using-sf-symbols]
-- [How to render a gradient][how-to-render-a-gradient]
-- [How to use images and other views as a backgrounds][how-to-use-images-and-other-views-as-a-backgrounds]
-- [How to display solid shapes][how-to-display-solid-shapes]
-- [How to fill and stroke shapes at the same time][how-to-fill-and-stroke-shapes-at-the-same-time]
-- [How to draw part of a solid shape using `trim()`][how-to-draw-part-of-a-solid-shape-using-trim]
-- [When should you use `ContainerRelativeShape`?][when-should-you-use-containerrelativeshape]
-- [How to play movies with `VideoPlayer`][how-to-play-movies-with-videoplayer]
-- [How to integrate `SpriteKit` using `SpriteView`][how-to-integrate-spritekit-using-spriteview]
-- [How to load a remote image from a URL][how-to-load-a-remote-image-from-a-url]
-- [How to get custom colors and transparency with `SF Symbols`][how-to-get-custom-colors-and-transparency-with-sf-symbols]
-- [How to dynamically adjust the color of an `SF Symbol`][how-to-dynamically-adjust-the-color-of-an-sf-symbol]
-- [How to let users select pictures using `PhotosPicker`][how-to-let-users-select-pictures-using-photospicker]
-- [How to let users import videos using `PhotosPicker`][how-to-let-users-import-videos-using-photospicker]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Images, shapes, and media",
+  "desc": "Images, shapes, and media",
+  "link": "03-images-shapes-and-media.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -548,21 +540,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Layout sizes, priorities, and spacing
 
-- [How to give a view a custom frame][how-to-give-a-view-a-custom-frame]
-- [How to control spacing around individual views using padding][how-to-control-spacing-around-individual-views-using-padding]
-- [How to provide relative sizes using `GeometryReader`][how-to-provide-relative-sizes-using-geometryreader]
-- [How to place content outside the safe area][how-to-place-content-outside-the-safe-area]
-- [How to return different view types][how-to-return-different-view-types]
-- [How to create views in a loop using `ForEach`][how-to-create-views-in-a-loop-using-foreach]
-- [How to control layout priority using `layoutPriority()`][how-to-control-layout-priority-using-layoutpriority]
-- [How to make two views the same width or height][how-to-make-two-views-the-same-width-or-height]
-- [How to provide visual structure using foreground styles][how-to-provide-visual-structure-using-foreground-styles]
-- [How to inset the safe area with custom content][how-to-inset-the-safe-area-with-custom-content]
-- [How to hide the home indicator and other system UI][how-to-hide-the-home-indicator-and-other-system-ui]
-- [How to stop system gestures from interfering with your own][how-to-stop-system-gestures-from-interfering-with-your-own]
-- [How to dynamically change between `VStack` and `HStack`][how-to-dynamically-change-between-vstack-and-hstack]
-- [How to create a custom layout using the Layout protocol][how-to-create-a-custom-layout-using-the-layout-protocol]
-- [How to create an adaptive layout with `ViewThatFits`][how-to-create-an-adaptive-layout-with-viewthatfits]
+```component VPCard
+{
+  "title": "SwiftUI by Example > View layout",
+  "desc": "View layout",
+  "link": "04-view-layout.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -570,23 +556,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Position views in a structured way
 
-- [How to create stacks using `VStack` and `HStack`][how-to-create-stacks-using-vstack-and-hstack]
-- [How to customize stack layouts with alignment and spacing][how-to-customize-stack-layouts-with-alignment-and-spacing]
-- [How to force views to one side inside a stack using Spacer][how-to-force-views-to-one-side-inside-a-stack-using-spacer]
-- [How to make a fixed size `Spacer`][how-to-make-a-fixed-size-spacer]
-- [How to layer views on top of each other using `ZStack`][how-to-layer-views-on-top-of-each-other-using-zstack]
-- [How to change the order of view layering using Z index][how-to-change-the-order-of-view-layering-using-z-index]
-- [How to create different layouts using size classes][how-to-create-different-layouts-using-size-classes]
-- [How to automatically switch between `HStack` and `VStack` based on size class][how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class]
-- [How to add horizontal and vertical scrolling using `ScrollView`][how-to-add-horizontal-and-vertical-scrolling-using-scrollview]
-- [How to make a scroll view move to a location using `ScrollViewReader`][how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader]
-- [How to create 3D effects like Cover Flow using `ScrollView` and `GeometryReader`][how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader]
-- [How to lazy load views using `LazyVStack` and `LazyHStack`][how-to-lazy-load-views-using-lazyvstack-and-lazyhstack]
-- [How to position views in a fixed grid][how-to-position-views-in-a-fixed-grid]
-- [How to position views in a grid using `LazyVGrid` and `LazyHGrid`][how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid]
-- [How to dismiss the keyboard when the user scrolls][how-to-dismiss-the-keyboard-when-the-user-scrolls]
-- [How to hide the scroll indicators in `ScrollView`, `List`, and more][how-to-hide-the-scroll-indicators-in-scrollview-list-and-more]
-- [How to create multi-column lists using Table][how-to-create-multi-column-lists-using-table]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Stacks, grids, scrollviews",
+  "desc": "Stacks, grids, scrollviews",
+  "link": "05-stacks-grids-scrollviews.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -986,40 +964,6 @@ I know WWDC can often be quite the “photo finish” where features land only a
 - [How to fix images not resizing][how-to-fix-images-not-resizing]
 - [How to fix a Form Picker or a `NavigationLink` that isn’t tappable][how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]
 
-<!-- Images, shapes, and media -->
-[how-to-draw-images-using-image-views]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-images-using-image-views
-[how-to-adjust-the-way-an-image-is-fitted-to-its-space]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space
-[how-to-tile-an-image]: https://hackingwithswift.com/quick-start/swiftui/how-to-tile-an-image
-[how-to-render-images-using-sf-symbols]: https://hackingwithswift.com/quick-start/swiftui/how-to-render-images-using-sf-symbols
-[how-to-render-a-gradient]: https://hackingwithswift.com/quick-start/swiftui/how-to-render-a-gradient
-[how-to-use-images-and-other-views-as-a-backgrounds]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-images-and-other-views-as-a-backgrounds
-[how-to-display-solid-shapes]: https://hackingwithswift.com/quick-start/swiftui/how-to-display-solid-shapes
-[how-to-fill-and-stroke-shapes-at-the-same-time]: https://hackingwithswift.com/quick-start/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time
-[how-to-draw-part-of-a-solid-shape-using-trim]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-part-of-a-solid-shape-using-trim
-[when-should-you-use-containerrelativeshape]: https://hackingwithswift.com/quick-start/swiftui/when-should-you-use-containerrelativeshape
-[how-to-play-movies-with-videoplayer]: https://hackingwithswift.com/quick-start/swiftui/how-to-play-movies-with-videoplayer
-[how-to-integrate-spritekit-using-spriteview]: https://hackingwithswift.com/quick-start/swiftui/how-to-integrate-spritekit-using-spriteview
-[how-to-load-a-remote-image-from-a-url]: https://hackingwithswift.com/quick-start/swiftui/how-to-load-a-remote-image-from-a-url
-[how-to-get-custom-colors-and-transparency-with-sf-symbols]: https://hackingwithswift.com/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols
-[how-to-dynamically-adjust-the-color-of-an-sf-symbol]: https://hackingwithswift.com/quick-start/swiftui/how-to-dynamically-adjust-the-color-of-an-sf-symbol
-[how-to-let-users-select-pictures-using-photospicker]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-select-pictures-using-photospicker
-[how-to-let-users-import-videos-using-photospicker]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-import-videos-using-photospicker
-<!-- View layout -->
-[how-to-give-a-view-a-custom-frame]: https://hackingwithswift.com//quick-start/swiftui/how-to-give-a-view-a-custom-frame
-[how-to-control-spacing-around-individual-views-using-padding]: https://hackingwithswift.com//quick-start/swiftui/how-to-control-spacing-around-individual-views-using-padding
-[how-to-provide-relative-sizes-using-geometryreader]: https://hackingwithswift.com//quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader
-[how-to-place-content-outside-the-safe-area]: https://hackingwithswift.com//quick-start/swiftui/how-to-place-content-outside-the-safe-area
-[how-to-return-different-view-types]: https://hackingwithswift.com//quick-start/swiftui/how-to-return-different-view-types
-[how-to-create-views-in-a-loop-using-foreach]: https://hackingwithswift.com//quick-start/swiftui/how-to-create-views-in-a-loop-using-foreach
-[how-to-control-layout-priority-using-layoutpriority]: https://hackingwithswift.com//quick-start/swiftui/how-to-control-layout-priority-using-layoutpriority
-[how-to-make-two-views-the-same-width-or-height]: https://hackingwithswift.com//quick-start/swiftui/how-to-make-two-views-the-same-width-or-height
-[how-to-provide-visual-structure-using-foreground-styles]: https://hackingwithswift.com//quick-start/swiftui/how-to-provide-visual-structure-using-foreground-styles
-[how-to-inset-the-safe-area-with-custom-content]: https://hackingwithswift.com//quick-start/swiftui/how-to-inset-the-safe-area-with-custom-content
-[how-to-hide-the-home-indicator-and-other-system-ui]: https://hackingwithswift.com//quick-start/swiftui/how-to-hide-the-home-indicator-and-other-system-ui
-[how-to-stop-system-gestures-from-interfering-with-your-own]: https://hackingwithswift.com//quick-start/swiftui/how-to-stop-system-gestures-from-interfering-with-your-own
-[how-to-dynamically-change-between-vstack-and-hstack]: https://hackingwithswift.com//quick-start/swiftui/how-to-dynamically-change-between-vstack-and-hstack
-[how-to-create-a-custom-layout-using-the-layout-protocol]: https://hackingwithswift.com//quick-start/swiftui/how-to-create-a-custom-layout-using-the-layout-protocol
-[how-to-create-an-adaptive-layout-with-viewthatfits]: https://hackingwithswift.com//quick-start/swiftui/how-to-create-an-adaptive-layout-with-viewthatfits
 <!-- Stacks, grids, scrollviews -->
 [how-to-create-stacks-using-vstack-and-hstack]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-stacks-using-vstack-and-hstack
 [how-to-customize-stack-layouts-with-alignment-and-spacing]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing

@@ -121,7 +121,7 @@ __While you’re reading the article or watching the video, now would be a great
 
 :::
 
-### ✅Days 1-14: Introduction to Swift
+### Days 1-14: Introduction to Swift
 
 The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
 
@@ -139,172 +139,171 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 - [Day 10 – structs, computed properties, and property observers](10.md)
 - [Day 11 – access control, static properties and methods, and checkpoint 6](11.md)
 - [Day 12 – classes, inheritance, and checkpoint 7](12.md)
-- [Day 13][day-13] – protocols, extensions, and checkpoint 8
-- [Day 14][day-14] – optionals, nil coalescing, and checkpoint 9
+- [Day 13 – protocols, extensions, and checkpoint 8](13.md)
+- [Day 14 – optionals, nil coalescing, and checkpoint 9](14.md)
 
-### ✅Day 15: Consolidation I
+### Day 15: Consolidation I
 
 You just learned a lot about Swift in only 14 days, so before we continue it's important you reflect on what you've learned.
 
-- [Day 15][day-15] – Swift review
+- [Day 15 – Swift review](15.md)
 
-### ✅Days 16-24: Starting SwiftUI
+### Days 16-24: Starting SwiftUI
 
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
-- [Day 16][day-16] – Project 1, part one
-- [Day 17][day-17] – Project 1, part two
-- [Day 18][day-18] – Project 1, part three
-- [Day 19][day-19] – Challenge day
-- [Day 20][day-20] – Project 2, part one
-- [Day 21][day-21] – Project 2, part two
-- [Day 22][day-22] – Project 2, part three
-- [Day 23][day-23] – Project 3, part one
-- [Day 24][day-24] – Project 3, part two
+- [Day 16 – Project 1, part one](16.md)
+- [Day 17 – Project 1, part two](17.md)
+- [Day 18 – Project 1, part three](18.md)
+- [Day 19 – Challenge day](19.md)
+- [Day 20 – Project 2, part one](20.md)
+- [Day 21 – Project 2, part two](21.md)
+- [Day 22 – Project 2, part three](22.md)
+- [Day 23 – Project 3, part one](23.md)
+- [Day 24 – Project 3, part two](24.md)
 
-### ✅Day 25: Consolidation II
+### Day 25: Consolidation II
 
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
 
-- [Day 25][day-25] – Milestone: Projects 1-3
- 
+- [Day 25 – Milestone: Projects 1-3](25.md)
 
-### ✅Days 26-34: Expanding your skills
+### Days 26-34: Expanding your skills
 
 In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
 
-- [Day 26][day-26] – Project 4, part one
-- [Day 27][day-27] – Project 4, part two
-- [Day 28][day-28] – Project 4, part three
-- [Day 29][day-29] – Project 5, part one
-- [Day 30][day-30] – Project 5, part two
-- [Day 31][day-31] – Project 5, part three
-- [Day 32][day-32] – Project 6, part one
-- [Day 33][day-33] – Project 6, part two
-- [Day 34][day-34] – Project 6, part three
+- [Day 26 – Project 4, part one](26.md)
+- [Day 27 – Project 4, part two](27.md)
+- [Day 28 – Project 4, part three](28.md)
+- [Day 29 – Project 5, part one](29.md)
+- [Day 30 – Project 5, part two](30.md)
+- [Day 31 – Project 5, part three](31.md)
+- [Day 32 – Project 6, part one](32.md)
+- [Day 33 – Project 6, part two](33.md)
+- [Day 34 – Project 6, part three](34.md)
 
-### ✅Day 35: Consolidation III
+### Day 35: Consolidation III
 
 Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
 
-- [Day 35][day-35] – Milestone: Projects 4-6
+- [Day 35 – Milestone: Projects 4-6](35.md)
  
 
-### ✅Days 36-46: Scaling up to bigger apps
+### Days 36-46: Scaling up to bigger apps
 
 Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
-- [Day 36][day-36] – Project 7, part one
-- [Day 37][day-37] – Project 7, part two
-- [Day 38][day-38] – Project 7, part three
-- [Day 39][day-39] – Project 8, part one
-- [Day 40][day-40] – Project 8, part two
-- [Day 41][day-41] – Project 8, part three
-- [Day 42][day-42] – Project 8, part four
-- [Day 43][day-43] – Project 9, part one
-- [Day 44][day-44] – Project 9, part two
-- [Day 45][day-45] – Project 9, part three
-- [Day 46][day-46] – Project 9, part four
+- [Day 36 – Project 7, part one](36.md)
+- [Day 37 – Project 7, part two](37.md)
+- [Day 38 – Project 7, part three](38.md)
+- [Day 39 – Project 8, part one](39.md)
+- [Day 40 – Project 8, part two](40.md)
+- [Day 41 – Project 8, part three](41.md)
+- [Day 42 – Project 8, part four](42.md)
+- [Day 43 – Project 9, part one](43.md)
+- [Day 44 – Project 9, part two](44.md)
+- [Day 45 – Project 9, part three](45.md)
+- [Day 46 – Project 9, part four](46.md)
 
-### ✅Days 47-48: Consolidation IV
+### Days 47-48: Consolidation IV
 
 You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge.
 
-- [Day 47][day-47] – Milestone: Projects 7-9
-- [Day 48][day-48] – Expanding your horizons
+- [Day 47 – Milestone: Projects 7-9](47.md)
+- [Day 48 – Expanding your horizons](48.md)
 
-### ✅Days 49-59: Focus on data
+### Days 49-59: Focus on data
 
 In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
 
-- [Day 49][day-49] – Project 10, part one
-- [Day 50][day-50] – Project 10, part two
-- [Day 51][day-51] – Project 10, part three
-- [Day 52][day-52] – Project 10, part four
-- [Day 53][day-53] – Project 11, part one
-- [Day 54][day-54] – Project 11, part two
-- [Day 55][day-55] – Project 11, part three
-- [Day 56][day-56] – Project 11, part four
-- [Day 57][day-57] – Project 12, part one
-- [Day 58][day-58] – Project 12, part two
-- [Day 59][day-59] – Project 12, part three
+- [Day 49 – Project 10, part one](49.md)
+- [Day 50 – Project 10, part two](50.md)
+- [Day 51 – Project 10, part three](51.md)
+- [Day 52 – Project 10, part four](52.md)
+- [Day 53 – Project 11, part one](53.md)
+- [Day 54 – Project 11, part two](54.md)
+- [Day 55 – Project 11, part three](55.md)
+- [Day 56 – Project 11, part four](56.md)
+- [Day 57 – Project 12, part one](57.md)
+- [Day 58 – Project 12, part two](58.md)
+- [Day 59 – Project 12, part three](59.md)
 
-### ✅Days 60-61: Consolidation V
+### Days 60-61: Consolidation V
 
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
 
-- [Day 60][day-60] – Milestone: Projects 10-12
-- [Day 61][day-61] – Time for Core Data
+- [Day 60 – Milestone: Projects 10-12](60.md)
+- [Day 61 – Time for Core Data](61.md)
 
-### ✅Days 62-76: Views and view controllers
+### Days 62-76: Views and view controllers
 
 In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
 
-- [Day 62][day-62] – Project 13, part one
-- [Day 63][day-63] – Project 13, part two
-- [Day 64][day-64] – Project 13, part three
-- [Day 65][day-65] – Project 13, part four
-- [Day 66][day-66] – Project 13, part five
-- [Day 67][day-67] – Project 13, part six
-- [Day 68][day-68] – Project 14, part one
-- [Day 69][day-69] – Project 14, part two
-- [Day 70][day-70] – Project 14, part three
-- [Day 71][day-71] – Project 14, part four
-- [Day 72][day-72] – Project 14, part five
-- [Day 73][day-73] – Project 14, part six
-- [Day 74][day-74] – Project 15, part one
-- [Day 75][day-75] – Project 15, part two
-- [Day 76][day-76] – Project 15, part three
+- [Day 62 – Project 13, part one](62.md)
+- [Day 63 – Project 13, part two](63.md)
+- [Day 64 – Project 13, part three](64.md)
+- [Day 65 – Project 13, part four](65.md)
+- [Day 66 – Project 13, part five](66.md)
+- [Day 67 – Project 13, part six](67.md)
+- [Day 68 – Project 14, part one](68.md)
+- [Day 69 – Project 14, part two](69.md)
+- [Day 70 – Project 14, part three](70.md)
+- [Day 71 – Project 14, part four](71.md)
+- [Day 72 – Project 14, part five](72.md)
+- [Day 73 – Project 14, part six](73.md)
+- [Day 74 – Project 15, part one](74.md)
+- [Day 75 – Project 15, part two](75.md)
+- [Day 76 – Project 15, part three](76.md)
 
-### ✅Days 77-78: Consolidation VI
+### Days 77-78: Consolidation VI
 
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
 
-- [Day 77][day-77] – Milestone: Projects 13-15
-- [Day 78][day-78] – Time for MapKit
+- [Day 77 – Milestone: Projects 13-15](77.md)
+- [Day 78 – Time for MapKit](78.md)
 
-### ✅Days 79-94: Controlling UI flow
+### Days 79-94: Controlling UI flow
 
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
-- [Day 79][day-79] – Project 16, part one
-- [Day 80][day-80] – Project 16, part two
-- [Day 81][day-81] – Project 16, part three
-- [Day 82][day-82] – Project 16, part four
-- [Day 83][day-83] – Project 16, part five
-- [Day 84][day-84] – Project 16, part six
-- [Day 85][day-85] – Project 16, part seven
-- [Day 86][day-86] – Project 17, part one
-- [Day 87][day-87] – Project 17, part two
-- [Day 88][day-88] – Project 17, part three
-- [Day 89][day-89] – Project 17, part four
-- [Day 90][day-90] – Project 17, part five
-- [Day 91][day-91] – Project 17, part six
-- [Day 92][day-92] – Project 18, part one
-- [Day 93][day-93] – Project 18, part two
-- [Day 94][day-94] – Project 18, part three
+- [Day 79 – Project 16, part one](79.md)
+- [Day 80 – Project 16, part two](80.md)
+- [Day 81 – Project 16, part three](81.md)
+- [Day 82 – Project 16, part four](82.md)
+- [Day 83 – Project 16, part five](83.md)
+- [Day 84 – Project 16, part six](84.md)
+- [Day 85 – Project 16, part seven](85.md)
+- [Day 86 – Project 17, part one](86.md)
+- [Day 87 – Project 17, part two](87.md)
+- [Day 88 – Project 17, part three](88.md)
+- [Day 89 – Project 17, part four](89.md)
+- [Day 90 – Project 17, part five](90.md)
+- [Day 91 – Project 17, part six](91.md)
+- [Day 92 – Project 18, part one](92.md)
+- [Day 93 – Project 18, part two](93.md)
+- [Day 94 – Project 18, part three](94.md)
 
-### ✅Days 95: Consolidation VII
+### Days 95: Consolidation VII
 
 As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
 
-- [Day 95][day-95] – Milestone: Projects 16-18
+- [Day 95 – Milestone: Projects 16-18](95.md)
 
 ### Days 96-99: One last project
 
 In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
-- ✅[Day 96][day-96] – Project 19, part one
-- ✅[Day 97][day-97] – Project 19, part two
-- [Day 98][day-98] – Project 19, part three
-- [Day 99][day-99] – Project 19, part four
+- [Day 96 – Project 19, part one](96.md)
+- [Day 97 – Project 19, part two](97.md)
+- [Day 98 – Project 19, part three](98.md)
+- [Day 99 – Project 19, part four](99.md)
 
 ### Wrap up
 
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 
-- [Day 100][day-100] – Final exam
-- [Epilogue][epilogue] – What now?
+- [Day 100 – Final exam](100.md)
+- [Epilogue – What now?](101.md)
 
 ---
 
@@ -313,93 +312,3 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 [ask-me]: https://twitter.com/twostraws
 [swiftui-by-example]: https://www.hackingwithswift.com/quick-start/swiftui
 [glossary]: https://www.hackingwithswift.com/glossary
-
-[day-13]: 13.md
-[day-14]: 14.md
-[day-15]: 15.md
-[day-16]: 16.md
-[day-17]: 17.md
-[day-18]: 18.md
-[day-19]: 19.md
-[day-20]: 20.md
-[day-21]: 21.md
-[day-22]: 22.md
-[day-23]: 23.md
-[day-24]: 24.md
-[day-25]: 25.md
-[day-26]: 26.md
-[day-27]: 27.md
-[day-28]: 28.md
-[day-29]: 29.md
-[day-30]: 30.md
-[day-31]: 31.md
-[day-32]: 32.md
-[day-33]: 33.md
-[day-34]: 34.md
-[day-35]: 35.md
-[day-36]: 36.md
-[day-37]: 37.md
-[day-38]: 38.md
-[day-39]: 39.md
-[day-40]: 40.md
-[day-41]: 41.md
-[day-42]: 42.md
-[day-43]: 43.md
-[day-44]: 44.md
-[day-45]: 45.md
-[day-46]: 46.md
-[day-47]: 47.md
-[day-48]: 48.md
-[day-49]: 49.md
-[day-50]: 50.md
-[day-51]: 51.md
-[day-52]: 52.md
-[day-53]: 53.md
-[day-54]: 54.md
-[day-55]: 55.md
-[day-56]: 56.md
-[day-57]: 57.md
-[day-58]: 58.md
-[day-59]: 59.md
-[day-60]: 60.md
-[day-61]: 61.md
-[day-62]: 62.md
-[day-63]: 63.md
-[day-64]: 64.md
-[day-65]: 65.md
-[day-66]: 66.md
-[day-67]: 67.md
-[day-68]: 68.md
-[day-69]: 69.md
-[day-70]: 70.md
-[day-71]: 71.md
-[day-72]: 72.md
-[day-73]: 73.md
-[day-74]: 74.md
-[day-75]: 75.md
-[day-76]: 76.md
-[day-77]: 77.md
-[day-78]: 78.md
-[day-79]: 79.md
-[day-80]: 80.md
-[day-81]: 81.md
-[day-82]: 82.md
-[day-83]: 83.md
-[day-84]: 84.md
-[day-85]: 85.md
-[day-86]: 86.md
-[day-87]: 87.md
-[day-88]: 88.md
-[day-89]: 89.md
-[day-90]: 90.md
-[day-91]: 91.md
-[day-92]: 92.md
-[day-93]: 93.md
-[day-94]: 94.md
-[day-95]: 95.md
-[day-96]: 96.md
-[day-97]: 97.md
-[day-98]: https://www.hackingwithswift.com/100/swiftui/98
-[day-99]: https://www.hackingwithswift.com/100/swiftui/99
-[day-100]: https://www.hackingwithswift.com/100/swiftui/100
-[epilogue]: https://www.hackingwithswift.com/100/swiftui/101
