@@ -57,6 +57,7 @@ There are short command line options :
 
 ```sh
 curl -V
+#
 # curl 8.2.1 (x86_64-alpine-linux-musl) libcurl/8.2.1 OpenSSL/3.1.2 zlib/1.2.13 brotli/1.0.9 libidn2/2.3.4 nghttp2/1.55.1
 # Release-Date: 2023-07-26
 # Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp ws wss
@@ -67,6 +68,7 @@ curl -V
 
 ```sh
 curl --version
+#
 # curl 8.2.1 (x86_64-alpine-linux-musl) libcurl/8.2.1 OpenSSL/3.1.2 zlib/1.2.13 brotli/1.0.9 libidn2/2.3.4 nghttp2/1.55.1
 # Release-Date: 2023-07-26
 # Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp ws wss
@@ -77,8 +79,7 @@ curl --version
 
 All options are available in "long" format, but only some of them have "short" counterparts.
 
-![Command-line options](https://antonz.org/mastering-curl/cli-options.jpg)
-> The number of options keeps growing.
+![The number of options keeps growing.](https://antonz.org/mastering-curl/cli-options.jpg)
 
 Some options are of boolean type.
 

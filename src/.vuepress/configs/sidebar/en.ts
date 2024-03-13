@@ -38,7 +38,17 @@ export const sidebarEn = sidebar({
         '/cli/mastering-curl-interactive-text-guide/04-curl-basics.md',
         '/cli/mastering-curl-interactive-text-guide/05-http.md'
       ]
-    }, 
+    }, {
+      text: '🐚Bash 쉘스크립트 개발 시작하기',
+      collapsible: true,
+      children: [
+        '/cli/bash-dev/README.md',
+        '/cli/bash-dev/01.md',
+        '/cli/bash-dev/02.md',
+        '/cli/bash-dev/03.md',
+        '/cli/bash-dev/04.md',
+      ]
+    }
   ], '/swift/' : [
     {
       text: '🕊️Swift',
@@ -267,6 +277,18 @@ export const sidebarEn = sidebar({
         '/swift/swiftui-by-example/03-images-shapes-and-media.md',
         '/swift/swiftui-by-example/04-view-layout.md',
         '/swift/swiftui-by-example/05-stacks-grids-scrollviews.md',
+        '/swift/swiftui-by-example/06-user-interface-controls.md',
+        '/swift/swiftui-by-example/07-responding-to-events.md',
+        '/swift/swiftui-by-example/08-taps-and-gestures.md',
+        '/swift/swiftui-by-example/09-advanced-state.md',
+        '/swift/swiftui-by-example/10-lists.md',
+        '/swift/swiftui-by-example/11-forms.md',
+        '/swift/swiftui-by-example/12-containers.md',
+        '/swift/swiftui-by-example/13-navigation.md',
+        '/swift/swiftui-by-example/14-alerts-and-menus.md',
+        '/swift/swiftui-by-example/15-presenting-views.md',
+        '/swift/swiftui-by-example/16-transforming-views.md',
+        '/swift/swiftui-by-example/17-drawing.md',
       ]
     }, {
       text: '🕊️Kodeco - Swift',

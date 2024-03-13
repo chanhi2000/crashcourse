@@ -61,6 +61,7 @@ Curl has an extensive [reference documentation](https://curl.se/docs/manpage.htm
 
 ```sh
 curl --help
+#
 # Usage: curl [options...] <url>
 #  -d, --data <data>          HTTP POST data
 #  -f, --fail                 Fail fast with no output on HTTP errors

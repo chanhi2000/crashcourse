@@ -10,6 +10,9 @@ export const navbarEn = navbar([
       }, {
         text: '🐚Mastering Curl - Interactive Text Guide',
         link: '/cli/mastering-curl-interactive-text-guide/README.md'
+      }, {
+        text: '🐚Bash 쉘스크립트 개발 시작하기',
+        link: '/cli/bash-dev/README.md',
       }
     ],
   }, {

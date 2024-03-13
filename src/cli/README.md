@@ -30,6 +30,12 @@ category:
 
 :::
 
+::: details 🐚Bash 쉘스크립트 개발 시작하기
+
+<ToCLocal basePath="/cli/bash-dev" />
+
+:::
+
 ---
 
 <TagLinks />

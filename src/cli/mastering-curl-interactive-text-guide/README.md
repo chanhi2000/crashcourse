@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: 🐚Mastering Curl - Interactive Text Guide
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide.html
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -33,7 +33,7 @@ head:
 
 ```component VPCard
 {
-  "title": "Mastering curl ",
+  "title": "Mastering curl",
   "desc": "Mastering curl - interactive text guide",
   "link": "https://antonz.org/mastering-curl",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
@@ -51,11 +51,56 @@ I've also included some interactive examples, so you can try out different curl 
 
 ## Table of Contents
 
-1. [The curl project](01-the-curl-project.md)
-2. [Command line options](02-command-line-options.md)
-3. [URLs](03-urls.md)
-4. [Curl basics](04-curl-basics.md)
-5. [HTTP](05-http.md)
+```component VPCard
+{
+  "title": "🐚Mastering Curl - Interactive Text Guide > 01. The curl project",
+  "desc": "01. The curl project",
+  "link": "01-the-curl-project.md",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "🐚Mastering Curl - Interactive Text Guide > 02. Command line options",
+  "desc": "02. Command line options",
+  "link": "02-command-line-options.md",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "🐚Mastering Curl - Interactive Text Guide > 03. URLs",
+  "desc": "03. URLs",
+  "link": "03-urls.md",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "🐚Mastering Curl - Interactive Text Guide > 04. Curl basics",
+  "desc": "04. Curl basics",
+  "link": "04-curl-basics.md",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "🐚Mastering Curl - Interactive Text Guide > 05. HTTP",
+  "desc": "05. HTTP",
+  "link": "05-http.md",
+  "logo": "https://antonz.org/assets/favicon/favicon.ico",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
 
 ---
 

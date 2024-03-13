@@ -572,37 +572,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Respond to interaction and control your program state
 
-- [Working with state][working-with-state]
-- [How to create a tappable button][how-to-create-a-tappable-button]
-- [How to disable the overlay color for images inside `Button` and `NavigationLink`][how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink]
-- [How to get bordered buttons that stand out][how-to-get-bordered-buttons-that-stand-out]
-- [How to group views together with `ControlGroup`][how-to-group-views-together-with-controlgroup]
-- [How to read text from a `TextField`][how-to-read-text-from-a-textfield]
-- [How to take action when the user submits a `TextField`][how-to-take-action-when-the-user-submits-a-textfield]
-- [How to customize the submit button for `TextField`, `SecureField`, and `TextEditor`][how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor]
-- [How to add a border to a `TextField`][how-to-add-a-border-to-a-textfield]
-- [How to add a placeholder to a `TextField`][how-to-add-a-placeholder-to-a-textfield]
-- [How to disable autocorrect in a `TextField`][how-to-disable-autocorrect-in-a-textfield]
-- [How to dismiss the keyboard for a `TextField`][how-to-dismiss-the-keyboard-for-a-textfield]
-- [How to make a `TextField` or `TextEditor` have default focus][how-to-make-a-textfield-or-texteditor-have-default-focus]
-- [How to make a `TextField` expand vertically as the user types][how-to-make-a-textfield-expand-vertically-as-the-user-types]
-- [How to format a `TextField` for numbers][how-to-format-a-textfield-for-numbers]
-- [How to create secure text fields using `SecureField`][how-to-create-secure-text-fields-using-securefield]
-- [How to create a toggle switch][how-to-create-a-toggle-switch]
-- [How to create a slider and read values from it][how-to-create-a-slider-and-read-values-from-it]
-- [How to create a picker and read values from it][how-to-create-a-picker-and-read-values-from-it]
-- [How to create a date picker and read values from it][how-to-create-a-date-picker-and-read-values-from-it]
-- [How to create a segmented control and read values from it][how-to-create-a-segmented-control-and-read-values-from-it]
-- [How to create a stepper and read values from it][how-to-create-a-stepper-and-read-values-from-it]
-- [How to create multi-line editable text with `TextEditor`][how-to-create-multi-line-editable-text-with-texteditor]
-- [How to let users select a color with `ColorPicker`][how-to-let-users-select-a-color-with-colorpicker]
-- [How to show progress on a task using `ProgressView`][how-to-show-progress-on-a-task-using-progressview]
-- [How to show indeterminate progress using `ProgressView`][how-to-show-indeterminate-progress-using-progressview]
-- [How to show a `Map` view][how-to-show-a-map-view]
-- [How to show annotations in a `Map` view][how-to-show-annotations-in-a-map-view]
-- [How to open web links in Safari][how-to-open-web-links-in-safari]
-- [How to let the user select multiple dates][how-to-let-the-user-select-multiple-dates]
-- [How to hide the label of a `Picker`, `Stepper`, `Toggle`, and more using `labelsHidden()`][how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden]
+```component VPCard
+{
+  "title": "SwiftUI by Example > User interface controls",
+  "desc": "User interface controls",
+  "link": "06-user-interface-controls.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -610,19 +588,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Shortcuts, rotations, and appearance
 
-- [How to detect when your app moves to the background or foreground with `scenePhase`][how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase]
-- [How to respond to view lifecycle events: `onAppear()` and `onDisappear()`][how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear]
-- [How to add keyboard shortcuts using `keyboardShortcut()`][how-to-add-keyboard-shortcuts-using-keyboardshortcut]
-- [How to control which view is shown when your app launches][how-to-control-which-view-is-shown-when-your-app-launches]
-- [How to run code when your app launches][how-to-run-code-when-your-app-launches]
-- [How to add an AppDelegate to a SwiftUI app][how-to-add-an-appdelegate-to-a-swiftui-app]
-- [How to detect device rotation][how-to-detect-device-rotation]
-- [How to add a toolbar to the keyboard][how-to-add-a-toolbar-to-the-keyboard]
-- [How to run an asynchronous task when a view is shown][how-to-run-an-asynchronous-task-when-a-view-is-shown]
-- [How to let the user paste data into your app][how-to-let-the-user-paste-data-into-your-app]
-- [How to let users share content using the system share sheet][how-to-let-users-share-content-using-the-system-share-sheet]
-- [How to let users find and replace text][how-to-let-users-find-and-replace-text]
-- [How to support drag and drop in SwiftUI][how-to-support-drag-and-drop-in-swiftui]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Responding to events",
+  "desc": "Responding to events",
+  "link": "07-responding-to-events.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -630,31 +604,31 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Swipes, taps, shakes, and other input
 
-- [How to add a gesture recognizer to a view][how-to-add-a-gesture-recognizer-to-a-view]
-- [How to read tap and double-tap gestures][how-to-read-tap-and-double-tap-gestures]
-- [How to force one gesture to recognize before another using `highPriorityGesture()`][how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture]
-- [How to make two gestures recognize at the same time using `simultaneousGesture()`][how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture]
-- [How to create gesture chains using `sequenced(before:)`][how-to-create-gesture-chains-using-sequencedbefore]
-- [How to detect the user hovering over a view][how-to-detect-the-user-hovering-over-a-view]
-- [How to detect shake gestures][how-to-detect-shake-gestures]
-- [How to control the tappable area of a view using `contentShape()`][how-to-control-the-tappable-area-of-a-view-using-contentshape]
-- [How to disable taps for a view using `allowsHitTesting()`][how-to-disable-taps-for-a-view-using-allowshittesting]
-- [How to detect the location of a tap inside a view][how-to-detect-the-location-of-a-tap-inside-a-view]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Taps and gestures",
+  "desc": "Taps and gestures",
+  "link": "08-taps-and-gestures.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+---
 
 ## Advanced state
 
 > Learn how to bind objects and query the environment
 
-- [What’s the difference between @`ObservedObject`, `@State`, and `@EnvironmentObject`?][whats-the-difference-between-observedobject-state-and-environmentobject]
-- [How to use `@StateObject` to create and monitor external objects][how-to-use-stateobject-to-create-and-monitor-external-objects]
-- [How to use `@ObservedObject` to manage state from external objects][how-to-use-observedobject-to-manage-state-from-external-objects]
-- [How to use `@EnvironmentObject` to share data between views][how-to-use-environmentobject-to-share-data-between-views]
-- [How to send state updates manually using `objectWillChange`][how-to-send-state-updates-manually-using-objectwillchange]
-- [How to create constant bindings][how-to-create-constant-bindings]
-- [How to create custom bindings][how-to-create-custom-bindings]
-- [How to use a timer with SwiftUI][how-to-use-a-timer-with-swiftui]
-- [How to run some code when state changes using `onChange()`][how-to-run-some-code-when-state-changes-using-onchange]
-- [How to show different images and other views in light or dark mode][how-to-show-different-images-and-other-views-in-light-or-dark-mode]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Advanced state",
+  "desc": "Advanced state",
+  "link": "09-advanced-state.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -662,27 +636,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Create scrolling tables of data
 
-- [Working with lists][working-with-lists]
-- [How to create a list of static items][how-to-create-a-list-of-static-items]
-- [How to create a list of dynamic items][how-to-create-a-list-of-dynamic-items]
-- [How to let users delete rows from a list][how-to-let-users-delete-rows-from-a-list]
-- [How to let users move rows in a list][how-to-let-users-move-rows-in-a-list]
-- [How to add sections to a list][how-to-add-sections-to-a-list]
-- [How to enable editing on a list using `EditButton`][how-to-enable-editing-on-a-list-using-editbutton]
-- [How to set the background color of list rows using `listRowBackground()`][how-to-set-the-background-color-of-list-rows-using-listrowbackground]
-- [How to create grouped and inset grouped lists][how-to-create-grouped-and-inset-grouped-lists]
-- [How to create expanding lists][how-to-create-expanding-lists]
-- [How to scroll to a specific row in a list][how-to-scroll-to-a-specific-row-in-a-list]
-- [How to allow row selection in a list][how-to-allow-row-selection-in-a-list]
-- [How to use implicit stacking][how-to-use-implicit-stacking]
-- [How to adjust List row separator visibility and color][how-to-adjust-list-row-separator-visibility-and-color]
-- [How to enable pull to refresh][how-to-enable-pull-to-refresh]
-- [How to add custom swipe action buttons to a List row][how-to-add-custom-swipe-action-buttons-to-a-list-row]
-- [How to add a search bar to filter your data][how-to-add-a-search-bar-to-filter-your-data]
-- [How to add search tokens to a search field][how-to-add-search-tokens-to-a-search-field]
-- [How to create a `List` or a `ForEach` from a binding][how-to-create-a-list-or-a-foreach-from-a-binding]
-- [How to adjust `List` row separator insets][how-to-adjust-list-row-separator-insets]
-- [How to change the tint color for individual list rows][how-to-change-the-tint-color-for-individual-list-rows]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Lists",
+  "desc": "Lists",
+  "link": "10-lists.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -690,13 +652,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Get user entry quickly and efficiently
 
-- [Working with forms][working-with-forms]
-- [Basic form design][basic-form-design]
-- [Breaking forms into sections][breaking-forms-into-sections]
-- [Pickers in forms][pickers-in-forms]
-- [Enabling and disabling elements in forms][enabling-and-disabling-elements-in-forms]
-- [Showing and hiding form rows][showing-and-hiding-form-rows]
-- [How to align form text and controls neatly with `LabeledContent`][how-to-align-form-text-and-controls-neatly-with-labeledcontent]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Forms",
+  "desc": "Forms",
+  "link": "11-forms.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -704,18 +668,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Place your views inside a navigation controller and more
 
-- [Working with containers][working-with-containers]
-- [How to embed views in a tab bar using `TabView`][how-to-embed-views-in-a-tab-bar-using-tabview]
-- [How to create scrolling pages of content using `tabViewStyle()`][how-to-create-scrolling-pages-of-content-using-tabviewstyle]
-- [How to group views together][how-to-group-views-together]
-- [How to hide and show the status bar][how-to-hide-and-show-the-status-bar]
-- [How to hide and reveal content using `DisclosureGroup`][how-to-hide-and-reveal-content-using-disclosuregroup]
-- [How to create a toolbar and add buttons to it][how-to-create-a-toolbar-and-add-buttons-to-it]
-- [How to let users customize toolbar buttons][how-to-let-users-customize-toolbar-buttons]
-- [How to add a badge to `TabView` items and List rows][how-to-add-a-badge-to-tabview-items-and-list-rows]
-- [How to group views visually using `GroupBox`][how-to-group-views-visually-using-groupbox]
-- [How to hide the tab bar, navigation bar, or other toolbars][how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars]
-- [How to customize the background color of navigation bars, tab bars, and toolbars][how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Containers",
+  "desc": "Containers",
+  "link": "12-containers.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -723,18 +684,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Direct your user through data in your app
 
-- [Introduction to navigation][introduction-to-navigation]
-- [How to embed a view in a navigation view][how-to-embed-a-view-in-a-navigation-view]
-- [How to let users edit your navigation title][how-to-let-users-edit-your-navigation-title]
-- [How to add bar items to a navigation view][how-to-add-bar-items-to-a-navigation-view]
-- [How to push a new view onto a `NavigationStack`][how-to-push-a-new-view-onto-a-navigationstack]
-- [How to push a new view when a list row is tapped][how-to-push-a-new-view-when-a-list-row-is-tapped]
-- [How to use programmatic navigation in SwiftUI][how-to-use-programmatic-navigation-in-swiftui]
-- [How to save and load `NavigationStack` paths using Codable][how-to-save-and-load-navigationstack-paths-using-codable]
-- [How to create a two-column or three-column layout with `NavigationSplitView`][how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview]
-- [How to hide and show the sidebar programmatically][how-to-hide-and-show-the-sidebar-programmatically]
-- [How to customize a view’s width in `NavigationSplitView`][how-to-customize-a-views-width-in-navigationsplitview]
-- [How to customize the display mode of `NavigationSplitView`][how-to-customize-the-display-mode-of-navigationsplitview]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Navigation",
+  "desc": "Navigation",
+  "link": "13-navigation.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -742,16 +700,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Show modal notifications when something happens
 
-- [Working with presentations][working-with-presentations]
-- [How to show an alert][how-to-show-an-alert]
-- [How to add a `TextField` to an alert][how-to-add-a-textfield-to-an-alert]
-- [How to add actions to alert buttons][how-to-add-actions-to-alert-buttons]
-- [How to show multiple alerts in a single view][how-to-show-multiple-alerts-in-a-single-view]
-- [How to show an action sheet][how-to-show-an-action-sheet]
-- [How to show a context menu][how-to-show-a-context-menu]
-- [How to recommend another app using `appStoreOverlay()`][how-to-recommend-another-app-using-appstoreoverlay]
-- [How to show a menu when a button is pressed][how-to-show-a-menu-when-a-button-is-pressed]
-- [How to let users pick options from a menu][how-to-let-users-pick-options-from-a-menu]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Alerts and menus",
+  "desc": "Alerts and menus",
+  "link": "14-alerts-and-menus.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -759,14 +716,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Move your user from one view to another
 
-- [How to present a new view using sheets][how-to-present-a-new-view-using-sheets]
-- [How to present multiple sheets][how-to-present-multiple-sheets]
-- [How to make a view dismiss itself][how-to-make-a-view-dismiss-itself]
-- [How to present a full screen modal view using `fullScreenCover()`][how-to-present-a-full-screen-modal-view-using-fullscreencover]
-- [How to show a popover view][how-to-show-a-popover-view]
-- [How to prevent a sheet from being dismissed with a swipe][how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe]
-- [How to display a bottom sheet][how-to-display-a-bottom-sheet]
-- [How to ask the user to review your app][how-to-ask-the-user-to-review-your-app]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Presenting views",
+  "desc": "Presenting views",
+  "link": "15-presenting-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -774,28 +732,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Clip, size, scale, spin, and more
 
-- [How to adjust the position of a view using its offset][how-to-adjust-the-position-of-a-view-using-its-offset]
-- [How to color the padding around a view][how-to-color-the-padding-around-a-view]
-- [How to stack modifiers to create more advanced effects][how-to-stack-modifiers-to-create-more-advanced-effects]
-- [How to draw a border around a view][how-to-draw-a-border-around-a-view]
-- [How to draw a border inside a view][how-to-draw-a-border-inside-a-view]
-- [How to create a marching ants border effect][how-to-create-a-marching-ants-border-effect]
-- [How to draw a shadow around a view][how-to-draw-a-shadow-around-a-view]
-- [How to clip a view so only part is visible][how-to-clip-a-view-so-only-part-is-visible]
-- [How to rotate a view][how-to-rotate-a-view]
-- [How to rotate a view in 3D][how-to-rotate-a-view-in-3d]
-- [How to scale a view up or down][how-to-scale-a-view-up-or-down]
-- [How to round the corners of a view][how-to-round-the-corners-of-a-view]
-- [How to adjust the opacity of a view][how-to-adjust-the-opacity-of-a-view]
-- [How to adjust the accent color of a view][how-to-adjust-the-accent-color-of-a-view]
-- [How to mask one view with another][how-to-mask-one-view-with-another]
-- [How to blur a view][how-to-blur-a-view]
-- [How to blend views together][how-to-blend-views-together]
-- [How to adjust views by tinting, and desaturating, and more][how-to-adjust-views-by-tinting-and-desaturating-and-more]
-- [Customizing `Button` with `ButtonStyle`][customizing-button-with-buttonstyle]
-- [Customizing `ProgressView` with `ProgressViewStyle`][customizing-progressview-with-progressviewstyle]
-- [Customizing `Toggle` with `ToggleStyle`][customizing-toggle-with-togglestyle]
-- [How to change the background color of `List`, `TextEditor`, and more][how-to-change-the-background-color-of-list-texteditor-and-more]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Transforming views",
+  "desc": "Transforming views",
+  "link": "16-transforming-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -803,15 +748,15 @@ I know WWDC can often be quite the “photo finish” where features land only a
 
 > Take control of rendering using custom shapes
 
-- [SwiftUI’s built-in shapes][swiftuis-built-in-shapes]
-- [How to draw a custom path][how-to-draw-a-custom-path]
-- [How to draw polygons and stars][how-to-draw-polygons-and-stars]
-- [How to draw a checkerboard][how-to-draw-a-checkerboard]
-- [How to use `UIBezierPath` and `CGPath` in `SwiftUI`][how-to-use-uibezierpath-and-cgpath-in-swiftui]
-- [How to convert a `SwiftUI` view to an image][how-to-convert-a-swiftui-view-to-an-image]
-- [How to render a `SwiftUI` view to a PDF][how-to-render-a-swiftui-view-to-a-pdf]
-- [How to add visual effect blurs][how-to-add-visual-effect-blurs]
-- [How to create custom animated drawings with `TimelineView` and Canvas][how-to-create-custom-animated-drawings-with-timelineview-and-canvas]
+```component VPCard
+{
+  "title": "SwiftUI by Example > Drawing",
+  "desc": "Drawing",
+  "link": "17-drawing.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 
@@ -964,201 +909,6 @@ I know WWDC can often be quite the “photo finish” where features land only a
 - [How to fix images not resizing][how-to-fix-images-not-resizing]
 - [How to fix a Form Picker or a `NavigationLink` that isn’t tappable][how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]
 
-<!-- Stacks, grids, scrollviews -->
-[how-to-create-stacks-using-vstack-and-hstack]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-stacks-using-vstack-and-hstack
-[how-to-customize-stack-layouts-with-alignment-and-spacing]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing
-[how-to-force-views-to-one-side-inside-a-stack-using-spacer]: https://hackingwithswift.com/quick-start/swiftui/how-to-force-views-to-one-side-inside-a-stack-using-spacer
-[how-to-make-a-fixed-size-spacer]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-fixed-size-spacer
-[how-to-layer-views-on-top-of-each-other-using-zstack]: https://hackingwithswift.com/quick-start/swiftui/how-to-layer-views-on-top-of-each-other-using-zstack
-[how-to-change-the-order-of-view-layering-using-z-index]: https://hackingwithswift.com/quick-start/swiftui/how-to-change-the-order-of-view-layering-using-z-index
-[how-to-create-different-layouts-using-size-classes]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-different-layouts-using-size-classes
-[how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class]: https://hackingwithswift.com/quick-start/swiftui/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class
-[how-to-add-horizontal-and-vertical-scrolling-using-scrollview]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-horizontal-and-vertical-scrolling-using-scrollview
-[how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader
-[how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader
-[how-to-lazy-load-views-using-lazyvstack-and-lazyhstack]: https://hackingwithswift.com/quick-start/swiftui/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack
-[how-to-position-views-in-a-fixed-grid]: https://hackingwithswift.com/quick-start/swiftui/how-to-position-views-in-a-fixed-grid
-[how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid]: https://hackingwithswift.com/quick-start/swiftui/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid
-[how-to-dismiss-the-keyboard-when-the-user-scrolls]: https://hackingwithswift.com/quick-start/swiftui/how-to-dismiss-the-keyboard-when-the-user-scrolls
-[how-to-hide-the-scroll-indicators-in-scrollview-list-and-more]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more
-[how-to-create-multi-column-lists-using-table]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-multi-column-lists-using-table
-<!-- User interface controls -->
-[working-with-state]: https://hackingwithswift.com/quick-start/swiftui/working-with-state
-[how-to-create-a-tappable-button]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-tappable-button
-[how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink]: https://hackingwithswift.com/quick-start/swiftui/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink
-[how-to-get-bordered-buttons-that-stand-out]: https://hackingwithswift.com/quick-start/swiftui/how-to-get-bordered-buttons-that-stand-out
-[how-to-group-views-together-with-controlgroup]: https://hackingwithswift.com/quick-start/swiftui/how-to-group-views-together-with-controlgroup
-[how-to-read-text-from-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-read-text-from-a-textfield
-[how-to-take-action-when-the-user-submits-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-take-action-when-the-user-submits-a-textfield
-[how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor
-[how-to-add-a-border-to-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-border-to-a-textfield
-[how-to-add-a-placeholder-to-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-placeholder-to-a-textfield
-[how-to-disable-autocorrect-in-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-disable-autocorrect-in-a-textfield
-[how-to-dismiss-the-keyboard-for-a-textfield]: https://hackingwithswift.com/quick-start/swiftui/how-to-dismiss-the-keyboard-for-a-textfield
-[how-to-make-a-textfield-or-texteditor-have-default-focus]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-textfield-or-texteditor-have-default-focus
-[how-to-make-a-textfield-expand-vertically-as-the-user-types]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-textfield-expand-vertically-as-the-user-types
-[how-to-format-a-textfield-for-numbers]: https://hackingwithswift.com/quick-start/swiftui/how-to-format-a-textfield-for-numbers
-[how-to-create-secure-text-fields-using-securefield]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-secure-text-fields-using-securefield
-[how-to-create-a-toggle-switch]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-toggle-switch
-[how-to-create-a-slider-and-read-values-from-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-slider-and-read-values-from-it
-[how-to-create-a-picker-and-read-values-from-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-picker-and-read-values-from-it
-[how-to-create-a-date-picker-and-read-values-from-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-date-picker-and-read-values-from-it
-[how-to-create-a-segmented-control-and-read-values-from-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it
-[how-to-create-a-stepper-and-read-values-from-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-stepper-and-read-values-from-it
-[how-to-create-multi-line-editable-text-with-texteditor]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-multi-line-editable-text-with-texteditor
-[how-to-let-users-select-a-color-with-colorpicker]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-select-a-color-with-colorpicker
-[how-to-show-progress-on-a-task-using-progressview]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-progress-on-a-task-using-progressview
-[how-to-show-indeterminate-progress-using-progressview]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-indeterminate-progress-using-progressview
-[how-to-show-a-map-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-a-map-view
-[how-to-show-annotations-in-a-map-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-annotations-in-a-map-view
-[how-to-open-web-links-in-safari]: https://hackingwithswift.com/quick-start/swiftui/how-to-open-web-links-in-safari
-[how-to-let-the-user-select-multiple-dates]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-the-user-select-multiple-dates
-[how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden
-<!-- Responding to events -->
-[how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase
-[how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear]: https://hackingwithswift.com/quick-start/swiftui/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear
-[how-to-add-keyboard-shortcuts-using-keyboardshortcut]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-keyboard-shortcuts-using-keyboardshortcut
-[how-to-control-which-view-is-shown-when-your-app-launches]: https://hackingwithswift.com/quick-start/swiftui/how-to-control-which-view-is-shown-when-your-app-launches
-[how-to-run-code-when-your-app-launches]: https://hackingwithswift.com/quick-start/swiftui/how-to-run-code-when-your-app-launches
-[how-to-add-an-appdelegate-to-a-swiftui-app]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-an-appdelegate-to-a-swiftui-app
-[how-to-detect-device-rotation]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-device-rotation
-[how-to-add-a-toolbar-to-the-keyboard]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-toolbar-to-the-keyboard
-[how-to-run-an-asynchronous-task-when-a-view-is-shown]: https://hackingwithswift.com/quick-start/swiftui/how-to-run-an-asynchronous-task-when-a-view-is-shown
-[how-to-let-the-user-paste-data-into-your-app]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-the-user-paste-data-into-your-app
-[how-to-let-users-share-content-using-the-system-share-sheet]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-share-content-using-the-system-share-sheet
-[how-to-let-users-find-and-replace-text]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-find-and-replace-text
-[how-to-support-drag-and-drop-in-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-support-drag-and-drop-in-swiftui
-<!-- Taps and gestures -->
-[how-to-add-a-gesture-recognizer-to-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-gesture-recognizer-to-a-view
-[how-to-read-tap-and-double-tap-gestures]: https://hackingwithswift.com/quick-start/swiftui/how-to-read-tap-and-double-tap-gestures
-[how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture]: https://hackingwithswift.com/quick-start/swiftui/
-[how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture
-[how-to-create-gesture-chains-using-sequencedbefore]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-gesture-chains-using-sequencedbefore
-[how-to-detect-the-user-hovering-over-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-the-user-hovering-over-a-view
-[how-to-detect-shake-gestures]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-shake-gestures
-[how-to-control-the-tappable-area-of-a-view-using-contentshape]: https://hackingwithswift.com/quick-start/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape
-[how-to-disable-taps-for-a-view-using-allowshittesting]: https://hackingwithswift.com/quick-start/swiftui/how-to-disable-taps-for-a-view-using-allowshittesting
-[how-to-detect-the-location-of-a-tap-inside-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-the-location-of-a-tap-inside-a-view
-<!-- Advanced state -->
-[whats-the-difference-between-observedobject-state-and-environmentobject]: https://hackingwithswift.com/quick-start/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject
-[how-to-use-stateobject-to-create-and-monitor-external-objects]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-stateobject-to-create-and-monitor-external-objects
-[how-to-use-observedobject-to-manage-state-from-external-objects]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-observedobject-to-manage-state-from-external-objects
-[how-to-use-environmentobject-to-share-data-between-views]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views
-[how-to-send-state-updates-manually-using-objectwillchange]: https://hackingwithswift.com/quick-start/swiftui/how-to-send-state-updates-manually-using-objectwillchange
-[how-to-create-constant-bindings]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-constant-bindings
-[how-to-create-custom-bindings]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-custom-bindings
-[how-to-use-a-timer-with-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-a-timer-with-swiftui
-[how-to-run-some-code-when-state-changes-using-onchange]: https://hackingwithswift.com/quick-start/swiftui/how-to-run-some-code-when-state-changes-using-onchange
-[how-to-show-different-images-and-other-views-in-light-or-dark-mode]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-different-images-and-other-views-in-light-or-dark-mode
-<!-- Lists -->
-[working-with-lists]: https://hackingwithswift.com/quick-start/swiftui/working-with-lists
-[how-to-create-a-list-of-static-items]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-list-of-static-items
-[how-to-create-a-list-of-dynamic-items]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-list-of-dynamic-items
-[how-to-let-users-delete-rows-from-a-list]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-delete-rows-from-a-list
-[how-to-let-users-move-rows-in-a-list]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-move-rows-in-a-list
-[how-to-add-sections-to-a-list]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-sections-to-a-list
-[how-to-enable-editing-on-a-list-using-editbutton]: https://hackingwithswift.com/quick-start/swiftui/how-to-enable-editing-on-a-list-using-editbutton
-[how-to-set-the-background-color-of-list-rows-using-listrowbackground]: https://hackingwithswift.com/quick-start/swiftui/how-to-set-the-background-color-of-list-rows-using-listrowbackground
-[how-to-create-grouped-and-inset-grouped-lists]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-grouped-and-inset-grouped-lists
-[how-to-create-expanding-lists]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-expanding-lists
-[how-to-scroll-to-a-specific-row-in-a-list]: https://hackingwithswift.com/quick-start/swiftui/how-to-scroll-to-a-specific-row-in-a-list
-[how-to-allow-row-selection-in-a-list]: https://hackingwithswift.com/quick-start/swiftui/how-to-allow-row-selection-in-a-list
-[how-to-use-implicit-stacking]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-implicit-stacking
-[how-to-adjust-list-row-separator-visibility-and-color]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-list-row-separator-visibility-and-color
-[how-to-enable-pull-to-refresh]: https://hackingwithswift.com/quick-start/swiftui/how-to-enable-pull-to-refresh
-[how-to-add-custom-swipe-action-buttons-to-a-list-row]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-custom-swipe-action-buttons-to-a-list-row
-[how-to-add-a-search-bar-to-filter-your-data]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data
-[how-to-add-search-tokens-to-a-search-field]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-search-tokens-to-a-search-field
-[how-to-create-a-list-or-a-foreach-from-a-binding]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-list-or-a-foreach-from-a-binding
-[how-to-adjust-list-row-separator-insets]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-list-row-separator-insets
-[how-to-change-the-tint-color-for-individual-list-rows]: https://hackingwithswift.com/quick-start/swiftui/how-to-change-the-tint-color-for-individual-list-rows
-<!-- Forms -->
-[working-with-forms]: https://hackingwithswift.com/quick-start/swiftui/working-with-forms
-[basic-form-design]: https://hackingwithswift.com/quick-start/swiftui/basic-form-design
-[breaking-forms-into-sections]: https://hackingwithswift.com/quick-start/swiftui/breaking-forms-into-sections
-[pickers-in-forms]: https://hackingwithswift.com/quick-start/swiftui/pickers-in-forms
-[enabling-and-disabling-elements-in-forms]: https://hackingwithswift.com/quick-start/swiftui/enabling-and-disabling-elements-in-forms
-[showing-and-hiding-form-rows]: https://hackingwithswift.com/quick-start/swiftui/showing-and-hiding-form-rows
-[how-to-align-form-text-and-controls-neatly-with-labeledcontent]: https://hackingwithswift.com/quick-start/swiftui/how-to-align-form-text-and-controls-neatly-with-labeledcontent
-<!-- Containers -->
-[working-with-containers]: https://hackingwithswift.com/quick-start/swiftui/working-with-containers
-[how-to-embed-views-in-a-tab-bar-using-tabview]: https://hackingwithswift.com/quick-start/swiftui/how-to-embed-views-in-a-tab-bar-using-tabview
-[how-to-create-scrolling-pages-of-content-using-tabviewstyle]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-scrolling-pages-of-content-using-tabviewstyle
-[how-to-group-views-together]: https://hackingwithswift.com/quick-start/swiftui/how-to-group-views-together
-[how-to-hide-and-show-the-status-bar]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-and-show-the-status-bar
-[how-to-hide-and-reveal-content-using-disclosuregroup]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-and-reveal-content-using-disclosuregroup
-[how-to-create-a-toolbar-and-add-buttons-to-it]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-toolbar-and-add-buttons-to-it
-[how-to-let-users-customize-toolbar-buttons]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-customize-toolbar-buttons
-[how-to-add-a-badge-to-tabview-items-and-list-rows]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-badge-to-tabview-items-and-list-rows
-[how-to-group-views-visually-using-groupbox]: https://hackingwithswift.com/quick-start/swiftui/how-to-group-views-visually-using-groupbox
-[how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars
-[how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars
-<!-- Navigation -->
-[introduction-to-navigation]: https://hackingwithswift.com/quick-start/swiftui/introduction-to-navigation
-[how-to-embed-a-view-in-a-navigation-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-embed-a-view-in-a-navigation-view
-[how-to-let-users-edit-your-navigation-title]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-edit-your-navigation-title
-[how-to-add-bar-items-to-a-navigation-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view
-[how-to-push-a-new-view-onto-a-navigationstack]: https://hackingwithswift.com/quick-start/swiftui/how-to-push-a-new-view-onto-a-navigationstack
-[how-to-push-a-new-view-when-a-list-row-is-tapped]: https://hackingwithswift.com/quick-start/swiftui/how-to-push-a-new-view-when-a-list-row-is-tapped
-[how-to-use-programmatic-navigation-in-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-programmatic-navigation-in-swiftui
-[how-to-save-and-load-navigationstack-paths-using-codable]: https://hackingwithswift.com/quick-start/swiftui/how-to-save-and-load-navigationstack-paths-using-codable
-[how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview
-[how-to-hide-and-show-the-sidebar-programmatically]: https://hackingwithswift.com/quick-start/swiftui/how-to-hide-and-show-the-sidebar-programmatically
-[how-to-customize-a-views-width-in-navigationsplitview]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-a-views-width-in-navigationsplitview
-[how-to-customize-the-display-mode-of-navigationsplitview]: https://hackingwithswift.com/quick-start/swiftui/how-to-customize-the-display-mode-of-navigationsplitview
-<!-- Alerts and menus -->
-[working-with-presentations]: https://hackingwithswift.com/quick-start/swiftui/working-with-presentations
-[how-to-show-an-alert]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-an-alert
-[how-to-add-a-textfield-to-an-alert]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-a-textfield-to-an-alert
-[how-to-add-actions-to-alert-buttons]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-actions-to-alert-buttons
-[how-to-show-multiple-alerts-in-a-single-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-multiple-alerts-in-a-single-view
-[how-to-show-an-action-sheet]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-an-action-sheet
-[how-to-show-a-context-menu]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-a-context-menu
-[how-to-recommend-another-app-using-appstoreoverlay]: https://hackingwithswift.com/quick-start/swiftui/how-to-recommend-another-app-using-appstoreoverlay
-[how-to-show-a-menu-when-a-button-is-pressed]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-a-menu-when-a-button-is-pressed
-[how-to-let-users-pick-options-from-a-menu]: https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-pick-options-from-a-menu
-<!-- Presenting views -->
-[how-to-present-a-new-view-using-sheets]: https://hackingwithswift.com/quick-start/swiftui/how-to-present-a-new-view-using-sheets
-[how-to-present-multiple-sheets]: https://hackingwithswift.com/quick-start/swiftui/how-to-present-multiple-sheets
-[how-to-make-a-view-dismiss-itself]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-view-dismiss-itself
-[how-to-present-a-full-screen-modal-view-using-fullscreencover]: https://hackingwithswift.com/quick-start/swiftui/how-to-present-a-full-screen-modal-view-using-fullscreencover
-[how-to-show-a-popover-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-show-a-popover-view
-[how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe]: https://hackingwithswift.com/quick-start/swiftui/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe
-[how-to-display-a-bottom-sheet]: https://hackingwithswift.com/quick-start/swiftui/how-to-display-a-bottom-sheet
-[how-to-ask-the-user-to-review-your-app]: https://hackingwithswift.com/quick-start/swiftui/how-to-ask-the-user-to-review-your-app
-<!-- Transforming views -->
-[how-to-adjust-the-position-of-a-view-using-its-offset]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-position-of-a-view-using-its-offset
-[how-to-color-the-padding-around-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-color-the-padding-around-a-view
-[how-to-stack-modifiers-to-create-more-advanced-effects]: https://hackingwithswift.com/quick-start/swiftui/how-to-stack-modifiers-to-create-more-advanced-effects
-[how-to-draw-a-border-around-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-a-border-around-a-view
-[how-to-draw-a-border-inside-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-a-border-inside-a-view
-[how-to-create-a-marching-ants-border-effect]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-marching-ants-border-effect
-[how-to-draw-a-shadow-around-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-a-shadow-around-a-view
-[how-to-clip-a-view-so-only-part-is-visible]: https://hackingwithswift.com/quick-start/swiftui/how-to-clip-a-view-so-only-part-is-visible
-[how-to-rotate-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-rotate-a-view
-[how-to-rotate-a-view-in-3d]: https://hackingwithswift.com/quick-start/swiftui/how-to-rotate-a-view-in-3d
-[how-to-scale-a-view-up-or-down]: https://hackingwithswift.com/quick-start/swiftui/how-to-scale-a-view-up-or-down
-[how-to-round-the-corners-of-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-round-the-corners-of-a-view
-[how-to-adjust-the-opacity-of-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-opacity-of-a-view
-[how-to-adjust-the-accent-color-of-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-accent-color-of-a-view
-[how-to-mask-one-view-with-another]: https://hackingwithswift.com/quick-start/swiftui/how-to-mask-one-view-with-another
-[how-to-blur-a-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-blur-a-view
-[how-to-blend-views-together]: https://hackingwithswift.com/quick-start/swiftui/how-to-blend-views-together
-[how-to-adjust-views-by-tinting-and-desaturating-and-more]: https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-views-by-tinting-and-desaturating-and-more
-[customizing-button-with-buttonstyle]: https://hackingwithswift.com/quick-start/swiftui/customizing-button-with-buttonstyle
-[customizing-progressview-with-progressviewstyle]: https://hackingwithswift.com/quick-start/swiftui/customizing-progressview-with-progressviewstyle
-[customizing-toggle-with-togglestyle]: https://hackingwithswift.com/quick-start/swiftui/customizing-toggle-with-togglestyle
-[how-to-change-the-background-color-of-list-texteditor-and-more]: https://hackingwithswift.com/quick-start/swiftui/how-to-change-the-background-color-of-list-texteditor-and-more
-<!-- Drawing -->
-[swiftuis-built-in-shapes]: https://hackingwithswift.com/quick-start/swiftui/swiftuis-built-in-shapes
-[how-to-draw-a-custom-path]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-a-custom-path
-[how-to-draw-polygons-and-stars]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-polygons-and-stars
-[how-to-draw-a-checkerboard]: https://hackingwithswift.com/quick-start/swiftui/how-to-draw-a-checkerboard
-[how-to-use-uibezierpath-and-cgpath-in-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-uibezierpath-and-cgpath-in-swiftui
-[how-to-convert-a-swiftui-view-to-an-image]: https://hackingwithswift.com/quick-start/swiftui/how-to-convert-a-swiftui-view-to-an-image
-[how-to-render-a-swiftui-view-to-a-pdf]: https://hackingwithswift.com/quick-start/swiftui/how-to-render-a-swiftui-view-to-a-pdf
-[how-to-add-visual-effect-blurs]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-visual-effect-blurs
-[how-to-create-custom-animated-drawings-with-timelineview-and-canvas]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-custom-animated-drawings-with-timelineview-and-canvas
 <!-- Animation -->
 [how-to-create-basic-animations]: https://hackingwithswift.com/quick-start/swiftuihow-to-create-basic-animations
 [how-to-create-a-spring-animation]: https://hackingwithswift.com/quick-start/swiftuihow-to-create-a-spring-animation
