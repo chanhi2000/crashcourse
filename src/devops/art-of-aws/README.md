@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
-description: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+title: 아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+description: 아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+icon: fa-brands fa-aws
 category:
-  - 📦AWS
+  - AWS
 tag: 
   - crashcourse
   - pyrasis
@@ -12,9 +13,9 @@ tag:
 head:
 - - meta:
   - property: og:title
-    content: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+    content: 아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
   - property: og:description
-    content: 📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
+    content: 아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/devops/art-of-aws.html
 ---

@@ -59,7 +59,7 @@ Before starting this tutorial, you should have a conceptual understanding of HTT
 
 ## Getting Started
 
-To kick things off, use the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this article to download the begin project.
+To kick things off, use the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article to download the begin project.
 
 The app for this tutorial is `StarWarsOpedia`, which provides quick access to data about Star Wars films as well as the starships used in those films.
 
@@ -127,7 +127,7 @@ You’d normally integrate Alamofire using CocoaPods or another dependency manag
 
 ## Where to Go From Here?
 
-You can download the completed project using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this article.
+You can download the completed project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article.
 
 While building your app, you’ve learned a lot about Alamofire’s basics. You learned that Alamofire can make networking calls with very little setup and how to make basic calls using the request function by sending just the URL string.
 

@@ -66,7 +66,7 @@ Databases like SQLite are massive topics to cover, and covering how to use them 
 
 ## Getting Started
 
-Start by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="iconfont icon-file"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
+Start by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="iconfont icon-file"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
 
 ::: tip Note
 
@@ -1045,11 +1045,11 @@ Check out the [README.md for [<FontIcon icon="fas fa-dove"/>`SQLite.swift`](http
 
 ## Where to Go From Here?
 
-Download the completed project by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. There, you can see other common tasks that this tutorial didn’t have time to cover, including the implemented updates, deletes and multiple row handling.
+Download the completed project by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. There, you can see other common tasks that this tutorial didn’t have time to cover, including the implemented updates, deletes and multiple row handling.
 
 Debugging is another important part of using SQLite with Swift. In many cases, you’ll need some kind of database browser to see what’s going on under the hood. There are many different apps that can help with this. A quick internet search will show which ones are best for you.
 
-You can also access your SQLite databases directly from your Terminal by typing <FontIcon icon="iconfont icon-file"/>`sqlite3 file.db`. From there, use the `.help` command to see a list of commands, or simply start executing SQL statements directly at the prompt. Find more information on the command-line SQLite client on the [main SQLite site](https://www.sqlite.org/cli.html).
+You can also access your SQLite databases directly from your Terminal by typing <FontIcon icon="fas fa-database"/>`sqlite3 file.db`. From there, use the `.help` command to see a list of commands, or simply start executing SQL statements directly at the prompt. Find more information on the command-line SQLite client on the [main SQLite site](https://www.sqlite.org/cli.html).
 
 I hope you enjoyed this whirlwind introduction to working with SQLite and Swift! If you have any questions or comments, please join the discussion below.
 

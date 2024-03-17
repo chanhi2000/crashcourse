@@ -508,7 +508,7 @@ awk -v IGNORECASE=1 'NR==FNR{s[$0]; next} {for(k in s) if($0 ~ k) a[k]}
 
 ### Exercise 4
 
-Display lines from <FontIcon icon="iconfont icon-file"/> `scores.csv` by matching the first field based on a list of names from the <FontIcon icon="iconfont icon-file"/> `names.txt` file. Also, change the output field separator to a space character.
+Display lines from <FontIcon icon="fas fa-file-csv"/> `scores.csv` by matching the first field based on a list of names from the <FontIcon icon="fas fa-file-lines"/> `names.txt` file. Also, change the output field separator to a space character.
 
 ```sh
 cat names.txt
@@ -545,7 +545,7 @@ What's the default value of the special variable `SUBSEP`? Where is it commonly 
 
 ### Exercise 6
 
-The <FontIcon icon="iconfont icon-file"/> `result.csv` file has three columns — name, subject and mark. The <FontIcon icon="iconfont icon-file"/> `criteria.txt` file has two columns — name and subject. Match lines from <FontIcon icon="iconfont icon-file"/> `result.csv` based on the two columns from <FontIcon icon="iconfont icon-file"/> `criteria.txt` provided the mark column is greater than 80.
+The <FontIcon icon="fas fa-file-csv"/> `result.csv` file has three columns — name, subject and mark. The <FontIcon icon="fas fa-file-lines"/> `criteria.txt` file has two columns — name and subject. Match lines from <FontIcon icon="fas fa-file-csv"/> `result.csv` based on the two columns from <FontIcon icon="fas fa-file-lines"/> `criteria.txt` provided the mark column is greater than 80.
 
 ```sh
 cat result.csv

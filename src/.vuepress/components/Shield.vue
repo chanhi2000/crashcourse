@@ -25,7 +25,7 @@ export default {
         return;
       }
 
-      const res = await fetch('/json/shields.json');
+      const res = await fetch('/crashcourse/json/shields.json');
       const shields = await res.json() ?? [];
       const shieldFound = shields.find((e) => e.logo == logo) ?? {};
       this.name = shieldFound?.name;

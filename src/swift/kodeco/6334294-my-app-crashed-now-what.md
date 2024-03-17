@@ -54,7 +54,7 @@ You’ll understand more about these points as you fix the project. Now, it’s 
 
 ## Getting Started
 
-Download the starter project for this tutorial by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this page. You’ll find a project called `CrashGallery`.
+Download the starter project for this tutorial by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page. You’ll find a project called `CrashGallery`.
 
 ![Crash Gallery main screen](https://koenig-media.raywenderlich.com/uploads/2019/11/Simulator-Screen-Shot-iPhone-8-2019-11-02-at-13.26.24-281x500.png =240x)
 
@@ -421,7 +421,7 @@ Use `preconditionFailure(_:file:line:)` or `fatalError(_:file:line:)` instead of
 
 ## Where to Go From Here?
 
-Download the finished project for this tutorial by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
+Download the finished project for this tutorial by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
 
 You’ve seen how crashes are a normal part of developing your app. You should even see them as an opportunity to learn more about the framework you’re using.
 

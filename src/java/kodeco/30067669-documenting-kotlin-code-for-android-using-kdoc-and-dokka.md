@@ -75,7 +75,7 @@ This article uses an Android project to showcase KDoc and Dokka, but you can app
 
 ## Getting Started
 
-Download the starter project by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the starter project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 Open Android Studio and click <FontIcon icon="iconfont icon-select"/>`[Open an existing Android Studio project]`.
 
@@ -165,7 +165,7 @@ Both of them try to get readers started as quickly as possible with minimal setu
 
 __Golang__ and __Kotlin__ provide code playgrounds to let users directly interact with sample programs. Check those out [here](https://go.dev/play) and [here](https://play.kotlinlang.org/byExample/01_introduction/01_Hello%20world).
 
-Another super-creative example of documentation is this YouTube channel by [<FontIcon icon="iconfont icon-play"/>Andreas Kling](https://www.youtube.com/c/AndreasKling). He regularly uploads screencasts about his project [SerenityOS](https://www.serenityos.org/).
+Another super-creative example of documentation is this YouTube channel by [<FontIcon icon="fa-brands fa-youtube"/>Andreas Kling](https://www.youtube.com/c/AndreasKling). He regularly uploads screencasts about his project [SerenityOS](https://www.serenityos.org/).
 
 All that to say, there isn’t just one way to define documentation. In the next few sections, you’ll see how to use KDoc and Dokka to ease the process of generating documentation for your Kotlin/Java/Android projects.
 
@@ -710,7 +710,7 @@ Congratulations — you’ve completed this tutorial!
 
 ## Where to Go From Here?
 
-Download the completed project files by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the completed project files by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 Dokka uses a plugin system and provides extension points to write your custom plugins. Check that out here.
 

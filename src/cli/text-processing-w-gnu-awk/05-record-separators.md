@@ -732,7 +732,7 @@ printf 'fig' | awk -v ORS= 'NR>1{print ","} 1; END{print "\n"}'
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/> `scores.csv`, add another column named __GP__ which is calculated out of 100 by giving 50% weightage to Maths and 25% each for Physics and Chemistry.
+For the input file <FontIcon icon="fas fa-file-csv"/> `scores.csv`, add another column named __GP__ which is calculated out of 100 by giving 50% weightage to Maths and 25% each for Physics and Chemistry.
 
 ::: tabs 
 

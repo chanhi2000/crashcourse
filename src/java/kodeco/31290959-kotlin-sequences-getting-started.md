@@ -65,7 +65,7 @@ This tutorial assumes you have basic Kotlin knowledge. If not, check out [Progra
 
 ## Getting Started
 
-Download the project materials by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta__rter project.
+Download the project materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta__rter project.
 
 Run the project, and you’ll notice it’s just a simple “Hello World” app. If you came here hoping to implement some cool app full of sequences everywhere, the sad truth is that you won’t even touch the app’s code.
 
@@ -417,7 +417,7 @@ And again, while these might point you in the right direction, don't forget: You
 
 ## Where to Go From Here?
 
-You can download the completed project files by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+You can download the completed project files by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 In this tutorial, you learned a lot about when to use sequences versus collections, but there's still a lot to learn about the topic.
 

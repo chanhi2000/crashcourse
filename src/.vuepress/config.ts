@@ -8,11 +8,9 @@ import { getDirname, path } from 'vuepress/utils'
 /* plugins V2 */
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
-import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom';
 
 /* plugins 3rd-party */
 import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
-import { usePagesPlugin } from 'vuepress-plugin-use-pages'
 
 import {
   // head,
@@ -27,7 +25,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const CONSTS = {
   __VERSION__: version
 }
-const imgLogoPath = '/images/ico-school.svg'
+const imgLogoPath = '/crashcourse/images/ico-school.svg'
 // const imgLogoPath = 'https://avatars.githubusercontent.com/u/6296241?v=4'
 
 export default defineUserConfig({
@@ -36,7 +34,7 @@ export default defineUserConfig({
     __YOUTUBE_API_KEY__: process.env.YOUTUBE_API_KEY,
     __IS_DEBUG__: process.env.IS_DEBUG ?? false,
   },
-  title: 'crashcourse',
+  title: '🥁crashcourse',
   description: description,
   head: [['link', { rel: 'icon', href: imgLogoPath }]],
   base: '/crashcourse/',
@@ -66,14 +64,28 @@ export default defineUserConfig({
       },
     },
     breadcrumbIcon: true,
+    blog: {
+      intro: 'https://chanhi2000.github.io',
+      description: "프로그램이 작성되는 환경부터 배포되는 환경까지 적용하는 개발자 이찬희 입니다.",
+      avatar: 'https://avatars.githubusercontent.com/u/6296241?v=4',
+      roundAvatar: true,
+      medias: {
+        GitHub: "https://github.com/chanhi2000",
+        Facebook: "https://facebook.com/spamlove",
+        Instagram: "https://instagram.com/chanhi2000",
+        Linkedin: "https://linkedin.com/in/chanhi2000",
+        Gmail: "chanhi2000@gmail.com"
+      }
+    },
     plugins: {
+      blog: true,
       components: {
         components: [
           "VidStack", "FontIcon", "Badge", "Share", "PDF", "SiteInfo", "VPCard", "VPBanner"
         ],
         componentOptions: {
           fontIcon: {
-            assets: ["iconfont", "fontawesome", "fontawesome-with-brands"],
+            assets: ["iconfont", "fontawesome", "fontawesome-with-brands", "iconify"],
           }
         },
         rootComponents: {
@@ -135,7 +147,7 @@ export default defineUserConfig({
       }, 
     }
   }),
-  clientConfigFile: path.resolve(__dirname, './client.ts'),
+  // clientConfigFile: path.resolve(__dirname, './client.ts'),
   markdown: {
     code: {
       lineNumbers: true,
@@ -153,8 +165,8 @@ export default defineUserConfig({
       debug: true
     }),
     MdDefinePlugin(CONSTS),
-    usePagesPlugin({
-      startsWith: '/'
-    }),
+    // usePagesPlugin({
+    //   startsWith: '/'
+    // }),
   ],
 })

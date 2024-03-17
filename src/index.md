@@ -1,34 +1,42 @@
 ---
+layout: BlogHome
+title: Home
 home: true
-heroImage: https://github.com/chanhi2000/chanhi2000/raw/main/imgs/coderman.gif
-actions:
-  - text: 🐚CLI
+heroText: 🥁Crashcourse
+heroFullScreen: true
+bgImage: https://github.com/chanhi2000/chanhi2000/raw/main/imgs/coderman.gif
+heroImage: https://avatars.githubusercontent.com/u/6296241?v=4
+projects:
+  - name: Home
+    link: https://chanhi2000.github.io
+    icon: fas fa-wind
+  - name: CLI
     link: /cli/
-    type: primary
-  - text: 🕊️Swift
+    icon: iconfont icon-shell
+  - name: Swift
     link: /swift/
-    type: secondary
-  - text: ☕️Java / 🅺Kotlin / 🍃Spring
+    icon: fas fa-dove
+  - name: Java / Kotlin / Spring
     link: /java/
-    type: primary
-  - text: 🧶Javascript / ⚜Typescript  
+    icon: fa-brands fa-java
+  - name: Javascript / Typescript
     link: /js/
-    type: secondary
-  - text: 🐍Python
+    icon: fa-brands fa-js
+  - name: Python
     link: /python/
-    type: primary
-  - text: 🦀Rust
+    icon: fa-brands fa-python
+  - name: Rust
     link: /rust/
-    type: secondary
-  - text: ➕Cpp
+    icon: fa-brands fa-rust
+  - name: Cpp
+    desc: ➕
     link: /cpp/
-    type: primary
-  - text: 🔻Ruby
+  - name: Ruby
+    desc: 🔻
     link: /ruby/
-    type: secndary
-  - text: 🐑Haskell
+  - name: Haskell
+    desc: 🐑
     link: /haskell/
-    type: primary
 footerHtml: true
 footer: <i>v__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2023-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 ---

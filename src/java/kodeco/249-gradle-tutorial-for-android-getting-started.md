@@ -69,7 +69,7 @@ So, there was little wonder why during Google I/O in May 2013, the __Android Gra
 
 ## Getting Started
 
-Download [<FontIcon icon="iconfont icon-select"/>SocializifyStarter][download-material] the starter project for this tutorial. At minimum, you’ll need Android Studio 3.0 installed on your computer. 
+Download [<FontIcon icon="fas fa-download"/>SocializifyStarter][download-material] the starter project for this tutorial. At minimum, you’ll need Android Studio 3.0 installed on your computer. 
 
 ![Open the project in Android Studio and you’ll be prompted to setup the __Gradle wrapper__](https://koenig-media.raywenderlich.com/uploads/2017/12/gradle_wrapper-650x172.png)
 
@@ -139,7 +139,7 @@ Pay attention to the files with the green Gradle icon and `.gradle` extension. T
 
 ## Where to Go From Here
 
-You can download the final project [<FontIcon icon="iconfont icon-select"/>here][download-material-final].
+You can download the final project [<FontIcon icon="fas fa-download"/>here][download-material-final].
 
 The Android Gradle plugin 3.0 contains some significant differences from previous versions. So it’s worth reviewing [the changelog](https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration.html).
 

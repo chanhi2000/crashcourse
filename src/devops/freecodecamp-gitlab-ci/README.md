@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
 title: Intro
-description: 🦊freecodecamp.org - DevOps with GitLab CI 
+description: freecodecamp.org - DevOps with GitLab CI
+icon: fas-brand fa-gitlab
 category:
-  🦊Gitlab
+  Gitlab
 tag:
   - crashcourse
   - youtube
@@ -17,9 +18,9 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦊freecodecamp.org - DevOps with GitLab CI
+      content: freecodecamp.org - DevOps with GitLab CI
     - property: og:description
-      content: 🦊freecodecamp.org - DevOps with GitLab CI
+      content: freecodecamp.org - DevOps with GitLab CI
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/freecodecamp-gitlab-ci.html
 ---

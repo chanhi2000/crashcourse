@@ -962,7 +962,7 @@ Exercises will also include functions and features not discussed in this chapter
 
 ### Exercise 1 
 
-For the input file <FontIcon icon="iconfont icon-file"/> `scores.csv`, sort the rows in descending order based on the values in the Physics column. Header should be retained as the first line in the output.
+For the input file <FontIcon icon="fas fa-file-csv"/> `scores.csv`, sort the rows in descending order based on the values in the Physics column. Header should be retained as the first line in the output.
 
 ::: tabs 
 
@@ -1175,7 +1175,7 @@ echo "$s" | awk '{ while( match($0, /-([0-9]+)[;:]/, m) ){print m[1];
 
 ### Exercise 7
 
-For the input file <FontIcon icon="iconfont icon-file"/> `scores.csv`, calculate the average score for each row. Those with average greater than or equal to `80` should be saved in <FontIcon icon="iconfont icon-file"/> `pass.csv` and the rest in <FontIcon icon="iconfont icon-file"/> `fail.csv`. The output files should have the names followed by a tab character, and finally the average score (two decimal points).
+For the input file <FontIcon icon="fas fa-file-csv"/> `scores.csv`, calculate the average score for each row. Those with average greater than or equal to `80` should be saved in <FontIcon icon="fas fa-file-csv"/> `pass.csv` and the rest in <FontIcon icon="fas fa-file-csv"/> `fail.csv`. The output files should have the names followed by a tab character, and finally the average score (two decimal points).
 
 ::: tabs 
 

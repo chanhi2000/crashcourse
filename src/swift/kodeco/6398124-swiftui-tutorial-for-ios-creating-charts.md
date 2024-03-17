@@ -70,7 +70,7 @@ A chart should tell a story. It guides the viewer to a better understanding of t
 
 ## Getting Started
 
-Download the materials by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Open the begin project in Xcode, then build and run the app.
+Download the materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Open the begin project in Xcode, then build and run the app.
 
 ![station-starter-1](https://koenig-media.raywenderlich.com/uploads/2019/11/station-starter-1.png =240x)
 
@@ -599,7 +599,7 @@ Your chart now gives a good overview of the temperature ranges at each location.
 
 ## Where to Go From Here
 
-You can download the finished project by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
+You can download the finished project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
 
 With all UI things, the Apple Human Interface Guidelines are a good starting point if you’d like to learn more. You'll find a brief section on [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit/app-architecture/charts/) in the Human Interface Guidelines. You should also read the guidelines on [Color](https://developer.apple.com/design/human-interface-guidelines/carekit/visual-design/color/) when choosing colors for your charts.
 

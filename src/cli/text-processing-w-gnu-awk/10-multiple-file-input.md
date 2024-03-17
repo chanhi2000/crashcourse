@@ -201,8 +201,8 @@ cat books.csv
 
 @tab:active Case 1
 
-for <FontIcon icon="iconfont icon-file"/> `table.txt`, `FS` will be the default value
-for <FontIcon icon="iconfont icon-file"/> `books.csv`, `FS` will be the comma character
+for <FontIcon icon="fas fa-file-lines"/> `table.txt`, `FS` will be the default value
+for <FontIcon icon="fas fa-file-csv"/> `books.csv`, `FS` will be the comma character
 `OFS` is comma for both the files
 
 ```sh

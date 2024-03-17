@@ -942,7 +942,7 @@ awk 'p!="---"; {p=$0}' lines.txt
 
 ### Exercise 8
 
-For the input file <FontIcon icon="iconfont icon-file"/> `result.csv`, use `---` to separate entries with the same name in the first column. Assume that the lines with the same first column value will always be next to each other.
+For the input file <FontIcon icon="fas fa-file-csv"/> `result.csv`, use `---` to separate entries with the same name in the first column. Assume that the lines with the same first column value will always be next to each other.
 
 
 ::: tabs

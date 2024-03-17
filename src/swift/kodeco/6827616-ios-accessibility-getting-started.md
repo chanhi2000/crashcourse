@@ -66,7 +66,7 @@ You’ll need a physical device to work with VoiceOver. This accessibility featu
 
 In this tutorial, you’ll work with an already-completed app called __Recipe__, which contains a list of recipes and their difficulty levels. It also allows you to rate the quality of the dishes you make.
 
-Download everything you need to get started by using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="iconfont icon-file"/>`Recipe.xcodeproj` in the <FontIcon icon="iconfont icon-folder"/>`begin` folder.
+Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="iconfont icon-file"/>`Recipe.xcodeproj` in the <FontIcon icon="iconfont icon-folder"/>`begin` folder.
 
 Before you can run the app on a device, you need to configure signing.
 
@@ -191,7 +191,7 @@ For the complete list of VoiceOver gestures, check out [Apple’s Learn VoiceOve
 
 ## Where to Go From Here?
 
-You can download the completed version of the project using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
+You can download the completed version of the project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
 
 In this iOS accessibility tutorial, you learned about VoiceOver. You performed manual auditing by scrolling through every accessible element and testing the user experience for yourself. Then you used the Accessibility Inspector to perform audits, look at accessibility element values and perform live dynamic changes to invert colors or change the font size.
 

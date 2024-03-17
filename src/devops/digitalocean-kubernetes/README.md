@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: ☸DigitalOcean - Kubernetes
-description: ☸DigitalOcean - Kubernetes
+title: DigitalOcean - Kubernetes
+description: DigitalOcean - Kubernetes
+icon: fas fa-dharmachakra
 category:
-  - ☸Kubernetes
+  - Kubernetes
 tag:
   - crashcourse
   - digitalocean

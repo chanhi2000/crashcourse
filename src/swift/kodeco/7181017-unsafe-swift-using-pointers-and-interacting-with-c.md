@@ -56,7 +56,7 @@ While this is an advanced topic, you’ll be able to follow along if you have re
 
 ## Getting Started
 
-Download the begin project by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the begin project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 This tutorial consists of three empty Swift playgrounds:
 
@@ -162,7 +162,7 @@ MemoryLayout<SampleClass>.alignment // returns 8 (on 64-bit)
 
 Classes are reference types, so `MemoryLayout` reports the size of a reference: Eight bytes.
 
-If you want to explore memory layout in greater detail, check out Mike Ash’s excellent talk, [Exploring Swift Memory Layout](https://www.youtube.com/watch?v=ERYNyrfXjlg/).
+If you want to explore memory layout in greater detail, check out Mike Ash’s excellent talk, [<FontIcon icon="fa-brands fa-youtube"/>Exploring Swift Memory Layout](https://www.youtube.com/watch?v=ERYNyrfXjlg/).
 
 <VidStack src="youtube/ERYNyrfXjlg" />
 

@@ -798,7 +798,7 @@ awk -F'[()]' '{print $2}' brackets.txt
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/>`scores.csv`, extract Name and Physics fields in the format shown below.
+For the input file <FontIcon icon="fas fa-file-csv"/>`scores.csv`, extract Name and Physics fields in the format shown below.
 
 ```sh
 cat scores.csv
@@ -845,7 +845,7 @@ awk -F, -v OFS=: '{print $1, $3}' scores.csv
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/>`scores.csv`, display names of those who've scored above 70 in Maths.
+For the input file <FontIcon icon="fas fa-file-csv"/>`scores.csv`, display names of those who've scored above 70 in Maths.
 
 ```sh
 cat scores.csv

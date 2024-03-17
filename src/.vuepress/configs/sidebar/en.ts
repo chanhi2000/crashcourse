@@ -3,11 +3,13 @@ import { sidebar } from 'vuepress-theme-hope'
 export const sidebarEn = sidebar({
   '/cli/': [
     {
-      text: '🐚CLI',
-      children: [ '/cli/README.md' ]
+      text: 'CLI',
+      icon: 'iconfont icon-shell',
+      children: [ '/cli/README.md' ],
     }, {
-      text: '🐚Text Processing with GNU awk',
+      text: 'Text Processing with GNU awk',
       collapsible: true,
+      icon: 'iconfont icon-shll',
       children: [
         '/cli/text-processing-w-gnu-awk/README.md',
         '/cli/text-processing-w-gnu-awk/01-installation-and-documentation.md',
@@ -26,10 +28,11 @@ export const sidebarEn = sidebar({
         '/cli/text-processing-w-gnu-awk/14-awk-scripts.md',
         '/cli/text-processing-w-gnu-awk/15-gotchas-and-tips.md',
         '/cli/text-processing-w-gnu-awk/16-further-reading.md',
-      ]
+      ],
     }, {
-      text: '🐚Mastering Curl - Interactive Text Guide',
+      text: 'Mastering Curl - Interactive Text Guide',
       collapsible: true,
+      icon: 'iconfont icon-shell',
       children: [
         '/cli/mastering-curl-interactive-text-guide/README.md',
         '/cli/mastering-curl-interactive-text-guide/01-the-curl-project.md',
@@ -39,8 +42,9 @@ export const sidebarEn = sidebar({
         '/cli/mastering-curl-interactive-text-guide/05-http.md'
       ]
     }, {
-      text: '🐚Bash 쉘스크립트 개발 시작하기',
+      text: 'Bash 쉘스크립트 개발 시작하기',
       collapsible: true,
+      icon: 'iconfont icon-shell',
       children: [
         '/cli/bash-dev/README.md',
         '/cli/bash-dev/01.md',
@@ -51,11 +55,13 @@ export const sidebarEn = sidebar({
     }
   ], '/swift/' : [
     {
-      text: '🕊️Swift',
+      text: 'Swift',
+      icon: 'fas fa-dove',
       children: [ '/swift/README.md' ]
     }, {
       text: '🕊️100 Days of Swift',
       collapsible: true,
+      icon: 'fas fa-dove',
       children: [
         '/swift/100-days-of-swift/README.md',
         '/swift/100-days-of-swift/01.md',
@@ -161,8 +167,9 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swift/101.md',
       ]
     }, {
-      text: '🕊️100 Days of SwiftUI',
+      text: '100 Days of SwiftUI',
       collapsible: true,
+      icon: 'fas fa-dove',
       children: [
         '/swift/100-days-of-swiftui/README.md',
         '/swift/100-days-of-swiftui/01.md',
@@ -268,8 +275,9 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/101.md',
       ]
     }, {
-      text: '🕊️SwiftUI by Example',
+      text: 'SwiftUI by Example',
       collapsible: true,
+      icon: 'fas fa-dove',
       children: [
         '/swift/swiftui-by-example/README.md',
         '/swift/swiftui-by-example/01-building-a-complete-project.md',
@@ -291,8 +299,9 @@ export const sidebarEn = sidebar({
         '/swift/swiftui-by-example/17-drawing.md',
       ]
     }, {
-      text: '🕊️Kodeco - Swift',
+      text: 'Kodeco - Swift',
       collapsible: true,
+      icon: 'fas fa-dove',
       children: [
         '/swift/kodeco/README.md',
         '/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.md',
@@ -335,10 +344,12 @@ export const sidebarEn = sidebar({
     }
   ], '/java/' : [
     {
-      text: '☕️Java',
+      text: 'Java',
+      icon: 'fa-brands fa-java',
       children: [ '/java/README.md' ]
     }, {
-      text: '☕️Java8 in Action',
+      text: 'Java8 in Action',
+      icon: 'fa-brands fa-java',
       collapsible: true,
       children: [
         '/java/java-8-in-action/README.md',
@@ -348,7 +359,8 @@ export const sidebarEn = sidebar({
         '/java/java-8-in-action/3-1.md',
       ]
     }, {
-      text: '☕️Effective Java',
+      text: 'Effective Java',
+      icon: 'fa-brands fa-java',
       collapsible: true,
       children: [
         '/java/effective-java/README.md',
@@ -381,8 +393,9 @@ export const sidebarEn = sidebar({
         '/java/kodeco/31290959-kotlin-sequences-getting-started.md',
       ]
     }, {
-      text: '🍃Jump to Spring Boot',
+      text: 'Jump to Spring Boot',
       collapsible: true,
+      icon: 'fas fa-leaf',
       children: [
         '/java/jump-to-spring-boot/README.md',
         '/java/jump-to-spring-boot/01.md',
@@ -448,10 +461,12 @@ export const sidebarEn = sidebar({
     },
   ], '/js/': [
     {
-      text: '🧶JavaScript',
+      text: 'JavaScript',
+      icon: 'fa-brands fa-js',
       children: [ '/js/README.md' ]
     }, {
-      text: '⚜Learn Typescript',
+      text: 'Learn Typescript',
+      icon: 'iconfont icon-typescript',
       collapsible: true,
       children: [
         '/js/learn-ts/README.md',
@@ -475,8 +490,9 @@ export const sidebarEn = sidebar({
         '/js/learn-ts/advanced/18.md',
       ]
     }, {
-      text: '🧶Must Know JavaScript API',
+      text: 'Must Know JavaScript API',
       collapsible: true,
+      icon: 'fa-brands fa-js',
       children: [
         '/js/must-know-javascript-api/README.md',
         '/js/must-know-javascript-api/page-visibility.md',
@@ -487,8 +503,9 @@ export const sidebarEn = sidebar({
         '/js/must-know-javascript-api/fetch.md'
       ]
     }, {
-      text: '🧶Eloquent Javascript',
+      text: 'Eloquent Javascript',
       collapsible: true,
+      icon: 'fa-brands fa-js',
       children: [
         '/js/eloquent-javascript/README.md',
         '/js/eloquent-javascript/00.md',
@@ -517,11 +534,13 @@ export const sidebarEn = sidebar({
     }
   ], '/python/': [
     {
-      text: '🐍Python',
+      text: 'Python',
+      icon: 'fa-brands fa-python',
       children: [ '/python/README.md' ]
     }, {
-      text: '🐍Finance with Python',
+      text: 'Finance with Python',
       collapsible: true,
+      icon: 'fa-brands fa-python',
       children: [
         '/python/finance-w-python/README.md',
         '/python/finance-w-python/01.md',
@@ -538,8 +557,9 @@ export const sidebarEn = sidebar({
         '/python/finance-w-python/12.md', 
       ]
     }, {
-      text: '🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
+      text: '사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
       collapsible: true,
+      icon: 'fa-brands fa-python',
       children: [
         '/python/rpa-excel/README.md',
         '/python/rpa-excel/01.md',
@@ -555,8 +575,9 @@ export const sidebarEn = sidebar({
         '/python/rpa-excel/03.md',
       ]
     },  {
-      text: '🐍OpenCV – Python 고급 기법 프로그래밍',
+      text: 'OpenCV – Python 고급 기법 프로그래밍',
       collapsible: true,
+      icon: 'fa-brands fa-python',
       children: [
         '/python/opencv-advacned/README.md',
         '/python/opencv-advacned/00.md',
@@ -566,11 +587,13 @@ export const sidebarEn = sidebar({
     }
   ], '/rust/': [
     {
-      text: '🦀Rust',
+      text: 'Rust',
+      icon: 'fa-brands fa-rust',
       children: [ '/rust/README.md' ]
     }, {
-      text: '🦀freecodecamp.org - Rust by Practice',
+      text: 'freecodecamp.org - Rust by Practice',
       collapsible: true,
+      icon: 'fa-brands fa-rust',
       children: [
         '/rust/freecodecamp-rust-by-practice/README.md',
         '/rust/freecodecamp-rust-by-practice/01-elegant-code-base.md',
@@ -605,8 +628,9 @@ export const sidebarEn = sidebar({
         '/rust/freecodecamp-rust-by-practice/30-fight-compiler.md',
       ]
     }, {
-      text: '🦀Wasm by Example',
+      text: 'Wasm by Example',
       collapsible: true,
+      icon: 'fa-brands fa-rust',
       children: [
         '/rust/wasm-by-example/README.md',
         '/rust/wasm-by-example/01-concepts.md',
@@ -615,8 +639,9 @@ export const sidebarEn = sidebar({
         '/rust/wasm-by-example/04-webassembly-outside-of-the-browser.md',
       ]
     }, {
-      text: '🦀Rust to Assembly',
+      text: 'Rust to Assembly',
       collapsible: true,
+      icon: 'fa-brands fa-rust',
       children: [
         '/rust/eventhelix-rust-to-assembly/README.md',
         '/rust/eventhelix-rust-to-assembly/rust-enum-and-match-representation-in-assembly.md',
@@ -735,8 +760,9 @@ export const sidebarEn = sidebar({
       text: '🏗️DevOps',
       children: [ '/devops/README.md' ]
     }, {
-      text: '🔺Red Hat Container Tools',
+      text: 'Red Hat Container Tools',
       collapsible: true,
+      icon: 'fa-brands fa-redhat',
       children: [
         '/devops/red-hat-container-tools/README.md',
         '/devops/red-hat-container-tools/01.md',
@@ -749,8 +775,9 @@ export const sidebarEn = sidebar({
         '/devops/red-hat-container-tools/08.md'
       ]
     }, {
-      text: '🔺Containerize Your Application With Buildah And Podman',
+      text: 'Containerize Your Application With Buildah And Podman',
       collapsible: true,
+      icon: 'fa-brands fa-redhat',
       children: [
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/README.md',
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/01.md',
@@ -758,8 +785,9 @@ export const sidebarEn = sidebar({
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/03.md'
       ]
     }, {
-      text: '🦊freecodecamp.org - DevOps with GitLab CI',
+      text: 'freecodecamp.org - DevOps with GitLab CI',
       collapsible: true,
+      icon: 'fa-brands fa-gitlab',
       children: [
         '/devops/freecodecamp-gitlab-ci/README.md',
         '/devops/freecodecamp-gitlab-ci/1.md',
@@ -777,8 +805,9 @@ export const sidebarEn = sidebar({
         '/devops/digitalocean-kubernetes/2022/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.md',
       ]
     }, {
-      text: '📦아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
+      text: '아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
       collapsible: true,
+      icon: 'fa-brands fa-aws',
       children: [
         '/devops/art-of-aws/README.md',
         '/devops/art-of-aws/01.md',
@@ -817,8 +846,9 @@ export const sidebarEn = sidebar({
         '/devops/art-of-aws/a.md',        
       ]
     }, {
-      text: '🐧Linux Journey',
+      text: 'Linux Journey',
       collapsible: true,
+      icon: 'fa-brands fa-linux',
       children: [
         '/devops/linux-journey/README.md',
         '/devops/linux-journey/01-grasshopper/01a-getting-started.md',
@@ -847,8 +877,9 @@ export const sidebarEn = sidebar({
     }, 
   ], '/misc/': [
     {
-      text: '🎨Colt Steele - Mastering CSS Grid',
+      text: 'Colt Steele - Mastering CSS Grid',
       collapsible: true,
+      icon: 'fa-brands fa-css3-alt',
       children: [
         '/misc/colt-steele-mastering-css-grid/README.md',
         '/misc/colt-steele-mastering-css-grid/01-css-grid-basics',

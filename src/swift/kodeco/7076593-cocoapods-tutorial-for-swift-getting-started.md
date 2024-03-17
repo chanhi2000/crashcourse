@@ -72,7 +72,7 @@ This CocoaPods tutorial requires basic familiarity with iOS and Swift developmen
 
 ## Getting Started
 
-Download the starter project by clicking the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the starter project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 Throughout this tutorial, you’ll work with an app called __Ice Cream Shop, Inc__. You’ll use CocoaPods to add dependencies to the app the easy way, instead of writing your own.
 
@@ -474,7 +474,7 @@ Great work! Customers can now select their favorite ice cream flavor and they se
 
 ## Where to Go From Here?
 
-You can download the completed project using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
+You can download the completed project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
 
 Congratulations! You now know the basics of using CocoaPods, including creating and modifying dependencies and understanding semantic versioning. You're now ready to start using them in your own projects!
 
