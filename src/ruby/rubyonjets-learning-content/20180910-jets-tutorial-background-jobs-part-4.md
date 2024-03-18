@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Background Jobs Part 4
-description: 🔻Jets - Learning Content > Background Jobs Part 4
+description: Jets - Learning Content > Background Jobs Part 4
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Background Jobs Part 4
+      content: Jets - Learning Content > Background Jobs Part 4
     - property: og:description
       content: Background Jobs Part 4
     - property: og:url

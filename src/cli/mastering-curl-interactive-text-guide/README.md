@@ -1,10 +1,11 @@
 ---
 lang: ko-KR
-title: 🐚Mastering Curl - Interactive Text Guide
-description: 🐚Mastering Curl - Interactive Text Guide
+title: Mastering Curl - Interactive Text Guide
+description: Mastering Curl - Interactive Text Guide
+icon: iconfont icon-shell
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,11 +17,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide
+      content: Mastering Curl - Interactive Text Guide
     - property: og:description
-      content: 🐚Mastering Curl - Interactive Text Guide
+      content: Mastering Curl - Interactive Text Guide
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +54,7 @@ I've also included some interactive examples, so you can try out different curl 
 
 ```component VPCard
 {
-  "title": "🐚Mastering Curl - Interactive Text Guide > 01. The curl project",
+  "title": "Mastering Curl - Interactive Text Guide > 01. The curl project",
   "desc": "01. The curl project",
   "link": "01-the-curl-project.md",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
@@ -63,7 +64,7 @@ I've also included some interactive examples, so you can try out different curl 
 
 ```component VPCard
 {
-  "title": "🐚Mastering Curl - Interactive Text Guide > 02. Command line options",
+  "title": "Mastering Curl - Interactive Text Guide > 02. Command line options",
   "desc": "02. Command line options",
   "link": "02-command-line-options.md",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
@@ -73,7 +74,7 @@ I've also included some interactive examples, so you can try out different curl 
 
 ```component VPCard
 {
-  "title": "🐚Mastering Curl - Interactive Text Guide > 03. URLs",
+  "title": "Mastering Curl - Interactive Text Guide > 03. URLs",
   "desc": "03. URLs",
   "link": "03-urls.md",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
@@ -83,7 +84,7 @@ I've also included some interactive examples, so you can try out different curl 
 
 ```component VPCard
 {
-  "title": "🐚Mastering Curl - Interactive Text Guide > 04. Curl basics",
+  "title": "Mastering Curl - Interactive Text Guide > 04. Curl basics",
   "desc": "04. Curl basics",
   "link": "04-curl-basics.md",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
@@ -93,14 +94,13 @@ I've also included some interactive examples, so you can try out different curl 
 
 ```component VPCard
 {
-  "title": "🐚Mastering Curl - Interactive Text Guide > 05. HTTP",
+  "title": "Mastering Curl - Interactive Text Guide > 05. HTTP",
   "desc": "05. HTTP",
   "link": "05-http.md",
   "logo": "https://antonz.org/assets/favicon/favicon.ico",
   "background": "rgba(22,25,35,0.2)"
 }
 ```
-
 
 ---
 

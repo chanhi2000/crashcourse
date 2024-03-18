@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 12. Two file processing
-description: 🐚Text Processing with GNU awk > 12. Two file processing
+description: Text Processing with GNU awk > 12. Two file processing
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 12. Two file processing
+      content: Text Processing with GNU awk > 12. Two file processing
     - property: og:description
       content: 12. Two file processing
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/12-two-file-processing.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/12-two-file-processing.html
 ---
 
 # {{ $frontmatter.title }} 관련

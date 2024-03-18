@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 25. Unsafe doing
-description: 🦀freecodecamp.org - Rust by Practice > 25. Unsafe doing
+description: freecodecamp.org - Rust by Practice > 25. Unsafe doing
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 25. Unsafe doing
+      content: freecodecamp.org - Rust by Practice > 25. Unsafe doing
     - property: og:description
       content: 25. Unsafe doing
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

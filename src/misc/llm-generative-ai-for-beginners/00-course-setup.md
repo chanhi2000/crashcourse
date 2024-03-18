@@ -1,7 +1,9 @@
 ---
 lang: ko-KR
 title: 00. Course Introduction - How to Take This Course
-description: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
+description: Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
+category:
+  - LLM
 tag: 
   - crashcourse
   - microsoft
@@ -11,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦙Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
+      content: Microsoft - Generative AI for Beginners > 00. Course Introduction - How to Take This Course
     - property: og:description
       content: 00. Course Introduction - How to Take This Course
     - property: og:url

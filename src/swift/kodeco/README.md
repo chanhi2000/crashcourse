@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🕊️Kodeco - Swift 
-description: 🕊️Kodeco - Swift 
+title: Kodeco - Swift 
+description: Kodeco - Swift 
+icon: fas fa-dove
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift
+      content: Kodeco - Swift
     - property: og:description
-      content: 🕊️Kodeco - Swift
+      content: Kodeco - Swift
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/kodeco.html
 ---

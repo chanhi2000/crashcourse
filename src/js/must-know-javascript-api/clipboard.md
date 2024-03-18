@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Clipboard API
-description: 🧶Must Know JavaScript API > Clipboard API
+description: Must Know JavaScript API > Clipboard API
 categroy:
-  - 🧶JavaScript
+  - JavaScript
 tag: 
   - blog
   - js
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Must Know JavaScript API > Clipboard API
+      content: Must Know JavaScript API > Clipboard API
     - property: og:description
       content: Clipboard API
     - property: og:url
@@ -26,6 +26,16 @@ head:
 [[toc]]
 
 ---
+
+```component VPCard
+{
+  "title": "(by Chris1993) Must Know JavaScript API — Clipboard API",
+  "desc": "Clipboard API",
+  "link": "https://javascript.plainenglish.io/must-know-javascript-api-clipboard-api-22ac0861e27b",
+  "logo": "https://miro.medium.com/v2/resize:fill:59:59/1*H8epNyccEIEHWl9YYJhO2w.png",
+  "background": "rgb(222,200,50,0.2)"
+}
+```
 
 ## 🏝 1. What is Clipboard API
 

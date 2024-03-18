@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 03. Positioning Elements by Lines
-description: 🎨Colt Steele - Mastering CSS Grid > 03. Positioning Elements by Lines
+description: Colt Steele - Mastering CSS Grid > 03. Positioning Elements by Lines
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🎨Colt Steele - Mastering CSS Grid > 03. Positioning Elements by Lines
+      content: Colt Steele - Mastering CSS Grid > 03. Positioning Elements by Lines
     - property: og:description
       content: 03. Positioning Elements by Lines
     - property: og:url

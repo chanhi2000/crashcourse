@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 28. Async/Await
-description: 🦀freecodecamp.org - Rust by Practice > 28. Async/Await
+description: freecodecamp.org - Rust by Practice > 28. Async/Await
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 28. Async/Await
+      content: freecodecamp.org - Rust by Practice > 28. Async/Await
     - property: og:description
       content: 28. Async/Await
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

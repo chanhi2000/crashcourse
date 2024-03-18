@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Network Config
-description: 🐧Linux Journey > Networking Nomad > Network Config
+title: Networking Nomad > 03e. Network Config
+description: Linux Journey > Networking Nomad > 03e. Network Config
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Network Config
+      content: Linux Journey > Networking Nomad > 03e. Network Config
     - property: og:description
-      content: Network Config
+      content: 03e. Network Config
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03e-network-config.html
 ---

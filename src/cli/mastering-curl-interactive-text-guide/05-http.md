@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 5. HTTP
-description: 🐚Mastering Curl - Interactive Text Guide > 5. HTTP
+description: Mastering Curl - Interactive Text Guide > 5. HTTP
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide > 5. HTTP
+      content: Mastering Curl - Interactive Text Guide > 5. HTTP
     - property: og:description
       content: 5. HTTP
     - property: og:url

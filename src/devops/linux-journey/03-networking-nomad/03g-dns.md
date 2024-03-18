@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > DNS
-description: 🐧Linux Journey > Networking Nomad > DNS
+title: Networking Nomad > 03g. DNS
+description: Linux Journey > Networking Nomad > 03g. DNS
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > DNS
+      content: Linux Journey > Networking Nomad > 03g. DNS
     - property: og:description
-      content: DNS
+      content: 03g. DNS
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03g-dns.html
 ---

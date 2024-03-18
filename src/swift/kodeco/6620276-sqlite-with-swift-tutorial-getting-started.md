@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: SQLite With Swift Tutorial - Getting Started
-description: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
+description: Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
+      content: Kodeco - Swift > SQLite With Swift Tutorial - Getting Started
     - property: og:description
       content: SQLite With Swift Tutorial - Getting Started
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Broadcast Channel API
-description: 🧶Must Know JavaScript API > Broadcast Channel API
+description: Must Know JavaScript API > Broadcast Channel API
 categroy:
-  - 🧶JavaScript
+  - JavaScript
 tag: 
   - blog
   - js
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Must Know JavaScript API > Broadcast Channel API
+      content: Must Know JavaScript API > Broadcast Channel API
     - property: og:description
       content: Broadcast Channel API
     - property: og:url
@@ -26,6 +26,16 @@ head:
 [[toc]]
 
 ---
+
+```component VPCard
+{
+  "title": "(by Chris1993) Must Know JavaScript API — Broadcast Channel API",
+  "desc": "Broadcast Channel API",
+  "link": "https://javascript.plainenglish.io/must-know-javascript-api-broadcast-channel-api-f059860f9349",
+  "logo": "https://miro.medium.com/v2/resize:fill:59:59/1*H8epNyccEIEHWl9YYJhO2w.png",
+  "background": "rgb(222,200,50,0.2)"
+}
+```
 
 When our web pages need to share data between different browser windows, we may need to use technologies such as WebSocket or WebRTC. However, these technologies can be too complicated. The browser comes with Broadcast Channel API that allows us to easily share data between different browser windows without using complicated technologies.
 

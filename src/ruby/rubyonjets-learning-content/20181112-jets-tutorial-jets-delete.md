@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Jets Delete Tutorial
-description: 🔻Jets - Learning Content > Jets Delete Tutorial
+description: Jets - Learning Content > Jets Delete Tutorial
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Jets Delete Tutorial
+      content: Jets - Learning Content > Jets Delete Tutorial
     - property: og:description
       content: Jets Delete Tutorial
     - property: og:url

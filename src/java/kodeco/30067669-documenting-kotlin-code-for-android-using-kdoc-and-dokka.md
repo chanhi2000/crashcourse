@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Documenting Kotlin Code for Android Using KDoc and Dokka
-description: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
+description: Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
+      content: Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
     - property: og:description
       content: Documenting Kotlin Code for Android Using KDoc and Dokka
     - property: og:url

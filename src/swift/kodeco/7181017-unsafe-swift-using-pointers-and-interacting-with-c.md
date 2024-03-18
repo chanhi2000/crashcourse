@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Unsafe Swift - Using Pointers and Interacting With C
-description: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
+description: Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
+      content: Kodeco - Swift > Unsafe Swift - Using Pointers and Interacting With C
     - property: og:description
       content: Unsafe Swift - Using Pointers and Interacting With C
     - property: og:url

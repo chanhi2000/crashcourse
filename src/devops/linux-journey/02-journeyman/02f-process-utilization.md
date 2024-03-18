@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Process Utilization
-description: 🐧Linux Journey > Journeyman > Process Utilization
+title: Journeyman > 02f. Process Utilization
+description: Linux Journey > Journeyman > 02f. Process Utilization
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Process Utilization
+      content: Linux Journey > Journeyman > 02f. Process Utilization
     - property: og:description
-      content: Process Utilization
+      content: 02f. Process Utilization
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02f-process-utilization.html
 ---

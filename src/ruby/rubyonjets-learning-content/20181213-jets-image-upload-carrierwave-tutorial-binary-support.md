@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Image Upload Carrierwave Tutorial
-description: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
+description: Jets - Learning Content > Image Upload Carrierwave Tutorial
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Image Upload Carrierwave Tutorial
+      content: Jets - Learning Content > Image Upload Carrierwave Tutorial
     - property: og:description
       content: Image Upload Carrierwave Tutorial
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: UIGestureRecognizer Tutorial - Getting Started
-description: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
+description: Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
+      content: Kodeco - Swift > UIGestureRecognizer Tutorial - Getting Started
     - property: og:description
       content: UIGestureRecognizer Tutorial - Getting Started
     - property: og:url

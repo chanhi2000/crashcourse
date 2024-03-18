@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 2. Variables
-description: 🦀freecodecamp.org - Rust by Practice > 2. Variables
+description: freecodecamp.org - Rust by Practice > 2. Variables
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 2. Variables
+      content: freecodecamp.org - Rust by Practice > 2. Variables
     - property: og:description
       content: 2. Variables
     - property: og:url

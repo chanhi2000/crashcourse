@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Introducing Jets - A Ruby Serverless Framework
-description: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
+description: Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
+      content: Jets - Learning Content > Introducing Jets - A Ruby Serverless Framework
     - property: og:description
       content: Introducing Jets - A Ruby Serverless Framework
     - property: og:url

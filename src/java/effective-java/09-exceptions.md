@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 예외
-description: ☕️Effective Java > 예외
+description: Effective Java > 예외
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 예외
+      content: Effective Java > 예외
     - property: og:description
       content: 예외
     - property: og:url

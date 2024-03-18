@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: API Gateway - Jets Introduction Series Part 2
-description: 🔻Jets - Learning Content > API Gateway - Jets Introduction Series Part 2
+description: Jets - Learning Content > API Gateway - Jets Introduction Series Part 2
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > API Gateway - Jets Introduction Series Part 2
+      content: Jets - Learning Content > API Gateway - Jets Introduction Series Part 2
     - property: og:description
       content: API Gateway - Jets Introduction Series Part 2
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Drawing
-description: 🕊️SwiftUI by Example > Drawing
+description: SwiftUI by Example > Drawing
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Drawing
+      content: SwiftUI by Example > Drawing
     - property: og:description
       content: Drawing
     - property: og:url

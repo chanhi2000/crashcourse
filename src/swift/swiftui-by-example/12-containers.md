@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Containers
-description: 🕊️SwiftUI by Example > Containers
+description: SwiftUI by Example > Containers
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Containers
+      content: SwiftUI by Example > Containers
     - property: og:description
       content: Containers
     - property: og:url

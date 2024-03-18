@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 8. Control Structures
-description: 🐚Text Processing with GNU awk > 8. Control Structures
+description: Text Processing with GNU awk > 8. Control Structures
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 8. Control Structures
+      content: Text Processing with GNU awk > 8. Control Structures
     - property: og:description
       content: 8. Control Structures
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/08-control-structures.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/08-control-structures.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > The Filesystem
-description: 🐧Linux Journey > Journeyman > The Filesystem
+title: Journeyman > 02b. TThe Filesystem
+description: Linux Journey > Journeyman > 02b. The Filesystem
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > The Filesystem
+      content: Linux Journey > Journeyman > 02b. TThe Filesystem
     - property: og:description
-      content: The Filesystem
+      content: 02b. TThe Filesystem
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02b-the-filesystems.html
 ---

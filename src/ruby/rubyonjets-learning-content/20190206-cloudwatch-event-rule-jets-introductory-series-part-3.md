@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: CloudWatch Event Rule - Jets Introduction Series Part 3
-description: 🔻Jets - Learning Content > CloudWatch Event Rule - Jets Introduction Series Part 3
+description: Jets - Learning Content > CloudWatch Event Rule - Jets Introduction Series Part 3
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > CloudWatch Event Rule - Jets Introduction Series Part 3
+      content: Jets - Learning Content > CloudWatch Event Rule - Jets Introduction Series Part 3
     - property: og:description
       content: CloudWatch Event Rule - Jets Introduction Series Part 3
     - property: og:url

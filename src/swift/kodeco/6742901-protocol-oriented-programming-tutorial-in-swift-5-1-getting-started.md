@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
-description: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
+description: Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
+      content: Kodeco - Swift > Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
     - property: og:description
       content: Protocol-Oriented Programming Tutorial in Swift 5.1 - Getting Started
     - property: og:url

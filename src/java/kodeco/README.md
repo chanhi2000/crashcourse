@@ -1,12 +1,13 @@
 ---
 lang: ko-KR
-title: 🅺Kodeco - Android & Kotlin 
-description: 🅺Kodeco - Android & Kotlin 
+title: Kodeco - Android & Kotlin 
+description: Kodeco - Android & Kotlin 
+icon: fa-brands fa-android
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -16,11 +17,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin
+      content: Kodeco - Android & Kotlin
     - property: og:description
-      content: 🅺Kodeco - Android & Kotlin
+      content: Kodeco - Android & Kotlin
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco.html
+      content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/
 ---
 
 # {{ $frontmatter.title }} 관련

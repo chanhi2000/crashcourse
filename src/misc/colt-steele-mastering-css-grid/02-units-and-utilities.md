@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 02. Units and Utilities
-description: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
+description: Colt Steele - Mastering CSS Grid > 02. Units and Utilities
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🎨Colt Steele - Mastering CSS Grid > 02. Units and Utilities
+      content: Colt Steele - Mastering CSS Grid > 02. Units and Utilities
     - property: og:description
       content: 02. Units and Utilities
     - property: og:url

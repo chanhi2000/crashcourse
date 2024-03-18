@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 9. Generics and Traits
-description: 🦀freecodecamp.org - Rust by Practice > 9. Generics and Traits
+description: freecodecamp.org - Rust by Practice > 9. Generics and Traits
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 9. Generics and Traits
+      content: freecodecamp.org - Rust by Practice > 9. Generics and Traits
     - property: og:description
       content: 9. Generics and Traits
     - property: og:url

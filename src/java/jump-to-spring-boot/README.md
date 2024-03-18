@@ -1,10 +1,12 @@
 ---
 lang: ko-KR
-title: 🍃Jump to Spring Boot
-description: 🍃Jump to Spring Boot
+title: Jump to Spring Boot
+description: Jump to Spring Boot
+icon: fa-brands fa-envira
 category:
-  - ☕️Java
-  - 🍃Spring
+  - Java
+  - Spring
+  - AWS
 tag: 
   - crashcourse
   - java
@@ -17,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🍃Jump to Spring Boot
+      content: Jump to Spring Boot
     - property: og:description
-      content: 🍃Jump to Spring Boot
+      content: Jump to Spring Boot
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/java/jump-to-spring-boot.html
 ---

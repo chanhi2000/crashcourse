@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 21. Self referential
-description: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
+description: freecodecamp.org - Rust by Practice > 21. Self referential
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 21. Self referential
+      content: freecodecamp.org - Rust by Practice > 21. Self referential
     - property: og:description
       content: 21. Self referential
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

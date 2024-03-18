@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🕊️Swift
-description: 🕊️Swift
+title: Swift
+description: Swift
+icon: fas fa-dove
 category: 
-  - 🕊️Swift
+  - Swift
   - 🏛Objective-C
 tag: 
   - crashcourse
@@ -25,31 +26,31 @@ tag:
 
 ## Table of Contents
 
-::: details 🕊️100 Days of Swift
+::: details 100 Days of Swift
 
 <ToCLocal basePath="/swift/100-days-of-swift" />
 
 :::
 
-::: details 🕊️100 Days of SwiftUI
+::: details 100 Days of SwiftUI
 
 <ToCLocal basePath="/swift/100-days-of-swiftui" />
 
 :::
 
-::: details 🕊️SwiftUI by Example
+::: details SwiftUI by Example
 
 <ToCLocal basePath="/swift/swiftui-by-example" />
 
 :::
 
-::: details 🕊️Kodeco - Swift
+::: details Kodeco - Swift
 
 <ToCLocal basePath="/swift/kodeco" />
 
 :::
 
-::: details 🕊️OSX 구조를 이해하면서 배우는 Objective-C
+::: details OSX 구조를 이해하면서 배우는 Objective-C
 
 <ToCLocal basePath="/swift/shuokai-objc" />
 

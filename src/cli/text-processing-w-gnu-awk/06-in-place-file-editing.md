@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 6. In-place file editing
-description: 🐚Text Processing with GNU awk > 6. In-place file editing
+description: Text Processing with GNU awk > 6. In-place file editing
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 6. In-place file editing
+      content: Text Processing with GNU awk > 6. In-place file editing
     - property: og:description
       content: 6. In-place file editing
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/06-in-place-file-editing.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/06-in-place-file-editing.html
 ---
 
 # {{ $frontmatter.title }} 관련

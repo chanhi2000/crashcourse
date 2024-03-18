@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 01. Concepts
-description: 🦀Wasm by Example (for Rust) > 01. Concepts
+description: Wasm by Example (for Rust) > 01. Concepts
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦀Wasm by Example (for Rust) > 01. Concepts
+      content: Wasm by Example (for Rust) > 01. Concepts
     - property: og:description
       content: 01. Concepts
     - property: og:url

@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: Intro
-description: 🦀freecodecamp.org - Rust by Practice
+title: freecodecamp.org - Rust by Practice
+description: freecodecamp.org - Rust by Practice
+icon: fa-brands fa-rust
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,11 +17,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice
+      content: freecodecamp.org - Rust by Practice
     - property: og:description
-      content: 🦀freecodecamp.org - Rust by Practice
+      content: freecodecamp.org - Rust by Practice
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice.html
+      content: https://chanhi2000.github.io/crashcourse/rust/freecodecamp-rust-by-practice/
 ---
 
 # {{ $frontmatter.title }} 관련

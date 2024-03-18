@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 12. Result and panic
-description: 🦀freecodecamp.org - Rust by Practice > 12. Result and panic
+description: freecodecamp.org - Rust by Practice > 12. Result and panic
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 12. Result and panic
+      content: freecodecamp.org - Rust by Practice > 12. Result and panic
     - property: og:description
       content: 12. Result and panic
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

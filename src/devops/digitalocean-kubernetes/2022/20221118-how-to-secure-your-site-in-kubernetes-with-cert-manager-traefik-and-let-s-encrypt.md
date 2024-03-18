@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
-description: ☸DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
+description: DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
 category:
-  - ☸Kubernetes
+  - Kubernetes
 tag:
   - crashcourse
   - digitalocean
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
     - property: og:description
-      content: ☸DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
+      content: DigitalOcean - Kubernetes > How To Secure Your Site in Kubernetes with cert-manager, Traefik, and Let’s Encrypt
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.html
 ---

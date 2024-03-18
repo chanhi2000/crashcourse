@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: ☕️Java 8 in Action
-description: ☕️Java 8 in Action
+title: Java 8 in Action
+description: Java 8 in Action
+icon: fa-brands fa-java
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Java 8 in Action
+      content: Java 8 in Action
     - property: og:description
-      content: ☕️Java 8 in Action
+      content: Java 8 in Action
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/java/java-8-in-action/
 ---

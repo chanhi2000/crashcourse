@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Different Environments Part 8
-description: 🔻Jets - Learning Content > Different Environments Part 8
+description: Jets - Learning Content > Different Environments Part 8
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Different Environments Part 8
+      content: Jets - Learning Content > Different Environments Part 8
     - property: og:description
       content: Different Environments Part 8
     - property: og:url

@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 4. Field separators
-description: 🐚Text Processing with GNU awk > 4. Field separators
+description: Text Processing with GNU awk > 4. Field separators
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 4. Field separators
+      content: Text Processing with GNU awk > 4. Field separators
     - property: og:description
       content: 4. Field separators
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/04-field-separators.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/04-field-separators.html
 ---
 
 # {{ $frontmatter.title }} 관련

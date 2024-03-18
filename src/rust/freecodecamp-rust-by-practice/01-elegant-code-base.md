@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 1. Small projects with Elegant code
-description: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
+description: freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
+      content: freecodecamp.org - Rust by Practice > 1. Small projects with Elegant code
     - property: og:description
       content: 1. Small projects with Elegant code
     - property: og:url

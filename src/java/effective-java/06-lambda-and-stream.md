@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 람다와 스트림
-description: ☕️Effective Java > 람다와 스트림
+description: Effective Java > 람다와 스트림
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 람다와 스트림
+      content: Effective Java > 람다와 스트림
     - property: og:description
       content: 람다와 스트림
     - property: og:url

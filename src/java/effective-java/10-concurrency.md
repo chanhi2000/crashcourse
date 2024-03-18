@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 병행성
-description: ☕️Effective Java > 병행성
+description: Effective Java > 병행성
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 병행성
+      content: Effective Java > 병행성
     - property: og:description
       content: 병행성
     - property: og:url

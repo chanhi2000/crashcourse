@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Presenting views
-description: 🕊️SwiftUI by Example > Presenting views
+description: SwiftUI by Example > Presenting views
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Presenting views
+      content: SwiftUI by Example > Presenting views
     - property: og:description
       content: Presenting views
     - property: og:url

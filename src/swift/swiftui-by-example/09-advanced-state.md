@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Advanced state
-description: 🕊️SwiftUI by Example > Advanced state
+description: SwiftUI by Example > Advanced state
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Advanced state
+      content: SwiftUI by Example > Advanced state
     - property: og:description
       content: Advanced state
     - property: og:url

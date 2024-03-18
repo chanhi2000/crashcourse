@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Network Sharing
-description: 🐧Linux Journey > Networking Nomad > Network Sharing
+title: Networking Nomad > 03a. Network Sharing
+description: Linux Journey > Networking Nomad > 03a. Network Sharing
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Network Sharing
+      content: Linux Journey > Networking Nomad > 03a. Network Sharing
     - property: og:description
-      content: Network Sharing
+      content: 03a. Network Sharing
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03a-network-sharing.html
 ---

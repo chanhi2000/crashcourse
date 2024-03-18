@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: User interface controls
-description: 🕊️SwiftUI by Example > User interface controls
+description: SwiftUI by Example > User interface controls
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > User interface controls
+      content: SwiftUI by Example > User interface controls
     - property: og:description
       content: User interface controls
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Airline
-description: 🐧Linux Aviation HOWTO > Airline
+title: 2. Airline
+description: Linux Aviation HOWTO > 2. Airline
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Airline
+      content: Linux Aviation HOWTO > 2. Airline
     - property: og:description
-      content: Airline
+      content: 2. Airline
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/02-airline.html
 ---

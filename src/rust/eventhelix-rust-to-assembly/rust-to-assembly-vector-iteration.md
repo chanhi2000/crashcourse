@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Map Rust vector iteration to assembly
-description: 🦀Rust to Assembly > Map Rust vector iteration to assembly
+description: Rust to Assembly > Map Rust vector iteration to assembly
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - digitalocean
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀Rust to Assembly > Map Rust vector iteration to assembly
+      content: Rust to Assembly > Map Rust vector iteration to assembly
     - property: og:description
       content: Map Rust vector iteration to assembly
     - property: og:url

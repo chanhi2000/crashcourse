@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Network Basics
-description: 🐧Linux Journey > Networking Nomad > Network Basics
+title: Networking Nomad > 03b. Network Basics
+description: Linux Journey > Networking Nomad > 03b. Network Basics
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Network Basics
+      content: Linux Journey > Networking Nomad > 03b. Network Basics
     - property: og:description
-      content: Network Basics
+      content: 03b. Network Basics
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03b-network-basics.html
 ---

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Getting Started
-description: 🐧Linux Journey > GrassHopper > Getting Started
+title: GrassHopper > 01a. Getting Started
+description: Linux Journey > GrassHopper > 01a. Getting Started
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Getting Started
+      content: Linux Journey > GrassHopper > 01a. Getting Started
     - property: og:description
-      content: Getting Started
+      content: 01a. Getting Started
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01a-getting-started.html
 ---

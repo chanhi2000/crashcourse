@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 13. Dealing with duplicates
-description: 🐚Text Processing with GNU awk > 13. Dealing with duplicates
+description: Text Processing with GNU awk > 13. Dealing with duplicates
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head: 
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 13. Dealing with duplicates
+      content: Text Processing with GNU awk > 13. Dealing with duplicates
     - property: og:description
       content: 13. Dealing with duplicates
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/13-dealing-with-duplicates.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/13-dealing-with-duplicates.html
 ---
 
 # {{ $frontmatter.title }} 관련

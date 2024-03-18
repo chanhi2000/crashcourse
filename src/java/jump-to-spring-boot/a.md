@@ -1,11 +1,11 @@
 ---
 lang: ko-KR
 title: A. 부록
-description: 🍃Jump to Spring Boot > A. 부록
+description: Jump to Spring Boot > A. 부록
 category:
-  - ☕️Java
-  - 🍃Spring
-  - 📦AWS
+  - Java
+  - Spring
+  - AWS
 tag: 
   - crashcourse
   - java
@@ -20,7 +20,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🍃Jump to Spring Boot > A. 부록
+      content: Jump to Spring Boot > A. 부록
     - property: og:description
       content: A. 부록
     - property: og:url

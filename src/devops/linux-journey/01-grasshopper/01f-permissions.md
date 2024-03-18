@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Permissions
-description: 🐧Linux Journey > GrassHopper > Permissions
+title: GrassHopper > 01f. Permissions
+description: Linux Journey > GrassHopper > 01f. Permissions
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Permissions
+      content: Linux Journey > GrassHopper > 01f. Permissions
     - property: og:description
-      content: Permissions
+      content: 01f. Permissions
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01f-permissions.html
 ---

@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
 title: Intro
-description: 🐍Finance with Python
+description: Finance with Python
+icon: fa-brands fa-python
 category:
-  - 🐍Python
+  - Python
 tag: 
   - crashcourse
   - python
@@ -17,9 +18,9 @@ tag:
 head:
 - - meta:
   - property: og:title
-    content: 🐍Finance with Python
+    content: Finance with Python
   - property: og:description
-    content: 🐍Finance with Python
+    content: Finance with Python
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/python/finance-w-python.html
 ---

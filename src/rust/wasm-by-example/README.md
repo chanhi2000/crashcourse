@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🦀Wasm by Example
-description: 🦀Wasm by Example
+title: Wasm by Example
+description: Wasm by Example
+icon: fa-brands fa-rust
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -16,11 +17,11 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦀Wasm by Example (for Rust)
+      content: Wasm by Example (for Rust)
     - property: og:description
-      content: 🦀Wasm by Example (for Rust)
+      content: Wasm by Example (for Rust)
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/rust/wasm-by-example.html
+      content: https://chanhi2000.github.io/crashcourse/rust/wasm-by-example/
 ---
 
 # {{ $frontmatter.title }} 관련

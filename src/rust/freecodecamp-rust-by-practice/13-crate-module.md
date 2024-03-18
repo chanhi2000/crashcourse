@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 13. Crate and Module
-description: 🦀freecodecamp.org - Rust by Practice > 13. Crate and Module
+description: freecodecamp.org - Rust by Practice > 13. Crate and Module
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 13. Crate and Module
+      content: freecodecamp.org - Rust by Practice > 13. Crate and Module
     - property: og:description
       content: 13. Crate and Module
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Lists
-description: 🕊️SwiftUI by Example > Lists
+description: SwiftUI by Example > Lists
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Lists
+      content: SwiftUI by Example > Lists
     - property: og:description
       content: Lists
     - property: og:url

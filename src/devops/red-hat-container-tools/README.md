@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🔺Red Hat Container Tools
-description: 🔺Red Hat Container Tools
+title: Red Hat Container Tools
+description: Red Hat Container Tools
+icon: fa-brands fa-redhat
 category:
-  - 🔺RedHat
+  - RedHat
 tag: 
   - crashcourse
   - redhat
@@ -15,11 +16,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔺Red Hat Container Tools
+      content: Red Hat Container Tools
     - property: og:description
-      content: 🔺Red Hat Container Tools
+      content: Red Hat Container Tools
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-container-tools.html
+      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-container-tools/
 ---
 
 # {{ $frontmatter.title }} 관련

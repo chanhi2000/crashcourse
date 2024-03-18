@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: SwiftUI Tutorial for iOS - Creating Charts
-description: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
+description: Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
+      content: Kodeco - Swift > SwiftUI Tutorial for iOS - Creating Charts
     - property: og:description
       content: SwiftUI Tutorial for iOS - Creating Charts
     - property: og:url

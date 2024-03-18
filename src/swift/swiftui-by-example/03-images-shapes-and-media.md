@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Images, shapes, and media
-description: 🕊️SwiftUI by Example > Images, shapes, and media
+description: SwiftUI by Example > Images, shapes, and media
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Images, shapes, and media
+      content: SwiftUI by Example > Images, shapes, and media
     - property: og:description
       content: Images, shapes, and media
     - property: og:url

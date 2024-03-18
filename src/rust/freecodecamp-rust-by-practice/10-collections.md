@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 10. Collection Types
-description: 🦀freecodecamp.org - Rust by Practice > 10. Collection Types
+description: freecodecamp.org - Rust by Practice > 10. Collection Types
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 10. Collection Types
+      content: freecodecamp.org - Rust by Practice > 10. Collection Types
     - property: og:description
       content: 10. Collection Types
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Data Sources
-description: 🐧Linux Aviation HOWTO > Data Sources
+title: 6. Data Sources
+description: Linux Aviation HOWTO > 6. Data Sources
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Data Sources
+      content: Linux Aviation HOWTO > 6. Data Sources
     - property: og:description
-      content: Data Sources
+      content: 6. Data Sources
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/06-data-sources.html
 ---

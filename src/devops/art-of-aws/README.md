@@ -17,7 +17,7 @@ head:
   - property: og:description
     content: 아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops/art-of-aws.html
+    content: https://chanhi2000.github.io/crashcourse/devops/art-of-aws/
 ---
 
 # {{ $frontmatter.title }} 관련

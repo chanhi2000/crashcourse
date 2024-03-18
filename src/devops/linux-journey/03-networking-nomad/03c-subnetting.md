@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Subnetting
-description: 🐧Linux Journey > Networking Nomad > Subnetting
+title: Networking Nomad > 03c. Subnetting
+description: Linux Journey > Networking Nomad > 03c. Subnetting
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Subnetting
+      content: Linux Journey > Networking Nomad > 03c. Subnetting
     - property: og:description
-      content: Subnetting
+      content: 03c. Subnetting
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03c-subnetting.html
 ---

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Stacks, grids, scrollviews
-description: 🕊️SwiftUI by Example > Stacks, grids, scrollviews
+description: SwiftUI by Example > Stacks, grids, scrollviews
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Stacks, grids, scrollviews
+      content: SwiftUI by Example > Stacks, grids, scrollviews
     - property: og:description
       content: Stacks, grids, scrollviews
     - property: og:url

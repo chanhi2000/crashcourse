@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 열거형(enum)과 어노테이션
-description: ☕️Effective Java > 열거형(enum)과 어노테이션
+description: Effective Java > 열거형(enum)과 어노테이션
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
   - property: og:title
-    content: ☕️Effective Java > 열거형(enum)과 어노테이션
+    content: Effective Java > 열거형(enum)과 어노테이션
   - property: og:description
     content: 열거형(enum)과 어노테이션
   - property: og:url

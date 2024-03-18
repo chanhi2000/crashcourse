@@ -9,7 +9,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Text Processing with GNU awk',
       collapsible: true,
-      icon: 'iconfont icon-shll',
+      icon: 'iconfont icon-shell',
       children: [
         '/cli/text-processing-w-gnu-awk/README.md',
         '/cli/text-processing-w-gnu-awk/01-installation-and-documentation.md',
@@ -59,7 +59,7 @@ export const sidebarEn = sidebar({
       icon: 'fas fa-dove',
       children: [ '/swift/README.md' ]
     }, {
-      text: '🕊️100 Days of Swift',
+      text: '100 Days of Swift',
       collapsible: true,
       icon: 'fas fa-dove',
       children: [
@@ -315,8 +315,9 @@ export const sidebarEn = sidebar({
         '/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.md',
       ]
     }, {
-      text: '🏛OSX 구조를 이해하면서 배우는 Objective-C',
+      text: 'OSX 구조를 이해하면서 배우는 Objective-C',
       collapsible: true,
+      icon: 'fas fa-landmark',
       children: [
         '/swift/shuokai-objc/README.md',
         '/swift/shuokai-objc/01.md',
@@ -360,8 +361,8 @@ export const sidebarEn = sidebar({
       ]
     }, {
       text: 'Effective Java',
-      icon: 'fa-brands fa-java',
       collapsible: true,
+      icon: 'fa-brands fa-java',
       children: [
         '/java/effective-java/README.md',
         '/java/effective-java/01-creating-and-destroying-objects.md',
@@ -377,8 +378,9 @@ export const sidebarEn = sidebar({
         '/java/effective-java/11-serialization.md'
       ]
     }, {
-      text: '🅺Kodeco - Android & Kotlin',
+      text: 'Kodeco - Android & Kotlin',
       collapsible: true,
+      icon: 'fa-brands fa-android',
       children: [
         '/java/kodeco/README.md',
         '/java/kodeco/247-react-native-tutorial-building-android-apps-with-javascript.md',
@@ -395,7 +397,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Jump to Spring Boot',
       collapsible: true,
-      icon: 'fas fa-leaf',
+      icon: 'fa-brands fa-envira',
       children: [
         '/java/jump-to-spring-boot/README.md',
         '/java/jump-to-spring-boot/01.md',
@@ -448,8 +450,9 @@ export const sidebarEn = sidebar({
         '/java/jump-to-spring-boot/a.md',
       ]
     }, {
-      text: '💠Java Web App with Quarkus and JPAStreamer',
+      text: 'Java Web App with Quarkus and JPAStreamer',
       collapsible: true,
+      icon: 'fa-brands fa-java',
       children: [
         '/java/freecodecamp-quarkus-jpastreamer/README.md',
         '/java/freecodecamp-quarkus-jpastreamer/01.md',
@@ -675,11 +678,13 @@ export const sidebarEn = sidebar({
     }
   ], '/ruby/': [
     {
-      text: '🔻Ruby',
+      text: 'Ruby',
+      icon: 'fas fa-gem',
       children: [ '/ruby/README.md' ]
     }, {
-      text: '🔻Jets - Learning Content',
+      text: 'Jets - Learning Content',
       collapsible: true,
+      icon: 'fas fa-gem',
       children: [
         '/ruby/rubyonjets-learning-content/README.md',
         '/ruby/rubyonjets-learning-content/20190204-aws-lambda-function-jets-introductory-series-part-1.md',
@@ -891,8 +896,9 @@ export const sidebarEn = sidebar({
         '/misc/colt-steele-mastering-css-grid/07-building-an-example-layout',
       ]
     }, {
-      text: '🦙Microsoft - Generative AI for Beginners',
+      text: 'Microsoft - Generative AI for Beginners',
       collapsible: true,
+      icon: 'fas fa-brain',
       children: [
         '/misc/llm-generative-ai-for-beginners/README.md',
         '/misc/llm-generative-ai-for-beginners/00-course-setup.md',
@@ -902,6 +908,7 @@ export const sidebarEn = sidebar({
     }, {
       text: "DB Server 성능 향상 분석 및 튜닝 전문가 향상과정",
       collapsible: true,
+      icon: 'fas fa-database',
       children: [
         '/misc/oracle-sql-db-tuning/README.md',
         '/misc/oracle-sql-db-tuning/01a.md',

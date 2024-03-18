@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: AWS Lambda Function - Jets Introduction Series Part 1
-description: 🔻Jets - Learning Content > AWS Lambda Function - Jets Introduction Series Part 1
+description: Jets - Learning Content > AWS Lambda Function - Jets Introduction Series Part 1
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > AWS Lambda Function - Jets Introduction Series Part 1
+      content: Jets - Learning Content > AWS Lambda Function - Jets Introduction Series Part 1
     - property: og:description
       content: AWS Lambda Function - Jets Introduction Series Part 1
     - property: og:url

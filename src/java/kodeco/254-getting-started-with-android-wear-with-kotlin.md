@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Getting Started with Android Wear with Kotlin
-description: 🅺Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
+description: Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco

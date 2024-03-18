@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 16. Lifetime
-description: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
+description: freecodecamp.org - Rust by Practice > 16. Lifetime
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 16. Lifetime
+      content: freecodecamp.org - Rust by Practice > 16. Lifetime
     - property: og:description
       content: 16. Lifetime
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

@@ -42,6 +42,7 @@ export const navbarEn = navbar([
       }, {
         text: 'OSX 구조를 이해하면서 배우는 Objective-C',
         link: '/swift/shuokai-objc/README.md',
+        icon: 'fas fa-landmark'
       }
     ],
   }, {
@@ -57,14 +58,15 @@ export const navbarEn = navbar([
         link: '/java/effective-java/README.md',
         icon: 'fa-brands fa-java'
       }, {
-        text: '🅺Kodeco - Android & Kotlin',
-        link: '/java/kodeco/README.md'
+        text: 'Kodeco - Android & Kotlin',
+        link: '/java/kodeco/README.md',
+        icon: 'fa-brands fa-android'
       }, {
         text: 'Jump to Spring Boot',
         link: '/java/jump-to-spring-boot/README.md',
-        icon: 'fas fa-leaf'
+        icon: 'fa-brands fa-envira'
       }, {
-        text: '☕️Java Web App with Quarkus and JPAStreamer',
+        text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
         icon: 'fa-brands fa-java'
       }
@@ -128,11 +130,13 @@ export const navbarEn = navbar([
       }
     ]
   }, {
-    text: '🔻',
+    text: '',
+    icon: 'fas fa-gem',
     children: [
       {
-        text: '🔻Jets - Learning Content',
+        text: 'Jets - Learning Content',
         link: '/ruby/rubyonjets-learning-content/README.md',
+        icon: 'fas fa-gem',
       },
     ]
   }, {
@@ -183,11 +187,13 @@ export const navbarEn = navbar([
         link: '/misc/colt-steele-mastering-css-grid/README.md',
         icon: 'fa-brands fa-css3-alt'
       }, {
-        text: '🦙Microsoft - Generative AI for Beginners',
+        text: 'Microsoft - Generative AI for Beginners',
         link: '/misc/llm-generative-ai-for-beginners/README.md',
+        icon: 'fas fa-brain'
       }, {
         text: "DB Server 성능 향상 분석 및 튜닝 전문가 향상과정",
         link: '/misc/oracle-sql-db-tuning/README.md',
+        icon: 'fas fa-database'
       }
     ]
   }

@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐧Linux Journey 
-description: 🐧Linux Journey 
+title: Linux Journey 
+description: Linux Journey 
+icon: fa-brands fa-linux
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,11 +13,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey 
+      content: Linux Journey 
     - property: og:description
-      content: 🐧Linux Journey 
+      content: Linux Journey 
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey.html
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -30,7 +31,7 @@ head:
 ```component VPCard
 {
   "title": "Linux Journey",
-  "desc": "🐧Linux Journey",
+  "desc": "Linux Journey",
   "link": "https://linuxjourney.com",
   "logo": "https://linuxjourney.com/assets/jumbotron-60c93c2fc6bb16079b70fe2eccacaa05f2d6b002af4ff0667ddd8e283cbf81fd.png",
   "background": "rgba(24,188,156,0.2)"

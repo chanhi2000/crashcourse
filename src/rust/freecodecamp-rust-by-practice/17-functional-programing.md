@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 17. Functional programing
-description: 🦀freecodecamp.org - Rust by Practice > 17. Functional programing
+description: freecodecamp.org - Rust by Practice > 17. Functional programing
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 17. Functional programing
+      content: freecodecamp.org - Rust by Practice > 17. Functional programing
     - property: og:description
       content: 17. Functional programing
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Processes
-description: 🐧Linux Journey > GrassHopper > Processes
+title: GrassHopper > 01g. Processes
+description: Linux Journey > GrassHopper > 01g. Processes
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Processes
+      content: Linux Journey > GrassHopper > 01g. Processes
     - property: og:description
-      content: Processes
+      content: 01g. Processes
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01g-processes.html
 ---

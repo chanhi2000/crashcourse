@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 05. The Implicit Grid
-description: 🎨Colt Steele - Mastering CSS Grid > 05. The Implicit Grid
+description: Colt Steele - Mastering CSS Grid > 05. The Implicit Grid
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🎨Colt Steele - Mastering CSS Grid > 05. The Implicit Grid
+      content: Colt Steele - Mastering CSS Grid > 05. The Implicit Grid
     - property: og:description
       content: 05. The Implicit Grid
     - property: og:url

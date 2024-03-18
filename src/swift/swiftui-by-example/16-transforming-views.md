@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Transforming views
-description: 🕊️SwiftUI by Example > Transforming views
+description: SwiftUI by Example > Transforming views
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Transforming views
+      content: SwiftUI by Example > Transforming views
     - property: og:description
       content: Transforming views
     - property: og:url

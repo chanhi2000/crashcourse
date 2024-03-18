@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 02. Exploring and comparing different LLMs
-description: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
+description: Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
 category:
-  - 🦙LLM
+  - LLM
 tag: 
   - crashcourse
   - microsoft
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦙Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
+      content: Microsoft - Generative AI for Beginners > 02. Exploring and comparing different LLMs
     - property: og:description
       content: 02. Exploring and comparing different LLMs
     - property: og:url

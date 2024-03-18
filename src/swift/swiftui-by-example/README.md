@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🕊️SwiftUI by Example
-description: 🕊️SwiftUI by Example
+title: SwiftUI by Example
+description: SwiftUI by Example
+icon: fas fa-dove
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,11 +16,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example
+      content: SwiftUI by Example
     - property: og:description
-      content: 🕊️SwiftUI by Example
+      content: SwiftUI by Example
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example.html
+      content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -33,7 +34,7 @@ head:
 ```component VPCard
 {
   "title": "HACKING WITH SWIFT",
-  "desc": "🕊️SwiftUI by Example",
+  "desc": "SwiftUI by Example",
   "link": "https://www.hackingwithswift.com/quick-start/swiftui",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(174,10,10,0.2)"

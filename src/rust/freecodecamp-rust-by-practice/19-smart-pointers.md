@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 19. Smart pointers
-description: 🦀freecodecamp.org - Rust by Practice > 19. Smart pointers
+description: freecodecamp.org - Rust by Practice > 19. Smart pointers
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 19. Smart pointers
+      content: freecodecamp.org - Rust by Practice > 19. Smart pointers
     - property: og:description
       content: 19. Smart pointers
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

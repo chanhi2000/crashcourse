@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐍OpenCV – Python 고급 기법 프로그래밍
-description: 🐍OpenCV – Python 고급 기법 프로그래밍
+title: OpenCV – Python 고급 기법 프로그래밍
+description: OpenCV – Python 고급 기법 프로그래밍
+icon: fa-brands fa-python
 category:
-  - 🐍Python
+  - Python
 tag: 
   - crashcourse
   - python
@@ -12,11 +13,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐍OpenCV – Python 고급 기법 프로그래밍
+      content: OpenCV – Python 고급 기법 프로그래밍
     - property: og:description
-      content: 🐍OpenCV – Python 고급 기법 프로그래밍
+      content: OpenCV – Python 고급 기법 프로그래밍
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/python/oepncv-advanced.html
+      content: https://chanhi2000.github.io/crashcourse/python/oepncv-advanced/
 ---
 
 # {{ $frontmatter.title }} 관련

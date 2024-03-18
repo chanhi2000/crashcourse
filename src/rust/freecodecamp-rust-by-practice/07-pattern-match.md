@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 7. Pattern Match
-description: 🦀freecodecamp.org - Rust by Practice > 7. Pattern Match
+description: freecodecamp.org - Rust by Practice > 7. Pattern Match
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 7. Pattern Match
+      content: freecodecamp.org - Rust by Practice > 7. Pattern Match
     - property: og:description
       content: 7. Pattern Match
     - property: og:url

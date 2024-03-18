@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 일반적인 프로그래밍 원칙들
-description: ☕️Effective Java > 일반적인 프로그래밍 원칙들
+description: Effective Java > 일반적인 프로그래밍 원칙들
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 일반적인 프로그래밍 원칙들
+      content: Effective Java > 일반적인 프로그래밍 원칙들
     - property: og:description
       content: 일반적인 프로그래밍 원칙들
     - property: og:url

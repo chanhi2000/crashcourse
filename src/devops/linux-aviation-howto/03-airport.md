@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Airport
-description: 🐧Linux Aviation HOWTO > Airport
+title: 3. Airport
+description: Linux Aviation HOWTO > 3. Airport
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Airport
+      content: Linux Aviation HOWTO > 3. Airport
     - property: og:description
-      content: Airport
+      content: 3. Airport
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/03-airport.html
 ---

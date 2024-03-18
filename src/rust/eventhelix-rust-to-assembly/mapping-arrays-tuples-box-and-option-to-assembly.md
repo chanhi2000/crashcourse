@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Mapping Arrays, Tuples, Box and Option to assembly
-description: 🦀Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
+description: Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - digitalocean
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
+      content: Rust to Assembly > Mapping Arrays, Tuples, Box and Option to assembly
     - property: og:description
       content: Mapping Arrays, Tuples, Box and Option to assembly
     - property: og:url

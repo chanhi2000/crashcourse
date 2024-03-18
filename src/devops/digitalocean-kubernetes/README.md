@@ -13,11 +13,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☸DigitalOcean - Kubernetes
+      content: DigitalOcean - Kubernetes
     - property: og:description
-      content: ☸DigitalOcean - Kubernetes
+      content: DigitalOcean - Kubernetes
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes.html
+      content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/
 ---
 
 # {{ $frontmatter.title }} 관련

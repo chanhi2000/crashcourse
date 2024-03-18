@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🔺Containerize Your Application With Buildah And Podman
-description: 🔺Containerize Your Application With Buildah And Podman
+title: Containerize Your Application With Buildah And Podman
+description: Containerize Your Application With Buildah And Podman
+icon: fa-brands fa-redhat
 category:
-  - 🔺RedHat
+  - RedHat
 tag: 
   - crashcourse
   - redhat
@@ -15,11 +16,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔺Containerize Your Application With Buildah And Podman
+      content: Containerize Your Application With Buildah And Podman
     - property: og:description
-      content: 🔺Containerize Your Application With Buildah And Podman
+      content: Containerize Your Application With Buildah And Podman
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-containerize-your-application-w-buildah-and-podman.html
+      content: https://chanhi2000.github.io/crashcourse/devops/red-hat-containerize-your-application-w-buildah-and-podman/
 ---
 
 # {{ $frontmatter.title }} 관련

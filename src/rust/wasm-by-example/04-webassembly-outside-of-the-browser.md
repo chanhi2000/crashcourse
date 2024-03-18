@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 04. WebAssembly Outside of the Browser
-description: 🦀Wasm by Example (for Rust) > 04. WebAssembly Outside of the Browser
+description: Wasm by Example (for Rust) > 04. WebAssembly Outside of the Browser
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦀Wasm by Example (for Rust) >  04. WebAssembly Outside of the Browser
+      content: Wasm by Example (for Rust) >  04. WebAssembly Outside of the Browser
     - property: og:description
       content: 04. WebAssembly Outside of the Browser
     - property: og:url

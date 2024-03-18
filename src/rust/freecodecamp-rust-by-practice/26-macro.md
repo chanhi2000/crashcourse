@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 26. Macro
-description: 🦀freecodecamp.org - Rust by Practice > 26. Macro
+description: freecodecamp.org - Rust by Practice > 26. Macro
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 26. Macro
+      content: freecodecamp.org - Rust by Practice > 26. Macro
     - property: og:description
       content: 26. Macro
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

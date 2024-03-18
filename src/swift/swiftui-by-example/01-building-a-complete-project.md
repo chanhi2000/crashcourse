@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Building a complete project
-description: 🕊️SwiftUI by Example > Building a complete project
+description: SwiftUI by Example > Building a complete project
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Building a complete project
+      content: SwiftUI by Example > Building a complete project
     - property: og:description
       content: Building a complete project
     - property: og:url
@@ -64,8 +64,8 @@ There are quite a few assets provided for this project that you need to copy in 
 
 Please copy them into your project like this:
 
-- Drag Helper.swift into your project navigator. This contains a helper extension that makes it easier to decode `Codable` data from a bundle. This is not related to SwiftUI, so we won’t be covering it here.
-- You should also drag Order.swift and Menu.swift into the project navigator. These are custom types that store the data we’re using in the app.
+- Drag <FontIcon icon="fas fa-dove"/>`Helper.swift` into your project navigator. This contains a helper extension that makes it easier to decode `Codable` data from a bundle. This is not related to SwiftUI, so we won’t be covering it here.
+- You should also drag <FontIcon icon="fas fa-dove"/>`Order.swift` and <FontIcon icon="fas fa-dove"/>`Menu.swift` into the project navigator. These are custom types that store the data we’re using in the app.
 - And drag menu.json into your project navigator too – this describes all the menu items our restaurant offers, and will be decoded into instances of `MenuSection` and `MenuItem`.
 - Drag the contents of the Images directory into your asset catalog, so we have all the pictures we need.
 
@@ -122,7 +122,7 @@ That isn’t much code, but it already tells us a lot:
 
 You should also see a preview pane on the right of Xcode. This updates as you type, which makes it a great way to see your changes as you work. If you don’t see the preview pane on the right, go to the Editor menu and choose Canvas.
 
-In the event that Xcode’s preview area stops – which will happen quite often – you can press Opt-Cmd-P to make it resume showing your layouts.
+In the event that Xcode’s preview area stops – which will happen quite often – you can press <kbd>Opt</kbd>+<kbd>Cmd</kbd>+_<kbd>P</kbd> to make it resume showing your layouts.
 
 __This is really important so I’m repeating it: pressing <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>P</kbd> will make your SwiftUI preview update.__
 
@@ -183,7 +183,7 @@ If you try running the app now you’ll see that it all works exactly as we woul
 
 Static text works fine when you have fixed table cells, but in our case we have lots of menu items to load across a number of sections – breakfast, mains, dessert, and drinks. What we _really_ want to do is load our menu data from JSON, then use _that_ for our list items, and that’s actually not too hard to accomplish.
 
-First we need to load our data. The Helper.swift file you already imported contains code for loading `Codable` JSON from the app bundle, which is perfect for loading our <FontIcon icon="iconfont icon-json"/>`menu.json` file. So, add this property to the `ContentView` struct now:
+First we need to load our data. The <FontIcon icon="fas fa-dove"/>`Helper.swift` file you already imported contains code for loading `Codable` JSON from the app bundle, which is perfect for loading our <FontIcon icon="iconfont icon-json"/>`menu.json` file. So, add this property to the `ContentView` struct now:
 
 ```swift
 let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
@@ -211,7 +211,7 @@ ForEach(menu) { section in
 
 That _almost_ works, but there’s one last thing we need to do. SwiftUI needs to know how to identify every cell in our table – it needs to know exactly which is which, so it can add and remove things for us if we ask. When we had a static list this wasn’t a problem because it could see there were three, but now we have a dynamic list we need to tell it something about each section that makes it unique.
 
-If you open Menu.swift you’ll see structs that define `MenuSection` and `MenuItem`, and both of them have `id` properties that contain a `UUID` – a universally unique identifier. This is perfect for our use, because every menu item in every section has a unique identifier so SwiftUI can know which is which.
+If you open <FontIcon icon="fas fa-dove"/>`Menu.swift` you’ll see structs that define `MenuSection` and `MenuItem`, and both of them have `id` properties that contain a `UUID` – a universally unique identifier. This is perfect for our use, because every menu item in every section has a unique identifier so SwiftUI can know which is which.
 
 We can tell SwiftUI to use those identifiers by making the two types conform to `Identifiable`. This protocol has only one requirement, which is that conforming types must have a property called `id` that can identify them uniquely. We already have that, so just adding `Identifiable` to those two types is enough:
 
@@ -369,7 +369,7 @@ First, though, an important lesson: SwiftUI is designed to be _composable_, whic
 
 A better idea is to make a new view type that we can embed _inside_ `ContentView`, and SwiftUI is designed to make this both easy (it takes only 30 seconds to learn) and extremely fast (it has almost zero performance impact).
 
-So, press Cmd+N to create a new file, choose SwiftUI View under the User Interface category, then call it “ItemRow”. You’ll see Xcode has generated a new view with some sample code to get us started:
+So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to create a new file, choose SwiftUI View under the User Interface category, then call it “ItemRow”. You’ll see Xcode has generated a new view with some sample code to get us started:
 
 ```swift
 struct ItemRow: View {
@@ -391,7 +391,7 @@ struct ItemRow : View {
 }
 ```
 
-Now we can go back to ContentView.swift and replace `Text(item.name)` with this:
+Now we can go back to <FontIcon icon="fas fa-dove"/>`ContentView.swift` and replace `Text(item.name)` with this:
 
 ```swift
 ItemRow(item: item)
@@ -421,7 +421,7 @@ struct ItemRow_Previews: PreviewProvider {
 }
 ```
 
-Once that’s done our code will build again, and if you return back to ContentView.swift you should see the same preview we had before – nothing has changed. Of course, now we can start to add new things to that `ItemRow` struct to make it more interesting!
+Once that’s done our code will build again, and if you return back to <FontIcon icon="fas fa-dove"/>`ContentView.swift` you should see the same preview we had before – nothing has changed. Of course, now we can start to add new things to that `ItemRow` struct to make it more interesting!
 
 In `ItemRow`, we’re going to start by placing the item’s thumbnail image and name side by side, like you’d normally see in a `UITableViewCell`. Try writing this:
 
@@ -657,6 +657,8 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
 
 :::
 
+---
+
 ## Displaying a detail screen with `NavigationLink`
 
 ::: details Displaying a detail screen with NavigationLink
@@ -666,6 +668,224 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
   "title": "SwiftUI by Example > Displaying a detail screen with NavigationLink",
   "desc": "Displaying a detail screen with NavigationLink",
   "link": "https://hackingwithswift.com/quick-start/swiftui/displaying-a-detail-screen-with-navigationlink",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+> Updated for Xcode 15
+
+<VidStack src="youtube/yGqmf8hnC8U" />
+
+When a menu item is tapped, we want to bring in a detail view that shows more information. We already placed `ContentView` inside a navigation stack, so now we can use a new view type called `NavigationLink`. We need to give this a _destination_ – what kind of thing it should show – as well as what to show on-screen for the link.
+
+In practice, this looks like all the other containers we’ve used so far, so let’s try it out with a neat shortcut: although we’re going to be showing a detail view in just a minute, we can use a regular text view as a placeholder.
+
+So, put this directly around the `ItemRow` code in <FontIcon icon="fas fa-dove"/>`ContentView.swift`:
+
+```swift
+NavigationLink {
+    Text(item.name)
+} label: {
+    // existing contents…
+}
+```
+
+That means the whole row is a navigation link with a destination of the item’s name.
+
+If you run the app now you’ll see two important differences:
+
+1. All our rows now have a gray disclosure indicator on their right edge, because SwiftUI gives us the correct behavior by default.
+2. When you tap on any item a new screen will slide in saying the name of whatever item you chose.
+Being able to present text views like this is a great timesaver while building up user interfaces!
+
+Of course, we want _more_ – we want a nice big picture, some details about the food, and more. So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to make another new SwiftUI view, this time called <FontIcon icon="fas fa-dove"/>`ItemDetail.swift`.
+
+As with `ItemRow`, this needs to have a menu item passed in and stored as a property, so add this to `ItemDetail` now:
+
+```swift
+let item: MenuItem
+```
+
+We also need to update its preview code to use our example item, so we can see what we’re doing:
+
+```swift
+static var previews: some View {
+    ItemDetail(item: MenuItem.example)
+}
+```
+
+As with our list rows, we’re going to start off simple and iterate until we get something that works well.
+
+First, a simple version of our `ItemDetail` view that has an item’s image and description, plus a title at the top:
+
+```swift
+struct ItemDetail : View {
+    let item: MenuItem
+
+    var body: some View {
+        VStack {
+            Image(item.mainImage)
+            Text(item.description)
+        }
+        .navigationTitle(item.name)
+    }
+}
+```
+
+So that you can start seeing things in action immediately, let’s update our `NavigationLink` in <FontIcon icon="fas fa-dove"/>`ContentView.swift` so that it shows an `ItemDetail` view with the selected item. There are two ways of doing this, with the simplest one just being to place the `ItemDetail` code right where we had `Text(item.name)`, like this:
+
+```swift
+NavigationLink {
+    ItemDetail(item: item)
+} label: {
+```
+
+That works, but behind the scenes it causes SwiftUI to do more work than you might think – every time it creates a row in our `List` it will also create the `NavigationLink`, and as part of that it will _also_ create the `ItemDetail` for every visible row.
+
+That’s far from ideal, so SwiftUI gives us a faster, simpler alternative: we can attach any `Hashable` object directly to the `NavigationLink` as its value, then use a `navigationDestination()` modifier to tell SwiftUI “when you’re asked to navigate to a `MenuItem`, load an `ItemDetail` view with that value.
+
+This takes two steps. First, we need to change the `NavigationLink` code to this:
+
+```swift
+NavigationLink(value: item) {
+    ItemRow(item: item)
+}
+```
+
+And now we meed to add this modifier to the `List` – before `navigationTitle()` is fine, but it doesn’t really matter:
+
+```swift
+.navigationDestination(for: MenuItem.self) { item in
+    ItemDetail(item: item)
+}
+```
+
+Now you can run the code as we progress, seeing the detail screen in action.
+
+You won’t see the title at the top because the preview doesn’t know it’s in a navigation stack. To fix that, we can just change the preview like so:
+
+```swift
+struct ItemDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            ItemDetail(item: MenuItem.example)
+        }
+    }
+}
+```
+
+That doesn’t actually change what our code does at runtime – it’s just the preview that has changed.
+
+You can see that our detail view has some layout issues, so let’s correct them.
+
+First, that navigation bar title shouldn’t be big, because Apple recommends using that style only for top-level screens in a user interface. We can fix that by adding another modifier below `navigationTitle()`, like this:
+
+```swift
+.navigationBarTitleDisplayMode(.inline)
+```
+
+Second, while having the image very wide looks fine, having the description text go edge to edge is less good. We can fix that by adding a `padding()` modifier like this:
+
+```swift
+Text(item.description)
+    .padding()
+```
+
+The `padding()` modifier lets us specify the sides where we want padding and also how much to use, but without any parameters it will apply padding to all edges. How _much_ it will apply depends on the context – what device is being used, etc – but it generally looks good.
+
+Third, it looks strange having our content vertically centered, because our eyes are used to information being aligned to the top. To fix _that_ we can use another `Spacer()`, directly after the item description:
+
+```swift
+Image(item.mainImage)
+Text(item.description)
+    .padding()
+Spacer()
+```
+
+![Our detail screen shows a large picture of Maple French toast at the top, plus description text below.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/2-9~dark.png)
+
+This is starting to look good, but we also need to find a way to show the name of the person who took the photo of our food. We could put that below the picture or inside an alert, but a better idea is to put _over_ the image, in the bottom-right corner.
+
+You’ve already met horizontal and vertical stacks (`HStack` and `VStack`), but SwiftUI gives us a third option called `ZStack` to handle overlapping views. To use one here, replace our existing image with this:
+
+```swift
+ZStack {
+    Image(item.mainImage)
+    Text("Photo: \(item.photoCredit)")
+}
+```
+
+That creates the image then layers some text on top. Chances are you’ll struggle to see that text, so let’s apply some modifiers to make it clearer:
+
+```swift
+Text("Photo: \(item.photoCredit)")
+    .padding(4)
+    .background(.black)
+    .font(.caption)
+    .foregroundStyle(.white)
+```
+
+Tip: If you swap the order of the `padding()` and `background()` modifiers the result is different. The order matters!
+
+It’s more visible now, but that just means we can see it doesn’t look great – it shouldn’t really be right over our food!
+
+To fix that we can add some alignment to our `ZStack` so that the label is in the bottom-right corner:
+
+```swift
+ZStack(alignment: .bottomTrailing) {
+```
+
+We can even apply some custom offsets to the text, pulling it up and left just a little from the edge:
+
+```swift
+Text("Photo: \(item.photoCredit)")
+    .padding(4)
+    .background(.black)
+    .font(.caption)
+    .foregroundStyle(.white)
+    .offset(x: -5, y: -5)
+```
+
+Nice!
+
+![Xcode showing our detail screen preview, which now has a photographer credit overlaid on top of the image.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/2-10~dark.png)
+
+There is one other layout issue, but you might not have noticed it yet depending on your Xcode configuration: some parts of our user interface hang off the screen!
+
+I’ve been using the iPhone 14 Pro Max device for my canvas so far, which works great because it has a huge screen. However, if I change to a small device – e.g. the iPhone SE (go to Product > Destination > iPhone SE (3rd Generation)) – that has a much smaller screen, and now you should see the photo credit area is now running off the right edge of the screen.
+
+This is happening because SwiftUI displays images at their natural size by default, meaning that they take up the same amount of width and height on screen as they have in pixels. Our main image is too big for the iPhone SE screen, and so rather than squishing it SwiftUI just lets it overflow outside of the screen – the image hangs out, and in doing so allows everything else to grow too.
+
+To fix this we need to add two new modifiers to our image: one to make the image resizable, and one to make it scale itself to fit the available space.
+
+So, modify your image to this:
+
+```swift
+Image(item.mainImage)
+    .resizable()
+    .scaledToFit()
+```
+
+With that small change, our image will run edge to edge on all iPhone screen sizes, which is much better. As well as `scaledToFit()`, there is also a `scaledToFill()` modifier – the former will ensure the whole image is visible, even if that means leaving a little space empty, whereas the latter will never leave any space empty even if that means clipping some of the picture. Both will automatically retain the natural aspect ratio of the image they are applied to.
+
+### Further reading
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to layer views on top of each other using ZStack",
+  "desc": "How to layer views on top of each other using ZStack",
+  "link": "05-stacks-grids-scrollviews.md#how-to-layer-views-on-top-of-each-other-using-zstack",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust the position of a view using its offset",
+  "desc": "How to adjust the position of a view using its offset",
+  "link": "16-transforming-views.md#how-to-adjust-the-position-of-a-view-using-its-offset",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -682,6 +902,91 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
   "title": "SwiftUI by Example > Observable objects, environment objects, and @Published",
   "desc": "Observable objects, environment objects, and @Published",
   "link": "https://hackingwithswift.com/quick-start/swiftui/observable-objects-environment-objects-and-published",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+> Updated for Xcode 15
+
+<VidStack src="youtube/lxaEAHNmhY4" />
+
+We want to let folks place an order for pick up by selecting items and adding them to a cart. I already gave you a dedicated `Order` class that holds an array of items, so we’re going to add items to that then show them in a dedicated order view.
+
+But there’s a catch: if we’re adding things inside `ItemDetail`, how can we show them in an entirely separate `OrderView`? More importantly, how can we make sure both of these two update each other as things change?
+
+Well, SwiftUI has a quite brilliant solution called _environment objects_. These are objects that our views can use freely, but don’t create or manage – they get created elsewhere, and carry on existing after the view has gone away.
+
+In this app, we’re going to create an instance of our order when the app launches, then pass it into our content view. Any view that is inside that content view – anything that can call the content view its ancestor – will automatically gain access to that environment object. Even better, when any view changes it, all other places automatically update.
+
+Let’s try it out now. Open your <FontIcon icon="fas fa-dove"/>`iDineApp.swift`, which is where our initial instance of `ContentView` is created. Now give it this property:
+
+```swift
+@StateObject var order = Order()
+```
+
+__Tip__: Xcode will shown an error when you add that line, which is okay – we’ll fix it in a moment.
+
+That creates a new order when the app starts, and keeps it alive regardless of what view we show. The `@StateObject` property wrapper is responsible for keeping the object alive throughout the life of our app.
+
+Now we can pass that into our `ContentView` struct when it gets created – look for this:
+
+```swift
+WindowGroup {
+    ContentView()
+}
+```
+
+And replace it with this:
+
+```swift
+WindowGroup {
+    ContentView()
+        .environmentObject(order)
+}
+```
+
+Now, I said that Xcode would throw up an error when we used the `@StateObject` property – something along the lines of “Argument type 'Order' does not conform to expected type ‘ObservableObject’”.
+
+What it means is that SwiftUI doesn’t understand how its user interface is supposed to watch our `Order` class for changes – it doesn’t understand how it should send and receive notifications that the data changed.
+
+Think about it: if we select some food from the menu and add it to our order, we want that to appear immediately on the order page – we don’t want to have hit refresh, or wait a few seconds, we want it _immediately_. And for that to work, SwiftUI needs a standard way for objects like `Order` to say “hey, if anyone is watching me, you should know my data just changed.”
+
+This standard already exists, and it’s the `ObservableObject` protocol. Anything that conforms to `ObservableObject` can be used inside SwiftUI, and publish announcements when its values have changed so the user interface can be updated.
+
+Apple provides a couple of different ways of publishing change announcements, but the easiest is to use the `@Published` property wrapper before any properties that should trigger change notifications. In this case, just placing `@Published` before a property is enough to have it update any SwiftUI views that are watching for changes – it’s really powerful!
+
+So, open <FontIcon icon="fas fa-dove"/>`Order.swift` and change the `items` property to this:
+
+```swift
+@Published var items = [MenuItem]()
+```
+
+And that’s it! Now that our class is configured correctly, we can make it conform to `ObservableObject`, like this:
+
+```swift
+class Order: ObservableObject {
+```
+
+…and our code is back to compiling again. In total, we have updated `Order` so it knows how to announce changes to any views that are watching, we have told the `items` array that whenever it changes it should send out such an announcement, we have created an instance of the `Order` object in our main app, and we have placed it into the SwiftUI environment for other views to use – nice!
+
+### Further reading
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
+  "desc": "How to use @EnvironmentObject to share data between views",
+  "link": "09-advanced-state.md#how-to-use-environmentobject-to-share-data-between-views",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
+  "desc": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
+  "link": "09-advanced-state.md#whats-the-difference-between-observedobject-state-and-environmentobject",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }

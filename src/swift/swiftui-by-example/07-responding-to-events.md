@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Responding to events
-description: 🕊️SwiftUI by Example > Responding to events
+description: SwiftUI by Example > Responding to events
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Responding to events
+      content: SwiftUI by Example > Responding to events
     - property: og:description
       content: Responding to events
     - property: og:url

@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 10. Multiple file input
-description: 🐚Text Processing with GNU awk > 10. Multiple file input
+description: Text Processing with GNU awk > 10. Multiple file input
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 10. Multiple file input
+      content: Text Processing with GNU awk > 10. Multiple file input
     - property: og:description
       content: 10. Multiple file input
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/10-multiple-file-input.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/10-multiple-file-input.html
 ---
 
 # {{ $frontmatter.title }} 관련

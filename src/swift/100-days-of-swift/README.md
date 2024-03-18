@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🕊️100 Days of Swift
-description: 🕊️100 Days of Swift
+title: 100 Days of Swift
+description: 100 Days of Swift
+icon: fas fa-dove
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -14,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️100 Days of Swift
+      content: 100 Days of Swift
     - property: og:description
-      content: 🕊️100 Days of Swift
+      content: 100 Days of Swift
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift
 ---
@@ -34,7 +35,7 @@ head:
 ```component VPCard
 {
   "title": "HACKING WITH SWIFT",
-  "desc": "🕊️100 Days of Swift",
+  "desc": "100 Days of Swift",
   "link": "https://www.hackingwithswift.com/100",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(174,10,10,0.2)"

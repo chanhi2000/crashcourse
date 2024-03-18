@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 8. Method & Associated function
-description: 🦀freecodecamp.org - Rust by Practice > 8. Method & Associated function
+description: freecodecamp.org - Rust by Practice > 8. Method & Associated function
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 8. Method & Associated function
+      content: freecodecamp.org - Rust by Practice > 8. Method & Associated function
     - property: og:description
       content: 8. Method & Associated function
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Simulation
-description: 🐧Linux Aviation HOWTO > Simulation
+title: 4. Simulation
+description: Linux Aviation HOWTO > 4. Simulation
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Simulation
+      content: Linux Aviation HOWTO > 4. Simulation
     - property: og:description
-      content: Simulation
+      content: 4. Simulation
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/04-simulation.html
 ---

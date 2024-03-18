@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Packages
-description: 🐧Linux Journey > GrassHopper > Packages
+title: GrassHopper > 01h. Packages
+description: Linux Journey > GrassHopper > 01h. Packages
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Packages
+      content: Linux Journey > GrassHopper > 01h. Packages
     - property: og:description
-      content: 🐧Linux Journey > GrassHopper > Packages
+      content: 01h. Packages
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01h-packages.html
 ---

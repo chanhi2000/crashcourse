@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Taps and gestures
-description: 🕊️SwiftUI by Example > Taps and gestures
+description: SwiftUI by Example > Taps and gestures
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Taps and gestures
+      content: SwiftUI by Example > Taps and gestures
     - property: og:description
       content: Taps and gestures
     - property: og:url

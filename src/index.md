@@ -32,11 +32,11 @@ projects:
     desc: ➕
     link: /cpp/
   - name: Ruby
-    desc: 🔻
     link: /ruby/
+    icon: fas fa-gem
   - name: Haskell
-    desc: 🐑
     link: /haskell/
+    icon: fas fa-lambda
 footerHtml: true
 footer: <i>v__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2023-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 ---

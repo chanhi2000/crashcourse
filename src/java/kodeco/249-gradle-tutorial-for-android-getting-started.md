@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Gradle Tutorial for Android - Getting Started
-description: 🅺Kodeco - Android & Kotlin > Gradle Tutorial for Android - Getting Started
+description: Kodeco - Android & Kotlin > Gradle Tutorial for Android - Getting Started
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > Gradle Tutorial for Android - Getting Started
+      content: Kodeco - Android & Kotlin > Gradle Tutorial for Android - Getting Started
     - property: og:description
       content: Gradle Tutorial for Android - Getting Started
     - property: og:url

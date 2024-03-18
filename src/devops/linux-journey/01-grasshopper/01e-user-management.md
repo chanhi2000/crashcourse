@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > User Management
-description: 🐧Linux Journey > GrassHopper > User Management
+title: GrassHopper > 01e. User Management
+description: Linux Journey > GrassHopper > 01e. User Management
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > User Management
+      content: Linux Journey > GrassHopper > 01e. User Management
     - property: og:description
-      content: User Management
+      content: 01e. User Management
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01e-user-management.html
 ---

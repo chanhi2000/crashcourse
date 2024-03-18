@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 제네릭
-description: ☕️Effective Java > 제네릭
+description: Effective Java > 제네릭
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 제네릭제네릭
+      content: Effective Java > 제네릭제네릭
     - property: og:description
       content: 제네릭
     - property: og:url

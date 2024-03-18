@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: ViewPager Tutorial - Getting Started in Kotlin
-description: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
+description: Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
+      content: Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
     - property: og:description
       content: ViewPager Tutorial - Getting Started in Kotlin
     - property: og:url

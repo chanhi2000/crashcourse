@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Working with static text
-description: 🕊️SwiftUI by Example > Working with static text
+description: SwiftUI by Example > Working with static text
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Working with static text
+      content: SwiftUI by Example > Working with static text
     - property: og:description
       content: Working with static text
     - property: og:url

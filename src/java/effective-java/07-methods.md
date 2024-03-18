@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 메서드
-description: ☕️Effective Java > 메서드
+description: Effective Java > 메서드
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 메서드
+      content: Effective Java > 메서드
     - property: og:description
       content: 메서드
     - property: og:url

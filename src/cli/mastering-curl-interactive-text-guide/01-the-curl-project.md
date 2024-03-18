@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 1. The curl Project
-description: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
+description: Mastering Curl - Interactive Text Guide > 1. The curl Project
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide > 1. The curl Project
+      content: Mastering Curl - Interactive Text Guide > 1. The curl Project
     - property: og:description
       content: 1. The curl Project
     - property: og:url

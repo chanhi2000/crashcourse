@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Advanced Text-Fu
-description: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
+title: GrassHopper > 01d. Advanced Text-Fu
+description: Linux Journey > GrassHopper > 01d. Advanced Text-Fu
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Advanced Text-Fu
+      content: Linux Journey > GrassHopper > 01d. Advanced Text-Fu
     - property: og:description
-      content: Advanced Text-Fu
+      content: 01d. Advanced Text-Fu
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01d-advanced-text-fu.html
 ---

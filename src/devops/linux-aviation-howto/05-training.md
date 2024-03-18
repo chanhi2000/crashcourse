@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: Training
-description: 🐧Linux Aviation HOWTO > Training
+title: 5. Training
+description: Linux Aviation HOWTO > 5. Training
+icon: fa-brands fa-linux
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +13,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Training
+      content: Linux Aviation HOWTO > 5. Training
     - property: og:description
-      content: Training
+      content: 5. Training
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/05-training.html
 ---

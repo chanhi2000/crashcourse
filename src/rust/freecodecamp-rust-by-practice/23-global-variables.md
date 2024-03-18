@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 23. Global variables
-description: 🦀freecodecamp.org - Rust by Practice > 23. Global variables
+description: freecodecamp.org - Rust by Practice > 23. Global variables
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 23. Global variables
+      content: freecodecamp.org - Rust by Practice > 23. Global variables
     - property: og:description
       content: 23. Global variables
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

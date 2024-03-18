@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Alamofire 5 Tutorial for iOS - Getting Started
-description: 🕊️Kodeco - Swift > Alamofire 5 Tutorial for iOS - Getting Started
+description: Kodeco - Swift > Alamofire 5 Tutorial for iOS - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: Alamofire 5 Tutorial for iOS - Getting Started
     - property: og:description
-      content: 🕊️Kodeco - Swift > Alamofire 5 Tutorial for iOS - Getting Started
+      content: Kodeco - Swift > Alamofire 5 Tutorial for iOS - Getting Started
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6587213-alamofire-5-tutorial-for-ios-getting-started.html
 ---

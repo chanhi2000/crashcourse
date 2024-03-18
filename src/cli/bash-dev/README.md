@@ -1,10 +1,11 @@
 ---
 lang: ko-KR
-title: 🐚Bash 쉘스크립트 개발 시작하기
-description: 🐚Bash 쉘스크립트 개발 시작하기
+title: Bash 쉘스크립트 개발 시작하기
+description: Bash 쉘스크립트 개발 시작하기
+icon: iconfont icon-shell
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -14,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Bash 쉘스크립트 개발 시작하기
+      content: Bash 쉘스크립트 개발 시작하기
     - property: og:description
-      content: 🐚Bash 쉘스크립트 개발 시작하기
+      content: Bash 쉘스크립트 개발 시작하기
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/bash-dev.html
 ---
@@ -53,7 +54,7 @@ head:
 
 ```component VPCard
 {
-  "title": "🐚Bash 쉘스크립트 개발 시작하기 > 1. 리눅스 기초",
+  "title": "Bash 쉘스크립트 개발 시작하기 > 1. 리눅스 기초",
   "desc": "1. 리눅스 기초",
   "link": "01.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
@@ -63,7 +64,7 @@ head:
 
 ```component VPCard
 {
-  "title": "🐚Bash 쉘스크립트 개발 시작하기 > 2. 명령어",
+  "title": "Bash 쉘스크립트 개발 시작하기 > 2. 명령어",
   "desc": "2. 명령어",
   "link": "02.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
@@ -73,7 +74,7 @@ head:
 
 ```component VPCard
 {
-  "title": "🐚Bash 쉘스크립트 개발 시작하기 > 3. 쉘스크립트",
+  "title": "Bash 쉘스크립트 개발 시작하기 > 3. 쉘스크립트",
   "desc": "3. 쉘스크립트",
   "link": "03.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
@@ -83,7 +84,7 @@ head:
 
 ```component VPCard
 {
-  "title": "🐚Bash 쉘스크립트 개발 시작하기 > 4. 서비스 운영 스크립트",
+  "title": "Bash 쉘스크립트 개발 시작하기 > 4. 서비스 운영 스크립트",
   "desc": "4. 서비스 운영 스크립트",
   "link": "04.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",

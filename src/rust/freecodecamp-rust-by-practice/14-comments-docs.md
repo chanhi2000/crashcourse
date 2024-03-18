@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 14. Comments and Docs
-description: 🦀freecodecamp.org - Rust by Practice > 14. Comments and Docs
+description: freecodecamp.org - Rust by Practice > 14. Comments and Docs
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 14. Comments and Docs
+      content: freecodecamp.org - Rust by Practice > 14. Comments and Docs
     - property: og:description
       content: 14. Comments and Docs
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

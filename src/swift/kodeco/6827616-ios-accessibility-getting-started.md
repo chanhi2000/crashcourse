@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: iOS Accessibility - Getting Started
-description: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
+description: Kodeco - Swift > iOS Accessibility - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > iOS Accessibility - Getting Started
+      content: Kodeco - Swift > iOS Accessibility - Getting Started
     - property: og:description
       content: iOS Accessibility - Getting Started
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 20. Weak and Circle reference
-description: 🦀freecodecamp.org - Rust by Practice > 20. Weak and Circle reference
+description: freecodecamp.org - Rust by Practice > 20. Weak and Circle reference
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 20. Weak and Circle reference
+      content: freecodecamp.org - Rust by Practice > 20. Weak and Circle reference
     - property: og:description
       content: 20. Weak and Circle reference
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

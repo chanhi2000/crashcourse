@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Page Visibility API
-description: 🧶Must Know JavaScript API > Page Visibility API
+description: Must Know JavaScript API > Page Visibility API
 categroy:
-  - 🧶JavaScript
+  - JavaScript
 tag: 
   - blog
   - js
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Must Know JavaScript API > Page Visibility API
+      content: Must Know JavaScript API > Page Visibility API
     - property: og:description
       content: Page Visibility API
     - property: og:url
@@ -24,6 +24,18 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
+
+```component VPCard
+{
+  "title": "(by Chris1993) Must Know JavaScript API — Page Visibility API",
+  "desc": "Page Visibility API",
+  "link": "https://javascript.plainenglish.io/must-know-javascript-api-page-visibility-api-9f3e10439842",
+  "logo": "https://miro.medium.com/v2/resize:fill:59:59/1*H8epNyccEIEHWl9YYJhO2w.png",
+  "background": "rgb(222,200,50,0.2)"
+}
+```
 
 ---
 

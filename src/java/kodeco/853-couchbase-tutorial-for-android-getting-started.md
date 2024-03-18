@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Couchbase Tutorial for Android - Getting Started
-description: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
+description: Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -19,7 +19,7 @@ head:
     - property: og:title
       content: Couchbase Tutorial for Android - Getting Started
     - property: og:description
-      content: 🅺Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
+      content: Kodeco - Android & Kotlin > Couchbase Tutorial for Android - Getting Started
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/kotlin-android-kodeco/853-couchbase-tutorial-for-android-getting-started.html
 ---

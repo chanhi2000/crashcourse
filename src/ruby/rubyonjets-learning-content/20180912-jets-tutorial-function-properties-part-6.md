@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Function Properties Part 6
-description: 🔻Jets - Learning Content > Function Properties Part 6
+description: Jets - Learning Content > Function Properties Part 6
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Function Properties Part 6
+      content: Jets - Learning Content > Function Properties Part 6
     - property: og:description
       content: Function Properties Part 6
     - property: og:url

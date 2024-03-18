@@ -1,9 +1,18 @@
 ---
 lang: ko-KR
-title: 🐚CLI
-description: 🐚CLI
+title: CLI
+description: CLI
+icon: iconfont icon-shell
 category:
-  - 🐚CLI
+  - CLI
+tag:
+  - crashcourse
+  - cli
+  - sh
+  - shell
+  - gnu
+  - linux
+  - awk
 ---
 
 # {{ $frontmatter.description }} 관련
@@ -18,19 +27,19 @@ category:
 
 ## Table of Contents
 
-::: details 🐚Mastering Curl - Interactive Text Guide
+::: details Mastering Curl - Interactive Text Guide
 
 <ToCLocal basePath="/cli/mastering-curl-interactive-text-guide" />
 
 :::
 
-::: details 🐚Text Processing with GNU awk
+::: details Text Processing with GNU awk
 
 <ToCLocal basePath="/cli/text-processing-w-gnu-awk" />
 
 :::
 
-::: details 🐚Bash 쉘스크립트 개발 시작하기
+::: details Bash 쉘스크립트 개발 시작하기
 
 <ToCLocal basePath="/cli/bash-dev" />
 

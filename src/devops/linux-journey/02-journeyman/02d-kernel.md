@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Kernel
-description: 🐧Linux Journey > Journeyman > Kernel
+title: Journeyman > 02d. Kernel
+description: Linux Journey > Journeyman > 02d. Kernel
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Kernel
+      content: Linux Journey > Journeyman > 02d. Kernel
     - property: og:description
-      content: Kernel
+      content: 02d. Kernel
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02d-kernel.html
 ---

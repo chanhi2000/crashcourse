@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐑Megaparsec tutorial
-description: 🐑Megaparsec tutorial
+title: Megaparsec tutorial
+description: Megaparsec tutorial
+icon: iconfont icon-haskell
 category:
-  - 🐑Haskell
+  - Haskell
 tag: 
   - crashcourse
   - haskell

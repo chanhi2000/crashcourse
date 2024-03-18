@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 2. Command line options
-description: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
+description: Mastering Curl - Interactive Text Guide > 2. Command line options
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide > 2. Command line options
+      content: Mastering Curl - Interactive Text Guide > 2. Command line options
     - property: og:description
       content: 2. Command line options
     - property: og:url

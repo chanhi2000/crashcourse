@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 2. awk Introduction
-description: 🐚Text Processing with GNU awk > 2. awk Introduction
+description: Text Processing with GNU awk > 2. awk Introduction
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head: 
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 2. awk Introduction
+      content: Text Processing with GNU awk > 2. awk Introduction
     - property: og:description
       content: 2. awk Introduction
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/02-awk-introduction.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/02-awk-introduction.html
 ---
 
 # {{ $frontmatter.title }} 관련

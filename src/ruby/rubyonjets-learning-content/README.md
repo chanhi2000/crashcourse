@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🔻Jets - Learning Content
-description: 🔻Jets - Learning Content
+title: Jets - Learning Content
+description: Jets - Learning Content
+icon: fas fa-gem
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content
+      content: Jets - Learning Content
     - property: og:description
-      content: 🔻Jets - Learning Content
+      content: Jets - Learning Content
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/ruby-rubyonjets-learning-content
 ---

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-description: ☸DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
+description: DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
 category:
-  - ☸Kubernetes
+  - Kubernetes
 tag:
   - crashcourse
   - digitalocean
@@ -11,13 +11,13 @@ tag:
   - kubctl
   - serverless
 head:
-- - meta:
-  - property: og:title
-    content: ☸DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-  - property: og:description
-    content: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
-  - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/20221216-how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes.html
+  - - meta:
+    - property: og:title
+      content: DigitalOcean - Kubernetes > How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
+    - property: og:description
+      content: How To Run Serverless Workloads with Knative on DigitalOcean Kubernetes
+    - property: og:url
+      content: https://chanhi2000.github.io/crashcourse/devops/digitalocean-kubernetes/20221216-how-to-run-serverless-workloads-with-knative-on-devops-digitalocean-kubernetes.html
 ---
 
 # {{ $frontmatter.title }} 관련

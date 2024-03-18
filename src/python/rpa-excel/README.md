@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
-description: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+title: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+description: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+icon: fa-brands fa-python
 category:
-  - 🐍Python
+  - Python
 tag: 
   - crashcourse
   - python
@@ -22,11 +23,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+      content: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
     - property: og:description
-      content: 🐍사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
+      content: 사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/python/rpa-excel.html
+      content: https://chanhi2000.github.io/crashcourse/python/rpa-excel/
 ---
 
 # {{ $frontmatter.title }} 관련

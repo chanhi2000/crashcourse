@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Hello World Examples - Jets Introduction Series Part 4
-description: 🔻Jets - Learning Content > Hello World Examples - Jets Introduction Series Part 4
+description: Jets - Learning Content > Hello World Examples - Jets Introduction Series Part 4
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Hello World Examples - Jets Introduction Series Part 4
+      content: Jets - Learning Content > Hello World Examples - Jets Introduction Series Part 4
     - property: og:description
       content: Hello World Examples - Jets Introduction Series Part 4
     - property: og:url

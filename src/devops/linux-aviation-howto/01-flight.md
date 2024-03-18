@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Flight
-description: 🐧Linux Aviation HOWTO > Flight
+title: 1. Flight
+description: Linux Aviation HOWTO > 1. Flight
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Flight
+      content: Linux Aviation HOWTO > 1. Flight
     - property: og:description
-      content: Flight
+      content: 1. Flight
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/01-flight.html
 ---

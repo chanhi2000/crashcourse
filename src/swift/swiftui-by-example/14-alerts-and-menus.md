@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Alerts and menus
-description: 🕊️SwiftUI by Example > Alerts and menus
+description: SwiftUI by Example > Alerts and menus
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Alerts and menus
+      content: SwiftUI by Example > Alerts and menus
     - property: og:description
       content: Alerts and menus
     - property: og:url

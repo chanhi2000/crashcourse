@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 02. Applying the Concepts
-description: 🦀Wasm by Example (for Rust) > 02. Applying the Concepts
+description: Wasm by Example (for Rust) > 02. Applying the Concepts
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦀Wasm by Example (for Rust) > 02. Applying the Concepts
+      content: Wasm by Example (for Rust) > 02. Applying the Concepts
     - property: og:description
       content: 02. Applying the Concepts
     - property: og:url

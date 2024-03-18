@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Troubleshooting
-description: 🐧Linux Journey > Networking Nomad > Troubleshooting
+title: Networking Nomad > 03f. Troubleshooting
+description: Linux Journey > Networking Nomad > 03f. Troubleshooting
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Troubleshooting
+      content: Linux Journey > Networking Nomad > 03f. Troubleshooting
     - property: og:description
-      content: Troubleshooting
+      content: 03f. Troubleshooting
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03f-troubleshooting.html
 ---

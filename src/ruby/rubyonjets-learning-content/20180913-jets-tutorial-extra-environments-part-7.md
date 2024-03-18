@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Extra Environments Part 7
-description: 🔻Jets - Learning Content > Extra Environments Part 7
+description: Jets - Learning Content > Extra Environments Part 7
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Extra Environments Part 7
+      content: Jets - Learning Content > Extra Environments Part 7
     - property: og:description
       content: Extra Environments Part 7
     - property: og:url

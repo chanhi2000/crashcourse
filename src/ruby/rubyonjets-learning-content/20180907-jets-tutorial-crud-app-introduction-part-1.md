@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Intro CRUD App Part 1
-description: 🔻Jets - Learning Content > Intro CRUD App Part 1
+description: Jets - Learning Content > Intro CRUD App Part 1
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Intro CRUD App Part 1
+      content: Jets - Learning Content > Intro CRUD App Part 1
     - property: og:description
       content: Intro CRUD App Part 1
     - property: og:url

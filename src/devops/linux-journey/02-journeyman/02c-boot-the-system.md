@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Boot the System
-description: 🐧Linux Journey > Journeyman > Boot the System
+title: Journeyman > 02c. Boot the System
+description: Linux Journey > Journeyman > 02c. Boot the System
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Boot the System
+      content: Linux Journey > Journeyman > 02c. Boot the System
     - property: og:description
-      content: Boot the System
+      content: 02c. Boot the System
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02c-boot-the-system.html
 ---

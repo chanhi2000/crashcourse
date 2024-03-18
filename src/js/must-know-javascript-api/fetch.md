@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Fetch API
-description: 🧶Must Know JavaScript API > Fetch API
+description: Must Know JavaScript API > Fetch API
 categroy:
-  - 🧶JavaScript
+  - JavaScript
 tag: 
   - blog
   - js
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Must Know JavaScript API > Fetch API
+      content: Must Know JavaScript API > Fetch API
     - property: og:description
       content: Fetch API
     - property: og:url
@@ -26,6 +26,16 @@ head:
 [[toc]]
 
 ---
+
+```component VPCard
+{
+  "title": "(by Chris1993) Must Know JavaScript API — Page Visibility API",
+  "desc": "Page Visibility API",
+  "link": "https://javascript.plainenglish.io/must-know-javascript-api-fetch-api-11846c9a3b07",
+  "logo": "https://miro.medium.com/v2/resize:fill:59:59/1*H8epNyccEIEHWl9YYJhO2w.png",
+  "background": "rgb(222,200,50,0.2)"
+}
+```
 
 ## 🏝 1. What is the Fetch API
 

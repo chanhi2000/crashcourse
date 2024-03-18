@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Rust enum and match representation in assembly
-description: 🦀Rust to Assembly > Rust enum and match representation in assembly
+description: Rust to Assembly > Rust enum and match representation in assembly
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - digitalocean
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀Rust to Assembly > Rust enum and match representation in assembly
+      content: Rust to Assembly > Rust enum and match representation in assembly
     - property: og:description
       content: Rust enum and match representation in assembly
     - property: og:url

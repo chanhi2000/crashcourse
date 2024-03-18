@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🎨Colt Steele - Mastering CSS Grid
-description: 🎨Colt Steele - Mastering CSS Grid
+title: Colt Steele - Mastering CSS Grid
+description: Colt Steele - Mastering CSS Grid
+icon: fa-brands fa-css3-alt
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,11 +13,11 @@ tag:
 head:
 - - meta:
   - property: og:title
-    content: 🎨Colt Steele - Mastering CSS Grid
+    content: Colt Steele - Mastering CSS Grid
   - property: og:description
-    content: 🎨Colt Steele - Mastering CSS Grid
+    content: Colt Steele - Mastering CSS Grid
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/colt-steele-mastering-css-grid
+    content: https://chanhi2000.github.io/crashcourse/colt-steele-mastering-css-grid/
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 객체의 생성과 삭제
-description: ☕️Effective Java > 객체의 생성과 삭제
+description: Effective Java > 객체의 생성과 삭제
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 객체의 생성과 삭제
+      content: Effective Java > 객체의 생성과 삭제
     - property: og:description
       content: 객체의 생성과 삭제
     - property: og:url

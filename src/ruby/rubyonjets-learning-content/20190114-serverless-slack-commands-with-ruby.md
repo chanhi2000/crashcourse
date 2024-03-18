@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Serverless Slack Commands - Fun with AWS Image Recognition
-description: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
+description: Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
+      content: Jets - Learning Content > Serverless Slack Commands - Fun with AWS Image Recognition
     - property: og:description
       content: Serverless Slack Commands - Fun with AWS Image Recognition
     - property: og:url

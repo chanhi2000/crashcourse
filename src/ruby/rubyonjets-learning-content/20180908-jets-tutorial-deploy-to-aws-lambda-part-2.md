@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Deploy to AWS Lambda Part 2
-description: 🔻Jets - Learning Content > Deploy to AWS Lambda Part 2
+description: Jets - Learning Content > Deploy to AWS Lambda Part 2
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Deploy to AWS Lambda Part 2
+      content: Jets - Learning Content > Deploy to AWS Lambda Part 2
     - property: og:description
       content: Deploy to AWS Lambda Part 2
     - property: og:url

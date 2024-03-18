@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🦀Rust
-description: 🦀Rust
+title: Rust
+description: Rust
+icon: fa-brands fa-rust
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -23,19 +24,19 @@ tag:
 
 ## Table of Contents
 
-::: details 🦀freecodecamp.org - Rust by Practice
+::: details freecodecamp.org - Rust by Practice
 
 <ToCLocal basePath="/rust/freecodcamp-rust-by-practice" />
 
 :::
 
-::: details 🦀Wasm by Example
+::: details Wasm by Example
 
 <ToCLocal basePath="/rust/wasm-by-example" />
 
 :::
 
-::: details 🦀Rust to Assembly
+::: details Rust to Assembly
 
 <ToCLocal basePath="/rust/eventhelix-rust-to-assembly" />
 

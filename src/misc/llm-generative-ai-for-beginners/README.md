@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🦙Microsoft - Generative AI for Beginners
-description: 🦙Microsoft - Generative AI for Beginners
+title: Microsoft - Generative AI for Beginners
+description: Microsoft - Generative AI for Beginners
+icon: fas fa-brain
 category:
-  - 🦙LLM
+  - LLM
 tag: 
   - crashcourse
   - microsoft
@@ -14,9 +15,9 @@ tag:
 head:
 - - meta:
   - property: og:title
-    content: 🦙Microsoft - Generative AI for Beginners
+    content: Microsoft - Generative AI for Beginners
   - property: og:description
-    content: 🦙Microsoft - Generative AI for Beginners
+    content: Microsoft - Generative AI for Beginners
   - property: og:url
     content: https://chanhi2000.github.io/crashcourse/llm-generative-ai-for-beginners.html
 ---

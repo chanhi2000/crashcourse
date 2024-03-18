@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 클래스와 인터페이스
-description: ☕️Effective Java > 클래스와 인터페이스
+description: Effective Java > 클래스와 인터페이스
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 클래스와 인터페이스
+      content: Effective Java > 클래스와 인터페이스
     - property: og:description
       content: 클래스와 인터페이스
     - property: og:url

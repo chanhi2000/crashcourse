@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 22. Threads
-description: 🦀freecodecamp.org - Rust by Practice > 22. Threads
+description: freecodecamp.org - Rust by Practice > 22. Threads
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 22. Threads
+      content: freecodecamp.org - Rust by Practice > 22. Threads
     - property: og:description
       content: 22. Threads
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

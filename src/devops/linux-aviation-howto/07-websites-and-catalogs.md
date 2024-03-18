@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Websites and Catalogs
-description: 🐧Linux Aviation HOWTO > Websites and Catalogs
+title: 7. Websites and Catalogs
+description: Linux Aviation HOWTO > 7. Websites and Catalogs
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,9 +12,9 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO > Websites and Catalogs
+      content: Linux Aviation HOWTO > 7. Websites and Catalogs
     - property: og:description
-      content: Websites and Catalogs
+      content: 7. Websites and Catalogs
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/07-websites-and-catalogs.html
 ---

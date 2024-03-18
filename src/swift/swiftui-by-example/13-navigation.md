@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Navigation
-description: 🕊️SwiftUI by Example > Navigation
+description: SwiftUI by Example > Navigation
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Navigation
+      content: SwiftUI by Example > Navigation
     - property: og:description
       content: Navigation
     - property: og:url

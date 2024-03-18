@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Resize Observer API
-description: 🧶Must Know JavaScript API > Resize Observer API
+description: Must Know JavaScript API > Resize Observer API
 categroy:
-  - 🧶JavaScript
+  - JavaScript
 tag: 
   - blog
   - js
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🧶Must Know JavaScript API > Resize Observer API
+      content: Must Know JavaScript API > Resize Observer API
     - property: og:description
       content: Resize Observer API
     - property: og:url
@@ -26,6 +26,16 @@ head:
 [[toc]]
 
 ---
+
+```component VPCard
+{
+  "title": "(by Chris1993) Must Know JavaScript API — Resize Observer API",
+  "desc": "Resize Observer API",
+  "link": "https://javascript.plainenglish.io/must-know-javascript-api-resize-observer-api-9420aab1a74",
+  "logo": "https://miro.medium.com/v2/resize:fill:59:59/1*H8epNyccEIEHWl9YYJhO2w.png",
+  "background": "rgb(222,200,50,0.2)"
+}
+```
 
 ## 🏝 What is Resize Observer API
 

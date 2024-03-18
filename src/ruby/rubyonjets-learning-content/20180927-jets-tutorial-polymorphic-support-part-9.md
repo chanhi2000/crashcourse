@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Polymorphic Support Part 9
-description: 🔻Jets - Learning Content > Polymorphic Support Part 9
+description: Jets - Learning Content > Polymorphic Support Part 9
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Polymorphic Support Part 9
+      content: Jets - Learning Content > Polymorphic Support Part 9
     - property: og:description
       content: Polymorphic Support Part 9
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: CocoaPods Tutorial for Swift - Getting Started
-description: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
+description: Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
+      content: Kodeco - Swift > CocoaPods Tutorial for Swift - Getting Started
     - property: og:description
       content: CocoaPods Tutorial for Swift - Getting Started
     - property: og:url

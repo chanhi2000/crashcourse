@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Logging
-description: 🐧Linux Journey > Journeyman > Logging
+title: Journeyman > 02g. Logging
+description: Linux Journey > Journeyman > 02g. Logging
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Logging
+      content: Linux Journey > Journeyman > 02g. Logging
     - property: og:description
-      content: Logging
+      content: 02g. Logging
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02g-logging.html
 ---

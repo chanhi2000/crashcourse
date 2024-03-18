@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Command Line
-description: 🐧Linux Journey > GrassHopper > Command Line
+title: GrassHopper > 01b. Command Line
+description: Linux Journey > GrassHopper > 01b. Command Line
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Command Line
+      content: Linux Journey > GrassHopper > 01b. Command Line
     - property: og:description
-      content: Command Line
+      content: 01b. Command Line
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01b-command-line.html
 ---

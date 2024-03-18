@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Devices
-description: 🐧Linux Journey > Journeyman > Devices
+title: Journeyman > 02a. Devices
+description: Linux Journey > Journeyman > 02a. Devices
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Devices
+      content: Linux Journey > Journeyman > 02a. Devices
     - property: og:description
-      content: Devices
+      content: 02a. Devices
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02a-devices.html
 ---

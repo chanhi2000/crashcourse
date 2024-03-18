@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 03. Ecosystem tools and Language features
-description: 🦀Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
+description: Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - rust
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🦀Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
+      content: Wasm by Example (for Rust) > 03. Ecosystem tools and Language features
     - property: og:description
       content: 03. Ecosystem tools and Language features
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 27. Tests
-description: 🦀freecodecamp.org - Rust by Practice > 27. Tests
+description: freecodecamp.org - Rust by Practice > 27. Tests
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 27. Tests
+      content: freecodecamp.org - Rust by Practice > 27. Tests
     - property: og:description
       content: 27. Tests
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

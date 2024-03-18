@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🦀Rust to Assembly
-description: 🦀Rust to Assembly
+title: Rust to Assembly
+description: Rust to Assembly
+icon: fa-brands fa-rust
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - digitalocean
@@ -15,11 +16,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀Rust to Assembly
+      content: Rust to Assembly
     - property: og:description
-      content: 🦀Rust to Assembly
+      content: Rust to Assembly
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-toassembly.html
+      content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-toassembly/
 ---
 
 # {{ $frontmatter.title }} 관련

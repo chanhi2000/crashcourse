@@ -1,10 +1,11 @@
 ---
 lang: ko-KR
-title: 🐚Text Processing with GNU awk
-description: 🐚Text Processing with GNU awk
+title: Text Processing with GNU awk
+description: Text Processing with GNU awk
+icon: iconfont icon-shell
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +17,11 @@ tags:
 head:
   - - meta:
   - property: og:title
-    content: 🐚Text Processing with GNU awk
+    content: Text Processing with GNU awk
   - property: og:description
-    content: 🐚Text Processing with GNU awk
+    content: Text Processing with GNU awk
   - property: og:url
-    content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk.html
+    content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,22 +48,165 @@ head:
 
 ## Table of Contents
 
-1. [Installation and Documentation](01-installation-and-documentation.md)
-2. [awk Introduction](02-awk-introduction.md)
-3. [Regular Expressions](03-regular-expressions.md)
-4. [Field separators](04-field-separators.md)
-5. [Record separators](05-record-separators.md)
-6. [In-place file editing](06-in-place-file-editing.md)
-7. [Using shell variables](07-using-shell-variables.md)
-8. [Control Structures](08-control-structures.md)
-9. [Built-in functions](09-built-in-functions.md)
-10. [Multiple file input](10-multiple-file-input.md)
-11. [Processing multiple records](11-processing-multiple-records.md)
-12. [Two file processing](12-two-file-processing.md)
-13. [Dealing with duplicates](13-dealing-with-duplicates.md)
-14. [awk scripts](14-awk-scripts.md)
-15. [Gotchas and Tips](15-gotchas-and-tips.md)
-16. [Further Reading](16-further-reading.md)
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 1. Installation and Documentation",
+  "desc": "1. Installation and Documentation",
+  "link": "01-installation-and-documentation.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 2. awk Introduction",
+  "desc": "2. awk Introduction",
+  "link": "02-awk-introduction.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 3. Regular Expressions",
+  "desc": "3. Regular Expressions",
+  "link": "03-regular-expressions.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 4. Field separators",
+  "desc": "4. Field separators",
+  "link": "04-field-separators.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 5. Record separators",
+  "desc": "5. Record separators",
+  "link": "05-record-separators.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 6. In-place file editing",
+  "desc": "6. In-place file editing",
+  "link": "06-in-place-file-editing.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 7. Using shell variables",
+  "desc": "7. Using shell variables",
+  "link": "07-using-shell-variables.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 8. Control Structures",
+  "desc": "8. Control Structures",
+  "link": "08-control-structures.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 9. Built-in functions",
+  "desc": "9. Built-in functions",
+  "link": "09-built-in-functions.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 10. Multiple file input",
+  "desc": "10. Multiple file input",
+  "link": "10-multiple-file-input.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 11. Processing multiple records",
+  "desc": "11. Processing multiple records",
+  "link": "11-processing-multiple-records.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 12. Two file processing",
+  "desc": "12. Two file processing",
+  "link": "12-two-file-processing.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 13. Dealing with duplicates",
+  "desc": "13. Dealing with duplicates",
+  "link": "13-dealing-with-duplicates.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 14.awk scripts",
+  "desc": "14. awk scripts",
+  "link": "14-awk-scripts.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 15. Gotchas and Tips",
+  "desc": "15. Gotchas and Tips",
+  "link": "15-gotchas-and-tips.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Text Processing with GNU awk > 16. Further Reading",
+  "desc": "16. Further Reading",
+  "link": "16-further-reading.md",
+  "logo": "https://learnbyexample.github.io/favicon.svg",
+  "background": "rgba(22,25,35,0.2)"
+}
+```
 
 ---
 

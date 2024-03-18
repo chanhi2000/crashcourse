@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐍Python
-description: 🐍Python
+title: Python
+description: Python
+icon: fa-brands fa-python
 category:
-  - 🐍Python
+  - Python
 tag: 
   - crashcourse
   - python

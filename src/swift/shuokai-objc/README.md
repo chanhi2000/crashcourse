@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🏛OSX 구조를 이해하면서 배우는 Objective-C
-description: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+title: OSX 구조를 이해하면서 배우는 Objective-C
+description: OSX 구조를 이해하면서 배우는 Objective-C
+icon: fas fa-landmark
 category:
-  - 🏛Objective-C
+  - Objective-C
 tag: 
   - crashcourse
   - xcode
@@ -12,11 +13,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+      content: OSX 구조를 이해하면서 배우는 Objective-C
     - property: og:description
-      content: 🏛OSX 구조를 이해하면서 배우는 Objective-C
+      content: OSX 구조를 이해하면서 배우는 Objective-C
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/shuokai-objc.html
+      content: https://chanhi2000.github.io/crashcourse/shuokai-objc/
 ---
 
 # {{ $frontmatter.title }} 관련

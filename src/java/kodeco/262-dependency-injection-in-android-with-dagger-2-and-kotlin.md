@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Dependency Injection in Android with Dagger 2 and Kotlin
-description: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
+description: Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
+      content: Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
     - property: og:description
       content: Dependency Injection in Android with Dagger 2 and Kotlin
     - property: og:url

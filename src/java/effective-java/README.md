@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: ☕️Effective Java
-description: ☕️Effective Java
+title: Effective Java
+description: Effective Java
+icon: fa-brands fa-java
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,11 +13,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java
+      content: Effective Java
     - property: og:description
-      content: ☕️Effective Java
+      content: Effective Java
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/java-effective-java/
+      content: https://chanhi2000.github.io/crashcourse/java/effective-java/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -25,9 +26,9 @@ head:
 
 [[toc]]
 
-<!-- https://yangbongsoo.gitbook.io/study/java-effective-java -->
-
 ---
+
+<!-- https://yangbongsoo.gitbook.io/study/java-effective-java -->
 
 ## Table of Contents
 

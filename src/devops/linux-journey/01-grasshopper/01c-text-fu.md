@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: GrassHopper > Text-Fu
-description: 🐧Linux Journey > GrassHopper > Text-Fu
+title: GrassHopper > 01c. Text-Fu
+description: Linux Journey > GrassHopper > 01c. Text-Fu
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > GrassHopper > Text-Fu
+      content: Linux Journey > GrassHopper > 01c. Text-Fu
     - property: og:description
-      content: Text-Fu
+      content: 01c. Text-Fu
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/01-grasshopper/01c-test-fu.html
 ---

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: IAM Policies Part 5
-description: 🔻Jets - Learning Content > IAM Policies Part 5
+description: Jets - Learning Content > IAM Policies Part 5
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Con > IAM Policies Part 5
+      content: Jets - Learning Con > IAM Policies Part 5
     - property: og:description
       content: IAM Policies Part 5
     - property: og:url

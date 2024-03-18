@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: Intro
-description: 🐧Linux Aviation HOWTO
+title: Linux Aviation HOWTO
+description: Linux Aviation HOWTO
+icon: fa-brands fa-linux
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux 
@@ -12,11 +13,11 @@ tag:
 haed:
   - - meta:
     - property: og:title
-      content: 🐧Linux Aviation HOWTO
+      content: Linux Aviation HOWTO
     - property: og:description
-      content: 🐧Linux Aviation HOWTO
+      content: Linux Aviation HOWTO
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto.html
+      content: https://chanhi2000.github.io/crashcourse/devops/linux-aviation-howto/
 ---
 
 # {{ $frontmatter.title }} 관련

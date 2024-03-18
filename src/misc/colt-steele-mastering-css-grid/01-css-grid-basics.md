@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 01. CSS Grid Basics
-description: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
+description: Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🎨Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
+      content: Colt Steele - Mastering CSS Grid > 01. CSS Grid Basics
     - property: og:description
       content: 01. CSS Grid Basics
     - property: og:url
@@ -176,7 +176,7 @@ You can toggle the grid overlay on and off by checking or unchecking the box in 
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 03. Define CSS Grid Columns with `grid-template-columns`",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -268,7 +268,7 @@ We have so far only used the `grid-template-columns` property to define columns 
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 04. Converting a Single-Column Layout",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/converting-a-single-column-layout",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -458,7 +458,7 @@ Now, you should have a three column layout with evenly sized columns. Each colum
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 05. Define CSS Grid Rows with `grid-template-rows`",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/define-css-grid-rows-with-grid-template-rows",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -536,7 +536,7 @@ In this case the first two elements will fill the 400-pixel tall rows, and the r
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 06. Adjust Row Heights in an Existing Layout",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/adjust-row-heights-in-an-existing-layout",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -694,7 +694,7 @@ And that's it! We now have a grid container with four rows of the exact dimensio
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 07. Combining Rows and Columns to Create Layouts",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/combining-rows-and-columns-to-create-layouts",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -710,7 +710,7 @@ And that's it! We now have a grid container with four rows of the exact dimensio
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 08. Practice Creating a Two-Column, Three-Row Layout",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/practice-creating-a-two-column-three-row-layout",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
@@ -726,12 +726,13 @@ And that's it! We now have a grid container with four rows of the exact dimensio
 ```component VPCard
 {
   "title": "01. CSS Grid Basics > 09. Paragraph Layout with CSS Grid",
-  "desc": "🎨Colt Steele - Mastering CSS Grid",
+  "desc": "Colt Steele - Mastering CSS Grid",
   "link": "https://www.coltsteele.com/tutorials/mastering-css-grid/css-grid-basics/paragraph-layout-with-css-grid",
   "logo": "https://www.coltsteele.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdwppkb069%2Fimage%2Fupload%2Fv1684239486%2Fcss-grid-tutorial_dfsfgn.png&w=1080&q=100",
   "background": "rgba(225,176,102,0.2)"
 }
 ```
+
 <VidStack src="https://stream.mux.com/E02E0102cPp801GmD026y5008gbNuxLqNKyFsjPOtCw9jGq0100.m3u8?redundant_streams=true" />
 
 ---

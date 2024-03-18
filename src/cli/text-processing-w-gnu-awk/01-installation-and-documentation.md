@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 1. Installation and Documentation
-description: 🐚Text Processing with GNU awk > 1. Installation and Documentation
+description: Text Processing with GNU awk > 1. Installation and Documentation
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head: 
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 1. Installation and Documentation
+      content: Text Processing with GNU awk > 1. Installation and Documentation
     - property: og:description
       content: 1. Installation and Documentation
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/01-installation-and-documentation.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/01-installation-and-documentation.html
 ---
 
 # {{ $frontmatter.title }} 관련

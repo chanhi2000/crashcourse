@@ -1,10 +1,11 @@
 ---
 lang: ko-KR
-title: ⚜Learn Typescript
-description: ⚜Learn Typescript
+title: Learn Typescript
+description: Learn Typescript
+icon: iconfont icon-typescript
 category: 
-  - 🧶JavaScript
-  - ⚜TypeScript
+  - JavaScript
+  - TypeScript
 tag: 
   - blog
   - js
@@ -14,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ⚜Learn Typescript
+      content: Learn Typescript
     - property: og:description
-      content: ⚜Learn Typescript
+      content: Learn Typescript
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/js/learn-ts/
 ---

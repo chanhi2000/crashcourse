@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 7. Using shell variables
-description: 🐚Text Processing with GNU awk > 7. Using shell variables
+description: Text Processing with GNU awk > 7. Using shell variables
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 7. Using shell variables
+      content: Text Processing with GNU awk > 7. Using shell variables
     - property: og:description
       content: 7. Using shell variables
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/07-using-shell-variables.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/07-using-shell-variables.html
 ---
 
 # {{ $frontmatter.title }} 관련

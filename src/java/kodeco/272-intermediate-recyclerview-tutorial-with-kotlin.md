@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Intermediate RecyclerView Tutorial with Kotlin
-description: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
+description: Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
+      content: Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
     - property: og:description
       content: Intermediate RecyclerView Tutorial with Kotlin
     - property: og:url

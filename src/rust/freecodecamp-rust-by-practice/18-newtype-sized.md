@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 18. newtype and DST
-description: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
+description: freecodecamp.org - Rust by Practice > 18. newtype and DST
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 18. newtype and DST
+      content: freecodecamp.org - Rust by Practice > 18. newtype and DST
     - property: og:description
       content: 18. newtype and DST
     - property: og:url
@@ -28,6 +28,8 @@ head:
 > {{ $frontmatter.description }}
 
 [[toc]]
+
+---
 
 ---
 

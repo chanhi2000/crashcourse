@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 01. Introduction to Generative AI and LLMs
-description: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
+description: Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
 category:
-  - 🦙LLM
+  - LLM
 tag: 
   - crashcourse
   - microsoft
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦙Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
+      content: Microsoft - Generative AI for Beginners > 01. Introduction to Generative AI and LLMs
     - property: og:description
       content: 01. Introduction to Generative AI and LLMs
     - property: og:url

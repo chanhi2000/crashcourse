@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 3. Regular Expressions
-description: 🐚Text Processing with GNU awk > 3. Regular Expressions
+description: Text Processing with GNU awk > 3. Regular Expressions
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 3. Regular Expressions
+      content: Text Processing with GNU awk > 3. Regular Expressions
     - property: og:description
       content: 3. Regular Expressions
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/03-regular-expressions.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/03-regular-expressions.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Official AWS Ruby Support for Jets
-description: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
+description: Jets - Learning Content > Official AWS Ruby Support for Jets
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Official AWS Ruby Support for Jets
+      content: Jets - Learning Content > Official AWS Ruby Support for Jets
     - property: og:description
       content: Official AWS Ruby Support for Jets
     - property: og:url

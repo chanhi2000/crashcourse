@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Build an API with the Jets Ruby Serverless Framework
-description: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
+description: Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🔻Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
+      content: Jets - Learning Content > Build an API with the Jets Ruby Serverless Framework
     - property: og:description
       content: Build an API with the Jets Ruby Serverless Framework
     - property: og:url

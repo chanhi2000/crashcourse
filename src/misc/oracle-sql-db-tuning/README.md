@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🙆‍♂️DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
-description: 🙆‍♂️DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
+title: DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
+description: DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
+icon: fas fa-database
 category:
-  - 🙆‍♂️Oracle DB
+  - Oracle DB
 tag: 
   - crashcourse
   - oracle
@@ -12,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🙆‍♂️DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
+      content: DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
     - property: og:description
-      content: 🙆‍♂️DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
+      content: DB Server 성능 향상, 분석 및 튜닝 전문가 향상과정
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/oracle-sql-db-tuning/
 ---

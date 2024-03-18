@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Forms
-description: 🕊️SwiftUI by Example > Forms
+description: SwiftUI by Example > Forms
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > Forms
+      content: SwiftUI by Example > Forms
     - property: og:description
       content: Forms
     - property: og:url

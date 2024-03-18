@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 9. Built-in functions
-description: 🐚Text Processing with GNU awk > 9. Built-in functions
+description: Text Processing with GNU awk > 9. Built-in functions
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tags:
   - crashcourse
   - cli
@@ -16,11 +16,11 @@ tags:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Text Processing with GNU awk > 9. Built-in functions
+      content: Text Processing with GNU awk > 9. Built-in functions
     - property: og:description
       content: 9. Built-in functions
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-text-processing-w-gnu-awk/09-built-in-functions.html
+      content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/09-built-in-functions.html
 ---
 
 # {{ $frontmatter.title }} 관련

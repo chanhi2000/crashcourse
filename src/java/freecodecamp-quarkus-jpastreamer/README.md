@@ -1,10 +1,11 @@
 ---
 lang: ko-KR
-title: 💠Java Web App with Quarkus and JPAStreamer
-description: 💠Java Web App with Quarkus and JPAStreamer
+title: Java Web App with Quarkus and JPAStreamer
+description: Java Web App with Quarkus and JPAStreamer
+icon: fa-brands fa-java
 category: 
-  - ☕️Java
-  - 💠Quarkus
+  - Java
+  - Quarkus
 tag: 
   - crashcourse
   - freecodecamp

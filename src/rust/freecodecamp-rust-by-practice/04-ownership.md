@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 4. Ownership and Borrowing
-description: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
+description: freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
+      content: freecodecamp.org - Rust by Practice > 4. Ownership and Borrowing
     - property: og:description
       content: 4. Ownership and Borrowing
     - property: og:url

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 07. Building an Example Layout
-description: 🎨Colt Steele - Mastering CSS Grid > 07. Building an Example Layout
+description: Colt Steele - Mastering CSS Grid > 07. Building an Example Layout
 category:
-  - 🎨CSS
+  - CSS
 tag: 
   - crashcourse
   - colt-steele
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🎨Colt Steele - Mastering CSS Grid > 07. Building an Example Layout
+      content: Colt Steele - Mastering CSS Grid > 07. Building an Example Layout
     - property: og:description
       content: 07. Building an Example Layout
     - property: og:url

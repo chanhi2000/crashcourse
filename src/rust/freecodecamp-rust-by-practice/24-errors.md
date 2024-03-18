@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 24. Errors
-description: 🦀freecodecamp.org - Rust by Practice > 24. Errors
+description: freecodecamp.org - Rust by Practice > 24. Errors
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 24. Errors
+      content: freecodecamp.org - Rust by Practice > 24. Errors
     - property: og:description
       content: 24. Errors
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

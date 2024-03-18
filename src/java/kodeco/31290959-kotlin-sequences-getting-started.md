@@ -1,12 +1,12 @@
 ---
 lang: ko-KR
 title: Kotlin Sequences - Getting Started
-description: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
+description: Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
 category:
-  - ☕️Java
+  - Java
   - 🅺Kotlin
-  - 🤖Android
-  - 🐘Gradle
+  - Android
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -17,7 +17,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🅺Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
+      content: Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
     - property: og:description
       content: Kotlin Sequences - Getting Started
     - property: og:url

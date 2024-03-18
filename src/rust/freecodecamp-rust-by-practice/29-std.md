@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 29. Standard Library
-description: 🦀freecodecamp.org - Rust by Practice > 29. Standard Library
+description: freecodecamp.org - Rust by Practice > 29. Standard Library
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 29. Standard Library
+      content: freecodecamp.org - Rust by Practice > 29. Standard Library
     - property: og:description
       content: 29. Standard Library
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 15. Formatted output
-description: 🦀freecodecamp.org - Rust by Practice > 15. Formatted output
+description: freecodecamp.org - Rust by Practice > 15. Formatted output
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 15. Formatted output
+      content: freecodecamp.org - Rust by Practice > 15. Formatted output
     - property: og:description
       content: 15. Formatted output
     - property: og:url

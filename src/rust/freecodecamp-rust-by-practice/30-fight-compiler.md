@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 30. Fighting with Compiler
-description: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
+description: freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - freecodecamp
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🦀freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
+      content: freecodecamp.org - Rust by Practice > 30. Fighting with Compiler
     - property: og:description
       content: 30. Fighting with Compiler
     - property: og:url
@@ -30,3 +30,7 @@ head:
 [[toc]]
 
 ---
+
+---
+
+<TagLinks />

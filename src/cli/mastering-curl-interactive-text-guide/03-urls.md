@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 3. URLs
-description: 🐚Mastering Curl - Interactive Text Guide > 3. URLs
+description: Mastering Curl - Interactive Text Guide > 3. URLs
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,7 +16,7 @@ tag:
 head: 
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide > 3. URLs
+      content: Mastering Curl - Interactive Text Guide > 3. URLs
     - property: og:description
       content: 3. URLs
     - property: og:url

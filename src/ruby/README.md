@@ -1,9 +1,13 @@
 ---
 lang: ko-KR
-title: 🔻Ruby
-description: 🔻Ruby
+title: Ruby
+description: Ruby
+icon: fas fa-gem
 category:
-  - 🔻Ruby
+  - Ruby
+tag:
+  - ruby
+  - rb
 ---
 
 # {{ $frontmatter.description }} 관련
@@ -18,7 +22,7 @@ category:
 
 ## Table of Contents
 
-::: details 🔻Jets - Learning Content
+::: details Jets - Learning Content
 
 <ToCLocal basePath="/ruby/rubyonjets-learning-content" />
 

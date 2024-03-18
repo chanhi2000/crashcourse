@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: Assembly code generated when self is passed by value, reference or as a smart pointer
-description: 🦀Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
+description: Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
 category: 
-  - 🦀Rust
+  - Rust
 tag: 
   - crashcourse
   - digitalocean
@@ -16,7 +16,7 @@ head:
     - property: og:title
       content: Assembly code generated when self is passed by value, reference or as a smart pointer
     - property: og:description
-      content: 🦀Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
+      content: Rust to Assembly > Assembly code generated when self is passed by value, reference or as a smart pointer
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/eventhelix-rust-to-assembly/assembly-code-generated-when-self-is-passed-by-value-reference-or-as-a-smart-pointer.html
 ---

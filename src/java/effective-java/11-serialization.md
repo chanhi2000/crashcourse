@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: 직렬화
-description: ☕️Effective Java > 직렬화
+description: Effective Java > 직렬화
 category: 
-  - ☕️Java
+  - Java
 tag: 
   - crashcourse
   - java
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ☕️Effective Java > 직렬화
+      content: Effective Java > 직렬화
     - property: og:description
       content: 직렬화
     - property: og:url

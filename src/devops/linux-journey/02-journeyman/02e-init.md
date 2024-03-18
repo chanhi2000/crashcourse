@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Journeyman > Init
-description: 🐧Linux Journey > Journeyman > Init
+title: Journeyman > 02e. Init
+description: Linux Journey > Journeyman > 02e. Init
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Journeyman > Init
+      content: Linux Journey > Journeyman > 02e. Init
     - property: og:description
-      content: Init
+      content: 02e. Init
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/02-journeyman/02e-init.html
 ---

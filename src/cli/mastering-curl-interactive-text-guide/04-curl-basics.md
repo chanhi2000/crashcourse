@@ -1,10 +1,10 @@
 ---
 lang: ko-KR
 title: 4. Curl basics
-description: 🐚Mastering Curl - Interactive Text Guide > 4. Curl basics
+description: Mastering Curl - Interactive Text Guide > 4. Curl basics
 category: 
-  - 🐚CLI
-  - 🐧Linux
+  - CLI
+  - Linux
 tag: 
   - crashcourse
   - cli
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐚Mastering Curl - Interactive Text Guide > 4. Curl basics
+      content: Mastering Curl - Interactive Text Guide > 4. Curl basics
     - property: og:description
       content: 4. Curl basics
     - property: og:url

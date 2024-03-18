@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: View layout
-description: 🕊️SwiftUI by Example > View layout
+description: SwiftUI by Example > View layout
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - paul-hudson
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🕊️SwiftUI by Example > View layout
+      content: SwiftUI by Example > View layout
     - property: og:description
       content: View layout
     - property: og:url

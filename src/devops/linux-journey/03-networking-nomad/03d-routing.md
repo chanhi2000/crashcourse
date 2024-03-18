@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
-title: Networking Nomad > Routing
-description: 🐧Linux Journey > Networking Nomad > Routing
+title: Networking Nomad > 03d. Routing
+description: Linux Journey > Networking Nomad > 03d. Routing
 category:
-  - 🐧Linux
+  - Linux
 tag: 
   - crashcourse
   - linux
@@ -12,9 +12,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: 🐧Linux Journey > Networking Nomad > Routing
+      content: Linux Journey > Networking Nomad > 03d. Routing
     - property: og:description
-      content: Routing
+      content: 03d. Routing
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/devops/linux-journey/03-networking-nomad/03d-routing.html
 ---

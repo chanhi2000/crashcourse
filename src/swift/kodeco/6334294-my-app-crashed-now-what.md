@@ -1,9 +1,9 @@
 ---
 lang: ko-KR
 title: My App Crashed, Now What?
-description: 🕊️Kodeco - Swift > My App Crashed, Now What?
+description: Kodeco - Swift > My App Crashed, Now What?
 category:
-  - 🕊️Swift
+  - Swift
 tag: 
   - crashcourse
   - kodeco
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: My App Crashed, Now What?
     - property: og:description
-      content: 🕊️Kodeco - Swift > My App Crashed, Now What?
+      content: Kodeco - Swift > My App Crashed, Now What?
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/kodeco/6334294-my-app-crashed-now-what.html
 ---
