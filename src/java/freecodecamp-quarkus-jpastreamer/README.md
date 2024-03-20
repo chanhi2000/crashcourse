@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Java Web App with Quarkus and JPAStreamer
 description: Java Web App with Quarkus and JPAStreamer
-icon: fa-brands fa-java
+icon: iconfont icon-java
 category: 
   - Java
   - Quarkus
@@ -27,8 +27,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

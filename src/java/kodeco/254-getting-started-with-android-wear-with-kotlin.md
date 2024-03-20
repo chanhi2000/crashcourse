@@ -4,7 +4,7 @@ title: Getting Started with Android Wear with Kotlin
 description: Kodeco - Android & Kotlin > Getting Started with Android Wear with Kotlin
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

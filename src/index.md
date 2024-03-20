@@ -15,7 +15,7 @@ projects:
     icon: iconfont icon-shell
   - name: Swift
     link: /swift/
-    icon: fas fa-dove
+    icon: fa-brands fa-swift
   - name: Java / Kotlin / Spring
     link: /java/
     icon: fa-brands fa-java
@@ -29,14 +29,20 @@ projects:
     link: /rust/
     icon: fa-brands fa-rust
   - name: Cpp
-    desc: ➕
     link: /cpp/
+    icon: fas fa-dice-two
   - name: Ruby
     link: /ruby/
     icon: fas fa-gem
   - name: Haskell
     link: /haskell/
     icon: fas fa-lambda
+  - name: DevOps
+    link: /devops/
+    icon: fas fa-fubes-stacked
+  - name: Misc.
+    link: /misc/
+    icon: fas fa-object-group
 footerHtml: true
 footer: <i>v__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2023-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 ---

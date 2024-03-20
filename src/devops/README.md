@@ -1,13 +1,24 @@
 ---
 lang: ko-KR
-title: 🏗️DevOps
-description: 🏗️DevOps
+title: DevOps
+description: DevOps
+icon: fas fa-cubes-stacked
 category:
+  - DevOps
   - Gitlab
   - Kubernetes
   - Linux
   - RedHat
   - AWS
+tag:
+  - aws
+  - amazon-web-service
+  - amazon
+  - git
+  - gitlab
+  - kubernetes
+  - linux
+  - redhat
 ---
 
 # {{ $frontmatter.description }} 관련

@@ -4,7 +4,7 @@ title: Dependency Injection in Android with Dagger 2 and Kotlin
 description: Kodeco - Android & Kotlin > Dependency Injection in Android with Dagger 2 and Kotlin
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

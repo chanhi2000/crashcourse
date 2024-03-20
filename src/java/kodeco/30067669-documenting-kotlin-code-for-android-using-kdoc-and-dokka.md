@@ -4,7 +4,7 @@ title: Documenting Kotlin Code for Android Using KDoc and Dokka
 description: Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
 category:
   - Java
-  - 🅺Kotlin
+  - 
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 
@@ -673,11 +671,11 @@ pluginsMapConfiguration.set(
 )
 ```
 
-This snippet adds a custom footer message and the path to <FontIcon icon="iconfont icon-css"/>`logo-style.css` in `pluginsMapConfiguration`. Dokka uses it to customize documentation properties.
+This snippet adds a custom footer message and the path to <FontIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` in `pluginsMapConfiguration`. Dokka uses it to customize documentation properties.
 
 The CSS file is already added to the project for you. The `customStyleSheets` property in Dokka adds new files or replaces old files if a file with the same name exists.
 
-Dokka also uses <FontIcon icon="iconfont icon-css"/>`logo-style.css` to add a logo in the top left corner. The custom file that you used replaces that logo with another one.
+Dokka also uses <FontIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` to add a logo in the top left corner. The custom file that you used replaces that logo with another one.
 
 Adding the snippet in those two tasks will customize the pages for standalone module documentation as well as module-level pages in the multimodule documentation.
 

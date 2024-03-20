@@ -4,9 +4,9 @@ title: React Native Tutorial - Building Android Apps with JavaScript
 description: Kodeco - Android & Kotlin > React Native Tutorial - Building Android Apps with JavaScript
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
-  - 🐘Gradle
+  - Gradle
 tag: 
   - crashcourse
   - kodeco
@@ -27,8 +27,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

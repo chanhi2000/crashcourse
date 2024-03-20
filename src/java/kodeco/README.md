@@ -5,7 +5,7 @@ description: Kodeco - Android & Kotlin
 icon: fa-brands fa-android
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

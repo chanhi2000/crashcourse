@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -95,7 +93,7 @@ To begin, you’ll add a bar chart to the app which displays the precipitation d
 
 A bar chart provides a bar for each data point. The length of each bar represents a numerical value and can run horizontally or vertically to suit your needs.
 
-Expand the <FontIcon icon="iconfont icon-select"/>`[Tabs]` group and open <FontIcon icon="fas fa-dove"/>`PrecipitationTab.swift`. You’ll see a standard SwiftUI `List()` that loops through the integers zero through 11, representing the months of the year, and displays the total precipitation for each month. The included helper functions change the integer to a month name and sum the amounts for each month.
+Expand the <FontIcon icon="iconfont icon-select"/>`[Tabs]` group and open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift`. You’ll see a standard SwiftUI `List()` that loops through the integers zero through 11, representing the months of the year, and displays the total precipitation for each month. The included helper functions change the integer to a month name and sum the amounts for each month.
 
 Right click the empty <FontIcon icon="iconfont icon-select"/>`[Charts]` group and select <FontIcon icon="iconfont icon-select"/>`[New File]`. Select <FontIcon icon="iconfont icon-select"/>`[SwiftUI View]` and click <FontIcon icon="iconfont icon-select"/>`[Next]`. Name the new view `PrecipitationChart`.
 
@@ -141,7 +139,7 @@ List(0..<12) { month in
 }
 ```
 
-Open <FontIcon icon="fas fa-dove"/>`PrecipitationTab.swift` and delete the no longer needed `sumPrecipitation(_:)` and `monthAbbreviationFromInt(_:)` methods. Inside body, replace the List and enclosure with a call to the new view:
+Open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift` and delete the no longer needed `sumPrecipitation(_:)` and `monthAbbreviationFromInt(_:)` methods. Inside body, replace the List and enclosure with a call to the new view:
 
 ```swift
 PrecipitationChart(measurements: station.measurements)
@@ -157,7 +155,7 @@ When you run the app make sure you're on the Precipitation tab after selecting a
 
 ## Raising the SwiftUI Bar
 
-SwiftUI contains several shape views, including a `Rectangle` shape that works well for building bar charts. Open <FontIcon icon="fas fa-dove"/>`PrecipitationChart.swift` and replace `body` with:
+SwiftUI contains several shape views, including a `Rectangle` shape that works well for building bar charts. Open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationChart.swift` and replace `body` with:
 
 ```swift
 // 1
@@ -211,7 +209,7 @@ Text("\(self.sumPrecipitation(month).stringToOneDecimal)")
   .zIndex(1)
 ```
 
-You’ve added a text view to each bar. It displays the total precipitation for that month rounded to one decimal using an extension method on the `Double` type. You can find it in <FontIcon icon="fas fa-dove"/>`DoubleExtension.swift`.
+You’ve added a text view to each bar. It displays the total precipitation for that month rounded to one decimal using an extension method on the `Double` type. You can find it in <FontIcon icon="fa-brands fa-swift"/>`DoubleExtension.swift`.
 
 The text view’s font is set to match the month label and rotates the text counterclockwise by 90 degrees so it flows parallel to the bar. The view is then offset by 35 points downward, placing it inside the bar.
 
@@ -363,7 +361,7 @@ Now that you've gained experience creating a couple of basic charts, you can mov
 
 ## Creating a Heat Map
 
-Create a new SwiftUI view in the `Charts` group and name the new view `TemperatureChart`. Open <FontIcon icon="fas fa-dove"/>`TemperatureChart.swift` and add a variable for the measurement data at the beginning of the `struct`.
+Create a new SwiftUI view in the `Charts` group and name the new view `TemperatureChart`. Open <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` and add a variable for the measurement data at the beginning of the `struct`.
 
 ```swift
 var measurements: [DayInfo]
@@ -440,7 +438,7 @@ In the previous charts, you used constant sizes to produce something that looked
 5. These lines move the path to the point for the low temperature and add a line to the high temperature. The vertical view coordinates begin at the top of the view and increase downward. As you want points to start at the bottom and go upward, you subtract the vertical position from `reader.size.height` to get the desired location.
 6. `stroke()` tells SwiftUI to outline the path you've created in the current system color.
 
-Open <FontIcon icon="fas fa-dove"/>`TemperatureTab.swift` and replace `body` with this to use your new view:
+Open <FontIcon icon="fa-brands fa-swift"/>`TemperatureTab.swift` and replace `body` with this to use your new view:
 
 ```swift
 VStack {
@@ -461,7 +459,7 @@ The shape of the chart shows the changes in temperature pretty well but looks a 
 
 A heat map graphically represents values using colors. Weather maps often represent temperatures using a range of colors starting with purple and blue shades for low temperatures and moving toward yellow, orange and red shades for warmer temperatures. Calculating these colors and changes could involve some complicated math, but not here.
 
-In SwiftUI, you represent the transitions of color using a gradient. A linear gradient creates a smooth color transition between two or more colors along a single axis. Add the following in <FontIcon icon="fas fa-dove"/>`TemperatureChart.swift` after `measurements` and before the helper functions:
+In SwiftUI, you represent the transitions of color using a gradient. A linear gradient creates a smooth color transition between two or more colors along a single axis. Add the following in <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` after `measurements` and before the helper functions:
 
 ```swift
 let tempGradient = Gradient(colors: [
@@ -505,7 +503,7 @@ Applying it to the path means the gradient shows only for the stroked portion: T
 
 ## Adding Grid Lines and Labels
 
-All that's left now is to make things a little easier on the viewers eyes by adding grid lines, similar to what you did in the bar charts. Add the following helper function after the existing ones in <FontIcon icon="fas fa-dove"/>`TemperatureChart.swift`:
+All that's left now is to make things a little easier on the viewers eyes by adding grid lines, similar to what you did in the bar charts. Add the following helper function after the existing ones in <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift`:
 
 ```swift
 func tempLabelOffset(_ line: Int, height: CGFloat) -> CGFloat {

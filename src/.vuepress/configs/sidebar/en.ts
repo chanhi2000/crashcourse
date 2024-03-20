@@ -56,12 +56,12 @@ export const sidebarEn = sidebar({
   ], '/swift/' : [
     {
       text: 'Swift',
-      icon: 'fas fa-dove',
+      icon: 'fa-brands fa-swift',
       children: [ '/swift/README.md' ]
     }, {
       text: '100 Days of Swift',
       collapsible: true,
-      icon: 'fas fa-dove',
+      icon: 'fa-brands fa-swift',
       children: [
         '/swift/100-days-of-swift/README.md',
         '/swift/100-days-of-swift/01.md',
@@ -169,7 +169,7 @@ export const sidebarEn = sidebar({
     }, {
       text: '100 Days of SwiftUI',
       collapsible: true,
-      icon: 'fas fa-dove',
+      icon: 'fa-brands fa-swift',
       children: [
         '/swift/100-days-of-swiftui/README.md',
         '/swift/100-days-of-swiftui/01.md',
@@ -277,7 +277,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'SwiftUI by Example',
       collapsible: true,
-      icon: 'fas fa-dove',
+      icon: 'fa-brands fa-swift',
       children: [
         '/swift/swiftui-by-example/README.md',
         '/swift/swiftui-by-example/01-building-a-complete-project.md',
@@ -301,7 +301,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Kodeco - Swift',
       collapsible: true,
-      icon: 'fas fa-dove',
+      icon: 'fa-brands fa-swift',
       children: [
         '/swift/kodeco/README.md',
         '/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.md',
@@ -452,7 +452,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Java Web App with Quarkus and JPAStreamer',
       collapsible: true,
-      icon: 'fa-brands fa-java',
+      icon: 'iconfont icon-java',
       children: [
         '/java/freecodecamp-quarkus-jpastreamer/README.md',
         '/java/freecodecamp-quarkus-jpastreamer/01.md',
@@ -655,7 +655,13 @@ export const sidebarEn = sidebar({
     }, 
   ], '/cpp/':  [ 
     {
-      text: '➕Cpp',
+      text: 'Cpp',
+      icon: 'fas fa-dice-two',
+      children: [ '/cpp/README.md' ]
+    }, {
+      text: 'Algorithms for Competitive Programming',
+      collapsible: true,
+      icon: 'fas fa-dice-two',
       children: [ 
         '/cpp/algorithms-for-competitive-programming/README.md',
         '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
@@ -674,6 +680,17 @@ export const sidebarEn = sidebar({
         '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
         '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
         '/cpp/algorithms-for-competitive-programming/05-linear-algebra/05A.md',
+        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
+        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
+        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
+        '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
+        '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
+        '/cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
       ]
     }
   ], '/ruby/': [
@@ -762,7 +779,8 @@ export const sidebarEn = sidebar({
     }
   ], '/devops/': [
     {
-      text: '🏗️DevOps',
+      text: 'DevOps',
+      icon: 'fas fa-cubes-stacked',
       children: [ '/devops/README.md' ]
     }, {
       text: 'Red Hat Container Tools',
@@ -882,6 +900,10 @@ export const sidebarEn = sidebar({
     }, 
   ], '/misc/': [
     {
+      text: 'Misc.',
+      icon: 'fas fa-object-group',
+      children: [ '/misc/README.md' ]
+    }, {
       text: 'Colt Steele - Mastering CSS Grid',
       collapsible: true,
       icon: 'fa-brands fa-css3-alt',

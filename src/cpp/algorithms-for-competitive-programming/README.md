@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: ➕Algorithms for Competitive Programming
-description: ➕Algorithms for Competitive Programming
+title: Algorithms for Competitive Programming
+description: Algorithms for Competitive Programming
+icon: fas fa-dice-two
 category:
-  - ➕cpp
+  - Cpp
 tag: 
   - crashcourse
   - cpp
@@ -20,8 +21,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 
@@ -65,19 +64,19 @@ The goal of this project is to translate [the wonderful resource](https://e-maxx
 - 05. Linear Algebra
   - [05A. Metrices](05-linear-algebra/05A.md)
 - 06. Combinatorics
-  - 06A. Fundamentals
-  - 06B. Techniques
-  - 06C. Tasks
+  - [06A. Fundamentals](06-combinatorics/06A.md)
+  - [06B. Techniques](06-combinatorics/06B.md)
+  - [06C. Tasks](06-combinatorics/06C.md)
 - 07. Numerical Methods
-  - 07A. Search
-  - 07B. Integration
+  - [07A. Search](07-numerical-methods/07A.md)
+  - [07B. Integration](07-numerical-methods/07B.md)
 - 08. Geometry
-  - 08A. Elementary operations
-  - 08B. Polygons
-  - 08C. Convex hull
-  - 08D. Sweep-line
-  - 08E. Planar graphs
-  - 08F. Misc
+  - [08A. Elementary operations](08-geometry/08A.md)
+  - [08B. Polygons](08-geometry/08B.md)
+  - [08C. Convex hull](08-geometry/08C.md)
+  - [08D. Sweep-line](08-geometry/08D.md)
+  - [08E. Planar graphs](08-geometry/08E.md)
+  - [08F. Misc](08-geometry/08F.md)
 - 09. Graphs
   - 09A. Graph traversal
   - 09B. Connected components, bridges, articulations points

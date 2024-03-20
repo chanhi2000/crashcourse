@@ -5,7 +5,7 @@ description: Java / Kotlin / Spring
 icon: fa-brands fa-java
 category:
   - Java 
-  - 🅺Kotlin
+  - Kotlin
   - Spring
   - Gradle
   - Android

@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -89,12 +87,12 @@ To make things more exciting, you can also cross off the items on the list to ma
 Spend a few minutes familiarizing yourself with the code in the begin project. Here are some highlights:
 
 - <FontIcon icon="iconfont icon-file"/>`Main.storyboard` contains all the storyboard scenes for the app. You’ll notice all the UI components are standard UIKit controls and views. They’re already accessible, which makes your job easier.
-- .<FontIcon icon="fas fa-dove"/>`RecipeListViewController.swift` manages the root table view, which displays the list of all recipes available. It uses an array of `Recipe` objects as the data source.
-- .<FontIcon icon="fas fa-dove"/>`Recipe.swift` is the model object that represents a recipe. It contains utility methods for loading an array of recipes that you’ll use throughout the app.
-- .<FontIcon icon="fas fa-dove"/>`RecipeCell.swift` is the cell for the root controller’s recipe list. It displays the recipe’s difficulty level, name and photo based on the passed `Recipe` model object.
-- .<FontIcon icon="fas fa-dove"/>`RecipeInstructionViewController.swift` contains the controller code for the detail view, which shows a large image of the dish along with its ingredients and cooking instructions. It features a `UISegmentedControl` to toggle between ingredients and instructions in the table view, which uses `InstructionViewModel`.
-- .<FontIcon icon="fas fa-dove"/>`InstructionViewModel.swift` acts as the data source for `RecipeInstructionsViewController`. It includes descriptions for ingredients and instructions as well as state information for the check boxes.
-- .<FontIcon icon="fas fa-dove"/>`InstructionCell.swift` defines a cell that contains a label and a checkbox for use in instructions and ingredient lists. When you check the box, it crosses out the text.
+- .<FontIcon icon="fa-brands fa-swift"/>`RecipeListViewController.swift` manages the root table view, which displays the list of all recipes available. It uses an array of `Recipe` objects as the data source.
+- .<FontIcon icon="fa-brands fa-swift"/>`Recipe.swift` is the model object that represents a recipe. It contains utility methods for loading an array of recipes that you’ll use throughout the app.
+- .<FontIcon icon="fa-brands fa-swift"/>`RecipeCell.swift` is the cell for the root controller’s recipe list. It displays the recipe’s difficulty level, name and photo based on the passed `Recipe` model object.
+- .<FontIcon icon="fa-brands fa-swift"/>`RecipeInstructionViewController.swift` contains the controller code for the detail view, which shows a large image of the dish along with its ingredients and cooking instructions. It features a `UISegmentedControl` to toggle between ingredients and instructions in the table view, which uses `InstructionViewModel`.
+- .<FontIcon icon="fa-brands fa-swift"/>`InstructionViewModel.swift` acts as the data source for `RecipeInstructionsViewController`. It includes descriptions for ingredients and instructions as well as state information for the check boxes.
+- .<FontIcon icon="fa-brands fa-swift"/>`InstructionCell.swift` defines a cell that contains a label and a checkbox for use in instructions and ingredient lists. When you check the box, it crosses out the text.
 Now you understand how the app works, it’s time to consider how to make it more accessible.
 
 ---

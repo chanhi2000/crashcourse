@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -128,7 +126,7 @@ While every Ice Cream Shop, Inc. location has signature flavors in common, each 
 
 However, this still doesn’t explain why users can’t select their ice cream flavors.
 
-Open <FontIcon icon="fas fa-dove"/>`PickFlavorViewController.swift`, found under the `Controllers` group, and you’ll see a stubbed method:
+Open <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift`, found under the `Controllers` group, and you’ll see a stubbed method:
 
 ```swift
 private func loadFlavors() {
@@ -267,7 +265,7 @@ Now, you’ll use your brand new dependency, Alamofire.
 
 If the Xcode project is open, close it now and open <FontIcon icon="iconfont icon-file"/>`IceCreamShop.xcworkspace`.
 
-Open <FontIcon icon="fas fa-dove"/>`PickFlavorViewController.swift` and add the following just below the existing import:
+Open <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following just below the existing import:
 
 ```swift
 import Alamofire
@@ -426,7 +424,7 @@ Now that you’ve learned how operators work with your CocoaPods, it’s time to
 
 If you recall, you were building a progress indicator to show your users when flavors are loading in the app.
 
-To finish this feature, go back to <FontIcon icon="fas fa-dove"/>`PickFlavorViewController.swift` and add the following right after the other imports:
+To finish this feature, go back to <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following right after the other imports:
 
 ```swift
 import MBProgressHUD

@@ -21,8 +21,6 @@ haed:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---

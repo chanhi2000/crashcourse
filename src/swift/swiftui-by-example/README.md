@@ -2,7 +2,7 @@
 lang: ko-KR
 title: SwiftUI by Example
 description: SwiftUI by Example
-icon: fas fa-dove
+icon: fa-brands fa-swift
 category:
   - Swift
 tag: 
@@ -24,8 +24,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 
@@ -386,17 +384,17 @@ __Tip__: You might think this chapter is totally skippable, but unless you’re 
 
 The basic App template gives you the following:
 
-1. .<FontIcon icon="fas fa-dove"/>`YourProjectName.swift`. This performs an initial set up, then creates and displays your initial view.
-2. .<FontIcon icon="fas fa-dove"/>`ContentView.swift`. This is our initial piece of user interface. If this were a UIKit project, this would be the ViewController class that Xcode gave us.
+1. .<FontIcon icon="fa-brands fa-swift"/>`YourProjectName.swift`. This performs an initial set up, then creates and displays your initial view.
+2. .<FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`. This is our initial piece of user interface. If this were a UIKit project, this would be the ViewController class that Xcode gave us.
 3. .<FontIcon icon="iconfont icon-file"/>`Assets.xcassets`. This is an asset catalog, which stores all the images and colors used in our project.
 4. A group called Preview Content, which contains another asset catalog called Preview Assets.
 And that’s it – it’s a pleasingly small amount of code and resources, which means we can build on it.
 
-The part we really care about – in fact, here it’s the only part that matters – is <FontIcon icon="fas fa-dove"/>`ContentView.swift`. This is the main piece of functionality for our app, and it’s where we can start trying out various SwiftUI code in just a moment.
+The part we really care about – in fact, here it’s the only part that matters – is <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`. This is the main piece of functionality for our app, and it’s where we can start trying out various SwiftUI code in just a moment.
 
-First, though: what makes <FontIcon icon="fas fa-dove"/>`ContentView.swift` get shown on the screen?
+First, though: what makes <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift` get shown on the screen?
 
-Well, if you remember I said that <FontIcon icon="fas fa-dove"/>`YourProjectName.swift` is responsible for managing the way your app is shown. Obviously it’s not actually called that – it will be named according to the project name you chose when creating your poject.
+Well, if you remember I said that <FontIcon icon="fa-brands fa-swift"/>`YourProjectName.swift` is responsible for managing the way your app is shown. Obviously it’s not actually called that – it will be named according to the project name you chose when creating your poject.
 
 Go ahead and open this file now, and you’ll see code like this in there:
 
@@ -413,7 +411,7 @@ struct YourProjectName: App {
 
 That code creates a new `ContentView` instance (that’s the main piece of functionality we’ll be looking at soon), and places it inside a window group so it’s visible onscreen. It’s effectively bootstrapping our app by showing the first instance of `ContentView`, and from there it’s over to us – what do you want to do?
 
-Open <FontIcon icon="fas fa-dove"/>`ContentView.swift` and let’s look at some actual SwiftUI code. You should see code like this:
+Open <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift` and let’s look at some actual SwiftUI code. You should see code like this:
 
 ```swift
 import SwiftUI

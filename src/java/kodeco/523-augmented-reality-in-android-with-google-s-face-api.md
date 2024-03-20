@@ -4,7 +4,7 @@ title: Augmented Reality in Android with Google’s Face API
 description: Kodeco - Android & Kotlin > Augmented Reality in Android with Google’s Face API
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

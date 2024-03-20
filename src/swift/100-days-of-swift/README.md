@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 100 Days of Swift
 description: 100 Days of Swift
-icon: fas fa-dove
+icon: fa-brands fa-swift
 category:
   - Swift
 tag: 
@@ -24,11 +24,9 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
 
-<VidStack src="youtube/RB5nWzdl-b8" />
 
-[[toc]]
+<VidStack src="youtube/RB5nWzdl-b8" />[[toc]]
 
 ---
 

@@ -4,7 +4,7 @@ title: Gradle Tutorial for Android - Getting Started
 description: Kodeco - Android & Kotlin > Gradle Tutorial for Android - Getting Started
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

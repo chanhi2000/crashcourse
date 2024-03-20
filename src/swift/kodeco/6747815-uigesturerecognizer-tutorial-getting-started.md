@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -115,7 +113,7 @@ Now that you’ve created the pan gesture recognizer and associated it with the 
 
 ### Implementing the Panning Gesture
 
-Open <FontIcon icon="fas fa-dove"/>`ViewController.swift` and add the following method right below `viewDidLoad()`, inside the `ViewController`:
+Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add the following method right below `viewDidLoad()`, inside the `ViewController`:
 
 ```swift
 @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
@@ -203,7 +201,7 @@ You can view a full list of the methods for each gesture recognizer in [the API 
 
 ### Easing Out Your Animations
 
-Start by adding the following to the bottom of `handlePan(_:)` in <FontIcon icon="fas fa-dove"/>`ViewController.swift`:
+Start by adding the following to the bottom of `handlePan(_:)` in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
 ```swift
 guard gesture.state == .ended else {
@@ -261,7 +259,7 @@ The begin project gives you a great start. It created `handlePinch(_:)` and `han
 
 ### Implementing the Pinch and Rotation Gestures
 
-Open <FontIcon icon="fas fa-dove"/>`ViewController.swift`. Add the following to `handlePinch(_:)`:
+Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Add the following to `handlePinch(_:)`:
 
 ```swift
 guard let gestureView = gesture.view else {
@@ -325,7 +323,7 @@ However, you can change this by overriding a method in the `UIGestureRecognizer`
 
 ### Allowing Two Gestures to Happen at Once
 
-Open <FontIcon icon="fas fa-dove"/>`ViewController.swift`. Below the `ViewController`, create a `ViewController` class extension and conform it to `UIGestureRecognizerDelegate`:
+Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Below the `ViewController`, create a `ViewController` class extension and conform it to `UIGestureRecognizerDelegate`:
 
 ```swift
 extension ViewController: UIGestureRecognizerDelegate {
@@ -359,13 +357,13 @@ So far, you’ve created gesture recognizers with the storyboard editor, but wha
 
 Well, why not try it out? You’ll do so by adding a tap gesture recognizer to play a sound effect when you tap either of the image views.
 
-To play a sound, you’ll need to access `AVFoundation`. At the top of <FontIcon icon="fas fa-dove"/>`ViewController.swift`, add:
+To play a sound, you’ll need to access `AVFoundation`. At the top of <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, add:
 
 ```swift
 import AVFoundation
 ```
 
-Add the following changes to <FontIcon icon="fas fa-dove"/>`ViewController.swift`, just before `viewDidLoad()`:
+Add the following changes to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, just before `viewDidLoad()`:
 
 ```swift
 private var chompPlayer: AVAudioPlayer?
@@ -443,7 +441,7 @@ You can call a method called `require(toFail:)` on a gesture recognizer. Can you
 
 Open <FontIcon icon="iconfont icon-file"/>`Main.storyboard` and another editor on the right by clicking the button on the top-right of the storyboard panel.
 
-On the left of the new panel that just opened, click the button with four squares. Finally, select the third item from the list, __Automatic__, which will ensure that <FontIcon icon="fas fa-dove"/>`ViewController.swift` shows there.
+On the left of the new panel that just opened, click the button with four squares. Finally, select the third item from the list, __Automatic__, which will ensure that <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` shows there.
 
 ![Setting up your editor](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_13-1.gif)
 
@@ -476,7 +474,7 @@ Well, you can always write your own! For example, what if you wanted to detect a
 
 Create a new file via <FontIcon icon="iconfont icon-select"/>`[File ▸ New ▸ File…]` and pick the <FontIcon icon="iconfont icon-select"/>`[iOS ▸ Source ▸ Swift File]` template. Name the file `TickleGestureRecognizer`.
 
-Then replace the `import` statement in <FontIcon icon="fas fa-dove"/>`TickleGestureRecognizer.swift` with the following:
+Then replace the `import` statement in <FontIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` with the following:
 
 ```swift
 import UIKit
@@ -516,7 +514,7 @@ Of course, these properties are specific to the gesture you’re detecting here.
 
 One of the things that you’ll change is the state of the gesture. When a tickle completes, you’ll change the `state` of the gesture to `ended`.
 
-Switch to <FontIcon icon="fas fa-dove"/>`TickleGestureRecognizer.swift` and add the following methods to the class:
+Switch to <FontIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` and add the following methods to the class:
 
 ```swift
 override func reset() {
@@ -595,7 +593,7 @@ OK, now to use this new recognizer!
 
 ### Implementing Your Custom Recognizer
 
-Open <FontIcon icon="fas fa-dove"/>`ViewController.swift` and make the following changes.
+Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and make the following changes.
 
 Add the following code to the top of the class, right after `chompPlayer`:
 

@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -1031,15 +1029,15 @@ You might be thinking, “Hasn’t someone already created a wrapper for this?�
 
 ---
 
-## Introducing <FontIcon icon="fas fa-dove"/>`SQLite.swift`
+## Introducing <FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`
 
-[Stephen Celis](https://twitter.com/stephencelis) has graciously written a fully-featured Swift wrapper for SQLite named [<FontIcon icon="fas fa-dove"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift). Check it out if you decide that SQLite fits the bill for data storage in your app.
+[Stephen Celis](https://twitter.com/stephencelis) has graciously written a fully-featured Swift wrapper for SQLite named [<FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift). Check it out if you decide that SQLite fits the bill for data storage in your app.
 
 SQLite.swift provides an expressive way to represent tables. This lets you get started with SQLite without worrying about its underlying details and idiosyncrasies.
 
 You may even consider wrapping SQLite.swift itself to create a high-level API for your app’s domain model.
 
-Check out the [README.md for [<FontIcon icon="fas fa-dove"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift/blob/master/README.md) and decide for yourself if it has a place in your personal code toolbox.
+Check out the [README.md for [<FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift/blob/master/README.md) and decide for yourself if it has a place in your personal code toolbox.
 
 ---
 

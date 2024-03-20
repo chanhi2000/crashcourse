@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -91,7 +89,7 @@ Why Protocol-Oriented Programming?
 
 ## Hatching the Egg
 
-Begin by opening Xcode and then creating a new playground named <FontIcon icon="fas fa-dove"/>`SwiftProtocols.playground`. Then add this code to it:
+Begin by opening Xcode and then creating a new playground named <FontIcon icon="fa-brands fa-swift"/>`SwiftProtocols.playground`. Then add this code to it:
 
 ```swift
 protocol Bird {

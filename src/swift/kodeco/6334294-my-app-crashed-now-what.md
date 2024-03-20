@@ -22,8 +22,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -154,7 +152,7 @@ Tap <FontIcon icon="iconfont icon-select"/>`[Calculate]` and see what happens…
 
 ![App crashed in `calculateSum(items:)`](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_11-1-480x269.png)
 
-The crash is in <FontIcon icon="fas fa-dove"/>`ForceUnwrappingViewController.swift` on line number 49. Have a look at what Xcode shows you — there’s a red highlight on the line that triggered the crash.
+The crash is in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line number 49. Have a look at what Xcode shows you — there’s a red highlight on the line that triggered the crash.
 
 The __Console Log__ has information on the crash and the __Variables View__ shows the values of `item` and `finalValue` within the scope of `calculateSum(items:)`.
 
@@ -221,7 +219,7 @@ It doesn’t crash anymore, but is it completely fixed? Instead of adding the nu
 
 ![Removing the last number from the list](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_30.gif =240x)
 
-The app crashed again in <FontIcon icon="fas fa-dove"/>`ForceUnwrappingViewController.swift` on line 58.
+The app crashed again in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 58.
 
 ![The crash line in Xcode.](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_31-650x428.png)
 
@@ -271,7 +269,7 @@ When you turn off the switch, the second question disappears, but when you turn 
 
 ![Crashing line for the second screen](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_18-650x365.png)
 
-The app crashed in <FontIcon icon="fas fa-dove"/>`WeakReferencesViewController.swift` line 37.
+The app crashed in <FontIcon icon="fa-brands fa-swift"/>`WeakReferencesViewController.swift` line 37.
 
 `WeakReferencesViewController` has three items:
 
@@ -321,15 +319,15 @@ Go ahead and press that button. As you may have expected, there’s a crash. But
 
 ![Crash line is the declaration of `AppDelegate` and crash log is long](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_25-650x428.png)
 
-Xcode stopped in <FontIcon icon="fas fa-dove"/>`AppDelegate.swift` on line 32.
+Xcode stopped in <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` on line 32.
 
 Add an exception breakpoint to your project, then build and run to see the difference.
 
 ![Third screen crash with exception breakpoint added](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_26-650x428.png)
 
-This time, Xcode stopped in <FontIcon icon="fas fa-dove"/>`InvalidTableUpdatesViewController.swift` on line 37. The log is empty and has no information provided because the breakpoint stopped right before the exception happened. This is a different kind of crash than the previous ones.
+This time, Xcode stopped in <FontIcon icon="fa-brands fa-swift"/>`InvalidTableUpdatesViewController.swift` on line 37. The log is empty and has no information provided because the breakpoint stopped right before the exception happened. This is a different kind of crash than the previous ones.
 
-When you press the <FontIcon icon="iconfont icon-select"/>`[Continue]` button, Xcode will return to the class declaration line in <FontIcon icon="fas fa-dove"/>`AppDelegate.swift` and the log will have the crash information.
+When you press the <FontIcon icon="iconfont icon-select"/>`[Continue]` button, Xcode will return to the class declaration line in <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` and the log will have the crash information.
 
 ![Continue execution button](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_27-480x137.png)
 
@@ -359,7 +357,7 @@ These situations are ideal for __assertions__. They’ll help you, or anyone els
 
 Writing a framework is also a good example where assertions can be useful. You can raise an assertion if another developer provides irrational input to your framework that won’t perform as expected.
 
-An example of when this is handy is in <FontIcon icon="fas fa-dove"/>`ForceUnwrappingViewController.swift`. Nothing will happen in `showResult(result:)` if `result` doesn’t cast to `Int` or `String`, and whoever is using your code won’t know what’s going on right away. Of course they’re doing something wrong, but wouldn’t it be awesome if the code was smart enough to tell them what?
+An example of when this is handy is in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift`. Nothing will happen in `showResult(result:)` if `result` doesn’t cast to `Int` or `String`, and whoever is using your code won’t know what’s going on right away. Of course they’re doing something wrong, but wouldn’t it be awesome if the code was smart enough to tell them what?
 
 To try it out, add this block of code at the end of `showResult(result:)`:
 
@@ -381,7 +379,7 @@ Build and run, open the <FontIcon icon="iconfont icon-select"/>`[Force Unwrappin
 
 ![App crashed on the assertion call](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_33-650x428.png)
 
-Your app crashed in <FontIcon icon="fas fa-dove"/>`ForceUnwrappingViewController.swift` on line 65.
+Your app crashed in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 65.
 
 As expected, the crash line is the assertion call, but you haven’t fully answered the question. Should crashing code be in the final app on the AppStore if the developer doesn’t cover all cases?
 

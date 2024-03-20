@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 100 Days of SwiftUI 
 description: 100 Days of SwiftUI
-icon: fas fa-dove
+icon: fa-brands fa-swift
 category:
   - Swift
 tag: 
@@ -25,11 +25,9 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
 
-<VidStack src="youtube/AWZzEGwkenQ" />
 
-[[toc]]
+<VidStack src="youtube/AWZzEGwkenQ" />[[toc]]
 
 ---
 

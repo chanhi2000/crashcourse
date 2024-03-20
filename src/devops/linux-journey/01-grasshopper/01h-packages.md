@@ -21,8 +21,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -59,7 +57,7 @@ Your distribution already comes with pre-approved sources to get packages from a
 
 ---
 
-##  3. `tar` and `gzip`
+## 3. `tar` and `gzip`
 
 Before we get into package installation and the different managers, we need to discuss archiving and compressing files, because you will most likely encounter these when you hunt for software on the internet.
 
@@ -74,6 +72,7 @@ To compress a file down:
 ```sh
 gzip mycoolfile
 ```
+
 To decompress the file:
 
 ```sh

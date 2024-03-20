@@ -4,7 +4,7 @@ title: Intermediate RecyclerView Tutorial with Kotlin
 description: Kodeco - Android & Kotlin > Intermediate RecyclerView Tutorial with Kotlin
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

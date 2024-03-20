@@ -4,7 +4,7 @@ title: ViewPager Tutorial - Getting Started in Kotlin
 description: Kodeco - Android & Kotlin > ViewPager Tutorial - Getting Started in Kotlin
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

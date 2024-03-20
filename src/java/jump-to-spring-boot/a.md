@@ -29,8 +29,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
-
 [[toc]]
 
 ---
@@ -81,7 +79,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 ![마지막으로 <FontIcon icon="iconfont icon-select"/>`["GENERATE"]` 버튼을 누른다.](https://wikidocs.net/images/page/164891/C_A-01_5.png) 
 
-그러면 <FontIcon icon="iconfont icon-file"/>`sbb.zip` 파일이 다운로드 된다. <FontIcon icon="iconfont icon-file"/>`sbb.zip` 파일을 "프로젝트 홈 디렉터리"에 압축해제하자.
+그러면 <FontIcon icon="fas fa-file-zipper"/>`sbb.zip` 파일이 다운로드 된다. <FontIcon icon="fas fa-file-zipper"/>`sbb.zip` 파일을 "프로젝트 홈 디렉터리"에 압축해제하자.
 
 > 프로젝트 홈 디렉터리: 윈도우는 <FontIcon icon="iconfont icon-file"/>`C:/Users/<사용자명>/projects` 디렉터리를 사용하고 맥 OS라면 <FontIcon icon="iconfont icon-file"/>`/Users/<사용자명>/projects`를 사용하자.
 
@@ -490,9 +488,9 @@ public class Answer {
 
 질문에 등록된 댓글 전부를 보여 주기위해 `question.commentList` 루프를 돌며 댓글 내용과 글쓴이, 작성일시, 수정일시를 출력했다. 또 댓글 글쓴이와 로그인한 사용자가 같으면 '수정', '삭제' 링크가 보이도록 했다. 그리고 루프 바깥쪽에는 댓글을 작성할 수 있는 '댓글 추가 ..' 링크도 추가했다.
 
-루프에 의해 반복되는 댓글 각각은 `comment`라는 스타일 클래스를 따로 지정했다. 댓글 영역은 좀 작은 글씨로 보여질 필요가 있기 때문이다. 지금까지 빈 파일로 되어있던 <FontIcon icon="iconfont icon-css"/>`style.css`에 `comment` 클래스에 대한 내용을 다음처럼 추가하도록 하자.
+루프에 의해 반복되는 댓글 각각은 `comment`라는 스타일 클래스를 따로 지정했다. 댓글 영역은 좀 작은 글씨로 보여질 필요가 있기 때문이다. 지금까지 빈 파일로 되어있던 <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`에 `comment` 클래스에 대한 내용을 다음처럼 추가하도록 하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/static`<FontIcon icon="iconfont icon-css"/>`style.css`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/static`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css`
 
 ```css
 .comment {

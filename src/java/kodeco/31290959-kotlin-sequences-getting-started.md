@@ -4,7 +4,7 @@ title: Kotlin Sequences - Getting Started
 description: Kodeco - Android & Kotlin > Kotlin Sequences - Getting Started
 category:
   - Java
-  - 🅺Kotlin
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -25,8 +25,6 @@ head:
 ---
 
 # {{ $frontmatter.title }} 관련
-
-> {{ $frontmatter.description }}
 
 [[toc]]
 

@@ -1,11 +1,13 @@
 ---
 lang: ko-KR
-title: ➕cpp
-description: ➕cpp
+title: cpp
+description: cpp
+icon: fas fa-dice-two
 category:
-  - ➕cpp
+  - cpp
 tag: 
   - crashcourse
+  - c
   - cpp
   - c-plus-plus
   - algorithm
@@ -23,7 +25,7 @@ tag:
 
 ## Table of Contents
 
-::: details ➕Algorithms for Competitive Programming
+::: details Algorithms for Competitive Programming
 
 <ToCLocal basePath="/cpp/algorithm-for-competitive-programming" />
 

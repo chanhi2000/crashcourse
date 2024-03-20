@@ -21,24 +21,24 @@ export const navbarEn = navbar([
     ],
   }, {
     text: '',
-    icon: 'fas fa-dove',
+    icon: 'fa-brands fa-swift',
     children: [
       {
         text: '100 Days of Swift',
         link: '/swift/100-days-of-swift/README.md',
-        icon: 'fas fa-dove'
+        icon: 'fa-brands fa-swift'
       }, {
         text: '100 Days of SwiftUI',
         link: '/swift/100-days-of-swiftui/README.md',
-        icon: 'fas fa-dove'
+        icon: 'fa-brands fa-swift'
       }, {
         text: 'SwiftUI by Example',
         link: '/swift/swiftui-by-example/README.md',
-        icon: 'fas fa-dove'
+        icon: 'fa-brands fa-swift'
       }, {
         text: 'Kodeco - Swift',
         link: '/swift/kodeco/README.md',
-        icon: 'fas fa-dove'
+        icon: 'fa-brands fa-swift'
       }, {
         text: 'OSX 구조를 이해하면서 배우는 Objective-C',
         link: '/swift/shuokai-objc/README.md',
@@ -68,7 +68,7 @@ export const navbarEn = navbar([
       }, {
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
-        icon: 'fa-brands fa-java'
+        icon: 'iconfont icon-java'
       }
     ]
   }, {
@@ -122,11 +122,13 @@ export const navbarEn = navbar([
       }
     ],
   }, {
-    text: '➕',
+    text: '',
+    icon: 'fas fa-dice-two',
     children: [
       {
-        text: '➕Algorithms for Competitive Programming',
+        text: 'Algorithms for Competitive Programming',
         link: '/cpp/algorithms-for-competitive-programming/README.md',
+        icon: 'fas fa-dice-two',
       }
     ]
   }, {
@@ -151,7 +153,8 @@ export const navbarEn = navbar([
       }
     ]
   }, {
-    text: '🏗️',
+    text: '',
+    icon: 'fas fa-cubes-stacked',
     children: [
       {
         text: 'Red Hat Container Tools',
@@ -180,7 +183,8 @@ export const navbarEn = navbar([
       }
     ]
   }, {
-    text: '📍',
+    text: '',
+    icon: 'fas fa-object-group',
     children: [
       {
         text: 'Colt Steele - Mastering CSS Grid',

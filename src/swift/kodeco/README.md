@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Kodeco - Swift 
 description: Kodeco - Swift 
-icon: fas fa-dove
+icon: fa-brands fa-swift
 category:
   - Swift
 tag: 
@@ -23,7 +23,7 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-> {{ $frontmatter.description }}
+
 
 [[toc]]
 
