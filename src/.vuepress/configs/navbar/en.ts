@@ -24,6 +24,10 @@ export const navbarEn = navbar([
     icon: 'fa-brands fa-swift',
     children: [
       {
+        text: 'Learn essential Swift in one hour',
+        icon: 'fa-brands fa-swift',
+        link: '/swift/learn-essential-swift-in-one-hour/README.md',
+      }, {
         text: '100 Days of Swift',
         link: '/swift/100-days-of-swift/README.md',
         icon: 'fa-brands fa-swift'
@@ -69,6 +73,10 @@ export const navbarEn = navbar([
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
         icon: 'iconfont icon-java'
+      }, {
+        text: '요즘 IT 블로그 - Java 관련',
+        link: '/java/yozm/README.md',
+        icon: 'fa-brands fa-java',
       }
     ]
   }, {
@@ -87,6 +95,10 @@ export const navbarEn = navbar([
         text: 'Eloquent Javascript',
         link: '/js/eloquent-javascript/README.md',
         icon: 'fa-brands fa-js'
+      }, {
+        text: '요즘 IT 블로그 - Javascript 관련',
+        link: '/js/yozm/README.md',
+        icon: 'fa-brands fa-node-js'
       }
     ]
   }, {
@@ -180,6 +192,10 @@ export const navbarEn = navbar([
         text: 'Linux Journey',
         link: '/devops/linux-journey/README.md',
         icon: 'fa-brands fa-linux'
+      }, {
+        text: '요즘 IT 블로그 - DevOps 관련',
+        link: '/devops/yozm/README.md',
+        icon: 'fas fa-cubes-stacked',
       }
     ]
   }, {

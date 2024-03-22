@@ -867,7 +867,7 @@ awk -v n=4 '/^### /{c++} c==n' concat.txt
 
 ### Exercise 6
 
-For the input file <FontIcon icon="iconfont icon-file"/> `ruby.md`, replace all occurrences of `ruby` (irrespective of case) with `Ruby`. But, do not replace any matches between \`\`\`ruby and \`\`\` lines (`ruby` in these markers shouldn't be replaced either). Save the output in <FontIcon icon="iconfont icon-file"/> `out.md`.
+For the input file <FontIcon icon="fa-brands fa-markdown"/> `ruby.md`, replace all occurrences of `ruby` (irrespective of case) with `Ruby`. But, do not replace any matches between \`\`\`ruby and \`\`\` lines (`ruby` in these markers shouldn't be replaced either). Save the output in <FontIcon icon="fa-brands fa-markdown"/> `out.md`.
 
 ::: tabs
 

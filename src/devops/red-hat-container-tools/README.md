@@ -4,6 +4,9 @@ title: Red Hat Container Tools
 description: Red Hat Container Tools
 icon: fa-brands fa-redhat
 category:
+  - DevOps
+  - OS
+  - Linux
   - RedHat
 tag: 
   - crashcourse

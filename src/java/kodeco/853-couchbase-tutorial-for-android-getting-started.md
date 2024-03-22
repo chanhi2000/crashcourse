@@ -108,7 +108,7 @@ The database starts in the <FontIcon icon="iconfont icon-folder"/> __assets__ fo
 
 ## Initializing the Database
 
-Open `DataManager.java`. This is a singleton class providing access to the database instance throughout the application. Add the following to the constructor:
+Open <FontIcon icon="fa-brands fa-java"/>`DataManager.java`. This is a singleton class providing access to the database instance throughout the application. Add the following to the constructor:
 
 ```java
 Manager manager = null;
@@ -157,7 +157,7 @@ The image below illustrates the Couchbase system architecture. Notice that a dat
 
 ![diagrams.002](https://koenig-media.raywenderlich.com/uploads/2016/07/diagrams.002.png)
 
-Back in <FontIcon icon="iconfont icon-file"/> `DataManager.java`, add the following below the existing code in the constructor method:
+Back in <FontIcon icon="fa-brands fa-java"/>`DataManager.java`, add the following below the existing code in the constructor method:
 
 ```java
 View.setCompiler(new JavaScriptViewCompiler());
@@ -223,7 +223,7 @@ Data records are called documents, and there are two document types: `question` 
 
 In order to manage the Couchbase documents, you will create POJO (Plain Old Java Object) classes to map the Couchbase documents to Java objects.
 
-Open <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="iconfont icon-file"/>`Question.java` and add the following instance variables:
+Open <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java` and add the following instance variables:
 
 ```java
 private String _id;
@@ -259,7 +259,7 @@ First, you will define the view to index the documents of type __question__. The
 
 Remember that a view index is a list of key-value pairs, sorted by key. The view’s logic is written in the native language of the platform you’re developing on.
 
-Add the following static method to <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="iconfont icon-file"/>`Question.java`:
+Add the following static method to <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java`:
 
 ```java
 public static Query getQuestions(Database database) {
@@ -295,7 +295,7 @@ This method returns a query from a database View. Walking through the code:
 
 With the view now defined, you are ready to run a `Query` on it. The result of a query is an instance of `QueryEnumerator`, which provides a list of `QueryRow` objects, each one describing a single row from the view’s index.
 
-Add the following code to the end of the `onCreate` method in <FontIcon icon="iconfont icon-file"/>`HomeActivity.java`:
+Add the following code to the end of the `onCreate` method in <FontIcon icon="fa-brands fa-java"/>`HomeActivity.java`:
 
 ```java
 // 1
@@ -325,9 +325,9 @@ This code does the following:
 2. Loops over the query rows and deserializes the `Question` model objects.
 3. Connects the questions to the RecyclerView
 
-Notice the call to `ModelHelper.modelForDocument`. Open <FontIcon icon="iconfont icon-file"/> `ModelHelper.java`, and take a look at `modelForDocument`. It uses the Jackson library to convert the properties in the question `QueryRow` object to the `Question` object.
+Notice the call to `ModelHelper.modelForDocument`. Open <FontIcon icon="fa-brands fa-java"/>`ModelHelper.java`, and take a look at `modelForDocument`. It uses the Jackson library to convert the properties in the question `QueryRow` object to the `Question` object.
 
-If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <FontIcon icon="iconfont icon-folder"/>`adapter`/<FontIcon icon="iconfont icon-file"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
+If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <FontIcon icon="iconfont icon-folder"/>`adapter`/<FontIcon icon="fa-brands fa-java"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
 
 ```java
 // 1
@@ -392,7 +392,7 @@ Run the same query using the Listener. The result has the same questions you see
 
 ## Home Activity → Question Activity
 
-Head back to <FontIcon icon="iconfont icon-file"/> `HomeActivity.java` and add the following code to the end of `onCreate`:
+Head back to <FontIcon icon="fa-brands fa-java"/>`HomeActivity.java` and add the following code to the end of `onCreate`:
 
 ```java
 adapter.setOnItemClickListener(new HomeAdapter.OnItemClickListener() {
@@ -412,7 +412,6 @@ Build and run. Click on any row to open the question activity. The Question acti
 
 ![image04](https://koenig-media.raywenderlich.com/uploads/2016/07/image04.gif =240x)
 
-
 ---
 
 ## The Question Screen
@@ -421,7 +420,7 @@ Your first task is to load the full question document from the database and use 
 
 ### Loading the Question Data
 
-Open <FontIcon icon="iconfont icon-file"/> `QuestionActivity.java` and paste the following at the end of `onCreate`:
+Open <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java` and paste the following at the end of `onCreate`:
 
 ```java
 // 1 
@@ -451,9 +450,9 @@ Build and run your app, and click on a question to display each question detail:
 
 The data modeling diagram lists the `options` property as an array of strings. Those are the possible choices shown to the user.
 
-Add the following method to<FontIcon icon="iconfont icon-file"/> `QuestionActivity.java:`
+Add the following method to<FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java:`
 
-To display the choices, add the following to the end of onCreate in <FontIcon icon="iconfont icon-file"/> `QuestionActivity.java`:
+To display the choices, add the following to the end of onCreate in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 mQuestionOptions = (GridView) findViewById(R.id.question_options);
@@ -485,7 +484,7 @@ In the next section you’ll add a Submit button to save your answer to a new do
 
 User answers will be stored in the database as Answer documents. First, you’ll create an Answer model class.
 
-Create a new file <FontIcon icon="iconfont icon-folder"/> `model/Answer.java` and add to it the following instance variables:
+Create a new file <FontIcon icon="iconfont icon-folder"/>`model/`<FontIcon icon="fa-brands fa-java"/>`Answer.java` and add to it the following instance variables:
 
 ```java
 private String _id;
@@ -499,7 +498,7 @@ These property names match the ones on the data modeling diagram. Next, add a ge
 
 ![image06](https://koenig-media.raywenderlich.com/uploads/2016/07/image06-1.gif)
 
-To create Answer instances, add the following constructor in <FontIcon icon="iconfont icon-folder"/> `mode/Answer.java`:
+To create Answer instances, add the following constructor in <FontIcon icon="iconfont icon-folder"/>`mode/`<FontIcon icon="fa-brands fa-java"/>`Answer.java`:
 
 ```java
 public Answer(String question_id, String type, String user_answer) {
@@ -550,7 +549,7 @@ One more feature to add before you dive into synchronization is to display the i
 
 ### Using Attachments
 
-Add the following code to the end of `onCreate` in <FontIcon icon="iconfont icon-file"/> `QuestionActivity.java`:
+Add the following code to the end of `onCreate` in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 Revision revision = document.getCurrentRevision();
@@ -611,7 +610,7 @@ Now that the Sync Gateway is running, you’ll add some code to replicate the da
 
 ### Synchronization
 
-Set up the push and pull replications by adding the following code to the end of the constructor in <FontIcon icon="iconfont icon-file"/>`DataManager.java`.
+Set up the push and pull replications by adding the following code to the end of the constructor in <FontIcon icon="fa-brands fa-java"/>`DataManager.java`.
 
 ```java
 // 1
@@ -681,7 +680,7 @@ The requirements for this query are:
 
 With that in mind, you can emit the `question_id` and `user_answer` fields as a compound key with a null value, while using a reduce function to count the number of emitted rows.
 
-Add the following class method to <FontIcon icon="iconfont icon-file"/> `Answer.java`:
+Add the following class method to <FontIcon icon="fa-brands fa-java"/>`Answer.java`:
 
 ```java
 public static Query getAnswersForQuestion(Database database, String questionId) {
@@ -722,7 +721,7 @@ You can read more about `setStartKey()` and `setEndKey()` in the Couchbase [docu
 
 ## Run the Query
 
-Time to run the query and use the results. Add the following method to <FontIcon icon="iconfont icon-file"/>`QuestionActivity.java`:
+Time to run the query and use the results. Add the following method to <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 private Map<String,Integer> getAnswerCounts(QueryEnumerator answers) {
@@ -772,7 +771,7 @@ This passes the `Map` returned from `getAnswerCounts()` into the GridView adapte
 
 Next, you’ll add the method to set up a LiveQuery to keep the answer counts updated. A LiveQuery is a great way to keep your interface updated with database changes. It automatically refreshes any time Database changes affect your query.
 
-In <FontIcon icon="iconfont icon-file"/>`QuestionActivity.java`, add the following method:
+In <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`, add the following method:
 
 ```java
 private void showAnswers() {
@@ -812,7 +811,7 @@ Next, you use the previously created `getAnswerCounts` to return the map of answ
 
 `Activity.runOnUiThread` updates the GridView on the UI thread.
 
-Add the following line to the end of `onCreate` in <FontIcon icon="iconfont icon-file"/>`QuestionActivity.java`.
+Add the following line to the end of `onCreate` in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`.
 
 ```java
 showAnswers();

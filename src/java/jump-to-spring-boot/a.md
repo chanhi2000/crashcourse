@@ -105,7 +105,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 ::: info SDK 오류
 
-.<FontIcon icon="iconfont icon-folder"/>`com/mysite/sbb/`<FontIcon icon="iconfont icon-java"/>`SbbApplication.java` 파일을 열었을 때 오류가 발생한다면 SDK가 지정되지 않은 경우이므로 에디터 창 상단에 표시되는 "SDK" 설정을 통해 설치된 자바 SDK를 지정하자.
+.<FontIcon icon="iconfont icon-folder"/>`com/mysite/sbb/`<FontIcon icon="fa-brands fa-java"/>`SbbApplication.java` 파일을 열었을 때 오류가 발생한다면 SDK가 지정되지 않은 경우이므로 에디터 창 상단에 표시되는 "SDK" 설정을 통해 설치된 자바 SDK를 지정하자.
 
 :::
 
@@ -164,7 +164,7 @@ spring.thymeleaf.prefix=file:src/main/resources/templates/
 
 ![다음과 같이 그레이들 창에서 <FontIcon icon="iconfont icon-select"/>`[sbb -> Tasks -> build -> bootJar]` 을 선택하자.](https://wikidocs.net/images/page/164891/O_A-01_12.png)
 
-그리고 우측 마우스 버튼을 눌러 <FontIcon icon="iconfont icon-select"/>`Run sbb [bootJar]`를 선택한다. 그러면 <FontIcon icon="iconfont icon-folder"/>`build/libs/` 디렉터리에 <FontIcon icon="iconfont icon-java"/>`sbb-0.0.1-SNAPSHOT.jar`와 같은 배포 파일이 생성된다.
+그리고 우측 마우스 버튼을 눌러 <FontIcon icon="iconfont icon-select"/>`Run sbb [bootJar]`를 선택한다. 그러면 <FontIcon icon="iconfont icon-folder"/>`build/libs/` 디렉터리에 <FontIcon icon="fa-brands fa-java"/>`sbb-0.0.1-SNAPSHOT.jar`와 같은 배포 파일이 생성된다.
 
 ---
 
@@ -194,9 +194,9 @@ AWS 라이트세일 인스턴스는 3달간 무료로 사용할 수 있고 이�
 
 이 책에 사용한 `import jakarta.*` 패키지를 모두 `import javax.*` 패키지를 사용하도록 변경해야 한다. 즉, `jakarta`로 되어 있는 `import` 문은 전부 `javax`로 교체하여 사용해야 한다.
 
-### <FontIcon icon="iconfont icon-java"/>`SecurityConfig.java`
+### <FontIcon icon="fa-brands fa-java"/>`SecurityConfig.java`
 
-스프링부트 2.x 버전의 스프링 시큐리티 설정은 다음의 <FontIcon icon="iconfont icon-java"/>`SecurityCofnig.java` 파일로 대체해야 한다. `antMatchers`, `ignoringAntMatchers` 등의 URL 패턴 매치하는 부분들이 변경되었다.
+스프링부트 2.x 버전의 스프링 시큐리티 설정은 다음의 <FontIcon icon="fa-brands fa-java"/>`SecurityCofnig.java` 파일로 대체해야 한다. `antMatchers`, `ignoringAntMatchers` 등의 URL 패턴 매치하는 부분들이 변경되었다.
 
 ```java
 package com.mysite.sbb;
@@ -287,7 +287,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 댓글 작성을 위해서 가장 먼저 준비해야 할 것은 댓글 모델이다.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-java"/>`Comment.java`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -355,7 +355,7 @@ public class Comment {
 
 다음과 같이 `Comment` 모델에 `getQuestionId` 메서드를 추가하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-java"/>`Comment.java`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
 
 ```java{12-20}
 package com.mysite.sbb.comment;
@@ -387,7 +387,7 @@ public class Comment {
 
 그리고 질문에서 댓글을 참조하기 위해 다음과 같이 질문 모델을 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/question`<FontIcon icon="iconfont icon-java"/>`Question.java`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/question`<FontIcon icon="fa-brands fa-java"/>`Question.java`
 
 ```java{4,13-14}
 package com.mysite.sbb.question;
@@ -413,7 +413,7 @@ public class Question {
 
 마찬가지로 답변에서 댓글을 참조하기 위해 다음과 같이 답변 모델을 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/answer/ `<FontIcon icon="iconfont icon-java"/>`Answer.java`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/answer/ `<FontIcon icon="fa-brands fa-java"/>`Answer.java`
 
 ```java{4,13-14}
 package com.mysite.sbb.answer;
@@ -443,7 +443,7 @@ public class Answer {
 
 질문 상세 템플릿을 다음과 같이 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>` C:\projects\mysite\templates\pybo`<FontIcon icon="iconfont icon-page"/>`question_detail.html`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>` C:\projects\mysite\templates\pybo`<FontIcon icon="fa-brands fa-html"/>`question_detail.html`
 
 ```html{13-32}
 <html layout:decorate="~{layout}">
@@ -501,7 +501,7 @@ public class Answer {
 
 `comment` 클래스는 댓글 각각의 상단에 점선을 추가하고 글꼴 크기를 `0.7em`으로 설정하는 스타일이다.
 
-#### <FontIcon icon="iconfont icon-java"/>`CommentRepository`
+#### <FontIcon icon="fa-brands fa-java"/>`CommentRepository`
 
 댓글 데이터를 처리하기 위해 다음과 같이 `Comment` 리포지터리를 작성하자.
 
@@ -516,7 +516,7 @@ public interface CommentRepository extends JpaRepository<Comment, Integer> {
 }
 ```
 
-#### <FontIcon icon="iconfont icon-java"/>`CommentService`
+#### <FontIcon icon="fa-brands fa-java"/>`CommentService`
 
 그리고 리포지터리를 사용하여 댓글을 조회하고 생성, 수정, 삭제하는 서비스를 다음과 같이 만들자.
 
@@ -569,7 +569,7 @@ public class CommentService {
 
 `CommentService` 클래스에 생성(`create`), 조회(`getComment`), 수정(`modify`), 삭제(`delete`) 메서드를 생성했다.
 
-#### <FontIcon icon="iconfont icon-java"/>`CommentForm`
+#### <FontIcon icon="fa-brands fa-java"/>`CommentForm`
 
 그리고 댓글 작성시 필요한 `CommentForm`을 다음과 같이 작성하자.
 
@@ -593,7 +593,7 @@ public class CommentForm {
 
 `CommentForm`에 필요한 속성은 "내용(`content`)" 하나 뿐이다.
 
-#### <FontIcon icon="iconfont icon-java"/>`CommentController`
+#### <FontIcon icon="fa-brands fa-java"/>`CommentController`
 
 그리고 질문 댓글을 작성, 수정, 삭제하기 위한 댓글 컨트롤러를 다음과 같이 작성하자.
 
@@ -712,13 +712,13 @@ public class CommentController {
 }
 ```
 
-질문을 작성, 수정, 삭제하는 것과 동일한 방법이라서 각각의 메서드를 따로 설명하지는 않겠다. 다만 댓글을 작성하기 위해 <FontIcon icon="iconfont icon-page"/>`comment_form.html` 템플릿이 필요하고 댓글을 작성, 수정, 삭제한 후에는 해당 질문의 상세 페이지로 이동하기 위해 질문의 id 값이 필요하여 `c.getQuestionId()`를 사용했다는 점에 유의하자.
+질문을 작성, 수정, 삭제하는 것과 동일한 방법이라서 각각의 메서드를 따로 설명하지는 않겠다. 다만 댓글을 작성하기 위해 <FontIcon icon="fa-brands fa-html"/>`comment_form.html` 템플릿이 필요하고 댓글을 작성, 수정, 삭제한 후에는 해당 질문의 상세 페이지로 이동하기 위해 질문의 id 값이 필요하여 `c.getQuestionId()`를 사용했다는 점에 유의하자.
 
-#### <FontIcon icon="iconfont icon-page"/>`comment_form.html`
+#### <FontIcon icon="fa-brands fa-html"/>`comment_form.html`
 
 그리고 댓글 작성과 수정시 필요한 `comment_form` 템플릿을 다음과 같이 작성하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/templates/`<FontIcon icon="iconfont icon-page "/>`comment_form.html`
+> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/templates/`<FontIcon icon="fa-brands fa-html "/>`comment_form.html`
 
 ```html
 <html layout:decorate="~{layout}">

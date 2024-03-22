@@ -20,14 +20,14 @@ head:
     - property: og:description
       content: 100 Days of SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui.html
+      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui/
 ---
 
 # {{ $frontmatter.title }} 관련
 
+[[toc]]
 
-
-<VidStack src="youtube/AWZzEGwkenQ" />[[toc]]
+<VidStack src="youtube/AWZzEGwkenQ" />
 
 ---
 
@@ -37,7 +37,7 @@ head:
   "desc": "100 Days of SwiftUI",
   "link": "https://www.hackingwithswift.com/100/swiftui",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
-  "background": "rgba(174,10,10,0.2)"
+  "background": "rgba(54,94,226,0.2)"
 }
 ```
 

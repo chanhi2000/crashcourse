@@ -59,7 +59,7 @@ So let's get into the example:
 
 ### Implementation
 
-As usual, let's get started with our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs` file. You will notice here we set up a buffer, similar to the [WebAssembly Linear Memory example](https://wasmbyexample.dev/example-redirect?exampleName=webassembly-linear-memory). By doing this, Javascript can read the values placed into the buffer later. Please be sure to read the comments in the following code examples, and be sure to follow links or look at previous examples if something does not make sense. Let's get into it:
+As usual, let's get started with our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` file. You will notice here we set up a buffer, similar to the [WebAssembly Linear Memory example](https://wasmbyexample.dev/example-redirect?exampleName=webassembly-linear-memory). By doing this, Javascript can read the values placed into the buffer later. Please be sure to read the comments in the following code examples, and be sure to follow links or look at previous examples if something does not make sense. Let's get into it:
 
 ```rs
 // The wasm-pack uses wasm-bindgen to build and generate JavaScript binding file.
@@ -236,7 +236,7 @@ const runWasm = async () => {
 runWasm();
 ```
 
-Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fas fa-file-code"/>`index.html`. And let's be sure to add a canvas element as well! 
+Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fa-brands fa-html"/>`index.html`. And let's be sure to add a canvas element as well! 
 
 ::: info Random tip
 

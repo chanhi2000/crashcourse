@@ -148,7 +148,7 @@ The course has 6 concept lessons and 6 coding lessons.
 
 For the coding lessons, we are using the Azure OpenAI Service. You will need access to the Azure OpenAI service and an API key to run this code. You can apply to get access by [completing this application](https://azure.microsoft.com/products/ai-services/openai-service).
 
-While you wait for your application to be processed, each coding lesson also includes a <FontIcon icon="iconfont icon-page"/>`README.md` file where you can view the code and outputs.
+While you wait for your application to be processed, each coding lesson also includes a <FontIcon icon="fa-brands fa-markdown"/>`README.md` file where you can view the code and outputs.
 
 ### Using the Azure OpenAI Service for the First Time
 

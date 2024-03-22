@@ -59,6 +59,13 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-swift',
       children: [ '/swift/README.md' ]
     }, {
+      text: 'Learn essential Swift in one hour',
+      collapsible: true,
+      icon: 'fa-brands fa-swift',
+      children: [
+        '/swift/learn-essential-swift-in-one-hour/README.md',
+      ]
+    }, {
       text: '100 Days of Swift',
       collapsible: true,
       icon: 'fa-brands fa-swift',
@@ -461,7 +468,15 @@ export const sidebarEn = sidebar({
         '/java/freecodecamp-quarkus-jpastreamer/04.md',
         '/java/freecodecamp-quarkus-jpastreamer/05.md',
       ]
-    },
+    }, {
+      text: '요즘 IT 블로그 - Java 관련',
+      collapsible: true,
+      icon: 'fa-brands fa-java',
+      children: [
+        '/java/yozm/README.md',
+        '/java/yozm/2499.md',
+      ]
+    }
   ], '/js/': [
     {
       text: 'JavaScript',
@@ -533,6 +548,16 @@ export const sidebarEn = sidebar({
         '/js/eloquent-javascript/19.md',
         '/js/eloquent-javascript/20.md',
         '/js/eloquent-javascript/21.md',
+      ]
+    }, {
+      text: '요즘 IT 블로그 - JavaScript 관련',
+      collapsible: true,
+      icon: 'fa-brands fa-node-js',
+      children: [
+        '/js/yozm/README.md',
+        '/js/yozm/2493.md',
+        '/js/yozm/2504.md',
+        '/js/yozm/2505.md',
       ]
     }
   ], '/python/': [
@@ -820,8 +845,9 @@ export const sidebarEn = sidebar({
         '/devops/freecodecamp-gitlab-ci/5.md',
       ]
     }, {
-      text: '☸DigitalOcean - Kubernetes',
+      text: 'DigitalOcean - Kubernetes',
       collapsible: true,
+      icon: 'fas fa-dharmachakra',
       children: [
         '/devops/digitalocean-kubernetes/README.md',
         '/devops/digitalocean-kubernetes/2022/20221216-how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes.md',
@@ -897,7 +923,16 @@ export const sidebarEn = sidebar({
         '/devops/linux-journey/03-networking-nomad/03f-troubleshooting.md',
         '/devops/linux-journey/03-networking-nomad/03g-dns.md'
       ]
-    }, 
+    }, {
+      text: '요즘 IT 블로그 - DevOps 관련',
+      collapsible: true,
+      icon: 'fas fa-cubes-stacked',
+      children: [
+        '/devops/yozm/README.md',
+        '/devops/yozm/2464.md',
+        '/devops/yozm/2503.md',
+      ]
+    }
   ], '/misc/': [
     {
       text: 'Misc.',

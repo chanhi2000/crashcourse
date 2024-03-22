@@ -23,8 +23,6 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
-
-
 [[toc]]
 
 <!-- https://www.kodeco.com/library?domain_ids%5B%5D=1&domain_ids%5B%5D=8&content_types%5B%5D=article -->

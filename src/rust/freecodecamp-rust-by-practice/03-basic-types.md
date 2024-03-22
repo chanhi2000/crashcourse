@@ -135,7 +135,7 @@ Rust also has two primitive types for _floating-point numbers_, which are number
 
 Here’s an example that shows floating-point numbers in action:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -151,7 +151,7 @@ Floating-point numbers are represented according to the IEEE-754 standard. The `
 
 Rust supports the basic mathematical operations you’d expect for all the number types: addition, subtraction, multiplication, division, and remainder. Integer division truncates toward zero to the nearest integer. The following code shows how you’d use each numeric operation in a `let` statement:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -179,7 +179,7 @@ Each expression in these statements uses a mathematical operator and evaluates t
 
 As in most other programming languages, a Boolean type in Rust has two possible values: `true` and `false`. Booleans are one byte in size. The Boolean type in Rust is specified using `bool`. For example:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -194,7 +194,7 @@ The main way to use Boolean values is through conditionals, such as an `if` expr
 
 Rust’s `char` type is the language’s most primitive alphabetic type. Here are some examples of declaring `char` values:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -216,7 +216,7 @@ A _tuple_ is a general way of grouping together a number of values with a variet
 
 We create a tuple by writing a comma-separated list of values inside parentheses. Each position in the tuple has a type, and the types of the different values in the tuple don’t have to be the same. We’ve added optional type annotations in this example:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -226,7 +226,7 @@ fn main() {
 
 The variable `tup` binds to the entire tuple because a tuple is considered a single compound element. To get the individual values out of a tuple, we can use pattern matching to destructure a tuple value, like this:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -242,7 +242,7 @@ This program first creates a tuple and binds it to the variable `tup`. It then u
 
 We can also access a tuple element directly by using a period (`.`) followed by the index of the value we want to access. For example:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -267,7 +267,7 @@ Another way to have a collection of multiple values is with an _array_. Unlike a
 
 We write the values in an array as a comma-separated list inside square brackets:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ```rs
 fn main() {
@@ -304,21 +304,24 @@ The array named `a` will contain `5` elements that will all be set to the value 
 
 An array is a single chunk of memory of a known, fixed size that can be allocated on the stack. You can access elements of an array using indexing, like this:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
+```rs
 fn main() {
     let a = [1, 2, 3, 4, 5];
 
     let first = a[0];
     let second = a[1];
 }
+```
+
 In this example, the variable named `first` will get the value `1` because that is the value at index `[0]` in the array. The variable named `second` will get the value `2` from index `[1]` in the array.
 
 ##### Invalid Array Element Access
 
 Let’s see what happens if you try to access an element of an array that is past the end of the array. Say you run this code, similar to the guessing game in Chapter 2, to get an array index from the user:
 
-Filename: <FontIcon icon="iconfont icon-file"/>`src/main.rs`
+Filename: <FontIcon icon="fa-brands fa-rust"/>`src/main.rs`
 
 ![This code panics! x80](https://doc.rust-lang.org/book/ch00-00-introduction.html#ferris)
 
@@ -2221,7 +2224,7 @@ fn main() {
 
 :::
 
-::: note
+::: tip Note
 
 You can find the solutions [here (<FontIcon icon="iconfont icon-github"/>`sunface/rust-by-practice`)](https://github.com/sunface/rust-by-practice) (under the solutions path), but only use it when you need it
 

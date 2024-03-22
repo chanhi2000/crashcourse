@@ -5,7 +5,7 @@ description: Swift
 icon: fa-brands fa-swift
 category: 
   - Swift
-  - 🏛Objective-C
+  - Objective-C
 tag: 
   - crashcourse
   - swift
@@ -25,6 +25,12 @@ tag:
 ---
 
 ## Table of Contents
+
+::: details Learn essential Swift in one hour
+
+<ToCLocal basePath="/swift/learn-essential-swift-in-one-hour" />
+
+:::
 
 ::: details 100 Days of Swift
 

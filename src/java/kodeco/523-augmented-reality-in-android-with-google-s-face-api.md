@@ -136,7 +136,7 @@ Let’s take a moment to get familiar with how they work.
 
 `FaceActivity` defines the app’s only activity, and along with handling touch events, also requests for permission to access the device’s camera at runtime (applies to Android 6.0 and above). FaceActivity also creates two objects which FaceSpotter depends on, namely __CameraSource__ and __FaceDetector__.
 
-Open <FontIcon icon="iconfont icon-java"/> `FaceActivity.java` and look for the `createCameraSource` method:
+Open <FontIcon icon="fa-brands fa-java"/>`FaceActivity.java` and look for the `createCameraSource` method:
 
 ```java
 private void createCameraSource() {
@@ -249,7 +249,7 @@ With the intro taken care of, it’s time to detect some faces!
 
 First you add a view into the overlay to draw detected face data.
 
-Open <FontIcon icon="iconfont icon-java"/> `FaceGraphic.java`. You may have noticed the declaration for the instance variable `mFace` is marked with the keyword `volatile`. `mFace` stores face data sent from `FaceTracker`, and may be written to by many threads. Marking it as `volatile` guarantees that you always get the result of the latest “write” any time you read its value. This is important since face data will change very quickly.
+Open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java`. You may have noticed the declaration for the instance variable `mFace` is marked with the keyword `volatile`. `mFace` stores face data sent from `FaceTracker`, and may be written to by many threads. Marking it as `volatile` guarantees that you always get the result of the latest “write” any time you read its value. This is important since face data will change very quickly.
 
 Delete the existing `draw()` and add the following to `FaceGraphic`:
 
@@ -303,7 +303,7 @@ Here’s what that code does:
 
 The face detector in `FaceActivity` sends information about faces it detects in the camera’s data stream to its assigned multiprocessor. For each detected face, the multiprocessor spawns a new `FaceTracker` instance.
 
-Add the following methods to  <FontIcon icon="iconfont icon-java"/> `FaceTracker.java` after the constructor:
+Add the following methods to  <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` after the constructor:
 
 ```java
 // 1
@@ -364,7 +364,7 @@ This information will be saved in a `FaceData` object, instead of the provided `
 
 For facial landmarks, “left” and “right” refer to the subject’s left and right. Viewed through the front camera, the subject’s right eye will be closer to the right side of the screen, but through the rear camera, it’ll be closer to the left.
 
-Open <FontIcon icon="iconfont icon-java"/> `FaceTracker.java` and modify `onUpdate()` as shown below. The call to `update()` will momentarily cause a build error while you are in the process of modifying the app to use the `FaceData` model and you will fix it soon.
+Open <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` and modify `onUpdate()` as shown below. The call to `update()` will momentarily cause a build error while you are in the process of modifying the app to use the `FaceData` model and you will fix it soon.
 
 ```java
 @Override
@@ -399,7 +399,7 @@ Note that you’re now passing a `FaceData` instance to `FaceGraphic`’s `updat
 
 This allows you to specify the face information passed to `FaceTracker`, which in turn lets you use some math trickery based on the last known locations of facial landmarks when the faces are moving too quickly to approximate their current locations. You use `mPreviousLandmarkPositions` and the `getLandmarkPosition` and `updatePreviousLandmarkPositions` methods for this purpose.
 
-Now open <FontIcon icon="iconfont icon-java"/> `FaceGraphic.java`.
+Now open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java`.
 
 First, since it’s now receiving a `FaceData` value instead of a `Face` value from `FaceTracker`, you need to change a key instance variable declaration from:
 
@@ -772,7 +772,7 @@ Pronounced “Oiler” and named after mathematician [Leonhard Euler](https://en
 1. The __Euler y angle__, which is its angle rotation around the y-axis. When you shake your head to say “no” as shown below, you’re rotating your head back and forth around the y-axis. This angle is detected only if the detector is set to `ACCURATE_MODE`.
 2. The __Euler z angle__, which measures its rotation around the z-axis. When you bobble your head from side to side as illustrated below, you’re rotating your head back and forth around the z-axis.
 
-Open <FontIcon icon="iconfont icon-java"/>`FaceTracker.java` and add support for Euler angles by adding these lines to its `onUpdate()` method, after the call to `updatePreviousLandmarkPositions`:
+Open <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` and add support for Euler angles by adding these lines to its `onUpdate()` method, after the call to `updatePreviousLandmarkPositions`:
 
 ```java
 // Get head angles.
@@ -782,7 +782,7 @@ mFaceData.setEulerZ(face.getEulerZ());
 
 You’ll make use of the Euler z angle to modify `FaceGraphic` so that it draws a hat on any face whose Euler z angle is greater than 20 degrees to one side.
 
-Open <FontIcon icon="iconfont icon-java"/>`FaceGraphic.java` and add the following to the end of draw:
+Open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java` and add the following to the end of draw:
 
 ```java
 // Head tilt

@@ -202,7 +202,7 @@ Before explaining the problem statement, here's an example of markdown headers a
     * [Summary](#summary-1)
 ```
 
-For the input file <FontIcon icon="iconfont icon-file"/> `gawk.md`, construct a Table of Content section as per the details described below:
+For the input file <FontIcon icon="fa-brands fa-markdown"/> `gawk.md`, construct a Table of Content section as per the details described below:
 
 - Identify all header lines
   - there are two types of header lines, one starting with `#` and the other starting with `##`
@@ -216,7 +216,7 @@ For the input file <FontIcon icon="iconfont icon-file"/> `gawk.md`, construct a 
   - surround the original content with `[]` and then append the string obtained from the previous step
 - Note that the output should have only the converted headers, all other input lines should not be present
 
-The script file should be named as <FontIcon icon="iconfont icon-file"/> `toc.awk` and save the output in <FontIcon icon="iconfont icon-file"/> `out.md`.
+The script file should be named as <FontIcon icon="iconfont icon-file"/> `toc.awk` and save the output in <FontIcon icon="fa-brands fa-markdown"/> `out.md`.
 
 ::: tabs
 

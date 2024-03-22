@@ -19,14 +19,14 @@ head:
     - property: og:description
       content: 100 Days of Swift
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift
+      content: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swift/
 ---
 
 # {{ $frontmatter.title }} 관련
 
+[[toc]]
 
-
-<VidStack src="youtube/RB5nWzdl-b8" />[[toc]]
+<VidStack src="youtube/RB5nWzdl-b8" />
 
 ---
 

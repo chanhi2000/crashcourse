@@ -4,7 +4,7 @@ title: Documenting Kotlin Code for Android Using KDoc and Dokka
 description: Kodeco - Android & Kotlin > Documenting Kotlin Code for Android Using KDoc and Dokka
 category:
   - Java
-  - 
+  - Kotlin
   - Android
   - Gradle
 tag: 
@@ -261,7 +261,7 @@ Select the <FontIcon icon="iconfont icon-select"/>`[Project]` view in Android St
 
 ![Android studio project view selection](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-12.29.59-AM-465x500.png)
 
-Open <FontIcon icon="iconfont icon-page"/>`module.md` in the <FontIcon icon="iconfont icon-folder"/>`app` module. Replace the contents of the file (the `TODO:4` line) with the following:
+Open <FontIcon icon="fa-brands fa-markdown"/>`module.md` in the <FontIcon icon="iconfont icon-folder"/>`app` module. Replace the contents of the file (the `TODO:4` line) with the following:
 
 ```md
 # Module notktx-app
@@ -287,7 +287,7 @@ This accounts for changes you’ll make later in this article.
 
 ::: tip Note
 
-The name of the file doesn’t have to be <FontIcon icon="iconfont icon-page"/>`module.md`. Also, in this example, the name of the module used in the first-level heading differs from the actual name.
+The name of the file doesn’t have to be <FontIcon icon="fa-brands fa-markdown"/>`module.md`. Also, in this example, the name of the module used in the first-level heading differs from the actual name.
 
 :::
 
@@ -337,7 +337,7 @@ Make sure you either open the starter project or the final project at this time.
 
 ::: tip Note
 
-Dokka’s [official documentation](https://kotlin.github.io/dokka/1.6.10/user_guide/base-specific/frontend/#prerequisites) page suggests using a web server to see the HTML format correctly. If you directly open <FontIcon icon="iconfont icon-page"/>`index.html` file, Dokka with fail to load things like the navigation pane and search bars. You’ll use the built-in server provided by `IntelliJ` in this article.
+Dokka’s [official documentation](https://kotlin.github.io/dokka/1.6.10/user_guide/base-specific/frontend/#prerequisites) page suggests using a web server to see the HTML format correctly. If you directly open <FontIcon icon="fa-brands fa-html"/>`index.html` file, Dokka with fail to load things like the navigation pane and search bars. You’ll use the built-in server provided by `IntelliJ` in this article.
 
 :::
 
@@ -368,7 +368,7 @@ See all the gradle tasks added by Dokka by clicking on the gradle tab at the top
 
 ![Android Studio documentation gradle tasks](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.15.31-PM-212x500.png)
 
-Right-click <FontIcon icon="iconfont icon-page"/>`index.html` in <FontIcon icon="iconfont icon-folder"/>`build/dokka/html` inside the `app` module and select <FontIcon icon="iconfont icon-select"/>`[Open in ▸ Browser ▸ {Whatever browser you want}]`. This will use IntelliJ’s built-in server to load the file. The generated documentation will look like this:
+Right-click <FontIcon icon="fa-brands fa-html"/>`index.html` in <FontIcon icon="iconfont icon-folder"/>`build/dokka/html` inside the `app` module and select <FontIcon icon="iconfont icon-select"/>`[Open in ▸ Browser ▸ {Whatever browser you want}]`. This will use IntelliJ’s built-in server to load the file. The generated documentation will look like this:
 
 ![Dokka generated HTML for module](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.19.49-PM-650x431.png)
 
@@ -614,7 +614,7 @@ Run `./gradlew clean dokkaHtmlMultiModule` to see the changes:
 
 ### Customizing Module and Package Pages
 
-Remember the changes you did in the __Documenting Modules and Packages__ section? It’s time to start using those custom <FontIcon icon="iconfont icon-page"/>`module.md` files from each of the modules.
+Remember the changes you did in the __Documenting Modules and Packages__ section? It’s time to start using those custom <FontIcon icon="fa-brands fa-markdown"/>`module.md` files from each of the modules.
 
 Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and add `includes.from("module.md")` below `includeNonPublic.set(true)` for both the custom tasks. It will look something like this:
 
@@ -629,7 +629,7 @@ named("main") {
 }
 ```
 
-If you try generating the documentation now, the custom markdown for packages will work, but the one for modules won’t. This is because the actual module names and the ones used in <FontIcon icon="iconfont icon-page"/>`module.md` don’t match.
+If you try generating the documentation now, the custom markdown for packages will work, but the one for modules won’t. This is because the actual module names and the ones used in <FontIcon icon="fa-brands fa-markdown"/>`module.md` don’t match.
 
 To fix this, you need to customize the module names in the documentation. Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` and add the following snippet in `tasks.named("dokkaHtml")` and `tasks.named("dokkaHtmlPartial")`:
 

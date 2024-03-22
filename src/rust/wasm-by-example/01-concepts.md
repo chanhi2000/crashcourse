@@ -108,13 +108,13 @@ crate-type = ["cdylib"]
 wasm-bindgen = "0.2"
 ```
 
-Lastly, let's take a quick peek inside at the <FontIcon icon="iconfont icon-folder"/>`src/` directory. Since we are building a library (`lib`) to be used by a larger application, __we need to rename the <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`main.rs` to <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs`.__ Go ahead and do that now before moving forward.
+Lastly, let's take a quick peek inside at the <FontIcon icon="iconfont icon-folder"/>`src/` directory. Since we are building a library (`lib`) to be used by a larger application, __we need to rename the <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`main.rs` to <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`.__ Go ahead and do that now before moving forward.
 
 Now that we have our project and environment setup, let's go ahead and start the actual implementation.
 
 ### Implementation
 
-Let's go ahead and replace <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs` with the required `use` call as mentioned in the quickstart, as well as our add function:
+Let's go ahead and replace <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` with the required `use` call as mentioned in the quickstart, as well as our add function:
 
 ```rs
 // The wasm-pack uses wasm-bindgen to build and generate JavaScript binding file.
@@ -162,7 +162,7 @@ const runWasm = async () => {
 runWasm();
 ```
 
-Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fas fa-file-code"/>`index.html`:
+Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fa-brands fa-html"/>`index.html`:
 
 ```html
 <!DOCTYPE html>
@@ -222,7 +222,7 @@ In our [Hello World Example](#hello-world), we called a function exported from W
 
 If you haven't done so already, you should set up your project following the steps laid out in the [Hello World Example](#hello-world) example.
 
-First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs` file:
+First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` file:
 
 ```rs
 // The wasm-pack uses wasm-bindgen to build and generate JavaScript binding file.
@@ -281,7 +281,7 @@ const runWasm = async () => {
 runWasm();
 ```
 
-Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fas fa-file-code"/>`index.html`. And you should get something similar to the demo ([Source Code](https://wasmbyexample.dev/source-redirect?path=examples/exports/demo/rust)) below!
+Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fa-brands fa-htmlcode"/>`index.html`. And you should get something similar to the demo ([Source Code](https://wasmbyexample.dev/source-redirect?path=examples/exports/demo/rust)) below!
 
 ### Demo
 
@@ -336,7 +336,7 @@ Let's see how we can use linear memory:
 
 ### Implementation
 
-First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs` file:
+First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` file:
 
 ```rs
 // The wasm-pack uses wasm-bindgen to build and generate JavaScript binding file.
@@ -442,7 +442,7 @@ const runWasm = async () => {
 runWasm();
 ```
 
-Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="iconfont icon-page"/>`index.html`. And you should get something similar to the demo ([Source Code](https://wasmbyexample.dev/source-redirect?path=examples/webassembly-linear-memory/demo/rust)) below!
+Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fa-brands fa-html"/>`index.html`. And you should get something similar to the demo ([Source Code](https://wasmbyexample.dev/source-redirect?path=examples/webassembly-linear-memory/demo/rust)) below!
 
 ### Demo
 
@@ -503,7 +503,7 @@ In this example, we will import and implement a simple `console.log` which is ca
 
 ### Implementation
 
-First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fas fa-gear"/>`lib.rs` file:
+First, let's add the following to our <FontIcon icon="iconfont icon-folder"/>`src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` file:
 
 ```rs
 // The wasm-pack uses wasm-bindgen to build and generate JavaScript binding file.
@@ -555,7 +555,7 @@ const runWasm = async () => {
 runWasm();
 ```
 
-Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="iconfont icon-page"/>`index.html`. And you should get something similar to the demo (Source Code) below!
+Lastly, lets load our ES6 Module, <FontIcon icon="fa-brands fa-js"/>`index.js` Javascript file in our <FontIcon icon="fa-brands fa-html"/>`index.html`. And you should get something similar to the demo (Source Code) below!
 
 ### Demo
 
