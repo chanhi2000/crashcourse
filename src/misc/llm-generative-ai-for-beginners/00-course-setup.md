@@ -95,7 +95,7 @@ dependencies:
 - python-dotenv
 ```
 
-You can replace `<environment-name>` with the name of your conda environment, and `<python-version>` with the version of Python you want to use. Place your created <FontIcon icon="iconfont icon-yaml"/>`environment.yml` file in the <FontIcon icon="iconfont icon-folder"/>`.devcontainer` folder of your repo.
+You can replace `<environment-name>` with the name of your conda environment, and `<python-version>` with the version of Python you want to use. Place your created <FontIcon icon="iconfont icon-yaml"/>`environment.yml` file in the <FontIcon icon="fas fa-folder-open"/>`.devcontainer` folder of your repo.
 
 Now that you've hopefully created a <FontIcon icon="iconfont icon-yaml"/>`environment.yml` file, you can create a conda environment with the following command:
 
@@ -138,7 +138,7 @@ You then can navigate to any of the <FontIcon icon="iconfont icon-file"/>`.ipynb
 
 #### Running in container
 
-An alternative to Python installation would be to run the code in container. Since our repository contains special <FontIcon icon="iconfont icon-folder"/>`.devcontainer` folder that instructs how to build a container for this repo, VS Code would offer you to re-open the code in container. This will require Docker installation, and also would be more complex, so we recommend this to more experienced users.
+An alternative to Python installation would be to run the code in container. Since our repository contains special <FontIcon icon="fas fa-folder-open"/>`.devcontainer` folder that instructs how to build a container for this repo, VS Code would offer you to re-open the code in container. This will require Docker installation, and also would be more complex, so we recommend this to more experienced users.
 
 One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow this guide on how to [manage secrets for your codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces).
 

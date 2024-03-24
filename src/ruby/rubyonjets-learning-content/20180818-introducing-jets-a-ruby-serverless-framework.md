@@ -69,9 +69,9 @@ Many architectures can be built with Jets. Here’s an example traditional Web a
 
 ## Functions
 
-[Jets](http://rubyonjets.com/) supports writing simple AWS Lambda functions with Ruby. You define them in the <FontIcon icon="iconfont icon-folder"/>`app/functions` folder. A function looks like this:
+[Jets](http://rubyonjets.com/) supports writing simple AWS Lambda functions with Ruby. You define them in the <FontIcon icon="fas fa-folder-open"/>`app/functions` folder. A function looks like this:
 
-> <FontIcon icon="iconfont icon-folder"/>`app/functions/`<FontIcon icon="iconfont icon-advanced"/>`simple.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/functions/`<FontIcon icon="iconfont icon-advanced"/>`simple.rb`:
 
 ```rb
 def handler_function(event:, context:)
@@ -94,7 +94,7 @@ Though simple functions are supported by Jets, they do not add much value as oth
 
 Here’s the first example of Jets code, a controller:
 
-> <FontIcon icon="iconfont icon-folder"/>`app/controllers/`<FontIcon icon="iconfont icon-advanced"/>`posts_controller.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/controllers/`<FontIcon icon="iconfont icon-advanced"/>`posts_controller.rb`:
 
 ```rb
 class PostsController < ApplicationController
@@ -124,7 +124,7 @@ Jets takes each controller’s public methods and turns them into Lambda functio
 
 Here’s what a routes file could look like:
 
-> <FontIcon icon="iconfont icon-folder"/>`config/`<FontIcon icon="iconfont icon-advanced"/>`routes.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`config/`<FontIcon icon="iconfont icon-advanced"/>`routes.rb`:
 
 ```rb
 Jets.application.routes.draw do
@@ -148,7 +148,7 @@ Jets takes the routes file, creates the corresponding API Gateway resources, and
 
 Jets also supports asynchronous jobs that work outside the web request-response cycle. Job code looks like:
 
-> <FontIcon icon="iconfont icon-folder"/>`app/jobs/`<FontIcon icon="iconfont icon-advanced"/>`hard_job.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/jobs/`<FontIcon icon="iconfont icon-advanced"/>`hard_job.rb`:
 
 ```rb
 class HardJob < ApplicationJob
@@ -192,7 +192,7 @@ Here’s what a Jets project structure looks like.
 └── spec
 ```
 
-We have the traditional MVC folders: <FontIcon icon="iconfont icon-folder"/>`app/models`, <FontIcon icon="iconfont icon-folder"/>`app/views`, and <FontIcon icon="iconfont icon-folder"/>`app/controllers`. The <FontIcon icon="iconfont icon-folder"/>`config` folder contains your application’s configuration settings. Further explanation for each folder is provided on the [Project Structure](http://rubyonjets.com/docs/structure/) docs.
+We have the traditional MVC folders: <FontIcon icon="fas fa-folder-open"/>`app/models`, <FontIcon icon="fas fa-folder-open"/>`app/views`, and <FontIcon icon="fas fa-folder-open"/>`app/controllers`. The <FontIcon icon="fas fa-folder-open"/>`config` folder contains your application’s configuration settings. Further explanation for each folder is provided on the [Project Structure](http://rubyonjets.com/docs/structure/) docs.
 
 ---
 

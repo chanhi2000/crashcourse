@@ -45,6 +45,28 @@ head:
 
 ## Table of Contents
 
+
+```component VPCard
+{
+  "title": "프론트엔드와 SOLID 원칙 살펴보기 | 요즘IT",
+  "desc": "프론트엔드와 SOLID 원칙 살펴보기",
+  "link": "2479.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "프론트엔드 개발자가 알아야 할 ‘유닛 테스트’ 작성법 | 요즘IT",
+  "desc": "프론트엔드 개발자가 알아야 할 ‘유닛 테스트’ 작성법",
+  "link": "2483.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
+
 ```component VPCard
 {
   "title": "리액트 배칭(Batching)의 모든 것 | 요즘IT",

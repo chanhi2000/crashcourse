@@ -64,7 +64,7 @@ Navigate to the sample project directory and click <FontIcon icon="iconfont icon
 
 ![select the project](https://koenig-media.raywenderlich.com/uploads/2017/08/select-project.png)
 
-Take a look at the existing code before going on with the tutorial. Inside the <FontIcon icon="iconfont icon-folder"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made.
+Take a look at the existing code before going on with the tutorial. Inside the <FontIcon icon="fas fa-folder-open"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made.
 
 You can find the helper methods used to read the JSON data inside <FontIcon icon="iconfont icon-java"/>`MovieHelper.kt`. [The Picasso library](http://square.github.io/picasso) helps to easily download and display the images on the screen.
 
@@ -295,7 +295,7 @@ A [`TabLayout`](https://developer.android.com/reference/android/support/design/w
 
 If you try to add a `TabLayout` to your `ViewPager` you won’t be able to see any tabs because the layout will be automatically populated with as many tabs as the `FragmentStatePagerAdapter` tells it by calling the `getCount()` method, which now returns a pretty large number. Trying to fit that many tabs on your screen will make them really narrow.
 
-Luckily, there is a third party library called [<FontIcon icon="iconfont icon-github"/>`nshmura/RecyclerTabLayout`](https://github.com/nshmura/RecyclerTabLayout) that solves this problem. The library uses the `RecyclerView` in its implementation. You can learn more about the mysterious `RecyclerView` from [this tutorial](https://www.raywenderlich.com/126528/android-recyclerview-tutorial). To install the library, open up <FontIcon icon="iconfont icon-folder"/>`/app/`<FontIcon icon="iconfont icon-engine"/>`build.grade` and add the following line inside `dependencies`:
+Luckily, there is a third party library called [<FontIcon icon="iconfont icon-github"/>`nshmura/RecyclerTabLayout`](https://github.com/nshmura/RecyclerTabLayout) that solves this problem. The library uses the `RecyclerView` in its implementation. You can learn more about the mysterious `RecyclerView` from [this tutorial](https://www.raywenderlich.com/126528/android-recyclerview-tutorial). To install the library, open up <FontIcon icon="fas fa-folder-open"/>`/app/`<FontIcon icon="iconfont icon-engine"/>`build.grade` and add the following line inside `dependencies`:
 
 ```groovy
 implementation 'com.nshmura:recyclertablayout:1.5.0'

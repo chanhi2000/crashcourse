@@ -287,9 +287,103 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-swift',
       children: [
         '/swift/swiftui-by-example/README.md',
-        '/swift/swiftui-by-example/01-building-a-complete-project.md',
-        '/swift/swiftui-by-example/02-working-with-static-text.md',
-        '/swift/swiftui-by-example/03-images-shapes-and-media.md',
+        {
+          text: 'Introduction',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/00-introduction/what-is-swiftui.md',
+            '/swift/swiftui-by-example/00-introduction/swiftui-vs-interface-builder-and-storyboards.md',
+            '/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md',
+            '/swift/swiftui-by-example/00-introduction/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.md',
+            '/swift/swiftui-by-example/00-introduction/how-to-follow-this-quick-start-guide.md',
+            '/swift/swiftui-by-example/00-introduction/migrating-from-uikit-to-swiftui.md',
+            '/swift/swiftui-by-example/00-introduction/whats-in-the-basic-template.md',
+            '/swift/swiftui-by-example/00-introduction/dedication.md',
+          ]
+        }, {
+          text: 'Building a complete project',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/01-building-a-complete-project/swiftui-tutorial-building-a-complete-project.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/building-a-menu-using-list.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/composing-views-to-create-a-list-row.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/polishing-designs-with-fonts-and-colors.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/displaying-a-detail-screen-with-navigationlink.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/observable-objects-environment-objects-and-published.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/adding-items-to-an-order-with-environmentobject.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/adding-tabview-and-tabitem.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/bindings-and-forms.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/two-way-bindings-in-swiftui.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/formatting-interpolated-strings-in-swiftui.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/presenting-an-alert.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/adding-swipe-to-delete-and-editbutton.md',
+            '/swift/swiftui-by-example/01-building-a-complete-project/wrap-up-our-swiftui-project-is-complete.md'
+          ]
+        }, {
+          text: 'Working with static text',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-create-static-labels-with-a-text-view.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-add-advanced-text-styling-using-attributedstring.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-adjust-text-alignment-using-multilinetextalignment.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-add-spacing-between-letters-in-text.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-format-dates-inside-text-views.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-make-textfield-uppercase-or-lowercase-using-textcase.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-show-text-and-an-icon-side-by-side-using-label.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-mark-content-as-a-placeholder-using-redacted.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-mark-content-as-private-using-privacysensitive.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-render-markdown-content-in-text.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-customize-the-way-links-are-opened.md',
+            '/swift/swiftui-by-example/02-working-with-static-text/how-to-let-users-select-text.md',
+          ]
+        }, {
+          text: 'Working with static text',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-adjust-the-way-an-image-is-fitted-to-its-space.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-tile-an-image.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-images-using-sf-symbols.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-a-gradient.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-use-images-and-other-views-as-a-backgrounds.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-display-solid-shapes.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-fill-and-stroke-shapes-at-the-same-time.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-part-of-a-solid-shape-using-trim.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/when-should-you-use-containerrelativeshape.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-play-movies-with-videoplayer.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-integrate-spritekit-using-spriteview.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-a-remote-image-from-a-url.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-get-custom-colors-and-transparency-with-sf-symbols.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-dynamically-adjust-the-color-of-an-sf-symbol.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-select-pictures-using-photospicker.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md',
+          ]
+        }, 
+        /*
+        {
+          text: 'View layout',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/04-view-layout/how-to-give-a-view-a-custom-frame.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-control-spacing-around-individual-views-using-padding.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-provide-relative-sizes-using-geometryreader.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-place-content-outside-the-safe-area.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-return-different-view-types.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-create-views-in-a-loop-using-foreach.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-control-layout-priority-using-layoutpriority.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-make-two-views-the-same-width-or-height.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-provide-visual-structure-using-foreground-styles.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-inset-the-safe-area-with-custom-content.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-hide-the-home-indicator-and-other-system-ui.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-stop-system-gestures-from-interfering-with-your-own.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-create-an-adaptive-layout-with-viewthatfits.md',
+          ]
+        },
+        */
         '/swift/swiftui-by-example/04-view-layout.md',
         '/swift/swiftui-by-example/05-stacks-grids-scrollviews.md',
         '/swift/swiftui-by-example/06-user-interface-controls.md',
@@ -408,52 +502,68 @@ export const sidebarEn = sidebar({
       children: [
         '/java/jump-to-spring-boot/README.md',
         '/java/jump-to-spring-boot/01.md',
-        '/java/jump-to-spring-boot/02.md',
-        '/java/jump-to-spring-boot/02A.md',
-        '/java/jump-to-spring-boot/02B.md',
-        '/java/jump-to-spring-boot/02C.md',
-        '/java/jump-to-spring-boot/02D.md',
-        '/java/jump-to-spring-boot/02E.md',
-        '/java/jump-to-spring-boot/02F.md',
-        '/java/jump-to-spring-boot/02G.md',
-        '/java/jump-to-spring-boot/02H.md',
-        '/java/jump-to-spring-boot/02I.md',
-        '/java/jump-to-spring-boot/02J.md',
-        '/java/jump-to-spring-boot/02K.md',
-        '/java/jump-to-spring-boot/02L.md',
-        '/java/jump-to-spring-boot/02M.md',
-        '/java/jump-to-spring-boot/02N.md',
-        '/java/jump-to-spring-boot/02O.md',
-        '/java/jump-to-spring-boot/02P.md',
-        '/java/jump-to-spring-boot/03.md',
-        '/java/jump-to-spring-boot/03A.md',
-        '/java/jump-to-spring-boot/03B.md',
-        '/java/jump-to-spring-boot/03C.md',
-        '/java/jump-to-spring-boot/03D.md',
-        '/java/jump-to-spring-boot/03E.md',
-        '/java/jump-to-spring-boot/03F.md',
-        '/java/jump-to-spring-boot/03G.md',
-        '/java/jump-to-spring-boot/03H.md',
-        '/java/jump-to-spring-boot/03I.md',
-        '/java/jump-to-spring-boot/03J.md',
-        '/java/jump-to-spring-boot/03K.md',
-        '/java/jump-to-spring-boot/03L.md',
-        '/java/jump-to-spring-boot/03M.md',
-        '/java/jump-to-spring-boot/03N.md',
-        '/java/jump-to-spring-boot/03O.md',
-        '/java/jump-to-spring-boot/04.md',
-        '/java/jump-to-spring-boot/04A.md',
-        '/java/jump-to-spring-boot/04B.md',
-        '/java/jump-to-spring-boot/04C.md',
-        '/java/jump-to-spring-boot/04D.md',
-        '/java/jump-to-spring-boot/04E.md',
-        '/java/jump-to-spring-boot/04F.md',
-        '/java/jump-to-spring-boot/04G.md',
-        '/java/jump-to-spring-boot/04H.md',
-        '/java/jump-to-spring-boot/04I.md',
-        '/java/jump-to-spring-boot/04J.md',
-        '/java/jump-to-spring-boot/04K.md',
-        '/java/jump-to-spring-boot/04L.md',
+        {
+          text: '2장 - 스프링부트의 기본 요소 익히기!',
+          collapsible: true,
+          children: [
+            '/java/jump-to-spring-boot/02.md',
+            '/java/jump-to-spring-boot/02A.md',
+            '/java/jump-to-spring-boot/02B.md',
+            '/java/jump-to-spring-boot/02C.md',
+            '/java/jump-to-spring-boot/02D.md',
+            '/java/jump-to-spring-boot/02E.md',
+            '/java/jump-to-spring-boot/02F.md',
+            '/java/jump-to-spring-boot/02G.md',
+            '/java/jump-to-spring-boot/02H.md',
+            '/java/jump-to-spring-boot/02I.md',
+            '/java/jump-to-spring-boot/02J.md',
+            '/java/jump-to-spring-boot/02K.md',
+            '/java/jump-to-spring-boot/02L.md',
+            '/java/jump-to-spring-boot/02M.md',
+            '/java/jump-to-spring-boot/02N.md',
+            '/java/jump-to-spring-boot/02O.md',
+            '/java/jump-to-spring-boot/02P.md',
+          ]
+        }, {
+          text: '3장 - SBB 서비스 개발!',
+          collapsible: true,
+          children: [
+            '/java/jump-to-spring-boot/03.md',
+            '/java/jump-to-spring-boot/03A.md',
+            '/java/jump-to-spring-boot/03B.md',
+            '/java/jump-to-spring-boot/03C.md',
+            '/java/jump-to-spring-boot/03D.md',
+            '/java/jump-to-spring-boot/03E.md',
+            '/java/jump-to-spring-boot/03F.md',
+            '/java/jump-to-spring-boot/03G.md',
+            '/java/jump-to-spring-boot/03H.md',
+            '/java/jump-to-spring-boot/03I.md',
+            '/java/jump-to-spring-boot/03J.md',
+            '/java/jump-to-spring-boot/03K.md',
+            '/java/jump-to-spring-boot/03L.md',
+            '/java/jump-to-spring-boot/03M.md',
+            '/java/jump-to-spring-boot/03N.md',
+            '/java/jump-to-spring-boot/03O.md',
+          ]
+        }, {
+          text: '4장 - 세상에 선보이는 SBB 서비스!',
+          collapsible: true,
+          children: [
+            '/java/jump-to-spring-boot/04.md',
+            '/java/jump-to-spring-boot/04A.md',
+            '/java/jump-to-spring-boot/04B.md',
+            '/java/jump-to-spring-boot/04C.md',
+            '/java/jump-to-spring-boot/04D.md',
+            '/java/jump-to-spring-boot/04E.md',
+            '/java/jump-to-spring-boot/04F.md',
+            '/java/jump-to-spring-boot/04G.md',
+            '/java/jump-to-spring-boot/04H.md',
+            '/java/jump-to-spring-boot/04I.md',
+            '/java/jump-to-spring-boot/04J.md',
+            '/java/jump-to-spring-boot/04K.md',
+            '/java/jump-to-spring-boot/04L.md',
+          ]
+        },
         '/java/jump-to-spring-boot/a.md',
       ]
     }, {
@@ -474,6 +584,8 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-java',
       children: [
         '/java/yozm/README.md',
+        '/java/yozm/2457.md',
+        '/java/yozm/2478.md',
         '/java/yozm/2499.md',
       ]
     }
@@ -555,6 +667,10 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-node-js',
       children: [
         '/js/yozm/README.md',
+        '/js/yozm/2466.md',
+        '/js/yozm/2467.md',
+        '/js/yozm/2479.md',
+        '/js/yozm/2483.md',
         '/js/yozm/2493.md',
         '/js/yozm/2504.md',
         '/js/yozm/2505.md',
@@ -689,33 +805,98 @@ export const sidebarEn = sidebar({
       icon: 'fas fa-dice-two',
       children: [ 
         '/cpp/algorithms-for-competitive-programming/README.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
-        '/cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
-        '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
-        '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
-        '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
-        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
-        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
-        '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
-        '/cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
-        '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
-        '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
-        '/cpp/algorithms-for-competitive-programming/05-linear-algebra/05A.md',
-        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
-        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
-        '/cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
-        '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
-        '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
-        '/cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
+        {
+          text: '01. Algebra',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
+          ]
+        }, {
+          text: '02. Data Structures',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
+          ]
+        }, {
+          text: '03. Dynamic Programming',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
+          ]
+        }, {
+          text: '04. String Processing',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
+          ]
+        }, {
+          text: '05. Linear Algebra',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/05A.md',
+          ]
+        }, {
+          text: '06. Combinatorics',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
+          ]
+        }, {
+          text: '07. Numerical Methods',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
+            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
+          ]
+        }, {
+          text: '08. Geometry',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
+          ]
+        }, {
+          text: '09. Graphs',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09A.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09B.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09C.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09D.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09E.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09F.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09G.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09H.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09I.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09J.md',
+          ]
+        }, {
+          text: '10. Misc',
+          collapsible: true,
+          children: [
+            '/cpp/algorithms-for-competitive-programming/10-misc/10A.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10B.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10C.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10D.md',            
+          ]
+        }
       ]
     }
   ], '/ruby/': [
@@ -900,28 +1081,44 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-linux',
       children: [
         '/devops/linux-journey/README.md',
-        '/devops/linux-journey/01-grasshopper/01a-getting-started.md',
-        '/devops/linux-journey/01-grasshopper/01b-command-line.md',
-        '/devops/linux-journey/01-grasshopper/01c-text-fu.md',
-        '/devops/linux-journey/01-grasshopper/01d-advanced-text-fu.md',
-        '/devops/linux-journey/01-grasshopper/01e-user-management.md',
-        '/devops/linux-journey/01-grasshopper/01f-permissions.md',
-        '/devops/linux-journey/01-grasshopper/01g-processes.md',
-        '/devops/linux-journey/01-grasshopper/01h-packages.md',
-        '/devops/linux-journey/02-journeyman/02a-devices.md',
-        '/devops/linux-journey/02-journeyman/02b-the-filesystem.md',
-        '/devops/linux-journey/02-journeyman/02c-boot-the-system.md',
-        '/devops/linux-journey/02-journeyman/02d-kernel.md',
-        '/devops/linux-journey/02-journeyman/02e-init.md',
-        '/devops/linux-journey/02-journeyman/02f-process-utilization.md',
-        '/devops/linux-journey/02-journeyman/02g-logging.md',
-        '/devops/linux-journey/03-networking-nomad/03a-network-sharing.md',
-        '/devops/linux-journey/03-networking-nomad/03b-network-basics.md',
-        '/devops/linux-journey/03-networking-nomad/03c-subnetting.md',
-        '/devops/linux-journey/03-networking-nomad/03d-routing.md',
-        '/devops/linux-journey/03-networking-nomad/03e-network-config.md',
-        '/devops/linux-journey/03-networking-nomad/03f-troubleshooting.md',
-        '/devops/linux-journey/03-networking-nomad/03g-dns.md'
+        {
+          text: 'Grasshopper',
+          collapsible: true,
+          children: [
+            '/devops/linux-journey/01-grasshopper/01a-getting-started.md',
+            '/devops/linux-journey/01-grasshopper/01b-command-line.md',
+            '/devops/linux-journey/01-grasshopper/01c-text-fu.md',
+            '/devops/linux-journey/01-grasshopper/01d-advanced-text-fu.md',
+            '/devops/linux-journey/01-grasshopper/01e-user-management.md',
+            '/devops/linux-journey/01-grasshopper/01f-permissions.md',
+            '/devops/linux-journey/01-grasshopper/01g-processes.md',
+            '/devops/linux-journey/01-grasshopper/01h-packages.md',
+          ]
+        }, {
+          text: 'Journeyman',
+          collapsible: true,
+          children: [
+            '/devops/linux-journey/02-journeyman/02a-devices.md',
+            '/devops/linux-journey/02-journeyman/02b-the-filesystem.md',
+            '/devops/linux-journey/02-journeyman/02c-boot-the-system.md',
+            '/devops/linux-journey/02-journeyman/02d-kernel.md',
+            '/devops/linux-journey/02-journeyman/02e-init.md',
+            '/devops/linux-journey/02-journeyman/02f-process-utilization.md',
+            '/devops/linux-journey/02-journeyman/02g-logging.md',
+          ]
+        }, {
+          text: 'Networking Nomad',
+          collapsible: true,
+          children: [
+            '/devops/linux-journey/03-networking-nomad/03a-network-sharing.md',
+            '/devops/linux-journey/03-networking-nomad/03b-network-basics.md',
+            '/devops/linux-journey/03-networking-nomad/03c-subnetting.md',
+            '/devops/linux-journey/03-networking-nomad/03d-routing.md',
+            '/devops/linux-journey/03-networking-nomad/03e-network-config.md',
+            '/devops/linux-journey/03-networking-nomad/03f-troubleshooting.md',
+            '/devops/linux-journey/03-networking-nomad/03g-dns.md'
+          ]
+        }
       ]
     }, {
       text: '요즘 IT 블로그 - DevOps 관련',

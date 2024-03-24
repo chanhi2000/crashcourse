@@ -83,7 +83,7 @@ This will allow you to get information from the NASA website. Note that this is 
 
 ### String Data
 
-To populate the spinners on the main screen, you will need to add strings for the spinners to the <FontIcon icon="iconfont icon-code"/>`strings.xml` file. Open <FontIcon icon="iconfont icon-code"/>`strings.xml` in the <FontIcon icon="iconfont icon-folder"/>`res/values` folder and add the following after the `app_name` string:
+To populate the spinners on the main screen, you will need to add strings for the spinners to the <FontIcon icon="iconfont icon-code"/>`strings.xml` file. Open <FontIcon icon="iconfont icon-code"/>`strings.xml` in the <FontIcon icon="fas fa-folder-open"/>`res/values` folder and add the following after the `app_name` string:
 
 ```xml
 <string name="api_error">Problems getting Photos</string>
@@ -228,7 +228,7 @@ Open the <FontIcon icon="iconfont icon-code"/>`styles.xml` file in the values re
 </style>
 ```
 
-You can use any color you’d like. To create the header, go to the <FontIcon icon="iconfont icon-folder"/>`res/layout` folder. Right-click and choose <FontIcon icon="iconfont icon-select"/>`[New/Layout resource file]`. Name the file <FontIcon icon="iconfont icon-code"/>`header_item.xml`. You can leave the root element as suggested and then replace everything with the following:
+You can use any color you’d like. To create the header, go to the <FontIcon icon="fas fa-folder-open"/>`res/layout` folder. Right-click and choose <FontIcon icon="iconfont icon-select"/>`[New/Layout resource file]`. Name the file <FontIcon icon="iconfont icon-code"/>`header_item.xml`. You can leave the root element as suggested and then replace everything with the following:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -327,7 +327,7 @@ The `type` property will distinguish between photos and headers. The row will ha
 
 ## Adapter
 
-Your adapter will extend the `RecyclerView.Adapter` class and use `DefaultViewHolder`. Navigate to the <FontIcon icon="iconfont icon-folder"/>`com.raywenderlich.marsrovers.recyclerview` package and add a new Kotlin class called `PhotoAdapter`.
+Your adapter will extend the `RecyclerView.Adapter` class and use `DefaultViewHolder`. Navigate to the <FontIcon icon="fas fa-folder-open"/>`com.raywenderlich.marsrovers.recyclerview` package and add a new Kotlin class called `PhotoAdapter`.
 
 The class will start out like so:
 

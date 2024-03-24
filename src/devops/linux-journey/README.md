@@ -40,58 +40,37 @@ head:
 
 ## Learn the ways of Linux-fu, for free.
 
-### ✅Grasshopper
+### Grasshopper
 
-- [Getting Started][01a-getting-started]
-- [Command Line][01b-command-line]
-- [Text-Fu][01c-text-fu]
-- [Advanced Text-Fu][01d-advanced-text-fu]
-- [User Management][01e-user-management]
-- [Permissions][01f-permissions]
-- [Processes][01g-processes]
-- [Packages][01h-packages]
+- [Getting Started](01-grasshopper/01a-getting-started.md)
+- [Command Line](01-grasshopper/01b-command-line.md)
+- [Text-Fu](01-grasshopper/01c-text-fu.md)
+- [Advanced Text-Fu](01-grasshopper/01d-advanced-text-fu.md)
+- [User Management](01-grasshopper/01e-user-management.md)
+- [Permissions](01-grasshopper/01f-permissions)
+- [Processes](01-grasshopper/01g-processes)
+- [Packages](01-grasshopper/01h-packages)
 
-### ✅Journeyman
+### Journeyman
 
-- [Devices][02a-devices]
-- [The Filesystem][02b-the-filesystem]
-- [Boot the System][02c-boot-the-system]
-- [Kernel][02d-kernel]
-- [Init][02e-init]
-- [Process Utilization][02f-process-utilization]
-- [Logging][02g-logging]
+- [Devices](02-journeyman/02a-devices.md)
+- [The Filesystem](02-journeyman/02b-the-filesystem.md)
+- [Boot the System](02-journeyman/02c-boot-the-system.md)
+- [Kernel](02-journeyman/02d-kernel.md)
+- [Init](02-journeyman/02e-init.md)
+- [Process Utilization](02-journeyman/02f-process-utilization.md)
+- [Logging](02-journeyman/02g-logging.md)
 
-### ✅Networking Nomad
+### Networking Nomad
 
-- [Network Sharing][03a-network-sharing]
-- [Network Basics][03b-network-basics]
-- [Subnetting][03c-subnetting]
-- [Routing][03d-routing]
-- [Network Config][03e-network-config]
-- [Troubleshooting][03f-troubleshooting]
-- [DNS][03g-dns]
+- [Network Sharing](03-networking-nomad/03a-network-sharing.md)
+- [Network Basics](03-networking-nomad/03b-network-basics.md)
+- [Subnetting](03-networking-nomad/03c-subnetting.md)
+- [Routing](03-networking-nomad/03d-routing.md)
+- [Network Config](03-networking-nomad/03e-network-config.md)
+- [Troubleshooting](03-networking-nomad/03f-troubleshooting.md)
+- [DNS](03-networking-nomad/03g-dns.md)
 
-[01a-getting-started]: 01-grasshopper/01a-getting-started.md
-[01b-command-line]: 01-grasshopper/01b-command-line.md
-[01c-text-fu]: 01-grasshopper/01c-text-fu.md
-[01d-advanced-text-fu]: 01-grasshopper/01d-advanced-text-fu.md
-[01e-user-management]: 01-grasshopper/01e-user-management.md
-[01f-permissions]: 01-grasshopper/01f-permissions
-[01g-processes]: 01-grasshopper/01g-processes
-[01h-packages]: 01-grasshoper/01h-packages
+---
 
-[02a-devices]: 02-journeyman/02a-devices.md
-[02b-the-filesystem]: 02-journeyman/02b-the-filesystem.md
-[02c-boot-the-system]: 02-journeyman/02c-boot-the-system.md
-[02d-kernel]: 02-journeyman/02d-kernel.md
-[02e-init]: 02-journeyman/02e-init.md
-[02f-process-utilization]: 02-journeyman/02f-process-utilization.md
-[02g-logging]: 02-journeyman/02g-logging.md
-
-[03a-network-sharing]: 03-networking-nomad/03a-network-sharing.md
-[03b-network-basics]: 03-networking-nomad/03b-network-basics.md
-[03c-subnetting]: 03-networking-nomad/03c-subnetting.md
-[03d-routing]: 03-networking-nomad/03d-routing.md
-[03e-network-config]: 03-networking-nomad/03e-network-config.md
-[03f-troubleshooting]: 03-networking-nomad/03f-troubleshooting.md
-[03g-dns]: 03-networking-nomad/03g-dns.md
+<TagLinks />

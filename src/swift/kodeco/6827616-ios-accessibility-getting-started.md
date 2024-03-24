@@ -64,7 +64,7 @@ You’ll need a physical device to work with VoiceOver. This accessibility featu
 
 In this tutorial, you’ll work with an already-completed app called __Recipe__, which contains a list of recipes and their difficulty levels. It also allows you to rate the quality of the dishes you make.
 
-Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="iconfont icon-file"/>`Recipe.xcodeproj` in the <FontIcon icon="iconfont icon-folder"/>`begin` folder.
+Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="iconfont icon-file"/>`Recipe.xcodeproj` in the <FontIcon icon="fas fa-folder-open"/>`begin` folder.
 
 Before you can run the app on a device, you need to configure signing.
 

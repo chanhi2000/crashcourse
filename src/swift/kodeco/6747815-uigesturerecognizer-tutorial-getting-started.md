@@ -62,9 +62,9 @@ Getting Started
 
 ## Getting Started
 
-To get started, click the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Inside the zip file, you’ll find two folders: <FontIcon icon="iconfont icon-folder"/>`begin` and <FontIcon icon="iconfont icon-folder"/>`end`.
+To get started, click the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Inside the zip file, you’ll find two folders: <FontIcon icon="fas fa-folder-open"/>`begin` and <FontIcon icon="fas fa-folder-open"/>`end`.
 
-Open the <FontIcon icon="iconfont icon-folder"/>`begin` folder in Xcode, then build and run the project.
+Open the <FontIcon icon="fas fa-folder-open"/>`begin` folder in Xcode, then build and run the project.
 
 You should see the following in your device or simulator:
 

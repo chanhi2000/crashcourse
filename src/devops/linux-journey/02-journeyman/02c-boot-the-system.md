@@ -99,7 +99,7 @@ So we know that the bootloader's main goal is to load up the kernel, but where d
 
 - `initrd` - Specifies the location of initial RAM disk (we'll talk more about this in the next lesson).
 - `BOOT_IMAGE` - This is where the kernel image is located
-- `root` - The location of the root filesystem, the kernel searches inside this location to find init. It is often represented by it's UUID or the device name such as <FontIcon icon="iconfont icon-folder"/>`/dev/sda1`.
+- `root` - The location of the root filesystem, the kernel searches inside this location to find init. It is often represented by it's UUID or the device name such as <FontIcon icon="fas fa-folder-open"/>`/dev/sda1`.
 - `ro` - This parameter is pretty standard, it mounts the fileystem as read-only mode.
 - `quiet` - This is added so that you don't see display messages that are going on in the background during boot.
 - `splash` - This lets the splash screen be shown. 

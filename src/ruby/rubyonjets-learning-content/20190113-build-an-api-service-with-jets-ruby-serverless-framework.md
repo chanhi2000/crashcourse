@@ -73,7 +73,7 @@ jets db:create db:migrate
 
 ## Local Testing
 
-Let’s seed some data by creating a <FontIcon icon="iconfont icon-folder"/>`db/`<FontIcon icon="iconfont icon-advanced"/>`seeds.rb`:
+Let’s seed some data by creating a <FontIcon icon="fas fa-folder-open"/>`db/`<FontIcon icon="iconfont icon-advanced"/>`seeds.rb`:
 
 ```rb 
 3.times do |i|
@@ -82,7 +82,7 @@ end
 puts "Seeding data completed"
 ```
 
-Here’s the command to load the <FontIcon icon="iconfont icon-folder"/>`db/`<FontIcon icon="iconfont icon-advanced"/>`seeds.rb` data:
+Here’s the command to load the <FontIcon icon="fas fa-folder-open"/>`db/`<FontIcon icon="iconfont icon-advanced"/>`seeds.rb` data:
 
 ```sh
 jets db:seed

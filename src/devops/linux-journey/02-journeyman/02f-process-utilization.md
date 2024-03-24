@@ -147,7 +147,7 @@ fuser -v .
 #                      pete  2207 ..c.. bash
 ```
 
-We can see which processes are currently using our <FontIcon icon="iconfont icon-folder"/>`/home/pete` directory. The lsof and fuser tools are very similar, familiarize yourself with these tools and try using them next time you need to track a file or process down.
+We can see which processes are currently using our <FontIcon icon="fas fa-folder-open"/>`/home/pete` directory. The lsof and fuser tools are very similar, familiarize yourself with these tools and try using them next time you need to track a file or process down.
 
 Read the manpages for lsof and fuser, there is a lot of information that we didn't cover that allows you to have greater flexibility with these tools.
 
@@ -295,7 +295,7 @@ Sar is a tool that is used to do historical analysis on your system, first make 
 
 ### Setting up data collection
 
-Usually once you install sysstat, your system will automatically start collecting data, if it doesn't you can enable it by modifying the ENABLED field in <FontIcon icon="iconfont icon-folder"/>`/etc/default/sysstat`.
+Usually once you install sysstat, your system will automatically start collecting data, if it doesn't you can enable it by modifying the ENABLED field in <FontIcon icon="fas fa-folder-open"/>`/etc/default/sysstat`.
 
 ### Using sar
 
@@ -315,7 +315,7 @@ sudo sar -P
 
 This will list the details of CPU usage.
 
-To see a view of a different day, you can go into <FontIcon icon="iconfont icon-folder"/>`/var/log/sysstat/saXX` where XX is the day you want to view.
+To see a view of a different day, you can go into <FontIcon icon="fas fa-folder-open"/>`/var/log/sysstat/saXX` where XX is the day you want to view.
 
 ```sh
 sar -q /var/log/sysstat/sa02
@@ -329,7 +329,7 @@ Install `sar` on your system and start collecting and analyzing your system reso
 
 Although we have been talking about resource utilization, I think this would be a good point to mention a neat tool in Linux that is used to schedule tasks using cron. There is a service that runs programs for you at whatever time you schedule. This is a really useful if you have a script you want to run once a day that needs to execute something for you.
 
-For example, let's say I have a script located in <FontIcon icon="iconfont icon-folder"/>`/home/pete/scripts/change_wallpaper`. I use this script every morning to change the picture I use for my wallpaper, but each morning I have to manually execute this script. Instead what I can do is create a cron job that executes my script through cron. I can specify the time I want this cron job to run and execute my script.
+For example, let's say I have a script located in <FontIcon icon="fas fa-folder-open"/>`/home/pete/scripts/change_wallpaper`. I use this script every morning to change the picture I use for my wallpaper, but each morning I have to manually execute this script. Instead what I can do is create a cron job that executes my script through cron. I can specify the time I want this cron job to run and execute my script.
 
 ```sh
 # 30 08 * * * /home/pete/scripts/change_wallpaper

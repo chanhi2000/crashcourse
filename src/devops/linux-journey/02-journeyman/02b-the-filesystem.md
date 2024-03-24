@@ -43,26 +43,26 @@ At this point, you're probably well familiar with the directory structure of you
 
 Go ahead and do an `ls -l /` to see the directories listed under the root directory, yours may look different than mine, but the directories should for the most part look like the following:
 
-- <FontIcon icon="iconfont icon-folder"/>`/`: The root directory of the entire filesystem hierarchy, everything is nestled under this directory.
-- <FontIcon icon="iconfont icon-folder"/>`/bin`: Essential ready-to-run programs (binaries), includes the most basic commands such as ls and cp.
-- <FontIcon icon="iconfont icon-folder"/>`/boot`: Contains kernel boot loader files.
-- <FontIcon icon="iconfont icon-folder"/>`/dev`: Device files.
-- <FontIcon icon="iconfont icon-folder"/>`/etc`: Core system configuration directory, should hold only configuration files and not any binaries.
-- <FontIcon icon="iconfont icon-folder"/>`/home`: Personal directories for users, holds your documents, files, settings, etc.
-- <FontIcon icon="iconfont icon-folder"/>`/lib`: Holds library files that binaries can use.
-- <FontIcon icon="iconfont icon-folder"/>`/media`: Used as an attachment point for removable media like USB drives.
-- <FontIcon icon="iconfont icon-folder"/>`/mnt`: Temporarily mounted filesystems.
-- <FontIcon icon="iconfont icon-folder"/>`/opt`: Optional application software packages.
-- <FontIcon icon="iconfont icon-folder"/>`/proc`: Information about currently running processes.
-- <FontIcon icon="iconfont icon-folder"/>`/root`: The root user's home directory.
-- <FontIcon icon="iconfont icon-folder"/>`/run`: Information about the running system since the last boot.
-- <FontIcon icon="iconfont icon-folder"/>`/sbin`: Contains essential system binaries, usually can only be ran by root.
-- <FontIcon icon="iconfont icon-folder"/>`/srv`: Site-specific data which are served by the system.
-- <FontIcon icon="iconfont icon-folder"/>`/tmp`: Storage for temporary files
-- <FontIcon icon="iconfont icon-folder"/>`/usr`: This is unfortunately named, most often it does not contain user files in the sense of a home folder. This is meant for user installed software and utilities, however that is not to say you can't add personal directories in there. Inside this directory are sub-directories for <FontIcon icon="iconfont icon-folder"/>`/usr/bin`, <FontIcon icon="iconfont icon-folder"/>`/usr/local`, etc.
-- <FontIcon icon="iconfont icon-folder"/>`/var`: Variable directory, it's used for system logging, user tracking, caches, etc. Basically anything that is subject to change all the time.
+- <FontIcon icon="fas fa-folder-open"/>`/`: The root directory of the entire filesystem hierarchy, everything is nestled under this directory.
+- <FontIcon icon="fas fa-folder-open"/>`/bin`: Essential ready-to-run programs (binaries), includes the most basic commands such as ls and cp.
+- <FontIcon icon="fas fa-folder-open"/>`/boot`: Contains kernel boot loader files.
+- <FontIcon icon="fas fa-folder-open"/>`/dev`: Device files.
+- <FontIcon icon="fas fa-folder-open"/>`/etc`: Core system configuration directory, should hold only configuration files and not any binaries.
+- <FontIcon icon="fas fa-folder-open"/>`/home`: Personal directories for users, holds your documents, files, settings, etc.
+- <FontIcon icon="fas fa-folder-open"/>`/lib`: Holds library files that binaries can use.
+- <FontIcon icon="fas fa-folder-open"/>`/media`: Used as an attachment point for removable media like USB drives.
+- <FontIcon icon="fas fa-folder-open"/>`/mnt`: Temporarily mounted filesystems.
+- <FontIcon icon="fas fa-folder-open"/>`/opt`: Optional application software packages.
+- <FontIcon icon="fas fa-folder-open"/>`/proc`: Information about currently running processes.
+- <FontIcon icon="fas fa-folder-open"/>`/root`: The root user's home directory.
+- <FontIcon icon="fas fa-folder-open"/>`/run`: Information about the running system since the last boot.
+- <FontIcon icon="fas fa-folder-open"/>`/sbin`: Contains essential system binaries, usually can only be ran by root.
+- <FontIcon icon="fas fa-folder-open"/>`/srv`: Site-specific data which are served by the system.
+- <FontIcon icon="fas fa-folder-open"/>`/tmp`: Storage for temporary files
+- <FontIcon icon="fas fa-folder-open"/>`/usr`: This is unfortunately named, most often it does not contain user files in the sense of a home folder. This is meant for user installed software and utilities, however that is not to say you can't add personal directories in there. Inside this directory are sub-directories for <FontIcon icon="fas fa-folder-open"/>`/usr/bin`, <FontIcon icon="fas fa-folder-open"/>`/usr/local`, etc.
+- <FontIcon icon="fas fa-folder-open"/>`/var`: Variable directory, it's used for system logging, user tracking, caches, etc. Basically anything that is subject to change all the time.
 
-Look inside your <FontIcon icon="iconfont icon-folder"/>`/usr` directory, what kind of information is located there?
+Look inside your <FontIcon icon="fas fa-folder-open"/>`/usr` directory, what kind of information is located there?
 
 ---
 
@@ -105,7 +105,7 @@ Do a little bit of research online on the other filesystem types: `ReiserFS`, `Z
 
 ## 3. Anatomy of a Disk
 
-Hard disks can be subdivided into partitions, essentially making multiple block devices. Recall such examples as, <FontIcon icon="iconfont icon-folder"/>`/dev/sda1` and <FontIcon icon="iconfont icon-folder"/>`/dev/sda2`, <FontIcon icon="iconfont icon-folder"/>`/dev/sda` is the whole disk, but <FontIcon icon="iconfont icon-folder"/>`/dev/sda1` is the first partition on that disk. Partitions are extremely useful for separating data and if you need a certain filesystem, you can easily create a partition instead of making the entire disk one filesystem type.
+Hard disks can be subdivided into partitions, essentially making multiple block devices. Recall such examples as, <FontIcon icon="fas fa-folder-open"/>`/dev/sda1` and <FontIcon icon="fas fa-folder-open"/>`/dev/sda2`, <FontIcon icon="fas fa-folder-open"/>`/dev/sda` is the whole disk, but <FontIcon icon="fas fa-folder-open"/>`/dev/sda1` is the first partition on that disk. Partitions are extremely useful for separating data and if you need a certain filesystem, you can easily create a partition instead of making the entire disk one filesystem type.
 
 ### Partition Table
 
@@ -267,7 +267,7 @@ First create the mount point, in our case `mkdir /mydrive`
 sudo mount -t ext4 /dev/sdb2 /mydrive
 ```
 
-Simple as that! Now when we go to <FontIcon icon="iconfont icon-folder"/>`/mydrive` we can see our filesystem contents, the `-t` specifies the type of filesystem, then we have the device location, then the mount point.
+Simple as that! Now when we go to <FontIcon icon="fas fa-folder-open"/>`/mydrive` we can see our filesystem contents, the `-t` specifies the type of filesystem, then we have the device location, then the mount point.
 
 To unmount a device from a mount point:
 
@@ -300,9 +300,9 @@ Look at the manpage for `mount` and `umount` and see what other options you can 
 
 ---
 
-## 7. <FontIcon icon="iconfont icon-folder"/>`/etc/fstab`
+## 7. <FontIcon icon="fas fa-folder-open"/>`/etc/fstab`
 
-When we want to automatically mount filesystems at startup we can add them to a file called <FontIcon icon="iconfont icon-folder"/>`/etc/fstab` (pronounced "eff es tab" not "eff stab") short for filesystem table. This file contains a permanent list of filesystems that are mounted.
+When we want to automatically mount filesystems at startup we can add them to a file called <FontIcon icon="fas fa-folder-open"/>`/etc/fstab` (pronounced "eff es tab" not "eff stab") short for filesystem table. This file contains a permanent list of filesystems that are mounted.
 
 ```sh
 cat /etc/fstab
@@ -320,9 +320,9 @@ Each line represents one filesystem, the fields are:
 - __Dump__: used by the dump utility to decide when to make a backup, you should just default to 0
 - __Pass__: Used by fsck to decide what order filesystems should be checked, if the value is 0, it will not be checked
 
-To add an entry, just directly modify the <FontIcon icon="iconfont icon-folder"/>`/etc/fstab` file using the entry syntax above. Be careful when modifying this file, you could potentially make your life a little harder if you mess up.
+To add an entry, just directly modify the <FontIcon icon="fas fa-folder-open"/>`/etc/fstab` file using the entry syntax above. Be careful when modifying this file, you could potentially make your life a little harder if you mess up.
 
-Add the USB drive we've been working on as a entry in <FontIcon icon="iconfont icon-folder"/>`/etc/fstab`, when you reboot you should still see it mounted.
+Add the USB drive we've been working on as a entry in <FontIcon icon="fas fa-folder-open"/>`/etc/fstab`, when you reboot you should still see it mounted.
 
 ---
 
@@ -344,7 +344,7 @@ Let's say we wanted to set our partition of /dev/sdb2 to be used for swap space.
 1. First make sure we don't have anything on the partition
 2. Run: `mkswap /dev/sdb2` to initialize swap areas
 3. Run: `swapon /dev/sdb2` this will enable the swap device
-4. If you want the swap partition to persist on bootup, you need to add an entry to the <FontIcon icon="iconfont icon-folder"/>`/etc/fstab` file. sw is the filesystem type that you'll use.
+4. If you want the swap partition to persist on bootup, you need to add an entry to the <FontIcon icon="fas fa-folder-open"/>`/etc/fstab` file. sw is the filesystem type that you'll use.
 5. To remove swap: `swapoff /dev/sdb2`
 
 Generally you should allocate about twice as much swap space as you have memory. But modern systems today are usually pretty powerful enough and have enough RAM as it is.

@@ -98,11 +98,11 @@ You’ll use the Couchbase Lite database and the Sync Gateway in this tutorial i
 
 Since Couchbase Lite runs right on the device, you can bundle a prebuilt database in your application. This is optional; most apps start with an empty database and add data entered by the user or synchronized through Sync Gateway.
 
-In this Couchbase tutorial, you will use a database containing a list of questions. [Download the database](https://koenig-media.raywenderlich.com/uploads/2016/07/quizzdroid.cblite2.zip) and move the zip file to <FontIcon icon="iconfont icon-folder"/> __app/src/main/assets/__ in the starter project:
+In this Couchbase tutorial, you will use a database containing a list of questions. [Download the database](https://koenig-media.raywenderlich.com/uploads/2016/07/quizzdroid.cblite2.zip) and move the zip file to <FontIcon icon="fas fa-folder-open"/> __app/src/main/assets/__ in the starter project:
 
 ![couchbase tutorial drag-db-finder](https://koenig-media.raywenderlich.com/uploads/2016/07/drag-db-finder-1.png)
 
-The database starts in the <FontIcon icon="iconfont icon-folder"/> __assets__ folder, but Couchbase Lite reads from and persists to the <FontIcon icon="iconfont icon-folder"/> `data/data/com.raywenderlich.quizzdroid/files` folder. In the next section you’ll add code to move the database to its final location.
+The database starts in the <FontIcon icon="fas fa-folder-open"/> __assets__ folder, but Couchbase Lite reads from and persists to the <FontIcon icon="fas fa-folder-open"/> `data/data/com.raywenderlich.quizzdroid/files` folder. In the next section you’ll add code to move the database to its final location.
 
 ---
 
@@ -141,7 +141,7 @@ Here’s what this code does:
 
 1. Instantiates the Couchbase Lite `Manager`. A Manager is the top-level object managing a collection of Couchbase Lite Database instances. You must create a Manager instance before working with Couchbase Lite objects. The `Manager.DEFAULT_OPTIONS` parameter indicates default options, including read/write support.
 2. Checks for an existing `Database` named “quizzdroid”. This line returns `null` if the database doesn’t exist, as would be the case on first launch.
-3. If the database doesn’t exist, the `ZipUtils.unzip` method unzips the zip database file into the <FontIcon icon="iconfont icon-folder"/> __files__ directory; otherwise, nothing further needs to be done.
+3. If the database doesn’t exist, the `ZipUtils.unzip` method unzips the zip database file into the <FontIcon icon="fas fa-folder-open"/> __files__ directory; otherwise, nothing further needs to be done.
 4. The database is instantiated using the `getDatabase` method.
 
 ---
@@ -223,7 +223,7 @@ Data records are called documents, and there are two document types: `question` 
 
 In order to manage the Couchbase documents, you will create POJO (Plain Old Java Object) classes to map the Couchbase documents to Java objects.
 
-Open <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java` and add the following instance variables:
+Open <FontIcon icon="fas fa-folder-open"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java` and add the following instance variables:
 
 ```java
 private String _id;
@@ -259,7 +259,7 @@ First, you will define the view to index the documents of type __question__. The
 
 Remember that a view index is a list of key-value pairs, sorted by key. The view’s logic is written in the native language of the platform you’re developing on.
 
-Add the following static method to <FontIcon icon="iconfont icon-folder"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java`:
+Add the following static method to <FontIcon icon="fas fa-folder-open"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java`:
 
 ```java
 public static Query getQuestions(Database database) {
@@ -327,7 +327,7 @@ This code does the following:
 
 Notice the call to `ModelHelper.modelForDocument`. Open <FontIcon icon="fa-brands fa-java"/>`ModelHelper.java`, and take a look at `modelForDocument`. It uses the Jackson library to convert the properties in the question `QueryRow` object to the `Question` object.
 
-If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <FontIcon icon="iconfont icon-folder"/>`adapter`/<FontIcon icon="fa-brands fa-java"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
+If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <FontIcon icon="fas fa-folder-open"/>`adapter`/<FontIcon icon="fa-brands fa-java"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
 
 ```java
 // 1
@@ -484,7 +484,7 @@ In the next section you’ll add a Submit button to save your answer to a new do
 
 User answers will be stored in the database as Answer documents. First, you’ll create an Answer model class.
 
-Create a new file <FontIcon icon="iconfont icon-folder"/>`model/`<FontIcon icon="fa-brands fa-java"/>`Answer.java` and add to it the following instance variables:
+Create a new file <FontIcon icon="fas fa-folder-open"/>`model/`<FontIcon icon="fa-brands fa-java"/>`Answer.java` and add to it the following instance variables:
 
 ```java
 private String _id;
@@ -498,7 +498,7 @@ These property names match the ones on the data modeling diagram. Next, add a ge
 
 ![image06](https://koenig-media.raywenderlich.com/uploads/2016/07/image06-1.gif)
 
-To create Answer instances, add the following constructor in <FontIcon icon="iconfont icon-folder"/>`mode/`<FontIcon icon="fa-brands fa-java"/>`Answer.java`:
+To create Answer instances, add the following constructor in <FontIcon icon="fas fa-folder-open"/>`mode/`<FontIcon icon="fa-brands fa-java"/>`Answer.java`:
 
 ```java
 public Answer(String question_id, String type, String user_answer) {
@@ -594,7 +594,7 @@ You will use Sync Gateway in what’s known as _walrus_ mode, which is an in-mem
 
 ### Installing Sync Gateway
 
-[Download Sync Gateway community edition](http://www.couchbase.com/nosql-databases/downloads#couchbase-mobile) and unzip the file. The executable is located in the <FontIcon icon="iconfont icon-folder"/> `bin` folder. If you unzipped the file to the Downloads folder, start it with this command:
+[Download Sync Gateway community edition](http://www.couchbase.com/nosql-databases/downloads#couchbase-mobile) and unzip the file. The executable is located in the <FontIcon icon="fas fa-folder-open"/> `bin` folder. If you unzipped the file to the Downloads folder, start it with this command:
 
 ```sh
 $ ~/Downloads/couchbase-sync-gateway/bin/sync_gateway -dbname="quizzdroid"

@@ -120,7 +120,7 @@ jets generate uploader Photo
 
 Enable the uploader by overriding the Post model photo setter and getter methods with `mount_uploader`.
 
-> <FontIcon icon="iconfont icon-folder"/>`app/models/`<FontIcon icon="iconfont icon-advanced"/>`post.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/models/`<FontIcon icon="iconfont icon-advanced"/>`post.rb`:
 
 ```rb
 require 'carrierwave/orm/activerecord'
@@ -145,7 +145,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
 end
 ```
 
-Add an <FontIcon icon="iconfont icon-folder"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`:
+Add an <FontIcon icon="fas fa-folder-open"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`:
 
 ```rb
 CarrierWave.configure do |config|
@@ -175,7 +175,7 @@ aws s3 mb s3://demo-uploads-$(date +%s)
 
 We’re using `date +%s` to just add a timestamp to the bucket name. Note the S3 bucket name in my case is `demo-uploads-1544733003`, yours will be different.
 
-Add these values to the [<FontIcon icon="iconfont icon-file"/>`.env.development`](http://rubyonjets.com/docs/env-files/) file so they get picked up by <FontIcon icon="iconfont icon-folder"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`. You can use a different .env.production file for different settings like an s3 bucket. We’re working only with <FontIcon icon="iconfont icon-file"/>`.env.development` for the sake of this tutorial.
+Add these values to the [<FontIcon icon="iconfont icon-file"/>`.env.development`](http://rubyonjets.com/docs/env-files/) file so they get picked up by <FontIcon icon="fas fa-folder-open"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`. You can use a different .env.production file for different settings like an s3 bucket. We’re working only with <FontIcon icon="iconfont icon-file"/>`.env.development` for the sake of this tutorial.
 
 It should look something like this:
 
@@ -204,7 +204,7 @@ Go through the [http://localhost:8888/posts](http://localhost:8888/posts) form a
 
 Let’s change the show page so that the photo shows up, change the photo ERB line to `<%= image_tag(@post.photo) %>`. The code should look something like this:
 
-> <FontIcon icon="iconfont icon-folder"/>`app/views/posts/`<FontIcon icon="iconfont icon-advanced"/>`show.html.erb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/views/posts/`<FontIcon icon="iconfont icon-advanced"/>`show.html.erb`:
 
 ```rb
 <p>

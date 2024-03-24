@@ -117,7 +117,7 @@ There are many different kernel versions, some are used as LTS (_long term suppo
 
 ## 5. Kernel Location
 
-What happens when you install a new kernel? Well it actually adds a couple of files to your system, these files are usually added to the <FontIcon icon="iconfont icon-folder"/>`/boot` directory.
+What happens when you install a new kernel? Well it actually adds a couple of files to your system, these files are usually added to the <FontIcon icon="fas fa-folder-open"/>`/boot` directory.
 
 You will see multiple files for different kernel versions:
 
@@ -126,7 +126,7 @@ You will see multiple files for different kernel versions:
 - `System.map` - symbolic lookup table
 - `config` - kernel configuration settings, if you are compiling your own kernel, you can set which modules can be loaded
 
-If your <FontIcon icon="iconfont icon-folder"/>`/boot` directory runs out of space, you can always delete old versions of these files or just use a package manager, but be careful when doing maintenance in this directory and don't accidentally delete the kernel you are using.
+If your <FontIcon icon="fas fa-folder-open"/>`/boot` directory runs out of space, you can always delete old versions of these files or just use a package manager, but be careful when doing maintenance in this directory and don't accidentally delete the kernel you are using.
 
 Go into your boot directory and see what files are in there.
 
@@ -150,7 +150,7 @@ lsmod
 sudo modprobe bluetooth
 ```
 
-Modprobe loads tries the module from <FontIcon icon="iconfont icon-folder"/>`/lib/modules/(kernel version)/kernel/drivers`. Kernel modules may also have dependencies, modprobe loads our module dependencies if they are not already loaded.
+Modprobe loads tries the module from <FontIcon icon="fas fa-folder-open"/>`/lib/modules/(kernel version)/kernel/drivers`. Kernel modules may also have dependencies, modprobe loads our module dependencies if they are not already loaded.
 
 ### Remove a module
 
@@ -160,7 +160,7 @@ sudo modprobe -r bluetooth
 
 ### Load on bootup
 
-You can also load modules during system boot, instead of temporarily loading them with modprobe (which will be unloaded when you reboot). Just modify the <FontIcon icon="iconfont icon-folder"/>`/etc/modprobe.d` directory and add a configuration file in it like so:
+You can also load modules during system boot, instead of temporarily loading them with modprobe (which will be unloaded when you reboot). Just modify the <FontIcon icon="fas fa-folder-open"/>`/etc/modprobe.d` directory and add a configuration file in it like so:
 
 ```sh
 /etc/modprobe.d/peanutbutter.conf

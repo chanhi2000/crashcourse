@@ -96,7 +96,7 @@ Finally, enter this command in Terminal to complete the setup:
 pod setup --verbose
 ```
 
-This process takes a few minutes because it clones the [<FontIcon icon="iconfont icon-github"/>CocoaPods Master Specs repository](https://github.com/CocoaPods/Specs) into <FontIcon icon="iconfont icon-folder"/>`~/.cocoapods/` on your computer.
+This process takes a few minutes because it clones the [<FontIcon icon="iconfont icon-github"/>CocoaPods Master Specs repository](https://github.com/CocoaPods/Specs) into <FontIcon icon="fas fa-folder-open"/>`~/.cocoapods/` on your computer.
 
 The `verbose` option logs progress as the process runs, allowing you to watch the process instead of seeing a seemingly “frozen” screen.
 

@@ -41,7 +41,7 @@ head:
 
 In any traditional operating system, there are users and groups. They exist solely for access and permissions. When running a process, it will run as the owner of that process whether that is Jane or Bob. File access and ownership is also permission dependent. You wouldn't want Jane to see Bob's documents and vice versa.
 
-Each user has their own home directory where their user specific files get stored, this is usually located in <FontIcon icon="iconfont icon-folder"/>`/home/username`, but can vary in different distributions.
+Each user has their own home directory where their user specific files get stored, this is usually located in <FontIcon icon="fas fa-folder-open"/>`/home/username`, but can vary in different distributions.
 
 The system uses user ids (UID) to manage users, usernames are the friendly way to associate users with identification, but the system identifies users by their UID. The system also uses groups to manage permissions, groups are just sets of users with permission set by that group, they are identified by the system with their group ID (GID).
 

@@ -186,7 +186,7 @@ Luckily, there’s a handy dandy support widget you can use to work around the c
 
 The `BoxInsetLayout` is a top-level widget that can box its children into a square that will fit inside a round screen. If your code is running on a square screen it will have no affect. You can define which sides to box in by using the `app:boxedEdges` attribute on a direct child of the `BoxInsetLayout`. The possible values are `left`, `right`, `top`, `bottom`, and `all`. You can combine different values too – so `app:boxedEdges:"left|top|bottom"` is totally legal.
 
-Now that you’ve got the idea down, open the <FontIcon icon="iconfont icon-folder"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
+Now that you’ve got the idea down, open the <FontIcon icon="fas fa-folder-open"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
 
 ```xml
 <android.support.wear.widget.BoxInsetLayout

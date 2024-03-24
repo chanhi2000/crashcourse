@@ -94,7 +94,7 @@ This project was made so that you can start using face detection and tracking qu
 
 ### Project Dependencies
 
-Open the project’s <FontIcon icon="iconfont icon-folder"/>`app`/<FontIcon icon="iconfont icon-engine"/>`build.gradle`:
+Open the project’s <FontIcon icon="fas fa-folder-open"/>`app`/<FontIcon icon="iconfont icon-engine"/>`build.gradle`:
 
 ![Screenshot of the Project pane in Android studio, showing 'build.gradle (Module:app)' highlighted.](https://koenig-media.raywenderlich.com/uploads/2017/04/build.gradle-app-in-project-pane.jpg)
 

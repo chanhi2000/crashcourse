@@ -83,7 +83,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 > 프로젝트 홈 디렉터리: 윈도우는 <FontIcon icon="iconfont icon-file"/>`C:/Users/<사용자명>/projects` 디렉터리를 사용하고 맥 OS라면 <FontIcon icon="iconfont icon-file"/>`/Users/<사용자명>/projects`를 사용하자.
 
-그러면 프로젝트 홈 디렉터리 밑에 <FontIcon icon="iconfont icon-folder"/>`sbb` 디렉터리가 생성될 것이다. 이제 인텔리제이를 설치하고 <FontIcon icon="iconfont icon-folder"/>`sbb` 디렉터리를 인텔리제이에서 <FontIcon icon="iconfont icon-select"/>`["Open"]` 하여 스프링부트 프로젝트를 시작할수 있다.
+그러면 프로젝트 홈 디렉터리 밑에 <FontIcon icon="fas fa-folder-open"/>`sbb` 디렉터리가 생성될 것이다. 이제 인텔리제이를 설치하고 <FontIcon icon="fas fa-folder-open"/>`sbb` 디렉터리를 인텔리제이에서 <FontIcon icon="iconfont icon-select"/>`["Open"]` 하여 스프링부트 프로젝트를 시작할수 있다.
 
 ### 인텔리제이 설치
 
@@ -97,7 +97,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 ![인텔리제이를 처음 실행하면 다음과 같은 창이 나올 것이다.](https://wikidocs.net/images/page/164891/C_A-01_2.png)
 
-.<FontIcon icon="iconfont icon-select"/>`["Open"]` 버튼을 누르고 위에서 압축해제한 <FontIcon icon="iconfont icon-folder"/>`sbb` 디렉터리를 선택한다. 
+.<FontIcon icon="iconfont icon-select"/>`["Open"]` 버튼을 누르고 위에서 압축해제한 <FontIcon icon="fas fa-folder-open"/>`sbb` 디렉터리를 선택한다. 
 
 ![그러면 다음과 같이 sbb 프로젝트가 인텔리제이에서 시작된다.](https://wikidocs.net/images/page/164891/O_A-01_6.png)
 
@@ -105,7 +105,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 ::: info SDK 오류
 
-.<FontIcon icon="iconfont icon-folder"/>`com/mysite/sbb/`<FontIcon icon="fa-brands fa-java"/>`SbbApplication.java` 파일을 열었을 때 오류가 발생한다면 SDK가 지정되지 않은 경우이므로 에디터 창 상단에 표시되는 "SDK" 설정을 통해 설치된 자바 SDK를 지정하자.
+.<FontIcon icon="fas fa-folder-open"/>`com/mysite/sbb/`<FontIcon icon="fa-brands fa-java"/>`SbbApplication.java` 파일을 열었을 때 오류가 발생한다면 SDK가 지정되지 않은 경우이므로 에디터 창 상단에 표시되는 "SDK" 설정을 통해 설치된 자바 SDK를 지정하자.
 
 :::
 
@@ -131,7 +131,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 템플릿 파일을 변경한 후 자동 적용되게 하려면 `application.properties` 파일에 다음과 같은 내용을 추가하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`sbb/src/main/resources/`<FontIcon icon="iconfont icon-file"/>`application.properties`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`sbb/src/main/resources/`<FontIcon icon="iconfont icon-file"/>`application.properties`
 
 ```properties
 // (... 생략 ...)
@@ -164,7 +164,7 @@ spring.thymeleaf.prefix=file:src/main/resources/templates/
 
 ![다음과 같이 그레이들 창에서 <FontIcon icon="iconfont icon-select"/>`[sbb -> Tasks -> build -> bootJar]` 을 선택하자.](https://wikidocs.net/images/page/164891/O_A-01_12.png)
 
-그리고 우측 마우스 버튼을 눌러 <FontIcon icon="iconfont icon-select"/>`Run sbb [bootJar]`를 선택한다. 그러면 <FontIcon icon="iconfont icon-folder"/>`build/libs/` 디렉터리에 <FontIcon icon="fa-brands fa-java"/>`sbb-0.0.1-SNAPSHOT.jar`와 같은 배포 파일이 생성된다.
+그리고 우측 마우스 버튼을 눌러 <FontIcon icon="iconfont icon-select"/>`Run sbb [bootJar]`를 선택한다. 그러면 <FontIcon icon="fas fa-folder-open"/>`build/libs/` 디렉터리에 <FontIcon icon="fa-brands fa-java"/>`sbb-0.0.1-SNAPSHOT.jar`와 같은 배포 파일이 생성된다.
 
 ---
 
@@ -287,7 +287,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 댓글 작성을 위해서 가장 먼저 준비해야 할 것은 댓글 모델이다.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -355,7 +355,7 @@ public class Comment {
 
 다음과 같이 `Comment` 모델에 `getQuestionId` 메서드를 추가하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="fa-brands fa-java"/>`Comment.java`
 
 ```java{12-20}
 package com.mysite.sbb.comment;
@@ -387,7 +387,7 @@ public class Comment {
 
 그리고 질문에서 댓글을 참조하기 위해 다음과 같이 질문 모델을 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/question`<FontIcon icon="fa-brands fa-java"/>`Question.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/question`<FontIcon icon="fa-brands fa-java"/>`Question.java`
 
 ```java{4,13-14}
 package com.mysite.sbb.question;
@@ -413,7 +413,7 @@ public class Question {
 
 마찬가지로 답변에서 댓글을 참조하기 위해 다음과 같이 답변 모델을 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/answer/ `<FontIcon icon="fa-brands fa-java"/>`Answer.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/answer/ `<FontIcon icon="fa-brands fa-java"/>`Answer.java`
 
 ```java{4,13-14}
 package com.mysite.sbb.answer;
@@ -443,7 +443,7 @@ public class Answer {
 
 질문 상세 템플릿을 다음과 같이 수정하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>` C:\projects\mysite\templates\pybo`<FontIcon icon="fa-brands fa-html"/>`question_detail.html`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>` C:\projects\mysite\templates\pybo`<FontIcon icon="fa-brands fa-html5"/>`question_detail.html`
 
 ```html{13-32}
 <html layout:decorate="~{layout}">
@@ -490,7 +490,7 @@ public class Answer {
 
 루프에 의해 반복되는 댓글 각각은 `comment`라는 스타일 클래스를 따로 지정했다. 댓글 영역은 좀 작은 글씨로 보여질 필요가 있기 때문이다. 지금까지 빈 파일로 되어있던 <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`에 `comment` 클래스에 대한 내용을 다음처럼 추가하도록 하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/static`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/resources/static`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css`
 
 ```css
 .comment {
@@ -505,7 +505,7 @@ public class Answer {
 
 댓글 데이터를 처리하기 위해 다음과 같이 `Comment` 리포지터리를 작성하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentRepository.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentRepository.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -520,7 +520,7 @@ public interface CommentRepository extends JpaRepository<Comment, Integer> {
 
 그리고 리포지터리를 사용하여 댓글을 조회하고 생성, 수정, 삭제하는 서비스를 다음과 같이 만들자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentService.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentService.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -573,7 +573,7 @@ public class CommentService {
 
 그리고 댓글 작성시 필요한 `CommentForm`을 다음과 같이 작성하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentForm.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentForm.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -597,7 +597,7 @@ public class CommentForm {
 
 그리고 질문 댓글을 작성, 수정, 삭제하기 위한 댓글 컨트롤러를 다음과 같이 작성하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentController.java`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/java/com/mysite/sbb/comment/`<FontIcon icon="iconfont icon-name"/>`CommentController.java`
 
 ```java
 package com.mysite.sbb.comment;
@@ -712,13 +712,13 @@ public class CommentController {
 }
 ```
 
-질문을 작성, 수정, 삭제하는 것과 동일한 방법이라서 각각의 메서드를 따로 설명하지는 않겠다. 다만 댓글을 작성하기 위해 <FontIcon icon="fa-brands fa-html"/>`comment_form.html` 템플릿이 필요하고 댓글을 작성, 수정, 삭제한 후에는 해당 질문의 상세 페이지로 이동하기 위해 질문의 id 값이 필요하여 `c.getQuestionId()`를 사용했다는 점에 유의하자.
+질문을 작성, 수정, 삭제하는 것과 동일한 방법이라서 각각의 메서드를 따로 설명하지는 않겠다. 다만 댓글을 작성하기 위해 <FontIcon icon="fa-brands fa-html5"/>`comment_form.html` 템플릿이 필요하고 댓글을 작성, 수정, 삭제한 후에는 해당 질문의 상세 페이지로 이동하기 위해 질문의 id 값이 필요하여 `c.getQuestionId()`를 사용했다는 점에 유의하자.
 
-#### <FontIcon icon="fa-brands fa-html"/>`comment_form.html`
+#### <FontIcon icon="fa-brands fa-html5"/>`comment_form.html`
 
 그리고 댓글 작성과 수정시 필요한 `comment_form` 템플릿을 다음과 같이 작성하자.
 
-> 파일명: <FontIcon icon="iconfont icon-folder"/>`/sbb/src/main/resources/templates/`<FontIcon icon="fa-brands fa-html "/>`comment_form.html`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`/sbb/src/main/resources/templates/`<FontIcon icon="fa-brands fa-html5 "/>`comment_form.html`
 
 ```html
 <html layout:decorate="~{layout}">

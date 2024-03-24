@@ -51,6 +51,16 @@ head:
 }
 ```
 
+```component VPCard
+{
+  "title": "CJ온스타일의 안드로이드 앱 '클린 아키텍처' 도입기 | 요즘IT",
+  "desc": "CJ온스타일의 안드로이드 앱 '클린 아키텍처' 도입기",
+  "link": "2457.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
 ---
 
 <TagLinks />

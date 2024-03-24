@@ -87,7 +87,7 @@ Hopefully, you found the background info above interesting.
 
 For those who might not seen Jets code before, here are some examples. Here’s a [simple function](http://rubyonjets.com/docs/functions/):
 
-> <FontIcon icon="iconfont icon-folder"/>`app/functions/`<FontIcon icon="iconfont icon-advanced"/>`simple.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/functions/`<FontIcon icon="iconfont icon-advanced"/>`simple.rb`:
 
 ```rb
 def lambda_handler(event:, context:)
@@ -99,7 +99,7 @@ end
 
 Here’s a [Jets Controller](http://rubyonjets.com/docs/controllers/):
 
-> <FontIcon icon="iconfont icon-folder"/>`app/controllers/`<FontIcon icon="iconfont icon-advanced"/>`posts_controller.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/controllers/`<FontIcon icon="iconfont icon-advanced"/>`posts_controller.rb`:
 
 ```rb
 class PostsController < ApplicationController
@@ -119,7 +119,7 @@ end
 
 Here’s a [Jets Job](http://rubyonjets.com/docs/jobs/).
 
-> <FontIcon icon="iconfont icon-folder"/>`app/jobs/`<FontIcon icon="iconfont icon-advanced"/>`hard_job.rb`:
+> <FontIcon icon="fas fa-folder-open"/>`app/jobs/`<FontIcon icon="iconfont icon-advanced"/>`hard_job.rb`:
 
 ```rb
 class HardJob < ApplicationJob

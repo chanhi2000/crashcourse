@@ -96,7 +96,7 @@ Look at your <FontIcon icon="iconfont icon-file"/>`/etc/rsyslog.d` configuration
 
 ## 3. General Logging
 
-There are many log files you can view on your system, many important ones can be found under <FontIcon icon="iconfont icon-folder"/>`/var/log`. We won't go through them all, but we'll discuss a couple of the major ones.
+There are many log files you can view on your system, many important ones can be found under <FontIcon icon="fas fa-folder-open"/>`/var/log`. We won't go through them all, but we'll discuss a couple of the major ones.
 
 There are two general log files you can view to get a glimpse of what your system is doing:
 

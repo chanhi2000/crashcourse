@@ -289,7 +289,7 @@ ls -ld /tmp
 # drwxrwxrwxt 6 root root 4096 Dec 15 11:45 /tmp
 ```
 
-You'll see a special permission bit at the end here t, this means everyone can add files, write files, modify files in the <FontIcon icon="iconfont icon-folder"/>`/tmp` directory, but only root can delete the <FontIcon icon="iconfont icon-folder"/>`/tmp` directory.
+You'll see a special permission bit at the end here t, this means everyone can add files, write files, modify files in the <FontIcon icon="fas fa-folder-open"/>`/tmp` directory, but only root can delete the <FontIcon icon="fas fa-folder-open"/>`/tmp` directory.
 
 Modify sticky bit
 

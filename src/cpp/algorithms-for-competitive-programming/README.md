@@ -78,21 +78,21 @@ The goal of this project is to translate [the wonderful resource](https://e-maxx
   - [08E. Planar graphs](08-geometry/08E.md)
   - [08F. Misc](08-geometry/08F.md)
 - 09. Graphs
-  - 09A. Graph traversal
-  - 09B. Connected components, bridges, articulations points
-  - 09C. Single-source shortest paths
-  - 09D. All-pairs shortest paths
-  - 09E. Spanning trees
-  - 09F. Cycles
-  - 09G. Lowest common ancestor
-  - 09H. Flows and related problems
-  - 09I. Matchings and related problems
-  - 09J. Misc
+  - [09A. Graph traversal](09-graphs/09A.md)
+  - [09B. Connected components, bridges, articulations points](09-graphs/09B.md)
+  - [09C. Single-source shortest paths](09-graphs/09C.md)
+  - [09D. All-pairs shortest paths](09-graphs/09D.md)
+  - [09E. Spanning trees](09-graphs/09E.md)
+  - [09F. Cycles](09-graphs/09F.md)
+  - [09G. Lowest common ancestor](09-graphs/09G.md)
+  - [09H. Flows and related problems](09-graphs/09H.md)
+  - [09I. Matchings and related problems](09-graphs/09I.md)
+  - [09J. Misc](09-graphs/09J.md)
 - 10. Misc
-  - 10A. Sequences
-  - 10B. Game Theory
-  - 10C. Schedules
-  - 10D. Misc
+  - [10A. Sequences](10-misc/10A.md)
+  - [10B. Game Theory](10-misc/10B.md)
+  - [10C. Schedules](10-misc/10C.md)
+  - [10D. Misc](10-misc/10D.md)
 
 ---
 
