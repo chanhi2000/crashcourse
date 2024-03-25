@@ -70,6 +70,10 @@ export const navbarEn = navbar([
         link: '/java/jump-to-spring-boot/README.md',
         icon: 'fa-brands fa-envira'
       }, {
+        text: '스프링부트 개념과 활용',
+        link: '/java/spring-boot-whiteship/README.md',
+        icon: 'fa-brands fa-envira',
+      }, {
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
         icon: 'iconfont icon-java'
@@ -193,10 +197,14 @@ export const navbarEn = navbar([
         link: '/devops/linux-journey/README.md',
         icon: 'fa-brands fa-linux'
       }, {
+        text: 'CYL2002 - Digital Forensics Lab',
+        link: '/devops/digital-forensics-lab/README.md',
+        icon: 'fas fa-shield-halved',
+      }, {
         text: '요즘 IT 블로그 - DevOps 관련',
         link: '/devops/yozm/README.md',
         icon: 'fas fa-cubes-stacked',
-      }
+      } 
     ]
   }, {
     text: '',
@@ -217,19 +225,4 @@ export const navbarEn = navbar([
       }
     ]
   }
-// {
-//   text: '📍Misc.',
-//   children: [
-//     {
-//       text: '🕶️Github',
-//       link: 'https://github.com/chanhi2000',
-//     }, {
-//       text: '🅽Notion',
-//       link: 'https://www.notion.so/MarkiiimarK-c231ae6c157d4baba89a3713c92449dd',
-//     },{
-//       text: "📢Tell Me What's Wrong",
-//       link: "https://github.com/chanhi2000/devlog/issues",
-//     }
-//   ]
-// }, 
 ])

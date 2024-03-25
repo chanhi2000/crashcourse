@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Building a complete project
-description: SwiftUI by Example > Building a complete project
+title: Adding items to an order with @EnvironmentObject
+description: SwiftUI by Example > Adding items to an order with @EnvironmentObject
 category:
   - Swift
 tag: 
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: SwiftUI by Example > Building a complete project
+      content: SwiftUI by Example > Adding items to an order with @EnvironmentObject
     - property: og:description
-      content: Building a complete project
+      content: Adding items to an order with @EnvironmentObject
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/01-building-a-complete-project/adding-items-to-an-order-with-environmentobject.html
 ---

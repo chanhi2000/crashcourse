@@ -161,7 +161,7 @@ nano lets-encrypt-issuer.yaml
 
 Add the following lines, entering your email address in the `spec.acme.email` field (this is the address Let’s Encrypt will associate with the certificates it provides):
 
-### `tutorial-cluster-config/llets-encrypt-issuer.yaml`
+### <FontIcon icon="iconfont icon-yaml"/>`tutorial-cluster-config/llets-encrypt-issuer.yaml`
 
 ```yml
 apiVersion: cert-manager.io/v1

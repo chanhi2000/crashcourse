@@ -339,7 +339,7 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/02-working-with-static-text/how-to-let-users-select-text.md',
           ]
         }, {
-          text: 'Working with static text',
+          text: 'Images, shapes, and media',
           collapsible: true,
           children: [
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md',
@@ -360,9 +360,7 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-select-pictures-using-photospicker.md',
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md',
           ]
-        }, 
-        /*
-        {
+        }, {
           text: 'View layout',
           collapsible: true,
           children: [
@@ -382,11 +380,65 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md',
             '/swift/swiftui-by-example/04-view-layout/how-to-create-an-adaptive-layout-with-viewthatfits.md',
           ]
+        }, {
+          text: 'Stacks, grids, scrollviews',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-force-views-to-one-side-inside-a-stack-using-spacer.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-fixed-size-spacer.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-layer-views-on-top-of-each-other-using-zstack.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-change-the-order-of-view-layering-using-z-index.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-different-layouts-using-size-classes.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-fixed-grid.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-dismiss-the-keyboard-when-the-user-scrolls.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-multi-column-lists-using-table.md',
+          ]          
+        }, {
+          text: 'User interface controls',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/06-user-interface-controls/working-with-state.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-tappable-button.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-get-bordered-buttons-that-stand-out.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-group-views-together-with-controlgroup.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-read-text-from-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-take-action-when-the-user-submits-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-add-a-border-to-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-add-a-placeholder-to-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-disable-autocorrect-in-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-dismiss-the-keyboard-for-a-textfield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-or-texteditor-have-default-focus.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-expand-vertically-as-the-user-types.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-format-a-textfield-for-numbers.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-secure-text-fields-using-securefield.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-toggle-switch.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-slider-and-read-values-from-it.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-picker-and-read-values-from-it.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-date-picker-and-read-values-from-it.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-segmented-control-and-read-values-from-it.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-stepper-and-read-values-from-it.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-create-multi-line-editable-text-with-texteditor.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-let-users-select-a-color-with-colorpicker.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-show-progress-on-a-task-using-progressview.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-show-indeterminate-progress-using-progressview.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-show-a-map-view.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-show-annotations-in-a-map-view.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-open-web-links-in-safari.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.md',
+          ]
         },
-        */
-        '/swift/swiftui-by-example/04-view-layout.md',
-        '/swift/swiftui-by-example/05-stacks-grids-scrollviews.md',
-        '/swift/swiftui-by-example/06-user-interface-controls.md',
         '/swift/swiftui-by-example/07-responding-to-events.md',
         '/swift/swiftui-by-example/08-taps-and-gestures.md',
         '/swift/swiftui-by-example/09-advanced-state.md',
@@ -567,6 +619,20 @@ export const sidebarEn = sidebar({
         '/java/jump-to-spring-boot/a.md',
       ]
     }, {
+      text: '스프링부트 개념과 활용',
+      collapsible: true,
+      icon: 'fa-brands fa-envira',
+      children: [
+        '/java/spring-boot-whiteship/README.md',
+        '/java/spring-boot-whiteship/01.md',
+        '/java/spring-boot-whiteship/02.md',
+        '/java/spring-boot-whiteship/03.md',
+        '/java/spring-boot-whiteship/04.md',
+        '/java/spring-boot-whiteship/05.md',
+        '/java/spring-boot-whiteship/06.md',
+        '/java/spring-boot-whiteship/07.md',
+      ]
+    }, {
       text: 'Java Web App with Quarkus and JPAStreamer',
       collapsible: true,
       icon: 'iconfont icon-java',
@@ -674,6 +740,7 @@ export const sidebarEn = sidebar({
         '/js/yozm/2493.md',
         '/js/yozm/2504.md',
         '/js/yozm/2505.md',
+        '/js/yozm/2511.md',
       ]
     }
   ], '/python/': [
@@ -1120,6 +1187,23 @@ export const sidebarEn = sidebar({
           ]
         }
       ]
+    }, {
+        text: 'CYL2002 - Digital Forensics Lab',
+        collapsible: true,
+        icon: 'fas fa-shield-halved',
+        children: [
+          '/devops/digital-forensics-lab/README.md',
+          '/devops/digital-forensics-lab/01.md',
+          '/devops/digital-forensics-lab/02.md',
+          '/devops/digital-forensics-lab/03.md',
+          '/devops/digital-forensics-lab/04.md',
+          '/devops/digital-forensics-lab/05.md',
+          '/devops/digital-forensics-lab/06.md',
+          '/devops/digital-forensics-lab/07.md',
+          '/devops/digital-forensics-lab/08.md',
+          '/devops/digital-forensics-lab/09.md',
+          '/devops/digital-forensics-lab/10.md',
+        ]
     }, {
       text: '요즘 IT 블로그 - DevOps 관련',
       collapsible: true,

@@ -477,13 +477,13 @@ First, you will create a subdirectory in the directory containing your `Dockerfi
 mkdir knative
 ```
 
-Next, you will create a YAML file called `service.yaml` in the `knative` directory:
+Next, you will create a YAML file called <FontIcon icon="iconfont icon-yaml"/>`service.yaml` in the `knative` directory:
 
 ```sh
 nano knative/service.yaml
 ```
 
-In the newly created `service.yaml` file, add the following lines to define a `Service` that will deploy your Node.js app:
+In the newly created <FontIcon icon="iconfont icon-yaml"/>`service.yaml` file, add the following lines to define a `Service` that will deploy your Node.js app:
 
 > `~/node_project/knative/service.yaml`
 

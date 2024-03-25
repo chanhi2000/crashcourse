@@ -44,7 +44,11 @@ head:
 
 This is a complete, free SwiftUI tutorial designed to take you through lots of its functionality in a single project. It’s aimed at people who have existing programming experience with UIKit, but most things are explained in detail so newcomers ought to be able to follow along.
 
-__Important__: This was written for iOS 16.1, so you’ll need at least Xcode 14.1 to follow along. This is available as a free download from the Mac App Store if you don’t already have it.
+::: important
+
+This was written for iOS 16.1, so you’ll need at least Xcode 14.1 to follow along. This is available as a free download from the Mac App Store if you don’t already have it.
+
+:::
 
 The project we’ll be making is called iDine, and is a restaurant app that lists items in a menu and helps folks place orders. I’ve designed the project specifically so that it covers as many different techniques as possible to give you a good grounding in how things work in SwiftUI. Of course, we’re also building a real project at the same time – it’s going to be busy!
 
@@ -71,7 +75,11 @@ Please copy them into your project like this:
 
 OK, that’s it – we’re ready to go!
 
-__Tip__: At the end of each chapter I’ve added a “Further reading” section that suggests links to other chapters in this book. You don’t need to read them in order to follow along; they are there to provide extra information and detail if you want to understand the bigger picture more thoroughly.
+::: tip
+
+At the end of each chapter I’ve added a “Further reading” section that suggests links to other chapters in this book. You don’t need to read them in order to follow along; they are there to provide extra information and detail if you want to understand the bigger picture more thoroughly.
+
+:::
 
 ---
 

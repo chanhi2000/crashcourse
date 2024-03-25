@@ -615,15 +615,159 @@ head:
 
 > Layout sizes, priorities, and spacing
 
+::: details View layuot
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > View layout",
-  "desc": "View layout",
-  "link": "04-view-layout.md",
+  "title": "SwiftUI by Example > How to give a view a custom frame",
+  "desc": "How to give a view a custom frame",
+  "link": "04-view-layout/how-to-give-a-view-a-custom-frame.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control spacing around individual views using padding",
+  "desc": "How to control spacing around individual views using padding",
+  "link": "04-view-layout/how-to-control-spacing-around-individual-views-using-padding.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to provide relative sizes using GeometryReader",
+  "desc": "How to provide relative sizes using GeometryReader",
+  "link": "04-view-layout/how-to-provide-relative-sizes-using-geometryreader.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to place content outside the safe area",
+  "desc": "How to place content outside the safe area",
+  "link": "04-view-layout/how-to-place-content-outside-the-safe-area.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to return different view types",
+  "desc": "How to return different view types",
+  "link": "04-view-layout/how-to-return-different-view-types.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create views in a loop using ForEach",
+  "desc": "How to create views in a loop using ForEach",
+  "link": "04-view-layout/how-to-create-views-in-a-loop-using-foreach.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control layout priority using layoutPriority()",
+  "desc": "How to control layout priority using layoutPriority()",
+  "link": "04-view-layout/how-to-control-layout-priority-using-layoutpriority.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make two views the same width or height",
+  "desc": "How to make two views the same width or height",
+  "link": "04-view-layout/how-to-make-two-views-the-same-width-or-height.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to provide visual structure using foreground styles",
+  "desc": "How to provide visual structure using foreground styles",
+  "link": "04-view-layout/how-to-provide-visual-structure-using-foreground-styles.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to inset the safe area with custom content",
+  "desc": "How to inset the safe area with custom content",
+  "link": "04-view-layout/how-to-inset-the-safe-area-with-custom-content.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to hide the home indicator and other system UI",
+  "desc": "How to hide the home indicator and other system UI",
+  "link": "04-view-layout/how-to-hide-the-home-indicator-and-other-system-ui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to stop system gestures from interfering with your own",
+  "desc": "How to stop system gestures from interfering with your own",
+  "link": "04-view-layout/how-to-stop-system-gestures-from-interfering-with-your-own.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to dynamically change between VStack and HStack",
+  "desc": "How to dynamically change between VStack and HStack",
+  "link": "04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a custom layout using the Layout protocol",
+  "desc": "How to create a custom layout using the Layout protocol",
+  "link": "04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create an adaptive layout with ViewThatFits",
+  "desc": "How to create an adaptive layout with ViewThatFits",
+  "link": "04-view-layout/how-to-create-an-adaptive-layout-with-viewthatfits.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 
@@ -631,15 +775,179 @@ head:
 
 > Position views in a structured way
 
+::: details Stacks, grids, scrollviews
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Stacks, grids, scrollviews",
-  "desc": "Stacks, grids, scrollviews",
-  "link": "05-stacks-grids-scrollviews.md",
+  "title": "SwiftUI by Example > How to create stacks using VStack and HStack",
+  "desc": "How to create stacks using VStack and HStack",
+  "link": "05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to customize stack layouts with alignment and spacing",
+  "desc": "How to customize stack layouts with alignment and spacing",
+  "link": "05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to force views to one side inside a stack using Spacer",
+  "desc": "How to force views to one side inside a stack using Spacer",
+  "link": "05-stacks-grids-scrollviews/how-to-force-views-to-one-side-inside-a-stack-using-spacer.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a fixed size Spacer",
+  "desc": "How to make a fixed size Spacer",
+  "link": "05-stacks-grids-scrollviews/how-to-make-a-fixed-size-spacer.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to layer views on top of each other using ZStack",
+  "desc": "How to layer views on top of each other using ZStack",
+  "link": "05-stacks-grids-scrollviews/how-to-layer-views-on-top-of-each-other-using-zstack.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to change the order of view layering using Z index",
+  "desc": "How to change the order of view layering using Z index",
+  "link": "05-stacks-grids-scrollviews/how-to-change-the-order-of-view-layering-using-z-index.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create different layouts using size classes",
+  "desc": "How to create different layouts using size classes",
+  "link": "05-stacks-grids-scrollviews/how-to-create-different-layouts-using-size-classes.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to automatically switch between HStack and VStack based on size class",
+  "desc": "How to automatically switch between HStack and VStack based on size class",
+  "link": "05-stacks-grids-scrollviews/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add horizontal and vertical scrolling using ScrollView",
+  "desc": "How to add horizontal and vertical scrolling using ScrollView",
+  "link": "05-stacks-grids-scrollviews/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a scroll view move to a location using ScrollViewReader",
+  "desc": "How to make a scroll view move to a location using ScrollViewReader",
+  "link": "05-stacks-grids-scrollviews/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
+  "desc": "How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
+  "link": "05-stacks-grids-scrollviews/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to lazy load views using LazyVStack and LazyHStack",
+  "desc": "How to lazy load views using LazyVStack and LazyHStack",
+  "link": "05-stacks-grids-scrollviews/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to position views in a fixed grid",
+  "desc": "How to position views in a fixed grid",
+  "link": "05-stacks-grids-scrollviews/how-to-position-views-in-a-fixed-grid.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to position views in a grid using LazyVGrid and LazyHGrid",
+  "desc": "How to position views in a grid using LazyVGrid and LazyHGrid",
+  "link": "05-stacks-grids-scrollviews/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to dismiss the keyboard when the user scrolls",
+  "desc": "How to dismiss the keyboard when the user scrolls",
+  "link": "05-stacks-grids-scrollviews/how-to-dismiss-the-keyboard-when-the-user-scrolls.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to hide the scroll indicators in ScrollView, List, and more",
+  "desc": "How to hide the scroll indicators in ScrollView, List, and more",
+  "link": "05-stacks-grids-scrollviews/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create multi-column lists using Table",
+  "desc": "How to create multi-column lists using Table",
+  "link": "05-stacks-grids-scrollviews/how-to-create-multi-column-lists-using-table.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 
@@ -647,15 +955,320 @@ head:
 
 > Respond to interaction and control your program state
 
+::: details User interface controls
+
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > User interface controls",
-  "desc": "User interface controls",
-  "link": "06-user-interface-controls.md",
+  "title": "SwiftUI by Example > Working with state",
+  "desc": "Working with state",
+  "link": "06-user-interface-controls/working-with-state.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a tappable button",
+  "desc": "How to create a tappable button",
+  "link": "06-user-interface-controls/how-to-create-a-tappable-button.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to disable the overlay color for images inside Button and NavigationLink",
+  "desc": "How to disable the overlay color for images inside Button and NavigationLink",
+  "link": "06-user-interface-controls/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to get bordered buttons that stand out",
+  "desc": "How to get bordered buttons that stand out",
+  "link": "06-user-interface-controls/how-to-get-bordered-buttons-that-stand-out.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to group views together with ControlGroup",
+  "desc": "How to group views together with ControlGroup",
+  "link": "06-user-interface-controls/how-to-group-views-together-with-controlgroup.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to read text from a TextField",
+  "desc": "How to read text from a TextField",
+  "link": "06-user-interface-controls/how-to-read-text-from-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to take action when the user submits a TextField",
+  "desc": "How to take action when the user submits a TextField",
+  "link": "06-user-interface-controls/how-to-take-action-when-the-user-submits-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to customize the submit button for TextField, SecureField, and TextEditor",
+  "desc": "How to customize the submit button for TextField, SecureField, and TextEditor",
+  "link": "06-user-interface-controls/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add a border to a TextField",
+  "desc": "How to add a border to a TextField",
+  "link": "06-user-interface-controls/how-to-add-a-border-to-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add a placeholder to a TextField",
+  "desc": "How to add a placeholder to a TextField",
+  "link": "06-user-interface-controls/how-to-add-a-placeholder-to-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to disable autocorrect in a TextField",
+  "desc": "How to disable autocorrect in a TextField",
+  "link": "06-user-interface-controls/how-to-disable-autocorrect-in-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to dismiss the keyboard for a TextField",
+  "desc": "How to dismiss the keyboard for a TextField",
+  "link": "06-user-interface-controls/how-to-dismiss-the-keyboard-for-a-textfield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a TextField or TextEditor have default focus",
+  "desc": "How to make a TextField or TextEditor have default focus",
+  "link": "06-user-interface-controls/how-to-make-a-textfield-or-texteditor-have-default-focus.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a TextField expand vertically as the user types",
+  "desc": "How to make a TextField expand vertically as the user types",
+  "link": "06-user-interface-controls/how-to-make-a-textfield-expand-vertically-as-the-user-types.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to format a TextField for numbers",
+  "desc": "How to format a TextField for numbers",
+  "link": "06-user-interface-controls/how-to-format-a-textfield-for-numbers.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create secure text fields using SecureField",
+  "desc": "How to create secure text fields using SecureField",
+  "link": "06-user-interface-controls/how-to-create-secure-text-fields-using-securefield.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a toggle switch",
+  "desc": "How to create a toggle switch",
+  "link": "06-user-interface-controls/how-to-create-a-toggle-switch.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a slider and read values from it",
+  "desc": "How to create a slider and read values from it",
+  "link": "06-user-interface-controls/how-to-create-a-slider-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a picker and read values from it",
+  "desc": "How to create a picker and read values from it",
+  "link": "06-user-interface-controls/how-to-create-a-picker-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a date picker and read values from it",
+  "desc": "How to create a date picker and read values from it",
+  "link": "06-user-interface-controls/how-to-create-a-date-picker-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a segmented control and read values from it",
+  "desc": "How to create a segmented control and read values from it",
+  "link": "06-user-interface-controls/how-to-create-a-segmented-control-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a stepper and read values from it",
+  "desc": "How to create a stepper and read values from it",
+  "link": "06-user-interface-controls/how-to-create-a-stepper-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create multi-line editable text with TextEditor",
+  "desc": "How to create multi-line editable text with TextEditor",
+  "link": "06-user-interface-controls/how-to-create-multi-line-editable-text-with-texteditor.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let users select a color with ColorPicker",
+  "desc": "How to let users select a color with ColorPicker",
+  "link": "06-user-interface-controls/how-to-let-users-select-a-color-with-colorpicker.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show progress on a task using ProgressView",
+  "desc": "How to show progress on a task using ProgressView",
+  "link": "06-user-interface-controls/how-to-show-progress-on-a-task-using-progressview.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show indeterminate progress using ProgressView",
+  "desc": "How to show indeterminate progress using ProgressView",
+  "link": "06-user-interface-controls/how-to-show-indeterminate-progress-using-progressview.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show a Map view",
+  "desc": "How to show a Map view",
+  "link": "06-user-interface-controls/how-to-show-a-map-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show annotations in a Map view",
+  "desc": "How to show annotations in a Map view",
+  "link": "06-user-interface-controls/how-to-show-annotations-in-a-map-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to open web links in Safari",
+  "desc": "How to open web links in Safari",
+  "link": "06-user-interface-controls/how-to-open-web-links-in-safari.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let the user select multiple dates",
+  "desc": "How to let the user select multiple dates",
+  "link": "06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden()",
+  "desc": "How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden()",
+  "link": "06-user-interface-controls/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 

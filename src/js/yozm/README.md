@@ -97,6 +97,16 @@ head:
 }
 ```
 
+```component VPCard
+{
+  "title": "Vue+express에서 Next.js로, '숨고'의 마이그레이션 (1,2) | 요즘IT",
+  "desc": "Vue+express에서 Next.js로, '숨고'의 마이그레이션 (1,2)",
+  "link": "2511.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
 ---
 
 <TagLinks />

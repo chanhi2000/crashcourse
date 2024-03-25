@@ -38,6 +38,38 @@ head:
 }
 ```
 
+> Updated for Xcode 15
+
+<VidStack src="youtube/8O8HmKn2OFk" />
+
+Okay, let’s fix up that order total so that it’s accurate. We’re going to add a `totalPrice` computed property to our type, which will calculate the value of their tip, add it to the total for their order, and return that amount.
+
+Please add this to `CheckoutView` now:
+
+```swift
+var totalPrice: String {
+    let total = Double(order.total)
+    let tipValue = total / 100 * Double(tipAmount)
+    return (total + tipValue).formatted(.currency(code: "USD"))
+}
+```
+
+Now, remember that SwiftUI will re-invoke our `body` property whenever any of our `@State` properties change. As a result, we can use that computed property right inside our layout, and it will automatically change as the segmented control changes:
+
+```swift
+Section("Total: \(totalPrice)") {
+```
+
+If you try that out you should see it all works great – the total price reflects the items we’re ordering, plus any tip the user selected.
+
+![Our completed order form, showing options for payment type, loyalty card, and tip percentage, plus a button to confirm the order.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/2-14~dark.png)
+
+::: details Further reading
+
+How to format text inside text views
+
+:::
+
 ---
 
 <TagLinsk />
