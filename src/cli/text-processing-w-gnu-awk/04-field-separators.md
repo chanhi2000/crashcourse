@@ -126,7 +126,7 @@ awk '{print $NF-1}' table.txt
 
 :::
 
-By default, `awk` does more than split the input on spaces. It splits based on one or more sequence of __space__ or __tab__ or __newline__ characters. In addition, any of these three characters at the start or end of input gets trimmed and won't be part of the field contents. Input containing newline characters will be covered in the [Record separators](05-record-separators.md) chapter.
+By default, `awk` does more than split the input on spaces. It splits based on one or more sequence of **space** or **tab** or **newline** characters. In addition, any of these three characters at the start or end of input gets trimmed and won't be part of the field contents. Input containing newline characters will be covered in the [Record separators](05-record-separators.md) chapter.
 
 ::: tabs
 
@@ -905,7 +905,7 @@ echo 'u-no;co%."(do_12:as' | awk -F'\\w' '{print NF-1}'
 # 12
 ```
 
-__Note__ that the first solution will print `0` for lines not containing any word character, while the second one will print `-1`. You can use `print NF ? NF-1 : 0` to cover such corner cases.
+**Note** that the first solution will print `0` for lines not containing any word character, while the second one will print `-1`. You can use `print NF ? NF-1 : 0` to cover such corner cases.
 
 :::
 

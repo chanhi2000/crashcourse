@@ -42,7 +42,6 @@ head:
 }
 ```
 
-
 > In the world of software development, innovation often arrives in the form of powerful tools that transform the way we build applications - enter Quarkus, a development platform that's reshaping the Java landscape.
 
 If you are new to the Quarkiverse, this tutorial is a great way to start exploring how it can radically improve your Java development experience. I’ll show you how to quickly assemble a REST application on the Quarkus platform, leveraging the power of JPAStreamer, a Hibernate extension to handle database interactions with the elegance of the Java Stream API.

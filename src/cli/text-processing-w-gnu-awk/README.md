@@ -230,12 +230,12 @@ If you are new to the world of the command line, check out my [<FontIcon icon="i
 
 ## Conventions
 
-- The examples presented here have been tested with __GNU awk__ version __5.2.2__ and includes features not available in earlier versions.
+- The examples presented here have been tested with **GNU awk** version **5.2.2** and includes features not available in earlier versions.
 - Code snippets are copy pasted from the `GNU bash` shell and modified for presentation purposes. Some commands are preceded by comments to provide context and explanations. Blank lines to improve readability, only real time shown for speed comparisons, output skipped for commands like `wget` and so on.
-- Unless otherwise noted, all examples and explanations are meant for __ASCII input__.
+- Unless otherwise noted, all examples and explanations are meant for **ASCII input**.
 - `awk` would mean `GNU awk`, `sed` would mean `GNU sed`, `grep` would mean `GNU grep` and so on unless otherwise specified.
 External links are provided throughout the book for you to explore certain topics in more depth.
-The [<FontIcon icon="iconfont icon-github"/> learn_gnuawk repo](https://github.com/learnbyexample/learn_gnuawk) has all the code snippets and files used in examples, exercises and other details related to the book. If you are not familiar with the `git` command, click the __Code__ button on the webpage to get the files.
+The [<FontIcon icon="iconfont icon-github"/> learn_gnuawk repo](https://github.com/learnbyexample/learn_gnuawk) has all the code snippets and files used in examples, exercises and other details related to the book. If you are not familiar with the `git` command, click the **Code** button on the webpage to get the files.
 
 ---
 

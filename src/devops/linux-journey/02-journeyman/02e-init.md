@@ -222,9 +222,9 @@ The default boot goal of `default.target` usually points to the `graphical.targe
 
 The main object that systemd works with are known as units. Systemd doesn't just stop and start services, it can mount filesystems, monitor your network sockets, etc and because of that robustness it has different types of units it operates. The most common units are:
 
-- __Service units__: these are the services we've been starting and stopping, these unit files end in `.service`
-- __Mount units__: These mount filesystems, these unit files end in `.mount`
-- __Target units__: These group together other units, the files end in `.target`
+- **Service units**: these are the services we've been starting and stopping, these unit files end in `.service`
+- **Mount units**: These mount filesystems, these unit files end in `.mount`
+- **Target units**: These group together other units, the files end in `.target`
 
 For example, let's say we boot into our `default.target`, well this target groups together the `networking.service` unit, `crond.service` unit, etc, so once we activate a single unit, everything below that unit gets activated as well.
 

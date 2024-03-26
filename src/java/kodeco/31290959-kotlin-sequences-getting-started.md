@@ -42,12 +42,12 @@ head:
 
 Dealing with multiple items of a specific type is part of the daily work of, most likely, every software developer out there. A list of coffee roasters, a set of coffee origins, a mapping between coffee origins and farmers… It really depends on the use case.
 
-You can handle this kind of data in a few ways. The most common is through the __Collections API__. For instance, translating the cases above, you could have something like `List<Roaster>`, `Set<Origin>` or 
+You can handle this kind of data in a few ways. The most common is through the **Collections API**. For instance, translating the cases above, you could have something like `List<Roaster>`, `Set<Origin>` or 
 `Map<Origin, Farmer>`.
 
 While the Collections API does a good job, it might not be suited for all cases. It’s always useful to be aware of alternatives, how they work, and when they can be a better fit.
 
-In this tutorial, you’ll learn about Kotlin’s __Sequences API__. Specifically, you’ll learn:
+In this tutorial, you’ll learn about Kotlin’s **Sequences API**. Specifically, you’ll learn:
 
 - What a sequence is and how it works.
 - How to work with a sequence and its operators.
@@ -63,19 +63,19 @@ This tutorial assumes you have basic Kotlin knowledge. If not, check out [Progra
 
 ## Getting Started
 
-Download the project materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta__rter project.
+Download the project materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta**rter project.
 
 Run the project, and you’ll notice it’s just a simple “Hello World” app. If you came here hoping to implement some cool app full of sequences everywhere, the sad truth is that you won’t even touch the app’s code.
 
 ![A simple "Hello World" app on a phone screen.](https://koenig-media.raywenderlich.com/uploads/2022/02/hello-world.png =240x)
 
-Instead, the project exists just so you can use it to create a __scratch file__. When working on a project, you may want to test or draft some code before actually proceeding to a proper implementation. A scratch file lets you do just that. It has both syntax highlighting and code completion. And the best part is, it can run your code right after you write it, letting you debug it as well!
+Instead, the project exists just so you can use it to create a **scratch file**. When working on a project, you may want to test or draft some code before actually proceeding to a proper implementation. A scratch file lets you do just that. It has both syntax highlighting and code completion. And the best part is, it can run your code right after you write it, letting you debug it as well!
 
 You’ll now create the scratch file where you’ll work. In Android Studio, go to <FontIcon icon="iconfont icon-select"/>`[File] ▸ [New] ▸ [Scratch File]`.
 
 ![Creating a new scratch file by selecting it from the dropdown menu.](https://koenig-media.raywenderlich.com/uploads/2022/03/Untitled-557x500.png)
 
-On the little dialog that pops up, scroll until you find __Kotlin__, and pick it.
+On the little dialog that pops up, scroll until you find **Kotlin**, and pick it.
 
 In your case, the position may be different.
 
@@ -87,7 +87,7 @@ This opens your new scratch file. At the top, you have a few options to play wit
 
 Make sure <FontIcon icon="iconfont icon-select"/>`[Interactive mode]` is checked. This runs any code you write after you stop typing for two seconds. The <FontIcon icon="iconfont icon-select"/>`[Use classpath of module]` option is pretty useful if you want to test something that uses code from a specific module. Since that’s not the case here, there’s no need to change it. Also, make sure to leave <FontIcon icon="iconfont icon-select"/>`[Use REPL]` unchecked, as that would run the code in Kotlin REPL, and there’s no need for that here.
 
-Look at your project structure, and you’ll notice that the scratch file is nowhere to be seen. This is because scratch files are __scoped to the IDE__ rather than the project. You’ll find the scratch file by switching to the __Project__ view under __Scratches and Consoles__.
+Look at your project structure, and you’ll notice that the scratch file is nowhere to be seen. This is because scratch files are **scoped to the IDE** rather than the project. You’ll find the scratch file by switching to the **Project** view under **Scratches and Consoles**.
 
 ![Selecting `scratch.kts` in Scratches and Consoles.](https://koenig-media.raywenderlich.com/uploads/2022/03/Untitled-1.png)
 
@@ -105,14 +105,14 @@ If you want to know more about scratch files, check the [Jetbrains documentation
 
 Sequences are data containers, just like collections. However, they have two main differences:
 
-- They execute their operations __lazily__.
-- They process elements __one at a time__.
+- They execute their operations **lazily**.
+- They process elements **one at a time**.
 
 You’ll learn more about element processing as you go through the tutorial. For now, you’ll dig deeper into what does it mean to execute operations in a lazy fashion.
 
 ### Lazy Processing
 
-Sequences execute their operations __lazily__, while collections execute them __eagerly__. For instance, if you apply a `map` to a `List`:
+Sequences execute their operations **lazily**, while collections execute them **eagerly**. For instance, if you apply a `map` to a `List`:
 
 ```kotlin
 val list = listOf(1, 2, 3)
@@ -180,7 +180,7 @@ In this code:
 1. You check if the previously generated value is below 200,000,000. If so, you add one to it.
 2. If you reach a value equal to 200,000,000 or above, you return `null`, effectively stopping the sequence generation.
 
-Another way of stopping sequence generation is by using some of its __operators__, which you'll learn about in the next section.
+Another way of stopping sequence generation is by using some of its **operators**, which you'll learn about in the next section.
 
 ---
 
@@ -188,8 +188,8 @@ Another way of stopping sequence generation is by using some of its __operators_
 
 Sequences have two kinds of operators:
 
-- __Intermediate operators__: Operators used to _build_ the sequence.
-- __Terminal operators__: Operators used to _execute_ the operations the sequence was built with.
+- **Intermediate operators**: Operators used to _build_ the sequence.
+- **Terminal operators**: Operators used to _execute_ the operations the sequence was built with.
 
 You'll learn about intermediate operators first.
 
@@ -346,14 +346,14 @@ You won't be able to properly check the implementation of `filter` in the scratc
 
 That `FilteringSequence` is a `Sequence` of its own. It wraps the `Sequence` where you call on `filter`. In other words, each intermediate operator creates a new `Sequence` object that _decorates_ the previous `Sequence`. In the end, you're left with at least as many objects as intermediate operators, all wrapped around each other.
 
-To complicate things a bit, not all intermediate operators limit themselves to just decorating the previous sequence. Some of them need to be aware of the sequence's __state__.
+To complicate things a bit, not all intermediate operators limit themselves to just decorating the previous sequence. Some of them need to be aware of the sequence's **state**.
 
 ### Stateless and Stateful Operators
 
 Intermediate operators can be:
 
-- __Stateless__: They process each element independently, without needing to know about any other element.
-- __Stateful__: They need information about other elements to process the current element.
+- **Stateless**: They process each element independently, without needing to know about any other element.
+- **Stateful**: They need information about other elements to process the current element.
 
 The intermediate operators you've seen in this tutorial so far are all stateless. So, what does a stateful operator look like?
 

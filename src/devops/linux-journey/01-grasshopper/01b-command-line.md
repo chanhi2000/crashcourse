@@ -232,7 +232,7 @@ We’re almost done navigating files, but first let’s learn how to read a file
 cat dogfile birdfile
 ```
 
-It’s not great for viewing large files and it’s only meant for __short content__. There are many other tools that we use to view larger text files that we’ll discuss in the next lesson.
+It’s not great for viewing large files and it’s only meant for **short content**. There are many other tools that we use to view larger text files that we’ll discuss in the next lesson.
 
 > Run cat on different files and directories. Then try to cat multiple files.
 
@@ -311,7 +311,7 @@ cp *.jpg /home/pete/Pictures
 
 This will copy all files with the `.jpg` extension in your current directory to the Pictures directory.
 
-A useful command is to use the `-r` flag, this will __recursively__ copy the files and directories within a directory.
+A useful command is to use the `-r` flag, this will **recursively** copy the files and directories within a directory.
 
 Try to do a `cp` on a directory that contains a couple of files to your Documents directory. Didn’t work did it? Well that’s because you’ll need to copy over the files and directories inside as well with `-r` command.
 
@@ -421,7 +421,7 @@ Adding the `-i` flag like many of the other commands, will give you a prompt on 
 rm -r directory
 ```
 
-You can’t just rm a directory by default, you’ll need to add the `-r` flag (__recursive__) to remove all the files and any subdirectories it may have.
+You can’t just rm a directory by default, you’ll need to add the `-r` flag (**recursive**) to remove all the files and any subdirectories it may have.
 
 You can remove a directory with the `rmdir` command.
 

@@ -41,7 +41,7 @@ head:
 
 Your system is comprised of many packages such as internet browsers, text editors, media players, etc. These packages are managed via package managers, which install and maintain the software on your system. Not all packages are installed through package managers though, you can commonly install packages directly from their source code (we'll get to that soon). However the majority of the time you will use a package manager to install software, the most common variety of packages are Debian (`.deb`) and Red Hat (`.rpm`). Debian style packages are used in distributions such as Debian, Ubuntu, LinuxMint, etc. Red Hat style packages are seen in Red Hat Enterprise Linux, Fedora, CentOS, etc.
 
-What are packages? You may know them as Chrome, Photoshop, etc and they are, but what they really are just lots and lots of files that have been compiled into one. The people (or sometimes a single person) that write this software are known as __upstream providers__, they compile their code and write up how to get it installed. These upstream providers work on getting out new software and update existing software. When they are ready to release it to the world, they send their package to __package maintainers__, who handle getting this piece of software in the hands of the users. These package maintainers review, manage and distribute this software in the form of packages.
+What are packages? You may know them as Chrome, Photoshop, etc and they are, but what they really are just lots and lots of files that have been compiled into one. The people (or sometimes a single person) that write this software are known as **upstream providers**, they compile their code and write up how to get it installed. These upstream providers work on getting out new software and update existing software. When they are ready to release it to the world, they send their package to **package maintainers**, who handle getting this piece of software in the hands of the users. These package maintainers review, manage and distribute this software in the form of packages.
 
 ---
 
@@ -49,7 +49,7 @@ What are packages? You may know them as Chrome, Photoshop, etc and they are, but
 
 How do packages that get uploaded to the internet somehow end up on our computers? Do you go to the download page of each package you want and click download and install? Well, actually you can do that, but there is something better called package repositories. Repositories are just a central storage location for packages. There are tons of repositories that hold lots of packages and best of all they are all found on the internet, no silly installation disks. Your machine doesn't know where to look for these repositories unless you explicitly tell it where to look.
 
-For example, let's say I want WackyWidgets Software on my machine. Well WackyWidgets manages their own repositories for their widget packages, inside this repository are 10 packages, the CoolWidget package, the SuperWidget package, etc. WackyWidgets hosts this repository at a source link called: [http://download.widgets/linux/deb/](http://download.widgets/linux/deb/)
+For example, let's say I want WackyWidgets Software on my machine. Well WackyWidgets manages their own repositories for their widget packages, inside this repository are 10 packages, the CoolWidget package, the SuperWidget package, etc. WackyWidgets hosts this repository at a source link called: [<FontIcon icon="fas fa-globe"/>`http://download.widgets/linux/deb/`](http://download.widgets/linux/deb/)
 
 Now instead of going to their website to download the package directly, you can tell your machine to find WackyWidgets software from the source link.
 
@@ -119,7 +119,7 @@ Uncompress and unpack:
 tar xzf file.tar
 ```
 
-If you need help remember this: e __X__ tract all __Z__ ee __F__ iles!
+If you need help remember this: e **X** tract all **Z** ee **F** iles!
 
 `tar` is one of those commands that is so important and yet you never really remember it, relevant xkcd: [https://xkcd.com/1168/](https://xkcd.com/1168)
 
@@ -167,8 +167,8 @@ dpkg -r some_deb_package.deb # Debian
 rpm -e some_rpm_package.rpm # RPM
 ```
 
-Debian: __r__ for remove
-RPM: __e__ for erase
+Debian: **r** for remove
+RPM: **e** for erase
 
 ### List installed packages
 
@@ -177,8 +177,8 @@ dpkg -l # Debian
 rpm -qa # RPM
 ```
 
-Debian: __l__ for list
-RPM: __q__ for query and __a__ for all
+Debian: **l** for list
+RPM: **q** for query and **a** for all
 
 Find a program that you want to install on your system like Google Chrome and install it using one of these commands.
 

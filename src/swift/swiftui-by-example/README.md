@@ -1276,15 +1276,139 @@ head:
 
 > Shortcuts, rotations, and appearance
 
+::: details Responding to events
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Responding to events",
-  "desc": "Responding to events",
-  "link": "07-responding-to-events.md",
+  "title": "SwiftUI by Example > How to detect when your app moves to the background or foreground with scenePhase",
+  "desc": "How to detect when your app moves to the background or foreground with scenePhase",
+  "link": "07-responding-to-events/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to respond to view lifecycle events: onAppear() and onDisappear()",
+  "desc": "How to respond to view lifecycle events: onAppear() and onDisappear()",
+  "link": "07-responding-to-events/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add keyboard shortcuts using keyboardShortcut()",
+  "desc": "How to add keyboard shortcuts using keyboardShortcut()",
+  "link": "07-responding-to-events/how-to-add-keyboard-shortcuts-using-keyboardshortcut.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control which view is shown when your app launches",
+  "desc": "How to control which view is shown when your app launches",
+  "link": "07-responding-to-events/how-to-control-which-view-is-shown-when-your-app-launches.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to run code when your app launches",
+  "desc": "How to run code when your app launches",
+  "link": "07-responding-to-events/how-to-run-code-when-your-app-launches.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add an AppDelegate to a SwiftUI app",
+  "desc": "How to add an AppDelegate to a SwiftUI app",
+  "link": "07-responding-to-events/how-to-add-an-appdelegate-to-a-swiftui-app.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect device rotation",
+  "desc": "How to detect device rotation",
+  "link": "07-responding-to-events/how-to-detect-device-rotation.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add a toolbar to the keyboard",
+  "desc": "How to add a toolbar to the keyboard",
+  "link": "07-responding-to-events/how-to-add-a-toolbar-to-the-keyboard.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to run an asynchronous task when a view is shown",
+  "desc": "How to run an asynchronous task when a view is shown",
+  "link": "07-responding-to-events/how-to-run-an-asynchronous-task-when-a-view-is-shown.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let the user paste data into your app",
+  "desc": "How to let the user paste data into your app",
+  "link": "07-responding-to-events/how-to-let-the-user-paste-data-into-your-app.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let users share content using the system share sheet",
+  "desc": "How to let users share content using the system share sheet",
+  "link": "07-responding-to-events/how-to-let-users-share-content-using-the-system-share-sheet.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let users find and replace text",
+  "desc": "How to let users find and replace text",
+  "link": "07-responding-to-events/how-to-let-users-find-and-replace-text.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to support drag and drop in SwiftUI",
+  "desc": "How to support drag and drop in SwiftUI",
+  "link": "07-responding-to-events/how-to-support-drag-and-drop-in-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 
@@ -1292,15 +1416,109 @@ head:
 
 > Swipes, taps, shakes, and other input
 
+::: detaisl Taps and gestures
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Taps and gestures",
-  "desc": "Taps and gestures",
-  "link": "08-taps-and-gestures.md",
+  "title": "SwiftUI by Example > How to add a gesture recognizer to a view",
+  "desc": "How to add a gesture recognizer to a view",
+  "link": "08-taps-and-gestures/how-to-add-a-gesture-recognizer-to-a-view.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to read tap and double-tap gestures",
+  "desc": "How to read tap and double-tap gestures",
+  "link": "08-taps-and-gestures/how-to-read-tap-and-double-tap-gestures.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to force one gesture to recognize before another using highPriorityGesture()",
+  "desc": "How to force one gesture to recognize before another using highPriorityGesture()",
+  "link": "08-taps-and-gestures/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make two gestures recognize at the same time using simultaneousGesture()",
+  "desc": "How to make two gestures recognize at the same time using simultaneousGesture()",
+  "link": "08-taps-and-gestures/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create gesture chains using sequenced(before:)",
+  "desc": "How to create gesture chains using sequenced(before:)",
+  "link": "08-taps-and-gestures/how-to-create-gesture-chains-using-sequencedbefore.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect the user hovering over a view",
+  "desc": "How to detect the user hovering over a view",
+  "link": "08-taps-and-gestures/how-to-detect-the-user-hovering-over-a-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect shake gestures",
+  "desc": "How to detect shake gestures",
+  "link": "08-taps-and-gestures/how-to-detect-shake-gestures.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control the tappable area of a view using contentShape()",
+  "desc": "How to control the tappable area of a view using contentShape()",
+  "link": "08-taps-and-gestures/how-to-control-the-tappable-area-of-a-view-using-contentshape.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to disable taps for a view using allowsHitTesting()",
+  "desc": "How to disable taps for a view using allowsHitTesting()",
+  "link": "08-taps-and-gestures/how-to-disable-taps-for-a-view-using-allowshittesting.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect the location of a tap inside a view",
+  "desc": "How to detect the location of a tap inside a view",
+  "link": "08-taps-and-gestures/how-to-detect-the-location-of-a-tap-inside-a-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 
@@ -1308,15 +1526,110 @@ head:
 
 > Learn how to bind objects and query the environment
 
+::: details Advanced state
+
+
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Advanced state",
-  "desc": "Advanced state",
-  "link": "09-advanced-state.md",
+  "title": "SwiftUI by Example > What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
+  "desc": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
+  "link": "09-advanced-state/whats-the-difference-between-observedobject-state-and-environmentobject.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use @StateObject to create and monitor external objects",
+  "desc": "How to use @StateObject to create and monitor external objects",
+  "link": "09-advanced-state/how-to-use-stateobject-to-create-and-monitor-external-objects.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use @ObservedObject to manage state from external objects",
+  "desc": "How to use @ObservedObject to manage state from external objects",
+  "link": "09-advanced-state/how-to-use-observedobject-to-manage-state-from-external-objects.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
+  "desc": "How to use @EnvironmentObject to share data between views",
+  "link": "09-advanced-state/how-to-use-environmentobject-to-share-data-between-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to send state updates manually using objectWillChange",
+  "desc": "How to send state updates manually using objectWillChange",
+  "link": "09-advanced-state/how-to-send-state-updates-manually-using-objectwillchange.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create constant bindings",
+  "desc": "How to create constant bindings",
+  "link": "09-advanced-state/how-to-create-constant-bindings.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create custom bindings",
+  "desc": "How to create custom bindings",
+  "link": "09-advanced-state/how-to-create-custom-bindings.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use a timer with SwiftUI",
+  "desc": "How to use a timer with SwiftUI",
+  "link": "09-advanced-state/how-to-use-a-timer-with-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to run some code when state changes using onChange()",
+  "desc": "How to run some code when state changes using onChange()",
+  "link": "09-advanced-state/how-to-run-some-code-when-state-changes-using-onchange.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show different images and other views in light or dark mode",
+  "desc": "How to show different images and other views in light or dark mode",
+  "link": "09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
 
 ---
 

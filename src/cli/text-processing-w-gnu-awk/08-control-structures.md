@@ -253,7 +253,7 @@ You'll see more examples with `next` in the coming chapters.
 
 ## `exit`
 
-You saw the use of `exit` earlier to quit early and avoid unnecessary processing of records. If an argument isn't passed, `awk` considers the command to have finished normally and the __exit status__ will indicate success. You can pass a number argument for other cases.
+You saw the use of `exit` earlier to quit early and avoid unnecessary processing of records. If an argument isn't passed, `awk` considers the command to have finished normally and the **exit status** will indicate success. You can pass a number argument for other cases.
 
 ::: tabs
 

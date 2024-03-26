@@ -45,7 +45,7 @@ As we learned previously, files have different permissions or file modes. Let's 
 ls -l Desktop/
 # drwxr-xr-x 2 pete penguins 4096 Dec 1 11:45 .
 ```
-There are four parts to a file's permissions. The first part is the filetype, which is denoted by the first character in the permissions, in our case since we are looking at a directory it shows __d__ for the filetype. Most commonly you will see a __-__ for a regular file.
+There are four parts to a file's permissions. The first part is the filetype, which is denoted by the first character in the permissions, in our case since we are looking at a directory it shows **d** for the filetype. Most commonly you will see a **-** for a regular file.
 
 The next three parts of the file mode are the actual permissions. The permissions are grouped into 3 bits each. The first 3 bits are user permissions, then group permissions and then other permissions. I've added the pipe to make it easier to differentiate.
 
@@ -218,7 +218,7 @@ _Numerical_ way:
 ```sh
 sudo chmod 4755 myfile
 ```
-As you can see the SUID is denoted by a 4 and pre-pended to the permission set. You may see the SUID denoted as a capital __S__ this means that it still does the same thing, but it does not have execute permissions.
+As you can see the SUID is denoted by a 4 and pre-pended to the permission set. You may see the SUID denoted as a capital **S** this means that it still does the same thing, but it does not have execute permissions.
 
 Look at the permission for <FontIcon icon="iconfont icon-file"/>`/etc/passwd` in detail, do you notice anything else? Files with SUID enabled are also easily distinguishable.
 
@@ -254,11 +254,11 @@ Let's segue into process permissions for a bit, remember how I told you that whe
 
 This is because of the many UIDs that Linux implements. There are three UIDS associated with every process:
 
-When you launch a process, it runs with the same permissions as the user or group that ran it, this is known as an __effective user ID__. This UID is used to grant access rights to a process. So naturally if Bob ran the touch command, the process would run as him and any files he created would be under his ownership.
+When you launch a process, it runs with the same permissions as the user or group that ran it, this is known as an **effective user ID**. This UID is used to grant access rights to a process. So naturally if Bob ran the touch command, the process would run as him and any files he created would be under his ownership.
 
-There is another UID, called the __real user ID__ this is the ID of the user that launched the process. These are used to track down who the user who launched the process is.
+There is another UID, called the **real user ID** this is the ID of the user that launched the process. These are used to track down who the user who launched the process is.
 
-One last UID is the __saved user ID__, this allows a process to switch between the effective UID and real UID, vice versa. This is useful because we don't want our process to run with elevated privileges all the time, it's just good practice to use special privileges at specific times.
+One last UID is the **saved user ID**, this allows a process to switch between the effective UID and real UID, vice versa. This is useful because we don't want our process to run with elevated privileges all the time, it's just good practice to use special privileges at specific times.
 
 Now let's piece these all together by looking at the passwd command once more.
 

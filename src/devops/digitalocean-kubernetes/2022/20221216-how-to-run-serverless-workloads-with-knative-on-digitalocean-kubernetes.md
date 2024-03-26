@@ -56,7 +56,7 @@ To complete this tutorial, you will need the following:
 
 - A DigitalOcean account that you will use to start a Kubernetes cluster with at least 4GB RAM and 2 CPU cores. If you do not have one, [sign up for a new account](https://cloud.digitalocean.com/projects). This setup will use a [DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes) cluster. To create a Kubernetes cluster in the DigitalOcean Cloud Panel, see our [Kubernetes Quickstart](https://www.digitalocean.com/docs/kubernetes/quickstart).
 - To follow this tutorial from a remote server, you can set up an Ubuntu 22.04 server with a non-root user and a firewall by following our [Initial Server Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04). To get started with a DigitalOcean Droplet, you can use our [Droplet Quickstart](https://docs.digitalocean.com/products/droplets/quickstart).
-- The DigitalOcean command-line client, [`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install), installed on your machine. The __GitHub Download__ option is recommended. See [How To Use doctl](https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client) for more information on using `doctl`.
+- The DigitalOcean command-line client, [`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install), installed on your machine. The **GitHub Download** option is recommended. See [How To Use doctl](https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client) for more information on using `doctl`.
 - [`kubectl`](https://kubernetes.io/docs/tasks/tools) installed on your machine, which you can set up with the [Kubernetes installation docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
 - Docker installed on your machine, which you can set up by following Steps 1 and 2 of our tutorial on [How To Install and Use Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
 - A sample Node.js application set up by following the [How To Build a Node.js Application with Docker](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) tutorial for creating the application and pushing its container image to Docker Hub.
@@ -70,7 +70,7 @@ Since Knative is a Kubernetes-based platform, you will use it with a Kubernetes 
 
 In this tutorial, you will use doctl, the DigitalOcean command-line client, to launch the Kubernetes cluster. If you have not yet installed doctl, follow the steps in the [official installation guide](https://docs.digitalocean.com/reference/doctl/how-to/install).
 
-To effectively use Knative in this tutorial, you will need a Kubernetes cluster with at least __4GB RAM__ and __2 CPU cores__ available. You can launch a cluster named `knative-tutorial` with these specifications by running the `doctl` command with the following flags:
+To effectively use Knative in this tutorial, you will need a Kubernetes cluster with at least **4GB RAM** and **2 CPU cores** available. You can launch a cluster named `knative-tutorial` with these specifications by running the `doctl` command with the following flags:
 
 - `--size` specifies the size of the remote server.
 - `--count` specifies the number of nodes that will be created as part of the cluster.
@@ -81,7 +81,7 @@ To create the DigitalOcean Kubernetes cluster, run the following command:
 doctl kubernetes cluster create knative-tutorial --size s-2vcpu-4gb --count 3
 ```
 
-In this command, you create a cluster named `knative-tutorial` with the size set to  __4GB RAM__ and __2 CPU cores__ and with a count of `3` nodes.
+In this command, you create a cluster named `knative-tutorial` with the size set to  **4GB RAM** and **2 CPU cores** and with a count of `3` nodes.
 
 ::: Note
 
@@ -274,7 +274,7 @@ It may take a few minutes for the load balancer to be provisioned. You may see a
 
 ::: note  Note
 
-__Note__: You will need the load balancer to be provisioned before continuing in this tutorial. Once the `EXTERNAL-IP` field for the `LoadBalancer` is populated, you can continue. Otherwise, you may experience issues while setting up the DNS service.
+**Note**: You will need the load balancer to be provisioned before continuing in this tutorial. Once the `EXTERNAL-IP` field for the `LoadBalancer` is populated, you can continue. Otherwise, you may experience issues while setting up the DNS service.
 
 :::
 
@@ -294,7 +294,7 @@ The resources required to run the Magic DNS service have been configured success
 
 ::: note  Note
 
-__Note__: You can also add a domain if you prefer, though that is beyond the scope of this article. You need to set up a DNS provider (such as Cloud DNS or Route53) and create an A record for the Knative ingress gateway that is mapped to the IP address of your Knative cluster. You would then update the Knative ingress gateway configuration to use the DNS zone and A record you created. You can test the DNS configuration by accessing the Knative serving domain and ensuring it resolves to the ingress gateway.
+**Note**: You can also add a domain if you prefer, though that is beyond the scope of this article. You need to set up a DNS provider (such as Cloud DNS or Route53) and create an A record for the Knative ingress gateway that is mapped to the IP address of your Knative cluster. You would then update the Knative ingress gateway configuration to use the DNS zone and A record you created. You can test the DNS configuration by accessing the Knative serving domain and ensuring it resolves to the ingress gateway.
 
 :::
 

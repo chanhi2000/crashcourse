@@ -579,7 +579,11 @@ uniq -d reading.txt
 # article
 ```
 
-__Note__: uniq does not detect duplicate lines unless they are adjacent. For eg:
+::: tip Note
+
+`uniq` does not detect duplicate lines unless they are adjacent.
+
+:::
 
 Let's say you had a file with duplicates which are not adjacent:
 
@@ -654,7 +658,7 @@ nl file1.txt
 # 3. turtles
 ```
 
-How would you get the total count of lines by using the `nl` file without searching through the entire output? __Hint__: Use some of the other commands you learned in this course.
+How would you get the total count of lines by using the `nl` file without searching through the entire output? **Hint**: Use some of the other commands you learned in this course.
 
 ---
 

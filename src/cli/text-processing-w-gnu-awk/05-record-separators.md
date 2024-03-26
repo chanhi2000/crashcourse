@@ -41,9 +41,9 @@ head:
 
 ---
 
-So far, you've seen examples where `awk` automatically splits input line by line based on the newline character. Just like you can control how those lines are further split into fields using `FS` and other features, `awk` provides a way to control what constitutes a line in the first place. In `awk` parlance, the term __record__ is used to describe the contents that gets placed in the `$0` variable. And similar to `OFS`, you can control the string that gets added at the end for the `print` function. This chapter will also discuss how you can use special variables that have information related to record (line) numbers.
+So far, you've seen examples where `awk` automatically splits input line by line based on the newline character. Just like you can control how those lines are further split into fields using `FS` and other features, `awk` provides a way to control what constitutes a line in the first place. In `awk` parlance, the term **record** is used to describe the contents that gets placed in the `$0` variable. And similar to `OFS`, you can control the string that gets added at the end for the `print` function. This chapter will also discuss how you can use special variables that have information related to record (line) numbers.
 
-::: info 
+::: info
 
 The [<FontIcon icon="iconfont icon-github"/> example_files](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in the examples.
 
@@ -730,7 +730,7 @@ printf 'fig' | awk -v ORS= 'NR>1{print ","} 1; END{print "\n"}'
 
 ### Exercise 3
 
-For the input file <FontIcon icon="fas fa-file-csv"/> `scores.csv`, add another column named __GP__ which is calculated out of 100 by giving 50% weightage to Maths and 25% each for Physics and Chemistry.
+For the input file <FontIcon icon="fas fa-file-csv"/> `scores.csv`, add another column named **GP** which is calculated out of 100 by giving 50% weightage to Maths and 25% each for Physics and Chemistry.
 
 ::: tabs 
 

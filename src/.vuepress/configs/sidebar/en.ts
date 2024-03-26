@@ -438,13 +438,76 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md',
             '/swift/swiftui-by-example/06-user-interface-controls/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.md',
           ]
+        }, {
+          text: 'Responding to events',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-add-keyboard-shortcuts-using-keyboardshortcut.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-control-which-view-is-shown-when-your-app-launches.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-run-code-when-your-app-launches.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-add-an-appdelegate-to-a-swiftui-app.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-detect-device-rotation.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-add-a-toolbar-to-the-keyboard.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-run-an-asynchronous-task-when-a-view-is-shown.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-let-the-user-paste-data-into-your-app.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-share-content-using-the-system-share-sheet.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-find-and-replace-text.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-support-drag-and-drop-in-swiftui.md',
+          ]
+        }, {
+          text: 'Taps and gestures',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-add-a-gesture-recognizer-to-a-view.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-read-tap-and-double-tap-gestures.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-create-gesture-chains-using-sequencedbefore.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-the-user-hovering-over-a-view.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-shake-gestures.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-control-the-tappable-area-of-a-view-using-contentshape.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-disable-taps-for-a-view-using-allowshittesting.md',
+            '/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-the-location-of-a-tap-inside-a-view.md',
+          ]
+        }, {
+          text: 'Advanced state',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/09-advanced-state/whats-the-difference-between-observedobject-state-and-environmentobject.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-use-stateobject-to-create-and-monitor-external-objects.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-use-observedobject-to-manage-state-from-external-objects.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-use-environmentobject-to-share-data-between-views.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-send-state-updates-manually-using-objectwillchange.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-create-constant-bindings.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-create-custom-bindings.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-use-a-timer-with-swiftui.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-run-some-code-when-state-changes-using-onchange.md',
+            '/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md',
+          ]
+        }, 
+        /* 
+        {
+          text: 'Lists',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/10-lists/',
+          ]
+        }, {
+          text: 'Forms',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/11-forms/',
+          ]
+        },  {
+          text: 'Containers',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/12-containers/',
+          ]
         },
-        '/swift/swiftui-by-example/07-responding-to-events.md',
-        '/swift/swiftui-by-example/08-taps-and-gestures.md',
-        '/swift/swiftui-by-example/09-advanced-state.md',
-        '/swift/swiftui-by-example/10-lists.md',
-        '/swift/swiftui-by-example/11-forms.md',
-        '/swift/swiftui-by-example/12-containers.md',
+        */
         '/swift/swiftui-by-example/13-navigation.md',
         '/swift/swiftui-by-example/14-alerts-and-menus.md',
         '/swift/swiftui-by-example/15-presenting-views.md',
@@ -643,6 +706,15 @@ export const sidebarEn = sidebar({
         '/java/freecodecamp-quarkus-jpastreamer/03.md',
         '/java/freecodecamp-quarkus-jpastreamer/04.md',
         '/java/freecodecamp-quarkus-jpastreamer/05.md',
+      ]
+    }, {
+      text: 'JavaFX 게시판 프로그램',
+      collapsible: true,
+      icon: 'fa-brands fa-java',
+      children: [
+        '/java/aloha-javafx/README.md',
+        '/java/aloha-javafx/01.md',
+        '/java/aloha-javafx/02.md',
       ]
     }, {
       text: '요즘 IT 블로그 - Java 관련',
@@ -861,6 +933,124 @@ export const sidebarEn = sidebar({
         '/rust/eventhelix-rust-to-assembly/rust-to-assembly-vector-iteration.md'
       ]
     }, 
+  ], '/php/': [
+    {
+      text: 'PHP',
+      icon: 'fa-brands fa-php',
+      children: [ '/php/README.md' ]
+    }, {
+      text: 'PHP',
+      collapsible: true,
+      icon: 'fa-brands fa-php',
+      children: [
+        '/php/three-min-summary/README.md',
+        {
+          text: '01. 개발 환경 설정과 기초 문법',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/01-basics/01A.md',
+            '/php/three-min-summary/01-basics/01B.md',
+            '/php/three-min-summary/01-basics/01C.md',
+            '/php/three-min-summary/01-basics/01D.md',
+            '/php/three-min-summary/01-basics/01E.md',
+            '/php/three-min-summary/01-basics/01F.md',
+            '/php/three-min-summary/01-basics/01G.md',
+            '/php/three-min-summary/01-basics/01H.md',
+            '/php/three-min-summary/01-basics/01I.md',
+            '/php/three-min-summary/01-basics/01J.md',
+            '/php/three-min-summary/01-basics/01K.md',
+            '/php/three-min-summary/01-basics/01L.md',
+          ]
+        }, {
+          text: '02. 웹 다루기',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/02-web/02A.md',
+            '/php/three-min-summary/02-web/02B.md',
+            '/php/three-min-summary/02-web/02C.md',
+            '/php/three-min-summary/02-web/02D.md',
+            '/php/three-min-summary/02-web/02E.md',
+            '/php/three-min-summary/02-web/02F.md',
+            '/php/three-min-summary/02-web/02G.md',
+            '/php/three-min-summary/02-web/02H.md',
+            '/php/three-min-summary/02-web/02I.md',
+            '/php/three-min-summary/02-web/02J.md',
+            '/php/three-min-summary/02-web/02K.md',
+          ]
+        }, {
+          text: '03. 데이터베이스 다루기',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/03-database/03A.md',
+            '/php/three-min-summary/03-database/03B.md',
+            '/php/three-min-summary/03-database/03C.md',
+            '/php/three-min-summary/03-database/03D.md',
+            '/php/three-min-summary/03-database/03E.md',
+            '/php/three-min-summary/03-database/03F.md',
+            '/php/three-min-summary/03-database/03G.md',
+            '/php/three-min-summary/03-database/03H.md',
+            '/php/three-min-summary/03-database/03I.md',
+            '/php/three-min-summary/03-database/03J.md',
+          ]
+        }, {
+          text: '04. 문자열 함수들',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/04-string/04A.md',
+            '/php/three-min-summary/04-string/04B.md',
+            '/php/three-min-summary/04-string/04C.md',
+            '/php/three-min-summary/04-string/04D.md',
+            '/php/three-min-summary/04-string/04E.md',
+            '/php/three-min-summary/04-string/04F.md',
+          ]
+        }, {
+          text: '05. 유효성 검사와 데이터 정제',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/05-validation/05A.md',
+            '/php/three-min-summary/05-validation/05B.md',
+            '/php/three-min-summary/05-validation/05C.md',
+            '/php/three-min-summary/05-validation/05D.md',
+            '/php/three-min-summary/05-validation/05E.md',
+          ]
+        }, {
+          text: '06. 모던 php',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/06-modern-php/06A.md',
+            '/php/three-min-summary/06-modern-php/06B.md',
+            '/php/three-min-summary/06-modern-php/06C.md',
+            '/php/three-min-summary/06-modern-php/06D.md',
+            '/php/three-min-summary/06-modern-php/06E.md',
+            '/php/three-min-summary/06-modern-php/06F.md',
+            '/php/three-min-summary/06-modern-php/06G.md',
+          ]
+        }, {
+          text: '07. 한시간 내에 한줄 메모장 만들기',
+          collapsible: true,
+          children: [
+            '/php/three-min-summary/07-miniproject/07A.md',
+            '/php/three-min-summary/07-miniproject/07B.md',
+            '/php/three-min-summary/07-miniproject/07C.md',
+            '/php/three-min-summary/07-miniproject/07D.md',
+            '/php/three-min-summary/07-miniproject/07E.md',
+            '/php/three-min-summary/07-miniproject/07F.md',
+            '/php/three-min-summary/07-miniproject/07G.md',
+            '/php/three-min-summary/07-miniproject/07H.md',
+            '/php/three-min-summary/07-miniproject/07I.md',
+            '/php/three-min-summary/07-miniproject/07J.md',
+            '/php/three-min-summary/07-miniproject/07K.md',
+            '/php/three-min-summary/07-miniproject/07L.md',
+            '/php/three-min-summary/07-miniproject/07M.md',
+            '/php/three-min-summary/07-miniproject/07N.md',
+            '/php/three-min-summary/07-miniproject/07O.md',
+            '/php/three-min-summary/07-miniproject/07P.md',
+          ]
+        },
+        '/php/three-min-summary/08-final-note.md'
+      ]
+    }
+
   ], '/cpp/':  [ 
     {
       text: 'Cpp',
@@ -965,7 +1155,38 @@ export const sidebarEn = sidebar({
           ]
         }
       ]
+    }, 
+    /*
+    {
+      text: 'Getting Started with Accelerated Computing in CUDA C/C++',
+      collapsible: true,
+      icon: 'fas fa-dice-two',
+      children: [
+        '/cpp/nvidia-dli+s-ac-04/README.md',
+      ]
+    },  {
+      text: 'Scaling CUDA C++ Applications to Multiple Nodes',
+      collapsible: true,
+      icon: 'fas fa-dice-two',
+      children: [
+        '/cpp/nvidia-dli+s-ac-07/README.md',
+      ]
+    }, {
+      text: 'GPU Acceleration with the C++ Standard Library',
+      collapsible: true,
+      icon: 'fas fa-dice-two',
+      children: [
+        '/cpp/nvidia-dli+s-ac-08/README.md',
+      ]
+    }, {
+      text: 'Scaling GPU-Accelerated Applications with the C++ Standard Library',
+      collapsible: true,
+      icon: 'fas fa-dice-two',
+      children: [
+        '/cpp/nvidia-dli+s-ac-09/README.md',
+      ]
     }
+    */
   ], '/ruby/': [
     {
       text: 'Ruby',

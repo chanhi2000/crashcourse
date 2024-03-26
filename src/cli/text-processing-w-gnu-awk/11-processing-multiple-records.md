@@ -126,7 +126,7 @@ Here's an example that emulates the `grep --no-group-separator -A<n>` functional
   - `2 && 2` — evaluates to `true` and `n` becomes `1`
   - `1 && 1` — evaluates to `true` and `n` becomes `0`
   - `0 &&` — evaluates to `false` and `n` doesn't change
-- Note that when conditionals are connected with logical `&&`, the second expression will not be executed at all if the first one turns out to be `false` because the overall result will always be `false`. Same is the case if the first expression evaluates to `true` with the logical `||` operator. Such logical operators are also known as __short-circuit__ operators. Thus, in the above case, `n--` won't be executed when `n` is `0` on the left hand side. This prevents n going negative and `n && n--` will never become true unless `n` is assigned again.
+- Note that when conditionals are connected with logical `&&`, the second expression will not be executed at all if the first one turns out to be `false` because the overall result will always be `false`. Same is the case if the first expression evaluates to `true` with the logical `||` operator. Such logical operators are also known as **short-circuit** operators. Thus, in the above case, `n--` won't be executed when `n` is `0` on the left hand side. This prevents n going negative and `n && n--` will never become true unless `n` is assigned again.
 
 ::: tabs
 

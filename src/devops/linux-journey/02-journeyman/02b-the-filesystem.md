@@ -133,10 +133,10 @@ Disks are comprised of partitions that help us organize our data. You can have m
 
 We know from our previous lesson that a filesystem is an organized collection of files and directories. In its simplest form, it is comprised of a database to manage files and the actual files themselves, however we're going to go into a little more detail.
 
-- __Boot block__: This is located in the first few sectors of the filesystem, and it's not really used the by the filesystem. Rather, it contains information used to boot the operating system. Only one boot block is needed by the operating system. If you have multiple partitions, they will have boot blocks, but many of them are unused.
-- __Super block__: This is a single block that comes after the boot block, and it contains information about the filesystem, such as the size of the inode table, size of the logical blocks and the size of the filesystem.
-- __Inode table__: Think of this as the database that manages our files (we have a whole lesson on inodes, so don't worry). Each file or directory has a unique entry in the inode table and it has various information about the file.
-- __Data blocks__: This is the actual data for the files and directories.
+- **Boot block**: This is located in the first few sectors of the filesystem, and it's not really used the by the filesystem. Rather, it contains information used to boot the operating system. Only one boot block is needed by the operating system. If you have multiple partitions, they will have boot blocks, but many of them are unused.
+- **Super block**: This is a single block that comes after the boot block, and it contains information about the filesystem, such as the size of the inode table, size of the logical blocks and the size of the filesystem.
+- **Inode table**: Think of this as the database that manages our files (we have a whole lesson on inodes, so don't worry). Each file or directory has a unique entry in the inode table and it has various information about the file.
+- **Data blocks**: This is the actual data for the files and directories.
 
 
 Let's take a look at the different partition tables. Below is an example of a partition using the MBR partitioning table (`msdos`). You can see the primary, extended and logical partitions on the machine.
@@ -217,7 +217,7 @@ To select the device you'll be working with, select it by its device name.
 #  6      7381MB  21.5GB  14.1GB  logical   xfs
 ```
 
-Here you will see the available partitions on the device. The __start__ and __end__ points are where the partitions take up space on the hard drive, you'll want to find a good start and end location for your partitions.
+Here you will see the available partitions on the device. The **start** and **end** points are where the partitions take up space on the hard drive, you'll want to find a good start and end location for your partitions.
 
 ### Partition the device
 
@@ -313,12 +313,12 @@ cat /etc/fstab
 
 Each line represents one filesystem, the fields are:
 
-- __UUID__: Device identifier
-- __Mount point__: Directory the filesystem is mounted to
+- **UUID**: Device identifier
+- **Mount point**: Directory the filesystem is mounted to
 - Filesystem type
-- __Options__: other mount options, see manpage for more details
-- __Dump__: used by the dump utility to decide when to make a backup, you should just default to 0
-- __Pass__: Used by fsck to decide what order filesystems should be checked, if the value is 0, it will not be checked
+- **Options**: other mount options, see manpage for more details
+- **Dump**: used by the dump utility to decide when to make a backup, you should just default to 0
+- **Pass**: Used by fsck to decide what order filesystems should be checked, if the value is 0, it will not be checked
 
 To add an entry, just directly modify the <FontIcon icon="fas fa-folder-open"/>`/etc/fstab` file using the entry syntax above. Be careful when modifying this file, you could potentially make your life a little harder if you mess up.
 

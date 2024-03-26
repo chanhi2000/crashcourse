@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: ➕Algorithms for Competitive Programming
+      content: Algorithms for Competitive Programming
     - property: og:description
-      content: ➕Algorithms for Competitive Programming
+      content: Algorithms for Competitive Programming
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/cpp/algorithms-for-competitive-programming/
 ---

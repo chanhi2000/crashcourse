@@ -139,13 +139,42 @@ export const navbarEn = navbar([
     ],
   }, {
     text: '',
+    icon: 'fa-brands fa-php',
+    children: [
+      {
+        text: 'PHP 3분 핵심 요약집',
+        link: '/php/three-min-summary/README.md',
+        icon: 'fa-brands fa-php'
+      }
+    ]
+  }, {
+    text: '',
     icon: 'fas fa-dice-two',
     children: [
       {
         text: 'Algorithms for Competitive Programming',
         link: '/cpp/algorithms-for-competitive-programming/README.md',
         icon: 'fas fa-dice-two',
+      }, 
+      /* 
+      {
+        text: 'Getting Started with Accelerated Computing in CUDA C/C++',
+        link: "/cpp/nvidia-dli+s-ac-04/README.md",
+        icon: 'fas fa-dice-two',
+      }, {
+        text: 'Scaling CUDA C++ Applications to Multiple Nodes',
+        link: '/cpp/nvidia-dli+s-ac-07/README.md',
+        icon: 'fas fa-dice-two',
+      }, {
+        text: 'GPU Acceleration with the C++ Standard Library',
+        link: "/cpp/nvidia-dli+s-ac-08/README.md",
+        icon: 'fas fa-dice-two',
+      }, {
+        text: 'Scaling GPU-Accelerated Applications with the C++ Standard Library',
+        link: "/cpp/nvidia-dli+s-ac-09/README.md",
+        icon: 'fas fa-dice-two',
       }
+      */
     ]
   }, {
     text: '',

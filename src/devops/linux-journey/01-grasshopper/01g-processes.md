@@ -39,7 +39,7 @@ head:
 
 ## 1. `ps` (Processes)
 
-Processes are the programs that are running on your machine. They are managed by the kernel and each process has an ID associated with it called the __process ID (PID)__. This PID is assigned in the order that processes are created.
+Processes are the programs that are running on your machine. They are managed by the kernel and each process has an ID associated with it called the **process ID (PID)**. This PID is assigned in the order that processes are created.
 
 Go ahead and run the ps command to see a list of running processes:
 
@@ -64,7 +64,7 @@ If you look at the man page for ps you'll see that there are lots of command opt
 ps aux
 ```
 
-The __a__ displays all processes running, including the ones being ran by other users. The __u__ shows more details about the processes. And finally the __x__ lists all processes that don't have a TTY associated with it, these programs will show a ? in the TTY field, they are most common in daemon processes that launch as part of the system startup.
+The **a** displays all processes running, including the ones being ran by other users. The **u** shows more details about the processes. And finally the **x** lists all processes that don't have a TTY associated with it, these programs will show a ? in the TTY field, they are most common in daemon processes that launch as part of the system startup.
 
 You'll notice you're seeing a lot more fields now, no need to memorize them all, in a later course on advanced processes, we'll go over some of these again:
 
@@ -96,7 +96,7 @@ Use the `ps` command with different flags and see how the output changes.
 
 We discussed how there is a TTY field in the ps output. The TTY is the terminal that executed the command.
 
-There are two types of terminals, regular __terminal devices__ and __pseudoterminal devices__. A regular terminal device is a native terminal device that you can type into and send output to your system, this sounds like the terminal application you've been launching to get to your shell, but it's not.
+There are two types of terminals, regular **terminal devices** and **pseudoterminal devices**. A regular terminal device is a native terminal device that you can type into and send output to your system, this sounds like the terminal application you've been launching to get to your shell, but it's not.
 
 We're gonna segue so you can see this action, go ahead and type <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>F1</kbd> to get into TTY1 (the first virtual console), you'll notice how you don't have anything except the terminal, no graphics, etc. This is considered a regular terminal device, you can exit this with <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>F7</kbd>.
 
@@ -132,7 +132,7 @@ All processes are trying to get a taste of that sweet resource pie, it's the ker
 
 Again this lesson and the next are purely information to let you see what's under the hood, feel free to circle back to this once you've worked with processes a bit more.
 
-When a new process is created, an existing process basically clones itself using something called the fork system call (system calls will be discussed very far into the future). The fork system call creates a mostly identical child process, this child process takes on a new process ID (PID) and the original process becomes its parent process and has something called a parent process ID __PPID__. Afterwards, the child process can either continue to use the same program its parent was using before or more often use the execve system call to launch up a new program. This system call destroys the memory management that the kernel put into place for that process and sets up new ones for the new program.
+When a new process is created, an existing process basically clones itself using something called the fork system call (system calls will be discussed very far into the future). The fork system call creates a mostly identical child process, this child process takes on a new process ID (PID) and the original process becomes its parent process and has something called a parent process ID **PPID**. Afterwards, the child process can either continue to use the same program its parent was using before or more often use the execve system call to launch up a new program. This system call destroys the memory management that the kernel put into place for that process and sets up new ones for the new program.
 
 We can see this in action:
 
@@ -140,7 +140,7 @@ We can see this in action:
 ps l
 ```
 
-The `l` option gives us a "long format" or even more detailed view of our running processes. You'll see a column labelled __PPID__, this is the parent ID. Now look at your terminal, you'll see a process running that is your shell, so on my system I have a process running bash. Now remember when you ran the ps l command, you were running it from the process that was running bash. Now you'll see that the __PID__ of the bash shell is the __PPID__ of the `ps l` command.
+The `l` option gives us a "long format" or even more detailed view of our running processes. You'll see a column labelled **PPID**, this is the parent ID. Now look at your terminal, you'll see a process running that is your shell, so on my system I have a process running bash. Now remember when you ran the ps l command, you were running it from the process that was running bash. Now you'll see that the **PID** of the bash shell is the **PPID** of the `ps l` command.
 
 So if every process has to have a parent and they are just forks of each other, there must be a mother of all processes right? You are correct, when the system boots up, the kernels creates a process called `init`, it has a PID of 1. The init process can't be terminated unless the system shuts down. It runs with root privileges and runs many processes that keep the system running. We will take a closer look at init in the system bootup course, for now just know it is the process that spawns all other processes.
 
@@ -221,7 +221,7 @@ kill -9 12445
 
 This will run the SIGKILL signal and kill the process.
 
-__Differences between SIGHUP, SIGINT, SIGTERM, SIGKILL, SIGSTOP?__
+**Differences between SIGHUP, SIGINT, SIGTERM, SIGKILL, SIGSTOP?**
 
 These signals all sound reasonably similar, but they do have their differences.
 
