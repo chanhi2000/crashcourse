@@ -41,15 +41,13 @@ head:
 
 ---
 
-## Introduction
-
-> A brief explanation of the basics of SwiftUI
-
 ::: details Introduction
+
+A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – What is SwiftUI?",
+  "title": "SwiftUI by Example > – What is SwiftUI?",
   "desc": "What is SwiftUI?",
   "link": "/swift/swiftui-by-example/00-introduction/what-is-swiftui.md", 
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -59,7 +57,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – SwiftUI vs Interface Builder and storyboards",
+  "title": "SwiftUI by Example > – SwiftUI vs Interface Builder and storyboards",
   "desc": "SwiftUI vs Interface Builder and storyboards",
   "link": "/swift/swiftui-by-example/00-introduction/swiftui-vs-interface-builder-and-storyboards.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -69,7 +67,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – Frequently asked questions about SwiftUI",
+  "title": "SwiftUI by Example > – Frequently asked questions about SwiftUI",
   "desc": "Frequently asked questions about SwiftUI",
   "link": "/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -79,7 +77,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – Answering the big question: should you learn SwiftUI, UIKit, or both?",
+  "title": "SwiftUI by Example > – Answering the big question: should you learn SwiftUI, UIKit, or both?",
   "desc": "Answering the big question: should you learn SwiftUI, UIKit, or both?",
   "link": "/swift/swiftui-by-example/00-introduction/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -89,7 +87,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – How to follow this quick start guide",
+  "title": "SwiftUI by Example > – How to follow this quick start guide",
   "desc": "How to follow this quick start guide",
   "link": "/swift/swiftui-by-example/00-introduction/how-to-follow-this-quick-start-guide.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -99,7 +97,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – Migrating from UIKit to SwiftUI",
+  "title": "SwiftUI by Example > – Migrating from UIKit to SwiftUI",
   "desc": "Migrating from UIKit to SwiftUI",
   "link": "/swift/swiftui-by-example/00-introduction/migrating-from-uikit-to-swiftui.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -109,7 +107,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – What’s in the basic template?",
+  "title": "SwiftUI by Example > – What’s in the basic template?",
   "desc": "What’s in the basic template?",
   "link": "/swift/swiftui-by-example/00-introduction/whats-in-the-basic-template.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -119,7 +117,7 @@ head:
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example – Dedication",
+  "title": "SwiftUI by Example > – Dedication",
   "desc": "Dedication",
   "link": "/swift/swiftui-by-example/00-introduction/dedication.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
@@ -129,13 +127,9 @@ head:
 
 :::
 
----
-
-## Building a complete project
-
-> Learn SwiftUI hands-on with a real app project
-
 ::: details Building a complete project
+
+Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
@@ -279,13 +273,9 @@ head:
 
 :::
 
----
-
-## Working with static text
-
-> Laying out text neatly
-
 ::: details Working with static text
+
+Laying out text neatly
 
 ```component VPCard
 {
@@ -429,13 +419,9 @@ head:
 
 :::
 
----
-
-## Images, shapes, and media
-
-> Draw icons, circles, gradients, and more
-
 ::: details Images, shapes, and media
+
+Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
@@ -609,13 +595,9 @@ head:
 
 :::
 
----
-
-## View layout
-
-> Layout sizes, priorities, and spacing
-
 ::: details View layuot
+
+Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
@@ -767,15 +749,15 @@ head:
 }
 ```
 
+- [How to add extra padding to the safe area](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-extra-padding-to-the-safe-area)
+- [How to dynamically adjust the appearance of a view based on its size and location](https://www.hackingwithswift.com/quick-start/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location)
+- [How to adjust the size of a view relative to its container](https://www.hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-size-of-a-view-relative-to-its-container)
+
 :::
 
----
-
-## Stacks, grids, scrollviews
-
-> Position views in a structured way
-
 ::: details Stacks, grids, scrollviews
+
+Position views in a structured way
 
 ```component VPCard
 {
@@ -947,15 +929,18 @@ head:
 }
 ```
 
+- [How to indent the content or scroll indicators in a ScrollView](https://hackingwithswift.com/quick-start/swiftui/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview)
+- [How to flash the scroll bar indicators of a ScrollView or List](https://hackingwithswift.com/quick-start/swiftui/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list)
+- [How to make a ScrollView snap with paging or between child views](https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-snap-with-paging-or-between-child-views)
+- [How to make views scroll with a custom transition](https://hackingwithswift.com/quick-start/swiftui/how-to-make-views-scroll-with-a-custom-transition)
+- [How to make a ScrollView start at the bottom](https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-start-at-the-bottom)
+- [How to disable ScrollView clipping so contents overflow](https://hackingwithswift.com/quick-start/swiftui/how-to-disable-scrollview-clipping-so-contents-overflow)
+
 :::
 
----
-
-## User interface controls
-
-> Respond to interaction and control your program state
-
 ::: details User interface controls
+
+Respond to interaction and control your program state
 
 ```component VPCard
 {
@@ -1269,13 +1254,9 @@ head:
 
 :::
 
----
-
-## Responding to events
-
-> Shortcuts, rotations, and appearance
-
 ::: details Responding to events
+
+Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
@@ -1409,13 +1390,9 @@ head:
 
 :::
 
----
-
-## Taps and gestures
-
-> Swipes, taps, shakes, and other input
-
 ::: details Taps and gestures
+
+Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
@@ -1519,14 +1496,9 @@ head:
 
 :::
 
----
-
-## Advanced state
-
-> Learn how to bind objects and query the environment
-
 ::: details Advanced state
 
+Learn how to bind objects and query the environment
 
 ```component VPCard
 {
@@ -1630,13 +1602,9 @@ head:
 
 :::
 
----
-
-## Lists
-
-> Create scrolling tables of data
-
 ::: details Lists
+
+Create scrolling tables of data
 
 ```component VPCard
 {
@@ -1850,13 +1818,9 @@ head:
 
 :::
 
----
-
-## Forms
-
-> Get user entry quickly and efficiently
-
 ::: details Forms
+
+Get user entry quickly and efficiently
 
 ```component VPCard
 {
@@ -1930,13 +1894,9 @@ head:
 
 :::
 
----
-
-## Containers
-
-> Place your views inside a navigation controller and more
-
 ::: details Containers
+
+Place your views inside a navigation controller and more
 
 ```component VPCard
 {
@@ -2060,13 +2020,9 @@ head:
 
 :::
 
----
-
-## Navigation
-
-> Direct your user through data in your app
-
 ::: details Navigation
+
+Direct your user through data in your app
 
 ```component VPCard
 {
@@ -2190,13 +2146,9 @@ head:
 
 :::
 
----
-
-## Alerts and menus
-
-> Show modal notifications when something happens
-
 ::: details Alerts and menus
+
+Show modal notifications when something happens
 
 ```component VPCard
 {
@@ -2300,13 +2252,9 @@ head:
 
 :::
 
----
-
-## Presenting views
-
-> Move your user from one view to another
-
 ::: details Presenting views
+
+Move your user from one view to another
 
 ```component VPCard
 {
@@ -2390,13 +2338,9 @@ head:
 
 :::
 
----
-
-## Transforming views
-
-> Clip, size, scale, spin, and more
-
 ::: details Transforming views
+
+Clip, size, scale, spin, and more
 
 ```component VPCard
 {
@@ -2620,13 +2564,9 @@ head:
 
 :::
 
----
-
-## Drawing
-
-> Take control of rendering using custom shapes
-
 ::: details Drawing
+
+Take control of rendering using custom shapes
 
 ```component VPCard
 {
@@ -2720,13 +2660,9 @@ head:
 
 :::
 
----
-
-## Animation
-
-> Bring your views to life with movement
-
 ::: details Animation
+
+Bring your views to life with movement
 
 ```component VPCard
 {
@@ -2870,205 +2806,651 @@ head:
 
 :::
 
----
-
-## Composing views
-
-> Make your UI structure easier to understand
-
 ::: details Composing views
 
-- [How to create and compose custom views](https://hackingwithswift.com/quick-start/swiftui/how-to-create-and-compose-custom-views)
-- [How to combine text views together](https://hackingwithswift.com/quick-start/swiftui/how-to-combine-text-views-together)
-- [How to store views as properties](https://hackingwithswift.com/quick-start/swiftui/how-to-store-views-as-properties)
-- [How to create custom modifiers](https://hackingwithswift.com/quick-start/swiftui/how-to-create-custom-modifiers)
-- [How to wrap a custom `UIView` for SwiftUI](https://hackingwithswift.com/quick-start/swiftui/how-to-wrap-a-custom-uiview-for-swiftui)
-- [How to create modifiers for a `UIViewRepresentable` `struct`](https://hackingwithswift.com/quick-start/swiftui/how-to-create-modifiers-for-a-uiviewrepresentable-struct)
-- [How to insert images into text](https://hackingwithswift.com/quick-start/swiftui/how-to-insert-images-into-text)
+Make your UI structure easier to understand
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create and compose custom views",
+  "desc": "How to create and compose custom views",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-and-compose-custom-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to combine text views together",
+  "desc": "How to combine text views together",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-combine-text-views-together.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to store views as properties",
+  "desc": "How to store views as properties",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-store-views-as-properties.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create custom modifiers",
+  "desc": "How to create custom modifiers",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-custom-modifiers.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to wrap a custom UIView for SwiftUI",
+  "desc": "How to wrap a custom UIView for SwiftUI",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-wrap-a-custom-uiview-for-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create modifiers for a UIViewRepresentable struct",
+  "desc": "How to create modifiers for a UIViewRepresentable struct",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-modifiers-for-a-uiviewrepresentable-struct.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to insert images into text",
+  "desc": "How to insert images into text",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-insert-images-into-text.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Cross-platform SwiftUI
+
+Learn to make your apps look great everywhere
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Learn once, apply anywhere",
+  "desc": "Learn once, apply anywhere",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/learn-once-apply-anywhere.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to get translucent lists on macOS",
+  "desc": "How to get translucent lists on macOS",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-get-translucent-lists-on-macos.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make carousel lists on watchOS",
+  "desc": "How to make carousel lists on watchOS",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-make-carousel-lists-on-watchos.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to read the Digital Crown on watchOS using digitalCrownRotation()",
+  "desc": "How to read the Digital Crown on watchOS using digitalCrownRotation()",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to open a new window",
+  "desc": "How to open a new window",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-open-a-new-window.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Data
+
+Handle data with Core Data integration and more
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Introduction to using Core Data with SwiftUI",
+  "desc": "Introduction to using Core Data with SwiftUI",
+  "link": "/swift/swiftui-by-example/21-data/introduction-to-using-core-data-with-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to configure Core Data to work with SwiftUI",
+  "desc": "How to configure Core Data to work with SwiftUI",
+  "link": "/swift/swiftui-by-example/21-data/how-to-configure-core-data-to-work-with-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to access a Core Data managed object context from a SwiftUI view",
+  "desc": "How to access a Core Data managed object context from a SwiftUI view",
+  "link": "/swift/swiftui-by-example/21-data/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a Core Data fetch request using @FetchRequest",
+  "desc": "How to create a Core Data fetch request using @FetchRequest",
+  "link": "/swift/swiftui-by-example/21-data/how-to-create-a-core-data-fetch-request-using-fetchrequest.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to filter Core Data fetch requests using a predicate",
+  "desc": "How to filter Core Data fetch requests using a predicate",
+  "link": "/swift/swiftui-by-example/21-data/how-to-filter-core-data-fetch-requests-using-a-predicate.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add Core Data objects from SwiftUI views",
+  "desc": "How to add Core Data objects from SwiftUI views",
+  "link": "/swift/swiftui-by-example/21-data/how-to-add-core-data-objects-from-swiftui-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to delete Core Data objects from SwiftUI views",
+  "desc": "How to delete Core Data objects from SwiftUI views",
+  "link": "/swift/swiftui-by-example/21-data/how-to-delete-core-data-objects-from-swiftui-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to limit the number of items in a fetch request",
+  "desc": "How to limit the number of items in a fetch request",
+  "link": "/swift/swiftui-by-example/21-data/how-to-limit-the-number-of-items-in-a-fetch-request.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a document-based app using FileDocument and DocumentGroup",
+  "desc": "How to create a document-based app using FileDocument and DocumentGroup",
+  "link": "/swift/swiftui-by-example/21-data/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to export files using fileExporter()",
+  "desc": "How to export files using fileExporter()",
+  "link": "/swift/swiftui-by-example/21-data/how-to-export-files-using-fileexporter.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to continue an NSUserActivity in SwiftUI",
+  "desc": "How to continue an NSUserActivity in SwiftUI",
+  "link": "/swift/swiftui-by-example/21-data/how-to-continue-an-nsuseractivity-in-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to read the user’s location using LocationButton",
+  "desc": "How to read the user’s location using LocationButton",
+  "link": "/swift/swiftui-by-example/21-data/how-to-read-the-users-location-using-locationbutton.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Accessibility
+
+How to make your apps usable by everyone
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > Introduction to accessibility with SwiftUI",
+  "desc": "Introduction to accessibility with SwiftUI",
+  "link": "/swift/swiftui-by-example/22-accessibility/introduction-to-accessibility-with-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to use Dynamic Type with a custom font",
+  "desc": "How to use Dynamic Type with a custom font",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-use-dynamic-type-with-a-custom-font.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to specify the Dynamic Type sizes a view supports",
+  "desc": "How to specify the Dynamic Type sizes a view supports",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-specify-the-dynamic-type-sizes-a-view-supports.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to detect the Reduce Motion accessibility setting",
+  "desc": "How to detect the Reduce Motion accessibility setting",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-detect-the-reduce-motion-accessibility-setting.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to detect dark mode",
+  "desc": "How to detect dark mode",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-detect-dark-mode.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to use decorative images to reduce screen reader clutter",
+  "desc": "How to use decorative images to reduce screen reader clutter",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-use-decorative-images-to-reduce-screen-reader-clutter.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to reduce animations when requested",
+  "desc": "How to reduce animations when requested",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-reduce-animations-when-requested.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{ 
+  "title": "SwiftUI by Example > How to make VoiceOver read characters individually",
+  "desc": "How to make VoiceOver read characters individually",
+  "link": "/swift/swiftui-by-example/22-accessibility/how-to-make-voiceover-read-characters-individually.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Tooling
+
+Build better apps with help from Xcode
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
+  "desc": "How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to preview your layout at different Dynamic Type sizes",
+  "desc": "How to preview your layout at different Dynamic Type sizes",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-at-different-dynamic-type-sizes.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to preview your layout in light and dark mode",
+  "desc": "How to preview your layout in light and dark mode",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-light-and-dark-mode.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to preview your layout in different devices",
+  "desc": "How to preview your layout in different devices",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-different-devices.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to preview your layout in a navigation view",
+  "desc": "How to preview your layout in a navigation view",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-a-navigation-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to preview your layout in portrait or landscape",
+  "desc": "How to preview your layout in portrait or landscape",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-portrait-or-landscape.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to find which data change is causing a SwiftUI view to update",
+  "desc": "How to find which data change is causing a SwiftUI view to update",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use Instruments to profile your SwiftUI code and identify slow layouts",
+  "desc": "How to use Instruments to profile your SwiftUI code and identify slow layouts",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details What now?
+
+How to continue learning SwiftUI after the basics
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > SwiftUI tips and tricks",
+  "desc": "SwiftUI tips and tricks",
+  "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to become a SwiftUI expert",
+  "desc": "How to become a SwiftUI expert",
+  "link": "/swift/swiftui-by-example/24-what-now/how-to-become-a-swiftui-expert.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Appendix A
+
+How to use each of SwiftUI's property wrappers
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Understanding property wrappers in Swift and SwiftUI",
+  "desc": "Understanding property wrappers in Swift and SwiftUI",
+  "link": "/swift/swiftui-by-example/25-appendix-a/understanding-property-wrappers-in-swift-and-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > All SwiftUI property wrappers explained and compared",
+  "desc": "All SwiftUI property wrappers explained and compared",
+  "link": "/swift/swiftui-by-example/25-appendix-a/all-swiftui-property-wrappers-explained-and-compared.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @State property wrapper?",
+  "desc": "What is the @State property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-state-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @StateObject property wrapper?",
+  "desc": "What is the @StateObject property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-stateobject-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @Published property wrapper?",
+  "desc": "What is the @Published property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-published-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @ObservedObject property wrapper?",
+  "desc": "What is the @ObservedObject property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-observedobject-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @EnvironmentObject property wrapper?",
+  "desc": "What is the @EnvironmentObject property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-environmentobject-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @Environment property wrapper?",
+  "desc": "What is the @Environment property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-environment-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @Binding property wrapper?",
+  "desc": "What is the @Binding property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-binding-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @FocusState property wrapper?",
+  "desc": "What is the @FocusState property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-focusstate-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @GestureState property wrapper?",
+  "desc": "What is the @GestureState property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-gesturestate-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @FetchRequest property wrapper?",
+  "desc": "What is the @FetchRequest property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-fetchrequest-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @AppStorage property wrapper?",
+  "desc": "What is the @AppStorage property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-appstorage-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @SceneStorage property wrapper?",
+  "desc": "What is the @SceneStorage property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-scenestorage-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @ScaledMetric property wrapper?",
+  "desc": "What is the @ScaledMetric property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-scaledmetric-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > What is the @UIApplicationDelegateAdaptor property wrapper?",
+  "desc": "What is the @UIApplicationDelegateAdaptor property wrapper?",
+  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-uiapplicationdelegateadaptor-property-wrapper.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
+::: details Appendix B
+
+How to understand and fix common SwiftUI errors
+
+- [Common SwiftUI errors and how to fix them](https://hackingwithswift.com/quick-start/swiftui/common-swiftui-errors-and-how-to-fix-them)
+- [How to fix “Cannot assign to property: 'self' is immutable”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-assign-to-property-self-is-immutable)
+- [How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable)
+- [How to fix “Ambiguous reference to member 'buildBlock()’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock)
+- [How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type)
+- [How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type)
+- [How to fix “Modifying state during view update, this will cause undefined behavior”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior)
+- [How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements)
+- [How to fix “Fatal error: No ObservableObject of type SomeType found”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found)
+- [How to fix “Cannot convert value of type 'String' to expected argument type 'Binding\<String\>”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string)
+- [How to fix “Cannot convert value of type 'String' to expected argument type 'Text'"](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text)
+- [How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'"](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject)
+- [How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type)
+- [How to fix “Missing argument for parameter 'content' in call”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-missing-argument-for-parameter-content-in-call)
+- [How to fix images not resizing](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-images-not-resizing)
+- [How to fix a Form Picker or a NavigationLink that isn’t tappable](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable)
 
 :::
 
 ---
 
-## Cross-platform SwiftUI
-
-> Learn to make your apps look great everywhere
-
-- [Learn once, apply anywhere](https://hackingwithswift.com/quick-start/swiftui/learn-once-apply-anywhere)
-- [How to get translucent lists on macOS](https://hackingwithswift.com/quick-start/swiftui/how-to-get-translucent-lists-on-macos)
-- [How to make carousel lists on watchOS](https://hackingwithswift.com/quick-start/swiftui/how-to-make-carousel-lists-on-watchos)
-- [How to read the Digital Crown on watchOS using `digitalCrownRotation()`](https://hackingwithswift.com/quick-start/swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation)
-- [How to open a new window](https://hackingwithswift.com/quick-start/swiftui/how-to-open-a-new-window)
-
----
-
-## Data
-
-> Handle data with Core Data integration and more
-
-- [Introduction to using Core Data with SwiftUI][introduction-to-using-core-data-with-swiftui]
-- [How to configure Core Data to work with SwiftUI][how-to-configure-core-data-to-work-with-swiftui]
-- [How to access a Core Data managed object context from a SwiftUI view][how-to-access-a-core-data-managed-object-context-from-a-swiftui-view]
-- [How to create a Core Data fetch request using `@FetchRequest`][how-to-create-a-core-data-fetch-request-using-fetchrequest]
-- [How to filter Core Data fetch requests using a predicate][how-to-filter-core-data-fetch-requests-using-a-predicate]
-- [How to add Core Data objects from SwiftUI views][how-to-add-core-data-objects-from-swiftui-views]
-- [How to delete Core Data objects from SwiftUI views][how-to-delete-core-data-objects-from-swiftui-views]
-- [How to limit the number of items in a fetch request][how-to-limit-the-number-of-items-in-a-fetch-request]
-- [How to create a document-based app using `FileDocument` and `DocumentGroup`][how-to-create-a-document-based-app-using-filedocument-and-documentgroup]
-- [How to export files using `fileExporter()`][how-to-export-files-using-fileexporter]
-- [How to continue an `NSUserActivity` in SwiftUI][how-to-continue-an-nsuseractivity-in-swiftui]
-- [How to read the user’s location using `LocationButton`][how-to-read-the-users-location-using-locationbutton]
-
----
-
-## Accessibility
-
-> How to make your apps usable by everyone
-
-- [Introduction to accessibility with SwiftUI][introduction-to-accessibility-with-swiftui]
-- [How to use Dynamic Type with a custom font][how-to-use-dynamic-type-with-a-custom-font]
-- [How to specify the Dynamic Type sizes a view supports][how-to-specify-the-dynamic-type-sizes-a-view-supports]
-- [How to detect the Reduce Motion accessibility setting][how-to-detect-the-reduce-motion-accessibility-setting]
-- [How to detect dark mode][how-to-detect-dark-mode]
-- [How to use decorative images to reduce screen reader clutter][how-to-use-decorative-images-to-reduce-screen-reader-clutter]
-- [How to reduce animations when requested][how-to-reduce-animations-when-requested]
-- [How to make `VoiceOver` read characters individually][how-to-make-voiceover-read-characters-individually]
-
----
-
-## Tooling
-
-> Build better apps with help from Xcode
-
-- [How to make SwiftUI modifiers safer to use with `@warn_unqualified_access`][how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access]
-- [How to preview your layout at different Dynamic Type sizes][how-to-preview-your-layout-at-different-dynamic-type-sizes]
-- [How to preview your layout in light and dark mode][how-to-preview-your-layout-in-light-and-dark-mode]
-- [How to preview your layout in different devices][how-to-preview-your-layout-in-different-devices]
-- [How to preview your layout in a navigation view][how-to-preview-your-layout-in-a-navigation-view]
-- [How to preview your layout in portrait or landscape][how-to-preview-your-layout-in-portrait-or-landscape]
-- [How to find which data change is causing a SwiftUI view to update][how-to-find-which-data-change-is-causing-a-swiftui-view-to-update]
-- [How to use Instruments to profile your SwiftUI code and identify slow layouts][how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts]
-
----
-
-## What now?
-
-> How to continue learning SwiftUI after the basics
-
-- [SwiftUI tips and tricks][swiftui-tips-and-tricks]
-- [How to become a SwiftUI expert][how-to-become-a-swiftui-expert]
-
----
-
-## Appendix A
-
-> How to use each of SwiftUI's property wrappers
-
-- [Understanding property wrappers in Swift and SwiftUI][understanding-property-wrappers-in-swift-and-swiftui]
-- [All SwiftUI property wrappers explained and compared][all-swiftui-property-wrappers-explained-and-compared]
-- [What is the `@State` property wrapper?][what-is-the-state-property-wrapper]
-- [What is the `@StateObject` property wrapper?][what-is-the-stateobject-property-wrapper]
-- [What is the `@Published` property wrapper?][what-is-the-published-property-wrapper]
-- [What is the `@ObservedObject` property wrapper?][what-is-the-observedobject-property-wrapper]
-- [What is the `@EnvironmentObject` property wrapper?][what-is-the-environmentobject-property-wrapper]
-- [What is the `@Environment` property wrapper?][what-is-the-environment-property-wrapper]
-- [What is the `@Binding` property wrapper?][what-is-the-binding-property-wrapper]
-- [What is the `@FocusState` property wrapper?][what-is-the-focusstate-property-wrapper]
-- [What is the `@GestureState` property wrapper?][what-is-the-gesturestate-property-wrapper]
-- [What is the `@FetchRequest` property wrapper?][what-is-the-fetchrequest-property-wrapper]
-- [What is the `@AppStorage` property wrapper?][what-is-the-appstorage-property-wrapper]
-- [What is the `@SceneStorage` property wrapper?][what-is-the-scenestorage-property-wrapper]
-- [What is the `@ScaledMetric` property wrapper?][what-is-the-scaledmetric-property-wrapper]
-- [What is the `@UIApplicationDelegateAdaptor` property wrapper?][what-is-the-uiapplicationdelegateadaptor-property-wrapper]
-
----
-
-## Appendix B
-
-> How to understand and fix common SwiftUI errors
-
-- [Common SwiftUI errors and how to fix them][common-swiftui-errors-and-how-to-fix-them]
-- [How to fix “`Cannot assign to property: 'self' is immutable`”][how-to-fix-cannot-assign-to-property-self-is-immutable]
-- [How to fix “`Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’`”][how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable]
-- [How to fix “`Ambiguous reference to member 'buildBlock()’`”][how-to-fix-ambiguous-reference-to-member-buildblock]
-- [How to fix “`Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type`”][how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type]
-- [How to fix “`Property declares an opaque return type, but has no initializer expression from which to infer an underlying type`”][how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type]
-- [How to fix “`Modifying state during view update, this will cause undefined behavior`”][how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior]
-- [How to fix “`Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements`”][how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements]
-- [How to fix “`Fatal error: No ObservableObject of type SomeType found`”][how-to-fix-fatal-error-no-observableobject-of-type-sometype-found]
-- [How to fix “`Cannot convert value of type 'String' to expected argument type 'Binding<String>’`”][how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string]
-- [How to fix “`Cannot convert value of type 'String' to expected argument type 'Text'`"][how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text]
-- [How to fix “`Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'`"][how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject]
-- [How to fix “`Cannot convert value of type '() -> ()' to expected argument type '() -> _’`”][how-to-fix-cannot-convert-value-of-type-to-expected-argument-type]
-- [How to fix “`Missing argument for parameter 'content' in call`”][how-to-fix-missing-argument-for-parameter-content-in-call]
-- [How to fix images not resizing][how-to-fix-images-not-resizing]
-- [How to fix a Form Picker or a `NavigationLink` that isn’t tappable][how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]
-
-<!-- Data -->
-[introduction-to-using-core-data-with-swiftui]: https://hackingwithswift.com/quick-start/swiftui/introduction-to-using-core-data-with-swiftui
-[how-to-configure-core-data-to-work-with-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-configure-core-data-to-work-with-swiftui
-[how-to-access-a-core-data-managed-object-context-from-a-swiftui-view]: https://hackingwithswift.com/quick-start/swiftui/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view
-[how-to-create-a-core-data-fetch-request-using-fetchrequest]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-core-data-fetch-request-using-fetchrequest
-[how-to-filter-core-data-fetch-requests-using-a-predicate]: https://hackingwithswift.com/quick-start/swiftui/how-to-filter-core-data-fetch-requests-using-a-predicate
-[how-to-add-core-data-objects-from-swiftui-views]: https://hackingwithswift.com/quick-start/swiftui/how-to-add-core-data-objects-from-swiftui-views
-[how-to-delete-core-data-objects-from-swiftui-views]: https://hackingwithswift.com/quick-start/swiftui/how-to-delete-core-data-objects-from-swiftui-views
-[how-to-limit-the-number-of-items-in-a-fetch-request]: https://hackingwithswift.com/quick-start/swiftui/how-to-limit-the-number-of-items-in-a-fetch-request
-[how-to-create-a-document-based-app-using-filedocument-and-documentgroup]: https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup
-[how-to-export-files-using-fileexporter]: https://hackingwithswift.com/quick-start/swiftui/how-to-export-files-using-fileexporter
-[how-to-continue-an-nsuseractivity-in-swiftui]: https://hackingwithswift.com/quick-start/swiftui/how-to-continue-an-nsuseractivity-in-swiftui
-[how-to-read-the-users-location-using-locationbutton]: https://hackingwithswift.com/quick-start/swiftui/how-to-read-the-users-location-using-locationbutton
-<!-- Accessibility -->
-[introduction-to-accessibility-with-swiftui]: https://hackingwithswift.com/quick-start/swiftui/introduction-to-accessibility-with-swiftui
-[how-to-use-dynamic-type-with-a-custom-font]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-dynamic-type-with-a-custom-font
-[how-to-specify-the-dynamic-type-sizes-a-view-supports]: https://hackingwithswift.com/quick-start/swiftui/how-to-specify-the-dynamic-type-sizes-a-view-supports
-[how-to-detect-the-reduce-motion-accessibility-setting]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-the-reduce-motion-accessibility-setting
-[how-to-detect-dark-mode]: https://hackingwithswift.com/quick-start/swiftui/how-to-detect-dark-mode
-[how-to-use-decorative-images-to-reduce-screen-reader-clutter]: https://hackingwithswift.com/quick-start/swiftui/how-to-use-decorative-images-to-reduce-screen-reader-clutter
-[how-to-reduce-animations-when-requested]: https://hackingwithswift.com/quick-start/swiftui/how-to-reduce-animations-when-requested
-[how-to-make-voiceover-read-characters-individually]: https://hackingwithswift.com/quick-start/swiftui/how-to-make-voiceover-read-characters-individually
-<!-- Tooling -->
-[how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access]: https://hackingwithswift.com/quick-start/swiftuihow-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access
-[how-to-preview-your-layout-at-different-dynamic-type-sizes]: https://hackingwithswift.com/quick-start/swiftuihow-to-preview-your-layout-at-different-dynamic-type-sizes
-[how-to-preview-your-layout-in-light-and-dark-mode]: https://hackingwithswift.com/quick-start/swiftuihow-to-preview-your-layout-in-light-and-dark-mode
-[how-to-preview-your-layout-in-different-devices]: https://hackingwithswift.com/quick-start/swiftuihow-to-preview-your-layout-in-different-devices
-[how-to-preview-your-layout-in-a-navigation-view]: https://hackingwithswift.com/quick-start/swiftuihow-to-preview-your-layout-in-a-navigation-view
-[how-to-preview-your-layout-in-portrait-or-landscape]: https://hackingwithswift.com/quick-start/swiftuihow-to-preview-your-layout-in-portrait-or-landscape
-[how-to-find-which-data-change-is-causing-a-swiftui-view-to-update]: https://hackingwithswift.com/quick-start/swiftuihow-to-find-which-data-change-is-causing-a-swiftui-view-to-update
-[how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts]: https://hackingwithswift.com/quick-start/swiftuihow-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts
-<!-- What now? -->
-[swiftui-tips-and-tricks]: https://hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks
-[how-to-become-a-swiftui-expert]: https://hackingwithswift.com/quick-start/swiftui/how-to-become-a-swiftui-expert
-<!-- Appendix A -->
-[understanding-property-wrappers-in-swift-and-swiftui]: https://hackingwithswift.com/quick-start/swiftui/understanding-property-wrappers-in-swift-and-swiftui
-[all-swiftui-property-wrappers-explained-and-compared]: https://hackingwithswift.com/quick-start/swiftui/all-swiftui-property-wrappers-explained-and-compared
-[what-is-the-state-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-state-property-wrapper
-[what-is-the-stateobject-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-stateobject-property-wrapper
-[what-is-the-published-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-published-property-wrapper
-[what-is-the-observedobject-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-observedobject-property-wrapper
-[what-is-the-environmentobject-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-environmentobject-property-wrapper
-[what-is-the-environment-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-environment-property-wrapper
-[what-is-the-binding-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-binding-property-wrapper
-[what-is-the-focusstate-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-focusstate-property-wrapper
-[what-is-the-gesturestate-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-gesturestate-property-wrapper
-[what-is-the-fetchrequest-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-fetchrequest-property-wrapper
-[what-is-the-appstorage-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-appstorage-property-wrapper
-[what-is-the-scenestorage-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-scenestorage-property-wrapper
-[what-is-the-scaledmetric-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-scaledmetric-property-wrapper
-[what-is-the-uiapplicationdelegateadaptor-property-wrapper]: https://hackingwithswift.com/quick-start/swiftui/what-is-the-uiapplicationdelegateadaptor-property-wrapper
-<!-- Appendix B -->
-[common-swiftui-errors-and-how-to-fix-them]: https://hackingwithswift.com/quick-start/swiftui/common-swiftui-errors-and-how-to-fix-them
-[how-to-fix-cannot-assign-to-property-self-is-immutable]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-assign-to-property-self-is-immutable
-[how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable
-[how-to-fix-ambiguous-reference-to-member-buildblock]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock
-[how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type
-[how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type
-[how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior
-[how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements
-[how-to-fix-fatal-error-no-observableobject-of-type-sometype-found]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found
-[how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string
-[how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text
-[how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject
-[how-to-fix-cannot-convert-value-of-type-to-expected-argument-type]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type
-[how-to-fix-missing-argument-for-parameter-content-in-call]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-missing-argument-for-parameter-content-in-call
-[how-to-fix-images-not-resizing]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-images-not-resizing
-[how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable]: https://hackingwithswift.com/quick-start/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable
+<TagLinks />

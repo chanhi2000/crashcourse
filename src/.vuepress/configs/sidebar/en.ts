@@ -646,8 +646,105 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md',
             '/swift/swiftui-by-example/18-animation/how-to-override-animations-with-transactions.md',
           ]
-        },
-        
+        }, {
+          text: 'Composing View',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/19-composing-view/how-to-create-and-compose-custom-views.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-combine-text-views-together.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-store-views-as-properties.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-create-custom-modifiers.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-wrap-a-custom-uiview-for-swiftui.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-create-modifiers-for-a-uiviewrepresentable-struct.md',
+            '/swift/swiftui-by-example/19-composing-view/how-to-insert-images-into-text.md',
+          ]
+        }, {
+          text: 'Cross-platform SwiftUI',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/learn-once-apply-anywhere.md',
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-get-translucent-lists-on-macos.md',
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-make-carousel-lists-on-watchos.md',
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.md',
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-open-a-new-window.md',
+          ]
+        }, {
+          text: 'Data',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/21-data/introduction-to-using-core-data-with-swiftui.md',
+            '/swift/swiftui-by-example/21-data/how-to-configure-core-data-to-work-with-swiftui.md',
+            '/swift/swiftui-by-example/21-data/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.md',
+            '/swift/swiftui-by-example/21-data/how-to-create-a-core-data-fetch-request-using-fetchrequest.md',
+            '/swift/swiftui-by-example/21-data/how-to-filter-core-data-fetch-requests-using-a-predicate.md',
+            '/swift/swiftui-by-example/21-data/how-to-add-core-data-objects-from-swiftui-views.md',
+            '/swift/swiftui-by-example/21-data/how-to-delete-core-data-objects-from-swiftui-views.md',
+            '/swift/swiftui-by-example/21-data/how-to-limit-the-number-of-items-in-a-fetch-request.md',
+            '/swift/swiftui-by-example/21-data/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.md',
+            '/swift/swiftui-by-example/21-data/how-to-export-files-using-fileexporter.md',
+            '/swift/swiftui-by-example/21-data/how-to-continue-an-nsuseractivity-in-swiftui.md',
+            '/swift/swiftui-by-example/21-data/how-to-read-the-users-location-using-locationbutton.md',
+          ]
+        }, {
+          text: 'Accessibility',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/22-accessibility/introduction-to-accessibility-with-swiftui.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-use-dynamic-type-with-a-custom-font.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-specify-the-dynamic-type-sizes-a-view-supports.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-detect-the-reduce-motion-accessibility-setting.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-detect-dark-mode.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-use-decorative-images-to-reduce-screen-reader-clutter.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-reduce-animations-when-requested.md',
+            '/swift/swiftui-by-example/22-accessibility/how-to-make-voiceover-read-characters-individually.md',
+          ]
+        }, {
+          text: 'Tooling',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/23-tooling/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-at-different-dynamic-type-sizes.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-light-and-dark-mode.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-different-devices.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-a-navigation-view.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-portrait-or-landscape.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.md',
+            '/swift/swiftui-by-example/23-tooling/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.md',
+          ]
+        }, {
+          text: 'What now?',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md',
+            '/swift/swiftui-by-example/24-what-now/how-to-become-a-swiftui-expert.md',
+          ]
+        }, {
+          text: 'Appendix A',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/25-appendix-a/understanding-property-wrappers-in-swift-and-swiftui.md',
+            '/swift/swiftui-by-example/25-appendix-a/all-swiftui-property-wrappers-explained-and-compared.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-state-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-stateobject-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-published-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-observedobject-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-environmentobject-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-environment-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-binding-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-focusstate-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-gesturestate-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-fetchrequest-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-appstorage-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-scenestorage-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-scaledmetric-property-wrapper.md',
+            '/swift/swiftui-by-example/25-appendix-a/what-is-the-uiapplicationdelegateadaptor-property-wrapper.md',
+          ]
+        }, {
+          text: 'Appendix B',
+          collapsible: true,
+          children: [
+          ]
+        }
       ]
     }, {
       text: 'Kodeco - Swift',
@@ -1607,6 +1704,7 @@ export const sidebarEn = sidebar({
         '/devops/yozm/2425.md',
         '/devops/yozm/2464.md',
         '/devops/yozm/2503.md',
+        '/devops/yozm/2519.md',
       ]
     }
   ], '/misc/': [

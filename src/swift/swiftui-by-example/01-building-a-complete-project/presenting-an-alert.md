@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
@@ -79,7 +89,6 @@ Run the program and see what you think – it’s really coming together now!
 ![An iOS alert showing the order was confirmed.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/2-15~dark.png)
 
 ::: details Further reading
-
 
 ```component VPCard
 {

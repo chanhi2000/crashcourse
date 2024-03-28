@@ -105,8 +105,25 @@ struct ContentView: View {
 }
 ```
 
-How to adjust the opacity of a view
-How to adjust views by tinting, and desaturating, and more
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust the opacity of a view",
+  "desc": "How to adjust the opacity of a view",
+  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-opacity-of-a-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust views by tinting, and desaturating, and more",
+  "desc": "How to adjust views by tinting, and desaturating, and more",
+  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-views-by-tinting-and-desaturating-and-more.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

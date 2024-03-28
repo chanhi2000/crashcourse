@@ -76,6 +76,16 @@ head:
 }
 ```
 
+```component VPCard
+{
+  "title": "프론트엔드 개발자는 서비스 말고 ‘운영툴’도 만듭니다 | 요즘IT",
+  "desc": "프론트엔드 개발자는 서비스 말고 ‘운영툴’도 만듭니다",
+  "link": "2519.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
 ---
 
 <TagLinks />

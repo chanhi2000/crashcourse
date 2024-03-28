@@ -9,6 +9,7 @@ tag:
   - digitalocean
   - kubernetes
   - kubctl
+  - kn
   - serverless
 head:
   - - meta:

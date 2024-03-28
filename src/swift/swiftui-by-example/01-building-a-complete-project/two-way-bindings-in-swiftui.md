@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
@@ -221,7 +231,15 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
 }
 ```
 
-How to animate changes in binding values
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to animate changes in binding values",
+  "desc": "How to animate changes in binding values",
+  "link": "/swift/swiftui-by-example/18-animation/how-to-animate-changes-in-binding-values.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

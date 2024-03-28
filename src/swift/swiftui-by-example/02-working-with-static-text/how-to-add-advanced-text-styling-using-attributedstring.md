@@ -268,7 +268,15 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
 
 ::: details Similar solutions…
 
-How to stack modifiers to create more advanced effects
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to stack modifiers to create more advanced effects",
+  "desc": "How to stack modifiers to create more advanced effects",
+  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-stack-modifiers-to-create-more-advanced-effects.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {
