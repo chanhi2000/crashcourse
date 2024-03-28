@@ -182,7 +182,7 @@ If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, yo
 {
   "title": "SwiftUI by Example > How to draw images using Image views",
   "desc": "How to draw images using Image views",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media.md#how-to-draw-images-using-image-views",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -192,7 +192,7 @@ If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, yo
 {
   "title": "SwiftUI by Example > How to create stacks using VStack and HStack",
   "desc": "How to create stacks using VStack and HStack",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews.md#how-to-create-stacks-using-vstack-and-hstack",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }

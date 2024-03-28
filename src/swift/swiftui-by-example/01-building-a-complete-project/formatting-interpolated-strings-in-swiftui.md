@@ -66,7 +66,15 @@ If you try that out you should see it all works great – the total price reflec
 
 ::: details Further reading
 
-How to format text inside text views
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to format text inside text views",
+  "desc": "How to format text inside text views",
+  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

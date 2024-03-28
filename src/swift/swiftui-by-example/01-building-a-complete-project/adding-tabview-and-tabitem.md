@@ -119,7 +119,7 @@ In the background, any view that relies on an environment object will be refresh
 {
   "title": "SwiftUI by Example > How to embed views in a tab bar using TabView",
   "desc": "How to embed views in a tab bar using TabView",
-  "link": "/swift/swiftui-by-example/12-containers.md#how-to-embed-views-in-a-tab-bar-using-tabview",
+  "link": "/swift/swiftui-by-example/12-containers/how-to-embed-views-in-a-tab-bar-using-tabview.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"  
 }

@@ -107,7 +107,7 @@ class Order: ObservableObject {
 {
   "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
   "desc": "How to use @EnvironmentObject to share data between views",
-  "link": "09-advanced-state.md#how-to-use-environmentobject-to-share-data-between-views",
+  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-environmentobject-to-share-data-between-views.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -117,7 +117,7 @@ class Order: ObservableObject {
 {
   "title": "SwiftUI by Example > What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
   "desc": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
-  "link": "09-advanced-state.md#whats-the-difference-between-observedobject-state-and-environmentobject",
+  "link": "/swift/swiftui-by-example/09-advanced-state/whats-the-difference-between-observedobject-state-and-environmentobject.md",
   "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
   "background": "rgba(54,94,226,0.2)"
 }

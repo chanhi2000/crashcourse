@@ -199,6 +199,20 @@ export const navbarEn = navbar([
     ]
   }, {
     text: '',
+    icon: 'fas fa-dharmachakra',
+    children: [
+      {
+        text: 'DigitalOcean - Kubernetes',
+        link: '/kubernetes/digitalocean-kubernetes/README.md',
+        icon: 'fas fa-dharmachakra'
+      }, {
+        text: '요즘 IT 블로그 - Kubernetes 관련',
+        link: '/kubernetes/yozm/README.md',
+        icon: 'fas fa-dharmachakra',
+      }
+    ]
+  }, {
+    text: '',
     icon: 'fas fa-cubes-stacked',
     children: [
       {
@@ -213,10 +227,6 @@ export const navbarEn = navbar([
         text: 'freecodecamp.org - DevOps with GitLab CI',
         link: '/devops/freecodecamp-gitlab-ci/README.md',
         icon: 'fa-brands fa-gitlab'
-      }, {
-        text: 'DigitalOcean - Kubernetes',
-        link: '/devops/digitalocean-kubernetes/README.md',
-        icon: 'fas fa-dharmachakra'
       }, {
         text: '아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
         link: '/devops/art-of-aws/README.md',

@@ -486,33 +486,168 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/09-advanced-state/how-to-run-some-code-when-state-changes-using-onchange.md',
             '/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md',
           ]
-        }, 
-        /* 
-        {
+        }, {
           text: 'Lists',
           collapsible: true,
           children: [
-            '/swift/swiftui-by-example/10-lists/',
+            '/swift/swiftui-by-example/10-lists/working-with-lists.md',
+            '/swift/swiftui-by-example/10-lists/how-to-create-a-list-of-static-items.md',
+            '/swift/swiftui-by-example/10-lists/how-to-create-a-list-of-dynamic-items.md',
+            '/swift/swiftui-by-example/10-lists/how-to-let-users-delete-rows-from-a-list.md',
+            '/swift/swiftui-by-example/10-lists/how-to-let-users-move-rows-in-a-list.md',
+            '/swift/swiftui-by-example/10-lists/how-to-add-sections-to-a-list.md',
+            '/swift/swiftui-by-example/10-lists/how-to-enable-editing-on-a-list-using-editbutton.md',
+            '/swift/swiftui-by-example/10-lists/how-to-set-the-background-color-of-list-rows-using-listrowbackground.md',
+            '/swift/swiftui-by-example/10-lists/how-to-create-grouped-and-inset-grouped-lists.md',
+            '/swift/swiftui-by-example/10-lists/how-to-create-expanding-lists.md',
+            '/swift/swiftui-by-example/10-lists/how-to-scroll-to-a-specific-row-in-a-list.md',
+            '/swift/swiftui-by-example/10-lists/how-to-allow-row-selection-in-a-list.md',
+            '/swift/swiftui-by-example/10-lists/how-to-use-implicit-stacking.md',
+            '/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-visibility-and-color.md',
+            '/swift/swiftui-by-example/10-lists/how-to-enable-pull-to-refresh.md',
+            '/swift/swiftui-by-example/10-lists/how-to-add-custom-swipe-action-buttons-to-a-list-row.md',
+            '/swift/swiftui-by-example/10-lists/how-to-add-a-search-bar-to-filter-your-data.md',
+            '/swift/swiftui-by-example/10-lists/how-to-add-search-tokens-to-a-search-field.md',
+            '/swift/swiftui-by-example/10-lists/how-to-create-a-list-or-a-foreach-from-a-binding.md',
+            '/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-insets.md',
+            '/swift/swiftui-by-example/10-lists/how-to-change-the-tint-color-for-individual-list-rows.md',
           ]
         }, {
           text: 'Forms',
           collapsible: true,
           children: [
-            '/swift/swiftui-by-example/11-forms/',
+            '/swift/swiftui-by-example/11-forms/working-with-forms.md',
+            '/swift/swiftui-by-example/11-forms/basic-form-design.md',
+            '/swift/swiftui-by-example/11-forms/breaking-forms-into-sections.md',
+            '/swift/swiftui-by-example/11-forms/pickers-in-forms.md',
+            '/swift/swiftui-by-example/11-forms/enabling-and-disabling-elements-in-forms.md',
+            '/swift/swiftui-by-example/11-forms/showing-and-hiding-form-rows.md',
+            '/swift/swiftui-by-example/11-forms/how-to-align-form-text-and-controls-neatly-with-labeledcontent.md',
           ]
-        },  {
+        }, {
           text: 'Containers',
           collapsible: true,
           children: [
-            '/swift/swiftui-by-example/12-containers/',
+            '/swift/swiftui-by-example/12-containers/working-with-containers.md',
+            '/swift/swiftui-by-example/12-containers/how-to-embed-views-in-a-tab-bar-using-tabview.md',
+            '/swift/swiftui-by-example/12-containers/how-to-create-scrolling-pages-of-content-using-tabviewstyle.md',
+            '/swift/swiftui-by-example/12-containers/how-to-group-views-together.md',
+            '/swift/swiftui-by-example/12-containers/how-to-hide-and-show-the-status-bar.md',
+            '/swift/swiftui-by-example/12-containers/how-to-hide-and-reveal-content-using-disclosuregroup.md',
+            '/swift/swiftui-by-example/12-containers/how-to-create-a-toolbar-and-add-buttons-to-it.md',
+            '/swift/swiftui-by-example/12-containers/how-to-let-users-customize-toolbar-buttons.md',
+            '/swift/swiftui-by-example/12-containers/how-to-add-a-badge-to-tabview-items-and-list-rows.md',
+            '/swift/swiftui-by-example/12-containers/how-to-group-views-visually-using-groupbox.md',
+            '/swift/swiftui-by-example/12-containers/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.md',
+            '/swift/swiftui-by-example/12-containers/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars.md',
+          ]
+        }, {
+          text: 'Navigation',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/13-navigation/introduction-to-navigation.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-embed-a-view-in-a-navigation-view.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-let-users-edit-your-navigation-title.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-add-bar-items-to-a-navigation-view.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-push-a-new-view-onto-a-navigationstack.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-push-a-new-view-when-a-list-row-is-tapped.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-use-programmatic-navigation-in-swiftui.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-save-and-load-navigationstack-paths-using-codable.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-hide-and-show-the-sidebar-programmatically.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-customize-a-views-width-in-navigationsplitview.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-customize-the-display-mode-of-navigationsplitview.md',
+          ]
+        }, {
+          text: 'Alerts and menus',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/14-alerts-and-menus/working-with-presentations.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-an-alert.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-a-textfield-to-an-alert.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-actions-to-alert-buttons.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-multiple-alerts-in-a-single-view.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-an-action-sheet.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-a-context-menu.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-recommend-another-app-using-appstoreoverlay.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-a-menu-when-a-button-is-pressed.md',
+            '/swift/swiftui-by-example/14-alerts-and-menus/how-to-let-users-pick-options-from-a-menu.md',
+          ]
+        }, {
+          text: 'Presenting views',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/15-presenting-views/how-to-present-a-new-view-using-sheets.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-present-multiple-sheets.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-make-a-view-dismiss-itself.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-present-a-full-screen-modal-view-using-fullscreencover.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-show-a-popover-view.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-display-a-bottom-sheet.md',
+            '/swift/swiftui-by-example/15-presenting-views/how-to-ask-the-user-to-review-your-app.md',
+          ]
+        }, {
+          text: 'Transforming views',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-position-of-a-view-using-its-offset.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-color-the-padding-around-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-stack-modifiers-to-create-more-advanced-effects.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-border-around-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-border-inside-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-create-a-marching-ants-border-effect.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-shadow-around-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-clip-a-view-so-only-part-is-visible.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-rotate-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-rotate-a-view-in-3d.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-scale-a-view-up-or-down.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-round-the-corners-of-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-opacity-of-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-accent-color-of-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-mask-one-view-with-another.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-blur-a-view.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-blend-views-together.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-adjust-views-by-tinting-and-desaturating-and-more.md',
+            '/swift/swiftui-by-example/16-transforming-views/customizing-button-with-buttonstyle.md',
+            '/swift/swiftui-by-example/16-transforming-views/customizing-progressview-with-progressviewstyle.md',
+            '/swift/swiftui-by-example/16-transforming-views/customizing-toggle-with-togglestyle.md',
+            '/swift/swiftui-by-example/16-transforming-views/how-to-change-the-background-color-of-list-texteditor-and-more.md',
+          ]
+        }, {
+          text: 'Drawing',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/17-drawing/swiftuis-built-in-shapes.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-draw-a-custom-path.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-draw-polygons-and-stars.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-draw-a-checkerboard.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-use-uibezierpath-and-cgpath-in-swiftui.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-convert-a-swiftui-view-to-an-image.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-render-a-swiftui-view-to-a-pdf.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-add-visual-effect-blurs.md',
+            '/swift/swiftui-by-example/17-drawing/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.md',
+          ]
+        }, {
+          text: 'Animation',
+          collapsible: true,
+          children: [
+            '/swift/swiftui-by-example/18-animation/how-to-create-basic-animations.md',
+            '/swift/swiftui-by-example/18-animation/how-to-create-a-spring-animation.md',
+            '/swift/swiftui-by-example/18-animation/how-to-animate-changes-in-binding-values.md',
+            '/swift/swiftui-by-example/18-animation/how-to-create-an-explicit-animation.md',
+            '/swift/swiftui-by-example/18-animation/how-to-delay-an-animation.md',
+            '/swift/swiftui-by-example/18-animation/how-to-start-an-animation-immediately-after-a-view-appears.md',
+            '/swift/swiftui-by-example/18-animation/how-to-apply-multiple-animations-to-a-view.md',
+            '/swift/swiftui-by-example/18-animation/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect.md',
+            '/swift/swiftui-by-example/18-animation/how-to-add-and-remove-views-with-a-transition.md',
+            '/swift/swiftui-by-example/18-animation/how-to-combine-transitions.md',
+            '/swift/swiftui-by-example/18-animation/how-to-create-asymmetric-transitions.md',
+            '/swift/swiftui-by-example/18-animation/how-to-create-a-custom-transition.md',
+            '/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md',
+            '/swift/swiftui-by-example/18-animation/how-to-override-animations-with-transactions.md',
           ]
         },
-        */
-        '/swift/swiftui-by-example/13-navigation.md',
-        '/swift/swiftui-by-example/14-alerts-and-menus.md',
-        '/swift/swiftui-by-example/15-presenting-views.md',
-        '/swift/swiftui-by-example/16-transforming-views.md',
-        '/swift/swiftui-by-example/17-drawing.md',
+        
       ]
     }, {
       text: 'Kodeco - Swift',
@@ -1271,6 +1406,36 @@ export const sidebarEn = sidebar({
         '/haskell/template-haskell/15.md',
       ]
     }
+  ], '/kubernetes/': [
+    {
+      text: 'Kubernetes',
+      icon: 'fas fa-dharmachakra',
+      children: [ '/kubernetes/README.md' ]
+    },  {
+      text: 'DigitalOcean - Kubernetes',
+      collapsible: true,
+      icon: 'fas fa-dharmachakra',
+      children: [
+        '/kubernetes/digitalocean-kubernetes/README.md',
+        {
+          text: '2022',
+          collapsible: true,
+          children: [
+            '/kubernetes/digitalocean-kubernetes/2022/20221216-how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes.md',
+            '/kubernetes/digitalocean-kubernetes/2022/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.md',
+          ]
+        }
+      ]
+    }, {
+      text: '요즘 IT 블로그 - Kubernetes 관련',
+      collapsible: true,
+      icon: 'fas fa-dharmachakra',
+      children: [
+        '/kubernetes/yozm/README.md',
+        '/kubernetes/yozm/1990.md',
+        '/kubernetes/yozm/2515.md',
+      ]
+    }
   ], '/devops/': [
     {
       text: 'DevOps',
@@ -1312,15 +1477,6 @@ export const sidebarEn = sidebar({
         '/devops/freecodecamp-gitlab-ci/3.md',
         '/devops/freecodecamp-gitlab-ci/4.md',
         '/devops/freecodecamp-gitlab-ci/5.md',
-      ]
-    }, {
-      text: 'DigitalOcean - Kubernetes',
-      collapsible: true,
-      icon: 'fas fa-dharmachakra',
-      children: [
-        '/devops/digitalocean-kubernetes/README.md',
-        '/devops/digitalocean-kubernetes/2022/20221216-how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes.md',
-        '/devops/digitalocean-kubernetes/2022/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.md',
       ]
     }, {
       text: '아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',

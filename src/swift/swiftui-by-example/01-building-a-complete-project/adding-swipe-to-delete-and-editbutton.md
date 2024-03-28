@@ -110,9 +110,36 @@ Much better!
 
 ::: details Further Reading
 
-How to let users delete rows from a list
-How to enable editing on a list using EditButton
-Enabling and disabling elements in forms
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to let users delete rows from a list",
+  "desc": "How to let users delete rows from a list",
+  "link": "/swift/swiftui-by-example/10-lists/how-to-let-users-delete-rows-from-a-list.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to enable editing on a list using EditButton",
+  "desc": "How to enable editing on a list using EditButton",
+  "link": "/swift/swiftui-by-example/10-lists/how-to-enable-editing-on-a-list-using-editbutton.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Enabling and disabling elements in forms",
+  "desc": "Enabling and disabling elements in forms",
+  "link": "/swift/swiftui-by-example/11-forms/enabling-and-disabling-elements-in-forms.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

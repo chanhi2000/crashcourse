@@ -27,45 +27,7 @@ head:
 [[toc]]
 
 ---
----
-lang: ko-KR
-title: What is SwiftUI?
-description: SwiftUI by Example > What is SwiftUI?
-category:
-  - Swift
-tag: 
-  - crashcourse
-  - paul-hudson
-  - swift
-  - swiftui
-  - hacking-with-swift
-  - xcode
-  - appstore
-head:
-  - - meta:
-    - property: og:title
-      content: SwiftUI by Example > What is SwiftUI?
-    - property: og:description
-      content: What is SwiftUI?
-    - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/00-introduction/what-is-swiftui.html
----
 
-# {{ $frontmatter.title }} 관련
-
-[[toc]]
-
----
-
-```component VPCard
-{
-  "title": "SwiftUI by Example – What is SwiftUI?",
-  "desc": "What is SwiftUI?",
-  "link": "https://www.hackingwithswift.com/quick-start/swiftui/what-is-swiftui", 
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
-  "background": "rgba(54,94,226,0.2)"
-}
-```
 ```component VPCard
 {
   "title": "SwiftUI by Example – Answering the big question: should you learn SwiftUI, UIKit, or both?",

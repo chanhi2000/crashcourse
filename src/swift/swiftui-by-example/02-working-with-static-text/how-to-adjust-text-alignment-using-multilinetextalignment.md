@@ -38,6 +38,88 @@ head:
 }
 ```
 
+> Updated for Xcode 15
+
+When SwiftUI’s `Text` views wrap across multiple lines, they align to their leading edge by default. If you want to change that, use the `multilineTextAlignment()` modifier to specify an alternative, such as `.center`, or `.trailing`.
+
+For example, this will center several lines of text as they wrap across lines:
+
+```swift
+Text("This is an extremely long text string that will never fit even the widest of phones without wrapping")
+    .font(.largeTitle)
+    .multilineTextAlignment(.center)
+    .frame(width: 300)
+```
+
+> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
+
+![A center-aligned multiline paragraph of text.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1~dark.png)
+
+You can compare all three text alignments side by side using a picker such as this one:
+
+```swift
+struct ContentView: View {
+    let alignments: [TextAlignment] = [.leading, .center, .trailing]
+    @State private var alignment = TextAlignment.leading
+
+    var body: some View {
+        VStack {
+            Picker("Text alignment", selection: $alignment) {
+                ForEach(alignments, id: \.self) { alignment in
+                    Text(String(describing: alignment))
+                }
+            }
+
+            Text("This is an extremely long text string that will never fit even the widest of phones without wrapping")
+                .font(.largeTitle)
+                .multilineTextAlignment(alignment)
+                .frame(width: 300)
+        }
+    }
+}
+```
+
+> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
+
+![Three images showing paragraphs with left-aligned, centered, and right-aligned text.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-2~dark.png)
+
+::: details Similar solutions…
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to customize stack layouts with alignment and spacing",
+  "desc": "How to customize stack layouts with alignment and spacing",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust the position of a view using its offset",
+  "desc": "How to adjust the position of a view using its offset",
+  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-position-of-a-view-using-its-offset.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+How to adjust the opacity of a view
+How to adjust views by tinting, and desaturating, and more
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust List row separator insets",
+  "desc": "How to adjust List row separator insets",
+  "link": "/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-insets.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
 ---
 
 <TagLinks />

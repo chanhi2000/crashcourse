@@ -122,8 +122,25 @@ Of course, the _real_ question is: why `$paymentType` and not `paymentType`?
 
 ::: details Further reading
 
-Working with state
-How to create a picker and read values from it
+```component VPCard
+{
+  "title": "SwiftUI by Example > Working with state",
+  "desc": "Working with state",
+  "link": "/swift/swiftui-by-example/06-user-interface-controls/working-with-state.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a picker and read values from it",
+  "desc": "How to create a picker and read values from it",
+  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-picker-and-read-values-from-it.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

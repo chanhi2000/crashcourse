@@ -80,8 +80,26 @@ Run the program and see what you think – it’s really coming together now!
 
 ::: details Further reading
 
-Working with presentations
-How to show an alert
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Working with presentations",
+  "desc": "Working with presentations",
+  "link": "/swift/swiftui-by-example/14-alerts-and-menu/working-with-presentations.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show an alert",
+  "desc": "How to show an alert",
+  "link": "/swift/swiftui-by-example/14-alerts-and-menu/how-to-show-an-alert.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

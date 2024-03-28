@@ -62,7 +62,7 @@ To get started, please create a new iOS project in Xcode called “iDine”, cho
 
 Xcode’s project creation window, configured to create a SwiftUI app.
 
-There are quite a few assets provided for this project that you need to copy in before you start. These are all in the assets for this project, which you can download [<FontIcon icon="iconfont icon-select"/>here](https://www.hackingwithswift.com/samples/idine.zip).
+There are quite a few assets provided for this project that you need to copy in before you start. These are all in the assets for this project, which you can download [<FontIcon icon="fas fa-globe"/>here](https://www.hackingwithswift.com/samples/idine.zip).
 
 Please copy them into your project like this:
 
@@ -80,11 +80,6 @@ OK, that’s it – we’re ready to go!
 At the end of each chapter I’ve added a “Further reading” section that suggests links to other chapters in this book. You don’t need to read them in order to follow along; they are there to provide extra information and detail if you want to understand the bigger picture more thoroughly.
 
 :::
-
----
-
-## Table of Contents
-
 
 ---
 
