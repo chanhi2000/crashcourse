@@ -1487,9 +1487,26 @@ export const sidebarEn = sidebar({
         '/devops/art-of-aws/01.md',
         '/devops/art-of-aws/02.md',
         '/devops/art-of-aws/03.md',
-        '/devops/art-of-aws/04.md',
+        {
+          text: "04. 가상 서버를 제공하는 EC2",
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/04.md',
+            '/devops/art-of-aws/04A.md',
+            '/devops/art-of-aws/04B.md',
+            '/devops/art-of-aws/04C.md',
+          ]
+        },        
         '/devops/art-of-aws/05.md',
-        '/devops/art-of-aws/06.md',
+        {
+          text: '06. 고정 IP를 제공하는 Elastic IP',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/06.md',
+            '/devops/art-of-aws/06A.md',
+            '/devops/art-of-aws/06B.md',
+          ]
+        },
         '/devops/art-of-aws/07.md',
         '/devops/art-of-aws/08.md',
         '/devops/art-of-aws/09.md',
@@ -1587,6 +1604,7 @@ export const sidebarEn = sidebar({
       icon: 'fas fa-cubes-stacked',
       children: [
         '/devops/yozm/README.md',
+        '/devops/yozm/2425.md',
         '/devops/yozm/2464.md',
         '/devops/yozm/2503.md',
       ]

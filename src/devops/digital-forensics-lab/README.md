@@ -51,16 +51,6 @@ This repository contains the course material for the digital forensics lab offer
 
 ```component VPCard
 {
-  "title": "CYL2002 - Digital Forensics Lab > Lab 1 — Introduction to Digital Forensics",
-  "desc": "Lab 1 — Introduction to Digital Forensics",
-  "link": "01.md",
-  "logo": "https://github.githubassets.com/favicons/favicon-dark.png",
-  "background": "rgba(13,16,20,0.2)"
-}
-```
-
-```component VPCard
-{
   "title": "CYL2002 - Digital Forensics Lab > Lab 2 — Common Windows Artifacts",
   "desc": "Lab 2 — Common Windows Artifacts",
   "link": "02.md",

@@ -48,6 +48,16 @@ head:
 
 ```component VPCard
 {
+  "title": "신원확인, 통합인증관리 오픈소스 ‘키클락’을 알아보자 | 요즘IT",
+  "desc": "신원확인, 통합인증관리 오픈소스 ‘키클락’을 알아보자",
+  "link": "2425.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
+```component VPCard
+{
   "title": "개발자가 알아두면 좋은 ‘코드형 인프라(IaC)’ 개념 정리 | 요즘IT",
   "desc": "개발자가 알아두면 좋은 ‘코드형 인프라(IaC)’ 개념 정리",
   "link": "2464.md",
