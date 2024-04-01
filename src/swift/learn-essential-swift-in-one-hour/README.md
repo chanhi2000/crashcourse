@@ -47,9 +47,7 @@ We’re going to move fast because this is designed to be a primer – if you fi
 
 Let’s get to it!
 
-<VidStack 
-  src="youtube/n5X_V81OYnQ" 
-  title="Learn the Essentials of Swift in one hour"/>
+<VidStack src="youtube/n5X_V81OYnQ"/>
 
 ---
 

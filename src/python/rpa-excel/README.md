@@ -46,8 +46,6 @@ head:
 }
 ```
 
----
-
 ## Table of Contents
 
 - [1. 개발환경 구축](01.md)

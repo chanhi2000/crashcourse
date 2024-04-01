@@ -173,7 +173,7 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swift/100.md',
         '/swift/100-days-of-swift/101.md',
       ]
-    }, {
+  }, {
       text: '100 Days of SwiftUI',
       collapsible: true,
       icon: 'fa-brands fa-swift',
@@ -743,6 +743,46 @@ export const sidebarEn = sidebar({
           text: 'Appendix B',
           collapsible: true,
           children: [
+            '/swift/swiftui-by-example/26-appendix-b/common-swiftui-errors-and-how-to-fix-them.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-assign-to-property-self-is-immutable.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-ambiguous-reference-to-member-buildblock.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-missing-argument-for-parameter-content-in-call.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-images-not-resizing.md',
+            '/swift/swiftui-by-example/26-appendix-b/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.md',
+          ]
+        }
+      ]
+    }, {
+      text: 'Apple - Develop in Swift Tutorials',
+      collapsible: true,
+      icon: 'fa-brands fa-swift',
+      children: [
+        '/swift/apple-develop-in-swift/README.md',
+        {
+          text: '01. SwiftUI foundations',
+          collapsible: true,
+          children: [
+            '/swift/apple-develop-in-swift/01-swiftui-foundations/README.md',
+            {
+              text: '01A. Explore Xcode',
+              collapsible: true,
+              children: [
+                '/swift/apple-develop-in-swift/01-swiftui-foundations/01A/README.md',
+                '/swift/apple-develop-in-swift/01-swiftui-foundations/01A/i.md',
+                '/swift/apple-develop-in-swift/01-swiftui-foundations/01A/ii.md',
+                '/swift/apple-develop-in-swift/01-swiftui-foundations/01A/iii.md',
+              ]
+            }
           ]
         }
       ]
@@ -949,6 +989,40 @@ export const sidebarEn = sidebar({
         '/java/aloha-javafx/02.md',
       ]
     }, {
+      text: '코틀린 테스팅 프레임워크 - Kotest',
+      collapsible: true,
+      icon: 'fa-brands fa-kickstarter',
+      children: [
+        '/java/devkuma-kotest/README.md',
+        {
+          text: 'Kotest 프레임워크(Framework)',
+          collapsible: true,
+          children: [
+            '/java/devkuma-kotest/01-kotest-framework/README.md',
+            '/java/devkuma-kotest/01-kotest-framework/01A.md',
+            '/java/devkuma-kotest/01-kotest-framework/01B.md',
+            '/java/devkuma-kotest/01-kotest-framework/01C.md',
+            '/java/devkuma-kotest/01-kotest-framework/01D.md',
+            '/java/devkuma-kotest/01-kotest-framework/01E.md',
+            '/java/devkuma-kotest/01-kotest-framework/01F.md',
+            '/java/devkuma-kotest/01-kotest-framework/01G.md',
+            '/java/devkuma-kotest/01-kotest-framework/01H.md',
+            '/java/devkuma-kotest/01-kotest-framework/01I.md',
+            '/java/devkuma-kotest/01-kotest-framework/01J.md',
+            '/java/devkuma-kotest/01-kotest-framework/01K.md',
+            '/java/devkuma-kotest/01-kotest-framework/01L.md',
+            '/java/devkuma-kotest/01-kotest-framework/01M.md',
+            '/java/devkuma-kotest/01-kotest-framework/01N.md',
+            '/java/devkuma-kotest/01-kotest-framework/01O.md',
+            '/java/devkuma-kotest/01-kotest-framework/01P.md',
+            '/java/devkuma-kotest/01-kotest-framework/01Q.md',
+            '/java/devkuma-kotest/01-kotest-framework/01R.md',
+            '/java/devkuma-kotest/01-kotest-framework/01S.md',
+            '/java/devkuma-kotest/01-kotest-framework/01T.md',
+          ]
+        }
+      ]
+    }, {
       text: '요즘 IT 블로그 - Java 관련',
       collapsible: true,
       icon: 'fa-brands fa-java',
@@ -1089,7 +1163,14 @@ export const sidebarEn = sidebar({
         '/python/rpa-excel/02i.md',
         '/python/rpa-excel/03.md',
       ]
-    },  {
+    }, {
+      text: '<랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷',
+      collapsible: true,
+      icon: 'fa-brands fa-python',
+      children: [
+        '/python/langchain-kr/README.md',
+      ]
+    }, {
       text: 'OpenCV – Python 고급 기법 프로그래밍',
       collapsible: true,
       icon: 'fa-brands fa-python',
@@ -1503,12 +1584,25 @@ export const sidebarEn = sidebar({
         '/haskell/template-haskell/15.md',
       ]
     }
+  ], '/docker/': [
+    {
+      text: 'Docker',
+      icon: 'fa-brands fa-docker',
+      children: [ '/docker/README.md' ]
+    }, {
+      text: '데엔잘하고싶은데엔 - Udemy 강의정리',
+      collapsible: true,
+      icon: 'fa-brands fa-docker',
+      children: [
+        '/docker/pearlluck/README.md',
+      ]
+    }
   ], '/kubernetes/': [
     {
       text: 'Kubernetes',
       icon: 'fas fa-dharmachakra',
       children: [ '/kubernetes/README.md' ]
-    },  {
+    }, {
       text: 'DigitalOcean - Kubernetes',
       collapsible: true,
       icon: 'fas fa-dharmachakra',
@@ -1592,6 +1686,11 @@ export const sidebarEn = sidebar({
             '/devops/art-of-aws/04A.md',
             '/devops/art-of-aws/04B.md',
             '/devops/art-of-aws/04C.md',
+            '/devops/art-of-aws/04D.md',
+            '/devops/art-of-aws/04E.md',
+            '/devops/art-of-aws/04F.md',
+            '/devops/art-of-aws/04G.md',
+            '/devops/art-of-aws/04H.md',
           ]
         },        
         '/devops/art-of-aws/05.md',
@@ -1603,8 +1702,16 @@ export const sidebarEn = sidebar({
             '/devops/art-of-aws/06A.md',
             '/devops/art-of-aws/06B.md',
           ]
+        }, {
+          text: '07. EC2 인스턴스 접속을 위한 키 쌍',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/07.md',
+            '/devops/art-of-aws/07A.md',
+            '/devops/art-of-aws/07B.md',
+            '/devops/art-of-aws/07C.md',
+          ]
         },
-        '/devops/art-of-aws/07.md',
         '/devops/art-of-aws/08.md',
         '/devops/art-of-aws/09.md',
         '/devops/art-of-aws/10.md',

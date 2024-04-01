@@ -593,6 +593,13 @@ Draw icons, circles, gradients, and more
 }
 ```
 
+- How to animate SF Symbols
+- How to read the red, green, and blue values from a Color
+- How to combine shapes to create new shapes
+- How to load custom colors from an asset catalog
+
+<!-- Images, shapes, and media -->
+
 :::
 
 ::: details View layuot
@@ -1387,6 +1394,11 @@ Shortcuts, rotations, and appearance
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+- How to detect and respond to key press events
+- How to add haptic effects using sensory feedback
+
+<!-- Responding to events -->
 
 :::
 
@@ -2249,6 +2261,10 @@ Show modal notifications when something happens
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+- How to add in-app purchases in SwiftUI
+
+<!-- Alerts and menus -->
 
 :::
 
@@ -3432,22 +3448,166 @@ How to use each of SwiftUI's property wrappers
 
 How to understand and fix common SwiftUI errors
 
-- [Common SwiftUI errors and how to fix them](https://hackingwithswift.com/quick-start/swiftui/common-swiftui-errors-and-how-to-fix-them)
-- [How to fix “Cannot assign to property: 'self' is immutable”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-assign-to-property-self-is-immutable)
-- [How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable)
-- [How to fix “Ambiguous reference to member 'buildBlock()’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock)
-- [How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type)
-- [How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type)
-- [How to fix “Modifying state during view update, this will cause undefined behavior”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior)
-- [How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements)
-- [How to fix “Fatal error: No ObservableObject of type SomeType found”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found)
-- [How to fix “Cannot convert value of type 'String' to expected argument type 'Binding\<String\>”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string)
-- [How to fix “Cannot convert value of type 'String' to expected argument type 'Text'"](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text)
-- [How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'"](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject)
-- [How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type)
-- [How to fix “Missing argument for parameter 'content' in call”](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-missing-argument-for-parameter-content-in-call)
-- [How to fix images not resizing](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-images-not-resizing)
-- [How to fix a Form Picker or a NavigationLink that isn’t tappable](https://hackingwithswift.com/quick-start/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable)
+```component VPCard  
+{
+  "title": "SwiftUI by Example > Common SwiftUI errors and how to fix them",
+  "desc": "Common SwiftUI errors and how to fix them",
+  "link": "/swift/swiftui-by-example/26-appendix-b/common-swiftui-errors-and-how-to-fix-them.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Cannot assign to property: 'self' is immutable”",
+  "desc": "How to fix “Cannot assign to property: 'self' is immutable”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-assign-to-property-self-is-immutable.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”",
+  "desc": "How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Ambiguous reference to member 'buildBlock()’”",
+  "desc": "How to fix “Ambiguous reference to member 'buildBlock()’”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-ambiguous-reference-to-member-buildblock.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
+  "desc": "How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
+  "desc": "How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Modifying state during view update, this will cause undefined behavior”",
+  "desc": "How to fix “Modifying state during view update, this will cause undefined behavior”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”",
+  "desc": "How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Fatal error: No ObservableObject of type SomeType found”",
+  "desc": "How to fix “Fatal error: No ObservableObject of type SomeType found”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Cannot convert value of type 'String' to expected argument type 'Binding<String>'”",
+  "desc": "How to fix “Cannot convert value of type 'String' to expected argument type 'Binding<String>'”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Cannot convert value of type 'String' to expected argument type 'Text'”",
+  "desc": "How to fix “Cannot convert value of type 'String' to expected argument type 'Text'”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'”",
+  "desc": "How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
+  "desc": "How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Missing argument for parameter 'content' in call”",
+  "desc": "How to fix “Missing argument for parameter 'content' in call”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-missing-argument-for-parameter-content-in-call.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix images not resizing",
+  "desc": "How to fix images not resizing",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-images-not-resizing.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix a Form Picker or a NavigationLink that isn’t tappable",
+  "desc": "How to fix a Form Picker or a NavigationLink that isn’t tappable",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
 
 :::
 

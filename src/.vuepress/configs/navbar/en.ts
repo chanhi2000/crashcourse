@@ -40,6 +40,10 @@ export const navbarEn = navbar([
         link: '/swift/swiftui-by-example/README.md',
         icon: 'fa-brands fa-swift'
       }, {
+        text: 'Apple - Develop in Swift Tutorials',
+        link: '/swift/apple-develop-in-swift/README.md',
+        icon: 'fa-brands fa-swift',
+      }, {
         text: 'Kodeco - Swift',
         link: '/swift/kodeco/README.md',
         icon: 'fa-brands fa-swift'
@@ -77,6 +81,10 @@ export const navbarEn = navbar([
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
         icon: 'iconfont icon-java'
+      }, {
+        text: '코틀린 테스팅 프레임워크 - Kotest',
+        link: '/java/devkuma-kotest/README.md',
+        icon: 'fa-brands fa-kickstarter',
       }, {
         text: '요즘 IT 블로그 - Java 관련',
         link: '/java/yozm/README.md',
@@ -117,6 +125,14 @@ export const navbarEn = navbar([
         text: '사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
         link: '/python/rpa-excel/README.md',
         icon: 'fa-brands fa-python'
+      }, {
+        text: '<랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷',
+        link: '/python/langchain-kr/README.md',
+        icon: 'fa-brands fa-python',
+      }, {
+        text: 'OpenCV – Python 고급 기법 프로그래밍',
+        link: '/python/opencv-advacned/README.md',
+        icon: 'fa-brands fa-python',
       }
     ],
   }, {
@@ -195,6 +211,16 @@ export const navbarEn = navbar([
       }, {
         text: '🐑Template Haskell tutorial',
         link: '/haskell/template-haskell/README.md'
+      }
+    ]
+  }, {
+    text: '',
+    icon: 'fa-brands fa-docker',
+    children: [
+      {
+        text: '데엔잘하고싶은데엔 - Udemy 강의정리',
+        link: '/docker/pearlluck/README.md',
+        icon: 'fa-brands fa-docker'
       }
     ]
   }, {
