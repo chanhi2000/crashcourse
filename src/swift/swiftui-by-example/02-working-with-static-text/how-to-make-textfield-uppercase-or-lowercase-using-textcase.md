@@ -57,7 +57,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase-1.zip)
 
 ![A text box containing the word “PAUL”](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase-1~dark.png)
 

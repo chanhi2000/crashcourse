@@ -66,7 +66,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-1.zip)
 
 ![The words “Spam, Egg, Sausage, and Bacon” above an “`[Add Ingredient]`” button.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-format-text-inside-text-views-1~dark.png)
 
@@ -89,7 +89,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-2.zip)
 
 ![The line “4, 3, 2, and 6” above a “Roll Dice” button.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-format-text-inside-text-views-2~dark.png)
 
@@ -105,7 +105,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-3.zip)
 
 ![The text “7.4 feet”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-format-text-inside-text-views-3~dark.png)
 
@@ -115,7 +115,7 @@ There’s even a formatter for handling currencies correctly, ensuring that two 
 Text(72.3, format: .currency(code: "CAD"))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-4.zip)
 
 ![The text “CA$72.30”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-format-text-inside-text-views-4~dark.png)
 
@@ -139,7 +139,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-format-text-inside-text-views-5.zip)
 
 That will display something like “Task due date: February 4 2021”.
 

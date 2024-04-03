@@ -50,7 +50,7 @@ If you’re targeting iOS 16 or later, you can get a beautifully simple linear g
 Rectangle().fill(.blue.gradient)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-1.zip)
 
 For more advanced gradients, or to support iOS versions prior to 16, you can use one of SwiftUI’s built in gradient types to get exact control. For example, you could render a text view using a white to black linear gradient like this:
 
@@ -64,7 +64,7 @@ Text("Hello World")
     )
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-2.zip)
 
 ![The words “Hello World” in white over a gradient fading from white at the top to black at the bottom.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-1~dark.png)
 
@@ -80,7 +80,7 @@ Text("Hello World")
     )
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-3.zip)
 
 ![The words “Hello World” in white over a gradient fading from white at the top to red in the center to black at the bottom.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-2~dark.png)
 
@@ -96,7 +96,7 @@ Text("Hello World")
     )
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-4.zip)
 
 ![The words “Hello World” in white over a gradient fading from white on the left to red in the center to black on the right.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-3~dark.png)
 
@@ -110,7 +110,7 @@ Circle()
     .frame(width: 200, height: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-5.zip)
 
 ![A circle colored with a gradient transitioning radially outwards from red to yellow to green to blue to purple.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-4~dark.png)
 
@@ -124,7 +124,7 @@ Circle()
     .frame(width: 200, height: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-6.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-6.zip)
 
 ![A circle colored with a conic gradient transitioning through the colors of the rainbow.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-5~dark.png)
 
@@ -139,7 +139,7 @@ Circle()
     .frame(width: 200, height: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-6.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-a-gradient-6.zip)
 
 ![A donut shape colored with a conic gradient transitioning through the colors of the rainbow.]()
 

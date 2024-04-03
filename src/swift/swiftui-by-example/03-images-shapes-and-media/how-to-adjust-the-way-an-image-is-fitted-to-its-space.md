@@ -50,7 +50,7 @@ Image("rome")
     .frame(height: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-1.zip)
 
 ![A phone showing an image of the Pantheon in Rome. The image is stretched horizontally.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-1~dark.png)
 
@@ -65,7 +65,7 @@ Image("rome")
     .frame(width: 250)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-2.zip)
 
 ![A phone showing an image of the Pantheon in Rome. The image is no longer stretched.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-the-way-an-image-is-fitted-to-its-space-2~dark.png)
 

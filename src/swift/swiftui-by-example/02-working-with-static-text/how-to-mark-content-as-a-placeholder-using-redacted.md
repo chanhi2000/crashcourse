@@ -50,7 +50,7 @@ Text("This is placeholder text")
     .redacted(reason: .placeholder)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-1.zip)
 
 
 ![A long gray rectangle representing redacted text.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-1~dark.png)
@@ -66,7 +66,7 @@ VStack {
 .redacted(reason: .placeholder)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-2.zip)
 
 
 Two gray rectangles representing two lines of redacted text.
@@ -91,7 +91,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-3.zip)
 
 
 ![The unredacted text “The rain in Spain falls mainly on the Spaniards”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-mark-content-as-a-placeholder-using-redacted-3~dark.png)

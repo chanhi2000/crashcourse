@@ -24,6 +24,12 @@ tag:
 
 ## Table of Contents
 
+::: details 언제나 최신 Kubernete
+
+<ToCLocal basePath="/kubernetes/always-up-to-date-kubernetes" />
+
+:::
+
 ::: details DigitalOcean - Kubernetes
 
 <ToCLocal basePath="/kubernetes/digitalocean-kubernetes" />

@@ -52,7 +52,7 @@ Image(systemName: "theatermasks")
     .font(.system(size: 144))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-1.zip)
 
 ![A symbol showing a smiling mask in the foreground and a fainter sad mask in background.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-1~dark.png)
 
@@ -65,7 +65,7 @@ Image(systemName: "theatermasks")
     .font(.system(size: 144))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-2.zip)
 
 ![A symbol showing a smiling blue mask in the foreground and a fainter sad blue mask in background.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-2~dark.png)
 
@@ -78,7 +78,7 @@ Image(systemName: "shareplay")
     .font(.system(size: 144))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-3.zip)
 
 ![The Apple Shareplay symbol showing a blue person icon in front of two black arcs.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-3~dark.png)
 
@@ -93,7 +93,7 @@ Image(systemName: "person.3.sequence.fill")
     .font(.system(size: 144))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-4.zip)
 
 ![Three slightly overlapping person icons, in blue, green, and red from left to right.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-4~dark.png)
 
@@ -110,7 +110,7 @@ Image(systemName: "person.3.sequence.fill")
     .font(.system(size: 144))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-5.zip)
 
 ![Three slightly overlapping person icons, in blue, green, and red from left to right. Each icon's color transitions to black as it approaches the bottom right corner.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-5~dark.png)
 

@@ -50,7 +50,7 @@ To use labels, you can either use SF Symbols like this:
 Label("Your account", systemImage: "folder.circle")
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-1.zip)
 
 ![A folder symbol inside a circle beside the text “Your Account”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-1~dark.png)
 
@@ -60,7 +60,7 @@ Or use your own images, like this:
 Label("Welcome to the app", image: "star")
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-2.zip)
 
 ![A yellow star beside the text “Welcome to the app”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-2~dark.png)
 
@@ -71,7 +71,7 @@ Label("Your account", systemImage: "person.crop.circle")
     .font(.title)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-3.zip)
 
 A circular person symbol beside the text “Your Account”.
 
@@ -93,7 +93,7 @@ VStack {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-4.zip)
 
 ![The words “Text Only”. The outline of a star. A paper airplane symbol beside the word “Both”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-4~dark.png)
 
@@ -120,7 +120,7 @@ Label {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-5.zip)
 
 ![A blue rounded rectangle beside a grey capsule containing “Paul Hudson”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-5~dark.png)
 

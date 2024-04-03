@@ -55,7 +55,7 @@ VStack(spacing: 50) {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-1.zip)
 
 ![The line “You can't touch this” above the line “Break it down!”. A selection menu hovers over the second line.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-let-users-select-text-1~dark.png)
 
@@ -71,7 +71,7 @@ VStack(spacing: 50) {
 .textSelection(.enabled)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-2.zip)
 
 ![The line “You can't touch this” above the line “Break it down!”. A selection menu hovers over the first line.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-let-users-select-text-2~dark.png)
 
@@ -84,7 +84,7 @@ List(0..<100) { index in
 .textSelection(.enabled)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-let-users-select-text-3.zip)
 
 ![A list consisting of rows of text. The first row has a selection menu hovering beneath it.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-let-users-select-text-3~dark.png)
 

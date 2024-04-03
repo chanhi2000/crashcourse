@@ -54,7 +54,7 @@ Text("Hacking with Swift")
     )
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-1.zip)
 
 ![The words “Hacking with Swift” over an image of the indoor waterfall at Singapore's “Jewel” airport terminal.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-1~dark.png)
 
@@ -69,7 +69,7 @@ Text("Hacking with Swift")
         .frame(width: 50, height: 50))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-2.zip)
 
 ![The words “Hacking with Swift” over a small red circle.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-2~dark.png)
 
@@ -87,7 +87,7 @@ Text("Hacking with Swift")
     .clipped()
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-3.zip)
 
 ![The words “Hacking with Swift” over a red circle which has been clipped at the top and bottom.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-images-and-other-views-as-a-backgrounds-3~dark.png)
 

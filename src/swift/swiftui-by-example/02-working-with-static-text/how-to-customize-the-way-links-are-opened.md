@@ -61,7 +61,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-customize-the-way-links-are-opened-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-customize-the-way-links-are-opened-1.zip)
 
 As you can see, `handleURL()` returns a `OpenURLAction.Result` value of `.handled`, which means the method accepted the link and acted on it. There are alternatives:
 
@@ -76,7 +76,7 @@ Text("[Visit Apple](https://apple.com)")
     .tint(.indigo)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-customize-the-way-links-are-opened-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-customize-the-way-links-are-opened-2.zip)
 
 ::: details Similar solutions…
 

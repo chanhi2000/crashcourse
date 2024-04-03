@@ -64,7 +64,7 @@ You also can create an image view from an existing `UIImage`. As loading a `UIIm
 Image(uiImage: UIImage(named: "cat")!)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-draw-images-using-image-views-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-draw-images-using-image-views-1.zip)
 
 ![A phone showing an image of a brown cat.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-draw-images-using-image-views-2~dark.png)
 
@@ -75,7 +75,7 @@ Image(systemName: "cloud.heavyrain.fill")
     .font(.largeTitle)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-draw-images-using-image-views-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-draw-images-using-image-views-2.zip)
 
 ![A symbol of a cloud dispensing heavy rain.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-draw-images-using-image-views-3~dark.png)
 

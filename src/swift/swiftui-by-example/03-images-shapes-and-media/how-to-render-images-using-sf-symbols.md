@@ -48,7 +48,7 @@ To load icons from Apple’s SF Symbols set, use the `Image(systemName:)` initia
 Image(systemName: "moon.stars.fill")
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-1.zip)
 
 ![A symbol showing the cresent moon and stars.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-images-using-sf-symbols-1~dark.png)
 
@@ -59,7 +59,7 @@ Image(systemName: "wind.snow")
     .font(.largeTitle)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-2.zip)
 
 ![A large symbol showing a gust of wind blowing snowflakes along.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-images-using-sf-symbols-2~dark.png)
 
@@ -71,7 +71,7 @@ Image(systemName: "cloud.heavyrain.fill")
     .foregroundStyle(.red)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-3.zip)
 
 ![A red symbol showing a cloud dispensing heavy rain.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-images-using-sf-symbols-3~dark.png)
 
@@ -86,7 +86,7 @@ Image(systemName: "cloud.sun.rain.fill")
     .clipShape(Circle())
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-4.zip)
 
 ![A black circle on top of which is a symbol which depicts a white cloud dispensing blue rain and partially obscuring a yellow sun.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-images-using-sf-symbols-4~dark.png)
 
@@ -99,7 +99,7 @@ Image(systemName: "person.crop.circle.fill.badge.plus")
     .font(.largeTitle)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-render-images-using-sf-symbols-5.zip)
 
 ![A symbol showing a circular blue person symbol, overlaid with a circular green plus symbol.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-images-using-sf-symbols-5~dark.png)
 

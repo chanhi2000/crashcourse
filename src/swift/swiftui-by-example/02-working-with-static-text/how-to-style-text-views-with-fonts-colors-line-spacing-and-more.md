@@ -50,7 +50,7 @@ Text("This is an extremely long text string that will never fit even the widest 
     .frame(width: 300)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-1.zip)
 
 ![A very long sentence wrapped across multiple lines.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-1~dark.png)
 
@@ -61,7 +61,7 @@ Text("The best laid plans")
     .foregroundStyle(.red)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-2.zip)
 
 ![The words “The best laid plans” in red text](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-2~dark.png)
 
@@ -72,7 +72,7 @@ Text("The best laid plans")
     .foregroundStyle(.blue.gradient)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-3.zip)
 
 You can also set the background color, but that uses `.background()` because it’s possible to use more advanced backgrounds than just a flat color. Anyway, to give our layout a yellow background color we would add this:
 
@@ -84,7 +84,7 @@ Text("The best laid plans")
     .font(.headline)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-4.zip)
 
 ![The words “The best laid plans” in white text over a rectangular dark yellow background](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-3~dark.png)
 
@@ -97,7 +97,7 @@ Text("This is an extremely long text string that will never fit even the widest 
     .frame(width: 300)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-5.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-5.zip)
 
 ![A very long sentence with multiple widely spaced lines.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more-4~dark.png)
 
@@ -108,7 +108,7 @@ Text("Hello, world!")
     .fontDesign(.serif)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-6.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-6.zip)
 
 Or use the `fontWidth()` modifier to compress or expand the font, like this:
 
@@ -117,7 +117,7 @@ Text("Hello, world!")
     .fontWidth(.condensed)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-7.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label-7.zip)
 
 ::: note
 

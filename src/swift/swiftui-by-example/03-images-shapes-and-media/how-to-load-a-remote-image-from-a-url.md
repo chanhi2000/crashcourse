@@ -48,7 +48,7 @@ SwiftUI has a dedicated `AsyncImage` for downloading and displaying remote image
 AsyncImage(url: URL(string: "https://hws.dev/paul.jpg"))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-1.zip)
 
 ![A phone showing an image of Paul Hudson.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-load-a-remote-image-from-a-url-1~dark.png)
 
@@ -71,7 +71,7 @@ AsyncImage(url: URL(string: "https://hws.dev/paul.jpg")) { image in
 .clipShape(RoundedRectangle(cornerRadius: 25))
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-2.zip)
 
 ![A rounded red rectangle as a placeholder.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-load-a-remote-image-from-a-url-3~dark.png)
 
@@ -89,7 +89,7 @@ By default the image is assumed to have a scale of 1, meaning designed for non-r
 AsyncImage(url: URL(string: "https://hws.dev/paul.jpg"), scale: 2)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-3.zip)
 
 ![An image of Paul Hudson.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-load-a-remote-image-from-a-url-5~dark.png)
 
@@ -118,7 +118,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-load-a-remote-image-from-a-url-4.zip)
 
 ::: details Similar solutions…
 

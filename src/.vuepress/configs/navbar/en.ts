@@ -232,6 +232,10 @@ export const navbarEn = navbar([
         link: '/kubernetes/digitalocean-kubernetes/README.md',
         icon: 'fas fa-dharmachakra'
       }, {
+        text: '언제나 최신 Kubernetes',
+        link: '/kubernetes/always-up-to-date-kubernetes/README.md',
+        icon: 'fas fa-dharmachakra'
+      }, {
         text: '요즘 IT 블로그 - Kubernetes 관련',
         link: '/kubernetes/yozm/README.md',
         icon: 'fas fa-dharmachakra',

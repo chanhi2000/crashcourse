@@ -48,7 +48,7 @@ Text views show static text on the screen, and are equivalent to `UILabel` in UI
 Text("Hello World")
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-1.zip)
 
 ![The words Hello World displayed on a plain background](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-static-labels-with-a-text-view-1~dark.png)
 
@@ -68,7 +68,7 @@ Text("This is some longer text that is limited to three lines maximum, so anythi
     .frame(width: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-2.zip)
 
 ![Three lines of text showing the line limit and frame modifiers.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-static-labels-with-a-text-view-2~dark.png)
 
@@ -80,7 +80,7 @@ Text("This is some longer text that is limited to a specific range of lines, so 
     .frame(width: 200)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
 
 If you need an _exact_ line limit – meaning “this text should have exactly two lines of height, not more and not less”, you should use the `reservesSpace` parameter like this:
 
@@ -89,7 +89,7 @@ Text("This is always two lines")
     .lineLimit(2, reservesSpace: true)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
 
 That doesn’t mean the text will somehow be stretched across two lines, only that the text view will be sized to be two lines in height no matter what its contents. This approach is particularly helpful when you need an exact number of lines – in grids and other layouts where you want nice and even spacing, for example.
 
@@ -105,7 +105,7 @@ Text("This is an extremely long string of text that will never fit even the wide
     .truncationMode(.middle)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-4.zip)
 
 ![A single line of text truncated in the middle.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-static-labels-with-a-text-view-3~dark.png)
 

@@ -60,7 +60,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-private-using-privacysensitive-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-private-using-privacysensitive-1.zip)
 
 
 ![The text “Card Number” over a long string of digits.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-mark-content-as-private-using-privacysensitive-1~dark.png)
@@ -86,7 +86,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-private-using-privacysensitive-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-mark-content-as-private-using-privacysensitive-2.zip)
 
 
 ![The text “Card Number” over the placeholder text “[HIDDEN]”.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-mark-content-as-private-using-privacysensitive-2~dark.png)

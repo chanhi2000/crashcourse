@@ -51,7 +51,7 @@ Text("This is an extremely long text string that will never fit even the widest 
     .frame(width: 300)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
 
 ![A center-aligned multiline paragraph of text.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1~dark.png)
 
@@ -79,7 +79,7 @@ struct ContentView: View {
 }
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-1.zip)
 
 ![Three images showing paragraphs with left-aligned, centered, and right-aligned text.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment-2~dark.png)
 

@@ -25,23 +25,18 @@ head:
 
 ---
 
-```component VPCard
-{
-  "title": "Eloquent Javascript",
-  "desc": "Eloquent Javascript",
-  "link": "https://eloquentjavascript.net/",
-  "logo": "https://eloquentjavascript.net/favicon.ico",
-  "background": "rgba(248,212,16,0.2)"
-}
-```
+<SiteInfo
+  name="Eloquent Javascript"
+  desc="This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or buy your own paperback copy (3rd edition)."
+  url="https://eloquentjavascript.net/"
+  logo="https://eloquentjavascript.net/favicon.ico"
+  preview="https://eloquentjavascript.net/img/cover.jpg"/>
 
-![Eloquent JavaScript 4th edition (2024)](https://eloquentjavascript.net/img/cover.jpg)
-
-> This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or buy your own [paperback copy](https://nostarch.com/ejs3) (3rd edition).
-> 
+> This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or buy your own [<FontIcon icon="fas fa-globe"/>paperback copy](https://nostarch.com/ejs3) (3rd edition).
+> <br/>
 >> Written by Marijn Haverbeke.
 
-Licensed under a [Creative Commons attribution-noncommercial license](https://creativecommons.org/licenses/by-nc/3.0/). All code in this book may also be considered licensed under an [MIT license](https://eloquentjavascript.net/code/LICENSE).
+Licensed under a [<FontIcon icon="fas fa-globe"/>Creative Commons attribution-noncommercial license](https://creativecommons.org/licenses/by-nc/3.0/). All code in this book may also be considered licensed under an [<FontIcon icon="fas fa-globe"/>MIT license](https://eloquentjavascript.net/code/LICENSE).
 
 Illustrations by various artists: Cover by [Péchane Sumi-e](http://www.pechane.com/). Chapter illustrations by Madalina Tantareanu. Pixel art in Chapters 7 and 16 by Antonio Perdomo Pastor. Regular expression diagrams in Chapter 9 generated with [regexper.com](https://regexper.com/) by Jeff Avallone. Village photograph in Chapter 11 by Fabrice Creuzot. Game concept for Chapter 16 by [Thomas Palef](http://lessmilk.com/).
 

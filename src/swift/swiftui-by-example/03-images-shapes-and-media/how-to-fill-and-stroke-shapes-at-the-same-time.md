@@ -51,7 +51,7 @@ Circle()
     .frame(width: 150, height: 150)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-1.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-1.zip)
 
 ![A orange circle with a red outline.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-3~dark.png)
 
@@ -67,7 +67,7 @@ Circle()
     .frame(width: 150, height: 150)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-2.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-2.zip)
 
 ![A circle with a rainbow of stroke colors.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-4~dark.png)
 
@@ -82,7 +82,7 @@ Circle()
     .frame(width: 150, height: 150)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-3.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-3.zip)
 
 ![A blue circle with a thick black outline.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-1~dark.png)
 
@@ -101,7 +101,7 @@ ZStack {
 .frame(width: 150, height: 150)
 ```
 
-> [<FontIcon icon="fas fa-download"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-4.zip)
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-4.zip)
 
 If you want to fill and stroke lots of shapes, you should consider wrapping up this functionality in an extension. Only `InsettableShapes` get the `strokeBorder()` method, so you should probably write two extension methods – one to handle regular shapes using `stroke()`, and one to handle insettable shapes using `strokeBorder()`.
 

@@ -1618,6 +1618,79 @@ export const sidebarEn = sidebar({
         }
       ]
     }, {
+      text: '언제나 최신 Kubernetes',
+      collapsible: true,
+      icon: 'fas fa-dharmachakra',
+      children: [
+        '/kubernetes/always-up-to-date-kubernetes/README.md',
+        '/kubernetes/always-up-to-date-kubernetes/01.md',
+        {
+          text: '02. Minikube 설치하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/02.md',
+            '/kubernetes/always-up-to-date-kubernetes/02A.md',
+            '/kubernetes/always-up-to-date-kubernetes/02B.md',
+            '/kubernetes/always-up-to-date-kubernetes/02C.md',
+          ]
+        }, {
+          text: '03. Nginx 웹서버 실행하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/03.md',
+            '/kubernetes/always-up-to-date-kubernetes/03A.md',
+            '/kubernetes/always-up-to-date-kubernetes/03B.md',
+          ]
+        }, {
+          text: '03. Nginx 웹서버 실행하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/04.md',
+            '/kubernetes/always-up-to-date-kubernetes/04A.md',
+            '/kubernetes/always-up-to-date-kubernetes/04B.md',
+            '/kubernetes/always-up-to-date-kubernetes/04C.md',
+          ]
+        }, {
+          text: '05. Spring Boot와 MySQL 실행하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/05.md',
+            '/kubernetes/always-up-to-date-kubernetes/05A.md',
+            '/kubernetes/always-up-to-date-kubernetes/05B.md',
+            '/kubernetes/always-up-to-date-kubernetes/05C.md',
+            '/kubernetes/always-up-to-date-kubernetes/05D.md',
+          ]
+        }, {
+          text: '06. 로컬에서 Kubernetes 클러스터 구축하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/06.md',
+            '/kubernetes/always-up-to-date-kubernetes/06A.md',
+            '/kubernetes/always-up-to-date-kubernetes/06B.md',
+            '/kubernetes/always-up-to-date-kubernetes/06C.md',
+            '/kubernetes/always-up-to-date-kubernetes/06D.md',
+          ]
+        }, {
+          text: '07. AWS에서 EC2로 Kubernetes 클러스터 구축하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/07.md',
+            '/kubernetes/always-up-to-date-kubernetes/07A.md',
+            '/kubernetes/always-up-to-date-kubernetes/07B.md',
+            '/kubernetes/always-up-to-date-kubernetes/07C.md',
+          ]
+        }, {
+          text: '08. Helm으로 패키지 설치하기',
+          collapsible: true,
+          children: [
+            '/kubernetes/always-up-to-date-kubernetes/08.md',
+            '/kubernetes/always-up-to-date-kubernetes/08A.md',
+            '/kubernetes/always-up-to-date-kubernetes/08B.md',
+          ]
+        },        
+        '/kubernetes/always-up-to-date-kubernetes/09.md',
+      ]
+    }, {
       text: '요즘 IT 블로그 - Kubernetes 관련',
       collapsible: true,
       icon: 'fas fa-dharmachakra',
@@ -1675,8 +1748,26 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-aws',
       children: [
         '/devops/art-of-aws/README.md',
-        '/devops/art-of-aws/01.md',
-        '/devops/art-of-aws/02.md',
+        {
+          text: '01. 왜 AWS인가',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/01.md',
+            '/devops/art-of-aws/01A.md',
+            '/devops/art-of-aws/01B.md',
+            '/devops/art-of-aws/01C.md',
+            '/devops/art-of-aws/01D.md',
+          ]
+        }, {
+          text: '02. AWS 기본 개념 살펴보기',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/02.md',
+            '/devops/art-of-aws/02A.md',
+            '/devops/art-of-aws/02B.md',
+            '/devops/art-of-aws/02C.md',
+          ]
+        },  
         '/devops/art-of-aws/03.md',
         {
           text: "04. 가상 서버를 제공하는 EC2",
@@ -1711,8 +1802,17 @@ export const sidebarEn = sidebar({
             '/devops/art-of-aws/07B.md',
             '/devops/art-of-aws/07C.md',
           ]
+        }, {
+          text: '08. AMI',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/08.md',
+            '/devops/art-of-aws/08A.md',
+            '/devops/art-of-aws/08B.md',
+            '/devops/art-of-aws/08C.md',
+            '/devops/art-of-aws/08D.md',
+          ]
         },
-        '/devops/art-of-aws/08.md',
         '/devops/art-of-aws/09.md',
         '/devops/art-of-aws/10.md',
         '/devops/art-of-aws/11.md',
