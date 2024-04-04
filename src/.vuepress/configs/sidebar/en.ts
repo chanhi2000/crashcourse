@@ -1119,6 +1119,7 @@ export const sidebarEn = sidebar({
         '/js/yozm/2504.md',
         '/js/yozm/2505.md',
         '/js/yozm/2511.md',
+        '/js/yozm/2528.md',
       ]
     }
   ], '/python/': [
@@ -1595,6 +1596,14 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-docker',
       children: [
         '/docker/pearlluck/README.md',
+      ]
+    }, {
+      text: '요즘 IT 블로그 - Docker 관련',
+      collapsible: true,
+      icon: 'fa-brands fa-docker',
+      children: [
+        '/docker/yozm/README.md',
+        '/docker/yozm/2527.md',
       ]
     }
   ], '/kubernetes/': [

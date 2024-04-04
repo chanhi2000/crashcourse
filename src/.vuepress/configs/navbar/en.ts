@@ -221,6 +221,10 @@ export const navbarEn = navbar([
         text: '데엔잘하고싶은데엔 - Udemy 강의정리',
         link: '/docker/pearlluck/README.md',
         icon: 'fa-brands fa-docker'
+      }, {
+        text: '요즘 IT 블로그 - Docker 관련',
+        link: '/docker/yozm/README.md',
+        icon: 'fa-brands fa-docker'
       }
     ]
   }, {
