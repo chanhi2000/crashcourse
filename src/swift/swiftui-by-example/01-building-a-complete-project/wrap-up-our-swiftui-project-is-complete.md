@@ -72,4 +72,58 @@ One of the best ways to learn is to write your own code as often as possible, so
 
 ---
 
+::: details Similar solutions…
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > SwiftUI tutorial: Building a complete project",
+  "desc": "SwiftUI tutorial: Building a complete project",
+  "link": "/swift/swiftui-by-example/01-building-a-complete-project/swiftui-tutorial-building-a-complete-project.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to wrap a custom UIView for SwiftUI",
+  "desc": "How to wrap a custom UIView for SwiftUI",
+  "link": "/swift/swiftui-by-example/19-composing-view/how-to-wrap-a-custom-uiview-for-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > Two-way bindings in SwiftUI",
+  "desc": "Two-way bindings in SwiftUI",
+  "link": "/swift/swiftui-by-example/01-building-a-complete-project/two-way-bindings-in-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to use Instruments to profile your SwiftUI code and identify slow layouts",
+  "desc": "How to use Instruments to profile your SwiftUI code and identify slow layouts",
+  "link": "/swift/swiftui-by-example/23-tooling/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > SwiftUI tips and tricks",
+  "desc": "SwiftUI tips and tricks",
+  "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
 <TagLinsk />

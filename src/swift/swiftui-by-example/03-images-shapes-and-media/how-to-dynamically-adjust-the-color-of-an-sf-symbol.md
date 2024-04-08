@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
@@ -82,7 +92,15 @@ struct ContentView: View {
 
 ::: details Similar solutions…
 
-How to dynamically adjust the appearance of a view based on its size and location
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
+  "desc": "How to dynamically adjust the appearance of a view based on its size and location",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

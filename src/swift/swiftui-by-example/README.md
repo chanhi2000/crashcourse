@@ -593,10 +593,10 @@ Draw icons, circles, gradients, and more
 }
 ```
 
-- How to animate SF Symbols
-- How to read the red, green, and blue values from a Color
-- How to combine shapes to create new shapes
-- How to load custom colors from an asset catalog
+- [How to animate SF Symbols](https://www.hackingwithswift.com/quick-start/swiftui/how-to-animate-sf-symbols)
+- [How to read the red, green, and blue values from a Color](https://www.hackingwithswift.com/quick-start/swiftui/how-to-read-the-red-green-and-blue-values-from-a-color)
+- [How to combine shapes to create new shapes](https://www.hackingwithswift.com/quick-start/swiftui/how-to-combine-shapes-to-create-new-shapes)
+- [How to load custom colors from an asset catalog](https://www.hackingwithswift.com/quick-start/swiftui/how-to-load-custom-colors-from-an-asset-catalog)
 
 <!-- Images, shapes, and media -->
 
@@ -756,9 +756,35 @@ Layout sizes, priorities, and spacing
 }
 ```
 
-- [How to add extra padding to the safe area](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-extra-padding-to-the-safe-area)
-- [How to dynamically adjust the appearance of a view based on its size and location](https://www.hackingwithswift.com/quick-start/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location)
-- [How to adjust the size of a view relative to its container](https://www.hackingwithswift.com/quick-start/swiftui/how-to-adjust-the-size-of-a-view-relative-to-its-container)
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add extra padding to the safe area",
+  "desc": "How to add extra padding to the safe area",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
+  "desc": "How to dynamically adjust the appearance of a view based on its size and location",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to adjust the size of a view relative to its container",
+  "desc": "How to adjust the size of a view relative to its container",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-container.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 
@@ -936,12 +962,65 @@ Position views in a structured way
 }
 ```
 
-- [How to indent the content or scroll indicators in a ScrollView](https://hackingwithswift.com/quick-start/swiftui/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview)
-- [How to flash the scroll bar indicators of a ScrollView or List](https://hackingwithswift.com/quick-start/swiftui/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list)
-- [How to make a ScrollView snap with paging or between child views](https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-snap-with-paging-or-between-child-views)
-- [How to make views scroll with a custom transition](https://hackingwithswift.com/quick-start/swiftui/how-to-make-views-scroll-with-a-custom-transition)
-- [How to make a ScrollView start at the bottom](https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-start-at-the-bottom)
-- [How to disable ScrollView clipping so contents overflow](https://hackingwithswift.com/quick-start/swiftui/how-to-disable-scrollview-clipping-so-contents-overflow)
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to indent the content or scroll indicators in a ScrollView",
+  "desc": "How to indent the content or scroll indicators in a ScrollView",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to flash the scroll bar indicators of a ScrollView or List",
+  "desc": "How to flash the scroll bar indicators of a ScrollView or List",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a ScrollView snap with paging or between child views",
+  "desc": "How to make a ScrollView snap with paging or between child views",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-snap-with-paging-or-between-child-views.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make views scroll with a custom transition",
+  "desc": "How to make views scroll with a custom transition",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-views-scroll-with-a-custom-transition.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make a ScrollView start at the bottom",
+  "desc": "How to make a ScrollView start at the bottom",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-start-at-the-bottom.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to disable ScrollView clipping so contents overflow",
+  "desc": "How to disable ScrollView clipping so contents overflow",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-disable-scrollview-clipping-so-contents-overflow",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 
@@ -2352,6 +2431,8 @@ Move your user from one view to another
 }
 ```
 
+- How to tell the user that no content is available
+
 :::
 
 ::: details Transforming views
@@ -2674,6 +2755,8 @@ Take control of rendering using custom shapes
 }
 ```
 
+- [How to add Metal shaders to SwiftUI views using layer effects](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects)
+
 :::
 
 ::: details Animation
@@ -2820,6 +2903,9 @@ Bring your views to life with movement
 }
 ```
 
+- How to run a completion callback when an animation finishes
+- How to create multi-step animations using phase animators
+
 :::
 
 ::: details Composing views
@@ -2951,6 +3037,8 @@ Learn to make your apps look great everywhere
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+- How to enable vertical page scrolling
 
 :::
 

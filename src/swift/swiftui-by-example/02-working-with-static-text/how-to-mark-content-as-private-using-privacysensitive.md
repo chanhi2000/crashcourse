@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
@@ -125,10 +135,20 @@ Sometimes the system will apply privacy redaction automatically, such as if your
 }
 ```
 
-- How to fix “Missing argument for parameter 'content' in call”
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix “Missing argument for parameter 'content' in call”",
+  "desc": "How to fix “Missing argument for parameter 'content' in call”",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-missing-argument-for-parameter-content-in-call.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
 - How to tell the user that no content is available
 
 :::
+
 ---
 
 <TagLinks />

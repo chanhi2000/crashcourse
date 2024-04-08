@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
@@ -73,7 +83,15 @@ How to place content into the safe area
 }
 ```
 
-How to add extra padding to the safe area
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add extra padding to the safe area",
+  "desc": "How to add extra padding to the safe area",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -85,7 +103,15 @@ How to add extra padding to the safe area
 }
 ```
 
-How to indent the content or scroll indicators in a ScrollView
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to indent the content or scroll indicators in a ScrollView",
+  "desc": "How to indent the content or scroll indicators in a ScrollView",
+  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

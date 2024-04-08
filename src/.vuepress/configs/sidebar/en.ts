@@ -379,6 +379,9 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md',
             '/swift/swiftui-by-example/04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md',
             '/swift/swiftui-by-example/04-view-layout/how-to-create-an-adaptive-layout-with-viewthatfits.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md',
+            '/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-container.md',
           ]
         }, {
           text: 'Stacks, grids, scrollviews',
@@ -401,6 +404,12 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-dismiss-the-keyboard-when-the-user-scrolls.md',
             '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.md',
             '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-multi-column-lists-using-table.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-snap-with-paging-or-between-child-views.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-views-scroll-with-a-custom-transition.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-start-at-the-bottom.md',
+            '/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-disable-scrollview-clipping-so-contents-overflow.md',
           ]          
         }, {
           text: 'User interface controls',
@@ -1752,7 +1761,7 @@ export const sidebarEn = sidebar({
         '/devops/freecodecamp-gitlab-ci/5.md',
       ]
     }, {
-      text: '아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
+      text: '아마존 웹 서비스를 다루는 기술',
       collapsible: true,
       icon: 'fa-brands fa-aws',
       children: [
@@ -1823,8 +1832,24 @@ export const sidebarEn = sidebar({
           ]
         },
         '/devops/art-of-aws/09.md',
-        '/devops/art-of-aws/10.md',
-        '/devops/art-of-aws/11.md',
+        {
+          text: '10. AWS 리소스의 상태를 모니터링하는 CloudWatch',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/10.md',
+            '/devops/art-of-aws/10A.md',
+            '/devops/art-of-aws/10B.md',            
+          ]
+        }, {
+          text: '11. HTTP 프로토콜과 연동되는 스토리지 S3',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/11.md',
+            '/devops/art-of-aws/11A.md',
+            '/devops/art-of-aws/11B.md',            
+            '/devops/art-of-aws/11C.md',            
+          ]
+        },
         '/devops/art-of-aws/12.md',
         '/devops/art-of-aws/13.md',
         '/devops/art-of-aws/14.md',

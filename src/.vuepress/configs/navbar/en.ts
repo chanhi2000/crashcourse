@@ -262,7 +262,7 @@ export const navbarEn = navbar([
         link: '/devops/freecodecamp-gitlab-ci/README.md',
         icon: 'fa-brands fa-gitlab'
       }, {
-        text: '아마존 웹 서비스를 다루는 기술 - 실무에서 필요한 AWS 클라우드의 모든 것!',
+        text: '아마존 웹 서비스를 다루는 기술',
         link: '/devops/art-of-aws/README.md',
         icon: 'fa-brands fa-aws'
       }, {
