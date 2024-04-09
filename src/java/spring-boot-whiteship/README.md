@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 스프링 부트 개념과 활용
 description: 스프링 부트 개념과 활용
-icon: fa-brands fa-envira
+icon: iconfont icon-spring
 category:
   - Java
   - Spring

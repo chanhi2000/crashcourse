@@ -56,12 +56,15 @@ export default defineUserConfig({
     lastUpdated: true,
     footer: 'MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a>',
     displayFooter: true,
+    repo: 'chanhi2000/crashcourse',
+    repoLabel: 'Github',
+    repoDisplay: true,
     // footerHtml: true,
     locales: {
       "/": {
         navbar: navbarEn,
         sidebar: sidebarEn,
-      },
+      },  
     },
     breadcrumbIcon: true,
     blog: {
@@ -85,7 +88,13 @@ export default defineUserConfig({
         ],
         componentOptions: {
           fontIcon: {
-            assets: ["iconfont", "fontawesome", "fontawesome-with-brands", "iconify"],
+            assets: [
+              "iconfont", 
+              "fontawesome", 
+              "fontawesome-with-brands", 
+              "/crashcourse/iconfont-more.css", /* 리소스 통합 필요 */
+              "iconify"
+            ],
           }
         },
         rootComponents: {

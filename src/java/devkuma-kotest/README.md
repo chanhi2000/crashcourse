@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 코틀린 테스팅 프레임워크 - Kotest
 description: 코틀린 테스팅 프레임워크 - Kotest
-icon: fa-brands fa-kickstarter
+icon: iconfont icon-kotlin
 category: 
   - Kotlin
   - Kotest

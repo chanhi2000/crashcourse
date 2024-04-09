@@ -148,7 +148,15 @@ How to animate SF Symbols
 }
 ```
 
-How to load custom colors from an asset catalog
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
+  "desc": "How to load custom colors from an asset catalog",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

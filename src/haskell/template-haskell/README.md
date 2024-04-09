@@ -1,9 +1,10 @@
 ---
 lang: ko-KR
-title: 🐑Template Haskell tutorial
-description: 🐑Template Haskell tutorial
+title: Template Haskell tutorial
+description: Template Haskell tutorial
+icon: iconfont icon-haskell
 category:
-  - 🐑Haskell
+  - Haskell
 tag: 
   - crashcourse
   - haskell

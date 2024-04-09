@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Algorithms for Competitive Programming
 description: Algorithms for Competitive Programming
-icon: fas fa-dice-two
+icon: iconfont icon-cpp
 category:
   - Cpp
 tag: 

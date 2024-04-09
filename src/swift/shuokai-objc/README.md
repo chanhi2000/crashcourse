@@ -2,7 +2,7 @@
 lang: ko-KR
 title: OSX 구조를 이해하면서 배우는 Objective-C
 description: OSX 구조를 이해하면서 배우는 Objective-C
-icon: fas fa-landmark
+icon: iconfont icon-objective-c
 category:
   - Objective-C
 tag: 

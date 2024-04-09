@@ -50,7 +50,7 @@ export const navbarEn = navbar([
       }, {
         text: 'OSX 구조를 이해하면서 배우는 Objective-C',
         link: '/swift/shuokai-objc/README.md',
-        icon: 'fas fa-landmark'
+        icon: 'iconfont icon-objective-c'
       }
     ],
   }, {
@@ -72,19 +72,19 @@ export const navbarEn = navbar([
       }, {
         text: 'Jump to Spring Boot',
         link: '/java/jump-to-spring-boot/README.md',
-        icon: 'fa-brands fa-envira'
+        icon: 'iconfont icon-spring'
       }, {
         text: '스프링부트 개념과 활용',
         link: '/java/spring-boot-whiteship/README.md',
-        icon: 'fa-brands fa-envira',
+        icon: 'iconfont icon-spring',
       }, {
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
-        icon: 'iconfont icon-java'
+        icon: 'iconfont icon-quarkus',
       }, {
         text: '코틀린 테스팅 프레임워크 - Kotest',
         link: '/java/devkuma-kotest/README.md',
-        icon: 'fa-brands fa-kickstarter',
+        icon: 'iconfont icon-kotlin',
       }, {
         text: '요즘 IT 블로그 - Java 관련',
         link: '/java/yozm/README.md',
@@ -165,12 +165,12 @@ export const navbarEn = navbar([
     ]
   }, {
     text: '',
-    icon: 'fas fa-dice-two',
+    icon: 'iconfont icon-cpp',
     children: [
       {
         text: 'Algorithms for Competitive Programming',
         link: '/cpp/algorithms-for-competitive-programming/README.md',
-        icon: 'fas fa-dice-two',
+        icon: 'iconfont icon-cpp',
       }, 
       /* 
       {
@@ -194,23 +194,26 @@ export const navbarEn = navbar([
     ]
   }, {
     text: '',
-    icon: 'fas fa-gem',
+    icon: 'iconfont icon-ruby',
     children: [
       {
         text: 'Jets - Learning Content',
         link: '/ruby/rubyonjets-learning-content/README.md',
-        icon: 'fas fa-gem',
+        icon: 'iconfont icon-ruby',
       },
     ]
   }, {
-    text: '🐑',
+    text: '',
+    icon: 'iconfont icon-haskell',
     children: [
       {
-        text: '🐑Megaparsec tutorial',
-        link: '/haskell/megaparsec/README.md'
+        text: 'Megaparsec tutorial',
+        link: '/haskell/megaparsec/README.md',
+        icon: 'iconfont icon-haskell',
       }, {
-        text: '🐑Template Haskell tutorial',
-        link: '/haskell/template-haskell/README.md'
+        text: 'Template Haskell tutorial',
+        link: '/haskell/template-haskell/README.md',
+        icon: 'iconfont icon-haskell',
       }
     ]
   }, {

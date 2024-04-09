@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Jump to Spring Boot
 description: Jump to Spring Boot
-icon: fa-brands fa-envira
+icon: iconfont icon-spring
 category:
   - Java
   - Spring

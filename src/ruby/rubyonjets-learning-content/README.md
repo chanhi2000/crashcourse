@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Jets - Learning Content
 description: Jets - Learning Content
-icon: fas fa-gem
+icon: iconfont icon-ruby
 category:
   - Ruby
 tag:

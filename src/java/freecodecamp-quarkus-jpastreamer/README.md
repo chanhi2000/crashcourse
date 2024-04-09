@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Java Web App with Quarkus and JPAStreamer
 description: Java Web App with Quarkus and JPAStreamer
-icon: iconfont icon-java
+icon: iconfont icon-quarkus
 category: 
   - Java
   - Quarkus

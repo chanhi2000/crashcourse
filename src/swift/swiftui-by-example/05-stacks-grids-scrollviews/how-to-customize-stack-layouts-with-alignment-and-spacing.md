@@ -91,7 +91,6 @@ VStack(alignment: .leading) {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing-3.zip)
 
-
 ![The text “SwiftUI” above the text “rocks”. The words' left edges are vertically aligned.](https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing-3~dark.png)
 
 That will align both “SwiftUI” and “rocks” to their left edge, but they will still ultimately sit in the middle of the screen because the stack takes up only as much space as it needs.
@@ -153,7 +152,7 @@ That will align both text views horizontally to the leading edge (that’s left 
 }
 ```
 
-How to control which NavigationSplitView column is shown in compact layouts
+How to control which NavigationSplitView column is shown in compact layouts <!-- TODO: add link -->
 
 :::
 

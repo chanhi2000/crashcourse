@@ -359,6 +359,10 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-dynamically-adjust-the-color-of-an-sf-symbol.md',
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-select-pictures-using-photospicker.md',
             '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-animate-sf-symbols.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-read-the-red-green-and-blue-values-from-a-color.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-combine-shapes-to-create-new-shapes.md',
+            '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md',
           ]
         }, {
           text: 'View layout',
@@ -814,7 +818,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'OSX 구조를 이해하면서 배우는 Objective-C',
       collapsible: true,
-      icon: 'fas fa-landmark',
+      icon: 'iconfont icon-objective-c',
       children: [
         '/swift/shuokai-objc/README.md',
         '/swift/shuokai-objc/01.md',
@@ -894,7 +898,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Jump to Spring Boot',
       collapsible: true,
-      icon: 'fa-brands fa-envira',
+      icon: 'iconfont icon-spring',
       children: [
         '/java/jump-to-spring-boot/README.md',
         '/java/jump-to-spring-boot/01.md',
@@ -965,7 +969,7 @@ export const sidebarEn = sidebar({
     }, {
       text: '스프링부트 개념과 활용',
       collapsible: true,
-      icon: 'fa-brands fa-envira',
+      icon: 'iconfont icon-spring',
       children: [
         '/java/spring-boot-whiteship/README.md',
         '/java/spring-boot-whiteship/01.md',
@@ -979,7 +983,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Java Web App with Quarkus and JPAStreamer',
       collapsible: true,
-      icon: 'iconfont icon-java',
+      icon: 'iconfont icon-quarkus',
       children: [
         '/java/freecodecamp-quarkus-jpastreamer/README.md',
         '/java/freecodecamp-quarkus-jpastreamer/01.md',
@@ -1000,7 +1004,7 @@ export const sidebarEn = sidebar({
     }, {
       text: '코틀린 테스팅 프레임워크 - Kotest',
       collapsible: true,
-      icon: 'fa-brands fa-kickstarter',
+      icon: 'iconfont icon-kotlin',
       children: [
         '/java/devkuma-kotest/README.md',
         {
@@ -1377,12 +1381,12 @@ export const sidebarEn = sidebar({
   ], '/cpp/':  [ 
     {
       text: 'Cpp',
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [ '/cpp/README.md' ]
     }, {
       text: 'Algorithms for Competitive Programming',
       collapsible: true,
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [ 
         '/cpp/algorithms-for-competitive-programming/README.md',
         {
@@ -1483,28 +1487,28 @@ export const sidebarEn = sidebar({
     {
       text: 'Getting Started with Accelerated Computing in CUDA C/C++',
       collapsible: true,
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [
         '/cpp/nvidia-dli+s-ac-04/README.md',
       ]
     },  {
       text: 'Scaling CUDA C++ Applications to Multiple Nodes',
       collapsible: true,
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [
         '/cpp/nvidia-dli+s-ac-07/README.md',
       ]
     }, {
       text: 'GPU Acceleration with the C++ Standard Library',
       collapsible: true,
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [
         '/cpp/nvidia-dli+s-ac-08/README.md',
       ]
     }, {
       text: 'Scaling GPU-Accelerated Applications with the C++ Standard Library',
       collapsible: true,
-      icon: 'fas fa-dice-two',
+      icon: 'iconfont icon-cpp',
       children: [
         '/cpp/nvidia-dli+s-ac-09/README.md',
       ]
@@ -1513,12 +1517,12 @@ export const sidebarEn = sidebar({
   ], '/ruby/': [
     {
       text: 'Ruby',
-      icon: 'fas fa-gem',
+      icon: 'iconfont icon-ruby',
       children: [ '/ruby/README.md' ]
     }, {
       text: 'Jets - Learning Content',
       collapsible: true,
-      icon: 'fas fa-gem',
+      icon: 'iconfont icon-ruby',
       children: [
         '/ruby/rubyonjets-learning-content/README.md',
         '/ruby/rubyonjets-learning-content/20190204-aws-lambda-function-jets-introductory-series-part-1.md',
@@ -1545,12 +1549,14 @@ export const sidebarEn = sidebar({
     }, 
   ], '/haskell/': [
     {
-      text: '🐑Haskell',
+      text: 'Haskell',
+      icon: 'iconfont icon-haskell',
       children: [ '/haskell/README.md' ]
 
     }, {
-      text: '🐑Megaparsec tutorial',
+      text: 'Megaparsec tutorial',
       collapsible: true,
+      icon: 'iconfont icon-haskell',
       children: [
         '/haskell/megaparsec/README.md',
         '/haskell/megaparsec/01.md',
@@ -1573,8 +1579,9 @@ export const sidebarEn = sidebar({
         '/haskell/megaparsec/18.md',
       ]
     }, {
-      text: '🐑Template Haskell tutorial',
+      text: 'Template Haskell tutorial',
       collapsible: true,
+      icon: 'iconfont icon-haskell',
       children: [
         '/haskell/template-haskell/README.md',
         '/haskell/template-haskell/01.md',
@@ -1849,8 +1856,18 @@ export const sidebarEn = sidebar({
             '/devops/art-of-aws/11B.md',            
             '/devops/art-of-aws/11C.md',            
           ]
+        }, {
+          text: '12. 전 세계에 콘텐츠를 배포하는 CDN 서비스인 CloudFront',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/12.md',
+            '/devops/art-of-aws/12A.md',
+            '/devops/art-of-aws/12B.md',
+            '/devops/art-of-aws/12C.md',
+            '/devops/art-of-aws/12D.md',
+            '/devops/art-of-aws/12E.md',
+          ]
         },
-        '/devops/art-of-aws/12.md',
         '/devops/art-of-aws/13.md',
         '/devops/art-of-aws/14.md',
         '/devops/art-of-aws/15.md',

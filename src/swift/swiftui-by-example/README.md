@@ -593,10 +593,45 @@ Draw icons, circles, gradients, and more
 }
 ```
 
-- [How to animate SF Symbols](https://www.hackingwithswift.com/quick-start/swiftui/how-to-animate-sf-symbols)
-- [How to read the red, green, and blue values from a Color](https://www.hackingwithswift.com/quick-start/swiftui/how-to-read-the-red-green-and-blue-values-from-a-color)
-- [How to combine shapes to create new shapes](https://www.hackingwithswift.com/quick-start/swiftui/how-to-combine-shapes-to-create-new-shapes)
-- [How to load custom colors from an asset catalog](https://www.hackingwithswift.com/quick-start/swiftui/how-to-load-custom-colors-from-an-asset-catalog)
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to animate SF Symbols",
+  "desc": "How to animate SF Symbols",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-animate-sf-symbols.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to read the red, green, and blue values from a Color",
+  "desc": "How to read the red, green, and blue values from a Color",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-read-the-red-green-and-blue-values-from-a-color.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to combine shapes to create new shapes",
+  "desc": "How to combine shapes to create new shapes",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-combine-shapes-to-create-new-shapes.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
+  "desc": "How to load custom colors from an asset catalog",
+  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md",
+  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 <!-- Images, shapes, and media -->
 

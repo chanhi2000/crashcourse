@@ -96,7 +96,7 @@ Size classes are a great way to make your user interfaces intelligently adapt to
 }
 ```
 
-How to control which NavigationSplitView column is shown in compact layouts
+How to control which NavigationSplitView column is shown in compact layouts <!-- TODO: add link -->
 
 ```component VPCard
 {
