@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to take action when the user submits a TextField",
   "desc": "How to take action when the user submits a TextField",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-take-action-when-the-user-submits-a-textfield",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

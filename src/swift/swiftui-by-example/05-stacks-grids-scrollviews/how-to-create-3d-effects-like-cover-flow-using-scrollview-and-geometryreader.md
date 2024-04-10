@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
   "desc": "How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -119,7 +119,7 @@ As you drag the card around you’ll see it rotates to give a perspective effect
   "title": "SwiftUI by Example > How to provide relative sizes using GeometryReader",
   "desc": "How to provide relative sizes using GeometryReader",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-provide-relative-sizes-using-geometryreader.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -131,7 +131,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -141,7 +141,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > How to stack modifiers to create more advanced effects",
   "desc": "How to stack modifiers to create more advanced effects",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-stack-modifiers-to-create-more-advanced-effects.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -151,7 +151,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > All SwiftUI property wrappers explained and compared",
   "desc": "All SwiftUI property wrappers explained and compared",
   "link": "/swift/swiftui-by-example/25-appendix-a/all-swiftui-property-wrappers-explained-and-compared.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

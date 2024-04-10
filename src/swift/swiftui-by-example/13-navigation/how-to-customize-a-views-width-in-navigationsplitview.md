@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to customize a view’s width in NavigationSplitView",
   "desc": "How to customize a view’s width in NavigationSplitView",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-customize-a-views-width-in-navigationsplitview",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

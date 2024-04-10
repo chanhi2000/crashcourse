@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to let users import videos using PhotosPicker",
   "desc": "How to let users import videos using PhotosPicker",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-import-videos-using-photospicker",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -145,7 +145,7 @@ Hopefully Apple can find a way to simplify this API in the future, but until the
   "title": "SwiftUI by Example > How to let users select pictures using PhotosPicker",
   "desc": "How to let users select pictures using PhotosPicker",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-select-pictures-using-photospicker.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -155,7 +155,7 @@ Hopefully Apple can find a way to simplify this API in the future, but until the
   "title": "SwiftUI by Example > How to let users share content using the system share sheet",
   "desc": "How to let users share content using the system share sheet",
   "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-share-content-using-the-system-share-sheet.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -165,7 +165,7 @@ Hopefully Apple can find a way to simplify this API in the future, but until the
   "title": "SwiftUI by Example > How to let users delete rows from a list",
   "desc": "How to let users delete rows from a list",
   "link": "/swift/swiftui-by-example/10-lists/how-to-let-users-delete-rows-from-a-list.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -175,7 +175,7 @@ Hopefully Apple can find a way to simplify this API in the future, but until the
   "title": "SwiftUI by Example > How to let users pick options from a menu",
   "desc": "How to let users pick options from a menu",
   "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-let-users-pick-options-from-a-menu.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -185,7 +185,7 @@ Hopefully Apple can find a way to simplify this API in the future, but until the
   "title": "SwiftUI by Example > How to let users find and replace text",
   "desc": "How to let users find and replace text",
   "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-find-and-replace-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

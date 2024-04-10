@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Customizing Toggle with ToggleStyle",
   "desc": "Customizing Toggle with ToggleStyle",
   "link": "https://hackingwithswift.com/quick-start/swiftui/customizing-toggle-with-togglestyle",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

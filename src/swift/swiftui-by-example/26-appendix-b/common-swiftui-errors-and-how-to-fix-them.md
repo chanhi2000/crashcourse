@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Common SwiftUI errors and how to fix them",
   "desc": "Common SwiftUI errors and how to fix them",
   "link": "https://hackingwithswift.com/quick-start/swiftui/common-swiftui-errors-and-how-to-fix-them",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

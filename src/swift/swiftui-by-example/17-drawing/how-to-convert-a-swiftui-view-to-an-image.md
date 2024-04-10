@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to convert a SwiftUI view to an image",
   "desc": "How to convert a SwiftUI view to an image",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-convert-a-swiftui-view-to-an-image",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to get custom colors and transparency with SF Symbols",
   "desc": "How to get custom colors and transparency with SF Symbols",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -133,7 +133,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to render images using SF Symbols",
   "desc": "How to render images using SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-images-using-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -143,7 +143,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > Polishing designs with fonts and colors",
   "desc": "Polishing designs with fonts and colors",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/polishing-designs-with-fonts-and-colors.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -153,7 +153,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
   "desc": "How to load custom colors from an asset catalog",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -163,7 +163,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

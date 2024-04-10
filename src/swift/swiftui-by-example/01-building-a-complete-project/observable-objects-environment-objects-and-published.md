@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Observable objects, environment objects, and @Published",
   "desc": "Observable objects, environment objects, and @Published",
   "link": "https://hackingwithswift.com/quick-start/swiftui/observable-objects-environment-objects-and-published",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -118,7 +118,7 @@ class Order: ObservableObject {
   "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
   "desc": "How to use @EnvironmentObject to share data between views",
   "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-environmentobject-to-share-data-between-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -128,7 +128,7 @@ class Order: ObservableObject {
   "title": "SwiftUI by Example > What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
   "desc": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
   "link": "/swift/swiftui-by-example/09-advanced-state/whats-the-difference-between-observedobject-state-and-environmentobject.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

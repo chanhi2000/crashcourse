@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to control the tappable area of a view using contentShape()",
   "desc": "How to control the tappable area of a view using contentShape()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

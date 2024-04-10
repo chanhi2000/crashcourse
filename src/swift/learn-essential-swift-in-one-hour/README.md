@@ -32,7 +32,7 @@ head:
   "title": "HACKING WITH SWIFT",
   "desc": "Learn essential Swift in one hour",
   "link": "https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```

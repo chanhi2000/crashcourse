@@ -41,10 +41,7 @@ head:
 }
 ```
 
----
-
 ## Table of Contents
-
 
 ```component VPCard
 {

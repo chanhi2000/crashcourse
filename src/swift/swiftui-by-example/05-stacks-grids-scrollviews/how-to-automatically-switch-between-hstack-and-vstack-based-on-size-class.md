@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to automatically switch between HStack and VStack based on size class",
   "desc": "How to automatically switch between HStack and VStack based on size class",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -117,7 +117,7 @@ And that’s it! The actual code isn’t as hard you might imagine, but it gives
   "title": "SwiftUI by Example > How to dynamically change between VStack and HStack",
   "desc": "How to dynamically change between VStack and HStack",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -127,7 +127,7 @@ And that’s it! The actual code isn’t as hard you might imagine, but it gives
   "title": "SwiftUI by Example > How to create stacks using VStack and HStack",
   "desc": "How to create stacks using VStack and HStack",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -137,7 +137,7 @@ And that’s it! The actual code isn’t as hard you might imagine, but it gives
   "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
   "desc": "How to dynamically adjust the appearance of a view based on its size and location",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -147,7 +147,7 @@ And that’s it! The actual code isn’t as hard you might imagine, but it gives
   "title": "SwiftUI by Example > How to create a document-based app using FileDocument and DocumentGroup",
   "desc": "How to create a document-based app using FileDocument and DocumentGroup",
   "link": "/swift/swiftui-by-example/21-data/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -157,7 +157,7 @@ And that’s it! The actual code isn’t as hard you might imagine, but it gives
   "title": "SwiftUI by Example > How to create a toggle switch",
   "desc": "How to create a toggle switch",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-toggle-switch.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

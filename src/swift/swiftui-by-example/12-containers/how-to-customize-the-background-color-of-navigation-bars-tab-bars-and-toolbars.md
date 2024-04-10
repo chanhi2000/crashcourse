@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to customize the background color of navigation bars, tab bars, and toolbars",
   "desc": "How to customize the background color of navigation bars, tab bars, and toolbars",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

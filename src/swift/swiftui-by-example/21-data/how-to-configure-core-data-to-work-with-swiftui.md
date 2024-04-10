@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to configure Core Data to work with SwiftUI",
   "desc": "How to configure Core Data to work with SwiftUI",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-configure-core-data-to-work-with-swiftui",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

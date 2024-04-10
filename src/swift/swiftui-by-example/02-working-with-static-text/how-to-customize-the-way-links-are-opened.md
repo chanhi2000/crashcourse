@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to customize the way links are opened",
   "desc": "How to customize the way links are opened",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-customize-the-way-links-are-opened",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -95,7 +95,7 @@ Text("[Visit Apple](https://apple.com)")
   "title": "SwiftUI by Example > How to open web links in Safari",
   "desc": "How to open web links in Safari",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-open-web-links-in-safari.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -105,7 +105,7 @@ Text("[Visit Apple](https://apple.com)")
   "title": "SwiftUI by Example > Two-way bindings in SwiftUI",
   "desc": "Two-way bindings in SwiftUI",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/two-way-bindings-in-swiftui.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -115,7 +115,7 @@ Text("[Visit Apple](https://apple.com)")
   "title": "SwiftUI by Example > How to adjust the way an image is fitted to its space",
   "desc": "How to adjust the way an image is fitted to its space",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-adjust-the-way-an-image-is-fitted-to-its-space.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -125,7 +125,7 @@ Text("[Visit Apple](https://apple.com)")
   "title": "SwiftUI by Example > How to let users customize toolbar buttons",
   "desc": "How to let users customize toolbar buttons",
   "link": "/swift/swiftui-by-example/12-containers/how-to-let-users-customize-toolbar-buttons.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -135,7 +135,7 @@ Text("[Visit Apple](https://apple.com)")
   "title": "SwiftUI by Example > How to customize the background color of navigation bars, tab bars, and toolbars",
   "desc": "How to customize the background color of navigation bars, tab bars, and toolbars",
   "link": "/swift/swiftui-by-example/12-containers/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

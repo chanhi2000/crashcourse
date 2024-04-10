@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to play movies with VideoPlayer",
   "desc": "How to play movies with VideoPlayer",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-play-movies-with-videoplayer",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -107,7 +107,7 @@ A video with a play button overlaid, along with the word Watermark place at the 
   "title": "SwiftUI by Example > How to add search tokens to a search field",
   "desc": "How to add search tokens to a search field",
   "link": "/swift/swiftui-by-example/10-lists/how-to-add-search-tokens-to-a-search-field.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -117,7 +117,7 @@ A video with a play button overlaid, along with the word Watermark place at the 
   "title": "SwiftUI by Example > How to let users import videos using PhotosPicker",
   "desc": "How to let users import videos using PhotosPicker",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -127,7 +127,7 @@ A video with a play button overlaid, along with the word Watermark place at the 
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

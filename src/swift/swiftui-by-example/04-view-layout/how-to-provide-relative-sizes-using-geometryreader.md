@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to provide relative sizes using GeometryReader",
   "desc": "How to provide relative sizes using GeometryReader",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -89,7 +89,7 @@ GeometryReader { geometry in
   "title": "SwiftUI by Example > How to preview your layout at different Dynamic Type sizes",
   "desc": "How to preview your layout at different Dynamic Type sizes",
   "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-at-different-dynamic-type-sizes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -99,7 +99,7 @@ GeometryReader { geometry in
   "title": "SwiftUI by Example > How to adjust the size of a view relative to its container",
   "desc": "How to adjust the size of a view relative to its container",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-containe",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -109,7 +109,7 @@ GeometryReader { geometry in
   "title": "SwiftUI by Example > How to specify the Dynamic Type sizes a view supports",
   "desc": "How to specify the Dynamic Type sizes a view supports",
   "link": "/swift/swiftui-by-example/22-accessibility/how-to-specify-the-dynamic-type-sizes-a-view-supports.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -119,7 +119,7 @@ GeometryReader { geometry in
   "title": "SwiftUI by Example > How to provide visual structure using foreground styles",
   "desc": "How to provide visual structure using foreground styles",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-provide-visual-structure-using-foreground-styles.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -129,7 +129,7 @@ GeometryReader { geometry in
   "title": "SwiftUI by Example > How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
   "desc": "How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

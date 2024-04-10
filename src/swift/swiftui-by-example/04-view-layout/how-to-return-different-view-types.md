@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to return different view types",
   "desc": "How to return different view types",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-return-different-view-types",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -190,7 +190,7 @@ This works particularly well to help break apart logic and layout, and also has 
   "title": "SwiftUI by Example > How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
   "desc": "How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
   "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -200,7 +200,7 @@ This works particularly well to help break apart logic and layout, and also has 
   "title": "SwiftUI by Example > How to show different images and other views in light or dark mode",
   "desc": "How to show different images and other views in light or dark mode",
   "link": "/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -210,7 +210,7 @@ This works particularly well to help break apart logic and layout, and also has 
   "title": "SwiftUI by Example > How to preview your layout at different Dynamic Type sizes",
   "desc": "How to preview your layout at different Dynamic Type sizes",
   "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-at-different-dynamic-type-sizes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -220,7 +220,7 @@ This works particularly well to help break apart logic and layout, and also has 
   "title": "SwiftUI by Example > How to create different layouts using size classes",
   "desc": "How to create different layouts using size classes",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-different-layouts-using-size-classes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -230,7 +230,7 @@ This works particularly well to help break apart logic and layout, and also has 
   "title": "SwiftUI by Example > How to preview your layout in different devices",
   "desc": "How to preview your layout in different devices",
   "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-different-devices.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

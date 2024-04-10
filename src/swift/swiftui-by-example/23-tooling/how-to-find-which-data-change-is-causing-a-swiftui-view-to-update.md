@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to find which data change is causing a SwiftUI view to update",
   "desc": "How to find which data change is causing a SwiftUI view to update",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

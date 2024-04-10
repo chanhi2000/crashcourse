@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to let users pick options from a menu",
   "desc": "How to let users pick options from a menu",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-pick-options-from-a-menu",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

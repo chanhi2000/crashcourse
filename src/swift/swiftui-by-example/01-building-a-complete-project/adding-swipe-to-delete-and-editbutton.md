@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Adding swipe to delete and EditButton",
   "desc": "Adding swipe to delete and EditButton",
   "link": "https://hackingwithswift.com/quick-start/swiftui/adding-swipe-to-delete-and-editbutton",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -125,7 +125,7 @@ Much better!
   "title": "SwiftUI by Example > How to let users delete rows from a list",
   "desc": "How to let users delete rows from a list",
   "link": "/swift/swiftui-by-example/10-lists/how-to-let-users-delete-rows-from-a-list.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -136,7 +136,7 @@ Much better!
   "title": "SwiftUI by Example > How to enable editing on a list using EditButton",
   "desc": "How to enable editing on a list using EditButton",
   "link": "/swift/swiftui-by-example/10-lists/how-to-enable-editing-on-a-list-using-editbutton.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -146,7 +146,7 @@ Much better!
   "title": "SwiftUI by Example > Enabling and disabling elements in forms",
   "desc": "Enabling and disabling elements in forms",
   "link": "/swift/swiftui-by-example/11-forms/enabling-and-disabling-elements-in-forms.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

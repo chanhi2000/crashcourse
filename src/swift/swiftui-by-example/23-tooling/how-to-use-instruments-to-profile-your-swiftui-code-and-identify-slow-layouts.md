@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to use Instruments to profile your SwiftUI code and identify slow layouts",
   "desc": "How to use Instruments to profile your SwiftUI code and identify slow layouts",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

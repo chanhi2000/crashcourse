@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to create custom animated drawings with TimelineView and Canvas",
   "desc": "How to create custom animated drawings with TimelineView and Canvas",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-custom-animated-drawings-with-timelineview-and-canvas",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

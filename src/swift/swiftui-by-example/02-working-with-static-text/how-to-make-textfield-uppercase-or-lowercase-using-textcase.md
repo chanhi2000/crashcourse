@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to make TextField uppercase or lowercase using textCase()",
   "desc": "How to make TextField uppercase or lowercase using textCase()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -84,7 +84,7 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "title": "SwiftUI by Example > How to make a TextField expand vertically as the user types",
   "desc": "How to make a TextField expand vertically as the user types",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-expand-vertically-as-the-user-types.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -94,7 +94,7 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "title": "SwiftUI by Example > How to make a TextField or TextEditor have default focus",
   "desc": "How to make a TextField or TextEditor have default focus",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-or-texteditor-have-default-focus.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -104,7 +104,7 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "title": "SwiftUI by Example > How to dismiss the keyboard for a TextField",
   "desc": "How to dismiss the keyboard for a TextField",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-dismiss-the-keyboard-for-a-textfield.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -114,7 +114,7 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "title": "SwiftUI by Example > How to add a TextField to an alert",
   "desc": "How to add a TextField to an alert",
   "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-a-textfield-to-an-alert.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -124,7 +124,7 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "title": "SwiftUI by Example > How to format a TextField for numbers",
   "desc": "How to format a TextField for numbers",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-format-a-textfield-for-numbers.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

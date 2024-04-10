@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to use images and other views as a backgrounds",
   "desc": "How to use images and other views as a backgrounds",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-use-images-and-other-views-as-a-backgrounds",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -110,7 +110,7 @@ To be clear, you can use _any_ view as your background – another text view if 
   "title": "SwiftUI by Example > How to show different images and other views in light or dark mode",
   "desc": "How to show different images and other views in light or dark mode",
   "link": "/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -120,7 +120,7 @@ To be clear, you can use _any_ view as your background – another text view if 
   "title": "SwiftUI by Example > How to layer views on top of each other using ZStack",
   "desc": "How to layer views on top of each other using ZStack",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-layer-views-on-top-of-each-other-using-zstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -130,7 +130,7 @@ To be clear, you can use _any_ view as your background – another text view if 
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -140,7 +140,7 @@ To be clear, you can use _any_ view as your background – another text view if 
   "title": "SwiftUI by Example > All SwiftUI property wrappers explained and compared",
   "desc": "All SwiftUI property wrappers explained and compared",
   "link": "/swift/swiftui-by-example/25-appendix-a/all-swiftui-property-wrappers-explained-and-compared.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -150,7 +150,7 @@ To be clear, you can use _any_ view as your background – another text view if 
   "title": "SwiftUI by Example > How to hide the home indicator and other system UI",
   "desc": "How to hide the home indicator and other system UI",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-hide-the-home-indicator-and-other-system-ui.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

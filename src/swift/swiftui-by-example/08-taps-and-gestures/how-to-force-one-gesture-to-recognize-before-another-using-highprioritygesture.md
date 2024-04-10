@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to force one gesture to recognize before another using highPriorityGesture()",
   "desc": "How to force one gesture to recognize before another using highPriorityGesture()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

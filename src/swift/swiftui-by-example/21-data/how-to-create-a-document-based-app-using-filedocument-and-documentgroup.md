@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to create a document-based app using FileDocument and DocumentGroup",
   "desc": "How to create a document-based app using FileDocument and DocumentGroup",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to read the user’s location using LocationButton",
   "desc": "How to read the user’s location using LocationButton",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-read-the-users-location-using-locationbutton",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

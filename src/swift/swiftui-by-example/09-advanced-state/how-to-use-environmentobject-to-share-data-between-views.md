@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
   "desc": "How to use @EnvironmentObject to share data between views",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

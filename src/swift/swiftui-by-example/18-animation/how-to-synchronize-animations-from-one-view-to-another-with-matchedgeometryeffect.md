@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to synchronize animations from one view to another with matchedGeometryEffect()",
   "desc": "How to synchronize animations from one view to another with matchedGeometryEffect()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

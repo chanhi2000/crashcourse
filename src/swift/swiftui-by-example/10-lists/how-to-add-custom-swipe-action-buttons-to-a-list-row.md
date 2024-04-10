@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to add custom swipe action buttons to a List row",
   "desc": "How to add custom swipe action buttons to a List row",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-add-custom-swipe-action-buttons-to-a-list-row",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

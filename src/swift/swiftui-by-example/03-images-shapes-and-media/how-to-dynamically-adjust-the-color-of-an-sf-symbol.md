@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to dynamically adjust the color of an SF Symbol",
   "desc": "How to dynamically adjust the color of an SF Symbol",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-dynamically-adjust-the-color-of-an-sf-symbol",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -97,7 +97,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
   "desc": "How to dynamically adjust the appearance of a view based on its size and location",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -107,7 +107,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust the accent color of a view",
   "desc": "How to adjust the accent color of a view",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-accent-color-of-a-view.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -117,7 +117,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust List row separator visibility and color",
   "desc": "How to adjust List row separator visibility and color",
   "link": "/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-visibility-and-color.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -127,7 +127,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to dynamically change between VStack and HStack",
   "desc": "How to dynamically change between VStack and HStack",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -137,7 +137,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust views by tinting, and desaturating, and more",
   "desc": "How to adjust views by tinting, and desaturating, and more",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-views-by-tinting-and-desaturating-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to disable the overlay color for images inside Button and NavigationLink",
   "desc": "How to disable the overlay color for images inside Button and NavigationLink",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

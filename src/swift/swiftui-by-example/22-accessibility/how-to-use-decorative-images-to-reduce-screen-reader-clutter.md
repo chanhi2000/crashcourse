@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to use decorative images to reduce screen reader clutter",
   "desc": "How to use decorative images to reduce screen reader clutter",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-use-decorative-images-to-reduce-screen-reader-clutter",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

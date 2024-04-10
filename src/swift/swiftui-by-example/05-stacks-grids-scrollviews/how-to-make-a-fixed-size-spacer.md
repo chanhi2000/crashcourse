@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to make a fixed size Spacer",
   "desc": "How to make a fixed size Spacer",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-make-a-fixed-size-spacer",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -100,7 +100,7 @@ That’s a *minimum* length, so the spacer will still grow to be larger if space
   "title": "SwiftUI by Example > How to force views to one side inside a stack using Spacer",
   "desc": "How to force views to one side inside a stack using Spacer",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-force-views-to-one-side-inside-a-stack-using-spacer.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -110,7 +110,7 @@ That’s a *minimum* length, so the spacer will still grow to be larger if space
   "title": "SwiftUI by Example > How to position views in a fixed grid",
   "desc": "How to position views in a fixed grid",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-fixed-grid.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -120,7 +120,7 @@ That’s a *minimum* length, so the spacer will still grow to be larger if space
   "title": "SwiftUI by Example > How to animate the size of text",
   "desc": "How to animate the size of text",
   "link": "/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -130,7 +130,7 @@ That’s a *minimum* length, so the spacer will still grow to be larger if space
   "title": "SwiftUI by Example > How to create different layouts using size classes",
   "desc": "How to create different layouts using size classes",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-different-layouts-using-size-classes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -140,7 +140,7 @@ That’s a *minimum* length, so the spacer will still grow to be larger if space
   "title": "SwiftUI by Example > How to adjust the size of a view relative to its container",
   "desc": "How to adjust the size of a view relative to its container",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-container.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

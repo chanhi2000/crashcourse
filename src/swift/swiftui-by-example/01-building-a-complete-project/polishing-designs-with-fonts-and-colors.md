@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Polishing designs with fonts and colors",
   "desc": "Polishing designs with fonts and colors",
   "link": "https://hackingwithswift.com/quick-start/swiftui/polishing-designs-with-fonts-and-colors",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -143,7 +143,7 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -153,7 +153,7 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
   "title": "SwiftUI by Example > How to clip a view so only part is visible",
   "desc": "How to clip a view so only part is visible",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-clip-a-view-so-only-part-is-visible.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -163,7 +163,7 @@ Go ahead and run the project now and I think you’ll agree it looks great! Now 
   "title": "SwiftUI by Example > How to force views to one side inside a stack using Spacer",
   "desc": "How to force views to one side inside a stack using Spacer",
   "link": "/swift/swiftui-by-example/05-stacks-grids-srollviews/how-to-force-views-to-one-side-inside-a-stack-using-spacer.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

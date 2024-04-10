@@ -1194,6 +1194,15 @@ export const sidebarEn = sidebar({
         '/python/opencv-advacned/01.md',
         '/python/opencv-advacned/02.md',
       ],
+    }, {
+      text: '요즘 IT 블로그 - Python 관련',
+      collapsible: true,
+      icon: 'fa-brands fa-python',
+      children: [
+        '/python/yozm/README.md',
+        '/python/yozm/2536.md',
+        '/python/yozm/2057.md',
+      ]
     }
   ], '/rust/': [
     {
@@ -1867,8 +1876,20 @@ export const sidebarEn = sidebar({
             '/devops/art-of-aws/12D.md',
             '/devops/art-of-aws/12E.md',
           ]
+        }, {
+          text: '13. 확장 가능한 관계형 데이터베이스를 제공하는 RDS',
+          collapsible: true,
+          children: [
+            '/devops/art-of-aws/13.md',
+            '/devops/art-of-aws/13A.md',
+            '/devops/art-of-aws/13B.md',
+            '/devops/art-of-aws/13C.md',
+            '/devops/art-of-aws/13D.md',
+            '/devops/art-of-aws/13E.md',
+            '/devops/art-of-aws/13F.md',
+            '/devops/art-of-aws/13G.md',
+          ]
         },
-        '/devops/art-of-aws/13.md',
         '/devops/art-of-aws/14.md',
         '/devops/art-of-aws/15.md',
         '/devops/art-of-aws/16.md',

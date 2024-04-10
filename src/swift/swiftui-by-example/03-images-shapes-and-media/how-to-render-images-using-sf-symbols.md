@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to render images using SF Symbols",
   "desc": "How to render images using SF Symbols",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-render-images-using-sf-symbols",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -110,7 +110,7 @@ Image(systemName: "person.crop.circle.fill.badge.plus")
   "title": "SwiftUI by Example > How to get custom colors and transparency with SF Symbols",
   "desc": "How to get custom colors and transparency with SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-get-custom-colors-and-transparency-with-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -122,7 +122,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to render a SwiftUI view to a PDF",
   "desc": "How to render a SwiftUI view to a PDF",
   "link": "/swift/swiftui-by-example/17-drawing/how-to-render-a-swiftui-view-to-a-pdf.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -132,7 +132,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to render Markdown content in text",
   "desc": "How to render Markdown content in text",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-render-markdown-content-in-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -142,7 +142,7 @@ How to animate SF Symbols
   "title": "SwiftUI by Example > How to render a gradient",
   "desc": "How to render a gradient",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-a-gradient.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

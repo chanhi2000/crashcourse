@@ -35,7 +35,7 @@ head:
   "title": "HACKING WITH SWIFT",
   "desc": "100 Days of Swift",
   "link": "https://www.hackingwithswift.com/100",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```

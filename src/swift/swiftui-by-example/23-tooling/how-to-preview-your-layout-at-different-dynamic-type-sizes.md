@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to preview your layout at different Dynamic Type sizes",
   "desc": "How to preview your layout at different Dynamic Type sizes",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-preview-your-layout-at-different-dynamic-type-sizes",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

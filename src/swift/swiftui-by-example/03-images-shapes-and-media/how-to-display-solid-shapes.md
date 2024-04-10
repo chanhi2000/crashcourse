@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to display solid shapes",
   "desc": "How to display solid shapes",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-display-solid-shapes",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -107,7 +107,7 @@ Capsule()
   "title": "SwiftUI by Example > How to draw part of a solid shape using trim()",
   "desc": "How to draw part of a solid shape using trim()",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-part-of-a-solid-shape-using-trim.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -119,7 +119,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > How to display a bottom sheet",
   "desc": "How to display a bottom sheet",
   "link": "/swift/swiftui-by-example/15-presenting-views/how-to-display-a-bottom-sheet.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -129,7 +129,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > How to customize the display mode of NavigationSplitView",
   "desc": "How to customize the display mode of NavigationSplitView",
   "link": "/swift/swiftui-by-example/13-navigation/how-to-customize-the-display-mode-of-navigationsplitview.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -139,7 +139,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > SwiftUI’s built-in shapes",
   "desc": "SwiftUI’s built-in shapes",
   "link": "/swift/swiftui-by-example/17-drawing/swiftuis-built-in-shapes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Modifying state during view update, this will cause undefined behavior”",
   "desc": "How to fix “Modifying state during view update, this will cause undefined behavior”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

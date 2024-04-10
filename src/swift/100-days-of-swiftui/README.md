@@ -36,7 +36,7 @@ head:
   "title": "HACKING WITH SWIFT",
   "desc": "100 Days of SwiftUI",
   "link": "https://www.hackingwithswift.com/100/swiftui",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -95,7 +95,7 @@ This introductory day prepares you for the course, explains core concepts, and h
   "title": "Hacking with SwiftUI - Day 0",
   "desc": "Before you start",
   "link": "https://www.hackingwithswift.com/100/swiftui/0",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

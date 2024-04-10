@@ -49,7 +49,7 @@ The Clipboard API can be widely used in various Web applications, such as
 
 ## 🎨 2. How to use the Clipboard API
 
-The Clipboard API includes two main interfaces: `Clipboard` and `DataTransfer`. The Clipboard interface is used for operating system clipboards (such as the clipboard in Windows or macOS) and contains the following methods:
+The Clipboard API includes two main interfaces: `Clipboard` and `DataTransfer`. The Clipboard interface is used for operating system clipboards (such as the clipboard in <FontIcon icon="fa-brands fa-windows"/>Windows or <FontIcon icon="iconfont icon-macos"/>macOS) and contains the following methods:
 
 - `writeText(text: string): Promise<void>`: Copies text to the clipboard.
 - `readText(): Promise<string>`: Reads text from the clipboard.

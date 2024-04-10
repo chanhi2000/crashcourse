@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Introduction to using Core Data with SwiftUI",
   "desc": "Introduction to using Core Data with SwiftUI",
   "link": "https://hackingwithswift.com/quick-start/swiftui/introduction-to-using-core-data-with-swiftui",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

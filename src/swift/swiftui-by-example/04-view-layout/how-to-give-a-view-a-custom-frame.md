@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to give a view a custom frame",
   "desc": "How to give a view a custom frame",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-give-a-view-a-custom-frame",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -95,7 +95,7 @@ if you want a view to go under the safe area, make sure you add the `ignoresSafe
   "title": "SwiftUI by Example > How to create and compose custom views",
   "desc": "How to create and compose custom views",
   "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-and-compose-custom-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -105,7 +105,7 @@ if you want a view to go under the safe area, make sure you add the `ignoresSafe
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -115,7 +115,7 @@ if you want a view to go under the safe area, make sure you add the `ignoresSafe
   "title": "SwiftUI by Example > How to use Dynamic Type with a custom font",
   "desc": "How to use Dynamic Type with a custom font",
   "link": "/swift/swiftui-by-example/22-accessibility/how-to-use-dynamic-type-with-a-custom-font.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -125,7 +125,7 @@ if you want a view to go under the safe area, make sure you add the `ignoresSafe
   "title": "SwiftUI by Example > How to create a custom transition",
   "desc": "How to create a custom transition",
   "link": "/swift/swiftui-by-example/18-animation/how-to-create-a-custom-transition.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -135,7 +135,7 @@ if you want a view to go under the safe area, make sure you add the `ignoresSafe
   "title": "SwiftUI by Example > How to convert a SwiftUI view to an image",
   "desc": "How to convert a SwiftUI view to an image",
   "link": "/swift/swiftui-by-example/17-drawing/how-to-convert-a-swiftui-view-to-an-image.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to group views together",
   "desc": "How to group views together",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-group-views-together",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

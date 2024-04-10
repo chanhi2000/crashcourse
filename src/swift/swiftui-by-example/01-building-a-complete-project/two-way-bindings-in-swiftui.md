@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Two-way bindings in SwiftUI",
   "desc": "Two-way bindings in SwiftUI",
   "link": "https://hackingwithswift.com/quick-start/swiftui/two-way-bindings-in-swiftui",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -196,7 +196,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > Working with forms",
   "desc": "Working with forms",
   "link": "/swift/swiftui-by-example/11-forms/working-with-forms.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -206,7 +206,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > Basic form design",
   "desc": "Basic form design",
   "link": "/swift/swiftui-by-example/11-forms/basic-form-design.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -216,7 +216,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > How to create a toggle switch",
   "desc": "How to create a toggle switch",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-toggle-switch.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -226,7 +226,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > How to read text from a TextField",
   "desc": "How to read text from a TextField",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-read-text-from-a-textfield.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -236,7 +236,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > How to animate changes in binding values",
   "desc": "How to animate changes in binding values",
   "link": "/swift/swiftui-by-example/18-animation/how-to-animate-changes-in-binding-values.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -246,7 +246,7 @@ We added a button inside `ItemDetail` and it was blue text on a clear background
   "title": "SwiftUI by Example > How to create a segmented control and read values from it",
   "desc": "How to create a segmented control and read values from it",
   "link": "/swift/swiftui-by-example/006-user-interface-controls/how-to-create-a-segmented-control-and-read-values-from-it.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

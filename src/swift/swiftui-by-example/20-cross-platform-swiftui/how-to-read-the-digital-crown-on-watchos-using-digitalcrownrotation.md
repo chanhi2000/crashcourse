@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to read the Digital Crown on watchOS using digitalCrownRotation()",
   "desc": "How to read the Digital Crown on watchOS using digitalCrownRotation()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

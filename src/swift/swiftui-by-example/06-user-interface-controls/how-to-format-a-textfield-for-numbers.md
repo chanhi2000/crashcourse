@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to format a TextField for numbers",
   "desc": "How to format a TextField for numbers",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-format-a-textfield-for-numbers",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -77,7 +77,7 @@ We also have an [iOS version of this tutorial](https://www.raywenderlich.com/165
 
 React Native uses [Node.js](https://nodejs.org/), a JavaScript runtime, to build your JavaScript code. React Native also requires a recent version of the Java SE Development Kit (JDK) to run on Android. Follow the instructions for your system to make sure you install the required versions.
 
-#### MacOS
+#### <FontIcon icon="iconfont icon-macos"/>MacOS
 
 First install Homebrew using the instructions on the [Homebrew website](http://brew.sh/). Then install Node.js by executing the following in Terminal:
 

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to hide and reveal content using DisclosureGroup",
   "desc": "How to hide and reveal content using DisclosureGroup",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-hide-and-reveal-content-using-disclosuregroup",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

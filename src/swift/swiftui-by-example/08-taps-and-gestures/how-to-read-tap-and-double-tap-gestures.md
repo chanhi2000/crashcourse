@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to read tap and double-tap gestures",
   "desc": "How to read tap and double-tap gestures",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-read-tap-and-double-tap-gestures",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

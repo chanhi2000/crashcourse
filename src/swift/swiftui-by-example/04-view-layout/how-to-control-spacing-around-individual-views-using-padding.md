@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to control spacing around individual views using padding",
   "desc": "How to control spacing around individual views using padding",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-control-spacing-around-individual-views-using-padding",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -119,7 +119,7 @@ The text “Using” and “SwiftUI” placed a long distance above the text “
   "title": "SwiftUI by Example > How to color the padding around a view",
   "desc": "How to color the padding around a view",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-color-the-padding-around-a-view.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -129,7 +129,7 @@ The text “Using” and “SwiftUI” placed a long distance above the text “
   "title": "SwiftUI by Example > How to change the tint color for individual list rows",
   "desc": "How to change the tint color for individual list rows",
   "link": "/swift/swiftui-by-example/10-lists/how-to-change-the-tint-color-for-individual-list-rows.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -139,7 +139,7 @@ The text “Using” and “SwiftUI” placed a long distance above the text “
   "title": "SwiftUI by Example > How to add extra padding to the safe area",
   "desc": "How to add extra padding to the safe area",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -149,7 +149,7 @@ The text “Using” and “SwiftUI” placed a long distance above the text “
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -159,7 +159,7 @@ The text “Using” and “SwiftUI” placed a long distance above the text “
   "title": "SwiftUI by Example > How to draw a shadow around a view",
   "desc": "How to draw a shadow around a view",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-shadow-around-a-view.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

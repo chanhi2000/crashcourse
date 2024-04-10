@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to adjust text alignment using multilineTextAlignment()",
   "desc": "How to adjust text alignment using multilineTextAlignment()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -100,7 +100,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to customize stack layouts with alignment and spacing",
   "desc": "How to customize stack layouts with alignment and spacing",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -110,7 +110,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust the position of a view using its offset",
   "desc": "How to adjust the position of a view using its offset",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-position-of-a-view-using-its-offset.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -120,7 +120,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust the opacity of a view",
   "desc": "How to adjust the opacity of a view",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-opacity-of-a-view.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -130,7 +130,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust views by tinting, and desaturating, and more",
   "desc": "How to adjust views by tinting, and desaturating, and more",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-views-by-tinting-and-desaturating-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -140,7 +140,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to adjust List row separator insets",
   "desc": "How to adjust List row separator insets",
   "link": "/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-insets.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

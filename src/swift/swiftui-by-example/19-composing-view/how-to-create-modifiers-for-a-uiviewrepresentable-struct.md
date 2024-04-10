@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to create modifiers for a UIViewRepresentable struct",
   "desc": "How to create modifiers for a UIViewRepresentable struct",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-modifiers-for-a-uiviewrepresentable-struct",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

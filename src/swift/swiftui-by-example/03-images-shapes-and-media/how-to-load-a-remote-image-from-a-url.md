@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to load a remote image from a URL",
   "desc": "How to load a remote image from a URL",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-load-a-remote-image-from-a-url",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -137,7 +137,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to save and load NavigationStack paths using Codable",
   "desc": "How to save and load NavigationStack paths using Codable",
   "link": "/swift/swiftui-by-example/13-navigation/how-to-save-and-load-navigationstack-paths-using-codable.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -147,7 +147,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to lazy load views using LazyVStack and LazyHStack",
   "desc": "How to lazy load views using LazyVStack and LazyHStack",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -157,7 +157,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
   "desc": "How to load custom colors from an asset catalog",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -167,7 +167,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to draw images using Image views",
   "desc": "How to draw images using Image views",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -177,7 +177,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to convert a SwiftUI view to an image",
   "desc": "How to convert a SwiftUI view to an image",
   "link": "/swift/swiftui-by-example/17-drawing/how-to-convert-a-swiftui-view-to-an-image.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

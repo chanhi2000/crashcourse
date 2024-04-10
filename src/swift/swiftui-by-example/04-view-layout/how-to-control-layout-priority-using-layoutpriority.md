@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to control layout priority using layoutPriority()",
   "desc": "How to control layout priority using layoutPriority()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-control-layout-priority-using-layoutpriority",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -92,7 +92,7 @@ Obviously the result of that depends on what size screen youâ€™re using, but itâ
   "title": "SwiftUI by Example > How to create a custom layout using the Layout protocol",
   "desc": "How to create a custom layout using the Layout protocol",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -102,7 +102,7 @@ Obviously the result of that depends on what size screen youâ€™re using, but itâ
   "title": "SwiftUI by Example > How to control spacing around individual views using padding",
   "desc": "How to control spacing around individual views using padding",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-control-spacing-around-individual-views-using-padding.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -112,7 +112,7 @@ Obviously the result of that depends on what size screen youâ€™re using, but itâ
   "title": "SwiftUI by Example > How to create a segmented control and read values from it",
   "desc": "How to create a segmented control and read values from it",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-segmented-control-and-read-values-from-it.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -122,7 +122,7 @@ Obviously the result of that depends on what size screen youâ€™re using, but itâ
   "title": "SwiftUI by Example > How to control the tappable area of a view using contentShape()",
   "desc": "How to control the tappable area of a view using contentShape()",
   "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-control-the-tappable-area-of-a-view-using-contentshape.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

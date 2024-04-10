@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to create multi-column lists using Table",
   "desc": "How to create multi-column lists using Table",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-multi-column-lists-using-table",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -288,7 +288,7 @@ You can if you want bind an isExpanded Boolean to DisclosureTableRow to track wh
   "title": "SwiftUI by Example > How to create expanding lists",
   "desc": "How to create expanding lists",
   "link": "/swift/swiftui-by-example/10-lists/how-to-create-expanding-lists.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -298,7 +298,7 @@ You can if you want bind an isExpanded Boolean to DisclosureTableRow to track wh
   "title": "SwiftUI by Example > How to create grouped and inset grouped lists",
   "desc": "How to create grouped and inset grouped lists",
   "link": "/swift/swiftui-by-example/10-lists/how-to-create-grouped-and-inset-grouped-lists.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -308,7 +308,7 @@ You can if you want bind an isExpanded Boolean to DisclosureTableRow to track wh
   "title": "SwiftUI by Example > Working with lists",
   "desc": "Working with lists",
   "link": "/swift/swiftui-by-example/10-lists/working-with-lists.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -318,7 +318,7 @@ You can if you want bind an isExpanded Boolean to DisclosureTableRow to track wh
   "title": "SwiftUI by Example > How to get translucent lists on macOS",
   "desc": "How to get translucent lists on macOS",
   "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-get-translucent-lists-on-macos.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -328,7 +328,7 @@ You can if you want bind an isExpanded Boolean to DisclosureTableRow to track wh
   "title": "SwiftUI by Example > How to make carousel lists on watchOS",
   "desc": "How to make carousel lists on watchOS",
   "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-make-carousel-lists-on-watchos.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

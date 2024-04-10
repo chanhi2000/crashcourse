@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to change the order of view layering using Z index",
   "desc": "How to change the order of view layering using Z index",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-change-the-order-of-view-layering-using-z-index",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -88,7 +88,7 @@ The `zIndex()` modifier only affects drawing order inside the current `ZStack`, 
   "title": "SwiftUI by Example > Adding items to an order with @EnvironmentObject",
   "desc": "Adding items to an order with @EnvironmentObject",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/adding-items-to-an-order-with-environmentobject.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -98,7 +98,7 @@ The `zIndex()` modifier only affects drawing order inside the current `ZStack`, 
   "title": "SwiftUI by Example > How to find which data change is causing a SwiftUI view to update",
   "desc": "How to find which data change is causing a SwiftUI view to update",
   "link": "/swift/swiftui-by-example/23-tooling/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -108,7 +108,7 @@ The `zIndex()` modifier only affects drawing order inside the current `ZStack`, 
   "title": "SwiftUI by Example > How to dynamically change between VStack and HStack",
   "desc": "How to dynamically change between VStack and HStack",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -118,7 +118,7 @@ The `zIndex()` modifier only affects drawing order inside the current `ZStack`, 
   "title": "SwiftUI by Example > How to change the background color of List, TextEditor, and more",
   "desc": "How to change the background color of List, TextEditor, and more",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-change-the-background-color-of-list-texteditor-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -128,7 +128,7 @@ The `zIndex()` modifier only affects drawing order inside the current `ZStack`, 
   "title": "SwiftUI by Example > How to change the tint color for individual list rows",
   "desc": "How to change the tint color for individual list rows",
   "link": "/swift/swiftui-by-example/10-lists/how-to-change-the-tint-color-for-individual-list-rows.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

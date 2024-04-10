@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to run an asynchronous task when a view is shown",
   "desc": "How to run an asynchronous task when a view is shown",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-run-an-asynchronous-task-when-a-view-is-shown",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

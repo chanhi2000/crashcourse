@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
   "desc": "How to load custom colors from an asset catalog",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-load-custom-colors-from-an-asset-catalog",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -81,7 +81,7 @@ With the newer Xcode 15 variant, the first letter of your color name is lowercas
   "title": "SwiftUI by Example > How to get custom colors and transparency with SF Symbols",
   "desc": "How to get custom colors and transparency with SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-get-custom-colors-and-transparency-with-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -91,7 +91,7 @@ With the newer Xcode 15 variant, the first letter of your color name is lowercas
   "title": "SwiftUI by Example > Polishing designs with fonts and colors",
   "desc": "Polishing designs with fonts and colors",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/polishing-designs-with-fonts-and-colors.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -101,7 +101,7 @@ With the newer Xcode 15 variant, the first letter of your color name is lowercas
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -111,7 +111,7 @@ With the newer Xcode 15 variant, the first letter of your color name is lowercas
   "title": "SwiftUI by Example > How to lazy load views using LazyVStack and LazyHStack",
   "desc": "How to lazy load views using LazyVStack and LazyHStack",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -121,7 +121,7 @@ With the newer Xcode 15 variant, the first letter of your color name is lowercas
   "title": "SwiftUI by Example > How to load a remote image from a URL",
   "desc": "How to load a remote image from a URL",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-a-remote-image-from-a-url.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to add bar items to a navigation view",
   "desc": "How to add bar items to a navigation view",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

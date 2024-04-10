@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Fatal error: No ObservableObject of type SomeType found”",
   "desc": "How to fix “Fatal error: No ObservableObject of type SomeType found”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

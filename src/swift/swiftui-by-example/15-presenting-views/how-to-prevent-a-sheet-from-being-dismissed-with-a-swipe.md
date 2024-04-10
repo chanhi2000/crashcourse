@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to prevent a sheet from being dismissed with a swipe",
   "desc": "How to prevent a sheet from being dismissed with a swipe",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

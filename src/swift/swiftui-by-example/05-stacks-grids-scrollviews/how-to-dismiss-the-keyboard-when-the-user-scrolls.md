@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to dismiss the keyboard when the user scrolls",
   "desc": "How to dismiss the keyboard when the user scrolls",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-dismiss-the-keyboard-when-the-user-scrolls",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -95,7 +95,7 @@ According to Apple’s documentation, text editors should use interactive dismis
   "title": "SwiftUI by Example > How to dismiss the keyboard for a TextField",
   "desc": "How to dismiss the keyboard for a TextField",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-dismiss-the-keyboard-for-a-textfield.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -105,7 +105,7 @@ According to Apple’s documentation, text editors should use interactive dismis
   "title": "SwiftUI by Example > How to make a view dismiss itself",
   "desc": "How to make a view dismiss itself",
   "link": "/swift/swiftui-by-example/15-presenting-views/how-to-make-a-view-dismiss-itself.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -115,7 +115,7 @@ According to Apple’s documentation, text editors should use interactive dismis
   "title": "SwiftUI by Example > How to add a toolbar to the keyboard",
   "desc": "How to add a toolbar to the keyboard",
   "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-a-toolbar-to-the-keyboard.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -125,7 +125,7 @@ According to Apple’s documentation, text editors should use interactive dismis
   "title": "SwiftUI by Example > How to add keyboard shortcuts using keyboardShortcut()",
   "desc": "How to add keyboard shortcuts using keyboardShortcut()",
   "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-keyboard-shortcuts-using-keyboardshortcut.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -135,7 +135,7 @@ According to Apple’s documentation, text editors should use interactive dismis
   "title": "SwiftUI by Example > How to make a TextField expand vertically as the user types",
   "desc": "How to make a TextField expand vertically as the user types",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-expand-vertically-as-the-user-types.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

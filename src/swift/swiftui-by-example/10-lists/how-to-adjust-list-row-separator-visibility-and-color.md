@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to adjust List row separator visibility and color",
   "desc": "How to adjust List row separator visibility and color",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-adjust-list-row-separator-visibility-and-color",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to export files using fileExporter()",
   "desc": "How to export files using fileExporter()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-export-files-using-fileexporter",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

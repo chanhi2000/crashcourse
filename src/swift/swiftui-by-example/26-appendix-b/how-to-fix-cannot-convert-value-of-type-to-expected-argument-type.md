@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
   "desc": "How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to push a new view onto a NavigationStack",
   "desc": "How to push a new view onto a NavigationStack",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-push-a-new-view-onto-a-navigationstack",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

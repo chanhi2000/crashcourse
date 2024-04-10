@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix a Form Picker or a NavigationLink that isn’t tappable",
   "desc": "How to fix a Form Picker or a NavigationLink that isn’t tappable",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Adding TabView and tabItem()",
   "desc": "Adding TabView and tabItem()",
   "link": "https://hackingwithswift.com/quick-start/swiftui/adding-tabview-and-tabitem",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -130,7 +130,7 @@ In the background, any view that relies on an environment object will be refresh
   "title": "SwiftUI by Example > How to embed views in a tab bar using TabView",
   "desc": "How to embed views in a tab bar using TabView",
   "link": "/swift/swiftui-by-example/12-containers/how-to-embed-views-in-a-tab-bar-using-tabview.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"  
 }
 ```

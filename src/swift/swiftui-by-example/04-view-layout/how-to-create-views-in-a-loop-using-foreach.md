@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to create views in a loop using ForEach",
   "desc": "How to create views in a loop using ForEach",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-views-in-a-loop-using-foreach",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -167,7 +167,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to create a List or a ForEach from a binding",
   "desc": "How to create a List or a ForEach from a binding",
   "link": "/swift/swiftui-by-example/10-lists/how-to-create-a-list-or-a-foreach-from-a-binding.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -177,7 +177,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > Composing views to create a list row",
   "desc": "Composing views to create a list row",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/composing-views-to-create-a-list-row.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -187,7 +187,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to create and compose custom views",
   "desc": "How to create and compose custom views",
   "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-and-compose-custom-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -197,7 +197,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to position views in a grid using LazyVGrid and LazyHGrid",
   "desc": "How to position views in a grid using LazyVGrid and LazyHGrid",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -207,7 +207,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to create multi-column lists using Table",
   "desc": "How to create multi-column lists using Table",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-multi-column-lists-using-table.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

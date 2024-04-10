@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to scale a view up or down",
   "desc": "How to scale a view up or down",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-scale-a-view-up-or-down",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

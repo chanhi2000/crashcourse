@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to render Markdown content in text",
   "desc": "How to render Markdown content in text",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-render-markdown-content-in-text",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -106,7 +106,7 @@ If you wanted the original text unchanged – i.e., you wanted the raw, unformat
   "title": "SwiftUI by Example > How to render a SwiftUI view to a PDF",
   "desc": "How to render a SwiftUI view to a PDF",
   "link": "/swift/swiftui-by-example/17-drawing/how-to-render-a-swiftui-view-to-a-pdf.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -116,7 +116,7 @@ If you wanted the original text unchanged – i.e., you wanted the raw, unformat
   "title": "SwiftUI by Example > How to render a gradient",
   "desc": "How to render a gradient",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-a-gradient.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -126,7 +126,7 @@ If you wanted the original text unchanged – i.e., you wanted the raw, unformat
   "title": "SwiftUI by Example > How to render images using SF Symbols",
   "desc": "How to render images using SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-images-using-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -136,7 +136,7 @@ If you wanted the original text unchanged – i.e., you wanted the raw, unformat
   "title": "SwiftUI by Example > How to format text inside text views",
   "desc": "How to format text inside text views",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -146,7 +146,7 @@ If you wanted the original text unchanged – i.e., you wanted the raw, unformat
   "title": "SwiftUI by Example > How to create scrolling pages of content using tabViewStyle()",
   "desc": "How to create scrolling pages of content using tabViewStyle()",
   "link": "/swift/swiftui-by-example/12-containers/how-to-create-scrolling-pages-of-content-using-tabviewstyle.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

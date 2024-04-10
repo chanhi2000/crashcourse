@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Composing views to create a list row",
   "desc": "Composing views to create a list row",
   "link": "https://hackingwithswift.com/quick-start/swiftui/composing-views-to-create-a-list-row",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -183,7 +183,7 @@ If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, yo
   "title": "SwiftUI by Example > How to create and compose custom views",
   "desc": "How to create and compose custom views",
   "link": "https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-and-compose-custom-views",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -193,7 +193,7 @@ If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, yo
   "title": "SwiftUI by Example > How to draw images using Image views",
   "desc": "How to draw images using Image views",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -203,7 +203,7 @@ If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, yo
   "title": "SwiftUI by Example > How to create stacks using VStack and HStack",
   "desc": "How to create stacks using VStack and HStack",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

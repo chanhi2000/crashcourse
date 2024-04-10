@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to use @ObservedObject to manage state from external objects",
   "desc": "How to use @ObservedObject to manage state from external objects",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-use-observedobject-to-manage-state-from-external-objects",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

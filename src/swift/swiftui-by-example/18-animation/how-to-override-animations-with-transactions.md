@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to override animations with transactions",
   "desc": "How to override animations with transactions",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-override-animations-with-transactions",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

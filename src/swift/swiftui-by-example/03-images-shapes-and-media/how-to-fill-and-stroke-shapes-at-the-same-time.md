@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to fill and stroke shapes at the same time",
   "desc": "How to fill and stroke shapes at the same time",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -142,7 +142,7 @@ extension InsettableShape {
   "title": "SwiftUI by Example > How to make two gestures recognize at the same time using simultaneousGesture()",
   "desc": "How to make two gestures recognize at the same time using simultaneousGesture()",
   "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -154,7 +154,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > How to make two views the same width or height",
   "desc": "How to make two views the same width or height",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-make-two-views-the-same-width-or-height.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -164,7 +164,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > SwiftUI’s built-in shapes",
   "desc": "SwiftUI’s built-in shapes",
   "link": "/swift/swiftui-by-example/17-drawing/swiftuis-built-in-shapes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -174,7 +174,7 @@ How to combine shapes to create new shapes
   "title": "SwiftUI by Example > How to display solid shapes",
   "desc": "How to display solid shapes",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-display-solid-shapes.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

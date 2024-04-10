@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to ask the user to review your app",
   "desc": "How to ask the user to review your app",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-ask-the-user-to-review-your-app",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

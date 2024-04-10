@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to change the background color of List, TextEditor, and more",
   "desc": "How to change the background color of List, TextEditor, and more",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-change-the-background-color-of-list-texteditor-and-more",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

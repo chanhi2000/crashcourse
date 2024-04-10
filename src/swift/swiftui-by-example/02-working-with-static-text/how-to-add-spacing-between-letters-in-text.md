@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to add spacing between letters in text",
   "desc": "How to add spacing between letters in text",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-add-spacing-between-letters-in-text",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -101,7 +101,7 @@ That uses the text string “ffi” in American Typewriter, which has a ligature
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -111,7 +111,7 @@ That uses the text string “ffi” in American Typewriter, which has a ligature
   "title": "SwiftUI by Example > How to customize stack layouts with alignment and spacing",
   "desc": "How to customize stack layouts with alignment and spacing",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -121,7 +121,7 @@ That uses the text string “ffi” in American Typewriter, which has a ligature
   "title": "SwiftUI by Example > How to control spacing around individual views using padding",
   "desc": "How to control spacing around individual views using padding",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-control-spacing-around-individual-views-using-padding.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -131,7 +131,7 @@ That uses the text string “ffi” in American Typewriter, which has a ligature
   "title": "SwiftUI by Example > How to format text inside text views",
   "desc": "How to format text inside text views",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -141,7 +141,7 @@ That uses the text string “ffi” in American Typewriter, which has a ligature
   "title": "SwiftUI by Example > How to automatically switch between HStack and VStack based on size class",
   "desc": "How to automatically switch between HStack and VStack based on size class",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to flash the scroll bar indicators of a ScrollView or List",
   "desc": "How to flash the scroll bar indicators of a ScrollView or List",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -109,7 +109,7 @@ This same code works with `List` in just the same way it works with `ScrollView`
   "title": "SwiftUI by Example > How to indent the content or scroll indicators in a ScrollView",
   "desc": "How to indent the content or scroll indicators in a ScrollView",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -119,7 +119,7 @@ This same code works with `List` in just the same way it works with `ScrollView`
   "title": "SwiftUI by Example > How to hide the scroll indicators in ScrollView, List, and more",
   "desc": "How to hide the scroll indicators in ScrollView, List, and more",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -129,7 +129,7 @@ This same code works with `List` in just the same way it works with `ScrollView`
   "title": "SwiftUI by Example > How to scroll to a specific row in a list",
   "desc": "How to scroll to a specific row in a list",
   "link": "/swift/swiftui-by-example/10-lists/how-to-scroll-to-a-specific-row-in-a-list.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -139,7 +139,7 @@ This same code works with `List` in just the same way it works with `ScrollView`
   "title": "SwiftUI by Example > How to make views scroll with a custom transition",
   "desc": "How to make views scroll with a custom transition",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-views-scroll-with-a-custom-transition.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -149,7 +149,7 @@ This same code works with `List` in just the same way it works with `ScrollView`
   "title": "SwiftUI by Example > How to make a scroll view move to a location using ScrollViewReader",
   "desc": "How to make a scroll view move to a location using ScrollViewReader",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

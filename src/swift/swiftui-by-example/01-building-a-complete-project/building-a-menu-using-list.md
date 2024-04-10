@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > Building a menu using List",
   "desc": "Building a menu using List",
   "link": "https://hackingwithswift.com/quick-start/swiftui/building-a-menu-using-list",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -245,7 +245,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > Working with lists",
   "desc": "Working with lists",
   "link": "/swift/swiftui-by-example/10-lists.md#working-with-lists",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -255,7 +255,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > How to create a list of dynamic items",
   "desc": "How to create a list of dynamic items",
   "link": "/swift/swiftui-by-example/10-lists/how-to-create-a-list-of-dynamic-items.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -265,7 +265,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > How to embed a view in a navigation view",
   "desc": "How to embed a view in a navigation view",
   "link": "/swift/swiftui-by-example/13-navigation/how-to-embed-a-view-in-a-navigation-view.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -275,7 +275,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > How to create views in a loop using ForEach",
   "desc": "How to create views in a loop using ForEach",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-create-views-in-a-loop-using-foreach.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -285,7 +285,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > How to add sections to a list",
   "desc": "How to add sections to a list",
   "link": "/swift/swiftui-by-example/10-lists/how-to-add-sections-to-a-list.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -295,7 +295,7 @@ By default SwiftUI’s lists use the “inset grouped” style of `UITableView`,
   "title": "SwiftUI by Example > How to create grouped and inset grouped lists",
   "desc": "How to create grouped and inset grouped lists",
   "link": "/swift/swiftui-by-example/10-lists/how-to-create-grouped-and-inset-grouped-lists.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

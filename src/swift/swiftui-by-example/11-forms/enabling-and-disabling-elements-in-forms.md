@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Enabling and disabling elements in forms",
   "desc": "Enabling and disabling elements in forms",
   "link": "https://hackingwithswift.com/quick-start/swiftui/enabling-and-disabling-elements-in-forms",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Missing argument for parameter 'content' in call”",
   "desc": "How to fix “Missing argument for parameter 'content' in call”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-missing-argument-for-parameter-content-in-call",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

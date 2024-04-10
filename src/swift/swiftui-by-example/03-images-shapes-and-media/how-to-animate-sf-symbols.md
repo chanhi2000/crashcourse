@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to animate SF Symbols",
   "desc": "How to animate SF Symbols",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-animate-sf-symbols",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -213,7 +213,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to get custom colors and transparency with SF Symbols",
   "desc": "How to get custom colors and transparency with SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-get-custom-colors-and-transparency-with-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -223,7 +223,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to render images using SF Symbols",
   "desc": "How to render images using SF Symbols",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-images-using-sf-symbols.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -233,7 +233,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to animate the size of text",
   "desc": "How to animate the size of text",
   "link": "/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -243,7 +243,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to animate changes in binding values",
   "desc": "How to animate changes in binding values",
   "link": "/swift/swiftui-by-example/18-animation/how-to-animate-changes-in-binding-values.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -253,7 +253,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

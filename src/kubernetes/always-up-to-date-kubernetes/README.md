@@ -41,9 +41,9 @@ head:
 
 - [01. Kubernetes](01.md)
 - [02. Minikube 설치하기](02.md)
-  - [리눅스](02A.md)
-  - [macOS](02B.md)
-  - [Windows](02C.md)
+  - [<FontIcon icon="fa-brands fa-linux"/>리눅스](02A.md)
+  - [<FontIcon icon="iconfont icon-macos"/>macOS](02B.md)
+  - [<FontIcon icon="fa-brands fa-windows"/>Windows](02C.md)
 - [03. Nginx 웹서버 실행하기](03.md)
   - [Minikube 클러스터 생성하기](03A.md)
   - [Nginx 웹서버 실행하기](03B.md)

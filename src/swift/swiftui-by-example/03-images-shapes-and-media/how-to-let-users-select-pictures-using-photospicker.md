@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to let users select pictures using PhotosPicker",
   "desc": "How to let users select pictures using PhotosPicker",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-let-users-select-pictures-using-photospicker",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -145,7 +145,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to let users import videos using PhotosPicker",
   "desc": "How to let users import videos using PhotosPicker",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -155,7 +155,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to let users select text",
   "desc": "How to let users select text",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-let-users-select-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -165,7 +165,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to let users select a color with ColorPicker",
   "desc": "How to let users select a color with ColorPicker",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-let-users-select-a-color-with-colorpicker.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -175,7 +175,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to let the user select multiple dates",
   "desc": "How to let the user select multiple dates",
   "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -185,7 +185,7 @@ struct ContentView: View {
   "title": "SwiftUI by Example > How to let users pick options from a menu",
   "desc": "How to let users pick options from a menu",
   "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-let-users-pick-options-from-a-menu.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to detect the Reduce Motion accessibility setting",
   "desc": "How to detect the Reduce Motion accessibility setting",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-detect-the-reduce-motion-accessibility-setting",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

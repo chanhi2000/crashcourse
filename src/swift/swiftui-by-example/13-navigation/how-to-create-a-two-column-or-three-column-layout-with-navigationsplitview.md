@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to create a two-column or three-column layout with NavigationSplitView",
   "desc": "How to create a two-column or three-column layout with NavigationSplitView",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

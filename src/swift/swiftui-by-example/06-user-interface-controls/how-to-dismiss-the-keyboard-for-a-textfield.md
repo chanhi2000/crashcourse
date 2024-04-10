@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to dismiss the keyboard for a TextField",
   "desc": "How to dismiss the keyboard for a TextField",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-dismiss-the-keyboard-for-a-textfield",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

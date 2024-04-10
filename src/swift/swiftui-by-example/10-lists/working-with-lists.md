@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Working with lists",
   "desc": "Working with lists",
   "link": "https://hackingwithswift.com/quick-start/swiftui/working-with-lists",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

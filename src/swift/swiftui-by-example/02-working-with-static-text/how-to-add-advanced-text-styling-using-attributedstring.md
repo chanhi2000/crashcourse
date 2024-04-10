@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to add advanced text styling using AttributedString",
   "desc": "How to add advanced text styling using AttributedString",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-add-advanced-text-styling-using-attributedstring",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -283,7 +283,7 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
   "title": "SwiftUI by Example > How to stack modifiers to create more advanced effects",
   "desc": "How to stack modifiers to create more advanced effects",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-stack-modifiers-to-create-more-advanced-effects.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -293,7 +293,7 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
   "title": "SwiftUI by Example > How to format text inside text views",
   "desc": "How to format text inside text views",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -303,7 +303,7 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
   "title": "SwiftUI by Example > How to add spacing between letters in text",
   "desc": "How to add spacing between letters in text",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-add-spacing-between-letters-in-text.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -313,7 +313,7 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
   "title": "SwiftUI by Example > How to align form text and controls neatly with LabeledContent",
   "desc": "How to align form text and controls neatly with LabeledContent",
   "link": "/swift/swiftui-by-example/11-forms/how-to-align-form-text-and-controls-neatly-with-labeledcontent.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -323,7 +323,7 @@ If you explore the API using Xcode’s autocomplete, you’ll see all sorts of o
   "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
   "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

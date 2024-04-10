@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to create a picker and read values from it",
   "desc": "How to create a picker and read values from it",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-create-a-picker-and-read-values-from-it",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

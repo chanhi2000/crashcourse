@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > What is the @UIApplicationDelegateAdaptor property wrapper?",
   "desc": "What is the @UIApplicationDelegateAdaptor property wrapper?",
   "link": "https://hackingwithswift.com/quick-start/swiftui/what-is-the-uiapplicationdelegateadaptor-property-wrapper",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

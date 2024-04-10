@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > SwiftUI tutorial: Building a complete project",
   "desc": "SwiftUI tutorial: Building a complete project",
   "link": "https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -98,7 +98,7 @@ At the end of each chapter I’ve added a “Further reading” section that sug
   "title": "SwiftUI by Example > Wrap up: our SwiftUI project is complete",
   "desc": "Wrap up: our SwiftUI project is complete",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/wrap-up-our-swiftui-project-is-complete.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -108,7 +108,7 @@ At the end of each chapter I’ve added a “Further reading” section that sug
   "title": "SwiftUI by Example > Building a menu using List",
   "desc": "Building a menu using List",
   "link": "/swift/swiftui-by-example/01-building-a-complete-project/building-a-menu-using-list.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -118,7 +118,7 @@ At the end of each chapter I’ve added a “Further reading” section that sug
   "title": "SwiftUI by Example > – Answering the big question: should you learn SwiftUI, UIKit, or both?",
   "desc": "Answering the big question: should you learn SwiftUI, UIKit, or both?",
   "link": "/swift/swiftui-by-example/00-introduction/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -128,7 +128,7 @@ At the end of each chapter I’ve added a “Further reading” section that sug
   "title": "SwiftUI by Example > – Frequently asked questions about SwiftUI",
   "desc": "Frequently asked questions about SwiftUI",
   "link": "/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -138,7 +138,7 @@ At the end of each chapter I’ve added a “Further reading” section that sug
   "title": "SwiftUI by Example > SwiftUI tips and tricks",
   "desc": "SwiftUI tips and tricks",
   "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

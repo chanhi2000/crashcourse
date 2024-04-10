@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > Learn once, apply anywhere",
   "desc": "Learn once, apply anywhere",
   "link": "https://hackingwithswift.com/quick-start/swiftui/learn-once-apply-anywhere",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

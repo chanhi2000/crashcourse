@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
   "desc": "How to dynamically adjust the appearance of a view based on its size and location",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -140,7 +140,7 @@ The modifier’s name, `visualEffect()`, should make it clear that any adjustmen
   "title": "SwiftUI by Example > How to adjust the size of a view relative to its container",
   "desc": "How to adjust the size of a view relative to its container",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-containe",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -150,7 +150,7 @@ The modifier’s name, `visualEffect()`, should make it clear that any adjustmen
   "title": "SwiftUI by Example > How to automatically switch between HStack and VStack based on size class",
   "desc": "How to automatically switch between HStack and VStack based on size class",
   "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -160,7 +160,7 @@ The modifier’s name, `visualEffect()`, should make it clear that any adjustmen
   "title": "SwiftUI by Example > How to dynamically adjust the color of an SF Symbol",
   "desc": "How to dynamically adjust the color of an SF Symbol",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-dynamically-adjust-the-color-of-an-sf-symbol.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -170,7 +170,7 @@ The modifier’s name, `visualEffect()`, should make it clear that any adjustmen
   "title": "SwiftUI by Example > How to adjust the position of a view using its offset",
   "desc": "How to adjust the position of a view using its offset",
   "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-position-of-a-view-using-its-offset.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -180,7 +180,7 @@ The modifier’s name, `visualEffect()`, should make it clear that any adjustmen
   "title": "SwiftUI by Example > How to create a document-based app using FileDocument and DocumentGroup",
   "desc": "How to create a document-based app using FileDocument and DocumentGroup",
   "link": "/swift/swiftui-by-example/21-data/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

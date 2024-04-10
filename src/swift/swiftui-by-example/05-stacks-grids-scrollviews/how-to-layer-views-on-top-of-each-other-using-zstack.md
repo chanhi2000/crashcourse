@@ -29,7 +29,7 @@ head:
   "title": "SwiftUI by Example",
   "desc": "Back to Home",
   "link": "/swift/swiftui-by-example/README.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ head:
   "title": "SwiftUI by Example > How to layer views on top of each other using ZStack",
   "desc": "How to layer views on top of each other using ZStack",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-layer-views-on-top-of-each-other-using-zstack",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -95,7 +95,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > How to use images and other views as a backgrounds",
   "desc": "How to use images and other views as a backgrounds",
   "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-use-images-and-other-views-as-a-backgrounds.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -105,7 +105,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > How to show different images and other views in light or dark mode",
   "desc": "How to show different images and other views in light or dark mode",
   "link": "/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -115,7 +115,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > How to hide the home indicator and other system UI",
   "desc": "How to hide the home indicator and other system UI",
   "link": "/swift/swiftui-by-example/04-view-layout/how-to-hide-the-home-indicator-and-other-system-ui.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
@@ -125,7 +125,7 @@ How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPC
   "title": "SwiftUI by Example > How to hide the tab bar, navigation bar, or other toolbars",
   "desc": "How to hide the tab bar, navigation bar, or other toolbars",
   "link": "/swift/swiftui-by-example/12-containers/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.md",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

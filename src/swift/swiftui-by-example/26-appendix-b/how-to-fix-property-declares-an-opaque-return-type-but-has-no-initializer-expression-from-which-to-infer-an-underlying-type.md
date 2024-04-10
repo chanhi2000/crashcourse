@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
   "desc": "How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

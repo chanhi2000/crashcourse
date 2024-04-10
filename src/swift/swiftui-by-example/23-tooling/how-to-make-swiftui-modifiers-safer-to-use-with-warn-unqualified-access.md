@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
   "desc": "How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```

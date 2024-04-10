@@ -133,6 +133,10 @@ export const navbarEn = navbar([
         text: 'OpenCV – Python 고급 기법 프로그래밍',
         link: '/python/opencv-advacned/README.md',
         icon: 'fa-brands fa-python',
+      }, {
+        text: '요즘 IT 블로그 - Python 관련',
+        link: '/python/yozm/README.md',
+        icon: 'fa-brands fa-python',
       }
     ],
   }, {

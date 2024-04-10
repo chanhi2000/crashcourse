@@ -33,7 +33,7 @@ head:
   "title": "SwiftUI by Example > How to fix “Ambiguous reference to member 'buildBlock()’”",
   "desc": "How to fix “Ambiguous reference to member 'buildBlock()’”",
   "link": "https://hackingwithswift.com/quick-start/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock",
-  "logo": "https://www.hackingwithswift.com/favicon-96x96.png",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
