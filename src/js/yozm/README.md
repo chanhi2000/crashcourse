@@ -104,6 +104,26 @@ head:
 }
 ```
 
+```component VPCard
+{
+  "title": "React Native, Metro를 넘어서 (1,2) | 요즘IT",
+  "desc": "React Native, Metro를 넘어서 (1,2)",
+  "link": "2528.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "크로스 플랫폼 디자인 시스템, 1.5년의 기록 (1,2) | 요즘IT",
+  "desc": "크로스 플랫폼 디자인 시스템, 1.5년의 기록 (1,2)",
+  "link": "2537.md",
+  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "background": "rgba(84,7,224,0.2)"
+}
+```
+
 ---
 
 <TagLinks />

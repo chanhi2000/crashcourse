@@ -1133,6 +1133,7 @@ export const sidebarEn = sidebar({
         '/js/yozm/2505.md',
         '/js/yozm/2511.md',
         '/js/yozm/2528.md',
+        '/js/yozm/2537.md',
       ]
     }
   ], '/python/': [

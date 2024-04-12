@@ -3731,7 +3731,6 @@ How to understand and fix common SwiftUI errors
 }
 ```
 
-
 :::
 
 ---
