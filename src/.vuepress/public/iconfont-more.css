@@ -1,9 +1,9 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4499603 */
-  src: url('//at.alicdn.com/t/c/font_4499603_h4dej62ul0q.woff2?t=1712634706525') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4499603_h4dej62ul0q.woff?t=1712634706525') format('woff'),
-       url('//at.alicdn.com/t/c/font_4499603_h4dej62ul0q.ttf?t=1712634706525') format('truetype'),
-       url('//at.alicdn.com/t/c/font_4499603_h4dej62ul0q.svg?t=1712634706525#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/c/font_4499603_vzb0zz97v2.woff2?t=1713241883620') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4499603_vzb0zz97v2.woff?t=1713241883620') format('woff'),
+       url('//at.alicdn.com/t/c/font_4499603_vzb0zz97v2.ttf?t=1713241883620') format('truetype'),
+       url('//at.alicdn.com/t/c/font_4499603_vzb0zz97v2.svg?t=1713241883620#iconfont') format('svg');
 }
 
 .iconfont {
@@ -14,6 +14,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-wireshark:before { content: "\e821"; }
+.icon-zig:before { content: "\e734"; }
+.icon-awsec2:before { content: "\eddf"; }
+.icon-apachekafka:before { content: "\eb3f"; }
+.icon-microsoftpowerpoint:before { content: "\e61a"; }
+.icon-microsoftword:before { content: "\e675"; }
+.icon-microsoftazure:before { content: "\ec16"; }
+.icon-powerbi:before { content: "\e7de"; }
+.icon-openai:before { content: "\e6c4"; }
 .icon-quarkus:before { content: "\ec70"; }
 .icon-spring-boot:before { content: "\e602"; }
 .icon-api:before { content: "\e7e1"; }
@@ -31,7 +40,7 @@
 .icon-tomcat:before { content: "\e60a"; }
 .icon-csharp:before { content: "\e60b"; }
 .icon-macos:before { content: "\e73a"; }
-.icon-excel:before { content: "\edde"; }
+.icon-microsoftexcel:before { content: "\edde"; }
 .icon-altibase:before { content: "\e628"; }
 .icon-django:before { content: "\eb7b"; }
 .icon-nginx:before { content: "\ec30"; }

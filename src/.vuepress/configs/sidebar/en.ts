@@ -1201,6 +1201,7 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-python',
       children: [
         '/python/yozm/README.md',
+        '/python/yozm/2543.md',
         '/python/yozm/2536.md',
         '/python/yozm/2057.md',
       ]
@@ -1735,6 +1736,167 @@ export const sidebarEn = sidebar({
         '/kubernetes/yozm/2515.md',
       ]
     }
+  ], '/aws/': [
+    {
+      text: 'AWS',
+      icon: 'fa-brands fa-aws',
+      children: [ '/aws/README.md' ]
+    }, {
+      text: '아마존 웹 서비스를 다루는 기술',
+      collapsible: true,
+      icon: 'fa-brands fa-aws',
+      children: [
+        '/aws/art-of-aws/README.md',
+        {
+          text: '01. 왜 AWS인가',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/01.md',
+            '/aws/art-of-aws/01A.md',
+            '/aws/art-of-aws/01B.md',
+            '/aws/art-of-aws/01C.md',
+            '/aws/art-of-aws/01D.md',
+          ]
+        }, {
+          text: '02. AWS 기본 개념 살펴보기',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/02.md',
+            '/aws/art-of-aws/02A.md',
+            '/aws/art-of-aws/02B.md',
+            '/aws/art-of-aws/02C.md',
+          ]
+        },  
+        '/aws/art-of-aws/03.md',
+        {
+          text: "04. 가상 서버를 제공하는 EC2",
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/04.md',
+            '/aws/art-of-aws/04A.md',
+            '/aws/art-of-aws/04B.md',
+            '/aws/art-of-aws/04C.md',
+            '/aws/art-of-aws/04D.md',
+            '/aws/art-of-aws/04E.md',
+            '/aws/art-of-aws/04F.md',
+            '/aws/art-of-aws/04G.md',
+            '/aws/art-of-aws/04H.md',
+          ]
+        },        
+        '/aws/art-of-aws/05.md',
+        {
+          text: '06. 고정 IP를 제공하는 Elastic IP',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/06.md',
+            '/aws/art-of-aws/06A.md',
+            '/aws/art-of-aws/06B.md',
+          ]
+        }, {
+          text: '07. EC2 인스턴스 접속을 위한 키 쌍',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/07.md',
+            '/aws/art-of-aws/07A.md',
+            '/aws/art-of-aws/07B.md',
+            '/aws/art-of-aws/07C.md',
+          ]
+        }, {
+          text: '08. AMI',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/08.md',
+            '/aws/art-of-aws/08A.md',
+            '/aws/art-of-aws/08B.md',
+            '/aws/art-of-aws/08C.md',
+            '/aws/art-of-aws/08D.md',
+          ]
+        },
+        '/aws/art-of-aws/09.md',
+        {
+          text: '10. AWS 리소스의 상태를 모니터링하는 CloudWatch',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/10.md',
+            '/aws/art-of-aws/10A.md',
+            '/aws/art-of-aws/10B.md',            
+          ]
+        }, {
+          text: '11. HTTP 프로토콜과 연동되는 스토리지 S3',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/11.md',
+            '/aws/art-of-aws/11A.md',
+            '/aws/art-of-aws/11B.md',            
+            '/aws/art-of-aws/11C.md',            
+          ]
+        }, {
+          text: '12. 전 세계에 콘텐츠를 배포하는 CDN 서비스인 CloudFront',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/12.md',
+            '/aws/art-of-aws/12A.md',
+            '/aws/art-of-aws/12B.md',
+            '/aws/art-of-aws/12C.md',
+            '/aws/art-of-aws/12D.md',
+            '/aws/art-of-aws/12E.md',
+          ]
+        }, {
+          text: '13. 확장 가능한 관계형 데이터베이스를 제공하는 RDS',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/13.md',
+            '/aws/art-of-aws/13A.md',
+            '/aws/art-of-aws/13B.md',
+            '/aws/art-of-aws/13C.md',
+            '/aws/art-of-aws/13D.md',
+            '/aws/art-of-aws/13E.md',
+            '/aws/art-of-aws/13F.md',
+            '/aws/art-of-aws/13G.md',
+          ]
+        }, {
+          text: '14. 확장 가능한 NoSQL 분산 데이터베이스를 제공하는 DynamoDB',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/14.md',
+            '/aws/art-of-aws/14A.md',
+            '/aws/art-of-aws/14B.md',
+            '/aws/art-of-aws/14C.md',
+            '/aws/art-of-aws/14D.md',
+            '/aws/art-of-aws/14E.md',
+            '/aws/art-of-aws/14F.md',
+          ]
+        },
+        '/aws/art-of-aws/15.md',
+        '/aws/art-of-aws/16.md',
+        '/aws/art-of-aws/17.md',
+        '/aws/art-of-aws/18.md',
+        '/aws/art-of-aws/19.md',
+        '/aws/art-of-aws/20.md',
+        '/aws/art-of-aws/21.md',
+        '/aws/art-of-aws/22.md',
+        '/aws/art-of-aws/23.md',
+        '/aws/art-of-aws/24.md',
+        '/aws/art-of-aws/25.md',
+        '/aws/art-of-aws/26.md',
+        '/aws/art-of-aws/27.md',
+        '/aws/art-of-aws/28.md',
+        '/aws/art-of-aws/29.md',
+        '/aws/art-of-aws/30.md',
+        '/aws/art-of-aws/31.md',
+        '/aws/art-of-aws/32.md',
+        '/aws/art-of-aws/33.md',
+        '/aws/art-of-aws/a.md',        
+      ]
+    }, {
+      text: '요즘 IT 블로그 - AWS 관련',
+      collapsible: true,
+      icon: 'fa-brands fa-aws',
+      children: [
+        '/aws/yozm/README.md',
+        '/aws/yozm/2541.md',
+      ]
+    }
   ], '/devops/': [
     {
       text: 'DevOps',
@@ -1776,142 +1938,6 @@ export const sidebarEn = sidebar({
         '/devops/freecodecamp-gitlab-ci/3.md',
         '/devops/freecodecamp-gitlab-ci/4.md',
         '/devops/freecodecamp-gitlab-ci/5.md',
-      ]
-    }, {
-      text: '아마존 웹 서비스를 다루는 기술',
-      collapsible: true,
-      icon: 'fa-brands fa-aws',
-      children: [
-        '/devops/art-of-aws/README.md',
-        {
-          text: '01. 왜 AWS인가',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/01.md',
-            '/devops/art-of-aws/01A.md',
-            '/devops/art-of-aws/01B.md',
-            '/devops/art-of-aws/01C.md',
-            '/devops/art-of-aws/01D.md',
-          ]
-        }, {
-          text: '02. AWS 기본 개념 살펴보기',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/02.md',
-            '/devops/art-of-aws/02A.md',
-            '/devops/art-of-aws/02B.md',
-            '/devops/art-of-aws/02C.md',
-          ]
-        },  
-        '/devops/art-of-aws/03.md',
-        {
-          text: "04. 가상 서버를 제공하는 EC2",
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/04.md',
-            '/devops/art-of-aws/04A.md',
-            '/devops/art-of-aws/04B.md',
-            '/devops/art-of-aws/04C.md',
-            '/devops/art-of-aws/04D.md',
-            '/devops/art-of-aws/04E.md',
-            '/devops/art-of-aws/04F.md',
-            '/devops/art-of-aws/04G.md',
-            '/devops/art-of-aws/04H.md',
-          ]
-        },        
-        '/devops/art-of-aws/05.md',
-        {
-          text: '06. 고정 IP를 제공하는 Elastic IP',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/06.md',
-            '/devops/art-of-aws/06A.md',
-            '/devops/art-of-aws/06B.md',
-          ]
-        }, {
-          text: '07. EC2 인스턴스 접속을 위한 키 쌍',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/07.md',
-            '/devops/art-of-aws/07A.md',
-            '/devops/art-of-aws/07B.md',
-            '/devops/art-of-aws/07C.md',
-          ]
-        }, {
-          text: '08. AMI',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/08.md',
-            '/devops/art-of-aws/08A.md',
-            '/devops/art-of-aws/08B.md',
-            '/devops/art-of-aws/08C.md',
-            '/devops/art-of-aws/08D.md',
-          ]
-        },
-        '/devops/art-of-aws/09.md',
-        {
-          text: '10. AWS 리소스의 상태를 모니터링하는 CloudWatch',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/10.md',
-            '/devops/art-of-aws/10A.md',
-            '/devops/art-of-aws/10B.md',            
-          ]
-        }, {
-          text: '11. HTTP 프로토콜과 연동되는 스토리지 S3',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/11.md',
-            '/devops/art-of-aws/11A.md',
-            '/devops/art-of-aws/11B.md',            
-            '/devops/art-of-aws/11C.md',            
-          ]
-        }, {
-          text: '12. 전 세계에 콘텐츠를 배포하는 CDN 서비스인 CloudFront',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/12.md',
-            '/devops/art-of-aws/12A.md',
-            '/devops/art-of-aws/12B.md',
-            '/devops/art-of-aws/12C.md',
-            '/devops/art-of-aws/12D.md',
-            '/devops/art-of-aws/12E.md',
-          ]
-        }, {
-          text: '13. 확장 가능한 관계형 데이터베이스를 제공하는 RDS',
-          collapsible: true,
-          children: [
-            '/devops/art-of-aws/13.md',
-            '/devops/art-of-aws/13A.md',
-            '/devops/art-of-aws/13B.md',
-            '/devops/art-of-aws/13C.md',
-            '/devops/art-of-aws/13D.md',
-            '/devops/art-of-aws/13E.md',
-            '/devops/art-of-aws/13F.md',
-            '/devops/art-of-aws/13G.md',
-          ]
-        },
-        '/devops/art-of-aws/14.md',
-        '/devops/art-of-aws/15.md',
-        '/devops/art-of-aws/16.md',
-        '/devops/art-of-aws/17.md',
-        '/devops/art-of-aws/18.md',
-        '/devops/art-of-aws/19.md',
-        '/devops/art-of-aws/20.md',
-        '/devops/art-of-aws/21.md',
-        '/devops/art-of-aws/22.md',
-        '/devops/art-of-aws/23.md',
-        '/devops/art-of-aws/24.md',
-        '/devops/art-of-aws/25.md',
-        '/devops/art-of-aws/26.md',
-        '/devops/art-of-aws/27.md',
-        '/devops/art-of-aws/28.md',
-        '/devops/art-of-aws/29.md',
-        '/devops/art-of-aws/30.md',
-        '/devops/art-of-aws/31.md',
-        '/devops/art-of-aws/32.md',
-        '/devops/art-of-aws/33.md',
-        '/devops/art-of-aws/a.md',        
       ]
     }, {
       text: 'Linux Journey',

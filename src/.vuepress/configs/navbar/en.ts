@@ -120,23 +120,18 @@ export const navbarEn = navbar([
       {
         text: 'Finance with Python',
         link: '/python/finance-w-python/README.md',
-        icon: 'fa-brands fa-python'
       }, {
         text: '사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
         link: '/python/rpa-excel/README.md',
-        icon: 'fa-brands fa-python'
       }, {
         text: '<랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷',
         link: '/python/langchain-kr/README.md',
-        icon: 'fa-brands fa-python',
       }, {
         text: 'OpenCV – Python 고급 기법 프로그래밍',
         link: '/python/opencv-advacned/README.md',
-        icon: 'fa-brands fa-python',
       }, {
         text: '요즘 IT 블로그 - Python 관련',
         link: '/python/yozm/README.md',
-        icon: 'fa-brands fa-python',
       }
     ],
   }, {
@@ -146,15 +141,12 @@ export const navbarEn = navbar([
       {
         text: 'freecodecamp.org - Rust by Practice',
         link: '/rust/freecodecamp-rust-by-practice/README.md',
-        icon: 'fa-brands fa-rust'
       }, {
         text: 'Wasm by Example',
         link: '/rust/wasm-by-example/README.md',
-        icon: 'fa-brands fa-rust'
       }, {
         text: 'Rust to Assembly',
         link: '/rust/eventhelix-rust-to-assembly/README.md',
-        icon: 'fa-brands fa-rust'
       }
     ],
   }, {
@@ -164,7 +156,6 @@ export const navbarEn = navbar([
       {
         text: 'PHP 3분 핵심 요약집',
         link: '/php/three-min-summary/README.md',
-        icon: 'fa-brands fa-php'
       }
     ]
   }, {
@@ -174,7 +165,6 @@ export const navbarEn = navbar([
       {
         text: 'Algorithms for Competitive Programming',
         link: '/cpp/algorithms-for-competitive-programming/README.md',
-        icon: 'iconfont icon-cpp',
       }, 
       /* 
       {
@@ -203,7 +193,6 @@ export const navbarEn = navbar([
       {
         text: 'Jets - Learning Content',
         link: '/ruby/rubyonjets-learning-content/README.md',
-        icon: 'iconfont icon-ruby',
       },
     ]
   }, {
@@ -213,11 +202,9 @@ export const navbarEn = navbar([
       {
         text: 'Megaparsec tutorial',
         link: '/haskell/megaparsec/README.md',
-        icon: 'iconfont icon-haskell',
       }, {
         text: 'Template Haskell tutorial',
         link: '/haskell/template-haskell/README.md',
-        icon: 'iconfont icon-haskell',
       }
     ]
   }, {
@@ -227,11 +214,9 @@ export const navbarEn = navbar([
       {
         text: '데엔잘하고싶은데엔 - Udemy 강의정리',
         link: '/docker/pearlluck/README.md',
-        icon: 'fa-brands fa-docker'
       }, {
         text: '요즘 IT 블로그 - Docker 관련',
         link: '/docker/yozm/README.md',
-        icon: 'fa-brands fa-docker'
       }
     ]
   }, {
@@ -241,15 +226,24 @@ export const navbarEn = navbar([
       {
         text: 'DigitalOcean - Kubernetes',
         link: '/kubernetes/digitalocean-kubernetes/README.md',
-        icon: 'fas fa-dharmachakra'
       }, {
         text: '언제나 최신 Kubernetes',
         link: '/kubernetes/always-up-to-date-kubernetes/README.md',
-        icon: 'fas fa-dharmachakra'
       }, {
         text: '요즘 IT 블로그 - Kubernetes 관련',
         link: '/kubernetes/yozm/README.md',
-        icon: 'fas fa-dharmachakra',
+      }
+    ]
+  }, {
+    text: '',
+    icon: 'fa-brands fa-aws',
+    children: [
+      {
+        text: '아마존 웹 서비스를 다루는 기술',
+        link: '/aws/art-of-aws/README.md',
+      }, {
+        text: '요즘 IT 블로그 - AWS 관련',
+        link: '/aws/yozm/README.md',
       }
     ]
   }, {
@@ -268,10 +262,6 @@ export const navbarEn = navbar([
         text: 'freecodecamp.org - DevOps with GitLab CI',
         link: '/devops/freecodecamp-gitlab-ci/README.md',
         icon: 'fa-brands fa-gitlab'
-      }, {
-        text: '아마존 웹 서비스를 다루는 기술',
-        link: '/devops/art-of-aws/README.md',
-        icon: 'fa-brands fa-aws'
       }, {
         text: 'Linux Journey',
         link: '/devops/linux-journey/README.md',
