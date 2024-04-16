@@ -107,10 +107,6 @@ export const navbarEn = navbar([
         text: 'Eloquent Javascript',
         link: '/js/eloquent-javascript/README.md',
         icon: 'fa-brands fa-js'
-      }, {
-        text: '요즘 IT 블로그 - Javascript 관련',
-        link: '/js/yozm/README.md',
-        icon: 'fa-brands fa-node-js'
       }
     ]
   }, {
@@ -164,7 +160,12 @@ export const navbarEn = navbar([
     children: [
       {
         text: 'Algorithms for Competitive Programming',
-        link: '/cpp/algorithms-for-competitive-programming/README.md',
+        link: '/c+c+cpp/algorithms-for-competitive-programming/README.md',
+        icon: 'iconfont icon-cpp',
+      }, {
+        text: 'Beej\'s Guide to Network Programming',
+        link: '/c+cpp/beejs-guide-to-network-programming/README.md',
+        icon: 'iconfont icon-c',
       }, 
       /* 
       {

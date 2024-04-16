@@ -450,6 +450,7 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/06-user-interface-controls/how-to-open-web-links-in-safari.md',
             '/swift/swiftui-by-example/06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md',
             '/swift/swiftui-by-example/06-user-interface-controls/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.md',
+            '/swift/swiftui-by-example/06-user-interface-controls/how-to-make-buttons-that-repeat-their-action-when-pressed.md',
           ]
         }, {
           text: 'Responding to events',
@@ -1118,23 +1119,6 @@ export const sidebarEn = sidebar({
         '/js/eloquent-javascript/20.md',
         '/js/eloquent-javascript/21.md',
       ]
-    }, {
-      text: '요즘 IT 블로그 - JavaScript 관련',
-      collapsible: true,
-      icon: 'fa-brands fa-node-js',
-      children: [
-        '/js/yozm/README.md',
-        '/js/yozm/2466.md',
-        '/js/yozm/2467.md',
-        '/js/yozm/2479.md',
-        '/js/yozm/2483.md',
-        '/js/yozm/2493.md',
-        '/js/yozm/2504.md',
-        '/js/yozm/2505.md',
-        '/js/yozm/2511.md',
-        '/js/yozm/2528.md',
-        '/js/yozm/2537.md',
-      ]
     }
   ], '/python/': [
     {
@@ -1389,109 +1373,115 @@ export const sidebarEn = sidebar({
       ]
     }
 
-  ], '/cpp/':  [ 
+  ], '/c+cpp/':  [ 
     {
-      text: 'Cpp',
-      icon: 'iconfont icon-cpp',
-      children: [ '/cpp/README.md' ]
+      text: 'C & Cpp',
+      children: [ '/c+cpp/README.md' ]
     }, {
       text: 'Algorithms for Competitive Programming',
       collapsible: true,
       icon: 'iconfont icon-cpp',
       children: [ 
-        '/cpp/algorithms-for-competitive-programming/README.md',
+        '/c+cpp/algorithms-for-competitive-programming/README.md',
         {
           text: '01. Algebra',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
-            '/cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
+            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
           ]
         }, {
           text: '02. Data Structures',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
-            '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
-            '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
+            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
+            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
+            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
           ]
         }, {
           text: '03. Dynamic Programming',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
-            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
-            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
+            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
+            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
+            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
           ]
         }, {
           text: '04. String Processing',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
-            '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
-            '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
+            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
+            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
+            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
           ]
         }, {
           text: '05. Linear Algebra',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/04-string-processing/05A.md',
+            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/05A.md',
           ]
         }, {
           text: '06. Combinatorics',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
-            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
-            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
+            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
+            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
+            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
           ]
         }, {
           text: '07. Numerical Methods',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
-            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
+            '/c+cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
+            '/c+cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
           ]
         }, {
           text: '08. Geometry',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
-            '/cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
+            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
           ]
         }, {
           text: '09. Graphs',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09A.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09B.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09C.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09D.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09E.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09F.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09G.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09H.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09I.md',
-            '/cpp/algorithms-for-competitive-programming/09-graphs/09J.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09A.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09B.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09C.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09D.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09E.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09F.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09G.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09H.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09I.md',
+            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09J.md',
           ]
         }, {
           text: '10. Misc',
           collapsible: true,
           children: [
-            '/cpp/algorithms-for-competitive-programming/10-misc/10A.md',
-            '/cpp/algorithms-for-competitive-programming/10-misc/10B.md',
-            '/cpp/algorithms-for-competitive-programming/10-misc/10C.md',
-            '/cpp/algorithms-for-competitive-programming/10-misc/10D.md',            
+            '/c+cpp/algorithms-for-competitive-programming/10-misc/10A.md',
+            '/c+cpp/algorithms-for-competitive-programming/10-misc/10B.md',
+            '/c+cpp/algorithms-for-competitive-programming/10-misc/10C.md',
+            '/c+cpp/algorithms-for-competitive-programming/10-misc/10D.md',            
           ]
         }
+      ]
+    }, {
+      text: 'Beej\'s Guide to Network Programming',
+      collapsible: true,
+      children: [
+        '/c+cpp/beejs-guide-to-network-programming/README.md',
+        '/c+cpp/beejs-guide-to-network-programming/01.md',
       ]
     }, 
     /*
@@ -1866,8 +1856,22 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/14E.md',
             '/aws/art-of-aws/14F.md',
           ]
+        }, {
+          text: '15. 확장 가능한 분산 인 메모리 캐시를 제공하는 ElastiCache',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/15.md',
+            '/aws/art-of-aws/15A.md',
+            '/aws/art-of-aws/15B.md',
+            '/aws/art-of-aws/15C.md',
+            '/aws/art-of-aws/15D.md',
+            '/aws/art-of-aws/15E.md',
+            '/aws/art-of-aws/15F.md',
+            '/aws/art-of-aws/15G.md',
+            '/aws/art-of-aws/15H.md',
+            '/aws/art-of-aws/15I.md',
+          ]
         },
-        '/aws/art-of-aws/15.md',
         '/aws/art-of-aws/16.md',
         '/aws/art-of-aws/17.md',
         '/aws/art-of-aws/18.md',
