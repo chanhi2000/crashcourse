@@ -153,7 +153,15 @@ Button("Delete", role: .destructive) {
 }
 ```
 
-How to make buttons that repeat their action when pressed
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to make buttons that repeat their action when pressed",
+  "desc": "How to make buttons that repeat their action when pressed",
+  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-buttons-that-repeat-their-action-when-pressed.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

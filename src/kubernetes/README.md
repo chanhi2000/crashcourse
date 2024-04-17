@@ -36,12 +36,6 @@ tag:
 
 :::
 
-::: details 요즘 IT 블로그 - Kubernetes 관련
-
-<ToCLocal basePath="/kubernetes/yozm" />
-
-:::
-
 ---
 
 <TagLinks />

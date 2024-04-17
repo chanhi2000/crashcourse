@@ -1,15 +1,16 @@
 ---
 lang: ko-KR
-title: C & Cpp
-description: C & Cpp
+title: C & C++
+description: C & C++
 icon: iconfont icon-cpp
 category:
-  - c
-  - cpp
+  - C
+  - C++
 tag: 
   - crashcourse
   - c
   - cpp
+  - c++
   - c-plus-plus
   - algorithm
 ---

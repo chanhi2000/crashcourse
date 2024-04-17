@@ -28,10 +28,10 @@ projects:
   - name: Rust
     link: /rust/
     icon: fa-brands fa-rust
-  - name: Cpp
+  - name: C++
     link: /cpp/
     icon: fas fa-dice-two
-  - name: Ruby
+  - name: Ruby  
     link: /ruby/
     icon: fas fa-gem
   - name: Haskell

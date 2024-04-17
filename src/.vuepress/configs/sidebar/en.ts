@@ -1036,16 +1036,6 @@ export const sidebarEn = sidebar({
           ]
         }
       ]
-    }, {
-      text: '요즘 IT 블로그 - Java 관련',
-      collapsible: true,
-      icon: 'fa-brands fa-java',
-      children: [
-        '/java/yozm/README.md',
-        '/java/yozm/2457.md',
-        '/java/yozm/2478.md',
-        '/java/yozm/2499.md',
-      ]
     }
   ], '/js/': [
     {
@@ -1179,16 +1169,6 @@ export const sidebarEn = sidebar({
         '/python/opencv-advacned/01.md',
         '/python/opencv-advacned/02.md',
       ],
-    }, {
-      text: '요즘 IT 블로그 - Python 관련',
-      collapsible: true,
-      icon: 'fa-brands fa-python',
-      children: [
-        '/python/yozm/README.md',
-        '/python/yozm/2543.md',
-        '/python/yozm/2536.md',
-        '/python/yozm/2057.md',
-      ]
     }
   ], '/rust/': [
     {
@@ -1375,7 +1355,7 @@ export const sidebarEn = sidebar({
 
   ], '/c+cpp/':  [ 
     {
-      text: 'C & Cpp',
+      text: 'C & C++',
       children: [ '/c+cpp/README.md' ]
     }, {
       text: 'Algorithms for Competitive Programming',
@@ -1614,14 +1594,6 @@ export const sidebarEn = sidebar({
       children: [
         '/docker/pearlluck/README.md',
       ]
-    }, {
-      text: '요즘 IT 블로그 - Docker 관련',
-      collapsible: true,
-      icon: 'fa-brands fa-docker',
-      children: [
-        '/docker/yozm/README.md',
-        '/docker/yozm/2527.md',
-      ]
     }
   ], '/kubernetes/': [
     {
@@ -1715,15 +1687,6 @@ export const sidebarEn = sidebar({
           ]
         },        
         '/kubernetes/always-up-to-date-kubernetes/09.md',
-      ]
-    }, {
-      text: '요즘 IT 블로그 - Kubernetes 관련',
-      collapsible: true,
-      icon: 'fas fa-dharmachakra',
-      children: [
-        '/kubernetes/yozm/README.md',
-        '/kubernetes/yozm/1990.md',
-        '/kubernetes/yozm/2515.md',
       ]
     }
   ], '/aws/': [
@@ -1892,14 +1855,6 @@ export const sidebarEn = sidebar({
         '/aws/art-of-aws/33.md',
         '/aws/art-of-aws/a.md',        
       ]
-    }, {
-      text: '요즘 IT 블로그 - AWS 관련',
-      collapsible: true,
-      icon: 'fa-brands fa-aws',
-      children: [
-        '/aws/yozm/README.md',
-        '/aws/yozm/2541.md',
-      ]
     }
   ], '/devops/': [
     {
@@ -2011,9 +1966,7 @@ export const sidebarEn = sidebar({
       icon: 'fas fa-cubes-stacked',
       children: [
         '/devops/yozm/README.md',
-        '/devops/yozm/2425.md',
         '/devops/yozm/2464.md',
-        '/devops/yozm/2503.md',
         '/devops/yozm/2519.md',
       ]
     }

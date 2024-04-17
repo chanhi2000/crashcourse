@@ -23,12 +23,6 @@ tag:
 
 :::
 
-::: details 요즘 IT 블로그 - AWS 관련
-
-<ToCLocal basePath="/aws/yozm" />
-
-:::
-
 ---
 
 <TagLinks />

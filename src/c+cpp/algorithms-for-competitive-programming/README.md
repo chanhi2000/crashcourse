@@ -4,12 +4,14 @@ title: Algorithms for Competitive Programming
 description: Algorithms for Competitive Programming
 icon: iconfont icon-cpp
 category:
-  - Cpp
+  - C++
+  - Algorithms
 tag: 
   - crashcourse
   - cpp
+  - c++
   - c-plus-plus
-  - algorithm
+  - algorithms
 head:
   - - meta:
     - property: og:title

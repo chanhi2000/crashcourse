@@ -85,10 +85,6 @@ export const navbarEn = navbar([
         text: '코틀린 테스팅 프레임워크 - Kotest',
         link: '/java/devkuma-kotest/README.md',
         icon: 'iconfont icon-kotlin',
-      }, {
-        text: '요즘 IT 블로그 - Java 관련',
-        link: '/java/yozm/README.md',
-        icon: 'fa-brands fa-java',
       }
     ]
   }, {
@@ -125,9 +121,6 @@ export const navbarEn = navbar([
       }, {
         text: 'OpenCV – Python 고급 기법 프로그래밍',
         link: '/python/opencv-advacned/README.md',
-      }, {
-        text: '요즘 IT 블로그 - Python 관련',
-        link: '/python/yozm/README.md',
       }
     ],
   }, {
@@ -215,9 +208,6 @@ export const navbarEn = navbar([
       {
         text: '데엔잘하고싶은데엔 - Udemy 강의정리',
         link: '/docker/pearlluck/README.md',
-      }, {
-        text: '요즘 IT 블로그 - Docker 관련',
-        link: '/docker/yozm/README.md',
       }
     ]
   }, {
@@ -230,9 +220,6 @@ export const navbarEn = navbar([
       }, {
         text: '언제나 최신 Kubernetes',
         link: '/kubernetes/always-up-to-date-kubernetes/README.md',
-      }, {
-        text: '요즘 IT 블로그 - Kubernetes 관련',
-        link: '/kubernetes/yozm/README.md',
       }
     ]
   }, {
@@ -242,9 +229,6 @@ export const navbarEn = navbar([
       {
         text: '아마존 웹 서비스를 다루는 기술',
         link: '/aws/art-of-aws/README.md',
-      }, {
-        text: '요즘 IT 블로그 - AWS 관련',
-        link: '/aws/yozm/README.md',
       }
     ]
   }, {
