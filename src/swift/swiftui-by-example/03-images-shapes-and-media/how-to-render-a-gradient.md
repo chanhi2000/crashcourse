@@ -194,9 +194,19 @@ Circle()
   "background": "rgba(54,94,226,0.2)"
 }
 ```
-How to add in-app purchases in SwiftUI
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add in-app purchases in SwiftUI",
+  "desc": "How to add in-app purchases in SwiftUI",
+  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-in-app-purchases-in-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
+
 ---
 
 <TagLinks />

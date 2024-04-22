@@ -20,6 +20,7 @@ head:
       content: How to let users select text
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/02-working-with-static-text/how-to-let-users-select-text.html
+next: '/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md'
 ---
 
 # {{ $frontmatter.title }} 관련

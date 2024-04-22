@@ -58,7 +58,17 @@ So, here goes…
 
 ## Which to learn: SwiftUI or UIKit?
 
-This question has been asked so many times I added a dedicated chapter to this book so I could go into more detail: [answering the big question: should you learn SwiftUI, UIKit, or both?](https://www.hackingwithswift.com/quick-start/swiftui/answering-the-big-question-should-you-learn-swiftui-uikit-or-both)
+This question has been asked so many times I added a dedicated chapter to this book so I could go into more detail
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > – Answering the big question: should you learn SwiftUI, UIKit, or both?",
+  "desc": "Answering the big question: should you learn SwiftUI, UIKit, or both?",
+  "link": "/swift/swiftui-by-example/00-introduction/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ---
 

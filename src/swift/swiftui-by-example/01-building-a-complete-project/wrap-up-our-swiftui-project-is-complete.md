@@ -20,6 +20,7 @@ head:
       content: Wrap up - our SwiftUI project is complete
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/01-building-a-complete-project/two-way-bindings-in-swiftui.html
+next: '/swift/swiftui-by-example/02-working-with-static-text/how-to-create-static-labels-with-a-text-view.md'
 ---
 
 # {{ $frontmatter.title }} 관련

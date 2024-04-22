@@ -48,8 +48,25 @@ export const sidebarEn = sidebar({
       children: [
         '/cli/bash-dev/README.md',
         '/cli/bash-dev/01.md',
-        '/cli/bash-dev/02.md',
-        '/cli/bash-dev/03.md',
+        {
+          text: '02. 명령어',
+          collapsible: true,
+          children: [
+            '/cli/bash-dev/02.md',
+            '/cli/bash-dev/02A.md',
+            '/cli/bash-dev/02B.md',
+          ]
+        }, {
+          text: '03. 쉘스크립트',
+          collapsible: true,
+          children: [
+            '/cli/bash-dev/03.md',
+            '/cli/bash-dev/03A.md',
+            '/cli/bash-dev/03B.md',
+            '/cli/bash-dev/03C.md',
+            '/cli/bash-dev/03D.md',
+          ]
+        },
         '/cli/bash-dev/04.md',
       ]
     }
@@ -58,13 +75,6 @@ export const sidebarEn = sidebar({
       text: 'Swift',
       icon: 'fa-brands fa-swift',
       children: [ '/swift/README.md' ]
-    }, {
-      text: 'Learn essential Swift in one hour',
-      collapsible: true,
-      icon: 'fa-brands fa-swift',
-      children: [
-        '/swift/learn-essential-swift-in-one-hour/README.md',
-      ]
     }, {
       text: '100 Days of Swift',
       collapsible: true,
@@ -1811,6 +1821,7 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/13H.md',
             '/aws/art-of-aws/13I.md',
             '/aws/art-of-aws/13J.md',
+            '/aws/art-of-aws/13K.md',
           ]
         }, {
           text: '14. 확장 가능한 NoSQL 분산 데이터베이스를 제공하는 DynamoDB',

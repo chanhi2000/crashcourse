@@ -238,7 +238,16 @@ If you’re using Xcode 12 you need to use `RoundedBorderTextFieldStyle()` rathe
   "background": "rgba(54,94,226,0.2)"
 }
 ```
-How to add keyboard shortcuts using keyboardShortcut()
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add keyboard shortcuts using keyboardShortcut()",
+  "desc": "How to add keyboard shortcuts using keyboardShortcut()",
+  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-keyboard-shortcuts-using-keyboardshortcut.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

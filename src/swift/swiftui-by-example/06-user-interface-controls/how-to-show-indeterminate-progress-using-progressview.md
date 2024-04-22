@@ -68,7 +68,15 @@ struct ContentView: View {
 
 ::: details Similar solutions…
 
-How to show progress on a task using ProgressView
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to show progress on a task using ProgressView",
+  "desc": "How to show progress on a task using ProgressView",
+  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-show-progress-on-a-task-using-progressview.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

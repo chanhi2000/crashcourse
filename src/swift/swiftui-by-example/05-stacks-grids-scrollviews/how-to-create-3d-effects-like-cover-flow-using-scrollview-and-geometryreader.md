@@ -124,7 +124,15 @@ As you drag the card around you’ll see it rotates to give a perspective effect
 }
 ```
 
-How to add Metal shaders to SwiftUI views using layer effects <!-- TODO: add VPCard -->
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add Metal shaders to SwiftUI views using layer effects",
+  "desc": "How to add Metal shaders to SwiftUI views using layer effects",
+  "link": "/swift/swiftui-by-example/17-drawing/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

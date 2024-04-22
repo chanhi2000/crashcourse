@@ -1519,7 +1519,7 @@ Shortcuts, rotations, and appearance
 }
 ```
 
-- How to detect and respond to key press events
+- How to detect and respond to key press events <!-- TODO: add link -->
 - How to add haptic effects using sensory feedback
 
 <!-- Responding to events -->
@@ -2386,7 +2386,15 @@ Show modal notifications when something happens
 }
 ```
 
-- How to add in-app purchases in SwiftUI
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add in-app purchases in SwiftUI",
+  "desc": "How to add in-app purchases in SwiftUI",
+  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-in-app-purchases-in-swiftui.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 <!-- Alerts and menus -->
 
@@ -2956,8 +2964,8 @@ Bring your views to life with movement
 }
 ```
 
-- How to run a completion callback when an animation finishes
-- How to create multi-step animations using phase animators
+- How to run a completion callback when an animation finishes <!-- TODO: add link -->
+- How to create multi-step animations using phase animators <!-- TODO: add link -->
 
 :::
 

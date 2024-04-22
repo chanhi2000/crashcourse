@@ -267,10 +267,18 @@ That creates a 4x4 grid with an image and text in each cell.
   "background": "rgba(54,94,226,0.2)"
 }
 ```
-How to add Metal shaders to SwiftUI views using layer effects  <!-- TODO: add VPCard -->
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add Metal shaders to SwiftUI views using layer effects",
+  "desc": "How to add Metal shaders to SwiftUI views using layer effects",
+  "link": "/swift/swiftui-by-example/17-drawing/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
-
 
 ---
 
