@@ -233,7 +233,7 @@ export const navbarEn = navbar([
     ]
   }, {
     text: '',
-    icon: 'fas fa-cubes-stacked',
+    icon: 'fas fa-network-wired',
     children: [
       {
         text: 'Red Hat Container Tools',

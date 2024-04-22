@@ -39,7 +39,7 @@ projects:
     icon: fas fa-lambda
   - name: DevOps
     link: /devops/
-    icon: fas fa-cubes-stacked
+    icon: fas fa-network-wired
   - name: Misc.
     link: /misc/
     icon: fas fa-object-group

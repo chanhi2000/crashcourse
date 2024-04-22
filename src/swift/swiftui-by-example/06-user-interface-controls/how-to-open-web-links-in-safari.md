@@ -24,6 +24,16 @@ head:
 
 # {{ $frontmatter.title }} 관련
 
+```component VPCard
+{
+  "title": "SwiftUI by Example",
+  "desc": "Back to Home",
+  "link": "/swift/swiftui-by-example/README.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(174,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---

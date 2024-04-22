@@ -2800,7 +2800,15 @@ Take control of rendering using custom shapes
 }
 ```
 
-- [How to add Metal shaders to SwiftUI views using layer effects](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects)
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add Metal shaders to SwiftUI views using layer effects",
+  "desc": "How to add Metal shaders to SwiftUI views using layer effects",
+  "link": "/swift/swiftui-by-example/17-drawing/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 
@@ -3083,7 +3091,15 @@ Learn to make your apps look great everywhere
 }
 ```
 
-- How to enable vertical page scrolling
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to enable vertical page scrolling",
+  "desc": "How to enable vertical page scrolling",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-enable-vertical-page-scrolling.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

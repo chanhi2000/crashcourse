@@ -640,6 +640,7 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/17-drawing/how-to-render-a-swiftui-view-to-a-pdf.md',
             '/swift/swiftui-by-example/17-drawing/how-to-add-visual-effect-blurs.md',
             '/swift/swiftui-by-example/17-drawing/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.md',
+            '/swfit/swiftui-by-example/17-drawing/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.md',
           ]
         }, {
           text: 'Animation',
@@ -681,6 +682,7 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-make-carousel-lists-on-watchos.md',
             '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.md',
             '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-open-a-new-window.md',
+            '/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-enable-vertical-page-scrolling.md',
           ]
         }, {
           text: 'Data',
@@ -1640,7 +1642,7 @@ export const sidebarEn = sidebar({
             '/kubernetes/always-up-to-date-kubernetes/03B.md',
           ]
         }, {
-          text: '03. Nginx 웹서버 실행하기',
+          text: '04. Nginx YAML 설정 파일 작성하기',
           collapsible: true,
           children: [
             '/kubernetes/always-up-to-date-kubernetes/04.md',
@@ -1806,6 +1808,9 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/13E.md',
             '/aws/art-of-aws/13F.md',
             '/aws/art-of-aws/13G.md',
+            '/aws/art-of-aws/13H.md',
+            '/aws/art-of-aws/13I.md',
+            '/aws/art-of-aws/13J.md',
           ]
         }, {
           text: '14. 확장 가능한 NoSQL 분산 데이터베이스를 제공하는 DynamoDB',
@@ -1859,7 +1864,7 @@ export const sidebarEn = sidebar({
   ], '/devops/': [
     {
       text: 'DevOps',
-      icon: 'fas fa-cubes-stacked',
+      icon: 'fas fa-network-wired',
       children: [ '/devops/README.md' ]
     }, {
       text: 'Red Hat Container Tools',

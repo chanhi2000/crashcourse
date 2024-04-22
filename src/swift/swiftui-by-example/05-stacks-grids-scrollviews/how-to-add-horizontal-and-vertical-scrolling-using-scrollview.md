@@ -117,7 +117,15 @@ ScrollView(.horizontal, showsIndicators: false) {
 
 ::: details Similar solutions…
 
-How to enable vertical page scrolling
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to enable vertical page scrolling",
+  "desc": "How to enable vertical page scrolling",
+  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-enable-vertical-page-scrolling.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {
