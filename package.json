@@ -1,5 +1,5 @@
 {
-  "version": "0.2.22",
+  "version": "0.2.24",
   "private": true,
   "name": "crashcourse",
   "description": "My Crashcourse(s)",
@@ -10,9 +10,9 @@
   "repository": "https://github.com/chanhi2000/crashcourse",
   "type": "module",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress dev src",
+    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress dev src --debug",
     "clean-dev": "vuepress dev src --clean-cache",
-  "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 vuepress build src",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 vuepress build src --debug",
     "clean-build": "vuepress build src --clean-cache"
   },
   "engines": {

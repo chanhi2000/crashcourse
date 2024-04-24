@@ -28,10 +28,6 @@ export const navbarEn = navbar([
     icon: 'fa-brands fa-swift',
     children: [
       {
-        text: 'Learn essential Swift in one hour',
-        icon: 'fa-brands fa-swift',
-        link: '/swift/learn-essential-swift-in-one-hour/README.md',
-      }, {
         text: '100 Days of Swift',
         link: '/swift/100-days-of-swift/README.md',
         icon: 'fa-brands fa-swift'
@@ -76,11 +72,11 @@ export const navbarEn = navbar([
       }, {
         text: 'Jump to Spring Boot',
         link: '/java/jump-to-spring-boot/README.md',
-        icon: 'iconfont icon-spring'
+        icon: 'iconfont icon-springboot'
       }, {
         text: '스프링부트 개념과 활용',
         link: '/java/spring-boot-whiteship/README.md',
-        icon: 'iconfont icon-spring',
+        icon: 'iconfont icon-springboot',
       }, {
         text: 'Java Web App with Quarkus and JPAStreamer',
         link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
@@ -157,7 +153,7 @@ export const navbarEn = navbar([
     children: [
       {
         text: 'Algorithms for Competitive Programming',
-        link: '/c+c+cpp/algorithms-for-competitive-programming/README.md',
+        link: '/c+cpp/algorithms-for-competitive-programming/README.md',
         icon: 'iconfont icon-cpp',
       }, {
         text: 'Beej\'s Guide to Network Programming',

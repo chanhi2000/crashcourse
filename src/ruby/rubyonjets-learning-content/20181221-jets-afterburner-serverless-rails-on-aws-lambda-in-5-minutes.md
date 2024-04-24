@@ -3,7 +3,7 @@ lang: ko-KR
 title: Rails Support - Jets Afterburner
 description: 🔻Jets - Learning Content > Rails Support - Jets Afterburner
 category:
-  - 🔻Ruby
+  - Ruby
 tag:
   - crashcourse
   - ruby

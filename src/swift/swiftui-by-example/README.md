@@ -47,9 +47,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – What is SwiftUI?",
+  "title": "What is SwiftUI? | SwiftUI by Example",
   "desc": "What is SwiftUI?",
-  "link": "/swift/swiftui-by-example/00-introduction/what-is-swiftui.md", 
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/what-is-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -57,9 +57,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – SwiftUI vs Interface Builder and storyboards",
+  "title": "SwiftUI vs Interface Builder and storyboards | SwiftUI by Example",
   "desc": "SwiftUI vs Interface Builder and storyboards",
-  "link": "/swift/swiftui-by-example/00-introduction/swiftui-vs-interface-builder-and-storyboards.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/swiftui-vs-interface-builder-and-storyboards.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -67,9 +67,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – Frequently asked questions about SwiftUI",
+  "title": "Frequently asked questions about SwiftUI | SwiftUI by Example",
   "desc": "Frequently asked questions about SwiftUI",
-  "link": "/swift/swiftui-by-example/00-introduction/frequently-asked-questions-about-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/frequently-asked-questions-about-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -77,9 +77,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – Answering the big question: should you learn SwiftUI, UIKit, or both?",
+  "title": "Answering the big question: should you learn SwiftUI, UIKit, or both? | SwiftUI by Example",
   "desc": "Answering the big question: should you learn SwiftUI, UIKit, or both?",
-  "link": "/swift/swiftui-by-example/00-introduction/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -87,9 +87,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – How to follow this quick start guide",
+  "title": "How to follow this quick start guide | SwiftUI by Example",
   "desc": "How to follow this quick start guide",
-  "link": "/swift/swiftui-by-example/00-introduction/how-to-follow-this-quick-start-guide.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-follow-this-quick-start-guide.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -97,9 +97,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – Migrating from UIKit to SwiftUI",
+  "title": "Migrating from UIKit to SwiftUI | SwiftUI by Example",
   "desc": "Migrating from UIKit to SwiftUI",
-  "link": "/swift/swiftui-by-example/00-introduction/migrating-from-uikit-to-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/migrating-from-uikit-to-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -107,9 +107,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – What’s in the basic template?",
+  "title": "What’s in the basic template? | SwiftUI by Example",
   "desc": "What’s in the basic template?",
-  "link": "/swift/swiftui-by-example/00-introduction/whats-in-the-basic-template.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/whats-in-the-basic-template.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -117,9 +117,9 @@ A brief explanation of the basics of SwiftUI
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > – Dedication",
+  "title": "Dedication | SwiftUI by Example",
   "desc": "Dedication",
-  "link": "/swift/swiftui-by-example/00-introduction/dedication.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/dedication.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -133,9 +133,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Building a complete project",
+  "title": "Building a complete project | SwiftUI by Example",
   "desc": "Building a complete project",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/swiftui-tutorial-building-a-complete-project.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/swiftui-tutorial-building-a-complete-project.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -143,9 +143,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Building a menu using List",
+  "title": "Building a menu using List | SwiftUI by Example",
   "desc": "Building a menu using List",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/building-a-menu-using-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/building-a-menu-using-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -153,9 +153,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Composing views to create a list row",
+  "title": "Composing views to create a list row | SwiftUI by Example",
   "desc": "Composing views to create a list row",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/composing-views-to-create-a-list-row.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/composing-views-to-create-a-list-row.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -163,9 +163,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Polishing designs with fonts and colors",
+  "title": "Polishing designs with fonts and colors | SwiftUI by Example",
   "desc": "Polishing designs with fonts and colors",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/polishing-designs-with-fonts-and-colors.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/polishing-designs-with-fonts-and-colors.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -173,9 +173,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Displaying a detail screen with NavigationLink",
+  "title": "Displaying a detail screen with NavigationLink | SwiftUI by Example",
   "desc": "Displaying a detail screen with NavigationLink",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/displaying-a-detail-screen-with-navigationlink.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/displaying-a-detail-screen-with-navigationlink.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -183,9 +183,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Observable objects, environment objects, and @Published",
+  "title": "Observable objects, environment objects, and @Published | SwiftUI by Example",
   "desc": "Observable objects, environment objects, and @Published",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/observable-objects-environment-objects-and-published.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/observable-objects-environment-objects-and-published.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -193,9 +193,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Adding items to an order with @EnvironmentObject",
+  "title": "Adding items to an order with @EnvironmentObject | SwiftUI by Example",
   "desc": "Adding items to an order with @EnvironmentObject",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/adding-items-to-an-order-with-environmentobject.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/adding-items-to-an-order-with-environmentobject.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -203,9 +203,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Adding TabView and tabItem()",
+  "title": "Adding TabView and tabItem() | SwiftUI by Example",
   "desc": "Adding TabView and tabItem()",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/adding-tabview-and-tabitem.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/adding-tabview-and-tabitem.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -213,9 +213,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Bindings and forms",
+  "title": "Bindings and forms | SwiftUI by Example",
   "desc": "Bindings and forms",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/bindings-and-forms.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/bindings-and-forms.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -223,9 +223,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Two-way bindings in SwiftUI",
+  "title": "Two-way bindings in SwiftUI | SwiftUI by Example",
   "desc": "Two-way bindings in SwiftUI",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/two-way-bindings-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/two-way-bindings-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -233,9 +233,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Formatting interpolated strings in SwiftUI",
+  "title": "Formatting interpolated strings in SwiftUI | SwiftUI by Example",
   "desc": "Formatting interpolated strings in SwiftUI",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/formatting-interpolated-strings-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/formatting-interpolated-strings-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -243,9 +243,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Presenting an alert",
+  "title": "Presenting an alert | SwiftUI by Example",
   "desc": "Presenting an alert",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/presenting-an-alert.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/presenting-an-alert.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -253,9 +253,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Adding swipe to delete and EditButton",
+  "title": "Adding swipe to delete and EditButton | SwiftUI by Example",
   "desc": "Adding swipe to delete and EditButton",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/adding-swipe-to-delete-and-editbutton.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/adding-swipe-to-delete-and-editbutton.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -263,9 +263,9 @@ Learn SwiftUI hands-on with a real app project
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Wrap up: our SwiftUI project is complete",
+  "title": "Wrap up: our SwiftUI project is complete | SwiftUI by Example",
   "desc": "Wrap up: our SwiftUI project is complete",
-  "link": "/swift/swiftui-by-example/01-building-a-complete-project/wrap-up-our-swiftui-project-is-complete.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/wrap-up-our-swiftui-project-is-complete.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -279,9 +279,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create static labels with a Text view",
+  "title": "How to create static labels with a Text view | SwiftUI by Example",
   "desc": "How to create static labels with a Text view",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-create-static-labels-with-a-text-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-static-labels-with-a-text-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -289,9 +289,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to style text views with fonts, colors, line spacing, and more",
+  "title": "How to style text views with fonts, colors, line spacing, and more | SwiftUI by Example",
   "desc": "How to style text views with fonts, colors, line spacing, and more",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -299,9 +299,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add advanced text styling using AttributedString",
+  "title": "How to add advanced text styling using AttributedString | SwiftUI by Example",
   "desc": "How to add advanced text styling using AttributedString",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-add-advanced-text-styling-using-attributedstring.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-add-advanced-text-styling-using-attributedstring.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -309,9 +309,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust text alignment using multilineTextAlignment()",
+  "title": "How to adjust text alignment using multilineTextAlignment() | SwiftUI by Example",
   "desc": "How to adjust text alignment using multilineTextAlignment()",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-adjust-text-alignment-using-multilinetextalignment.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-adjust-text-alignment-using-multilinetextalignment.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -319,9 +319,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to format text inside text views",
+  "title": "How to format text inside text views | SwiftUI by Example",
   "desc": "How to format text inside text views",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-text-inside-text-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-format-text-inside-text-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -329,9 +329,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add spacing between letters in text",
+  "title": "How to add spacing between letters in text | SwiftUI by Example",
   "desc": "How to add spacing between letters in text",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-add-spacing-between-letters-in-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-add-spacing-between-letters-in-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -339,9 +339,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to format dates inside text views",
+  "title": "How to format dates inside text views | SwiftUI by Example",
   "desc": "How to format dates inside text views",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-format-dates-inside-text-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-format-dates-inside-text-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -349,9 +349,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make TextField uppercase or lowercase using textCase()",
+  "title": "How to make TextField uppercase or lowercase using textCase() | SwiftUI by Example",
   "desc": "How to make TextField uppercase or lowercase using textCase()",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-make-textfield-uppercase-or-lowercase-using-textcase.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-textfield-uppercase-or-lowercase-using-textcase.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -359,9 +359,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show text and an icon side by side using Label",
+  "title": "How to show text and an icon side by side using Label | SwiftUI by Example",
   "desc": "How to show text and an icon side by side using Label",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-show-text-and-an-icon-side-by-side-using-label.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-show-text-and-an-icon-side-by-side-using-label.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -369,9 +369,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to mark content as a placeholder using redacted()",
+  "title": "How to mark content as a placeholder using redacted() | SwiftUI by Example",
   "desc": "How to mark content as a placeholder using redacted()",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-mark-content-as-a-placeholder-using-redacted.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-mark-content-as-a-placeholder-using-redacted.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -379,9 +379,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to mark content as private using privacySensitive()",
+  "title": "How to mark content as private using privacySensitive() | SwiftUI by Example",
   "desc": "How to mark content as private using privacySensitive()",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-mark-content-as-private-using-privacysensitive.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-mark-content-as-private-using-privacysensitive.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -389,9 +389,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to render Markdown content in text",
+  "title": "How to render Markdown content in text | SwiftUI by Example",
   "desc": "How to render Markdown content in text",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-render-markdown-content-in-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-render-markdown-content-in-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -399,9 +399,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize the way links are opened",
+  "title": "How to customize the way links are opened | SwiftUI by Example",
   "desc": "How to customize the way links are opened",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-customize-the-way-links-are-opened.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-customize-the-way-links-are-opened.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -409,9 +409,9 @@ Laying out text neatly
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users select text",
+  "title": "How to let users select text | SwiftUI by Example",
   "desc": "How to let users select text",
-  "link": "/swift/swiftui-by-example/02-working-with-static-text/how-to-let-users-select-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-let-users-select-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -425,9 +425,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw images using Image views",
+  "title": "How to draw images using Image views | SwiftUI by Example",
   "desc": "How to draw images using Image views",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-images-using-image-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-draw-images-using-image-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -435,9 +435,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust the way an image is fitted to its space",
+  "title": "How to adjust the way an image is fitted to its space | SwiftUI by Example",
   "desc": "How to adjust the way an image is fitted to its space",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-adjust-the-way-an-image-is-fitted-to-its-space.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-adjust-the-way-an-image-is-fitted-to-its-space.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -445,9 +445,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to tile an image",
+  "title": "How to tile an image | SwiftUI by Example",
   "desc": "How to tile an image",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-tile-an-image.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-tile-an-image.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -455,9 +455,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to render images using SF Symbols",
+  "title": "How to render images using SF Symbols | SwiftUI by Example",
   "desc": "How to render images using SF Symbols",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-images-using-sf-symbols.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-render-images-using-sf-symbols.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -465,9 +465,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to render a gradient",
+  "title": "How to render a gradient | SwiftUI by Example",
   "desc": "How to render a gradient",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-render-a-gradient.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-render-a-gradient.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -475,9 +475,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use images and other views as a backgrounds",
+  "title": "How to use images and other views as a backgrounds | SwiftUI by Example",
   "desc": "How to use images and other views as a backgrounds",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-use-images-and-other-views-as-a-backgrounds.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-use-images-and-other-views-as-a-backgrounds.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -485,9 +485,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to display solid shapes",
+  "title": "How to display solid shapes | SwiftUI by Example",
   "desc": "How to display solid shapes",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-display-solid-shapes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-display-solid-shapes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -495,9 +495,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to fill and stroke shapes at the same time",
+  "title": "How to fill and stroke shapes at the same time | SwiftUI by Example",
   "desc": "How to fill and stroke shapes at the same time",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-fill-and-stroke-shapes-at-the-same-time.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-fill-and-stroke-shapes-at-the-same-time.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -505,9 +505,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw part of a solid shape using trim()",
+  "title": "How to draw part of a solid shape using trim() | SwiftUI by Example",
   "desc": "How to draw part of a solid shape using trim()",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-draw-part-of-a-solid-shape-using-trim.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-draw-part-of-a-solid-shape-using-trim.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -515,9 +515,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > When should you use ContainerRelativeShape?",
+  "title": "When should you use ContainerRelativeShape? | SwiftUI by Example",
   "desc": "When should you use ContainerRelativeShape?",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/when-should-you-use-containerrelativeshape.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/when-should-you-use-containerrelativeshape.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -525,9 +525,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to play movies with VideoPlayer",
+  "title": "How to play movies with VideoPlayer | SwiftUI by Example",
   "desc": "How to play movies with VideoPlayer",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-play-movies-with-videoplayer.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-play-movies-with-videoplayer.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -535,9 +535,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to integrate SpriteKit using SpriteView",
+  "title": "How to integrate SpriteKit using SpriteView | SwiftUI by Example",
   "desc": "How to integrate SpriteKit using SpriteView",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-integrate-spritekit-using-spriteview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-integrate-spritekit-using-spriteview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -545,9 +545,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to load a remote image from a URL",
+  "title": "How to load a remote image from a URL | SwiftUI by Example",
   "desc": "How to load a remote image from a URL",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-a-remote-image-from-a-url.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-load-a-remote-image-from-a-url.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -555,9 +555,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to get custom colors and transparency with SF Symbols",
+  "title": "How to get custom colors and transparency with SF Symbols | SwiftUI by Example",
   "desc": "How to get custom colors and transparency with SF Symbols",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-get-custom-colors-and-transparency-with-sf-symbols.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-get-custom-colors-and-transparency-with-sf-symbols.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -565,9 +565,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to dynamically adjust the color of an SF Symbol",
+  "title": "How to dynamically adjust the color of an SF Symbol | SwiftUI by Example",
   "desc": "How to dynamically adjust the color of an SF Symbol",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-dynamically-adjust-the-color-of-an-sf-symbol.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-dynamically-adjust-the-color-of-an-sf-symbol.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -575,9 +575,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users select pictures using PhotosPicker",
+  "title": "How to let users select pictures using PhotosPicker | SwiftUI by Example",
   "desc": "How to let users select pictures using PhotosPicker",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-select-pictures-using-photospicker.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-let-users-select-pictures-using-photospicker.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -585,9 +585,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users import videos using PhotosPicker",
+  "title": "How to let users import videos using PhotosPicker | SwiftUI by Example",
   "desc": "How to let users import videos using PhotosPicker",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-let-users-import-videos-using-photospicker.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-let-users-import-videos-using-photospicker.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -595,9 +595,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to animate SF Symbols",
+  "title": "How to animate SF Symbols | SwiftUI by Example",
   "desc": "How to animate SF Symbols",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-animate-sf-symbols.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-animate-sf-symbols.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -605,9 +605,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to read the red, green, and blue values from a Color",
+  "title": "How to read the red, green, and blue values from a Color | SwiftUI by Example",
   "desc": "How to read the red, green, and blue values from a Color",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-read-the-red-green-and-blue-values-from-a-color.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-read-the-red-green-and-blue-values-from-a-color.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -615,9 +615,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to combine shapes to create new shapes",
+  "title": "How to combine shapes to create new shapes | SwiftUI by Example",
   "desc": "How to combine shapes to create new shapes",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-combine-shapes-to-create-new-shapes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-combine-shapes-to-create-new-shapes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -625,9 +625,9 @@ Draw icons, circles, gradients, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to load custom colors from an asset catalog",
+  "title": "How to load custom colors from an asset catalog | SwiftUI by Example",
   "desc": "How to load custom colors from an asset catalog",
-  "link": "/swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-load-custom-colors-from-an-asset-catalog.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -637,15 +637,15 @@ Draw icons, circles, gradients, and more
 
 :::
 
-::: details View layuot
+::: details View layout
 
 Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to give a view a custom frame",
+  "title": "How to give a view a custom frame | SwiftUI by Example",
   "desc": "How to give a view a custom frame",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-give-a-view-a-custom-frame.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-give-a-view-a-custom-frame.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -653,9 +653,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to control spacing around individual views using padding",
+  "title": "How to control spacing around individual views using padding | SwiftUI by Example",
   "desc": "How to control spacing around individual views using padding",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-control-spacing-around-individual-views-using-padding.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-control-spacing-around-individual-views-using-padding.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -663,9 +663,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to provide relative sizes using GeometryReader",
+  "title": "How to provide relative sizes using GeometryReader | SwiftUI by Example",
   "desc": "How to provide relative sizes using GeometryReader",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-provide-relative-sizes-using-geometryreader.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-provide-relative-sizes-using-geometryreader.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -673,9 +673,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to place content outside the safe area",
+  "title": "How to place content outside the safe area | SwiftUI by Example",
   "desc": "How to place content outside the safe area",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-place-content-outside-the-safe-area.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-place-content-outside-the-safe-area.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -683,9 +683,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to return different view types",
+  "title": "How to return different view types | SwiftUI by Example",
   "desc": "How to return different view types",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-return-different-view-types.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-return-different-view-types.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -693,9 +693,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create views in a loop using ForEach",
+  "title": "How to create views in a loop using ForEach | SwiftUI by Example",
   "desc": "How to create views in a loop using ForEach",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-create-views-in-a-loop-using-foreach.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-views-in-a-loop-using-foreach.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -703,9 +703,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to control layout priority using layoutPriority()",
+  "title": "How to control layout priority using layoutPriority() | SwiftUI by Example",
   "desc": "How to control layout priority using layoutPriority()",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-control-layout-priority-using-layoutpriority.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-control-layout-priority-using-layoutpriority.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -713,9 +713,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make two views the same width or height",
+  "title": "How to make two views the same width or height | SwiftUI by Example",
   "desc": "How to make two views the same width or height",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-make-two-views-the-same-width-or-height.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-two-views-the-same-width-or-height.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -723,9 +723,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to provide visual structure using foreground styles",
+  "title": "How to provide visual structure using foreground styles | SwiftUI by Example",
   "desc": "How to provide visual structure using foreground styles",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-provide-visual-structure-using-foreground-styles.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-provide-visual-structure-using-foreground-styles.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -733,9 +733,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to inset the safe area with custom content",
+  "title": "How to inset the safe area with custom content | SwiftUI by Example",
   "desc": "How to inset the safe area with custom content",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-inset-the-safe-area-with-custom-content.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-inset-the-safe-area-with-custom-content.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -743,9 +743,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide the home indicator and other system UI",
+  "title": "How to hide the home indicator and other system UI | SwiftUI by Example",
   "desc": "How to hide the home indicator and other system UI",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-hide-the-home-indicator-and-other-system-ui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-hide-the-home-indicator-and-other-system-ui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -753,9 +753,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to stop system gestures from interfering with your own",
+  "title": "How to stop system gestures from interfering with your own | SwiftUI by Example",
   "desc": "How to stop system gestures from interfering with your own",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-stop-system-gestures-from-interfering-with-your-own.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-stop-system-gestures-from-interfering-with-your-own.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -763,9 +763,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to dynamically change between VStack and HStack",
+  "title": "How to dynamically change between VStack and HStack | SwiftUI by Example",
   "desc": "How to dynamically change between VStack and HStack",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-change-between-vstack-and-hstack.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-dynamically-change-between-vstack-and-hstack.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -773,9 +773,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a custom layout using the Layout protocol",
+  "title": "How to create a custom layout using the Layout protocol | SwiftUI by Example",
   "desc": "How to create a custom layout using the Layout protocol",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-create-a-custom-layout-using-the-layout-protocol.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-a-custom-layout-using-the-layout-protocol.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -783,9 +783,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create an adaptive layout with ViewThatFits",
+  "title": "How to create an adaptive layout with ViewThatFits | SwiftUI by Example",
   "desc": "How to create an adaptive layout with ViewThatFits",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-create-an-adaptive-layout-with-viewthatfits.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-an-adaptive-layout-with-viewthatfits.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -793,9 +793,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add extra padding to the safe area",
+  "title": "How to add extra padding to the safe area | SwiftUI by Example",
   "desc": "How to add extra padding to the safe area",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-add-extra-padding-to-the-safe-area.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -803,9 +803,9 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to dynamically adjust the appearance of a view based on its size and location",
+  "title": "How to dynamically adjust the appearance of a view based on its size and location | SwiftUI by Example",
   "desc": "How to dynamically adjust the appearance of a view based on its size and location",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -813,13 +813,15 @@ Layout sizes, priorities, and spacing
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust the size of a view relative to its container",
+  "title": "How to adjust the size of a view relative to its container | SwiftUI by Example",
   "desc": "How to adjust the size of a view relative to its container",
-  "link": "/swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-container.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-adjust-the-size-of-a-view-relative-to-its-container.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+<!-- View layout -->
 
 :::
 
@@ -829,9 +831,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create stacks using VStack and HStack",
+  "title": "How to create stacks using VStack and HStack | SwiftUI by Example",
   "desc": "How to create stacks using VStack and HStack",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-stacks-using-vstack-and-hstack.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -839,9 +841,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize stack layouts with alignment and spacing",
+  "title": "How to customize stack layouts with alignment and spacing | SwiftUI by Example",
   "desc": "How to customize stack layouts with alignment and spacing",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-customize-stack-layouts-with-alignment-and-spacing.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-customize-stack-layouts-with-alignment-and-spacing.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -849,9 +851,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to force views to one side inside a stack using Spacer",
+  "title": "How to force views to one side inside a stack using Spacer | SwiftUI by Example",
   "desc": "How to force views to one side inside a stack using Spacer",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-force-views-to-one-side-inside-a-stack-using-spacer.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-force-views-to-one-side-inside-a-stack-using-spacer.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -859,9 +861,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a fixed size Spacer",
+  "title": "How to make a fixed size Spacer | SwiftUI by Example",
   "desc": "How to make a fixed size Spacer",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-fixed-size-spacer.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-a-fixed-size-spacer.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -869,9 +871,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to layer views on top of each other using ZStack",
+  "title": "How to layer views on top of each other using ZStack | SwiftUI by Example",
   "desc": "How to layer views on top of each other using ZStack",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-layer-views-on-top-of-each-other-using-zstack.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-layer-views-on-top-of-each-other-using-zstack.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -879,9 +881,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to change the order of view layering using Z index",
+  "title": "How to change the order of view layering using Z index | SwiftUI by Example",
   "desc": "How to change the order of view layering using Z index",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-change-the-order-of-view-layering-using-z-index.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-change-the-order-of-view-layering-using-z-index.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -889,9 +891,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create different layouts using size classes",
+  "title": "How to create different layouts using size classes | SwiftUI by Example",
   "desc": "How to create different layouts using size classes",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-different-layouts-using-size-classes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-different-layouts-using-size-classes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -899,9 +901,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to automatically switch between HStack and VStack based on size class",
+  "title": "How to automatically switch between HStack and VStack based on size class | SwiftUI by Example",
   "desc": "How to automatically switch between HStack and VStack based on size class",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -909,9 +911,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add horizontal and vertical scrolling using ScrollView",
+  "title": "How to add horizontal and vertical scrolling using ScrollView | SwiftUI by Example",
   "desc": "How to add horizontal and vertical scrolling using ScrollView",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -919,9 +921,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a scroll view move to a location using ScrollViewReader",
+  "title": "How to make a scroll view move to a location using ScrollViewReader | SwiftUI by Example",
   "desc": "How to make a scroll view move to a location using ScrollViewReader",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-a-scroll-view-move-to-a-location-using-scrollviewreader.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -929,9 +931,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
+  "title": "How to create 3D effects like Cover Flow using ScrollView and GeometryReader | SwiftUI by Example",
   "desc": "How to create 3D effects like Cover Flow using ScrollView and GeometryReader",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -939,9 +941,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to lazy load views using LazyVStack and LazyHStack",
+  "title": "How to lazy load views using LazyVStack and LazyHStack | SwiftUI by Example",
   "desc": "How to lazy load views using LazyVStack and LazyHStack",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -949,9 +951,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to position views in a fixed grid",
+  "title": "How to position views in a fixed grid | SwiftUI by Example",
   "desc": "How to position views in a fixed grid",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-fixed-grid.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-position-views-in-a-fixed-grid.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -959,9 +961,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to position views in a grid using LazyVGrid and LazyHGrid",
+  "title": "How to position views in a grid using LazyVGrid and LazyHGrid | SwiftUI by Example",
   "desc": "How to position views in a grid using LazyVGrid and LazyHGrid",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -969,9 +971,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to dismiss the keyboard when the user scrolls",
+  "title": "How to dismiss the keyboard when the user scrolls | SwiftUI by Example",
   "desc": "How to dismiss the keyboard when the user scrolls",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-dismiss-the-keyboard-when-the-user-scrolls.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-dismiss-the-keyboard-when-the-user-scrolls.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -979,9 +981,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide the scroll indicators in ScrollView, List, and more",
+  "title": "How to hide the scroll indicators in ScrollView, List, and more | SwiftUI by Example",
   "desc": "How to hide the scroll indicators in ScrollView, List, and more",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -989,9 +991,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create multi-column lists using Table",
+  "title": "How to create multi-column lists using Table | SwiftUI by Example",
   "desc": "How to create multi-column lists using Table",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-multi-column-lists-using-table.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-create-multi-column-lists-using-table.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -999,9 +1001,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to indent the content or scroll indicators in a ScrollView",
+  "title": "How to indent the content or scroll indicators in a ScrollView | SwiftUI by Example",
   "desc": "How to indent the content or scroll indicators in a ScrollView",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1009,9 +1011,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to flash the scroll bar indicators of a ScrollView or List",
+  "title": "How to flash the scroll bar indicators of a ScrollView or List | SwiftUI by Example",
   "desc": "How to flash the scroll bar indicators of a ScrollView or List",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1019,9 +1021,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a ScrollView snap with paging or between child views",
+  "title": "How to make a ScrollView snap with paging or between child views | SwiftUI by Example",
   "desc": "How to make a ScrollView snap with paging or between child views",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-snap-with-paging-or-between-child-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-a-scrollview-snap-with-paging-or-between-child-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1029,9 +1031,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make views scroll with a custom transition",
+  "title": "How to make views scroll with a custom transition | SwiftUI by Example",
   "desc": "How to make views scroll with a custom transition",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-views-scroll-with-a-custom-transition.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-views-scroll-with-a-custom-transition.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1039,9 +1041,9 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a ScrollView start at the bottom",
+  "title": "How to make a ScrollView start at the bottom | SwiftUI by Example",
   "desc": "How to make a ScrollView start at the bottom",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-make-a-scrollview-start-at-the-bottom.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-make-a-scrollview-start-at-the-bottom.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1049,13 +1051,15 @@ Position views in a structured way
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to disable ScrollView clipping so contents overflow",
+  "title": "How to disable ScrollView clipping so contents overflow | SwiftUI by Example",
   "desc": "How to disable ScrollView clipping so contents overflow",
-  "link": "/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-disable-scrollview-clipping-so-contents-overflow",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-by-example/how-to-disable-scrollview-clipping-so-contents-overflhtml",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
 ```
+
+<!-- Stacks, grids, scrollviews -->
 
 :::
 

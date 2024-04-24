@@ -92,7 +92,7 @@ export default defineUserConfig({
               "iconfont", 
               "fontawesome", 
               "fontawesome-with-brands", 
-              "/crashcourse/iconfont-more.css", /* 리소스 통합 필요 */
+              "https://chanhi2000.github.io/iconfont-more.css", /* 리소스 통합 필요 */
               "iconify"
             ],
           }
