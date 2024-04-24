@@ -64,7 +64,7 @@ You’ll need a physical device to work with VoiceOver. This accessibility featu
 
 In this tutorial, you’ll work with an already-completed app called __Recipe__, which contains a list of recipes and their difficulty levels. It also allows you to rate the quality of the dishes you make.
 
-Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="iconfont icon-file"/>`Recipe.xcodeproj` in the <FontIcon icon="fas fa-folder-open"/>`begin` folder.
+Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="fas fa-file-lines"/>`Recipe.xcodeproj` in the <FontIcon icon="fas fa-folder-open"/>`begin` folder.
 
 Before you can run the app on a device, you need to configure signing.
 
@@ -86,7 +86,7 @@ To make things more exciting, you can also cross off the items on the list to ma
 
 Spend a few minutes familiarizing yourself with the code in the begin project. Here are some highlights:
 
-- <FontIcon icon="iconfont icon-file"/>`Main.storyboard` contains all the storyboard scenes for the app. You’ll notice all the UI components are standard UIKit controls and views. They’re already accessible, which makes your job easier.
+- <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` contains all the storyboard scenes for the app. You’ll notice all the UI components are standard UIKit controls and views. They’re already accessible, which makes your job easier.
 - .<FontIcon icon="fa-brands fa-swift"/>`RecipeListViewController.swift` manages the root table view, which displays the list of all recipes available. It uses an array of `Recipe` objects as the data source.
 - .<FontIcon icon="fa-brands fa-swift"/>`Recipe.swift` is the model object that represents a recipe. It contains utility methods for loading an array of recipes that you’ll use throughout the app.
 - .<FontIcon icon="fa-brands fa-swift"/>`RecipeCell.swift` is the cell for the root controller’s recipe list. It displays the recipe’s difficulty level, name and photo based on the passed `Recipe` model object.

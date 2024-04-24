@@ -155,9 +155,9 @@ man ip-route
 
 ## 3. `dhclient`
 
-We've discussed DHCP before and most often you will never need to statically set your IP addresses, subnet masks, etc. Instead you'll be using DHCP! The `dhclient` starts up on boot and gets a list of network interfaces from the <FontIcon icon="iconfont icon-file"/>`dhclient.conf` file. For each interface listed it tries to configure the interface using the DHCP protocol.
+We've discussed DHCP before and most often you will never need to statically set your IP addresses, subnet masks, etc. Instead you'll be using DHCP! The `dhclient` starts up on boot and gets a list of network interfaces from the <FontIcon icon="fas fa-file-lines"/>`dhclient.conf` file. For each interface listed it tries to configure the interface using the DHCP protocol.
 
-In the <FontIcon icon="iconfont icon-file"/>`dhclient.leases` file, dhclient keeps track of a list of leases across system reboots, after reading <FontIcon icon="iconfont icon-file"/>`dhclient.conf`, the <FontIcon icon="iconfont icon-file"/>`dhclient.leases` file is read to let it know what leases it's already assigned.
+In the <FontIcon icon="fas fa-file-lines"/>`dhclient.leases` file, dhclient keeps track of a list of leases across system reboots, after reading <FontIcon icon="fas fa-file-lines"/>`dhclient.conf`, the <FontIcon icon="fas fa-file-lines"/>`dhclient.leases` file is read to let it know what leases it's already assigned.
 
 ### To obtain a fresh IP
 

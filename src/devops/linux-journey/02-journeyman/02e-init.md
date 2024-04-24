@@ -128,7 +128,7 @@ ls /etc/init
 
 Inside these job configurations, it'll include information on how to start jobs and when to start jobs.
 
-For example, in the <FontIcon icon="iconfont icon-file"/>`networking.conf` file, it could say something as simple as:
+For example, in the <FontIcon icon="fas fa-file-lines"/>`networking.conf` file, it could say something as simple as:
 
 ```
 start on runlevel [235]
@@ -234,7 +234,7 @@ For example, let's say we boot into our `default.target`, well this target group
 
 We won't get into the details of writing systemd unit files. We will however go over a brief overview of a unit file and how to manually control units.
 
-Here is a basic service unit file: <FontIcon icon="iconfont icon-file"/>`foobar.service`
+Here is a basic service unit file: <FontIcon icon="fas fa-file-lines"/>`foobar.service`
 
 ```
 [Unit]

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Bash 쉘스크립트 개발 시작하기
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/bash-dev.html
+      content: https://chanhi2000.github.io/crashcourse/bash-dev/
 ---
 
 # {{ $frontmatter.title }} 관련

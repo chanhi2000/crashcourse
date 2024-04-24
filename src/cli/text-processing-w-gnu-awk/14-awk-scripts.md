@@ -216,7 +216,7 @@ For the input file <FontIcon icon="fa-brands fa-markdown"/> `gawk.md`, construct
   - surround the original content with `[]` and then append the string obtained from the previous step
 - Note that the output should have only the converted headers, all other input lines should not be present
 
-The script file should be named as <FontIcon icon="iconfont icon-file"/> `toc.awk` and save the output in <FontIcon icon="fa-brands fa-markdown"/> `out.md`.
+The script file should be named as <FontIcon icon="fas fa-file-lines"/> `toc.awk` and save the output in <FontIcon icon="fa-brands fa-markdown"/> `out.md`.
 
 ::: tabs
 
@@ -259,7 +259,7 @@ diff -sq out.md toc_expected.md
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/> `odd.txt`, surround the first two whole words of each line with `{}` that start and end with the same word character. Assume that the input file will not require case insensitive comparison. This is a contrived exercise that needs around 10 instructions and makes you use various features presented in this book.
+For the input file <FontIcon icon="fas fa-file-lines"/> `odd.txt`, surround the first two whole words of each line with `{}` that start and end with the same word character. Assume that the input file will not require case insensitive comparison. This is a contrived exercise that needs around 10 instructions and makes you use various features presented in this book.
 
 ::: tabs
 

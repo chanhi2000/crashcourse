@@ -20,6 +20,7 @@ head:
       content: Building a complete project
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/01-building-a-complete-project/swiftui-tutorial-building-a-complete-project.md
+prev: /swift/swiftui-by-example/00-introduction/dedication.md
 ---
 
 # {{ $frontmatter.title }} 관련

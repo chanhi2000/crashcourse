@@ -79,15 +79,15 @@ su
 
 There are some downsides to using this method: it's much easier to make a critical mistake running everything in root, you won't have records of the commands you use to change system configurations, etc. Basically, if you need to run commands as the superuser, just stick to `sudo`.
 
-Now that you know what commands to run as the superuser, the question is how do you know who has access to do that? The system doesn't let every single Joe Schmoe run commands as the superuser, so how does it know? There is a file called the <FontIcon icon="iconfont icon-file"/>`/etc/sudoers` file, this file lists users who can run `sudo`. You can edit this file with the visudo command.
+Now that you know what commands to run as the superuser, the question is how do you know who has access to do that? The system doesn't let every single Joe Schmoe run commands as the superuser, so how does it know? There is a file called the <FontIcon icon="fas fa-file-lines"/>`/etc/sudoers` file, this file lists users who can run `sudo`. You can edit this file with the visudo command.
 
-Open up the <FontIcon icon="iconfont icon-file"/>`/etc/sudoers` file and see what superuser permissions other users on the machine have.
+Open up the <FontIcon icon="fas fa-file-lines"/>`/etc/sudoers` file and see what superuser permissions other users on the machine have.
 
 ---
 
-## 3. <FontIcon icon="iconfont icon-file"/>`/etc/passwd`
+## 3. <FontIcon icon="fas fa-file-lines"/>`/etc/passwd`
 
-Remember that usernames aren't really identifications for users. The system uses a user ID (UID) to identify a user. To find out what users are mapped to what ID, look at the <FontIcon icon="iconfont icon-file"/>`/etc/passwd` file.
+Remember that usernames aren't really identifications for users. The system uses a user ID (UID) to identify a user. To find out what users are mapped to what ID, look at the <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` file.
 
 This file shows you a list of users and detailed information about them. For example, the first line in this file most likely looks like this:
 
@@ -100,31 +100,31 @@ cat /etc/passwd
 Each line displays user information for one user, most commonly you'll see the root user as the first line. There are many fields separated by colons that tell you additional information about the user, let's look at them all:
 
 1. Username
-2. User's password - the password is not really stored in this file, it's usually stored in the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file. We'll discuss more in the next lesson about <FontIcon icon="iconfont icon-file"/>`/etc/shadow`, but for now, know that it contains encrypted user passwords. You can see many different symbols that are in this field, if you see an "`x`" that means the password is stored in the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file, a "`*`" means the user doesn't have login access and if there is a blank field that means the user doesn't have a password.
+2. User's password - the password is not really stored in this file, it's usually stored in the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file. We'll discuss more in the next lesson about <FontIcon icon="fas fa-file-lines"/>`/etc/shadow`, but for now, know that it contains encrypted user passwords. You can see many different symbols that are in this field, if you see an "`x`" that means the password is stored in the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file, a "`*`" means the user doesn't have login access and if there is a blank field that means the user doesn't have a password.
 3. The user ID - as you can see root has the UID of 0
 4. The group ID
 5. GECOS field - This is used to generally leave comments about the user or account such as their real name or phone number, it is comma delimited.
 6. User's home directory
 7. User's shell - you'll probably see a lot of user's defaulting to bash for their shell
 
-Normally in a user's setting page, you would expect you see just human users. However, you'll notice <FontIcon icon="iconfont icon-file"/>`/etc/passwd` contains other users. Remember that users are really only on the system to run processes with different permissions. Sometimes we want to run processes with pre-determined permissions. For example, the daemon user is used for daemon processes.
+Normally in a user's setting page, you would expect you see just human users. However, you'll notice <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` contains other users. Remember that users are really only on the system to run processes with different permissions. Sometimes we want to run processes with pre-determined permissions. For example, the daemon user is used for daemon processes.
 
-Also should note that you can edit the <FontIcon icon="iconfont icon-file"/>`/etc/passwd` file by hand if you want to add users and modify information with the `vipw` tool, however things like these are best left to the tools we will discuss in a later lesson such as `useradd` and `userdel`.
+Also should note that you can edit the <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` file by hand if you want to add users and modify information with the `vipw` tool, however things like these are best left to the tools we will discuss in a later lesson such as `useradd` and `userdel`.
 
-Look at your <FontIcon icon="iconfont icon-file"/>`/etc/passwd` file, take a look at some of the users and note the access they have.
+Look at your <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` file, take a look at some of the users and note the access they have.
 
 ---
 
-## 4. <FontIcon icon="iconfont icon-file"/>`/etc/shadow`
+## 4. <FontIcon icon="fas fa-file-lines"/>`/etc/shadow`
 
-The <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file is used to store information about user authentication. It requires superuser read permissions.
+The <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file is used to store information about user authentication. It requires superuser read permissions.
 
 ```sh
 sudo cat /etc/shadow
 # root:MyEPTEa$6Nonsense:15000:0:99999:7:::
 ```
 
-You'll notice that it looks very similar to the contents of <FontIcon icon="iconfont icon-file"/>`/etc/passwd`, however in the password field you'll see an encrypted password. The fields are separated by colons as followed:
+You'll notice that it looks very similar to the contents of <FontIcon icon="fas fa-file-lines"/>`/etc/passwd`, however in the password field you'll see an encrypted password. The fields are separated by colons as followed:
 
 1. Username
 2. Encrypted password
@@ -136,22 +136,22 @@ You'll notice that it looks very similar to the contents of <FontIcon icon="icon
 8. Account expiration date - date that user will not be able to login
 9. Reserved field for future use
 
-In most distributions today, user authentication doesn't rely on just the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file, there are other mechanisms in place such as PAM (Pluggable Authentication Modules) that replace authentication.
+In most distributions today, user authentication doesn't rely on just the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file, there are other mechanisms in place such as PAM (Pluggable Authentication Modules) that replace authentication.
 
-Take a look at the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file
+Take a look at the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file
 
 ---
 
 ## 5. `/etc/group`
 
-Another file that is used in user management is the <FontIcon icon="iconfont icon-file"/>`/etc/group` file. This file allows for different groups with different permissions.
+Another file that is used in user management is the <FontIcon icon="fas fa-file-lines"/>`/etc/group` file. This file allows for different groups with different permissions.
 
 ```sh
 cat /etc/group
 # root:*:0:pete
 ```
 
-Very similar to the <FontIcon icon="iconfont icon-file"/>`/etc/password` field, the <FontIcon icon="iconfont icon-file"/>`/etc/group` fields are as follows:
+Very similar to the <FontIcon icon="fas fa-file-lines"/>`/etc/password` field, the <FontIcon icon="fas fa-file-lines"/>`/etc/group` fields are as follows:
 
 1. Group name
 2. Group password - there isn't a need to set a group password, using an elevated privilege like sudo is standard. A "*" will be put in place as the default value.
@@ -174,7 +174,7 @@ You can use the adduser or the useradd command. The adduser command contains mor
 sudo useradd bob
 ```
 
-You'll see that the above command creates an entry in <FontIcon icon="iconfont icon-file"/>`/etc/passwd` for bob, sets up default groups and adds an entry to the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file.
+You'll see that the above command creates an entry in <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` for bob, sets up default groups and adds an entry to the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file.
 
 ### Removing Users
 

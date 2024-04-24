@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: 4. Curl basics
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/04-curl-basics.html
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide/04-curl-basics.html
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -530,7 +530,7 @@ curl --connect-timeout 0.5 http:/httpbin/delay/1
 
 ## Credentials
 
-You almost never want to pass the username and password in the curl command itself. One way to avoid this is to use the <FontIcon icon="iconfont icon-file"/>`.netrc` file. It specifies hostnames and credentials for accessing them:
+You almost never want to pass the username and password in the curl command itself. One way to avoid this is to use the <FontIcon icon="fas fa-file-lines"/>`.netrc` file. It specifies hostnames and credentials for accessing them:
 
 ```
 machine httpbin
@@ -542,7 +542,7 @@ login bob
 password nuggets
 ```
 
-Pass the `--netrc` option to use the <FontIcon icon="iconfont icon-file"/>`$HOME/.netrc` file, or --netrc-file to use a specific one:
+Pass the `--netrc` option to use the <FontIcon icon="fas fa-file-lines"/>`$HOME/.netrc` file, or --netrc-file to use a specific one:
 
 ```sh
 echo -e "machine httpbin\nlogin alice\npassword cheese" > /tmp/netrc &&

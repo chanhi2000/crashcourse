@@ -96,7 +96,15 @@ When that code runs you should be able to move between the two views and see mes
 
 ::: details Similar solutions…
 
-How to detect and respond to key press events <!-- TODO: add link -->
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect and respond to key press events",
+  "desc": "How to detect and respond to key press events",
+  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-detect-and-respond-to-key-press-events.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

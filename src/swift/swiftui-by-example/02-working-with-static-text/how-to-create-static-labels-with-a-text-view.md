@@ -20,6 +20,7 @@ head:
       content: How to create static labels with a Text view
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/02-working-with-static-text/how-to-create-static-labels-with-a-text-view.html
+prev: /swift/swiftui-by-example/01-building-a-complete-project/wrap-up-our-swiftui-project-is-complete.md
 ---
 
 # {{ $frontmatter.title }} 관련

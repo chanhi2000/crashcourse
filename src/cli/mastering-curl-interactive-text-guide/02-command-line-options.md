@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: 2. Command line options
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/02-command-line-options.html
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide/02-command-line-options.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -61,7 +61,7 @@ To kick things off, use the [<FontIcon icon="fas fa-download"/>`[Download Materi
 
 The app for this tutorial is `StarWarsOpedia`, which provides quick access to data about Star Wars films as well as the starships used in those films.
 
-Start by opening <FontIcon icon="iconfont icon-file"/>`StarWarsOpedia.xcworkspace` inside the begin project.
+Start by opening <FontIcon icon="fas fa-file-lines"/>`StarWarsOpedia.xcworkspace` inside the begin project.
 
 ![Build and run. You’ll see this](https://koenig-media.raywenderlich.com/uploads/2020/01/1-1-304x500.png =240x)
 

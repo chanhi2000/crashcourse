@@ -105,7 +105,7 @@ cat f1.txt
 
 ## With backup
 
-You can provide a backup extension by setting the `inplace::suffix` special variable. For example, if the input file is <FontIcon icon="iconfont icon-file"/>`ip.txt` and `inplace::suffix='.orig'` is used, the backup file will be named as `ip.txt.orig`.
+You can provide a backup extension by setting the `inplace::suffix` special variable. For example, if the input file is <FontIcon icon="fas fa-file-lines"/>`ip.txt` and `inplace::suffix='.orig'` is used, the backup file will be named as `ip.txt.orig`.
 
 ```sh
 cat f3.txt
@@ -173,7 +173,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-For the input file <FontIcon icon="iconfont icon-file"/> `copyright.txt`, replace `copyright: 2018` with `copyright: 2020` and write back the changes to <FontIcon icon="iconfont icon-file"/> `copyright.txt` itself. The original contents should get saved to <FontIcon icon="iconfont icon-file"/> `copyright.txt.orig`
+For the input file <FontIcon icon="fas fa-file-lines"/> `copyright.txt`, replace `copyright: 2018` with `copyright: 2020` and write back the changes to <FontIcon icon="fas fa-file-lines"/> `copyright.txt` itself. The original contents should get saved to <FontIcon icon="fas fa-file-lines"/> `copyright.txt.orig`
 
 ```sh
 cat copyright.txt
@@ -223,7 +223,7 @@ cat copyright.txt.orig
 
 ### Exercise 2
 
-For the input files <FontIcon icon="iconfont icon-file"/> `nums1.txt` and <FontIcon icon="iconfont icon-file"/> `nums2.txt`, retain only the second and third lines and write back the changes to their respective files. No need to create backups.
+For the input files <FontIcon icon="fas fa-file-lines"/> `nums1.txt` and <FontIcon icon="fas fa-file-lines"/> `nums2.txt`, retain only the second and third lines and write back the changes to their respective files. No need to create backups.
 
 
 ```sh

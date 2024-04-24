@@ -134,7 +134,7 @@ or
 jupyterhub
 ```
 
-You then can navigate to any of the <FontIcon icon="iconfont icon-file"/>`.ipynb` files, open them and start working.
+You then can navigate to any of the <FontIcon icon="fas fa-file-lines"/>`.ipynb` files, open them and start working.
 
 #### Running in container
 

@@ -160,7 +160,15 @@ By default, Swift tasks created using the `task()` modifier will run at the high
   "background": "rgba(54,94,226,0.2)"
 }
 ```
-How to control which NavigationSplitView column is shown in compact layouts <!-- TODO: add link -->
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control which NavigationSplitView column is shown in compact layouts",
+  "desc": "How to control which NavigationSplitView column is shown in compact layouts",
+  "link": "/swift/swiftui-by-example/13-navigation/how-to-control-which-navigationsplitview-column-is-shown-in-compact-layouts.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 ```component VPCard
 {

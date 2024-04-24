@@ -64,7 +64,7 @@ Databases like SQLite are massive topics to cover, and covering how to use them 
 
 ## Getting Started
 
-Start by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="iconfont icon-file"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
+Start by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="fas fa-file-lines"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
 
 ::: tip Note
 

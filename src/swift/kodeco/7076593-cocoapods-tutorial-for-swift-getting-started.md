@@ -108,13 +108,13 @@ Awesome, you’re now set up to use CocoaPods!
 
 Your top client is Ice Cream Shop, Inc. Their ice cream is so popular they can’t keep up with customer orders at the counter. They’ve recruited you to create a sleek iOS app that allows customers to order ice cream right from their iPhones.
 
-You’ve started developing the app and it’s coming along well. Take a look at your progress by opening <FontIcon icon="iconfont icon-file"/>`IceCreamShop.xcodeproj`, then building and running. You’ll see a mouth-watering vanilla ice cream cone:
+You’ve started developing the app and it’s coming along well. Take a look at your progress by opening <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcodeproj`, then building and running. You’ll see a mouth-watering vanilla ice cream cone:
 
 ![Ice Cream Shop, Inc.'s start page](https://koenig-media.raywenderlich.com/uploads/2015/03/icecreamshop_starter.png =240x)
 
 The user should be able to choose an ice cream flavor from this screen, but that’s not possible yet. Your first step is to finish implementing this functionality.
 
-Open <FontIcon icon="iconfont icon-file"/>`Main.storyboard` from the `Views/Storyboards & Nibs` group to see the app’s layout. Here’s a quick overview of the heart of the app, the <FontIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene:
+Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` from the `Views/Storyboards & Nibs` group to see the app’s layout. Here’s a quick overview of the heart of the app, the <FontIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene:
 
 ![Components of the <FontIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene](https://koenig-media.raywenderlich.com/uploads/2017/04/ChooseYourFlavor-427x500.png)
 
@@ -146,7 +146,7 @@ You might be tempted to download this library and drag the source files right in
 
 Your first step is to __close Xcode__. Yeah, you read that right.
 
-It’s time to create the <FontIcon icon="iconfont icon-file"/>`Podfile`, where you’ll define your project’s dependencies.
+It’s time to create the <FontIcon icon="fas fa-file-lines"/>`Podfile`, where you’ll define your project’s dependencies.
 
 Open __Terminal__ and navigate to the directory that contains your __IceCreamShop__ project by using the `cd` command:
 
@@ -218,7 +218,7 @@ iOS 8 introduced __dynamic frameworks__, which allow you to bundle code, images 
 
 ### Back to Installing Your First Dependency
 
-It’s finally time to add your first dependency using CocoaPods. Add the following to your<FontIcon icon="iconfont icon-file"/>`Podfile`, right after `use_frameworks!`:
+It’s finally time to add your first dependency using CocoaPods. Add the following to your<FontIcon icon="fas fa-file-lines"/>`Podfile`, right after `use_frameworks!`:
 
 ```rb
 pod 'Alamofire', '4.9.1'
@@ -226,11 +226,11 @@ pod 'Alamofire', '4.9.1'
 
 This tells CocoaPods you want to include Alamofire version 4.9.1 as a dependency for your project.
 
-Save and close the <FontIcon icon="iconfont icon-file"/>`Podfile`.
+Save and close the <FontIcon icon="fas fa-file-lines"/>`Podfile`.
 
 You now need to tell CocoaPods to install the dependencies for your project.
 
-Enter the following command in __Terminal__, after ensuring you’re still in the directory containing the `IceCreamShop` project and <FontIcon icon="iconfont icon-file"/>`Podfile`:
+Enter the following command in __Terminal__, after ensuring you’re still in the directory containing the `IceCreamShop` project and <FontIcon icon="fas fa-file-lines"/>`Podfile`:
 
 ```sh
 pod install
@@ -247,7 +247,7 @@ pod install
 ```
 
 
-Open the __project folder__ using __Finder__ and you’ll see CocoaPods created a new <FontIcon icon="iconfont icon-file"/>`IceCreamShop.xcworkspace` file and a Pods folder to store all the project’s dependencies.
+Open the __project folder__ using __Finder__ and you’ll see CocoaPods created a new <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace` file and a Pods folder to store all the project’s dependencies.
 
 ::: tip Note
 
@@ -263,7 +263,7 @@ Excellent! You’ve just added your first dependency using CocoaPods!
 
 Now, you’ll use your brand new dependency, Alamofire.
 
-If the Xcode project is open, close it now and open <FontIcon icon="iconfont icon-file"/>`IceCreamShop.xcworkspace`.
+If the Xcode project is open, close it now and open <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace`.
 
 Open <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following just below the existing import:
 
@@ -332,7 +332,7 @@ To use this pod, you need to add it to your Podfile. Rather than opening the Pod
 
 ![Pods in Workspace](https://koenig-media.raywenderlich.com/uploads/2015/03/pods_in_workspace-365x320.png)
 
-Open <FontIcon icon="iconfont icon-file"/>`Podfile` and add the following, right after the __Alamofire__ line:
+Open <FontIcon icon="fas fa-file-lines"/>`Podfile` and add the following, right after the __Alamofire__ line:
 
 ```rb
 pod 'MBProgressHUD', '~> 1.0'

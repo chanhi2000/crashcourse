@@ -53,7 +53,7 @@ For example, let's say I want WackyWidgets Software on my machine. Well WackyWid
 
 Now instead of going to their website to download the package directly, you can tell your machine to find WackyWidgets software from the source link.
 
-Your distribution already comes with pre-approved sources to get packages from and this is how it installs all the base packages you see on your system. On a Debian system, this sources file is the <FontIcon icon="iconfont icon-file"/>`/etc/apt/sources.list` file. Your machine will know to look there and check for any source repositories you added.
+Your distribution already comes with pre-approved sources to get packages from and this is how it installs all the base packages you see on your system. On a Debian system, this sources file is the <FontIcon icon="fas fa-file-lines"/>`/etc/apt/sources.list` file. Your machine will know to look there and check for any source repositories you added.
 
 ---
 

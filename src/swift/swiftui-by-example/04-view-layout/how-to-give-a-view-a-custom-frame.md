@@ -20,6 +20,7 @@ head:
       content: How to give a view a custom frame
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/04-view-layout/how-to-give-a-view-a-custom-frame.html
+prev: /swift/swiftui-by-example/03-images-shapes-and-media/how-to-load-custom-colors-from-an-asset-catalog.md
 ---
 
 # {{ $frontmatter.title }} 관련

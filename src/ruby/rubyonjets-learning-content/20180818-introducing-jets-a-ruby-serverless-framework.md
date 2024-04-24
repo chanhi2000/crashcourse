@@ -212,7 +212,7 @@ jets server
 
 The jets server command starts a server that mimics API Gateway so you can test locally. Open [http://localhost:8888/posts](http://localhost:8888/posts) and test out the CRUD site created from the scaffold.
 
-When you’re ready, adjust your <FontIcon icon="iconfont icon-file"/>`.env.development.remote` with an RDS database and deploy to AWS Lambda.
+When you’re ready, adjust your <FontIcon icon="fas fa-file-lines"/>`.env.development.remote` with an RDS database and deploy to AWS Lambda.
 
 ```sh
 vim .env.development.remote # adjust with remote db settings

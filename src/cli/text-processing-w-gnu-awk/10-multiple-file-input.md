@@ -182,7 +182,7 @@ awk 'BEGIN{for(i=0; i<ARGC; i++) print ARGV[i]}' table.txt n=5 greeting.txt
 
 :::
 
-In the above example, the variable `n` will get a value of `5` after `awk` has finished processing the <FontIcon icon="iconfont icon-file"/> `table.txt` file. Here's an example where `FS` is changed between two files.
+In the above example, the variable `n` will get a value of `5` after `awk` has finished processing the <FontIcon icon="fas fa-file-lines"/> `table.txt` file. Here's an example where `FS` is changed between two files.
 
 
 ```sh
@@ -243,7 +243,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-Print the last field of the first two lines for the input files <FontIcon icon="iconfont icon-file"/> `table.txt`, <FontIcon icon="iconfont icon-file"/> `scores.csv` and <FontIcon icon="iconfont icon-file"/> `fw.txt`. The field separators for these files are space, comma and fixed width respectively. To make the output more informative, print filenames and a separator as shown in the output below. Assume that the input files will have at least two lines.
+Print the last field of the first two lines for the input files <FontIcon icon="fas fa-file-lines"/> `table.txt`, <FontIcon icon="fas fa-file-lines"/> `scores.csv` and <FontIcon icon="fas fa-file-lines"/> `fw.txt`. The field separators for these files are space, comma and fixed width respectively. To make the output more informative, print filenames and a separator as shown in the output below. Assume that the input files will have at least two lines.
 
 ::: tabs 
 
@@ -288,7 +288,7 @@ awk 'BEGINFILE{print ">" FILENAME "<"} {print $NF} FNR==2{print "----------";
 
 ### Exercise 2
 
-For the input files <FontIcon icon="iconfont icon-file"/> `sample.txt`, <FontIcon icon="iconfont icon-file"/> `secrets.txt`, <FontIcon icon="iconfont icon-file"/> `addr.txt` and <FontIcon icon="iconfont icon-file"/> `table.txt`, display only the names of files that contain at or fun in the third field. Assume space as the field separator.
+For the input files <FontIcon icon="fas fa-file-lines"/> `sample.txt`, <FontIcon icon="fas fa-file-lines"/> `secrets.txt`, <FontIcon icon="fas fa-file-lines"/> `addr.txt` and <FontIcon icon="fas fa-file-lines"/> `table.txt`, display only the names of files that contain at or fun in the third field. Assume space as the field separator.
 
 ::: tabs 
 

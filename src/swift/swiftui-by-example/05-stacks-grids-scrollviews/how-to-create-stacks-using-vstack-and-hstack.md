@@ -20,6 +20,7 @@ head:
       content: How to create stacks using VStack and HStack
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/05-stacks-grids-scrollviews/how-to-create-stacks-using-vstack-and-hstack.html
+prev: /swift/swiftui-by-example/04-view-layout/how-to-adjust-the-size-of-a-view-relative-to-its-container.md
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -92,7 +92,7 @@ awk 'NR==FNR{a[$0]; next} $0 in a' colors_1.txt colors_2.txt
 
 @tab Case 2
 
-lines from <FontIcon icon="iconfont icon-file"/> `colors_2.txt` not present in  <FontIcon icon="iconfont icon-file"/> `colors_1.txt`
+lines from <FontIcon icon="fas fa-file-lines"/> `colors_2.txt` not present in  <FontIcon icon="fas fa-file-lines"/> `colors_1.txt`
 
 > same as: `grep -vFxf colors_1.txt colors_2.txt`
 
@@ -104,7 +104,7 @@ awk 'NR==FNR{a[$0]; next} !($0 in a)' colors_1.txt colors_2.txt
 
 @tab Case 3
 
-reversing the order of input files gives lines from <FontIcon icon="iconfont icon-file"/> `colors_1.txt` not present in <FontIcon icon="iconfont icon-file"/> `colors_2.txt`
+reversing the order of input files gives lines from <FontIcon icon="fas fa-file-lines"/> `colors_1.txt` not present in <FontIcon icon="fas fa-file-lines"/> `colors_2.txt`
 
 ```sh
 awk 'NR==FNR{a[$0]; next} !($0 in a)' colors_2.txt colors_1.txt
@@ -160,7 +160,7 @@ cat marks.txt
 # ECE     Om      92
 # CSE     Amy     67
 ```
-To start with, here's a single field comparison. The problem statement is to fetch all records from <FontIcon icon="iconfont icon-file"/> `marks.txt` if the first field matches any of the departments listed in the <FontIcon icon="iconfont icon-file"/> `dept.txt` file.
+To start with, here's a single field comparison. The problem statement is to fetch all records from <FontIcon icon="fas fa-file-lines"/> `marks.txt` if the first field matches any of the departments listed in the <FontIcon icon="fas fa-file-lines"/> `dept.txt` file.
 
 ```sh
 cat dept.txt
@@ -172,7 +172,7 @@ cat dept.txt
 
 @tab:active Case 1
 
-note that <FontIcon icon="iconfont icon-file"/> `dept.txt` is used to build the array keys first
+note that <FontIcon icon="fas fa-file-lines"/> `dept.txt` is used to build the array keys first
 
 ```sh
 awk 'NR==FNR{a[$1]; next} $1 in a' dept.txt marks.txt
@@ -237,7 +237,7 @@ CSE 80
 
 @tab:active Case 1
 
-match Dept and minimum marks specified in <FontIcon icon="iconfont icon-file"/> `dept_mark.txt`
+match Dept and minimum marks specified in <FontIcon icon="fas fa-file-lines"/> `dept_mark.txt`
 
 ```sh
 awk 'NR==FNR{d[$1]=$2; next}
@@ -306,7 +306,7 @@ Here's an example where two files are processed simultaneously. In this case, th
 
 @tab:active Case 1
 
-print line from <FontIcon icon="iconfont icon-file"/> `greeting.txt` if the last column of the corresponding line from <FontIcon icon="iconfont icon-file"/> `table.txt` is a positive number
+print line from <FontIcon icon="fas fa-file-lines"/> `greeting.txt` if the last column of the corresponding line from <FontIcon icon="fas fa-file-lines"/> `table.txt` is a positive number
 
 ```sh
 awk -v file='table.txt' '(getline line < file)==1{n=split(line, a);
@@ -336,7 +336,7 @@ It is recommended to always check for the return value when using `getline` or p
 
 @tab:active Case 1
 
-<FontIcon icon="iconfont icon-file"/> `xyz.txt` doesn't exist, but output doesn't show something went wrong
+<FontIcon icon="fas fa-file-lines"/> `xyz.txt` doesn't exist, but output doesn't show something went wrong
 
 ```sh
 awk '{getline line < "xyz.txt"; print $NF, line}' table.txt
@@ -382,7 +382,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-Use the contents of <FontIcon icon="iconfont icon-file"/> `match_words.txt` file to display matching lines from <FontIcon icon="iconfont icon-file"/> `jumbled.txt` and <FontIcon icon="iconfont icon-file"/> `sample.txt`. The matching criteria is that the second word of lines from these files should match the third word of lines from <FontIcon icon="iconfont icon-file"/> `match_words.txt`.
+Use the contents of <FontIcon icon="fas fa-file-lines"/> `match_words.txt` file to display matching lines from <FontIcon icon="fas fa-file-lines"/> `jumbled.txt` and <FontIcon icon="fas fa-file-lines"/> `sample.txt`. The matching criteria is that the second word of lines from these files should match the third word of lines from <FontIcon icon="fas fa-file-lines"/> `match_words.txt`.
 
 ```sh
 cat match_words.txt
@@ -395,7 +395,7 @@ cat match_words.txt
 
 @tab:active Question
 
-'concession' is one of the third words from <FontIcon icon="iconfont icon-file"/>'`match_words.txt`' and second word from <FontIcon icon="iconfont icon-file"/> '`jumbled.txt`'
+'concession' is one of the third words from <FontIcon icon="fas fa-file-lines"/>'`match_words.txt`' and second word from <FontIcon icon="fas fa-file-lines"/> '`jumbled.txt`'
 
 ```sh
 awk ##### add your solution here
@@ -405,7 +405,7 @@ awk ##### add your solution here
 
 @tab Solution
 
-'concession' is one of the third words from <FontIcon icon="iconfont icon-file"/>'`match_words.txt`' and second word from <FontIcon icon="iconfont icon-file"/> '`jumbled.txt`'
+'concession' is one of the third words from <FontIcon icon="fas fa-file-lines"/>'`match_words.txt`' and second word from <FontIcon icon="fas fa-file-lines"/> '`jumbled.txt`'
 
 ```sh
 awk -v FPAT='\\w+' 'NR==FNR{a[$3]; next} $2 in a' match_words.txt jumbled.txt sample.txt
@@ -417,7 +417,7 @@ awk -v FPAT='\\w+' 'NR==FNR{a[$3]; next} $2 in a' match_words.txt jumbled.txt sa
 
 ### Exercise 2
 
-Interleave the contents of <FontIcon icon="iconfont icon-file"/> `secrets.txt` with the contents of a file passed via the `-v` option as shown below.
+Interleave the contents of <FontIcon icon="fas fa-file-lines"/> `secrets.txt` with the contents of a file passed via the `-v` option as shown below.
 
 ::: tabs
 
@@ -455,7 +455,7 @@ awk -v f='table.txt' '{print; getline < f; print; print "---"}' secrets.txt
 
 ### Exercise 3
 
-The file <FontIcon icon="iconfont icon-file"/> `search_terms.txt` contains one search string per line, and these terms have no regexp metacharacters. Construct an `awk` command that reads this file and displays the search terms (matched case insensitively) that were found in every file passed as the arguments after <FontIcon icon="iconfont icon-file"/> `search_terms.txt`. Note that these terms should be matched anywhere in the line (so, don't use word boundaries).
+The file <FontIcon icon="fas fa-file-lines"/> `search_terms.txt` contains one search string per line, and these terms have no regexp metacharacters. Construct an `awk` command that reads this file and displays the search terms (matched case insensitively) that were found in every file passed as the arguments after <FontIcon icon="fas fa-file-lines"/> `search_terms.txt`. Note that these terms should be matched anywhere in the line (so, don't use word boundaries).
 
 ```sh
 cat search_terms.txt

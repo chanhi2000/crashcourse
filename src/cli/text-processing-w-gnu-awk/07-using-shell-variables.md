@@ -185,7 +185,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-Use contents of the s variable to display all matching lines from the input file <FontIcon icon="iconfont icon-file"/>`sample.txt`. Assume that the s variable doesn't have any regexp metacharacters and construct a solution such that only whole words are matched.
+Use contents of the s variable to display all matching lines from the input file <FontIcon icon="fas fa-file-lines"/>`sample.txt`. Assume that the s variable doesn't have any regexp metacharacters and construct a solution such that only whole words are matched.
 
 ::: tabs 
 
@@ -208,7 +208,7 @@ awk -v s="$s" '$0 ~ "\\<" s "\\>"' sample.txt
 
 ### Exercise 2
 
-Replace all occurrences of `o` for the input file <FontIcon icon="iconfont icon-file"/>`addr.txt` with the literal contents of the s variable. Assume that the s variable has regexp metacharacters.
+Replace all occurrences of `o` for the input file <FontIcon icon="fas fa-file-lines"/>`addr.txt` with the literal contents of the s variable. Assume that the s variable has regexp metacharacters.
 
 ::: tabs
 

@@ -763,7 +763,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-For the input file <FontIcon icon="iconfont icon-file"/>`brackets.txt`, extract only the contents between `()` or `)(` from each input line. Assume that `()` characters will be present only once every line.
+For the input file <FontIcon icon="fas fa-file-lines"/>`brackets.txt`, extract only the contents between `()` or `)(` from each input line. Assume that `()` characters will be present only once every line.
 
 ```sh
 cat brackets.txt
@@ -911,7 +911,7 @@ echo 'u-no;co%."(do_12:as' | awk -F'\\w' '{print NF-1}'
 
 ### Exercise 5
 
-For the input file <FontIcon icon="iconfont icon-file"/>`quoted.txt`, extract the first and third sequence of characters surrounded by double quotes and display them in the format shown below. Solution shouldn't use substitution functions.
+For the input file <FontIcon icon="fas fa-file-lines"/>`quoted.txt`, extract the first and third sequence of characters surrounded by double quotes and display them in the format shown below. Solution shouldn't use substitution functions.
 
 ```sh
 cat quoted.txt
@@ -941,7 +941,7 @@ awk -v FPAT='"[^"]+"' -v OFS=, '{print $1, $3}' quoted.txt
 
 ### Exercise 6
 
-For the input file <FontIcon icon="iconfont icon-file"/>`varying_fields.txt`, construct a solution to get the output shown below. Solution shouldn't use substitution functions.
+For the input file <FontIcon icon="fas fa-file-lines"/>`varying_fields.txt`, construct a solution to get the output shown below. Solution shouldn't use substitution functions.
 
 ```sh
 cat varying_fields.txt
@@ -971,7 +971,7 @@ awk -F, -v OFS=, '{$3=$NF; NF=3} 1' varying_fields.txt
 
 ### Exercise 7
 
-Transform the given input file <FontIcon icon="iconfont icon-file"/>`fw.txt` to get the output as shown below. If a field is empty (_i.e._ contains only space characters), replace it with NA.
+Transform the given input file <FontIcon icon="fas fa-file-lines"/>`fw.txt` to get the output as shown below. If a field is empty (_i.e._ contains only space characters), replace it with NA.
 
 ```sh
 cat fw.txt
@@ -1035,7 +1035,7 @@ printf 'restore\ncat one\ncricket' | awk -F '' -v OFS= '{print $3, $5}'
 
 ### Exercise 9
 
-The <FontIcon icon="iconfont icon-file"/>`fields.txt` file has fields separated by the `:` character. Delete `:` and the last field if there is a digit character anywhere before the last field. Solution shouldn't use substitution functions.
+The <FontIcon icon="fas fa-file-lines"/>`fields.txt` file has fields separated by the `:` character. Delete `:` and the last field if there is a digit character anywhere before the last field. Solution shouldn't use substitution functions.
 
 ```sh
 cat fields.txt
@@ -1120,7 +1120,7 @@ echo "$s" | awk -F'cat' -v IGNORECASE=1 '{$(NF+1)=42} 1'
 
 ### Exercise 12
 
-For the input file <FontIcon icon="iconfont icon-file"/>`sample.txt`, filter lines containing 6 or more lowercase vowels.
+For the input file <FontIcon icon="fas fa-file-lines"/>`sample.txt`, filter lines containing 6 or more lowercase vowels.
 
 ::: tabs 
 
@@ -1144,7 +1144,7 @@ awk -F'[aeiou]' 'NF>6' sample.txt
 
 ### Exercise 13
 
-The input file <FontIcon icon="iconfont icon-file"/>`concat.txt` has contents of various files preceded by a line starting with `###`. Replace such sequence of characters with an incrementing integer value (starting with `1`) in the format shown below.
+The input file <FontIcon icon="fas fa-file-lines"/>`concat.txt` has contents of various files preceded by a line starting with `###`. Replace such sequence of characters with an incrementing integer value (starting with `1`) in the format shown below.
 
 
 ::: tabs 

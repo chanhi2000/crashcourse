@@ -81,7 +81,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 그러면 <FontIcon icon="fas fa-file-zipper"/>`sbb.zip` 파일이 다운로드 된다. <FontIcon icon="fas fa-file-zipper"/>`sbb.zip` 파일을 "프로젝트 홈 디렉터리"에 압축해제하자.
 
-> 프로젝트 홈 디렉터리: 윈도우는 <FontIcon icon="iconfont icon-file"/>`C:/Users/<사용자명>/projects` 디렉터리를 사용하고 맥 OS라면 <FontIcon icon="iconfont icon-file"/>`/Users/<사용자명>/projects`를 사용하자.
+> 프로젝트 홈 디렉터리: 윈도우는 <FontIcon icon="fas fa-file-lines"/>`C:/Users/<사용자명>/projects` 디렉터리를 사용하고 맥 OS라면 <FontIcon icon="fas fa-file-lines"/>`/Users/<사용자명>/projects`를 사용하자.
 
 그러면 프로젝트 홈 디렉터리 밑에 <FontIcon icon="fas fa-folder-open"/>`sbb` 디렉터리가 생성될 것이다. 이제 인텔리제이를 설치하고 <FontIcon icon="fas fa-folder-open"/>`sbb` 디렉터리를 인텔리제이에서 <FontIcon icon="iconfont icon-select"/>`["Open"]` 하여 스프링부트 프로젝트를 시작할수 있다.
 
@@ -131,7 +131,7 @@ STS 대신 인텔리제이 커뮤니티 에디션을 사용하려면 다음의 �
 
 템플릿 파일을 변경한 후 자동 적용되게 하려면 `application.properties` 파일에 다음과 같은 내용을 추가하자.
 
-> 파일명: <FontIcon icon="fas fa-folder-open"/>`sbb/src/main/resources/`<FontIcon icon="iconfont icon-file"/>`application.properties`
+> 파일명: <FontIcon icon="fas fa-folder-open"/>`sbb/src/main/resources/`<FontIcon icon="fas fa-file-lines"/>`application.properties`
 
 ```properties
 // (... 생략 ...)

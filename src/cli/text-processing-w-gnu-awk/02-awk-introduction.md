@@ -356,7 +356,7 @@ The next chapter is dedicated solely for regular expressions. The features intro
 
 ## Interactive exercises
 
-I wrote a TUI app to help you solve some of the exercises from this book interactively. See [<FontIcon icon="iconfont icon-github"/> AwkExercises](https://github.com/learnbyexample/TUI-apps/tree/main/AwkExercises) repo for installation steps and [<FontIcon icon="iconfont icon-file"/> app_guide.md](https://github.com/learnbyexample/TUI-apps/blob/main/AwkExercises/app_guide.md) for instructions on using this app.
+I wrote a TUI app to help you solve some of the exercises from this book interactively. See [<FontIcon icon="iconfont icon-github"/> AwkExercises](https://github.com/learnbyexample/TUI-apps/tree/main/AwkExercises) repo for installation steps and [<FontIcon icon="fas fa-file-lines"/> app_guide.md](https://github.com/learnbyexample/TUI-apps/blob/main/AwkExercises/app_guide.md) for instructions on using this app.
 
 Here's a sample screenshot:
 
@@ -366,7 +366,7 @@ Here's a sample screenshot:
 
 ::: info
 
-All the exercises are also collated together in one place at [<FontIcon icon="iconfont icon-file"/> Exercises.md](https://github.com/learnbyexample/learn_gnuawk/blob/master/exercises/Exercises.md). For solutions, see [<FontIcon icon="iconfont icon-file"/> Exercise_solutions.md](https://github.com/learnbyexample/learn_gnuawk/blob/master/exercises/Exercise_solutions.md).
+All the exercises are also collated together in one place at [<FontIcon icon="fas fa-file-lines"/> Exercises.md](https://github.com/learnbyexample/learn_gnuawk/blob/master/exercises/Exercises.md). For solutions, see [<FontIcon icon="fas fa-file-lines"/> Exercise_solutions.md](https://github.com/learnbyexample/learn_gnuawk/blob/master/exercises/Exercise_solutions.md).
 
 The exercises directory has all the files used in this section.
 
@@ -418,7 +418,7 @@ awk '/is/' addr.txt
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`, display the first field of lines not containing `y`. Consider space as the field separator for this file.
+For the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`, display the first field of lines not containing `y`. Consider space as the field separator for this file.
 
 ::: tabs 
 
@@ -444,7 +444,7 @@ awk '!/y/{print $1}' addr.txt
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`, display all lines containing no more than 2 fields.
+For the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`, display all lines containing no more than 2 fields.
 
 ::: tabs 
 
@@ -468,7 +468,7 @@ awk 'NF<3' addr.txt
 
 ### Exercise 4
 
-For the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`, display all lines containing is in the second field.
+For the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`, display all lines containing is in the second field.
 
 ::: tabs 
 
@@ -490,7 +490,7 @@ awk '$2 ~ /is/' addr.txt
 
 ### Exercise 5
 
-For each line of the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`, replace the first occurrence of o with 0.
+For each line of the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`, replace the first occurrence of o with 0.
 
 ::: tabs 
 
@@ -522,7 +522,7 @@ awk '{sub(/o/, "0")} 1' addr.txt
 
 ### Exercise 6
 
-For the input file <FontIcon icon="iconfont icon-file"/> `table.txt`, calculate and display the product of numbers in the last field of each line. Consider space as the field separator for this file.
+For the input file <FontIcon icon="fas fa-file-lines"/> `table.txt`, calculate and display the product of numbers in the last field of each line. Consider space as the field separator for this file.
 
 ::: tabs 
 
@@ -574,7 +574,7 @@ printf 'last\nappend\nstop\ntail\n' | awk '{print $0 "."}'
 
 ### Exercise 8
 
-Replace all occurrences of `0xA0` with `0x50` and `0xFF` with `0x7F` for the given input file (<FontIcon icon="iconfont icon-file"/> `hex.txt`).
+Replace all occurrences of `0xA0` with `0x50` and `0xFF` with `0x7F` for the given input file (<FontIcon icon="fas fa-file-lines"/> `hex.txt`).
 
 ::: tabs 
 

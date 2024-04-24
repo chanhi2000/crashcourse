@@ -20,7 +20,6 @@ head:
       content: How to support drag and drop in SwiftUI
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/swift/swiftui-by-example/07-responding-to-events/how-to-support-drag-and-drop-in-swiftui.html
-next: '/swift/swiftui-by-example/08-taps-and-gestures/how-to-add-a-gesture-recognizer-to-a-view.md'
 ---
 
 # {{ $frontmatter.title }} 관련

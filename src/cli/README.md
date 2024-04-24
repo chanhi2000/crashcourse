@@ -41,6 +41,12 @@ tag:
 
 :::
 
+::: details 고급 Bash 스크립팅 가이드
+
+<ToCLocal basePath="/cli/adv-bash-scr-howto" />
+
+:::
+
 ---
 
 <TagLinks />

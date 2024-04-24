@@ -183,7 +183,7 @@ Let's say I want to change my password, simple right? I just use the `passwd` co
 passwd
 ```
 
-What is the password command doing? It's modifying a couple of files, but most importantly it's modifying the <FontIcon icon="iconfont icon-file"/>`/etc/shadow` file. Let's look at that file for a second:
+What is the password command doing? It's modifying a couple of files, but most importantly it's modifying the <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` file. Let's look at that file for a second:
 
 ```sh
 ls -l /etc/shadow
@@ -201,7 +201,7 @@ ls -l /usr/bin/passwd
 
 You'll notice a new permission bit here `s`. This permission bit is the SUID, when a file has this permission set, it allows the users who launched the program to get the file owner's permission as well as execution permission, in this case root. So essentially while a user is running the password command, they are running as root.
 
-That's why we are able to access a protected file like <FontIcon icon="iconfont icon-file"/>`/etc/shadow` when we run the passwd command. Now if you removed that bit, you would see that you will not be able to modify <FontIcon icon="iconfont icon-file"/>`/etc/shadow` and therefore change your password.
+That's why we are able to access a protected file like <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` when we run the passwd command. Now if you removed that bit, you would see that you will not be able to modify <FontIcon icon="fas fa-file-lines"/>`/etc/shadow` and therefore change your password.
 
 ### Modifying SUID
 
@@ -220,7 +220,7 @@ sudo chmod 4755 myfile
 ```
 As you can see the SUID is denoted by a 4 and pre-pended to the permission set. You may see the SUID denoted as a capital **S** this means that it still does the same thing, but it does not have execute permissions.
 
-Look at the permission for <FontIcon icon="iconfont icon-file"/>`/etc/passwd` in detail, do you notice anything else? Files with SUID enabled are also easily distinguishable.
+Look at the permission for <FontIcon icon="fas fa-file-lines"/>`/etc/passwd` in detail, do you notice anything else? Files with SUID enabled are also easily distinguishable.
 
 ---
 

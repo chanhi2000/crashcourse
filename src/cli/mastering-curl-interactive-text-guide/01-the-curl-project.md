@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: 1. The curl Project
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/01-the-curl-project.html
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide/01-the-curl-project.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -235,7 +235,7 @@ Since you specified `app:boxedEdges="all"`, the box is bounded on all four sides
 
 ### Fleshing out the Recipe Layout
 
-Replace the contents of the <FontIcon icon="iconfont icon-file"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file you just edited with the following:
+Replace the contents of the <FontIcon icon="fas fa-file-lines"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file you just edited with the following:
 
 ```xml
 <android.support.wear.widget.BoxInsetLayout

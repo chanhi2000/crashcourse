@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: 5. HTTP
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/cli-mastering-curl-interactive-text-guide/05-http.html
+      content: https://chanhi2000.github.io/crashcourse/cli/mastering-curl-interactive-text-guide/05-http.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -796,7 +796,7 @@ echo 'no so in to do on' | awk '{gsub(/\<[sot][on]\>/, "X")} 1'
 
 @tab Case 4
 
-lines made up of letters 'o' and 'n', line length at least 2 <FontIcon icon="iconfont icon-file"/>`words.txt` contains dictionary words, one word per line
+lines made up of letters 'o' and 'n', line length at least 2 <FontIcon icon="fas fa-file-lines"/>`words.txt` contains dictionary words, one word per line
 
 ```sh
 awk '/^[on]{2,}$/' words.txt
@@ -1561,7 +1561,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, display all lines that start with `den` or end with `ly`.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, display all lines that start with `den` or end with `ly`.
 
 ::: tabs 
 
@@ -1587,7 +1587,7 @@ awk '/^den|ly$/' patterns.txt
 
 ### Exercise 2 
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, replace all occurrences of 42 with `[42]` unless it is at the edge of a word. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, replace all occurrences of 42 with `[42]` unless it is at the edge of a word. Display only the modified lines.
 
 ::: tabs 
 
@@ -1615,7 +1615,7 @@ awk 'gsub(/\B42\B/, "[&]")' patterns.txt
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, add `[]` around words starting with `s` and containing `e` and `t` in any order. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, add `[]` around words starting with `s` and containing `e` and `t` in any order. Display only the modified lines.
 
 ::: tabs 
 
@@ -1643,7 +1643,7 @@ awk 'gsub(/\<s\w*(e\w*t|t\w*e)\w*/, "[&]")' patterns.txt
 
 ### Exercise 4 
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, replace the space character that occurs after a word ending with `a` or `r` with a newline character, only if the line also contains an uppercase letter. Display only the modified lines. For example, `A car park` should get converted to `A car` and `park` separated by a newline. But `car` `far` `tar` shouldn't be matched as there's no uppercase letter in this line.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, replace the space character that occurs after a word ending with `a` or `r` with a newline character, only if the line also contains an uppercase letter. Display only the modified lines. For example, `A car park` should get converted to `A car` and `park` separated by a newline. But `car` `far` `tar` shouldn't be matched as there's no uppercase letter in this line.
 
 ::: tabs 
 
@@ -1677,7 +1677,7 @@ awk '/[A-Z]/ && /[ar]\> /{print gensub(/([ar])\> /, "\\1\n", "g")}' patterns.txt
 
 ### Exercise 5
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, replace all occurrences of `*[5]` with `2`. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, replace all occurrences of `*[5]` with `2`. Display only the modified lines.
 
 ::: tabs 
 
@@ -1729,7 +1729,7 @@ printf 'known\nmood\nknow\npony\ninns\n'
 
 ### Exercise 7
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, display all lines starting with `hand` and ending immediately with `s` or `y` or `le` or no further characters. For example, `handed` shouldn't be matched even though it starts with `hand`.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, display all lines starting with `hand` and ending immediately with `s` or `y` or `le` or no further characters. For example, `handed` shouldn't be matched even though it starts with `hand`.
 
 ::: tabs 
 
@@ -1757,7 +1757,7 @@ awk '/^hand([sy]|le)?$/' patterns.txt
 
 ### Exercise 8
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, replace `42//5` or `42/5` with `8`. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, replace `42//5` or `42/5` with `8`. Display only the modified lines.
 
 ::: tabs 
 
@@ -1800,7 +1800,7 @@ True or False? `(a*|b*)` is same as `(a|b)*`
 
 ### Exercise 11
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, construct two different regexps to get the outputs as shown below. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, construct two different regexps to get the outputs as shown below. Display only the modified lines.
 
 ::: tabs 
 
@@ -1848,7 +1848,7 @@ awk 'gsub(/\([^()]*)/, "")' patterns.txt
 
 ### Exercise 12
 
-For the input file <FontIcon icon="iconfont icon-file"/>`anchors.txt`, convert markdown anchors to corresponding hyperlinks as shown below.
+For the input file <FontIcon icon="fas fa-file-lines"/>`anchors.txt`, convert markdown anchors to corresponding hyperlinks as shown below.
 
 ```sh
 cat anchors.txt
@@ -1881,7 +1881,7 @@ awk '{print gensub(/#+ <a name="([^"]+)"><\/a>(.+)/, "[\\2](#\\1)", 1)}' anchors
 
 ### Exercise 13
 
-Display lines from <FontIcon icon="iconfont icon-file"/>`sample.txt` that satisfy both of these conditions:
+Display lines from <FontIcon icon="fas fa-file-lines"/>`sample.txt` that satisfy both of these conditions:
 
 
 - `to` or `he` matched irrespective of case
@@ -1937,7 +1937,7 @@ echo '_;3%,.,=-=,:' | awk '{print gensub(/[^,]+/, "42", 3)}'
 
 ### Exercise 15
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, filter lines containing three or more occurrences of `ar` and replace the last but second `ar` with `X`.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, filter lines containing three or more occurrences of `ar` and replace the last but second `ar` with `X`.
 
 ::: tabs 
 
@@ -1985,7 +1985,7 @@ echo "$words" | awk '{print gensub(/\<(imp|ant|(\w+))\>/, "(\\2)", "g")}'
 
 ### Exercise 17
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, display lines containing car but not as a whole word. For example, `scared-cat` and `car care` should match but not `far` `car` `park`.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, display lines containing car but not as a whole word. For example, `scared-cat` and `car care` should match but not `far` `car` `park`.
 
 ::: tabs 
 
@@ -2034,7 +2034,7 @@ For patterns matching from the same starting location, longest match wins in ERE
 
 ### Exercise 19
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, display lines starting with `4` or `-` or `u` or `sub` or `care`.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, display lines starting with `4` or `-` or `u` or `sub` or `care`.
 
 ::: tabs 
 
@@ -2160,7 +2160,7 @@ echo "$ip" | awk '{print gensub(/(\w+)([:,-])/, "[\\1]\\2", "g")}'
 
 ### Exercise 24
 
-The <FontIcon icon="iconfont icon-file"/>`fields.txt` file has fields separated by the `:` character. Delete `:` and the last field if there is a digit character anywhere before the last field.
+The <FontIcon icon="fas fa-file-lines"/>`fields.txt` file has fields separated by the `:` character. Delete `:` and the last field if there is a digit character anywhere before the last field.
 
 ```sh
 cat fields.txt
@@ -2221,7 +2221,7 @@ echo '\learn\by\example' | awk '{gsub("\\\\", "/")} 1'
 
 ### Exercise 26
 
-For the input file <FontIcon icon="iconfont icon-file"/>`patterns.txt`, surround all hexadecimal sequences with a minimum of four characters with `[]`. Match `0x` as an optional prefix, but shouldn't be counted for determining the length. Match the characters case insensitively, and the sequences shouldn't be surrounded by other word characters. Display only the modified lines.
+For the input file <FontIcon icon="fas fa-file-lines"/>`patterns.txt`, surround all hexadecimal sequences with a minimum of four characters with `[]`. Match `0x` as an optional prefix, but shouldn't be counted for determining the length. Match the characters case insensitively, and the sequences shouldn't be surrounded by other word characters. Display only the modified lines.
 
 
 ::: tabs 

@@ -2,10 +2,11 @@
 lang: ko-KR
 title: Jump to Spring Boot
 description: Jump to Spring Boot
-icon: iconfont icon-spring
+icon: iconfont icon-springboot
 category:
   - Java
   - Spring
+  - Spring Boot
   - AWS
 tag: 
   - crashcourse

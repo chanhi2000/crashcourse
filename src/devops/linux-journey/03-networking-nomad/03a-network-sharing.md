@@ -133,7 +133,7 @@ sudo mount server:/directory /mount_directory
 
 ### Automounting
 
-Let's say you use the NFS server quite often and you want to keep it permanently mounted, normally you think you'd edit the <FontIcon icon="iconfont icon-file"/>`/etc/fstab` file, but you may not always get a connection to the server and that can cause issues on bootup. Instead what you want to do is setup automounting so that you can connect to the NFS server when you need to. This is done with the `automount` tool or in recent versions of Linux `amd`. When a file is accessed in a specified directory, automount will look up the remote server and automatically mount it.
+Let's say you use the NFS server quite often and you want to keep it permanently mounted, normally you think you'd edit the <FontIcon icon="fas fa-file-lines"/>`/etc/fstab` file, but you may not always get a connection to the server and that can cause issues on bootup. Instead what you want to do is setup automounting so that you can connect to the NFS server when you need to. This is done with the `automount` tool or in recent versions of Linux `amd`. When a file is accessed in a specified directory, automount will look up the remote server and automatically mount it.
 
 Read the manpage for NFS to learn more.
 
@@ -156,9 +156,9 @@ sudo apt update
 sudo apt install samba
 ```
 
-### Setup <FontIcon icon="iconfont icon-file"/>`smb.conf`
+### Setup <FontIcon icon="fas fa-file-lines"/>`smb.conf`
 
-The configuration file for Samba is found at <FontIcon icon="iconfont icon-file"/>`/etc/samba/smb.conf`, this file should tell the system what directories should be shared, their access permissions, and more options. The default smb.conf comes with lots of commented code already and you can use those as an example to write your own configurations.
+The configuration file for Samba is found at <FontIcon icon="fas fa-file-lines"/>`/etc/samba/smb.conf`, this file should tell the system what directories should be shared, their access permissions, and more options. The default smb.conf comes with lots of commented code already and you can use those as an example to write your own configurations.
 
 ```sh
 sudo vi /etc/samba/smb.conf
@@ -202,7 +202,7 @@ Instead of transferring files one by one, you can just mount the network share o
 sudo mount -t cifs servername:directory mountpount -o user=username,pass=password
 ```
 
-Setup a Samba share, if you don't have one, open up <FontIcon icon="iconfont icon-file"/>`smb.conf` and familiarize yourself with the options in the config file.
+Setup a Samba share, if you don't have one, open up <FontIcon icon="fas fa-file-lines"/>`smb.conf` and familiarize yourself with the options in the config file.
 
 ---
 

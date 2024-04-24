@@ -48,6 +48,84 @@ head:
 }
 ```
 
+> Updated for Xcode 15
+
+If you add a tap gesture to a primitive SwiftUI view such as `Text` or `Image`, the whole view becomes tappable. If you add a tap gesture to a container SwiftUI view, such as `VStack` or `HStack`, then SwiftUI only adds the gesture to the parts of the container that have something inside – large parts of the stack are likely to be untappable.
+
+If this is what you want then the default behavior is fine. However, if you want to change the shape of hit tests – the area that responds to taps – then you should use the `contentShape()` modifier with the shape you want.
+
+For example, this code creates a `VStack` containing an image, a spacer, and some text, then uses the `contentShape()` modifier to make the whole stack tappable rather than just the image and text:
+
+```swift
+VStack {
+    Image(systemName: "person.circle").resizable().frame(width: 50, height: 50)
+    Spacer().frame(height: 50)
+    Text("Paul Hudson")
+}
+.contentShape(Rectangle())
+.onTapGesture {
+    print("Show details for user")
+}
+```
+
+> [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://www.hackingwithswift.com/files/projects/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape-1.zip)
+
+<VidStack src="https://www.hackingwithswift.com/img/books/quick-start/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape-1~dark.mp4" />
+
+::: detials Similar solutions…
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create a tappable button",
+  "desc": "How to create a tappable button",
+  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-tappable-button.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard  
+{
+  "title": "SwiftUI by Example > How to fix a Form Picker or a NavigationLink that isn’t tappable",
+  "desc": "How to fix a Form Picker or a NavigationLink that isn’t tappable",
+  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to place content outside the safe area",
+  "desc": "How to place content outside the safe area",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-place-content-outside-the-safe-area.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add extra padding to the safe area",
+  "desc": "How to add extra padding to the safe area",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-add-extra-padding-to-the-safe-area.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to inset the safe area with custom content",
+  "desc": "How to inset the safe area with custom content",
+  "link": "/swift/swiftui-by-example/04-view-layout/how-to-inset-the-safe-area-with-custom-content.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+:::
+
 ---
 
 <TagLinks />

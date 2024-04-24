@@ -17,6 +17,10 @@ export const navbarEn = navbar([
         text: 'Bash 쉘스크립트 개발 시작하기',
         link: '/cli/bash-dev/README.md',
         icon: 'iconfont icon-shell'
+      }, {
+        text: '고급 Bash 스크립팅 가이드',
+        link: '/cli/adv-bash-scr-howto/README.md',
+        icon: 'iconfont icon-shell',
       }
     ],
   }, {

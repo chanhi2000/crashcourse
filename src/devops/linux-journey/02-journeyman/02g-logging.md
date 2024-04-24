@@ -54,17 +54,17 @@ less /var/log/syslog
 # Jan 27 07:41:32 icebox anacron[4650]: Job `cron.weekly' started
 ```
 
-Here we can see that at Jan 27 07:41:32 our cron service ran the `cron.weekly` job. You can view all the event messages that syslog collects with in the <FontIcon icon="iconfont icon-file"/>`/var/log/syslog` file.
+Here we can see that at Jan 27 07:41:32 our cron service ran the `cron.weekly` job. You can view all the event messages that syslog collects with in the <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog` file.
 
-Look at your <FontIcon icon="iconfont icon-file"/>`/var/log/syslog` file and see what else is happening on your machine.
+Look at your <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog` file and see what else is happening on your machine.
 
 ---
 
 ## 2. `syslog`
 
-The `syslog` service manages and sends logs to the system logger. Rsyslog is an advanced version of syslog, most Linux distributions should be using this new version. The output of all the logs the `syslog` service collects can be found at <FontIcon icon="iconfont icon-file"/>`/var/log/syslog` (every message except auth messages).
+The `syslog` service manages and sends logs to the system logger. Rsyslog is an advanced version of syslog, most Linux distributions should be using this new version. The output of all the logs the `syslog` service collects can be found at <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog` (every message except auth messages).
 
-To find out what files are maintained by our system logger, look at the configuration files in <FontIcon icon="iconfont icon-file"/>`/etc/rsyslog.d`:
+To find out what files are maintained by our system logger, look at the configuration files in <FontIcon icon="fas fa-file-lines"/>`/etc/rsyslog.d`:
 
 ```sh
 less /etc/rsyslog.d/50-default.conf 
@@ -88,9 +88,9 @@ Let's actually see logging in action, you can manually send a log with the logge
 logger -s Hello
 ```
 
-Now look inside your <FontIcon icon="iconfont icon-file"/>`/var/log/syslog` and you should see this entry in your logs!
+Now look inside your <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog` and you should see this entry in your logs!
 
-Look at your <FontIcon icon="iconfont icon-file"/>`/etc/rsyslog.d` configuration file and see what else is being logged via the system logger.
+Look at your <FontIcon icon="fas fa-file-lines"/>`/etc/rsyslog.d` configuration file and see what else is being logged via the system logger.
 
 ---
 
@@ -100,29 +100,29 @@ There are many log files you can view on your system, many important ones can be
 
 There are two general log files you can view to get a glimpse of what your system is doing:
 
-## <FontIcon icon="iconfont icon-file"/>`/var/log/messages`
+## <FontIcon icon="fas fa-file-lines"/>`/var/log/messages`
 
 This log contains all non-critical and non-debug messages, includes messages logged during bootup (dmesg), auth, cron, daemon, etc. Very useful to get a glimpse of how your machine is acting.
 
-## <FontIcon icon="iconfont icon-file"/>`/var/log/syslog`
+## <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog`
 
 This logs everything except auth messages, it's extremely useful for debugging errors on your machine.
 
 These two logs should be more than enough when troubleshooting issues with your system, However, if you just want to view a specific log component, there are also separate logs for those as well.
 
-Look at your <FontIcon icon="iconfont icon-file"/>`/var/log/messages` and <FontIcon icon="iconfont icon-file"/>`/var/log/syslog` files and see what the differences are.
+Look at your <FontIcon icon="fas fa-file-lines"/>`/var/log/messages` and <FontIcon icon="fas fa-file-lines"/>`/var/log/syslog` files and see what the differences are.
 
 ---
 
 ## 4. Kernel Logging
 
-### <FontIcon icon="iconfont icon-file"/>`/var/log/dmesg`
+### <FontIcon icon="fas fa-file-lines"/>`/var/log/dmesg`
 
-On boot-time your system logs information about the kernel ring buffer. This shows us information about hardware drivers, kernel information and status during bootup and more. This log file can be found at <FontIcon icon="iconfont icon-file"/>`/var/log/dmesg` and gets reset on every boot, you may not actually see any use in it now, but if you were to ever have issues with something during bootup or a hardware issue, dmesg is the best place to look. You can also view this log using the `dmesg` command.
+On boot-time your system logs information about the kernel ring buffer. This shows us information about hardware drivers, kernel information and status during bootup and more. This log file can be found at <FontIcon icon="fas fa-file-lines"/>`/var/log/dmesg` and gets reset on every boot, you may not actually see any use in it now, but if you were to ever have issues with something during bootup or a hardware issue, dmesg is the best place to look. You can also view this log using the `dmesg` command.
 
-### <FontIcon icon="iconfont icon-file"/>`/var/log/kern.log`
+### <FontIcon icon="fas fa-file-lines"/>`/var/log/kern.log`
 
-Another log you can use to view kernel information is the <FontIcon icon="iconfont icon-file"/>`/var/log/kern.log` file, this logs the kernel information and events on your system, it also logs `dmesg` output.
+Another log you can use to view kernel information is the <FontIcon icon="fas fa-file-lines"/>`/var/log/kern.log` file, this logs the kernel information and events on your system, it also logs `dmesg` output.
 
 Look at your `dmesg` and `kern` logs, what differences do you notice?
 
@@ -132,7 +132,7 @@ Look at your `dmesg` and `kern` logs, what differences do you notice?
 
 Authentication logging can be very useful to look at if you are having issues logging in.
 
-### <FontIcon icon="iconfont icon-file"/>`/var/log/auth.log`
+### <FontIcon icon="fas fa-file-lines"/>`/var/log/auth.log`
 
 This contains system authorization logs, such as user login and the authentication method used.
 
@@ -142,7 +142,7 @@ Sample snippet:
 # Jan 31 10:37:50 icebox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
 ```
 
-Do some failed logins and then a successful one, look at your <FontIcon icon="iconfont icon-file"/>`/var/log/auth.log` and see what happened.
+Do some failed logins and then a successful one, look at your <FontIcon icon="fas fa-file-lines"/>`/var/log/auth.log` and see what happened.
 
 ---
 
@@ -150,7 +150,7 @@ Do some failed logins and then a successful one, look at your <FontIcon icon="ic
 
 Log files generate lots of data and they store this data on your hard disks, however there are lots of issues with this, for the most part we just want to be able to see newer logs, we also want to manage our disk space efficiently, so how do we do all of this? The answer is with `logrotate`.
 
-The `logrotate` utility does log management for us. It has a configuration file that allows us to specify how many and what logs to keep, how to compress our logs to save space and more. The `logrotate` tool is usually run out of cron once a day and the configuration files can be found in <FontIcon icon="iconfont icon-file"/>`/etc/logrotate.d`.
+The `logrotate` utility does log management for us. It has a configuration file that allows us to specify how many and what logs to keep, how to compress our logs to save space and more. The `logrotate` tool is usually run out of cron once a day and the configuration files can be found in <FontIcon icon="fas fa-file-lines"/>`/etc/logrotate.d`.
 
 There are other logrotating tools you can use to manage your logs, but `logrotate` is the most common one.
 

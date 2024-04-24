@@ -340,7 +340,7 @@ public fun Sequence.filter(predicate: (T) -> Boolean): Sequence {
 
 ::: tip Note
 
-You won't be able to properly check the implementation of `filter` in the scratch file. If you try, the IDE will show you a decompiled <FontIcon icon="iconfont icon-file"/>`.class` file. For that reason, the final project has a Sequences.kt file with all the tutorial code, where you can easily check the inner workings of sequences. Or you can also check the [Jetbrains source code](https://github.com/JetBrains/kotlin/blob/v1.6.10/libraries/stdlib/common/src/generated/_Sequences.kt#L429).
+You won't be able to properly check the implementation of `filter` in the scratch file. If you try, the IDE will show you a decompiled <FontIcon icon="fas fa-file-lines"/>`.class` file. For that reason, the final project has a Sequences.kt file with all the tutorial code, where you can easily check the inner workings of sequences. Or you can also check the [Jetbrains source code](https://github.com/JetBrains/kotlin/blob/v1.6.10/libraries/stdlib/common/src/generated/_Sequences.kt#L429).
 
 :::
 

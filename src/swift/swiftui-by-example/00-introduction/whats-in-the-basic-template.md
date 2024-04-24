@@ -60,7 +60,7 @@ The basic App template gives you the following:
 
 1. .<FontIcon icon="fa-brands fa-swift"/>`YourProjectName.swift`. This performs an initial set up, then creates and displays your initial view.
 2. .<FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`. This is our initial piece of user interface. If this were a UIKit project, this would be the ViewController class that Xcode gave us.
-3. .<FontIcon icon="iconfont icon-file"/>`Assets.xcassets`. This is an asset catalog, which stores all the images and colors used in our project.
+3. .<FontIcon icon="fas fa-file-lines"/>`Assets.xcassets`. This is an asset catalog, which stores all the images and colors used in our project.
 4. A group called Preview Content, which contains another asset catalog called Preview Assets.
 And that’s it – it’s a pleasingly small amount of code and resources, which means we can build on it.
 

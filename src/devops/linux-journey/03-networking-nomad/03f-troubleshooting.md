@@ -118,7 +118,7 @@ Run the `traceroute` command on your machine and observe the output.
 
 We've discussed data transmission through ports on our machine, let's look at some well known ports.
 
-You can get a list of well-known ports by looking at the file <FontIcon icon="iconfont icon-file"/>`/etc/services`:
+You can get a list of well-known ports by looking at the file <FontIcon icon="fas fa-file-lines"/>`/etc/services`:
 
 ```
 ftp             21/tcp

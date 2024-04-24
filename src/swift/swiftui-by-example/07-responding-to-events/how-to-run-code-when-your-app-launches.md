@@ -138,7 +138,16 @@ However, here it doesn’t matter: “Anonymous” will only be used for times w
   "background": "rgba(54,94,226,0.2)"
 }
 ```
-How to run a completion callback when an animation finishes <!-- TODO: add link -->
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to run a completion callback when an animation finishes",
+  "desc": "How to run a completion callback when an animation finishes",
+  "link": "/swift/swiftui-by-example/18-animation/how-to-run-a-completion-callback-when-an-animation-finishes.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 

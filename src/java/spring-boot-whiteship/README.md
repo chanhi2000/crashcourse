@@ -2,10 +2,10 @@
 lang: ko-KR
 title: 스프링 부트 개념과 활용
 description: 스프링 부트 개념과 활용
-icon: iconfont icon-spring
+icon: iconfont icon-springboot
 category:
   - Java
-  - Spring
+  - Spring  
   - Spring Boot
 tag: 
   - crashcourse

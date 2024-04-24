@@ -499,7 +499,7 @@ Changing the locale to ASCII (assuming that the default is not ASCII) can give a
 time shown is the best result from multiple runs
 speed benefit will vary depending on computing resources, input, etc
 
-.<FontIcon icon="iconfont icon-file"/>`words.txt` contains dictionary words, one word per line
+.<FontIcon icon="fas fa-file-lines"/>`words.txt` contains dictionary words, one word per line
 
 ```sh
 time awk '/^([a-d][r-z]){3}$/' words.txt > f1

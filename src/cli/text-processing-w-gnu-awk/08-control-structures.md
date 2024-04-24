@@ -327,7 +327,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-The input file <FontIcon icon="iconfont icon-file"/> `nums.txt` contains a single column of numbers. Change positive numbers to negative and vice versa. Solution should use the sub function and shouldn't explicitly use the if-else control structure or the ternary operator.
+The input file <FontIcon icon="fas fa-file-lines"/> `nums.txt` contains a single column of numbers. Change positive numbers to negative and vice versa. Solution should use the sub function and shouldn't explicitly use the if-else control structure or the ternary operator.
 
 ```sh
 cat nums.txt
@@ -368,7 +368,7 @@ awk '!sub(/^-/, ""){sub(/^/, "-")} 1' nums.txt
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/> `table.txt`, change the field separator from space to the `,` character. Also, any field not containing digit characters should be surrounded by double quotes.
+For the input file <FontIcon icon="fas fa-file-lines"/> `table.txt`, change the field separator from space to the `,` character. Also, any field not containing digit characters should be surrounded by double quotes.
 
 
 ::: tabs 
@@ -395,7 +395,7 @@ awk -v q='"' -v OFS=, '{for(i=1; i<=NF; i++) if($i !~ /[0-9]/) $i = q $i q} 1' t
 
 ### Exercise 3
 
-For each input line of the file <FontIcon icon="iconfont icon-file"/> `secrets.txt`, remove all characters except the last character of each field. Assume space as the input field separator.
+For each input line of the file <FontIcon icon="fas fa-file-lines"/> `secrets.txt`, remove all characters except the last character of each field. Assume space as the input field separator.
 
 ::: tabs 
 
@@ -429,7 +429,7 @@ awk -v OFS= '{for(i=1; i<=NF; i++) $i = gensub(/.*(.)/, "\\1", 1, $i)} 1' secret
 
 ### Exercise 4
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, emulate the `q` and `Q` commands of `sed` as shown below.
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, emulate the `q` and `Q` commands of `sed` as shown below.
 
 ::: tabs 
 
@@ -480,7 +480,7 @@ awk '/are/{exit} 1' sample.txt
 
 ### Exercise 5 
 
-For the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`:
+For the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`:
 
 - if a line contains `e`
   - delete all occurrences of `e`

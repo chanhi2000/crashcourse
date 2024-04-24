@@ -66,8 +66,49 @@ export const sidebarEn = sidebar({
             '/cli/bash-dev/03C.md',
             '/cli/bash-dev/03D.md',
           ]
+        }, {
+          text: '04. 서비스 운영 스크립트',
+          collapsible: true,
+          children: [
+            '/cli/bash-dev/04.md',
+            '/cli/bash-dev/04A.md',
+            '/cli/bash-dev/04B.md',
+            '/cli/bash-dev/04C.md',
+            '/cli/bash-dev/04D.md',
+          ]
         },
-        '/cli/bash-dev/04.md',
+      ]
+    }, {
+      text: '고급 Bash 스크립팅 가이드',
+      collapsible: true,
+      icon: 'iconfont icon-shell',
+      children: [
+        '/cli/adv-bash-scr-howto/README.md',
+        {
+          text: '1. 소개',
+          collapsible: true,
+          children: [
+            '/cli/adv-bash-scr-howto/01.md',
+          ]
+        }, {
+          text: '2. 기초 단계',
+          collapsible: true,
+          children: [
+            '/cli/adv-bash-scr-howto/02.md',
+          ]
+        }, {
+          text: '3. 중급 단계 (Beyond the Basics)',
+          collapsible: true,
+          children: [
+            '/cli/adv-bash-scr-howto/03.md',
+          ]
+        }, {
+          text: '4. 고급 주제들 (Advanced Topics)',
+          collapsible: true,
+          children: [
+            '/cli/adv-bash-scr-howto/04.md',
+          ]
+        },
       ]
     }
   ], '/swift/' : [
@@ -479,6 +520,8 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-share-content-using-the-system-share-sheet.md',
             '/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-find-and-replace-text.md',
             '/swift/swiftui-by-example/07-responding-to-events/how-to-support-drag-and-drop-in-swiftui.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-detect-and-respond-to-key-press-events.md',
+            '/swift/swiftui-by-example/07-responding-to-events/how-to-add-haptic-effects-using-sensory-feedback.md',
           ]
         }, {
           text: 'Taps and gestures',
@@ -581,6 +624,8 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/13-navigation/how-to-hide-and-show-the-sidebar-programmatically.md',
             '/swift/swiftui-by-example/13-navigation/how-to-customize-a-views-width-in-navigationsplitview.md',
             '/swift/swiftui-by-example/13-navigation/how-to-customize-the-display-mode-of-navigationsplitview.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-control-which-navigationsplitview-column-is-shown-in-compact-layouts.md',
+            '/swift/swiftui-by-example/13-navigation/how-to-add-an-inspector-to-any-view.md'
           ]
         }, {
           text: 'Alerts and menus',
@@ -670,6 +715,8 @@ export const sidebarEn = sidebar({
             '/swift/swiftui-by-example/18-animation/how-to-create-a-custom-transition.md',
             '/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md',
             '/swift/swiftui-by-example/18-animation/how-to-override-animations-with-transactions.md',
+            '/swift/swiftui-by-example/18-animation/how-to-run-a-completion-callback-when-an-animation-finishes.md',
+            '/swift/swiftui-by-example/18-animation/how-to-create-multi-step-animations-using-phase-animators.md',
           ]
         }, {
           text: 'Composing View',
@@ -834,8 +881,26 @@ export const sidebarEn = sidebar({
       icon: 'iconfont icon-objective-c',
       children: [
         '/swift/shuokai-objc/README.md',
-        '/swift/shuokai-objc/01.md',
-        '/swift/shuokai-objc/02.md',
+        {
+          text: '01. 객체 기반 소프트웨어 작성',
+          collapsible: true,
+          children: [
+            '/swift/shuokai-objc/01.md',
+            '/swift/shuokai-objc/01A.md',
+            '/swift/shuokai-objc/01B.md',
+            '/swift/shuokai-objc/01C.md',
+            '/swift/shuokai-objc/01D.md',
+          ]
+        }, {
+          text: '02. Objective-C 프로그램',
+          collapsible: true,
+          children: [
+            '/swift/shuokai-objc/02.md',
+            '/swift/shuokai-objc/02A.md',
+            '/swift/shuokai-objc/02B.md',
+            '/swift/shuokai-objc/02C.md',
+          ]
+        },
         '/swift/shuokai-objc/03.md',
         '/swift/shuokai-objc/04.md',
         '/swift/shuokai-objc/05.md',
@@ -911,7 +976,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'Jump to Spring Boot',
       collapsible: true,
-      icon: 'iconfont icon-spring',
+      icon: 'iconfont icon-springboot',
       children: [
         '/java/jump-to-spring-boot/README.md',
         '/java/jump-to-spring-boot/01.md',
@@ -982,7 +1047,7 @@ export const sidebarEn = sidebar({
     }, {
       text: '스프링부트 개념과 활용',
       collapsible: true,
-      icon: 'iconfont icon-spring',
+      icon: 'iconfont icon-springboot',
       children: [
         '/java/spring-boot-whiteship/README.md',
         '/java/spring-boot-whiteship/01.md',

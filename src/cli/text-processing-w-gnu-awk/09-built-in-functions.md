@@ -995,7 +995,7 @@ awk -F, 'NR==1{PROCINFO["sorted_in"] = "@ind_num_desc"; print; next}
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/> `nums3.txt`, calculate the square root of numbers and display the results in two different formats as shown below. First, with four digits after the fractional point and then in the scientific notation, again with four digits after the fractional point. Assume that the input has only a single column of positive numbers.
+For the input file <FontIcon icon="fas fa-file-lines"/> `nums3.txt`, calculate the square root of numbers and display the results in two different formats as shown below. First, with four digits after the fractional point and then in the scientific notation, again with four digits after the fractional point. Assume that the input has only a single column of positive numbers.
 
 ```sh
 cat nums3.txt 
@@ -1211,7 +1211,7 @@ cat pass.csv
 
 ### Exercise 8
 
-For the input file <FontIcon icon="iconfont icon-file"/> `files.txt`, replace lines starting with a space with the output of that line executed as a shell command.
+For the input file <FontIcon icon="fas fa-file-lines"/> `files.txt`, replace lines starting with a space with the output of that line executed as a shell command.
 
 ```sh
 cat files.txt
@@ -1257,7 +1257,7 @@ awk '/^ /{system($0); next} 1' files.txt
 
 ### Exercise 9
 
-For the input file <FontIcon icon="iconfont icon-file"/> `fw.txt`, format the last column in scientific notation with two digits after the decimal point.
+For the input file <FontIcon icon="fas fa-file-lines"/> `fw.txt`, format the last column in scientific notation with two digits after the decimal point.
 
 ::: tabs 
 
@@ -1285,7 +1285,7 @@ awk -v FIELDWIDTHS='14 *' '{printf "%s%.2e\n", $1, $2}' fw.txt
 
 ### Exercise 10
 
-For the input file <FontIcon icon="iconfont icon-file"/> `addr.txt`, display all lines containing e or u but not both.
+For the input file <FontIcon icon="fas fa-file-lines"/> `addr.txt`, display all lines containing e or u but not both.
 
 ::: info
 
@@ -1319,7 +1319,7 @@ awk 'xor(/e/, /u/)' addr.txt
 
 ### Exercise 11
 
-For the input file <FontIcon icon="iconfont icon-file"/> `patterns.txt`, filter lines containing `[5]` at the start of a line. The search term should be matched literally.
+For the input file <FontIcon icon="fas fa-file-lines"/> `patterns.txt`, filter lines containing `[5]` at the start of a line. The search term should be matched literally.
 
 ::: tabs 
 
@@ -1341,7 +1341,7 @@ awk 'index($0, "[5]")==1' patterns.txt
 
 ### Exercise 12
 
-For the input file <FontIcon icon="iconfont icon-file"/> `table.txt`, uppercase the third field.
+For the input file <FontIcon icon="fas fa-file-lines"/> `table.txt`, uppercase the third field.
 
 ::: tabs 
 
@@ -1367,7 +1367,7 @@ awk '{$3 = toupper($3)} 1' table.txt
 
 ### Exercise 13
 
-For the input files <FontIcon icon="iconfont icon-file"/> `patterns.txt` and <FontIcon icon="iconfont icon-file"/> `sum.txt`, match lines containing the literal value stored in the `s` variable. Assume that the `s` variable has regexp metacharacters.
+For the input files <FontIcon icon="fas fa-file-lines"/> `patterns.txt` and <FontIcon icon="fas fa-file-lines"/> `sum.txt`, match lines containing the literal value stored in the `s` variable. Assume that the `s` variable has regexp metacharacters.
 
 
 ::: tabs 

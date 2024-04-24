@@ -175,11 +175,11 @@ aws s3 mb s3://demo-uploads-$(date +%s)
 
 We’re using `date +%s` to just add a timestamp to the bucket name. Note the S3 bucket name in my case is `demo-uploads-1544733003`, yours will be different.
 
-Add these values to the [<FontIcon icon="iconfont icon-file"/>`.env.development`](http://rubyonjets.com/docs/env-files/) file so they get picked up by <FontIcon icon="fas fa-folder-open"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`. You can use a different .env.production file for different settings like an s3 bucket. We’re working only with <FontIcon icon="iconfont icon-file"/>`.env.development` for the sake of this tutorial.
+Add these values to the [<FontIcon icon="fas fa-file-lines"/>`.env.development`](http://rubyonjets.com/docs/env-files/) file so they get picked up by <FontIcon icon="fas fa-folder-open"/>`config/initializers/`<FontIcon icon="iconfont icon-advanced"/>`carrierwave.rb`. You can use a different .env.production file for different settings like an s3 bucket. We’re working only with <FontIcon icon="fas fa-file-lines"/>`.env.development` for the sake of this tutorial.
 
 It should look something like this:
 
-> <FontIcon icon="iconfont icon-file"/>`.env.development`:
+> <FontIcon icon="fas fa-file-lines"/>`.env.development`:
 
 ```
 CARRIERWAVE_AWS_ACCESS_KEY_ID=AKIAI7KI5LIKEXAMPLE
@@ -221,7 +221,7 @@ We have successfully uploaded an image to s3 locally! 🎉
 
 ## Deploy to AWS Lambda
 
-Before deploying to AWS Lambda, adjust your <FontIcon icon="iconfont icon-file"/>`.env.development.remote` to point to an RDS database. Setting up an RDS database is covered in [Step 1: Create an RDS DB Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateDBInstance.html). It is also briefly mentioned in this video: [Jets Tutorial Deploy to AWS Lambda Part 2: AWS Lambda Ruby](20180908-jets-tutorial-deploy-to-aws-lambda-part-2.md).
+Before deploying to AWS Lambda, adjust your <FontIcon icon="fas fa-file-lines"/>`.env.development.remote` to point to an RDS database. Setting up an RDS database is covered in [Step 1: Create an RDS DB Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateDBInstance.html). It is also briefly mentioned in this video: [Jets Tutorial Deploy to AWS Lambda Part 2: AWS Lambda Ruby](20180908-jets-tutorial-deploy-to-aws-lambda-part-2.md).
 
 Also, remember to migrate your remote database:
 

@@ -635,7 +635,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 ### Exercise 1
 
 
-The input file <FontIcon icon="iconfont icon-file"/>`jumbled.txt` consists of words separated by various delimiters. Display all words that contain `an` or `at` or `in` or `it`, one per line.
+The input file <FontIcon icon="fas fa-file-lines"/>`jumbled.txt` consists of words separated by various delimiters. Display all words that contain `an` or `at` or `in` or `it`, one per line.
 
 
 ```sh
@@ -764,7 +764,7 @@ awk -F, -v OFS=, '{$(NF+1) = NR==1 ? "GP" : ($2/2 + ($3+$4)/4)} 1' scores.csv
 
 ### Exercise 4
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, extract paragraphs containing `do` and exactly two lines.
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, extract paragraphs containing `do` and exactly two lines.
 
 ```sh
 cat sample.txt
@@ -814,7 +814,7 @@ awk -F'\n' -v RS= 'NF==2 && /do/{print s $0; s="\n"}' sample.txt
 
 ### Exercise 5
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, change each paragraph to a single line by joining lines using `.` and a space character as the separator. Also, add a final `.` to each paragraph.
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, change each paragraph to a single line by joining lines using `.` and a space character as the separator. Also, add a final `.` to each paragraph.
 
 ::: tabs 
 
@@ -854,7 +854,7 @@ awk 'BEGIN{FS="\n"; OFS=". "; RS=""} {$NF=$NF "."; print s $0; s="\n"}' sample.t
 
 ### Exercise 6
 
-The various input/output separators can be changed dynamically and comes into effect during the next input/output operation. For the input file <FontIcon icon="iconfont icon-file"/> `mixed_fs.txt`, retain only the first two fields from each input line. The field separators should be space for the first two lines and `,` for the rest of the lines.
+The various input/output separators can be changed dynamically and comes into effect during the next input/output operation. For the input file <FontIcon icon="fas fa-file-lines"/> `mixed_fs.txt`, retain only the first two fields from each input line. The field separators should be space for the first two lines and `,` for the rest of the lines.
 
 ```sh
 cat mixed_fs.txt
@@ -893,7 +893,7 @@ awk 'NF=2; NR==2{FS=OFS=","}' mixed_fs.txt
 
 ### Exercise 7
 
-For the input file <FontIcon icon="iconfont icon-file"/> `table.txt`, print other than the second line.
+For the input file <FontIcon icon="fas fa-file-lines"/> `table.txt`, print other than the second line.
 
 ::: tabs 
 
@@ -917,7 +917,7 @@ awk 'NR!=2' table.txt
 
 ### Exercise 8
 
-For the <FontIcon icon="iconfont icon-file"/> `table.txt` file, print only the line number for lines containing `air` or `win`.
+For the <FontIcon icon="fas fa-file-lines"/> `table.txt` file, print only the line number for lines containing `air` or `win`.
 
 ::: tabs 
 
@@ -941,7 +941,7 @@ awk '/air|win/{print NR}' table.txt
 
 ### Exercise 9
 
-For the input file <FontIcon icon="iconfont icon-file"/> `table.txt`, calculate the sum of numbers in the last column, excluding the second line.
+For the input file <FontIcon icon="fas fa-file-lines"/> `table.txt`, calculate the sum of numbers in the last column, excluding the second line.
 
 
 ::: tabs 
@@ -999,7 +999,7 @@ seq 15 | awk 'NR%5 == 2 || NR%5 == 4'
 
 ### Exercise 11
 
-For the input file <FontIcon icon="iconfont icon-file"/> `odd.txt`, surround all whole words with `{}` that start and end with the same word character. This is a contrived exercise to make you use the `RT` variable (`sed -E 's/\b(\w)(\w*\1)?\b/{&}/g' odd.txt` would be a simpler solution).
+For the input file <FontIcon icon="fas fa-file-lines"/> `odd.txt`, surround all whole words with `{}` that start and end with the same word character. This is a contrived exercise to make you use the `RT` variable (`sed -E 's/\b(\w)(\w*\1)?\b/{&}/g' odd.txt` would be a simpler solution).
 
 ```sh
 cat odd.txt
@@ -1029,7 +1029,7 @@ awk -F '' -v RS='\\W+' -v ORS= '$0 && $1==$NF{$0 = "{" $0 "}"} {print $0 RT}' od
 
 ### Exercise 12
 
-Print only the second field of the third line, if any, from these input files: <FontIcon icon="iconfont icon-file"/> `addr.txt`, <FontIcon icon="iconfont icon-file"/> `sample.txt` and <FontIcon icon="iconfont icon-file"/> `copyright.txt`. Consider space as the field separator.
+Print only the second field of the third line, if any, from these input files: <FontIcon icon="fas fa-file-lines"/> `addr.txt`, <FontIcon icon="fas fa-file-lines"/> `sample.txt` and <FontIcon icon="fas fa-file-lines"/> `copyright.txt`. Consider space as the field separator.
 
 ::: tabs 
 
@@ -1055,7 +1055,7 @@ awk 'FNR==3{print $2}' addr.txt sample.txt copyright.txt
 
 ### Exercise 13
 
-The input file <FontIcon icon="iconfont icon-file"/> `ip.txt` has varying amount of empty lines between the records, change them to be always two empty lines. Also, remove the empty lines at the start and end of the file.
+The input file <FontIcon icon="fas fa-file-lines"/> `ip.txt` has varying amount of empty lines between the records, change them to be always two empty lines. Also, remove the empty lines at the start and end of the file.
 
 ::: tabs 
 

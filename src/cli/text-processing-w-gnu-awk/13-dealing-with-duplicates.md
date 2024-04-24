@@ -273,7 +273,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-Retain only the first copy of a line for the input file <FontIcon icon="iconfont icon-file"/> `lines.txt`. Case should be ignored while comparing the lines. For example, `hi there` and `HI TheRE` should be considered as duplicates.
+Retain only the first copy of a line for the input file <FontIcon icon="fas fa-file-lines"/> `lines.txt`. Case should be ignored while comparing the lines. For example, `hi there` and `HI TheRE` should be considered as duplicates.
 
 ```sh
 cat lines.txt
@@ -318,7 +318,7 @@ awk '!seen[tolower($0)]++' lines.txt
 
 ### Exercise 2
 
-Retain only the first copy of a line for the input file <FontIcon icon="iconfont icon-file"/> `twos.txt`. Assume space as the field separator with exactly two fields per line. Compare the lines irrespective of the order of the fields. For example, `hehe haha` and `haha hehe` should be considered as duplicates.
+Retain only the first copy of a line for the input file <FontIcon icon="fas fa-file-lines"/> `twos.txt`. Assume space as the field separator with exactly two fields per line. Compare the lines irrespective of the order of the fields. For example, `hehe haha` and `haha hehe` should be considered as duplicates.
 
 ```sh
 cat twos.txt
@@ -364,7 +364,7 @@ awk '!($1,$2) in seen && !($2,$1) in seen; {seen[$1,$2]}' twos.txt
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/> `twos.txt`, create a file <FontIcon icon="iconfont icon-file"/> `uniq.txt` with all the unique lines and <FontIcon icon="iconfont icon-file"/> `dupl.txt` with all the duplicate lines. Assume space as the field separator with exactly two fields per line. Compare the lines irrespective of the order of the fields. For example, `hehe haha` and `haha hehe` should be considered as duplicates.
+For the input file <FontIcon icon="fas fa-file-lines"/> `twos.txt`, create a file <FontIcon icon="fas fa-file-lines"/> `uniq.txt` with all the unique lines and <FontIcon icon="fas fa-file-lines"/> `dupl.txt` with all the duplicate lines. Assume space as the field separator with exactly two fields per line. Compare the lines irrespective of the order of the fields. For example, `hehe haha` and `haha hehe` should be considered as duplicates.
 
 
 ::: tabs

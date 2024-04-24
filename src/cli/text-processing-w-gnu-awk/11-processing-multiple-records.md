@@ -650,7 +650,7 @@ The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learn
 
 ### Exercise 1
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, print lines containing `do` only if the previous line is empty and the line before that contains you.
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, print lines containing `do` only if the previous line is empty and the line before that contains you.
 
 ::: tabs
 
@@ -674,7 +674,7 @@ awk 'p2 ~ /you/ && p1=="" && /do/; {p2=p1; p1=$0}' sample.txt
 
 ### Exercise 2
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, match lines containing `do` or `not` case insensitively. Each of these terms occur multiple times in the file. The goal is to print only the second occurrences of these terms (independent of each other).
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, match lines containing `do` or `not` case insensitively. Each of these terms occur multiple times in the file. The goal is to print only the second occurrences of these terms (independent of each other).
 
 ::: tabs
 
@@ -698,7 +698,7 @@ awk -v IGNORECASE=1 '/do/ && ++d == 2; /not/ && ++n == 2' sample.txt
 
 ### Exercise 3
 
-For the input file <FontIcon icon="iconfont icon-file"/> `sample.txt`, print the matching lines containing `are` or `bit` as well as `n` lines around the matching lines. The value for `n` is passed to the `awk` command via the `-v` option.
+For the input file <FontIcon icon="fas fa-file-lines"/> `sample.txt`, print the matching lines containing `are` or `bit` as well as `n` lines around the matching lines. The value for `n` is passed to the `awk` command via the `-v` option.
 
 ::: tabs
 
@@ -754,7 +754,7 @@ awk -v n=2 '/are|bit/{for(i=NR-n; i<NR; i++) if(i>0) print a[i]; c=n+1}
 
 ### Exercise 4
 
-For the input file <FontIcon icon="iconfont icon-file"/> `broken.txt`, print all lines between the markers `top` and `bottom`. The first `awk` command shown below doesn't work because it is matching till the end of file as the second marker isn't found. Assume that the input file cannot have two `top` markers without a `bottom` marker appearing in between and vice-versa.
+For the input file <FontIcon icon="fas fa-file-lines"/> `broken.txt`, print all lines between the markers `top` and `bottom`. The first `awk` command shown below doesn't work because it is matching till the end of file as the second marker isn't found. Assume that the input file cannot have two `top` markers without a `bottom` marker appearing in between and vice-versa.
 
 
 ```sh
@@ -811,7 +811,7 @@ tac broken.txt | awk '/top/{f=0} f; /bottom/{f=1}' | tac
 
 ### Exercise 5
 
-For the input file <FontIcon icon="iconfont icon-file"/> `concat.txt`, extract contents from a line starting with `###` until but not including the next such line. The block to be extracted is indicated by the variable `n` passed via the `-v` option.
+For the input file <FontIcon icon="fas fa-file-lines"/> `concat.txt`, extract contents from a line starting with `###` until but not including the next such line. The block to be extracted is indicated by the variable `n` passed via the `-v` option.
 
 ```sh
 cat concat.txt
@@ -891,7 +891,7 @@ diff -sq out.md expected.md
 
 ### Exercise 7
 
-For the input file <FontIcon icon="iconfont icon-file"/> `lines.txt`, delete the line that comes after a whole line containing `---`. Assume that such lines won't occur consecutively.
+For the input file <FontIcon icon="fas fa-file-lines"/> `lines.txt`, delete the line that comes after a whole line containing `---`. Assume that such lines won't occur consecutively.
 
 ```sh
 cat lines.txt

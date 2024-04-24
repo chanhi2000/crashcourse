@@ -91,7 +91,7 @@ You can perform these two steps programmatically, which you’ll do later in thi
 
 ## Using the UIPanGestureRecognizer
 
-Open <FontIcon icon="iconfont icon-file"/>`Main.storyboard`. Click <FontIcon icon="iconfont icon-select"/>`[+]` button at the top to open the Library.
+Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard`. Click <FontIcon icon="iconfont icon-select"/>`[+]` button at the top to open the Library.
 
 Inside the __Library__ panel, look for the __pan gesture recognizer__ object and drag it onto the monkey image view. This creates both the pan gesture recognizer and its association with the monkey image view:
 
@@ -147,7 +147,7 @@ Now that this method is complete, you’ll hook it up to the `UIPanGestureRecogn
 
 ### Connecting the Panning Gesture to the Recognizer
 
-In the __document outline__ for <FontIcon icon="iconfont icon-file"/>`Main.storyboard`, control-drag from the monkey’s __pan gesture recognizer__ to the __view controller__. Select `handlePan`: from the pop-up.
+In the __document outline__ for <FontIcon icon="fas fa-file-lines"/>`Main.storyboard`, control-drag from the monkey’s __pan gesture recognizer__ to the __view controller__. Select `handlePan`: from the pop-up.
 
 ![Connecting the `handlePan` method to `UIPanGestureRecognizer`](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_04.gif)
 
@@ -294,7 +294,7 @@ Here, you use these methods to update the view’s transform based on the user�
 
 Again, since you’re updating the view each time the gesture updates, it’s very important to set the scale and rotation back to the default state so you don’t have craziness going on.
 
-Now, hook these methods up in the storyboard editor. Open <FontIcon icon="iconfont icon-file"/>`Main.storyboard` and perform the following steps:
+Now, hook these methods up in the storyboard editor. Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and perform the following steps:
 
 1. As you did previously, connect the two pinch gesture recognizers to the view controller’s `handlePinch:`.
 2. Connect the two rotation gesture recognizers to the view controller’s `handleRotate:`.
@@ -343,7 +343,7 @@ func gestureRecognizer(
 
 This method tells the gesture recognizer whether it’s OK to recognize a gesture if another recognizer has already detected a gesture. The default implementation always returns `false`, but you’ve switched it to always return `true`.
 
-Next, open <FontIcon icon="iconfont icon-file"/>`Main.storyboard` and connect each gesture recognizer’s delegate outlet to the view controller. You’ll connect six gesture recognizers in total.
+Next, open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and connect each gesture recognizer’s delegate outlet to the view controller. You’ll connect six gesture recognizers in total.
 
 ![Connecting the delegate outlets](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_11.gif)
 
@@ -439,7 +439,7 @@ To solve this, you could remove or modify the delegate callback to behave differ
 
 You can call a method called `require(toFail:)` on a gesture recognizer. Can you guess what it does?
 
-Open <FontIcon icon="iconfont icon-file"/>`Main.storyboard` and another editor on the right by clicking the button on the top-right of the storyboard panel.
+Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and another editor on the right by clicking the button on the top-right of the storyboard panel.
 
 On the left of the new panel that just opened, click the button with four squares. Finally, select the third item from the list, __Automatic__, which will ensure that <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` shows there.
 

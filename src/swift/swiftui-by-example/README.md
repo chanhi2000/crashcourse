@@ -1519,8 +1519,25 @@ Shortcuts, rotations, and appearance
 }
 ```
 
-- How to detect and respond to key press events <!-- TODO: add link -->
-- How to add haptic effects using sensory feedback
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to detect and respond to key press events",
+  "desc": "How to detect and respond to key press events",
+  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-detect-and-respond-to-key-press-events.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add haptic effects using sensory feedback",
+  "desc": "How to add haptic effects using sensory feedback",
+  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-haptic-effects-using-sensory-feedback.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 <!-- Responding to events -->
 
@@ -2280,6 +2297,26 @@ Direct your user through data in your app
 }
 ```
 
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to control which NavigationSplitView column is shown in compact layouts",
+  "desc": "How to control which NavigationSplitView column is shown in compact layouts",
+  "link": "/swift/swiftui-by-example/13-navigation/how-to-control-which-navigationsplitview-column-is-shown-in-compact-layouts.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to add an inspector to any view",
+  "desc": "How to add an inspector to any view",
+  "link": "/swift/swiftui-by-example/13-navigation/how-to-add-an-inspector-to-any-view.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
 :::
 
 ::: details Alerts and menus
@@ -2964,8 +3001,25 @@ Bring your views to life with movement
 }
 ```
 
-- How to run a completion callback when an animation finishes <!-- TODO: add link -->
-- How to create multi-step animations using phase animators <!-- TODO: add link -->
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to run a completion callback when an animation finishes",
+  "desc": "How to run a completion callback when an animation finishes",
+  "link": "/swift/swiftui-by-example/18-animation/how-to-run-a-completion-callback-when-an-animation-finishes.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "SwiftUI by Example > How to create multi-step animations using phase animators",
+  "desc": "How to create multi-step animations using phase animators",
+  "link": "/swift/swiftui-by-example/18-animation/how-to-create-multi-step-animations-using-phase-animators.md",
+  "logo": "https://www.hackingwithswift.com/favicon.svg",
+  "background": "rgba(54,94,226,0.2)"
+}
+```
 
 :::
 
