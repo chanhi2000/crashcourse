@@ -392,8 +392,6 @@ export const sidebarEn = sidebar({
             '/swift/shuokai-objc/01.md',
             '/swift/shuokai-objc/01A.md',
             '/swift/shuokai-objc/01B.md',
-            '/swift/shuokai-objc/01C.md',
-            '/swift/shuokai-objc/01D.md',
           ]
         }, {
           text: '02. Objective-C 프로그램',
@@ -1460,11 +1458,47 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/19A.md',
             '/aws/art-of-aws/19B.md',
           ]
+        }, {
+          text: '20. 가상 네트워크를 제공하는 VPC',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/20.md',
+            '/aws/art-of-aws/20A.md',
+            '/aws/art-of-aws/20B.md',
+            '/aws/art-of-aws/20C.md',
+            '/aws/art-of-aws/20D.md',
+          ]
+        }, {
+          text: '21. 데이터 보관 및 백업을 위한 매우 저렴한 스토리지 서비스 Glacier',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/21.md',
+            '/aws/art-of-aws/21A.md',
+            '/aws/art-of-aws/21B.md',
+            '/aws/art-of-aws/21C.md',
+          ]
+        }, {
+          text: '22. 서버 구성을 자동화하는 CloudFormation',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/22.md',
+            '/aws/art-of-aws/22A.md',
+            '/aws/art-of-aws/22B.md',
+            '/aws/art-of-aws/22C.md',
+            '/aws/art-of-aws/22D.md',
+            '/aws/art-of-aws/22E.md',
+          ]
+        }, {
+          text: '23. 간편하게 사용하는 애플리케이션 플랫폼 서비스 Elastic Beanstalk',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/23.md',
+            '/aws/art-of-aws/23A.md',
+            '/aws/art-of-aws/23B.md',
+            '/aws/art-of-aws/23C.md',
+            '/aws/art-of-aws/23D.md',
+          ]
         },
-        '/aws/art-of-aws/20.md',
-        '/aws/art-of-aws/21.md',
-        '/aws/art-of-aws/22.md',
-        '/aws/art-of-aws/23.md',
         '/aws/art-of-aws/24.md',
         '/aws/art-of-aws/25.md',
         '/aws/art-of-aws/26.md',

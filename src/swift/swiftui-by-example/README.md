@@ -1069,9 +1069,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Working with state",
+  "title": "Working with state | SwiftUI by Example",
   "desc": "Working with state",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/working-with-state.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/working-with-state.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1079,9 +1079,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a tappable button",
+  "title": "How to create a tappable button | SwiftUI by Example",
   "desc": "How to create a tappable button",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-tappable-button.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-tappable-button.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1089,9 +1089,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to disable the overlay color for images inside Button and NavigationLink",
+  "title": "How to disable the overlay color for images inside Button and NavigationLink | SwiftUI by Example",
   "desc": "How to disable the overlay color for images inside Button and NavigationLink",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1099,9 +1099,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to get bordered buttons that stand out",
+  "title": "How to get bordered buttons that stand out | SwiftUI by Example",
   "desc": "How to get bordered buttons that stand out",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-get-bordered-buttons-that-stand-out.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-get-bordered-buttons-that-stand-out.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1109,9 +1109,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to group views together with ControlGroup",
+  "title": "How to group views together with ControlGroup | SwiftUI by Example",
   "desc": "How to group views together with ControlGroup",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-group-views-together-with-controlgroup.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-group-views-together-with-controlgroup.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1119,9 +1119,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to read text from a TextField",
+  "title": "How to read text from a TextField | SwiftUI by Example",
   "desc": "How to read text from a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-read-text-from-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-read-text-from-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1129,9 +1129,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to take action when the user submits a TextField",
+  "title": "How to take action when the user submits a TextField | SwiftUI by Example",
   "desc": "How to take action when the user submits a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-take-action-when-the-user-submits-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-take-action-when-the-user-submits-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1139,9 +1139,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize the submit button for TextField, SecureField, and TextEditor",
+  "title": "How to customize the submit button for TextField, SecureField, and TextEditor | SwiftUI by Example",
   "desc": "How to customize the submit button for TextField, SecureField, and TextEditor",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1149,9 +1149,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a border to a TextField",
+  "title": "How to add a border to a TextField | SwiftUI by Example",
   "desc": "How to add a border to a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-add-a-border-to-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-border-to-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1159,9 +1159,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a placeholder to a TextField",
+  "title": "How to add a placeholder to a TextField | SwiftUI by Example",
   "desc": "How to add a placeholder to a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-add-a-placeholder-to-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-placeholder-to-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1169,9 +1169,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to disable autocorrect in a TextField",
+  "title": "How to disable autocorrect in a TextField | SwiftUI by Example",
   "desc": "How to disable autocorrect in a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-disable-autocorrect-in-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-disable-autocorrect-in-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1179,9 +1179,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to dismiss the keyboard for a TextField",
+  "title": "How to dismiss the keyboard for a TextField | SwiftUI by Example",
   "desc": "How to dismiss the keyboard for a TextField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-dismiss-the-keyboard-for-a-textfield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-dismiss-the-keyboard-for-a-textfield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1189,9 +1189,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a TextField or TextEditor have default focus",
+  "title": "How to make a TextField or TextEditor have default focus | SwiftUI by Example",
   "desc": "How to make a TextField or TextEditor have default focus",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-or-texteditor-have-default-focus.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-a-textfield-or-texteditor-have-default-focus.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1199,9 +1199,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a TextField expand vertically as the user types",
+  "title": "How to make a TextField expand vertically as the user types | SwiftUI by Example",
   "desc": "How to make a TextField expand vertically as the user types",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-a-textfield-expand-vertically-as-the-user-types.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-a-textfield-expand-vertically-as-the-user-types.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1209,9 +1209,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to format a TextField for numbers",
+  "title": "How to format a TextField for numbers | SwiftUI by Example",
   "desc": "How to format a TextField for numbers",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-format-a-textfield-for-numbers.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-format-a-textfield-for-numbers.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1219,9 +1219,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create secure text fields using SecureField",
+  "title": "How to create secure text fields using SecureField | SwiftUI by Example",
   "desc": "How to create secure text fields using SecureField",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-secure-text-fields-using-securefield.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-secure-text-fields-using-securefield.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1229,9 +1229,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a toggle switch",
+  "title": "How to create a toggle switch | SwiftUI by Example",
   "desc": "How to create a toggle switch",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-toggle-switch.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-toggle-switch.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1239,9 +1239,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a slider and read values from it",
+  "title": "How to create a slider and read values from it | SwiftUI by Example",
   "desc": "How to create a slider and read values from it",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-slider-and-read-values-from-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-slider-and-read-values-from-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1249,9 +1249,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a picker and read values from it",
+  "title": "How to create a picker and read values from it | SwiftUI by Example",
   "desc": "How to create a picker and read values from it",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-picker-and-read-values-from-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-picker-and-read-values-from-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1259,9 +1259,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a date picker and read values from it",
+  "title": "How to create a date picker and read values from it | SwiftUI by Example",
   "desc": "How to create a date picker and read values from it",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-date-picker-and-read-values-from-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-date-picker-and-read-values-from-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1269,9 +1269,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a segmented control and read values from it",
+  "title": "How to create a segmented control and read values from it | SwiftUI by Example",
   "desc": "How to create a segmented control and read values from it",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-segmented-control-and-read-values-from-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-segmented-control-and-read-values-from-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1279,9 +1279,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a stepper and read values from it",
+  "title": "How to create a stepper and read values from it | SwiftUI by Example",
   "desc": "How to create a stepper and read values from it",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-a-stepper-and-read-values-from-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-stepper-and-read-values-from-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1289,9 +1289,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create multi-line editable text with TextEditor",
+  "title": "How to create multi-line editable text with TextEditor | SwiftUI by Example",
   "desc": "How to create multi-line editable text with TextEditor",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-create-multi-line-editable-text-with-texteditor.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-multi-line-editable-text-with-texteditor.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1299,9 +1299,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users select a color with ColorPicker",
+  "title": "How to let users select a color with ColorPicker | SwiftUI by Example",
   "desc": "How to let users select a color with ColorPicker",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-let-users-select-a-color-with-colorpicker.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-select-a-color-with-colorpicker.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1309,9 +1309,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show progress on a task using ProgressView",
+  "title": "How to show progress on a task using ProgressView | SwiftUI by Example",
   "desc": "How to show progress on a task using ProgressView",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-show-progress-on-a-task-using-progressview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-progress-on-a-task-using-progressview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1319,9 +1319,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show indeterminate progress using ProgressView",
+  "title": "How to show indeterminate progress using ProgressView | SwiftUI by Example",
   "desc": "How to show indeterminate progress using ProgressView",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-show-indeterminate-progress-using-progressview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-indeterminate-progress-using-progressview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1329,9 +1329,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show a Map view",
+  "title": "How to show a Map view | SwiftUI by Example",
   "desc": "How to show a Map view",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-show-a-map-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-a-map-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1339,9 +1339,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show annotations in a Map view",
+  "title": "How to show annotations in a Map view | SwiftUI by Example",
   "desc": "How to show annotations in a Map view",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-show-annotations-in-a-map-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-annotations-in-a-map-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1349,9 +1349,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to open web links in Safari",
+  "title": "How to open web links in Safari | SwiftUI by Example",
   "desc": "How to open web links in Safari",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-open-web-links-in-safari.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-open-web-links-in-safari.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1359,9 +1359,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let the user select multiple dates",
+  "title": "How to let the user select multiple dates | SwiftUI by Example",
   "desc": "How to let the user select multiple dates",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-let-the-user-select-multiple-dates.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-the-user-select-multiple-dates.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1369,9 +1369,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden()",
+  "title": "How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden() | SwiftUI by Example",
   "desc": "How to hide the label of a Picker, Stepper, Toggle, and more using labelsHidden()",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1379,9 +1379,9 @@ Respond to interaction and control your program state
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make buttons that repeat their action when pressed",
+  "title": "How to make buttons that repeat their action when pressed | SwiftUI by Example",
   "desc": "How to make buttons that repeat their action when pressed",
-  "link": "/swift/swiftui-by-example/06-user-interface-controls/how-to-make-buttons-that-repeat-their-action-when-pressed.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-buttons-that-repeat-their-action-when-pressed.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1395,9 +1395,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect when your app moves to the background or foreground with scenePhase",
+  "title": "How to detect when your app moves to the background or foreground with scenePhase | SwiftUI by Example",
   "desc": "How to detect when your app moves to the background or foreground with scenePhase",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1405,9 +1405,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to respond to view lifecycle events: onAppear() and onDisappear()",
+  "title": "How to respond to view lifecycle events: onAppear() and onDisappear() | SwiftUI by Example",
   "desc": "How to respond to view lifecycle events: onAppear() and onDisappear()",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1415,9 +1415,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add keyboard shortcuts using keyboardShortcut()",
+  "title": "How to add keyboard shortcuts using keyboardShortcut() | SwiftUI by Example",
   "desc": "How to add keyboard shortcuts using keyboardShortcut()",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-keyboard-shortcuts-using-keyboardshortcut.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-keyboard-shortcuts-using-keyboardshortcut.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1425,9 +1425,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to control which view is shown when your app launches",
+  "title": "How to control which view is shown when your app launches | SwiftUI by Example",
   "desc": "How to control which view is shown when your app launches",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-control-which-view-is-shown-when-your-app-launches.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-control-which-view-is-shown-when-your-app-launches.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1435,9 +1435,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to run code when your app launches",
+  "title": "How to run code when your app launches | SwiftUI by Example",
   "desc": "How to run code when your app launches",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-run-code-when-your-app-launches.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-run-code-when-your-app-launches.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1445,9 +1445,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add an AppDelegate to a SwiftUI app",
+  "title": "How to add an AppDelegate to a SwiftUI app | SwiftUI by Example",
   "desc": "How to add an AppDelegate to a SwiftUI app",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-an-appdelegate-to-a-swiftui-app.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-an-appdelegate-to-a-swiftui-app.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1455,9 +1455,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect device rotation",
+  "title": "How to detect device rotation | SwiftUI by Example",
   "desc": "How to detect device rotation",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-detect-device-rotation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-device-rotation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1465,9 +1465,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a toolbar to the keyboard",
+  "title": "How to add a toolbar to the keyboard | SwiftUI by Example",
   "desc": "How to add a toolbar to the keyboard",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-a-toolbar-to-the-keyboard.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-toolbar-to-the-keyboard.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1475,9 +1475,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to run an asynchronous task when a view is shown",
+  "title": "How to run an asynchronous task when a view is shown | SwiftUI by Example",
   "desc": "How to run an asynchronous task when a view is shown",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-run-an-asynchronous-task-when-a-view-is-shown.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-run-an-asynchronous-task-when-a-view-is-shown.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1485,9 +1485,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let the user paste data into your app",
+  "title": "How to let the user paste data into your app | SwiftUI by Example",
   "desc": "How to let the user paste data into your app",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-let-the-user-paste-data-into-your-app.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-the-user-paste-data-into-your-app.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1495,9 +1495,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users share content using the system share sheet",
+  "title": "How to let users share content using the system share sheet | SwiftUI by Example",
   "desc": "How to let users share content using the system share sheet",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-share-content-using-the-system-share-sheet.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-share-content-using-the-system-share-sheet.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1505,9 +1505,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users find and replace text",
+  "title": "How to let users find and replace text | SwiftUI by Example",
   "desc": "How to let users find and replace text",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-let-users-find-and-replace-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-find-and-replace-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1515,9 +1515,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to support drag and drop in SwiftUI",
+  "title": "How to support drag and drop in SwiftUI | SwiftUI by Example",
   "desc": "How to support drag and drop in SwiftUI",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-support-drag-and-drop-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-support-drag-and-drop-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1525,9 +1525,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect and respond to key press events",
+  "title": "How to detect and respond to key press events | SwiftUI by Example",
   "desc": "How to detect and respond to key press events",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-detect-and-respond-to-key-press-events.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-and-respond-to-key-press-events.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1535,9 +1535,9 @@ Shortcuts, rotations, and appearance
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add haptic effects using sensory feedback",
+  "title": "How to add haptic effects using sensory feedback | SwiftUI by Example",
   "desc": "How to add haptic effects using sensory feedback",
-  "link": "/swift/swiftui-by-example/07-responding-to-events/how-to-add-haptic-effects-using-sensory-feedback.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-haptic-effects-using-sensory-feedback.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1553,9 +1553,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a gesture recognizer to a view",
+  "title": "How to add a gesture recognizer to a view | SwiftUI by Example",
   "desc": "How to add a gesture recognizer to a view",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-add-a-gesture-recognizer-to-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-gesture-recognizer-to-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1563,9 +1563,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to read tap and double-tap gestures",
+  "title": "How to read tap and double-tap gestures | SwiftUI by Example",
   "desc": "How to read tap and double-tap gestures",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-read-tap-and-double-tap-gestures.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-read-tap-and-double-tap-gestures.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1573,9 +1573,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to force one gesture to recognize before another using highPriorityGesture()",
+  "title": "How to force one gesture to recognize before another using highPriorityGesture() | SwiftUI by Example",
   "desc": "How to force one gesture to recognize before another using highPriorityGesture()",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1583,9 +1583,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make two gestures recognize at the same time using simultaneousGesture()",
+  "title": "How to make two gestures recognize at the same time using simultaneousGesture() | SwiftUI by Example",
   "desc": "How to make two gestures recognize at the same time using simultaneousGesture()",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1593,9 +1593,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create gesture chains using sequenced(before:)",
+  "title": "How to create gesture chains using sequenced(before:) | SwiftUI by Example",
   "desc": "How to create gesture chains using sequenced(before:)",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-create-gesture-chains-using-sequencedbefore.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-gesture-chains-using-sequencedbefore.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1603,9 +1603,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect the user hovering over a view",
+  "title": "How to detect the user hovering over a view | SwiftUI by Example",
   "desc": "How to detect the user hovering over a view",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-the-user-hovering-over-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-the-user-hovering-over-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1613,9 +1613,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect shake gestures",
+  "title": "How to detect shake gestures | SwiftUI by Example",
   "desc": "How to detect shake gestures",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-shake-gestures.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-shake-gestures.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1623,9 +1623,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to control the tappable area of a view using contentShape()",
+  "title": "How to control the tappable area of a view using contentShape() | SwiftUI by Example",
   "desc": "How to control the tappable area of a view using contentShape()",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-control-the-tappable-area-of-a-view-using-contentshape.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-control-the-tappable-area-of-a-view-using-contentshape.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1633,9 +1633,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to disable taps for a view using allowsHitTesting()",
+  "title": "How to disable taps for a view using allowsHitTesting() | SwiftUI by Example",
   "desc": "How to disable taps for a view using allowsHitTesting()",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-disable-taps-for-a-view-using-allowshittesting.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-disable-taps-for-a-view-using-allowshittesting.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1643,9 +1643,9 @@ Swipes, taps, shakes, and other input
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to detect the location of a tap inside a view",
+  "title": "How to detect the location of a tap inside a view | SwiftUI by Example",
   "desc": "How to detect the location of a tap inside a view",
-  "link": "/swift/swiftui-by-example/08-taps-and-gestures/how-to-detect-the-location-of-a-tap-inside-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-the-location-of-a-tap-inside-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1659,9 +1659,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
+  "title": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject? | SwiftUI by Example",
   "desc": "What’s the difference between @ObservedObject, @State, and @EnvironmentObject?",
-  "link": "/swift/swiftui-by-example/09-advanced-state/whats-the-difference-between-observedobject-state-and-environmentobject.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/whats-the-difference-between-observedobject-state-and-environmentobject.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1669,9 +1669,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use @StateObject to create and monitor external objects",
+  "title": "How to use @StateObject to create and monitor external objects | SwiftUI by Example",
   "desc": "How to use @StateObject to create and monitor external objects",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-stateobject-to-create-and-monitor-external-objects.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-stateobject-to-create-and-monitor-external-objects.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1679,9 +1679,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use @ObservedObject to manage state from external objects",
+  "title": "How to use @ObservedObject to manage state from external objects | SwiftUI by Example",
   "desc": "How to use @ObservedObject to manage state from external objects",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-observedobject-to-manage-state-from-external-objects.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-observedobject-to-manage-state-from-external-objects.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1689,9 +1689,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use @EnvironmentObject to share data between views",
+  "title": "How to use @EnvironmentObject to share data between views | SwiftUI by Example",
   "desc": "How to use @EnvironmentObject to share data between views",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-environmentobject-to-share-data-between-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-environmentobject-to-share-data-between-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1699,9 +1699,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to send state updates manually using objectWillChange",
+  "title": "How to send state updates manually using objectWillChange | SwiftUI by Example",
   "desc": "How to send state updates manually using objectWillChange",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-send-state-updates-manually-using-objectwillchange.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-send-state-updates-manually-using-objectwillchange.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1709,9 +1709,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create constant bindings",
+  "title": "How to create constant bindings | SwiftUI by Example",
   "desc": "How to create constant bindings",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-create-constant-bindings.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-constant-bindings.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1719,9 +1719,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create custom bindings",
+  "title": "How to create custom bindings | SwiftUI by Example",
   "desc": "How to create custom bindings",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-create-custom-bindings.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-custom-bindings.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1729,9 +1729,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use a timer with SwiftUI",
+  "title": "How to use a timer with SwiftUI | SwiftUI by Example",
   "desc": "How to use a timer with SwiftUI",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-use-a-timer-with-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-a-timer-with-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1739,9 +1739,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to run some code when state changes using onChange()",
+  "title": "How to run some code when state changes using onChange() | SwiftUI by Example",
   "desc": "How to run some code when state changes using onChange()",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-run-some-code-when-state-changes-using-onchange.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-run-some-code-when-state-changes-using-onchange.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1749,9 +1749,9 @@ Learn how to bind objects and query the environment
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show different images and other views in light or dark mode",
+  "title": "How to show different images and other views in light or dark mode | SwiftUI by Example",
   "desc": "How to show different images and other views in light or dark mode",
-  "link": "/swift/swiftui-by-example/09-advanced-state/how-to-show-different-images-and-other-views-in-light-or-dark-mode.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-different-images-and-other-views-in-light-or-dark-mode.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1765,9 +1765,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Working with lists",
+  "title": "Working with lists | SwiftUI by Example",
   "desc": "Working with lists",
-  "link": "/swift/swiftui-by-example/10-lists/working-with-lists.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/working-with-lists.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1775,9 +1775,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a list of static items",
+  "title": "How to create a list of static items | SwiftUI by Example",
   "desc": "How to create a list of static items",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-create-a-list-of-static-items.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-list-of-static-items.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1785,9 +1785,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a list of dynamic items",
+  "title": "How to create a list of dynamic items | SwiftUI by Example",
   "desc": "How to create a list of dynamic items",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-create-a-list-of-dynamic-items.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-list-of-dynamic-items.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1795,9 +1795,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users delete rows from a list",
+  "title": "How to let users delete rows from a list | SwiftUI by Example",
   "desc": "How to let users delete rows from a list",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-let-users-delete-rows-from-a-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-delete-rows-from-a-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1805,9 +1805,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users move rows in a list",
+  "title": "How to let users move rows in a list | SwiftUI by Example",
   "desc": "How to let users move rows in a list",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-let-users-move-rows-in-a-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-move-rows-in-a-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1815,9 +1815,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add sections to a list",
+  "title": "How to add sections to a list | SwiftUI by Example",
   "desc": "How to add sections to a list",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-add-sections-to-a-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-sections-to-a-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1825,9 +1825,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to enable editing on a list using EditButton",
+  "title": "How to enable editing on a list using EditButton | SwiftUI by Example",
   "desc": "How to enable editing on a list using EditButton",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-enable-editing-on-a-list-using-editbutton.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-enable-editing-on-a-list-using-editbutton.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1835,9 +1835,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to set the background color of list rows using listRowBackground()",
+  "title": "How to set the background color of list rows using listRowBackground() | SwiftUI by Example",
   "desc": "How to set the background color of list rows using listRowBackground()",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-set-the-background-color-of-list-rows-using-listrowbackground.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-set-the-background-color-of-list-rows-using-listrowbackground.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1845,9 +1845,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create grouped and inset grouped lists",
+  "title": "How to create grouped and inset grouped lists | SwiftUI by Example",
   "desc": "How to create grouped and inset grouped lists",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-create-grouped-and-inset-grouped-lists.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-grouped-and-inset-grouped-lists.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1855,9 +1855,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create expanding lists",
+  "title": "How to create expanding lists | SwiftUI by Example",
   "desc": "How to create expanding lists",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-create-expanding-lists.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-expanding-lists.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1865,9 +1865,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to scroll to a specific row in a list",
+  "title": "How to scroll to a specific row in a list | SwiftUI by Example",
   "desc": "How to scroll to a specific row in a list",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-scroll-to-a-specific-row-in-a-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-scroll-to-a-specific-row-in-a-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1875,9 +1875,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to allow row selection in a list",
+  "title": "How to allow row selection in a list | SwiftUI by Example",
   "desc": "How to allow row selection in a list",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-allow-row-selection-in-a-list.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-allow-row-selection-in-a-list.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1885,9 +1885,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use implicit stacking",
+  "title": "How to use implicit stacking | SwiftUI by Example",
   "desc": "How to use implicit stacking",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-use-implicit-stacking.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-implicit-stacking.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1895,9 +1895,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust List row separator visibility and color",
+  "title": "How to adjust List row separator visibility and color | SwiftUI by Example",
   "desc": "How to adjust List row separator visibility and color",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-visibility-and-color.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-list-row-separator-visibility-and-color.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1905,9 +1905,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to enable pull to refresh",
+  "title": "How to enable pull to refresh | SwiftUI by Example",
   "desc": "How to enable pull to refresh",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-enable-pull-to-refresh.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-enable-pull-to-refresh.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1915,9 +1915,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add custom swipe action buttons to a List row",
+  "title": "How to add custom swipe action buttons to a List row | SwiftUI by Example",
   "desc": "How to add custom swipe action buttons to a List row",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-add-custom-swipe-action-buttons-to-a-list-row.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-custom-swipe-action-buttons-to-a-list-row.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1925,9 +1925,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a search bar to filter your data",
+  "title": "How to add a search bar to filter your data | SwiftUI by Example",
   "desc": "How to add a search bar to filter your data",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-add-a-search-bar-to-filter-your-data.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-search-bar-to-filter-your-data.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1935,9 +1935,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add search tokens to a search field",
+  "title": "How to add search tokens to a search field | SwiftUI by Example",
   "desc": "How to add search tokens to a search field",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-add-search-tokens-to-a-search-field.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-search-tokens-to-a-search-field.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1945,9 +1945,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a List or a ForEach from a binding",
+  "title": "How to create a List or a ForEach from a binding | SwiftUI by Example",
   "desc": "How to create a List or a ForEach from a binding",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-create-a-list-or-a-foreach-from-a-binding.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-list-or-a-foreach-from-a-binding.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1955,9 +1955,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust List row separator insets",
+  "title": "How to adjust List row separator insets | SwiftUI by Example",
   "desc": "How to adjust List row separator insets",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-adjust-list-row-separator-insets.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-list-row-separator-insets.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1965,9 +1965,9 @@ Create scrolling tables of data
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to change the tint color for individual list rows",
+  "title": "How to change the tint color for individual list rows | SwiftUI by Example",
   "desc": "How to change the tint color for individual list rows",
-  "link": "/swift/swiftui-by-example/10-lists/how-to-change-the-tint-color-for-individual-list-rows.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-change-the-tint-color-for-individual-list-rows.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1981,9 +1981,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Working with forms",
+  "title": "Working with forms | SwiftUI by Example",
   "desc": "Working with forms",
-  "link": "/swift/swiftui-by-example/11-forms/working-with-forms.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/working-with-forms.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -1991,9 +1991,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Basic form design",
+  "title": "Basic form design | SwiftUI by Example",
   "desc": "Basic form design",
-  "link": "/swift/swiftui-by-example/11-forms/basic-form-design.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/basic-form-design.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2001,9 +2001,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Breaking forms into sections",
+  "title": "Breaking forms into sections | SwiftUI by Example",
   "desc": "Breaking forms into sections",
-  "link": "/swift/swiftui-by-example/11-forms/breaking-forms-into-sections.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/breaking-forms-into-sections.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2011,9 +2011,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Pickers in forms",
+  "title": "Pickers in forms | SwiftUI by Example",
   "desc": "Pickers in forms",
-  "link": "/swift/swiftui-by-example/11-forms/pickers-in-forms.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/pickers-in-forms.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2021,9 +2021,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Enabling and disabling elements in forms",
+  "title": "Enabling and disabling elements in forms | SwiftUI by Example",
   "desc": "Enabling and disabling elements in forms",
-  "link": "/swift/swiftui-by-example/11-forms/enabling-and-disabling-elements-in-forms.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/enabling-and-disabling-elements-in-forms.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2031,9 +2031,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Showing and hiding form rows",
+  "title": "Showing and hiding form rows | SwiftUI by Example",
   "desc": "Showing and hiding form rows",
-  "link": "/swift/swiftui-by-example/11-forms/showing-and-hiding-form-rows.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/showing-and-hiding-form-rows.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2041,9 +2041,9 @@ Get user entry quickly and efficiently
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to align form text and controls neatly with LabeledContent",
+  "title": "How to align form text and controls neatly with LabeledContent | SwiftUI by Example",
   "desc": "How to align form text and controls neatly with LabeledContent",
-  "link": "/swift/swiftui-by-example/11-forms/how-to-align-form-text-and-controls-neatly-with-labeledcontent.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-align-form-text-and-controls-neatly-with-labeledcontent.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2057,9 +2057,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Working with containers",
+  "title": "Working with containers | SwiftUI by Example",
   "desc": "Working with containers",
-  "link": "/swift/swiftui-by-example/12-containers/working-with-containers.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/working-with-containers.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2067,9 +2067,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to embed views in a tab bar using TabView",
+  "title": "How to embed views in a tab bar using TabView | SwiftUI by Example",
   "desc": "How to embed views in a tab bar using TabView",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-embed-views-in-a-tab-bar-using-tabview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-embed-views-in-a-tab-bar-using-tabview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2077,9 +2077,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create scrolling pages of content using tabViewStyle()",
+  "title": "How to create scrolling pages of content using tabViewStyle() | SwiftUI by Example",
   "desc": "How to create scrolling pages of content using tabViewStyle()",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-create-scrolling-pages-of-content-using-tabviewstyle.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-scrolling-pages-of-content-using-tabviewstyle.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2087,9 +2087,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to group views together",
+  "title": "How to group views together | SwiftUI by Example",
   "desc": "How to group views together",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-group-views-together.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-group-views-together.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2097,9 +2097,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide and show the status bar",
+  "title": "How to hide and show the status bar | SwiftUI by Example",
   "desc": "How to hide and show the status bar",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-hide-and-show-the-status-bar.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-hide-and-show-the-status-bar.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2107,9 +2107,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide and reveal content using DisclosureGroup",
+  "title": "How to hide and reveal content using DisclosureGroup | SwiftUI by Example",
   "desc": "How to hide and reveal content using DisclosureGroup",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-hide-and-reveal-content-using-disclosuregroup.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-hide-and-reveal-content-using-disclosuregroup.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2117,9 +2117,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a toolbar and add buttons to it",
+  "title": "How to create a toolbar and add buttons to it | SwiftUI by Example",
   "desc": "How to create a toolbar and add buttons to it",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-create-a-toolbar-and-add-buttons-to-it.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-toolbar-and-add-buttons-to-it.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2127,9 +2127,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users customize toolbar buttons",
+  "title": "How to let users customize toolbar buttons | SwiftUI by Example",
   "desc": "How to let users customize toolbar buttons",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-let-users-customize-toolbar-buttons.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-customize-toolbar-buttons.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2137,9 +2137,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a badge to TabView items and List rows",
+  "title": "How to add a badge to TabView items and List rows | SwiftUI by Example",
   "desc": "How to add a badge to TabView items and List rows",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-add-a-badge-to-tabview-items-and-list-rows.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-badge-to-tabview-items-and-list-rows.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2147,9 +2147,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to group views visually using GroupBox",
+  "title": "How to group views visually using GroupBox | SwiftUI by Example",
   "desc": "How to group views visually using GroupBox",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-group-views-visually-using-groupbox.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-group-views-visually-using-groupbox.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2157,9 +2157,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide the tab bar, navigation bar, or other toolbars",
+  "title": "How to hide the tab bar, navigation bar, or other toolbars | SwiftUI by Example",
   "desc": "How to hide the tab bar, navigation bar, or other toolbars",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2167,9 +2167,9 @@ Place your views inside a navigation controller and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize the background color of navigation bars, tab bars, and toolbars",
+  "title": "How to customize the background color of navigation bars, tab bars, and toolbars | SwiftUI by Example",
   "desc": "How to customize the background color of navigation bars, tab bars, and toolbars",
-  "link": "/swift/swiftui-by-example/12-containers/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-customize-the-background-color-of-navigation-bars-tab-bars-and-toolbars.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2183,9 +2183,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Introduction to navigation",
+  "title": "Introduction to navigation | SwiftUI by Example",
   "desc": "Introduction to navigation",
-  "link": "/swift/swiftui-by-example/13-navigation/introduction-to-navigation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/introduction-to-navigation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2193,9 +2193,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to embed a view in a navigation view",
+  "title": "How to embed a view in a navigation view | SwiftUI by Example",
   "desc": "How to embed a view in a navigation view",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-embed-a-view-in-a-navigation-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-embed-a-view-in-a-navigation-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2203,9 +2203,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users edit your navigation title",
+  "title": "How to let users edit your navigation title | SwiftUI by Example",
   "desc": "How to let users edit your navigation title",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-let-users-edit-your-navigation-title.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-edit-your-navigation-title.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2213,9 +2213,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add bar items to a navigation view",
+  "title": "How to add bar items to a navigation view | SwiftUI by Example",
   "desc": "How to add bar items to a navigation view",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-add-bar-items-to-a-navigation-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-bar-items-to-a-navigation-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2223,9 +2223,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to push a new view onto a NavigationStack",
+  "title": "How to push a new view onto a NavigationStack | SwiftUI by Example",
   "desc": "How to push a new view onto a NavigationStack",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-push-a-new-view-onto-a-navigationstack.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-push-a-new-view-onto-a-navigationstack.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2233,9 +2233,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to push a new view when a list row is tapped",
+  "title": "How to push a new view when a list row is tapped | SwiftUI by Example",
   "desc": "How to push a new view when a list row is tapped",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-push-a-new-view-when-a-list-row-is-tapped.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-push-a-new-view-when-a-list-row-is-tapped.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2243,9 +2243,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use programmatic navigation in SwiftUI",
+  "title": "How to use programmatic navigation in SwiftUI | SwiftUI by Example",
   "desc": "How to use programmatic navigation in SwiftUI",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-use-programmatic-navigation-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-programmatic-navigation-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2253,9 +2253,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to save and load NavigationStack paths using Codable",
+  "title": "How to save and load NavigationStack paths using Codable | SwiftUI by Example",
   "desc": "How to save and load NavigationStack paths using Codable",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-save-and-load-navigationstack-paths-using-codable.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-save-and-load-navigationstack-paths-using-codable.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2263,9 +2263,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a two-column or three-column layout with NavigationSplitView",
+  "title": "How to create a two-column or three-column layout with NavigationSplitView | SwiftUI by Example",
   "desc": "How to create a two-column or three-column layout with NavigationSplitView",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2273,9 +2273,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to hide and show the sidebar programmatically",
+  "title": "How to hide and show the sidebar programmatically | SwiftUI by Example",
   "desc": "How to hide and show the sidebar programmatically",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-hide-and-show-the-sidebar-programmatically.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-hide-and-show-the-sidebar-programmatically.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2283,9 +2283,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize a view’s width in NavigationSplitView",
+  "title": "How to customize a view’s width in NavigationSplitView | SwiftUI by Example",
   "desc": "How to customize a view’s width in NavigationSplitView",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-customize-a-views-width-in-navigationsplitview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-customize-a-views-width-in-navigationsplitview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2293,9 +2293,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to customize the display mode of NavigationSplitView",
+  "title": "How to customize the display mode of NavigationSplitView | SwiftUI by Example",
   "desc": "How to customize the display mode of NavigationSplitView",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-customize-the-display-mode-of-navigationsplitview.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-customize-the-display-mode-of-navigationsplitview.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2303,9 +2303,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to control which NavigationSplitView column is shown in compact layouts",
+  "title": "How to control which NavigationSplitView column is shown in compact layouts | SwiftUI by Example",
   "desc": "How to control which NavigationSplitView column is shown in compact layouts",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-control-which-navigationsplitview-column-is-shown-in-compact-layouts.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-control-which-navigationsplitview-column-is-shown-in-compact-layouts.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2313,9 +2313,9 @@ Direct your user through data in your app
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add an inspector to any view",
+  "title": "How to add an inspector to any view | SwiftUI by Example",
   "desc": "How to add an inspector to any view",
-  "link": "/swift/swiftui-by-example/13-navigation/how-to-add-an-inspector-to-any-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-an-inspector-to-any-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2329,9 +2329,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Working with presentations",
+  "title": "Working with presentations | SwiftUI by Example",
   "desc": "Working with presentations",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menu/working-with-presentations.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/working-with-presentations.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2339,9 +2339,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show an alert",
+  "title": "How to show an alert | SwiftUI by Example",
   "desc": "How to show an alert",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menu/how-to-show-an-alert.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-an-alert.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2349,9 +2349,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add a TextField to an alert",
+  "title": "How to add a TextField to an alert | SwiftUI by Example",
   "desc": "How to add a TextField to an alert",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-a-textfield-to-an-alert.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-a-textfield-to-an-alert.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2359,9 +2359,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add actions to alert buttons",
+  "title": "How to add actions to alert buttons | SwiftUI by Example",
   "desc": "How to add actions to alert buttons",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-actions-to-alert-buttons.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-actions-to-alert-buttons.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2369,9 +2369,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show multiple alerts in a single view",
+  "title": "How to show multiple alerts in a single view | SwiftUI by Example",
   "desc": "How to show multiple alerts in a single view",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-multiple-alerts-in-a-single-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-multiple-alerts-in-a-single-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2379,9 +2379,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show an action sheet",
+  "title": "How to show an action sheet | SwiftUI by Example",
   "desc": "How to show an action sheet",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-an-action-sheet.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-an-action-sheet.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2389,7 +2389,7 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show a context menu",
+  "title": "How to show a context menu | SwiftUI by Example",
   "desc": "How to show a context menu",
   "link": "/swift/swiftui-by-example/14-alerts-and-menu.md/how-to-show-a-context-menu.md",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
@@ -2399,9 +2399,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to recommend another app using appStoreOverlay()",
+  "title": "How to recommend another app using appStoreOverlay() | SwiftUI by Example",
   "desc": "How to recommend another app using appStoreOverlay()",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-recommend-another-app-using-appstoreoverlay.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-recommend-another-app-using-appstoreoverlay.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2409,9 +2409,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show a menu when a button is pressed",
+  "title": "How to show a menu when a button is pressed | SwiftUI by Example",
   "desc": "How to show a menu when a button is pressed",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-show-a-menu-when-a-button-is-pressed.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-a-menu-when-a-button-is-pressed.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2419,9 +2419,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to let users pick options from a menu",
+  "title": "How to let users pick options from a menu | SwiftUI by Example",
   "desc": "How to let users pick options from a menu",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-let-users-pick-options-from-a-menu.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-let-users-pick-options-from-a-menu.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2429,9 +2429,9 @@ Show modal notifications when something happens
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add in-app purchases in SwiftUI",
+  "title": "How to add in-app purchases in SwiftUI | SwiftUI by Example",
   "desc": "How to add in-app purchases in SwiftUI",
-  "link": "/swift/swiftui-by-example/14-alerts-and-menus/how-to-add-in-app-purchases-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-in-app-purchases-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2447,9 +2447,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to present a new view using sheets",
+  "title": "How to present a new view using sheets | SwiftUI by Example",
   "desc": "How to present a new view using sheets",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-present-a-new-view-using-sheets.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-present-a-new-view-using-sheets.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2457,9 +2457,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to present multiple sheets",
+  "title": "How to present multiple sheets | SwiftUI by Example",
   "desc": "How to present multiple sheets",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-present-multiple-sheets.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-present-multiple-sheets.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2467,9 +2467,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make a view dismiss itself",
+  "title": "How to make a view dismiss itself | SwiftUI by Example",
   "desc": "How to make a view dismiss itself",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-make-a-view-dismiss-itself.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-a-view-dismiss-itself.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2477,9 +2477,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to present a full screen modal view using fullScreenCover()",
+  "title": "How to present a full screen modal view using fullScreenCover() | SwiftUI by Example",
   "desc": "How to present a full screen modal view using fullScreenCover()",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-present-a-full-screen-modal-view-using-fullscreencover.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-present-a-full-screen-modal-view-using-fullscreencover.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2487,9 +2487,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to show a popover view",
+  "title": "How to show a popover view | SwiftUI by Example",
   "desc": "How to show a popover view",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-show-a-popover-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-show-a-popover-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2497,9 +2497,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to prevent a sheet from being dismissed with a swipe",
+  "title": "How to prevent a sheet from being dismissed with a swipe | SwiftUI by Example",
   "desc": "How to prevent a sheet from being dismissed with a swipe",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2507,9 +2507,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to display a bottom sheet",
+  "title": "How to display a bottom sheet | SwiftUI by Example",
   "desc": "How to display a bottom sheet",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-display-a-bottom-sheet.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-display-a-bottom-sheet.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2517,9 +2517,9 @@ Move your user from one view to another
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to ask the user to review your app",
+  "title": "How to ask the user to review your app | SwiftUI by Example",
   "desc": "How to ask the user to review your app",
-  "link": "/swift/swiftui-by-example/15-presenting-views/how-to-ask-the-user-to-review-your-app.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-ask-the-user-to-review-your-app.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2535,9 +2535,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust the position of a view using its offset",
+  "title": "How to adjust the position of a view using its offset | SwiftUI by Example",
   "desc": "How to adjust the position of a view using its offset",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-position-of-a-view-using-its-offset.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-the-position-of-a-view-using-its-offset.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2545,9 +2545,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to color the padding around a view",
+  "title": "How to color the padding around a view | SwiftUI by Example",
   "desc": "How to color the padding around a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-color-the-padding-around-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-color-the-padding-around-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2555,9 +2555,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to stack modifiers to create more advanced effects",
+  "title": "How to stack modifiers to create more advanced effects | SwiftUI by Example",
   "desc": "How to stack modifiers to create more advanced effects",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-stack-modifiers-to-create-more-advanced-effects.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-stack-modifiers-to-create-more-advanced-effects.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2565,9 +2565,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw a border around a view",
+  "title": "How to draw a border around a view | SwiftUI by Example",
   "desc": "How to draw a border around a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-border-around-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-a-border-around-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2575,9 +2575,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw a border inside a view",
+  "title": "How to draw a border inside a view | SwiftUI by Example",
   "desc": "How to draw a border inside a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-border-inside-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-a-border-inside-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2585,9 +2585,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a marching ants border effect",
+  "title": "How to create a marching ants border effect | SwiftUI by Example",
   "desc": "How to create a marching ants border effect",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-create-a-marching-ants-border-effect.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-marching-ants-border-effect.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2595,9 +2595,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw a shadow around a view",
+  "title": "How to draw a shadow around a view | SwiftUI by Example",
   "desc": "How to draw a shadow around a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-draw-a-shadow-around-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-a-shadow-around-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2605,9 +2605,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to clip a view so only part is visible",
+  "title": "How to clip a view so only part is visible | SwiftUI by Example",
   "desc": "How to clip a view so only part is visible",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-clip-a-view-so-only-part-is-visible.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-clip-a-view-so-only-part-is-visible.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2615,9 +2615,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to rotate a view",
+  "title": "How to rotate a view | SwiftUI by Example",
   "desc": "How to rotate a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-rotate-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-rotate-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2625,9 +2625,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to rotate a view in 3D",
+  "title": "How to rotate a view in 3D | SwiftUI by Example",
   "desc": "How to rotate a view in 3D",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-rotate-a-view-in-3d.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-rotate-a-view-in-3d.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2635,9 +2635,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to scale a view up or down",
+  "title": "How to scale a view up or down | SwiftUI by Example",
   "desc": "How to scale a view up or down",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-scale-a-view-up-or-down.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-scale-a-view-up-or-down.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2645,9 +2645,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to round the corners of a view",
+  "title": "How to round the corners of a view | SwiftUI by Example",
   "desc": "How to round the corners of a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-round-the-corners-of-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-round-the-corners-of-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2655,9 +2655,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust the opacity of a view",
+  "title": "How to adjust the opacity of a view | SwiftUI by Example",
   "desc": "How to adjust the opacity of a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-opacity-of-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-the-opacity-of-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2665,9 +2665,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust the accent color of a view",
+  "title": "How to adjust the accent color of a view | SwiftUI by Example",
   "desc": "How to adjust the accent color of a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-the-accent-color-of-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-the-accent-color-of-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2675,9 +2675,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to mask one view with another",
+  "title": "How to mask one view with another | SwiftUI by Example",
   "desc": "How to mask one view with another",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-mask-one-view-with-another.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-mask-one-view-with-another.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2685,9 +2685,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to blur a view",
+  "title": "How to blur a view | SwiftUI by Example",
   "desc": "How to blur a view",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-blur-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-blur-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2695,9 +2695,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to blend views together",
+  "title": "How to blend views together | SwiftUI by Example",
   "desc": "How to blend views together",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-blend-views-together.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-blend-views-together.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2705,9 +2705,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to adjust views by tinting, and desaturating, and more",
+  "title": "How to adjust views by tinting, and desaturating, and more | SwiftUI by Example",
   "desc": "How to adjust views by tinting, and desaturating, and more",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-adjust-views-by-tinting-and-desaturating-and-more.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-adjust-views-by-tinting-and-desaturating-and-more.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2715,9 +2715,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Customizing Button with ButtonStyle",
+  "title": "Customizing Button with ButtonStyle | SwiftUI by Example",
   "desc": "Customizing Button with ButtonStyle",
-  "link": "/swift/swiftui-by-example/16-transforming-views/customizing-button-with-buttonstyle.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/customizing-button-with-buttonstyle.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2725,9 +2725,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Customizing ProgressView with ProgressViewStyle",
+  "title": "Customizing ProgressView with ProgressViewStyle | SwiftUI by Example",
   "desc": "Customizing ProgressView with ProgressViewStyle",
-  "link": "/swift/swiftui-by-example/16-transforming-views/customizing-progressview-with-progressviewstyle.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/customizing-progressview-with-progressviewstyle.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2735,9 +2735,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Customizing Toggle with ToggleStyle",
+  "title": "Customizing Toggle with ToggleStyle | SwiftUI by Example",
   "desc": "Customizing Toggle with ToggleStyle",
-  "link": "/swift/swiftui-by-example/16-transforming-views/customizing-toggle-with-togglestyle.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/customizing-toggle-with-togglestyle.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2745,9 +2745,9 @@ Clip, size, scale, spin, and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to change the background color of List, TextEditor, and more",
+  "title": "How to change the background color of List, TextEditor, and more | SwiftUI by Example",
   "desc": "How to change the background color of List, TextEditor, and more",
-  "link": "/swift/swiftui-by-example/16-transforming-views/how-to-change-the-background-color-of-list-texteditor-and-more.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-change-the-background-color-of-list-texteditor-and-more.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2761,9 +2761,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > SwiftUI’s built-in shapes",
+  "title": "SwiftUI’s built-in shapes | SwiftUI by Example",
   "desc": "SwiftUI’s built-in shapes",
-  "link": "/swift/swiftui-by-example/17-drawing/swiftuis-built-in-shapes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftuis-built-in-shapes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2771,9 +2771,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw a custom path",
+  "title": "How to draw a custom path | SwiftUI by Example",
   "desc": "How to draw a custom path",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-draw-a-custom-path.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-a-custom-path.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2781,9 +2781,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw polygons and stars",
+  "title": "How to draw polygons and stars | SwiftUI by Example",
   "desc": "How to draw polygons and stars",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-draw-polygons-and-stars.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-polygons-and-stars.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2791,9 +2791,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to draw a checkerboard",
+  "title": "How to draw a checkerboard | SwiftUI by Example",
   "desc": "How to draw a checkerboard",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-draw-a-checkerboard.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-draw-a-checkerboard.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2801,9 +2801,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use UIBezierPath and CGPath in SwiftUI",
+  "title": "How to use UIBezierPath and CGPath in SwiftUI | SwiftUI by Example",
   "desc": "How to use UIBezierPath and CGPath in SwiftUI",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-use-uibezierpath-and-cgpath-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-uibezierpath-and-cgpath-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2811,9 +2811,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to convert a SwiftUI view to an image",
+  "title": "How to convert a SwiftUI view to an image | SwiftUI by Example",
   "desc": "How to convert a SwiftUI view to an image",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-convert-a-swiftui-view-to-an-image.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-convert-a-swiftui-view-to-an-image.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2821,9 +2821,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to render a SwiftUI view to a PDF",
+  "title": "How to render a SwiftUI view to a PDF | SwiftUI by Example",
   "desc": "How to render a SwiftUI view to a PDF",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-render-a-swiftui-view-to-a-pdf.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-render-a-swiftui-view-to-a-pdf.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2831,9 +2831,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add visual effect blurs",
+  "title": "How to add visual effect blurs | SwiftUI by Example",
   "desc": "How to add visual effect blurs",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-add-visual-effect-blurs.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-visual-effect-blurs.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2841,9 +2841,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create custom animated drawings with TimelineView and Canvas",
+  "title": "How to create custom animated drawings with TimelineView and Canvas | SwiftUI by Example",
   "desc": "How to create custom animated drawings with TimelineView and Canvas",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2851,9 +2851,9 @@ Take control of rendering using custom shapes
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add Metal shaders to SwiftUI views using layer effects",
+  "title": "How to add Metal shaders to SwiftUI views using layer effects | SwiftUI by Example",
   "desc": "How to add Metal shaders to SwiftUI views using layer effects",
-  "link": "/swift/swiftui-by-example/17-drawing/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2867,9 +2867,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create basic animations",
+  "title": "How to create basic animations | SwiftUI by Example",
   "desc": "How to create basic animations",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-basic-animations.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-basic-animations.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2877,9 +2877,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a spring animation",
+  "title": "How to create a spring animation | SwiftUI by Example",
   "desc": "How to create a spring animation",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-a-spring-animation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-spring-animation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2887,9 +2887,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to animate changes in binding values",
+  "title": "How to animate changes in binding values | SwiftUI by Example",
   "desc": "How to animate changes in binding values",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-animate-changes-in-binding-values.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-animate-changes-in-binding-values.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2897,9 +2897,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create an explicit animation",
+  "title": "How to create an explicit animation | SwiftUI by Example",
   "desc": "How to create an explicit animation",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-an-explicit-animation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-an-explicit-animation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2907,9 +2907,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to delay an animation",
+  "title": "How to delay an animation | SwiftUI by Example",
   "desc": "How to delay an animation",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-delay-an-animation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-delay-an-animation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2917,9 +2917,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to start an animation immediately after a view appears",
+  "title": "How to start an animation immediately after a view appears | SwiftUI by Example",
   "desc": "How to start an animation immediately after a view appears",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-start-an-animation-immediately-after-a-view-appears.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-start-an-animation-immediately-after-a-view-appears.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2927,9 +2927,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to apply multiple animations to a view",
+  "title": "How to apply multiple animations to a view | SwiftUI by Example",
   "desc": "How to apply multiple animations to a view",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-apply-multiple-animations-to-a-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-apply-multiple-animations-to-a-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2937,9 +2937,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to synchronize animations from one view to another with `matchedGeometryEffect()`",
+  "title": "How to synchronize animations from one view to another with `matchedGeometryEffect()` | SwiftUI by Example",
   "desc": "How to synchronize animations from one view to another with `matchedGeometryEffect()`",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2947,9 +2947,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add and remove views with a transition",
+  "title": "How to add and remove views with a transition | SwiftUI by Example",
   "desc": "How to add and remove views with a transition",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-add-and-remove-views-with-a-transition.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-and-remove-views-with-a-transition.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2957,9 +2957,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to combine transitions",
+  "title": "How to combine transitions | SwiftUI by Example",
   "desc": "How to combine transitions",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-combine-transitions.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-combine-transitions.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2967,9 +2967,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create asymmetric transitions",
+  "title": "How to create asymmetric transitions | SwiftUI by Example",
   "desc": "How to create asymmetric transitions",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-asymmetric-transitions.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-asymmetric-transitions.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2977,9 +2977,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a custom transition",
+  "title": "How to create a custom transition | SwiftUI by Example",
   "desc": "How to create a custom transition",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-a-custom-transition.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-custom-transition.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2987,9 +2987,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to animate the size of text",
+  "title": "How to animate the size of text | SwiftUI by Example",
   "desc": "How to animate the size of text",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-animate-the-size-of-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-animate-the-size-of-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -2997,9 +2997,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to override animations with transactions",
+  "title": "How to override animations with transactions | SwiftUI by Example",
   "desc": "How to override animations with transactions",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-override-animations-with-transactions.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-override-animations-with-transactions.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3007,9 +3007,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to run a completion callback when an animation finishes",
+  "title": "How to run a completion callback when an animation finishes | SwiftUI by Example",
   "desc": "How to run a completion callback when an animation finishes",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-run-a-completion-callback-when-an-animation-finishes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-run-a-completion-callback-when-an-animation-finishes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3017,9 +3017,9 @@ Bring your views to life with movement
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create multi-step animations using phase animators",
+  "title": "How to create multi-step animations using phase animators | SwiftUI by Example",
   "desc": "How to create multi-step animations using phase animators",
-  "link": "/swift/swiftui-by-example/18-animation/how-to-create-multi-step-animations-using-phase-animators.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-multi-step-animations-using-phase-animators.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3033,9 +3033,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create and compose custom views",
+  "title": "How to create and compose custom views | SwiftUI by Example",
   "desc": "How to create and compose custom views",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-and-compose-custom-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-and-compose-custom-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3043,9 +3043,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to combine text views together",
+  "title": "How to combine text views together | SwiftUI by Example",
   "desc": "How to combine text views together",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-combine-text-views-together.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-combine-text-views-together.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3053,9 +3053,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to store views as properties",
+  "title": "How to store views as properties | SwiftUI by Example",
   "desc": "How to store views as properties",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-store-views-as-properties.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-store-views-as-properties.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3063,9 +3063,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create custom modifiers",
+  "title": "How to create custom modifiers | SwiftUI by Example",
   "desc": "How to create custom modifiers",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-custom-modifiers.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-custom-modifiers.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3073,9 +3073,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to wrap a custom UIView for SwiftUI",
+  "title": "How to wrap a custom UIView for SwiftUI | SwiftUI by Example",
   "desc": "How to wrap a custom UIView for SwiftUI",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-wrap-a-custom-uiview-for-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-wrap-a-custom-uiview-for-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3083,9 +3083,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create modifiers for a UIViewRepresentable struct",
+  "title": "How to create modifiers for a UIViewRepresentable struct | SwiftUI by Example",
   "desc": "How to create modifiers for a UIViewRepresentable struct",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-create-modifiers-for-a-uiviewrepresentable-struct.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-modifiers-for-a-uiviewrepresentable-struct.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3093,9 +3093,9 @@ Make your UI structure easier to understand
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to insert images into text",
+  "title": "How to insert images into text | SwiftUI by Example",
   "desc": "How to insert images into text",
-  "link": "/swift/swiftui-by-example/19-composing-view/how-to-insert-images-into-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-insert-images-into-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3109,9 +3109,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Learn once, apply anywhere",
+  "title": "Learn once, apply anywhere | SwiftUI by Example",
   "desc": "Learn once, apply anywhere",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/learn-once-apply-anywhere.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/learn-once-apply-anywhere.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3119,9 +3119,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to get translucent lists on macOS",
+  "title": "How to get translucent lists on macOS | SwiftUI by Example",
   "desc": "How to get translucent lists on macOS",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-get-translucent-lists-on-macos.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-get-translucent-lists-on-macos.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3129,9 +3129,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make carousel lists on watchOS",
+  "title": "How to make carousel lists on watchOS | SwiftUI by Example",
   "desc": "How to make carousel lists on watchOS",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-make-carousel-lists-on-watchos.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-carousel-lists-on-watchos.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3139,9 +3139,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to read the Digital Crown on watchOS using digitalCrownRotation()",
+  "title": "How to read the Digital Crown on watchOS using digitalCrownRotation() | SwiftUI by Example",
   "desc": "How to read the Digital Crown on watchOS using digitalCrownRotation()",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3149,9 +3149,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to open a new window",
+  "title": "How to open a new window | SwiftUI by Example",
   "desc": "How to open a new window",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-open-a-new-window.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-open-a-new-window.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3159,9 +3159,9 @@ Learn to make your apps look great everywhere
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to enable vertical page scrolling",
+  "title": "How to enable vertical page scrolling | SwiftUI by Example",
   "desc": "How to enable vertical page scrolling",
-  "link": "/swift/swiftui-by-example/20-cross-platform-swiftui/how-to-enable-vertical-page-scrolling.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-enable-vertical-page-scrolling.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3175,9 +3175,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Introduction to using Core Data with SwiftUI",
+  "title": "Introduction to using Core Data with SwiftUI | SwiftUI by Example",
   "desc": "Introduction to using Core Data with SwiftUI",
-  "link": "/swift/swiftui-by-example/21-data/introduction-to-using-core-data-with-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/introduction-to-using-core-data-with-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3185,9 +3185,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to configure Core Data to work with SwiftUI",
+  "title": "How to configure Core Data to work with SwiftUI | SwiftUI by Example",
   "desc": "How to configure Core Data to work with SwiftUI",
-  "link": "/swift/swiftui-by-example/21-data/how-to-configure-core-data-to-work-with-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-configure-core-data-to-work-with-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3195,9 +3195,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to access a Core Data managed object context from a SwiftUI view",
+  "title": "How to access a Core Data managed object context from a SwiftUI view | SwiftUI by Example",
   "desc": "How to access a Core Data managed object context from a SwiftUI view",
-  "link": "/swift/swiftui-by-example/21-data/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3205,9 +3205,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a Core Data fetch request using @FetchRequest",
+  "title": "How to create a Core Data fetch request using @FetchRequest | SwiftUI by Example",
   "desc": "How to create a Core Data fetch request using @FetchRequest",
-  "link": "/swift/swiftui-by-example/21-data/how-to-create-a-core-data-fetch-request-using-fetchrequest.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-core-data-fetch-request-using-fetchrequest.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3215,9 +3215,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to filter Core Data fetch requests using a predicate",
+  "title": "How to filter Core Data fetch requests using a predicate | SwiftUI by Example",
   "desc": "How to filter Core Data fetch requests using a predicate",
-  "link": "/swift/swiftui-by-example/21-data/how-to-filter-core-data-fetch-requests-using-a-predicate.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-filter-core-data-fetch-requests-using-a-predicate.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3225,9 +3225,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to add Core Data objects from SwiftUI views",
+  "title": "How to add Core Data objects from SwiftUI views | SwiftUI by Example",
   "desc": "How to add Core Data objects from SwiftUI views",
-  "link": "/swift/swiftui-by-example/21-data/how-to-add-core-data-objects-from-swiftui-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-add-core-data-objects-from-swiftui-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3235,9 +3235,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to delete Core Data objects from SwiftUI views",
+  "title": "How to delete Core Data objects from SwiftUI views | SwiftUI by Example",
   "desc": "How to delete Core Data objects from SwiftUI views",
-  "link": "/swift/swiftui-by-example/21-data/how-to-delete-core-data-objects-from-swiftui-views.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-delete-core-data-objects-from-swiftui-views.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3245,9 +3245,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to limit the number of items in a fetch request",
+  "title": "How to limit the number of items in a fetch request | SwiftUI by Example",
   "desc": "How to limit the number of items in a fetch request",
-  "link": "/swift/swiftui-by-example/21-data/how-to-limit-the-number-of-items-in-a-fetch-request.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-limit-the-number-of-items-in-a-fetch-request.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3255,9 +3255,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to create a document-based app using FileDocument and DocumentGroup",
+  "title": "How to create a document-based app using FileDocument and DocumentGroup | SwiftUI by Example",
   "desc": "How to create a document-based app using FileDocument and DocumentGroup",
-  "link": "/swift/swiftui-by-example/21-data/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3265,9 +3265,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to export files using fileExporter()",
+  "title": "How to export files using fileExporter() | SwiftUI by Example",
   "desc": "How to export files using fileExporter()",
-  "link": "/swift/swiftui-by-example/21-data/how-to-export-files-using-fileexporter.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-export-files-using-fileexporter.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3275,9 +3275,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to continue an NSUserActivity in SwiftUI",
+  "title": "How to continue an NSUserActivity in SwiftUI | SwiftUI by Example",
   "desc": "How to continue an NSUserActivity in SwiftUI",
-  "link": "/swift/swiftui-by-example/21-data/how-to-continue-an-nsuseractivity-in-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-continue-an-nsuseractivity-in-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3285,9 +3285,9 @@ Handle data with Core Data integration and more
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to read the user’s location using LocationButton",
+  "title": "How to read the user’s location using LocationButton | SwiftUI by Example",
   "desc": "How to read the user’s location using LocationButton",
-  "link": "/swift/swiftui-by-example/21-data/how-to-read-the-users-location-using-locationbutton.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-read-the-users-location-using-locationbutton.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3301,9 +3301,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > Introduction to accessibility with SwiftUI",
+  "title": "Introduction to accessibility with SwiftUI | SwiftUI by Example",
   "desc": "Introduction to accessibility with SwiftUI",
-  "link": "/swift/swiftui-by-example/22-accessibility/introduction-to-accessibility-with-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/introduction-to-accessibility-with-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3311,9 +3311,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to use Dynamic Type with a custom font",
+  "title": "How to use Dynamic Type with a custom font | SwiftUI by Example",
   "desc": "How to use Dynamic Type with a custom font",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-use-dynamic-type-with-a-custom-font.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-dynamic-type-with-a-custom-font.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3321,9 +3321,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to specify the Dynamic Type sizes a view supports",
+  "title": "How to specify the Dynamic Type sizes a view supports | SwiftUI by Example",
   "desc": "How to specify the Dynamic Type sizes a view supports",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-specify-the-dynamic-type-sizes-a-view-supports.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-specify-the-dynamic-type-sizes-a-view-supports.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3331,9 +3331,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to detect the Reduce Motion accessibility setting",
+  "title": "How to detect the Reduce Motion accessibility setting | SwiftUI by Example",
   "desc": "How to detect the Reduce Motion accessibility setting",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-detect-the-reduce-motion-accessibility-setting.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-the-reduce-motion-accessibility-setting.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3341,9 +3341,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to detect dark mode",
+  "title": "How to detect dark mode | SwiftUI by Example",
   "desc": "How to detect dark mode",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-detect-dark-mode.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-detect-dark-mode.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3351,9 +3351,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to use decorative images to reduce screen reader clutter",
+  "title": "How to use decorative images to reduce screen reader clutter | SwiftUI by Example",
   "desc": "How to use decorative images to reduce screen reader clutter",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-use-decorative-images-to-reduce-screen-reader-clutter.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-decorative-images-to-reduce-screen-reader-clutter.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3361,9 +3361,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to reduce animations when requested",
+  "title": "How to reduce animations when requested | SwiftUI by Example",
   "desc": "How to reduce animations when requested",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-reduce-animations-when-requested.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-reduce-animations-when-requested.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3371,9 +3371,9 @@ How to make your apps usable by everyone
 
 ```component VPCard
 { 
-  "title": "SwiftUI by Example > How to make VoiceOver read characters individually",
+  "title": "How to make VoiceOver read characters individually | SwiftUI by Example",
   "desc": "How to make VoiceOver read characters individually",
-  "link": "/swift/swiftui-by-example/22-accessibility/how-to-make-voiceover-read-characters-individually.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-voiceover-read-characters-individually.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3387,9 +3387,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
+  "title": "How to make SwiftUI modifiers safer to use with @warn_unqualified_access | SwiftUI by Example",
   "desc": "How to make SwiftUI modifiers safer to use with @warn_unqualified_access",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3397,9 +3397,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to preview your layout at different Dynamic Type sizes",
+  "title": "How to preview your layout at different Dynamic Type sizes | SwiftUI by Example",
   "desc": "How to preview your layout at different Dynamic Type sizes",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-at-different-dynamic-type-sizes.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-preview-your-layout-at-different-dynamic-type-sizes.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3407,9 +3407,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to preview your layout in light and dark mode",
+  "title": "How to preview your layout in light and dark mode | SwiftUI by Example",
   "desc": "How to preview your layout in light and dark mode",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-light-and-dark-mode.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-preview-your-layout-in-light-and-dark-mode.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3417,9 +3417,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to preview your layout in different devices",
+  "title": "How to preview your layout in different devices | SwiftUI by Example",
   "desc": "How to preview your layout in different devices",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-different-devices.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-preview-your-layout-in-different-devices.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3427,9 +3427,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to preview your layout in a navigation view",
+  "title": "How to preview your layout in a navigation view | SwiftUI by Example",
   "desc": "How to preview your layout in a navigation view",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-a-navigation-view.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-preview-your-layout-in-a-navigation-view.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3437,9 +3437,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to preview your layout in portrait or landscape",
+  "title": "How to preview your layout in portrait or landscape | SwiftUI by Example",
   "desc": "How to preview your layout in portrait or landscape",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-preview-your-layout-in-portrait-or-landscape.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-preview-your-layout-in-portrait-or-landscape.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3447,9 +3447,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to find which data change is causing a SwiftUI view to update",
+  "title": "How to find which data change is causing a SwiftUI view to update | SwiftUI by Example",
   "desc": "How to find which data change is causing a SwiftUI view to update",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3457,9 +3457,9 @@ Build better apps with help from Xcode
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to use Instruments to profile your SwiftUI code and identify slow layouts",
+  "title": "How to use Instruments to profile your SwiftUI code and identify slow layouts | SwiftUI by Example",
   "desc": "How to use Instruments to profile your SwiftUI code and identify slow layouts",
-  "link": "/swift/swiftui-by-example/23-tooling/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3473,9 +3473,9 @@ How to continue learning SwiftUI after the basics
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > SwiftUI tips and tricks",
+  "title": "SwiftUI tips and tricks | SwiftUI by Example",
   "desc": "SwiftUI tips and tricks",
-  "link": "/swift/swiftui-by-example/24-what-now/swiftui-tips-and-tricks.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/swiftui-tips-and-tricks.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3483,9 +3483,9 @@ How to continue learning SwiftUI after the basics
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > How to become a SwiftUI expert",
+  "title": "How to become a SwiftUI expert | SwiftUI by Example",
   "desc": "How to become a SwiftUI expert",
-  "link": "/swift/swiftui-by-example/24-what-now/how-to-become-a-swiftui-expert.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-become-a-swiftui-expert.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3499,9 +3499,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > Understanding property wrappers in Swift and SwiftUI",
+  "title": "Understanding property wrappers in Swift and SwiftUI | SwiftUI by Example",
   "desc": "Understanding property wrappers in Swift and SwiftUI",
-  "link": "/swift/swiftui-by-example/25-appendix-a/understanding-property-wrappers-in-swift-and-swiftui.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/understanding-property-wrappers-in-swift-and-swiftui.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3509,9 +3509,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > All SwiftUI property wrappers explained and compared",
+  "title": "All SwiftUI property wrappers explained and compared | SwiftUI by Example",
   "desc": "All SwiftUI property wrappers explained and compared",
-  "link": "/swift/swiftui-by-example/25-appendix-a/all-swiftui-property-wrappers-explained-and-compared.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/all-swiftui-property-wrappers-explained-and-compared.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3519,9 +3519,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @State property wrapper?",
+  "title": "What is the @State property wrapper? | SwiftUI by Example",
   "desc": "What is the @State property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-state-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-state-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3529,9 +3529,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @StateObject property wrapper?",
+  "title": "What is the @StateObject property wrapper? | SwiftUI by Example",
   "desc": "What is the @StateObject property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-stateobject-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-stateobject-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3539,9 +3539,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @Published property wrapper?",
+  "title": "What is the @Published property wrapper? | SwiftUI by Example",
   "desc": "What is the @Published property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-published-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-published-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3549,9 +3549,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @ObservedObject property wrapper?",
+  "title": "What is the @ObservedObject property wrapper? | SwiftUI by Example",
   "desc": "What is the @ObservedObject property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-observedobject-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-observedobject-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3559,9 +3559,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @EnvironmentObject property wrapper?",
+  "title": "What is the @EnvironmentObject property wrapper? | SwiftUI by Example",
   "desc": "What is the @EnvironmentObject property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-environmentobject-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-environmentobject-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3569,9 +3569,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @Environment property wrapper?",
+  "title": "What is the @Environment property wrapper? | SwiftUI by Example",
   "desc": "What is the @Environment property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-environment-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-environment-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3579,9 +3579,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @Binding property wrapper?",
+  "title": "What is the @Binding property wrapper? | SwiftUI by Example",
   "desc": "What is the @Binding property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-binding-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-binding-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3589,9 +3589,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @FocusState property wrapper?",
+  "title": "What is the @FocusState property wrapper? | SwiftUI by Example",
   "desc": "What is the @FocusState property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-focusstate-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-focusstate-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3599,9 +3599,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @GestureState property wrapper?",
+  "title": "What is the @GestureState property wrapper? | SwiftUI by Example",
   "desc": "What is the @GestureState property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-gesturestate-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-gesturestate-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3609,9 +3609,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @FetchRequest property wrapper?",
+  "title": "What is the @FetchRequest property wrapper? | SwiftUI by Example",
   "desc": "What is the @FetchRequest property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-fetchrequest-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-fetchrequest-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3619,9 +3619,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @AppStorage property wrapper?",
+  "title": "What is the @AppStorage property wrapper? | SwiftUI by Example",
   "desc": "What is the @AppStorage property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-appstorage-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-appstorage-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3629,9 +3629,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @SceneStorage property wrapper?",
+  "title": "What is the @SceneStorage property wrapper? | SwiftUI by Example",
   "desc": "What is the @SceneStorage property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-scenestorage-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-scenestorage-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3639,9 +3639,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @ScaledMetric property wrapper?",
+  "title": "What is the @ScaledMetric property wrapper? | SwiftUI by Example",
   "desc": "What is the @ScaledMetric property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-scaledmetric-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-scaledmetric-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3649,9 +3649,9 @@ How to use each of SwiftUI's property wrappers
 
 ```component VPCard
 {
-  "title": "SwiftUI by Example > What is the @UIApplicationDelegateAdaptor property wrapper?",
+  "title": "What is the @UIApplicationDelegateAdaptor property wrapper? | SwiftUI by Example",
   "desc": "What is the @UIApplicationDelegateAdaptor property wrapper?",
-  "link": "/swift/swiftui-by-example/25-appendix-a/what-is-the-uiapplicationdelegateadaptor-property-wrapper.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/what-is-the-uiapplicationdelegateadaptor-property-wrapper.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3665,9 +3665,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > Common SwiftUI errors and how to fix them",
+  "title": "Common SwiftUI errors and how to fix them | SwiftUI by Example",
   "desc": "Common SwiftUI errors and how to fix them",
-  "link": "/swift/swiftui-by-example/26-appendix-b/common-swiftui-errors-and-how-to-fix-them.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/common-swiftui-errors-and-how-to-fix-them.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3675,9 +3675,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Cannot assign to property: 'self' is immutable”",
+  "title": "How to fix “Cannot assign to property: 'self' is immutable” | SwiftUI by Example",
   "desc": "How to fix “Cannot assign to property: 'self' is immutable”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-assign-to-property-self-is-immutable.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-cannot-assign-to-property-self-is-immutable.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3685,9 +3685,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”",
+  "title": "How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’” | SwiftUI by Example",
   "desc": "How to fix “Initializer 'init(_:rowContent:)' requires that ‘SomeType’ conform to 'Identifiable’”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3695,9 +3695,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Ambiguous reference to member 'buildBlock()’”",
+  "title": "How to fix “Ambiguous reference to member 'buildBlock()’” | SwiftUI by Example",
   "desc": "How to fix “Ambiguous reference to member 'buildBlock()’”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-ambiguous-reference-to-member-buildblock.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-ambiguous-reference-to-member-buildblock.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3705,9 +3705,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
+  "title": "How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type” | SwiftUI by Example",
   "desc": "How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-type.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3715,9 +3715,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
+  "title": "How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type” | SwiftUI by Example",
   "desc": "How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3725,9 +3725,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Modifying state during view update, this will cause undefined behavior”",
+  "title": "How to fix “Modifying state during view update, this will cause undefined behavior” | SwiftUI by Example",
   "desc": "How to fix “Modifying state during view update, this will cause undefined behavior”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3735,9 +3735,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”",
+  "title": "How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements” | SwiftUI by Example",
   "desc": "How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3745,9 +3745,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Fatal error: No ObservableObject of type SomeType found”",
+  "title": "How to fix “Fatal error: No ObservableObject of type SomeType found” | SwiftUI by Example",
   "desc": "How to fix “Fatal error: No ObservableObject of type SomeType found”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3755,9 +3755,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Cannot convert value of type 'String' to expected argument type 'Binding<String>'”",
+  "title": "How to fix “Cannot convert value of type 'String' to expected argument type 'Binding<String>'” | SwiftUI by Example",
   "desc": "How to fix “Cannot convert value of type 'String' to expected argument type 'Binding<String>'”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-binding-string.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3765,9 +3765,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Cannot convert value of type 'String' to expected argument type 'Text'”",
+  "title": "How to fix “Cannot convert value of type 'String' to expected argument type 'Text'” | SwiftUI by Example",
   "desc": "How to fix “Cannot convert value of type 'String' to expected argument type 'Text'”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-cannot-convert-value-of-type-string-to-expected-argument-type-text.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3775,9 +3775,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'”",
+  "title": "How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'” | SwiftUI by Example",
   "desc": "How to fix “Referencing initializer 'init(wrappedValue:)' on 'ObservedObject' requires that ‘SomeType’ conform to 'ObservableObject'”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-referencing-initializer-initwrappedvalue-on-observedobject-requires-that-sometype-conform-to-observableobject.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3785,9 +3785,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
+  "title": "How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’” | SwiftUI by Example",
   "desc": "How to fix “Cannot convert value of type '() -()' to expected argument type '() -_’”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3795,9 +3795,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix “Missing argument for parameter 'content' in call”",
+  "title": "How to fix “Missing argument for parameter 'content' in call” | SwiftUI by Example",
   "desc": "How to fix “Missing argument for parameter 'content' in call”",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-missing-argument-for-parameter-content-in-call.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-missing-argument-for-parameter-content-in-call.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3805,9 +3805,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix images not resizing",
+  "title": "How to fix images not resizing | SwiftUI by Example",
   "desc": "How to fix images not resizing",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-images-not-resizing.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-images-not-resizing.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }
@@ -3815,9 +3815,9 @@ How to understand and fix common SwiftUI errors
 
 ```component VPCard  
 {
-  "title": "SwiftUI by Example > How to fix a Form Picker or a NavigationLink that isn’t tappable",
+  "title": "How to fix a Form Picker or a NavigationLink that isn’t tappable | SwiftUI by Example",
   "desc": "How to fix a Form Picker or a NavigationLink that isn’t tappable",
-  "link": "/swift/swiftui-by-example/26-appendix-b/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.md",
+  "link": "https://chanhi2000.github.io/explore/articles/hackingwithswift.com/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.html",
   "logo": "https://www.hackingwithswift.com/favicon.svg",
   "background": "rgba(54,94,226,0.2)"
 }

@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 
 ---
 
-## [v0.2.24: 2024-04-30][v0.2.24]
+## [v0.2.24: 2024-05-14][v0.2.24]
 
 - 내용채워넣기
 
