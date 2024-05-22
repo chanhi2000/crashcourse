@@ -26,13 +26,13 @@ tag:
 
 ::: details Algorithms for Competitive Programming
 
-<ToCLocal basePath="/c+cpp/algorithm-for-competitive-programming" />
+<ToCLocal basePath="/cpp/algorithm-for-competitive-programming" />
 
 :::
 
 ::: details Beej's Guide to Network Programming
 
-<ToCLocal basePath="/c+cpp/beejs-guide-to-network-programming" />
+<ToCLocal basePath="/cpp/beejs-guide-to-network-programming" />
 
 :::
 

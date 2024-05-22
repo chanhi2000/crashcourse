@@ -749,6 +749,55 @@ export const sidebarEn = sidebar({
         '/python/opencv-advacned/02.md',
       ],
     }
+  ], '/css/': [
+    {
+      text: 'CSS',
+      icon: 'fa-brands fa-css3-alt',
+      children: [ '/css/README.md' ]
+    }, {
+      text: 'Colt Steele - Mastering CSS Grid',
+      collapsible: true,
+      icon: 'fa-brands fa-css3-alt',
+      children: [
+        '/css/colt-steele-mastering-css-grid/README.md',
+        {
+          text: '01. CSS Grid Basics',
+          collapsible: true,
+          children: [
+            '/css/colt-steele-mastering-css-grid/01.md',
+            '/css/colt-steele-mastering-css-grid/01A.md',
+            '/css/colt-steele-mastering-css-grid/01B.md',
+            '/css/colt-steele-mastering-css-grid/01C.md',
+            '/css/colt-steele-mastering-css-grid/01D.md',
+            '/css/colt-steele-mastering-css-grid/01E.md',
+            '/css/colt-steele-mastering-css-grid/01F.md',
+            '/css/colt-steele-mastering-css-grid/01G.md',
+            '/css/colt-steele-mastering-css-grid/01H.md',
+            '/css/colt-steele-mastering-css-grid/01I.md',
+          ]
+        }, {
+          text: '02. Units and Utilities',
+          collapsible: true,
+          children: [
+            '/css/colt-steele-mastering-css-grid/02.md',
+            '/css/colt-steele-mastering-css-grid/02A.md',
+            '/css/colt-steele-mastering-css-grid/02B.md',
+            '/css/colt-steele-mastering-css-grid/02C.md',
+            '/css/colt-steele-mastering-css-grid/02D.md',
+            '/css/colt-steele-mastering-css-grid/02E.md',
+            '/css/colt-steele-mastering-css-grid/02F.md',
+            '/css/colt-steele-mastering-css-grid/02G.md',
+            '/css/colt-steele-mastering-css-grid/02H.md',
+            '/css/colt-steele-mastering-css-grid/02I.md',
+          ]
+        },
+        '/css/colt-steele-mastering-css-grid/03-positioning-elements-by-lines',
+        '/css/colt-steele-mastering-css-grid/04-grid-areas',
+        '/css/colt-steele-mastering-css-grid/05-the-implicit-grid',
+        '/css/colt-steele-mastering-css-grid/06-creating-responsive-grids',
+        '/css/colt-steele-mastering-css-grid/07-building-an-example-layout',
+      ]
+    }
   ], '/rust/': [
     {
       text: 'Rust',
@@ -931,107 +980,106 @@ export const sidebarEn = sidebar({
         '/php/three-min-summary/08-final-note.md'
       ]
     }
-
-  ], '/c+cpp/':  [ 
+  ], '/cpp/':  [ 
     {
       text: 'C & C++',
-      children: [ '/c+cpp/README.md' ]
+      children: [ '/cpp/README.md' ]
     }, {
       text: 'Algorithms for Competitive Programming',
       collapsible: true,
       icon: 'iconfont icon-cpp',
       children: [ 
-        '/c+cpp/algorithms-for-competitive-programming/README.md',
+        '/cpp/algorithms-for-competitive-programming/README.md',
         {
           text: '01. Algebra',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
-            '/c+cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01A.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01B.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01C.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01D.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01E.md',
+            '/cpp/algorithms-for-competitive-programming/01-algebra/01F.md',
           ]
         }, {
           text: '02. Data Structures',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
-            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
-            '/c+cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02A.md',
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02B.md',
+            '/cpp/algorithms-for-competitive-programming/02-data-structures/02C.md',
           ]
         }, {
           text: '03. Dynamic Programming',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
-            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
-            '/c+cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03A.md',
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03B.md',
+            '/cpp/algorithms-for-competitive-programming/03-dynamic-programming/03C.md',
           ]
         }, {
           text: '04. String Processing',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
-            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
-            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04A.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04B.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/04C.md',
           ]
         }, {
           text: '05. Linear Algebra',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/04-string-processing/05A.md',
+            '/cpp/algorithms-for-competitive-programming/04-string-processing/05A.md',
           ]
         }, {
           text: '06. Combinatorics',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
-            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
-            '/c+cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06A.md',
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06B.md',
+            '/cpp/algorithms-for-competitive-programming/06-combinatorics/06C.md',
           ]
         }, {
           text: '07. Numerical Methods',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
-            '/c+cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
+            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07A.md',
+            '/cpp/algorithms-for-competitive-programming/07-numerical-methods/07B.md',
           ]
         }, {
           text: '08. Geometry',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
-            '/c+cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08A.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08B.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08C.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08D.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08E.md',
+            '/cpp/algorithms-for-competitive-programming/08-geometry/08F.md',
           ]
         }, {
           text: '09. Graphs',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09A.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09B.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09C.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09D.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09E.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09F.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09G.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09H.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09I.md',
-            '/c+cpp/algorithms-for-competitive-programming/09-graphs/09J.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09A.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09B.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09C.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09D.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09E.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09F.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09G.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09H.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09I.md',
+            '/cpp/algorithms-for-competitive-programming/09-graphs/09J.md',
           ]
         }, {
           text: '10. Misc',
           collapsible: true,
           children: [
-            '/c+cpp/algorithms-for-competitive-programming/10-misc/10A.md',
-            '/c+cpp/algorithms-for-competitive-programming/10-misc/10B.md',
-            '/c+cpp/algorithms-for-competitive-programming/10-misc/10C.md',
-            '/c+cpp/algorithms-for-competitive-programming/10-misc/10D.md',            
+            '/cpp/algorithms-for-competitive-programming/10-misc/10A.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10B.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10C.md',
+            '/cpp/algorithms-for-competitive-programming/10-misc/10D.md',            
           ]
         }
       ]
@@ -1039,8 +1087,8 @@ export const sidebarEn = sidebar({
       text: 'Beej\'s Guide to Network Programming',
       collapsible: true,
       children: [
-        '/c+cpp/beejs-guide-to-network-programming/README.md',
-        '/c+cpp/beejs-guide-to-network-programming/01.md',
+        '/cpp/beejs-guide-to-network-programming/README.md',
+        '/cpp/beejs-guide-to-network-programming/01.md',
       ]
     }, 
     /*
@@ -1174,98 +1222,82 @@ export const sidebarEn = sidebar({
         '/docker/pearlluck/README.md',
       ]
     }
-  ], '/kubernetes/': [
+  ], '/k8s/': [
     {
       text: 'Kubernetes',
       icon: 'fas fa-dharmachakra',
-      children: [ '/kubernetes/README.md' ]
-    }, {
-      text: 'DigitalOcean - Kubernetes',
-      collapsible: true,
-      icon: 'fas fa-dharmachakra',
-      children: [
-        '/kubernetes/digitalocean-kubernetes/README.md',
-        {
-          text: '2022',
-          collapsible: true,
-          children: [
-            '/kubernetes/digitalocean-kubernetes/2022/20221216-how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes.md',
-            '/kubernetes/digitalocean-kubernetes/2022/20221118-how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt.md',
-          ]
-        }
-      ]
+      children: [ '/k8s/README.md' ]
     }, {
       text: '언제나 최신 Kubernetes',
       collapsible: true,
       icon: 'fas fa-dharmachakra',
       children: [
-        '/kubernetes/always-up-to-date-kubernetes/README.md',
-        '/kubernetes/always-up-to-date-kubernetes/01.md',
+        '/k8s/always-up-to-date-kubernetes/README.md',
+        '/k8s/always-up-to-date-kubernetes/01.md',
         {
           text: '02. Minikube 설치하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/02.md',
-            '/kubernetes/always-up-to-date-kubernetes/02A.md',
-            '/kubernetes/always-up-to-date-kubernetes/02B.md',
-            '/kubernetes/always-up-to-date-kubernetes/02C.md',
+            '/k8s/always-up-to-date-kubernetes/02.md',
+            '/k8s/always-up-to-date-kubernetes/02A.md',
+            '/k8s/always-up-to-date-kubernetes/02B.md',
+            '/k8s/always-up-to-date-kubernetes/02C.md',
           ]
         }, {
           text: '03. Nginx 웹서버 실행하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/03.md',
-            '/kubernetes/always-up-to-date-kubernetes/03A.md',
-            '/kubernetes/always-up-to-date-kubernetes/03B.md',
+            '/k8s/always-up-to-date-kubernetes/03.md',
+            '/k8s/always-up-to-date-kubernetes/03A.md',
+            '/k8s/always-up-to-date-kubernetes/03B.md',
           ]
         }, {
           text: '04. Nginx YAML 설정 파일 작성하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/04.md',
-            '/kubernetes/always-up-to-date-kubernetes/04A.md',
-            '/kubernetes/always-up-to-date-kubernetes/04B.md',
-            '/kubernetes/always-up-to-date-kubernetes/04C.md',
+            '/k8s/always-up-to-date-kubernetes/04.md',
+            '/k8s/always-up-to-date-kubernetes/04A.md',
+            '/k8s/always-up-to-date-kubernetes/04B.md',
+            '/k8s/always-up-to-date-kubernetes/04C.md',
           ]
         }, {
           text: '05. Spring Boot와 MySQL 실행하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/05.md',
-            '/kubernetes/always-up-to-date-kubernetes/05A.md',
-            '/kubernetes/always-up-to-date-kubernetes/05B.md',
-            '/kubernetes/always-up-to-date-kubernetes/05C.md',
-            '/kubernetes/always-up-to-date-kubernetes/05D.md',
+            '/k8s/always-up-to-date-kubernetes/05.md',
+            '/k8s/always-up-to-date-kubernetes/05A.md',
+            '/k8s/always-up-to-date-kubernetes/05B.md',
+            '/k8s/always-up-to-date-kubernetes/05C.md',
+            '/k8s/always-up-to-date-kubernetes/05D.md',
           ]
         }, {
           text: '06. 로컬에서 Kubernetes 클러스터 구축하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/06.md',
-            '/kubernetes/always-up-to-date-kubernetes/06A.md',
-            '/kubernetes/always-up-to-date-kubernetes/06B.md',
-            '/kubernetes/always-up-to-date-kubernetes/06C.md',
-            '/kubernetes/always-up-to-date-kubernetes/06D.md',
+            '/k8s/always-up-to-date-kubernetes/06.md',
+            '/k8s/always-up-to-date-kubernetes/06A.md',
+            '/k8s/always-up-to-date-kubernetes/06B.md',
+            '/k8s/always-up-to-date-kubernetes/06C.md',
+            '/k8s/always-up-to-date-kubernetes/06D.md',
           ]
         }, {
           text: '07. AWS에서 EC2로 Kubernetes 클러스터 구축하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/07.md',
-            '/kubernetes/always-up-to-date-kubernetes/07A.md',
-            '/kubernetes/always-up-to-date-kubernetes/07B.md',
-            '/kubernetes/always-up-to-date-kubernetes/07C.md',
+            '/k8s/always-up-to-date-kubernetes/07.md',
+            '/k8s/always-up-to-date-kubernetes/07A.md',
+            '/k8s/always-up-to-date-kubernetes/07B.md',
+            '/k8s/always-up-to-date-kubernetes/07C.md',
           ]
         }, {
           text: '08. Helm으로 패키지 설치하기',
           collapsible: true,
           children: [
-            '/kubernetes/always-up-to-date-kubernetes/08.md',
-            '/kubernetes/always-up-to-date-kubernetes/08A.md',
-            '/kubernetes/always-up-to-date-kubernetes/08B.md',
+            '/k8s/always-up-to-date-kubernetes/08.md',
+            '/k8s/always-up-to-date-kubernetes/08A.md',
+            '/k8s/always-up-to-date-kubernetes/08B.md',
           ]
-        },        
-        '/kubernetes/always-up-to-date-kubernetes/09.md',
+        },
       ]
     }
   ], '/aws/': [
@@ -1498,9 +1530,30 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/23C.md',
             '/aws/art-of-aws/23D.md',
           ]
+        }, {
+          text: '24. 애플리케이션 구성과 배포를 자동화하는 OpsWorks',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/24.md',
+            '/aws/art-of-aws/24A.md',
+            '/aws/art-of-aws/24B.md',
+            '/aws/art-of-aws/24C.md',
+            '/aws/art-of-aws/24D.md',
+            '/aws/art-of-aws/24E.md',
+            '/aws/art-of-aws/24F.md',
+          ]
+        }, {
+          text: '25. 검색 서비스를 제공하는 CloudSearch',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/25.md',
+            '/aws/art-of-aws/25A.md',
+            '/aws/art-of-aws/25B.md',
+            '/aws/art-of-aws/25C.md',
+            '/aws/art-of-aws/25D.md',
+            '/aws/art-of-aws/25E.md',
+          ]
         },
-        '/aws/art-of-aws/24.md',
-        '/aws/art-of-aws/25.md',
         '/aws/art-of-aws/26.md',
         '/aws/art-of-aws/27.md',
         '/aws/art-of-aws/28.md',
@@ -1600,42 +1653,28 @@ export const sidebarEn = sidebar({
         }
       ]
     }, {
-        text: 'CYL2002 - Digital Forensics Lab',
-        collapsible: true,
-        icon: 'fas fa-shield-halved',
-        children: [
-          '/devops/digital-forensics-lab/README.md',
-          '/devops/digital-forensics-lab/01.md',
-          '/devops/digital-forensics-lab/02.md',
-          '/devops/digital-forensics-lab/03.md',
-          '/devops/digital-forensics-lab/04.md',
-          '/devops/digital-forensics-lab/05.md',
-          '/devops/digital-forensics-lab/06.md',
-          '/devops/digital-forensics-lab/07.md',
-          '/devops/digital-forensics-lab/08.md',
-          '/devops/digital-forensics-lab/09.md',
-          '/devops/digital-forensics-lab/10.md',
-        ]
+      text: 'CYL2002 - Digital Forensics Lab',
+      collapsible: true,
+      icon: 'fas fa-shield-halved',
+      children: [
+        '/devops/digital-forensics-lab/README.md',
+        '/devops/digital-forensics-lab/01.md',
+        '/devops/digital-forensics-lab/02.md',
+        '/devops/digital-forensics-lab/03.md',
+        '/devops/digital-forensics-lab/04.md',
+        '/devops/digital-forensics-lab/05.md',
+        '/devops/digital-forensics-lab/06.md',
+        '/devops/digital-forensics-lab/07.md',
+        '/devops/digital-forensics-lab/08.md',
+        '/devops/digital-forensics-lab/09.md',
+        '/devops/digital-forensics-lab/10.md',
+      ]
     }
   ], '/misc/': [
     {
       text: 'Misc.',
       icon: 'fas fa-object-group',
       children: [ '/misc/README.md' ]
-    }, {
-      text: 'Colt Steele - Mastering CSS Grid',
-      collapsible: true,
-      icon: 'fa-brands fa-css3-alt',
-      children: [
-        '/misc/colt-steele-mastering-css-grid/README.md',
-        '/misc/colt-steele-mastering-css-grid/01-css-grid-basics',
-        '/misc/colt-steele-mastering-css-grid/02-units-and-utilities',
-        '/misc/colt-steele-mastering-css-grid/03-positioning-elements-by-lines',
-        '/misc/colt-steele-mastering-css-grid/04-grid-areas',
-        '/misc/colt-steele-mastering-css-grid/05-the-implicit-grid',
-        '/misc/colt-steele-mastering-css-grid/06-creating-responsive-grids',
-        '/misc/colt-steele-mastering-css-grid/07-building-an-example-layout',
-      ]
     }, {
       text: 'Microsoft - Generative AI for Beginners',
       collapsible: true,

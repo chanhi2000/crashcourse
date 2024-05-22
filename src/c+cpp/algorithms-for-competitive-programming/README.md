@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Algorithms for Competitive Programming
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/c+cpp/algorithms-for-competitive-programming/
+      content: https://chanhi2000.github.io/crashcourse/cpp/algorithms-for-competitive-programming/
 ---
 
 # {{ $frontmatter.title }} 관련

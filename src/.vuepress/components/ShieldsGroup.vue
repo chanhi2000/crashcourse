@@ -30,7 +30,7 @@ export default {
       }
       const _logos = logos.split(',') ?? [];
 
-      const res = await fetch('/crashcourse/json/shields.json');
+      const res = await fetch('https://chanhi2000.github.io/json/shields.json');
       const shields = await res.json() ?? [];
       const shieldsFound = shields.filter((e) => _logos.includes(e.logo)).map((e) => e.logo) ?? [];
       this.items = shieldsFound;

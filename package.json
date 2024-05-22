@@ -10,9 +10,9 @@
   "repository": "https://github.com/chanhi2000/crashcourse",
   "type": "module",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress dev src --debug",
+    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress dev src",
     "clean-dev": "vuepress dev src --clean-cache",
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 vuepress build src --debug",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 vuepress build src",
     "clean-build": "vuepress build src --clean-cache"
   },
   "engines": {

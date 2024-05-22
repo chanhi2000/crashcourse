@@ -25,18 +25,30 @@ projects:
   - name: Python
     link: /python/
     icon: fa-brands fa-python
+  - name: CSS
+    link: /css/
+    icon: fa-brands fa-css3-alt
   - name: Rust
     link: /rust/
     icon: fa-brands fa-rust
-  - name: C++
+  - name: C & C++
     link: /cpp/
-    icon: fas fa-dice-two
-  - name: Ruby  
+    icon: iconfont icon-cpp
+  - name: Ruby
     link: /ruby/
-    icon: fas fa-gem
+    icon: iconfont icon-ruby
   - name: Haskell
     link: /haskell/
-    icon: fas fa-lambda
+    icon: iconfont icon-haskell
+  - name: Docker
+    link: /docker/
+    icon: fa-brands fa-docker
+  - name: Kubernetes
+    link: /k8s/
+    icon: fas fa-dharmachakra
+  - name: AWS
+    link: /aws/
+    icon: fa-brands fa-aws
   - name: DevOps
     link: /devops/
     icon: fas fa-network-wired

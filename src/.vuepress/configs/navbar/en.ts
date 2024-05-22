@@ -125,6 +125,15 @@ export const navbarEn = navbar([
     ],
   }, {
     text: '',
+    icon: 'fa-brands fa-css3-alt',
+    children: [
+      {
+        text: 'Colt Steele - Mastering CSS Grid',
+        link: '/css/colt-steele-mastering-css-grid/README.md',
+      }, 
+    ],
+  }, {
+    text: '',
     icon: 'fa-brands fa-rust',
     children: [
       {
@@ -153,11 +162,11 @@ export const navbarEn = navbar([
     children: [
       {
         text: 'Algorithms for Competitive Programming',
-        link: '/c+cpp/algorithms-for-competitive-programming/README.md',
+        link: '/cpp/algorithms-for-competitive-programming/README.md',
         icon: 'iconfont icon-cpp',
       }, {
         text: 'Beej\'s Guide to Network Programming',
-        link: '/c+cpp/beejs-guide-to-network-programming/README.md',
+        link: '/cpp/beejs-guide-to-network-programming/README.md',
         icon: 'iconfont icon-c',
       }, 
       /* 
@@ -215,11 +224,8 @@ export const navbarEn = navbar([
     icon: 'fas fa-dharmachakra',
     children: [
       {
-        text: 'DigitalOcean - Kubernetes',
-        link: '/kubernetes/digitalocean-kubernetes/README.md',
-      }, {
         text: '언제나 최신 Kubernetes',
-        link: '/kubernetes/always-up-to-date-kubernetes/README.md',
+        link: '/k8s/always-up-to-date-kubernetes/README.md',
       }
     ]
   }, {
@@ -266,10 +272,6 @@ export const navbarEn = navbar([
     icon: 'fas fa-object-group',
     children: [
       {
-        text: 'Colt Steele - Mastering CSS Grid',
-        link: '/misc/colt-steele-mastering-css-grid/README.md',
-        icon: 'fa-brands fa-css3-alt'
-      }, {
         text: 'Microsoft - Generative AI for Beginners',
         link: '/misc/llm-generative-ai-for-beginners/README.md',
         icon: 'fas fa-brain'

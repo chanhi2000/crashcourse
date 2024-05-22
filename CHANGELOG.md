@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 
 ---
 
+## [v0.2.25: 2024-05-22][v0.2.25]
+
+- 내용채워넣기
+
+---
+
 ## [v0.2.24: 2024-05-14][v0.2.24]
 
 - 내용채워넣기
@@ -383,3 +389,4 @@ github pages에서 표시 잘 되도록 `base` 변경
 [v0.2.22]: https://github.com/chanhi2000/crashcourse/compare/v0.2.21...v0.2.22
 [v0.2.23]: https://github.com/chanhi2000/crashcourse/compare/v0.2.22...v0.2.23
 [v0.2.24]: https://github.com/chanhi2000/crashcourse/compare/v0.2.23...v0.2.24
+[v0.2.25]: https://github.com/chanhi2000/crashcourse/compare/v0.2.24...v0.2.25

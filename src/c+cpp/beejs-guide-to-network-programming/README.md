@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Beej's Guide to Network Programming
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/c+cpp/beejs-guide-to-network-programming/
+      content: https://chanhi2000.github.io/crashcourse/cpp/beejs-guide-to-network-programming/
 ---
 
 # {{ $frontmatter.title }} 관련
