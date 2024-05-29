@@ -116,7 +116,7 @@ export const sidebarEn = sidebar({
       text: 'Swift',
       icon: 'fa-brands fa-swift',
       children: [ '/swift/README.md' ]
-    }, {
+  }, {
       text: '100 Days of Swift',
       collapsible: true,
       icon: 'fa-brands fa-swift',
@@ -333,13 +333,6 @@ export const sidebarEn = sidebar({
         '/swift/100-days-of-swiftui/101.md',
       ]
     }, {
-      text: 'SwiftUI by Example',
-      collapsible: true,
-      icon: 'fa-brands fa-swift',
-      children: [
-        '/swift/swiftui-by-example/README.md',
-      ]
-    }, {
       text: 'Apple - Develop in Swift Tutorials',
       collapsible: true,
       icon: 'fa-brands fa-swift',
@@ -362,22 +355,6 @@ export const sidebarEn = sidebar({
             }
           ]
         }
-      ]
-    }, {
-      text: 'Kodeco - Swift',
-      collapsible: true,
-      icon: 'fa-brands fa-swift',
-      children: [
-        '/swift/kodeco/README.md',
-        '/swift/kodeco/6398124-swiftui-tutorial-for-ios-creating-charts.md',
-        '/swift/kodeco/6334294-my-app-crashed-now-what.md',
-        '/swift/kodeco/6587213-alamofire-5-tutorial-for-ios-getting-started.md',        
-        '/swift/kodeco/6620276-sqlite-with-swift-tutorial-getting-started.md',
-        '/swift/kodeco/6747815-uigesturerecognizer-tutorial-getting-started.md',
-        '/swift/kodeco/6827616-ios-accessibility-getting-started.md',
-        '/swift/kodeco/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started.md',
-        '/swift/kodeco/7076593-cocoapods-tutorial-for-swift-getting-started.md',
-        '/swift/kodeco/7181017-unsafe-swift-using-pointers-and-interacting-with-c.md',
       ]
     }, {
       text: 'OSX 구조를 이해하면서 배우는 Objective-C',
@@ -457,23 +434,6 @@ export const sidebarEn = sidebar({
         '/java/effective-java/09-exceptions.md',
         '/java/effective-java/10-concurrency.md',
         '/java/effective-java/11-serialization.md'
-      ]
-    }, {
-      text: 'Kodeco - Android & Kotlin',
-      collapsible: true,
-      icon: 'fa-brands fa-android',
-      children: [
-        '/java/kodeco/README.md',
-        '/java/kodeco/247-react-native-tutorial-building-android-apps-with-javascript.md',
-        '/java/kodeco/249-gradle-tutorial-for-android-getting-started.md',
-        '/java/kodeco/254-getting-started-with-android-wear-with-kotlin.md',
-        '/java/kodeco/262-dependency-injection-in-android-with-dagger-2-and-kotlin.md',
-        '/java/kodeco/272-intermediate-recyclerview-tutorial-with-kotlin.md',
-        '/java/kodeco/853-couchbase-tutorial-for-android-getting-started.md',
-        '/java/kodeco/523-augmented-reality-in-android-with-google-s-face-api.md',
-        '/java/kodeco/324-viewpager-tutorial-getting-started-in-kotlin.md',
-        '/java/kodeco/30067669-documenting-kotlin-code-for-android-using-kdoc-and-dokka.md',
-        '/java/kodeco/31290959-kotlin-sequences-getting-started.md',
       ]
     }, {
       text: 'Jump to Spring Boot',
@@ -1215,6 +1175,167 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-docker',
       children: [ '/docker/README.md' ]
     }, {
+      text: '언제나 최신 Docker',
+      collapsible: true,
+      icon: 'fa-brands fa-docker',
+      children: [
+        '/docker/always-up-to-date-docker/README.md',
+        {
+          text: '01. Docker',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/01.md',
+            '/docker/always-up-to-date-docker/01A.md',
+            '/docker/always-up-to-date-docker/01B.md',
+          ]
+        }, {
+          text: '02. Docker 설치하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/02.md',
+            '/docker/always-up-to-date-docker/02A.md',
+            '/docker/always-up-to-date-docker/02B.md',
+            '/docker/always-up-to-date-docker/02C.md',
+          ]
+        },
+        '/docker/always-up-to-date-docker/03.md',
+        {
+          text: '04. Docker 이미지 생성하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/04.md',
+            '/docker/always-up-to-date-docker/04A.md',
+            '/docker/always-up-to-date-docker/04B.md',
+            '/docker/always-up-to-date-docker/04C.md',
+          ]
+        },
+        '/docker/always-up-to-date-docker/05.md',
+        {
+          text: '06. Docker 좀더 활용하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/06.md',
+            '/docker/always-up-to-date-docker/06A.md',
+            '/docker/always-up-to-date-docker/06B.md',
+            '/docker/always-up-to-date-docker/06C.md',
+            '/docker/always-up-to-date-docker/06D.md',
+            '/docker/always-up-to-date-docker/06E.md',
+            '/docker/always-up-to-date-docker/06F.md',
+            '/docker/always-up-to-date-docker/06G.md',
+          ]
+        }, {
+          text: '07. Dockerfile 자세히 알아보기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/07.md',
+            '/docker/always-up-to-date-docker/07A.md',
+            '/docker/always-up-to-date-docker/07B.md',
+            '/docker/always-up-to-date-docker/07C.md',
+            '/docker/always-up-to-date-docker/07D.md',
+            '/docker/always-up-to-date-docker/07E.md',
+            '/docker/always-up-to-date-docker/07F.md',
+            '/docker/always-up-to-date-docker/07G.md',
+            '/docker/always-up-to-date-docker/07H.md',
+            '/docker/always-up-to-date-docker/07I.md',
+            '/docker/always-up-to-date-docker/07J.md',
+            '/docker/always-up-to-date-docker/07K.md',
+            '/docker/always-up-to-date-docker/07L.md',
+            '/docker/always-up-to-date-docker/07M.md',
+            '/docker/always-up-to-date-docker/07N.md',
+          ]
+        }, {
+          text: '08. Docker Compose 사용하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/08.md',
+            '/docker/always-up-to-date-docker/08A.md',
+            '/docker/always-up-to-date-docker/08B.md',
+          ]
+        }, {
+          text: '09. Docker Hub 사용하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/09.md',
+            '/docker/always-up-to-date-docker/09A.md',
+            '/docker/always-up-to-date-docker/09B.md',
+            '/docker/always-up-to-date-docker/09C.md',
+          ]
+        }, {
+          text: '10. Docker로 Next.js 애플리케이션 구축하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/10.md',
+            '/docker/always-up-to-date-docker/10A.md',
+            '/docker/always-up-to-date-docker/10B.md',
+            '/docker/always-up-to-date-docker/10C.md',
+            '/docker/always-up-to-date-docker/10D.md',
+          ]
+        }, {
+          text: '11. Docker로 Django 애플리케이션 구축하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/11.md',
+            '/docker/always-up-to-date-docker/11A.md',
+            '/docker/always-up-to-date-docker/11B.md',
+            '/docker/always-up-to-date-docker/11C.md',
+            '/docker/always-up-to-date-docker/11D.md',
+          ]
+        }, {
+          text: '12. Docker로 Spring Boot 애플리케이션 구축하기',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/12.md',
+            '/docker/always-up-to-date-docker/12A.md',
+            '/docker/always-up-to-date-docker/12B.md',
+            '/docker/always-up-to-date-docker/12C.md',
+            '/docker/always-up-to-date-docker/12D.md',
+          ]
+        }, {
+          text: '13. Docker 명령어 및 옵션 목록',
+          collapsible: true,
+          children: [
+            '/docker/always-up-to-date-docker/13.md',
+            '/docker/always-up-to-date/docker/13A.md',
+            '/docker/always-up-to-date/docker/13B.md',
+            '/docker/always-up-to-date/docker/13C.md',
+            '/docker/always-up-to-date/docker/13D.md',
+            '/docker/always-up-to-date/docker/13E.md',
+            '/docker/always-up-to-date/docker/13F.md',
+            '/docker/always-up-to-date/docker/13G.md',
+            '/docker/always-up-to-date/docker/13H.md',
+            '/docker/always-up-to-date/docker/13I.md',
+            '/docker/always-up-to-date/docker/13J.md',
+            '/docker/always-up-to-date/docker/13K.md',
+            '/docker/always-up-to-date/docker/13L.md',
+            '/docker/always-up-to-date/docker/13M.md',
+            '/docker/always-up-to-date/docker/13N.md',
+            '/docker/always-up-to-date/docker/13O.md',
+            '/docker/always-up-to-date/docker/13P.md',
+            '/docker/always-up-to-date/docker/13Q.md',
+            '/docker/always-up-to-date/docker/13R.md',
+            '/docker/always-up-to-date/docker/13S.md',
+            '/docker/always-up-to-date/docker/13T.md',
+            '/docker/always-up-to-date/docker/13U.md',
+            '/docker/always-up-to-date/docker/13V.md',
+            '/docker/always-up-to-date/docker/13W.md',
+            '/docker/always-up-to-date/docker/13X.md',
+            '/docker/always-up-to-date/docker/13Y.md',
+            '/docker/always-up-to-date/docker/13Z.md',
+            '/docker/always-up-to-date/docker/13AA.md',
+            '/docker/always-up-to-date/docker/13AB.md',
+            '/docker/always-up-to-date/docker/13AC.md',
+            '/docker/always-up-to-date/docker/13AD.md',
+            '/docker/always-up-to-date/docker/13AE.md',
+            '/docker/always-up-to-date/docker/13AF.md',
+            '/docker/always-up-to-date/docker/13AG.md',
+            '/docker/always-up-to-date/docker/13AH.md',
+            '/docker/always-up-to-date/docker/13AI.md',
+            '/docker/always-up-to-date/docker/13AJ.md',
+            '/docker/always-up-to-date/docker/13AK.md',
+          ]
+        },
+      ],
+    }, {
       text: '데엔잘하고싶은데엔 - Udemy 강의정리',
       collapsible: true,
       icon: 'fa-brands fa-docker',
@@ -1553,9 +1674,28 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/25D.md',
             '/aws/art-of-aws/25E.md',
           ]
+        }, {
+          text: '26. 푸시 알림 서비스 SNS',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/26.md',
+            '/aws/art-of-aws/26A.md',
+            '/aws/art-of-aws/26B.md',
+            '/aws/art-of-aws/26C.md',
+            '/aws/art-of-aws/26D.md',
+          ]
+        }, {
+          text: '27. 이메일 전송 서비스 SES',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/27.md',
+            '/aws/art-of-aws/27A.md',
+            '/aws/art-of-aws/27B.md',
+            '/aws/art-of-aws/27C.md',
+            '/aws/art-of-aws/27D.md',
+            '/aws/art-of-aws/27E.md',
+          ]
         },
-        '/aws/art-of-aws/26.md',
-        '/aws/art-of-aws/27.md',
         '/aws/art-of-aws/28.md',
         '/aws/art-of-aws/29.md',
         '/aws/art-of-aws/30.md',

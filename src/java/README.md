@@ -38,12 +38,6 @@ tag:
 
 :::
 
-::: details Kodeco - Android & Kotlin
-
-<ToCLocal basePath="/java/kodeco" />
-
-:::
-
 ::: details Jump to Spring Boot
 
 <ToCLocal basePath="/java/jump-to-spring-boot" />

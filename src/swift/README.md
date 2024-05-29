@@ -34,21 +34,9 @@ tag:
 
 :::
 
-::: details SwiftUI by Example
-
-<ToCLocal basePath="/swift/swiftui-by-example" />
-
-:::
-
 ::: details Apple - Develop in Swift Tutorial
 
 <ToCLocal basePath="/swift/apple-develop-in-swift" />
-
-:::
-
-::: details Kodeco - Swift
-
-<ToCLocal basePath="/swift/kodeco" />
 
 :::
 

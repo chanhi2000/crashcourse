@@ -4,13 +4,11 @@ title: 데엔잘하고싶은데엔 - Udemy 강의정리
 description: 데엔잘하고싶은데엔 - Udemy 강의정리
 icon: fa-brands fa-docker
 category: 
-  - Kotlin
-  - Kotest
+  - VM
+  - Docker
 tag: 
   - crashcourse
-  - kotlin
-  - test
-  - kotest
+  - docker
 head:
   - - meta:
     - property: og:title
@@ -33,6 +31,8 @@ head:
   url="https://pearlluck.tistory.com/799"
   logo="https://t1.daumcdn.net/tistory_admin/top_v2/tistory-apple-touch-favicon.png"
   preview="https://blog.kakaocdn.net/dn/EZagP/btsGehHgCGE/AnEQaoWa64M6PrfObYzpc0/img.jpg" />
+
+<!-- TODO: 작성 -->
 
 ---
 

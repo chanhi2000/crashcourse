@@ -36,17 +36,9 @@ export const navbarEn = navbar([
         link: '/swift/100-days-of-swiftui/README.md',
         icon: 'fa-brands fa-swift'
       }, {
-        text: 'SwiftUI by Example',
-        link: '/swift/swiftui-by-example/README.md',
-        icon: 'fa-brands fa-swift'
-      }, {
         text: 'Apple - Develop in Swift Tutorials',
         link: '/swift/apple-develop-in-swift/README.md',
         icon: 'fa-brands fa-swift',
-      }, {
-        text: 'Kodeco - Swift',
-        link: '/swift/kodeco/README.md',
-        icon: 'fa-brands fa-swift'
       }, {
         text: 'OSX 구조를 이해하면서 배우는 Objective-C',
         link: '/swift/shuokai-objc/README.md',
@@ -65,10 +57,6 @@ export const navbarEn = navbar([
         text: 'Effective Java',
         link: '/java/effective-java/README.md',
         icon: 'fa-brands fa-java'
-      }, {
-        text: 'Kodeco - Android & Kotlin',
-        link: '/java/kodeco/README.md',
-        icon: 'fa-brands fa-android'
       }, {
         text: 'Jump to Spring Boot',
         link: '/java/jump-to-spring-boot/README.md',
@@ -215,6 +203,9 @@ export const navbarEn = navbar([
     icon: 'fa-brands fa-docker',
     children: [
       {
+        text: '언제나 최신 Docker',
+        link: '/docker/always-up-to-date-docker/README.md',
+      }, {
         text: '데엔잘하고싶은데엔 - Udemy 강의정리',
         link: '/docker/pearlluck/README.md',
       }
