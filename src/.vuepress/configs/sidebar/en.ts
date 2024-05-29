@@ -1695,14 +1695,108 @@ export const sidebarEn = sidebar({
             '/aws/art-of-aws/27D.md',
             '/aws/art-of-aws/27E.md',
           ]
+        }, {
+          text: '28. 메시지 큐를 제공하는 SQS',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/28.md',
+            '/aws/art-of-aws/28A.md',
+            '/aws/art-of-aws/28B.md',
+            '/aws/art-of-aws/28C.md',
+          ]
+        }, {
+          text: '29. 동영상 인코딩 서비스 Elastic Transcoder',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/29.md',
+            '/aws/art-of-aws/29A.md',
+          ]
+        }, {
+          text: '30. AWS API, CLI 활용하기',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/30.md',
+            '/aws/art-of-aws/30A.md',
+            '/aws/art-of-aws/30B.md',
+            '/aws/art-of-aws/30C.md',
+            '/aws/art-of-aws/30D.md',
+            '/aws/art-of-aws/30E.md',
+            '/aws/art-of-aws/30F.md',
+            '/aws/art-of-aws/30G.md',
+            '/aws/art-of-aws/30H.md',
+            '/aws/art-of-aws/30I.md',
+            '/aws/art-of-aws/30J.md',
+            '/aws/art-of-aws/30K.md',
+            '/aws/art-of-aws/30L.md',
+            '/aws/art-of-aws/30M.md',
+          ]
+        }, {
+          text: '31. 글로벌 사진 사이트 구축하기',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/31.md',
+            '/aws/art-of-aws/31A.md',
+            '/aws/art-of-aws/31B.md',
+            '/aws/art-of-aws/31C.md',
+            '/aws/art-of-aws/31D.md',
+            '/aws/art-of-aws/31E.md',
+            '/aws/art-of-aws/31F.md',
+            '/aws/art-of-aws/31G.md',
+            '/aws/art-of-aws/31H.md',
+            '/aws/art-of-aws/31I.md',
+            '/aws/art-of-aws/31J.md',
+            '/aws/art-of-aws/31K.md',
+            '/aws/art-of-aws/31L.md',
+          ]
+        }, {
+          text: '32. 글로벌 사진 사이트 구축하기',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/32.md',
+            '/aws/art-of-aws/32A.md',
+            '/aws/art-of-aws/32B.md',
+            '/aws/art-of-aws/32C.md',
+            '/aws/art-of-aws/32D.md',
+            '/aws/art-of-aws/32E.md',
+            '/aws/art-of-aws/32F.md',
+            '/aws/art-of-aws/32G.md',
+            '/aws/art-of-aws/32H.md',
+            '/aws/art-of-aws/32I.md',
+            '/aws/art-of-aws/32J.md',
+            '/aws/art-of-aws/32K.md',
+          ]
+        }, {
+          text: '33. 자동 확장 가능한 모바일 게임 서버 구축하기',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/33.md',
+            '/aws/art-of-aws/33A.md',
+            '/aws/art-of-aws/33B.md',
+            '/aws/art-of-aws/33C.md',
+            '/aws/art-of-aws/33D.md',
+            '/aws/art-of-aws/33E.md',
+            '/aws/art-of-aws/33F.md',
+            '/aws/art-of-aws/33G.md',
+            '/aws/art-of-aws/33H.md',
+            '/aws/art-of-aws/33I.md',
+            '/aws/art-of-aws/33J.md',
+            '/aws/art-of-aws/33K.md',
+          ]
+        }, {
+          text: '34. 부록',
+          collapsible: true,
+          children: [
+            '/aws/art-of-aws/34.md',
+            '/aws/art-of-aws/34A.md',
+            '/aws/art-of-aws/34B.md',
+            '/aws/art-of-aws/34C.md',
+            '/aws/art-of-aws/34D.md',
+            '/aws/art-of-aws/34E.md',
+            '/aws/art-of-aws/34F.md',
+            '/aws/art-of-aws/34G.md',
+            '/aws/art-of-aws/34H.md',
+          ]
         },
-        '/aws/art-of-aws/28.md',
-        '/aws/art-of-aws/29.md',
-        '/aws/art-of-aws/30.md',
-        '/aws/art-of-aws/31.md',
-        '/aws/art-of-aws/32.md',
-        '/aws/art-of-aws/33.md',
-        '/aws/art-of-aws/a.md',        
       ]
     }
   ], '/devops/': [
