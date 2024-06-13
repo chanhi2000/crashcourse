@@ -217,6 +217,12 @@ export const navbarEn = navbar([
       {
         text: '언제나 최신 Kubernetes',
         link: '/k8s/always-up-to-date-kubernetes/README.md',
+      }, {
+        text: 'devkuma - Kubernetes',
+        link: '/k8s/devkuma/README.md',
+      }, {
+        text: 'devkuma - Helm',
+        link: '/k8s/devkuma/README.md',
       }
     ]
   }, {

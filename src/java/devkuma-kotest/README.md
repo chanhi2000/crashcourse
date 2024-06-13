@@ -30,13 +30,13 @@ head:
 <SiteInfo
   name="코틀린 테스팅 프레임워크 - Kotest"
   desc="Kotlin의 테스팅 프레임워크에 대해 소개한다."
-  url="https://www.devkuma.com/docs/kotest/"
-  logo="https://www.devkuma.com/favicons/favicon.ico"
-  preview="https://www.devkuma.com/docs/kotest/kotest-logo.png" />
+  url="https://devkuma.com/docs/kotest/"
+  logo="https://devkuma.com/favicons/favicon.ico"
+  preview="https://devkuma.com/docs/kotest/kotest-logo.png" />
 
 Kotlin의 테스팅 프레임워크에 대해 소개한다.
 
-![Kotest의 [<FontIcon icon="fas fa-globe"/>공식 레퍼런스](https://kotest.io/)를 한글로 번역한 문서이다.](https://www.devkuma.com/docs/kotest/kotest-logo.png)
+![Kotest의 [<FontIcon icon="fas fa-globe"/>공식 레퍼런스](https://kotest.io/)를 한글로 번역한 문서이다.](https://devkuma.com/docs/kotest/kotest-logo.png)
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Kotlin의 테스팅 프레임워크에 대해 소개한다.
   "title": "01. Kotest 프레임워크(Framework)",
   "desc": "Kotlin의 테스팅 프레임워크에 대해 소개한다.",
   "link": "01-kotest-framework/README.md",
-  "logo": "https://www.devkuma.com/favicons/favicon.ico",
+  "logo": "https://devkuma.com/favicons/favicon.ico",
   "background": "rgba(48,99,142,0.2)"
 }
 ```

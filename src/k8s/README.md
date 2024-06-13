@@ -27,9 +27,15 @@ tag:
 
 :::
 
-::: details DigitalOcean - Kubernetes
+::: details devkuma - Kubernetes
 
-<ToCLocal basePath="/k8s/digitalocean-kubernetes" />
+<ToCLocal basePath="/k8s/devkuma/" />
+
+:::
+
+::: details devkuma - Helm
+
+<ToCLocal basePath="/k8s/devkuma-helm/" />
 
 :::
 

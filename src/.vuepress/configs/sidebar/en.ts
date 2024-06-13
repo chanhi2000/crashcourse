@@ -1418,7 +1418,41 @@ export const sidebarEn = sidebar({
             '/k8s/always-up-to-date-kubernetes/08A.md',
             '/k8s/always-up-to-date-kubernetes/08B.md',
           ]
-        },
+        }, 
+      ]
+    }, {
+      text: 'devkuma - Kubernetes',
+      collapsible: true,
+      icon: 'fas fa-dharmachakra',
+      children: [
+        '/k8s/devkuma/README.md',
+        '/k8s/devkuma/overview.md',
+        '/k8s/devkuma/architecture.md',
+        '/k8s/devkuma/environment.md',
+        '/k8s/devkuma/minikube.md',
+        '/k8s/devkuma/kubectl.md',
+        '/k8s/devkuma/node.md',
+        '/k8s/devkuma/pods.md',
+        '/k8s/devkuma/pod-service-expose.md',
+        '/k8s/devkuma/pod-ingress.md',
+        '/k8s/devkuma/pod-replica.md',
+        '/k8s/devkuma/rolling-update-roll-back.md',
+        '/k8s/devkuma/namespace.md',
+        '/k8s/devkuma/yaml-template-api.md',
+        '/k8s/devkuma/storage.md',
+        '/k8s/devkuma/manifest.md',
+      ]
+    }, {
+      text: 'devkuma - Helm',
+      collapsible: true,
+      icon: 'iconfont icon-helm',
+      children: [
+        '/k8s/devkuma-helm/README.md',
+        '/k8s/devkuma-helm/overview.md',
+        '/k8s/devkuma-helm/what-is-helm.md',
+        '/k8s/devkuma-helm/chart.md',
+        '/k8s/devkuma-helm/install.md',
+        '/k8s/devkuma-helm/uses.md',
       ]
     }
   ], '/aws/': [
