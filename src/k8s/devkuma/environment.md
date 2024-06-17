@@ -50,7 +50,66 @@ isOriginal: false
 }
 ```
 
-<!-- TODO: 작성 -->
+---
+
+## Kubernetes 환경
+  
+### 로컬 환경
+
+로컬 환경에서 학습 환경을 구축하는 경우는 아래의 내용을 참고로 설치하여라.
+
+```component VPCard
+{
+  "title": "Kubernetes 로컬 개발 환경 만들기 - minikube 설치 및 사용 | devkuma",
+  "desc": "Kubernetes 로컬 개발 환경 만들기 - minikube 설치 및 사용",
+  "link": "k8s/devkuma/minikube.md",
+  "logo": "https://devkuma.com/favicons/favicon.ico",
+  "background": "rgba(48,99,142,0.2)"
+}
+```
+
+### 설치 없이 쿠버네티스 사용하기
+
+웹상에서 Kubernetes를 사용할 수 있는 사이트는 아래와 같다. 로컬 환경에 환경을 구축하는 것이 귀찮다면 아래 사이트를 이용해도 된다.
+
+- ~~카타코다 쿠버네티스 플레이 그라운드~~
+  - ~~Master, node1이 구성되어 있어 바로 사용 가능~~
+  - *2022년 6월 15일에 사이트를 폐쇄*
+- [<FontIcon icon="fas fa-globe"/>Play with Kubernetes](https://labs.play-with-k8s.com/)
+  - doccker 에서 제공. docker hub 계정 혹은 GitHub 계정으로 로그인
+  - 4시간 사용 가능. Master, work Node를 직접 구성한 후 사용 가능
+
+### 클라우드 서비스에 제공하는 쿠버네티스 도구
+
+<SiteInfo
+  name="Google Kubernetes Engine (GKE) | Google Cloud"
+  desc="GKE is the industry's first fully managed Kubernetes service with full Kubernetes API, 4-way autoscaling, release channels, and multi-cluster support."
+  url="https://cloud.google.com/kubernetes-engine"
+  logo="https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/favicon.ico"
+  preview="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
+
+- [아마존 쿠버네티스 엘라스틱 컨테이너 서비스(EKS)](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/what-is-eks.html) <!-- TODO: add VPCard -->
+
+<SiteInfo
+  name="Azure Kubernetes Service (AKS) documentation"
+  desc="AKS allows you to quickly deploy a production ready Kubernetes cluster in Azure. Learn how to use AKS with these quickstarts, tutorials, and samples."
+  url="https://learn.microsoft.com/en-us/azure/aks/"
+  logo="https://learn.microsoft.com/favicon.ico"
+  preview="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+
+---
+
+## kubeadm을 이용한 쿠버네티스 설치 - 온프레미스
+
+1. Docker Install
+  a. Master, Node 모든 시스템에 설치해야 한다.
+  b. [Install Docker Desktop on Linux | 공식 문서](https://docs.docker.com/desktop/install/linux-install/)
+2. Kubenetes Intall
+3. 설치 전 환경 설정
+4. `kubeadm`, `kubectl`, `kubelet` 설치
+5. `control-plane` 구성
+6. worker node 구성
+7. 설치 확인
 
 ---
 
