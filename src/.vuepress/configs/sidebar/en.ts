@@ -649,64 +649,154 @@ export const sidebarEn = sidebar({
         '/js/eloquent-javascript/21.md',
       ]
     }
-  ], '/python/': [
+  ], '/py/': [
     {
       text: 'Python',
       icon: 'fa-brands fa-python',
-      children: [ '/python/README.md' ]
+      children: [ '/py/README.md' ]
+    }, {
+      text: '함께해요 파이썬 생태계',
+      collapsible: true,
+      icon: 'fa-brands fa-python',
+      children: [
+        '/py/ecosystem/README.md',
+        {
+          text: '00. 들어가기 전에',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/00.md',
+            '/py/ecosystem/00A.md',
+            '/py/ecosystem/00B.md',
+          ]
+        }, {
+          text: '01. 파이썬 생태계를 소개합니다.',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/01.md',
+            '/py/ecosystem/01A.md',
+            '/py/ecosystem/01B.md',
+          ]
+        }, {
+          text: '02. 운영 체제 및 시스템 관련',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/02.md',
+            '/py/ecosystem/02/datetime.md',
+            '/py/ecosystem/02/glob.md',
+            '/py/ecosystem/02/os.md',
+            '/py/ecosystem/02/pathlib.md',
+            '/py/ecosystem/02/shutil.md',
+            '/py/ecosystem/02/sys.md',
+            '/py/ecosystem/02/tempfile.md',
+            '/py/ecosystem/02/time.md',
+          ]
+        }, {
+          text: '03. 데이터 과학 및 분석',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/03.md',
+            '/py/ecosystem/03/algorithms.md',
+            '/py/ecosystem/03/fakers.md',
+            '/py/ecosystem/03/jupyter.md',
+            '/py/ecosystem/03/pyvis.md',
+            '/py/ecosystem/03/kiwisolver.md',
+            '/py/ecosystem/03/numpy.md',
+            '/py/ecosystem/03/pandas.md',
+            '/py/ecosystem/03/pyspark.md',
+            '/py/ecosystem/03/shapely.md',
+            '/py/ecosystem/03/taichi.md',
+            '/py/ecosystem/03/the-algorithms.md',
+            '/py/ecosystem/03/datatable.md',
+            '/py/ecosystem/03/python-patterns.md',
+            '/py/ecosystem/03/vaex.md',
+            '/py/ecosystem/03/science.md',
+            '/py/ecosystem/03/time-series-data.md',
+            '/py/ecosystem/03/nlp.md',
+            '/py/ecosystem/03/stats.md',
+          ]
+        }, {
+          text: '04. 데이터 시각화',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/04.md',
+            '/py/ecosystem/04/apache-superset.md',
+            '/py/ecosystem/04/bokeh.md',
+            '/py/ecosystem/04/cartopy.md',
+            '/py/ecosystem/04/chartify.md',
+            '/py/ecosystem/04/diagrams.md',
+            '/py/ecosystem/04/graphviz.md',
+            '/py/ecosystem/04/hiplot.md',
+            '/py/ecosystem/04/jupyter.md',
+            '/py/ecosystem/04/matplotlib.md',
+            '/py/ecosystem/04/network-x.md',
+            '/py/ecosystem/04/pandas-gui.md',
+            '/py/ecosystem/04/plotly.md',
+            '/py/ecosystem/04/pygal.md',
+            '/py/ecosystem/04/seaborn.md',
+            '/py/ecosystem/04/vega-altair.md',
+            '/py/ecosystem/04/vispy.md',
+            '/py/ecosystem/04/visvis.md',
+            '/py/ecosystem/04/flowfunc.md',
+            '/py/ecosystem/04/folium.md',
+            '/py/ecosystem/04/h2o-wave.md',
+            '/py/ecosystem/04/nodezator.md',
+            '/py/ecosystem/04/turtle.md',
+          ]
+        }
+      ]
     }, {
       text: 'Finance with Python',
       collapsible: true,
       icon: 'fa-brands fa-python',
       children: [
-        '/python/finance-w-python/README.md',
-        '/python/finance-w-python/01.md',
-        '/python/finance-w-python/02.md',
-        '/python/finance-w-python/03.md',
-        '/python/finance-w-python/04.md',
-        '/python/finance-w-python/05.md',
-        '/python/finance-w-python/06.md',
-        '/python/finance-w-python/07.md',
-        '/python/finance-w-python/08.md',
-        '/python/finance-w-python/09.md', 
-        '/python/finance-w-python/10.md', 
-        '/python/finance-w-python/11.md', 
-        '/python/finance-w-python/12.md', 
+        '/py/finance/README.md',
+        '/py/finance/01.md',
+        '/py/finance/02.md',
+        '/py/finance/03.md',
+        '/py/finance/04.md',
+        '/py/finance/05.md',
+        '/py/finance/06.md',
+        '/py/finance/07.md',
+        '/py/finance/08.md',
+        '/py/finance/09.md', 
+        '/py/finance/10.md', 
+        '/py/finance/11.md', 
+        '/py/finance/12.md', 
       ]
     }, {
       text: '사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
       collapsible: true,
       icon: 'fa-brands fa-python',
       children: [
-        '/python/rpa-excel/README.md',
-        '/python/rpa-excel/01.md',
-        '/python/rpa-excel/02a.md',
-        '/python/rpa-excel/02b.md',
-        '/python/rpa-excel/02c.md',
-        '/python/rpa-excel/02d.md',
-        '/python/rpa-excel/02e.md',
-        '/python/rpa-excel/02f.md',
-        '/python/rpa-excel/02g.md',
-        '/python/rpa-excel/02h.md',
-        '/python/rpa-excel/02i.md',
-        '/python/rpa-excel/03.md',
+        '/py/rpa-excel/README.md',
+        '/py/rpa-excel/01.md',
+        '/py/rpa-excel/02a.md',
+        '/py/rpa-excel/02b.md',
+        '/py/rpa-excel/02c.md',
+        '/py/rpa-excel/02d.md',
+        '/py/rpa-excel/02e.md',
+        '/py/rpa-excel/02f.md',
+        '/py/rpa-excel/02g.md',
+        '/py/rpa-excel/02h.md',
+        '/py/rpa-excel/02i.md',
+        '/py/rpa-excel/03.md',
       ]
     }, {
       text: '<랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷',
       collapsible: true,
       icon: 'fa-brands fa-python',
       children: [
-        '/python/langchain-kr/README.md',
+        '/py/langchain-kr/README.md',
       ]
     }, {
       text: 'OpenCV – Python 고급 기법 프로그래밍',
       collapsible: true,
       icon: 'fa-brands fa-python',
       children: [
-        '/python/opencv-advacned/README.md',
-        '/python/opencv-advacned/00.md',
-        '/python/opencv-advacned/01.md',
-        '/python/opencv-advacned/02.md',
+        '/py/opencv-advacned/README.md',
+        '/py/opencv-advacned/00.md',
+        '/py/opencv-advacned/01.md',
+        '/py/opencv-advacned/02.md',
       ],
     }
   ], '/css/': [

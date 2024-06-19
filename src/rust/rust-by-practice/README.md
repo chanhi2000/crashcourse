@@ -22,6 +22,8 @@ head:
       content: Rust by Practice
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/
+isOriginal: false
+cover: https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -70,10 +72,16 @@ __What we want to do is fill in the gap between learning and getting started wit
 
 ## Table of Contents
 
-- [1. Small projects with Elegant code](01-elegant-code-base.md)
-- [2. Variables](02-variables.md)
-- [3. Basic Types](03-basic-types.md)
-- [4. Ownership and Borrowing](04-ownership.md)
+- [1. Small projects with Elegant code](/rust/rust-by-practice/elegant-code-base.md)
+- [2. Variables](/rust/rust-by-practice/variables.md)
+- 3. Basic Types
+  - [3.1. Numbers](/rust/rust-by-practice/basic-types/numbers.md)
+  - [3.2. Char, Bool and Unit](/rust/rust-by-practice/basic-types/char-bool-unit.md)
+  - [3.3. Statements and Expressions](/rust/rust-by-practice/basic-types/statements-expressions.md)
+  - [3.4. Functions](/rust/rust-by-practice/basic-types/functions.md)
+- 4. Ownership and Borrowing
+  - [4.1. Ownership](/rust/rust-by-practice/ownership-borrowing/ownership.md)
+  - [4.2. Reference and Borrowing](/rust/rust-by-practice/ownership-borrowing/borrowing.md)
 - [5. Compound Types](05-compound-types.md)
 - [6. Flow Control](06-flow-contro.md)
 - [7. Pattern Match](07-pattern-match.md)

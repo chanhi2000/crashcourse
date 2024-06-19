@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 5.3 Slice
-description: Rust by Practice > 5.3 Slice
+title: 5.3. Slice
+description: Rust by Practice > 5.3. Slice
 category: 
   - Rust
 tag: 
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Rust by Practice > 5.3 Slice
+      content: Rust by Practice > 5.3. Slice
     - property: og:description
-      content: 5.3 Slice
+      content: 5.3. Slice
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/compound-types/slice.html
 isOriginal: false
@@ -41,8 +41,8 @@ isOriginal: false
 ---
 
 <SiteInfo
-  name="6.3 Slice | Rust By Practice"
-  desc="6.3 Slice"
+  name="6.3. Slice | Rust By Practice"
+  desc="6.3. Slice"
   url="https://practice.rs/compound-types/slice.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>

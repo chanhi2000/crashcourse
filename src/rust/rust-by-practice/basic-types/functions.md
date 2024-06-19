@@ -21,7 +21,7 @@ head:
       content: 3.4 Functions
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/basic-types/functions.html
-next: /rust/rust-by-practice/onwership/onwership.md
+next: /rust/rust-by-practice/ownership/ownership.md
 isOriginal: false
 ---
 
@@ -47,3 +47,9 @@ isOriginal: false
   url="https://practice.rs/basic-types/functions.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>
+
+<!-- TODO: 작성 -->
+
+---
+
+<TagLinks />

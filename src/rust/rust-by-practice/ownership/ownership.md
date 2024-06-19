@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 4.1 Ownership
-description: Rust by Practice > 4.1 Ownership
+title: 4.1. Ownership
+description: Rust by Practice > 4.1. Ownership
 category: 
   - Rust
 tag: 
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Rust by Practice > 4.1 Ownership
+      content: Rust by Practice > 4.1. Ownership
     - property: og:description
-      content: 4.1 Ownership
+      content: 4.1. Ownership
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/ownership/ownership.html
 prev: /rust/rust-by-practice/basic-types/functions.md
@@ -42,8 +42,8 @@ isOriginal: false
 ---
 
 <SiteInfo
-  name="5.1 Ownership | Rust By Practice"
-  desc="5.1 Ownership"
+  name="5.1. Ownership | Rust By Practice"
+  desc="5.1. Ownership"
   url="https://practice.rs/ownership/ownership.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>

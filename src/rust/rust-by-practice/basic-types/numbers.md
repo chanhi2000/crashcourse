@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 3.1 Numbers
-description: Rust by Practice > 3.1 Numbers
+title: 3.1. Numbers
+description: Rust by Practice > 3.1. Numbers
 category: 
   - Rust
 tag: 
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Rust by Practice > 3.1 Numbers
+      content: Rust by Practice > 3.1. Numbers
     - property: og:description
-      content: 3.1 Numbers
+      content: 3.1. Numbers
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/basic-types/numbers.html
 prev: /rust/rust-by-practice/variables.md
@@ -42,8 +42,8 @@ isOriginal: false
 ---
 
 <SiteInfo
-  name="4.1 Numbers | Rust By Practice"
-  desc="4.1 Numbers"
+  name="4.1. Numbers | Rust By Practice"
+  desc="4.1. Numbers"
   url="https://practice.rs/basic-types/numbers.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>

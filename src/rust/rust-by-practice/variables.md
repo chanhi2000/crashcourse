@@ -21,7 +21,7 @@ head:
       content: 2. Variables
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/variables.html
-next: /rust/rust-by-practice/basic-types/number.md
+next: /rust/rust-by-practice/basic-types/numbers.md
 isOriginal: false
 ---
 

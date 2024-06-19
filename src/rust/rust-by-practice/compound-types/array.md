@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 5.2 Array
-description: Rust by Practice > 5.2 Array
+title: 5.2. Array
+description: Rust by Practice > 5.2. Array
 category: 
   - Rust
 tag: 
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Rust by Practice > 5.2 Array
+      content: Rust by Practice > 5.2. Array
     - property: og:description
-      content: 5.2 Array
+      content: 5.2. Array
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/compound-types/array.html
 isOriginal: false
@@ -41,8 +41,8 @@ isOriginal: false
 ---
 
 <SiteInfo
-  name="6.2 Array | Rust By Practice"
-  desc="6.2 Array"
+  name="6.2. Array | Rust By Practice"
+  desc="6.2. Array"
   url="https://practice.rs/compound-types/array.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>

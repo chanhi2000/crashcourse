@@ -98,17 +98,20 @@ export const navbarEn = navbar([
     icon: 'fa-brands fa-python',
     children: [
       {
+        text: '함께해요 파이썬 생태계',
+        link: '/py/ecosystem/README.md',
+      }, {
         text: 'Finance with Python',
-        link: '/python/finance-w-python/README.md',
+        link: '/py/finance/README.md',
       }, {
         text: '사장님 몰래 하는 파이썬 업무자동화 (들키면 일 많아짐)',
-        link: '/python/rpa-excel/README.md',
+        link: '/py/rpa-excel/README.md',
       }, {
         text: '<랭체인LangChain 노트> - LangChain 한국어 튜토리얼🇰🇷',
-        link: '/python/langchain-kr/README.md',
+        link: '/py/langchain-kr/README.md',
       }, {
         text: 'OpenCV – Python 고급 기법 프로그래밍',
-        link: '/python/opencv-advacned/README.md',
+        link: '/py/opencv-advacned/README.md',
       }
     ],
   }, {

@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: 5.1 String
-description: Rust by Practice > 5.1 String
+title: 5.1. String
+description: Rust by Practice > 5.1. String
 category: 
   - Rust
 tag: 
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Rust by Practice > 5.1 String
+      content: Rust by Practice > 5.1. String
     - property: og:description
-      content: 5.1 String
+      content: 5.1. String
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/rust/rust-by-practice/compound-types/string.html
 prev: /rust/rust-by-practice/ownership/borrowing.md
@@ -42,8 +42,8 @@ isOriginal: false
 ---
 
 <SiteInfo
-  name="6.1 String | Rust By Practice"
-  desc="6.1 String"
+  name="6.1. String | Rust By Practice"
+  desc="6.1. String"
   url="https://practice.rs/compound-types/string.html"
   logo="https://practice.course.rs/favicon.svg"
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>
