@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Kubernetes 로컬 개발 환경 만들기 - minikube 설치 및 사용
 description: devkuma > Kubernetes 로컬 개발 환경 만들기 - minikube 설치 및 사용
-icon: fas fa-dharmachakra
+icon: iconfont icon-k8s
 category: 
   - DevOps
   - Kubernetes

@@ -53,7 +53,7 @@ cover: https://devkuma.com/docs/kubernetes/microservices.png
 
 ## 쿠버네티스란?
 
-쿠버네티스(Kubernetes, 약어로 k8s)의 [<FontIcon icon="fas fa-dharmachakra"/>공식 문서](https://kubernetes.io/ko/docs/home/)에 따르면, 오픈소스 시스템으로 “컨테이너를 관리하는 기반 도구” 이다
+쿠버네티스(Kubernetes, 약어로 k8s)의 [<FontIcon icon="iconfont icon-k8s"/>공식 문서](https://kubernetes.io/ko/docs/home/)에 따르면, 오픈소스 시스템으로 “컨테이너를 관리하는 기반 도구” 이다
 여러 호스트에서 컨테이너를 다루려는 경우에 편리하고, 어플리케이션의 개발 및 관리가 편하고 안전할 수 있게 해준다.
 
 Google이 2014년 6월에 시작한 Go으로 만든 오픈 소스 소프트웨어(Open source software; OSS)이다.

@@ -45,7 +45,7 @@ projects:
     icon: fa-brands fa-docker
   - name: Kubernetes
     link: /k8s/
-    icon: fas fa-dharmachakra
+    icon: iconfont icon-k8s
   - name: AWS
     link: /aws/
     icon: fa-brands fa-aws

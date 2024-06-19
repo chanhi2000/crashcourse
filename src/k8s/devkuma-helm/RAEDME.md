@@ -2,7 +2,7 @@
 lang: ko-KR
 title: devkuma - Helm
 description: devkuma - Helm
-icon: fas fa-dharmachakra
+icon: iconfont icon-k8s
 category: 
   - DevOps
   - Kubernetes

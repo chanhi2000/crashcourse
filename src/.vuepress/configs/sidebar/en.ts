@@ -764,41 +764,136 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-rust',
       children: [ '/rust/README.md' ]
     }, {
-      text: 'freecodecamp.org - Rust by Practice',
+      text: 'Rust by Practice',
       collapsible: true,
       icon: 'fa-brands fa-rust',
       children: [
-        '/rust/freecodecamp-rust-by-practice/README.md',
-        '/rust/freecodecamp-rust-by-practice/01-elegant-code-base.md',
-        '/rust/freecodecamp-rust-by-practice/02-variables.md',
-        '/rust/freecodecamp-rust-by-practice/03-basic-types.md',
-        '/rust/freecodecamp-rust-by-practice/04-ownership.md',
-        '/rust/freecodecamp-rust-by-practice/05-compound-types.md',
-        '/rust/freecodecamp-rust-by-practice/06-flow-contro.md',
-        '/rust/freecodecamp-rust-by-practice/07-pattern-match.md',
-        '/rust/freecodecamp-rust-by-practice/08-method.md',
-        '/rust/freecodecamp-rust-by-practice/09-generics-traits.md',
-        '/rust/freecodecamp-rust-by-practice/10-collections.md',
-        '/rust/freecodecamp-rust-by-practice/11-type-conversions.md',
-        '/rust/freecodecamp-rust-by-practice/12-result-panic.md',
-        '/rust/freecodecamp-rust-by-practice/13-crate-module.md',
-        '/rust/freecodecamp-rust-by-practice/14-comments-docs.md',
-        '/rust/freecodecamp-rust-by-practice/15-formatted-output.md',
-        '/rust/freecodecamp-rust-by-practice/16-lifetime.md',
-        '/rust/freecodecamp-rust-by-practice/17-functional-programing.md',
-        '/rust/freecodecamp-rust-by-practice/18-newtype-sized.md',
-        '/rust/freecodecamp-rust-by-practice/19-smart-pointers.md',
-        '/rust/freecodecamp-rust-by-practice/20-weak.md',
-        '/rust/freecodecamp-rust-by-practice/21-self-referential.md',
-        '/rust/freecodecamp-rust-by-practice/22-threads.md',
-        '/rust/freecodecamp-rust-by-practice/23-global-variables.md',
-        '/rust/freecodecamp-rust-by-practice/24-errors.md',
-        '/rust/freecodecamp-rust-by-practice/25-unsafe.md',
-        '/rust/freecodecamp-rust-by-practice/26-macro.md',
-        '/rust/freecodecamp-rust-by-practice/27-tests.md',
-        '/rust/freecodecamp-rust-by-practice/28-async.md',
-        '/rust/freecodecamp-rust-by-practice/29-std.md',
-        '/rust/freecodecamp-rust-by-practice/30-fight-compiler.md',
+        '/rust/rust-by-practice/README.md',
+        '/rust/rust-by-practice/elegant-code-base.md',
+        '/rust/rust-by-practice/variables.md',
+        {
+          text: '3. Basic Types',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/basic-types/README.md',
+            '/rust/rust-by-practice/basic-types/numbers.md',
+            '/rust/rust-by-practice/basic-types/char-bool-unit.md',
+            '/rust/rust-by-practice/basic-types/statements-expressions.md',
+            '/rust/rust-by-practice/basic-types/functions.md',
+          ]
+        }, {
+          text: '4. Ownership and Borrowing',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/ownership/README.md',
+            '/rust/rust-by-practice/ownership/ownership.md',
+            '/rust/rust-by-practice/ownership/borrowing.md',
+          ]
+        }, {
+          text: '5. Compound Types',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/compound-types/README.md',
+            '/rust/rust-by-practice/compound-types/string.md',
+            '/rust/rust-by-practice/compound-types/array.md',
+            '/rust/rust-by-practice/compound-types/slice.md',
+            '/rust/rust-by-practice/compound-types/tuple.md',
+            '/rust/rust-by-practice/compound-types/struct.md',
+            '/rust/rust-by-practice/compound-types/enum.md',
+          ]
+        },
+        '/rust/rust-by-practice/flow-control.md',
+        {
+          text: '7. Pattern Match',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/pattern-match/README.md',
+            '/rust/rust-by-practice/pattern-match/match-iflet.md',
+            '/rust/rust-by-practice/pattern-match/pattenrs.md',
+          ]
+        },
+        '/rust/rust-by-practice/method.md',
+        {
+          text: '9. Generics and Traits',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/generics-traits/README.md',
+            '/rust/rust-by-practice/generics-traits/generics.md',
+            '/rust/rust-by-practice/generics-traits/const-generics.md',
+            '/rust/rust-by-practice/generics-traits/traits.md',
+            '/rust/rust-by-practice/generics-traits/trait-object.md',
+            '/rust/rust-by-practice/generics-traits/advanced-traits.md',
+          ]
+        }, {
+          text: '10. Collection Types',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/collection-types/README.md',
+            '/rust/rust-by-practice/collection-types/string.md',
+            '/rust/rust-by-practice/collection-types/vector.md',
+            '/rust/rust-by-practice/collection-types/hashmap.md',
+          ]
+        }, {
+          text: '11. Type Conversion',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/type-conversion/README.md',
+            '/rust/rust-by-practice/type-conversion/as.md',
+            '/rust/rust-by-practice/type-conversion/from-into.md',
+            '/rust/rust-by-practice/type-conversion/others.md',
+          ]
+        }, {
+          text: '12. Result and panic',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/result-panic/README.md',
+            '/rust/rust-by-practice/result-panic/panic.md',
+            '/rust/rust-by-practice/result-panic/result.md',
+          ]
+        }, {
+          text: '13. Crate and Module',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/crate-module/README.md',
+            '/rust/rust-by-practice/crate-module/crate.md',
+            '/rust/rust-by-practice/crate-module/module.md',
+            '/rust/rust-by-practice/crate-module/use-pub.md',
+          ]
+        },
+        '/rust/rust-by-practice/comments-docs.md',
+        {
+          text: '15. Formatted Output',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/formatted-output/README.md',
+            '/rust/rust-by-practice/formatted-output/println.md',
+            '/rust/rust-by-practice/formatted-output/debug-display.md',
+            '/rust/rust-by-practice/formatted-output/formatting.md',
+          ]
+        }, {
+          text: '16. Lifetime',
+          collapsible: true,
+          children: [
+            // '/rust/rust-by-practice/lifetime/README.md',
+            '/rust/rust-by-practice/lifetime/basic.md',
+            '/rust/rust-by-practice/lifetime/static.md',
+            '/rust/rust-by-practice/lifetime/advance.md',
+          ]
+        },
+        '/rust/rust-by-practice/17-functional-programing.md',
+        '/rust/rust-by-practice/18-newtype-sized.md',
+        '/rust/rust-by-practice/19-smart-pointers.md',
+        '/rust/rust-by-practice/20-weak.md',
+        '/rust/rust-by-practice/21-self-referential.md',
+        '/rust/rust-by-practice/22-threads.md',
+        '/rust/rust-by-practice/23-global-variables.md',
+        '/rust/rust-by-practice/24-errors.md',
+        '/rust/rust-by-practice/25-unsafe.md',
+        '/rust/rust-by-practice/26-macro.md',
+        '/rust/rust-by-practice/27-tests.md',
+        '/rust/rust-by-practice/28-async.md',
+        '/rust/rust-by-practice/29-std.md',
+        '/rust/rust-by-practice/30-fight-compiler.md',
       ]
     }, {
       text: 'Wasm by Example',
@@ -1346,12 +1441,12 @@ export const sidebarEn = sidebar({
   ], '/k8s/': [
     {
       text: 'Kubernetes',
-      icon: 'fas fa-dharmachakra',
+      icon: 'iconfont icon-k8s',
       children: [ '/k8s/README.md' ]
     }, {
       text: '언제나 최신 Kubernetes',
       collapsible: true,
-      icon: 'fas fa-dharmachakra',
+      icon: 'iconfont icon-k8s',
       children: [
         '/k8s/always-up-to-date-kubernetes/README.md',
         '/k8s/always-up-to-date-kubernetes/01.md',
@@ -1423,7 +1518,7 @@ export const sidebarEn = sidebar({
     }, {
       text: 'devkuma - Kubernetes',
       collapsible: true,
-      icon: 'fas fa-dharmachakra',
+      icon: 'iconfont icon-k8s',
       children: [
         '/k8s/devkuma/README.md',
         '/k8s/devkuma/overview.md',

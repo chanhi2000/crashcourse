@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Kubernetes 아키텍처
 description: devkuma > Kubernetes 아키텍처
-icon: fas fa-dharmachakra
+icon: iconfont icon-k8s
 category: 
   - DevOps
   - Kubernetes

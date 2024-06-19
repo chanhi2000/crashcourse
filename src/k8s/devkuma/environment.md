@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Kubernetes 사용하기
 description: devkuma > Kubernetes 사용하기
-icon: fas fa-dharmachakra
+icon: iconfont icon-k8s
 category: 
   - DevOps
   - Kubernetes

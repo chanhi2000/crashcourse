@@ -21,7 +21,7 @@ tag:
 
 ## Table of Contents
 
-::: details freecodecamp.org - Rust by Practice
+::: details Rust by Practice
 
 <ToCLocal basePath="/rust/freecodcamp-rust-by-practice" />
 

@@ -125,8 +125,8 @@ export const navbarEn = navbar([
     icon: 'fa-brands fa-rust',
     children: [
       {
-        text: 'freecodecamp.org - Rust by Practice',
-        link: '/rust/freecodecamp-rust-by-practice/README.md',
+        text: 'Rust by Practice',
+        link: '/rust/rust-by-practice/README.md',
       }, {
         text: 'Wasm by Example',
         link: '/rust/wasm-by-example/README.md',
@@ -212,7 +212,7 @@ export const navbarEn = navbar([
     ]
   }, {
     text: '',
-    icon: 'fas fa-dharmachakra',
+    icon: 'iconfont icon-k8s',
     children: [
       {
         text: '언제나 최신 Kubernetes',

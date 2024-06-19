@@ -2,7 +2,7 @@
 lang: ko-KR
 title: 언제나 최신 Kubernetes
 description: 언제나 최신 Kubernetes
-icon: fas fa-dharmachakra
+icon: iconfont icon-k8s
 category:
   - Kubernetes
 tag:
