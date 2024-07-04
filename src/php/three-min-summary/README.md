@@ -30,7 +30,7 @@ head:
 <SiteInfo
   name="PHP 3분 핵심 요약집 | WikiDocs"
   desc="이 시리즈는 책으로 출간된 php 3분 핵심 요약집을 다룹니다."
-  url="https://wikidocs.net/book/5793"
+  url="https://wikidocs.net/5793"
   logo="https://wikidocs.net/static/img/favicon.ico"
   preview="https://images.velog.io/images/ysedeveloper/post/ab38e917-253e-47af-afe1-97bdae13f67e/800x0.webp" />
 

@@ -40,7 +40,7 @@ cover: https://wikidocs.net/images/page/226632/jupyter_logo.png
 <SiteInfo
   name="Jupyter: 웹 기반 대화형 컴퓨팅 환경 | WikiDocs"
   desc="함께해요 파이썬 생태계"
-  url="https://wikidocs.net/book/226632"
+  url="https://wikidocs.net/226632"
   logo="https://wikidocs.net/static/img/favicon.ico"
   preview="https://wikidocs.net/images/page/226632/jupyter_logo.png"/>
 

@@ -742,6 +742,151 @@ export const sidebarEn = sidebar({
             '/py/ecosystem/04/nodezator.md',
             '/py/ecosystem/04/turtle.md',
           ]
+        }, {
+          text: '05. 머신 러닝 및 인공 지능',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/05.md',
+            '/py/ecosystem/05/bob.md',
+            '/py/ecosystem/05/cntk.md',
+            '/py/ecosystem/05/caffe.md',
+            '/py/ecosystem/05/datasets.md',
+            '/py/ecosystem/05/eli5.md',
+            '/py/ecosystem/05/fast-ai.md',
+            '/py/ecosystem/05/gymnasium.md',
+            '/py/ecosystem/05/keras.md',
+            '/py/ecosystem/05/lang-chain.md',
+            '/py/ecosystem/05/light-gbm.md',
+            '/py/ecosystem/05/netron.md',
+            '/py/ecosystem/05/nu-pic.md',
+            '/py/ecosystem/05/onnx.md',
+            '/py/ecosystem/05/py-caret.md',
+            '/py/ecosystem/05/py-mc.md',
+            '/py/ecosystem/05/py-torch.md',
+            '/py/ecosystem/05/scikit-learn.md',
+            '/py/ecosystem/05/tensorflow.md',
+            '/py/ecosystem/05/whisper.md',
+            '/py/ecosystem/05/xg-boost.md',
+            '/py/ecosystem/05/diffusers.md',
+            '/py/ecosystem/05/mxnet.md',
+            '/py/ecosystem/05/timm.md',
+            '/py/ecosystem/05/transformers.md',
+          ]
+        }, {
+          text: '06. 파이썬 웹 개발',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/06.md',
+            {
+              text: '네트워킹 및 웹 스크래핑',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/network-web-scraping/README.md',
+                '/py/ecosystem/06/network-web-scraping/beautiful-soup.md',
+                '/py/ecosystem/06/network-web-scraping/httpx.md',
+                '/py/ecosystem/06/network-web-scraping/mechanical-soup.md',
+                '/py/ecosystem/06/network-web-scraping/py-query.md',
+                '/py/ecosystem/06/network-web-scraping/py-zmq.md',
+                '/py/ecosystem/06/network-web-scraping/requests.md',
+                '/py/ecosystem/06/network-web-scraping/scapy.md',
+                '/py/ecosystem/06/network-web-scraping/scrapy.md',
+                '/py/ecosystem/06/network-web-scraping/selenium.md',
+                '/py/ecosystem/06/network-web-scraping/asyncio.md',
+                '/py/ecosystem/06/network-web-scraping/httpie.md',
+                '/py/ecosystem/06/network-web-scraping/impacket.md',
+                '/py/ecosystem/06/network-web-scraping/socket.md',
+                '/py/ecosystem/06/network-web-scraping/urllib.md',
+                '/py/ecosystem/06/network-web-scraping/webbrowser.md',
+              ]
+            }, {
+              text: '실시간 통신',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/rtc/README.md',
+                '/py/ecosystem/06/rtc/web-sockets.md',
+                '/py/ecosystem/06/rtc/paho-mqtt.md',
+                '/py/ecosystem/06/rtc/python-socketio.md',
+              ]
+            }, {
+              text: '웹 애플리케이션 서버',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/was/README.md',
+                '/py/ecosystem/06/was/gunicorn.md',
+                '/py/ecosystem/06/was/u-wsgi.md',
+                '/py/ecosystem/06/was/uvicorn.md',
+              ]
+            }, {
+              text: '웹 어플리케이션 프론트엔드',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/fe/README.md',
+                '/py/ecosystem/06/fe/fast-ui.md',
+                '/py/ecosystem/06/fe/just-py.md',
+                '/py/ecosystem/06/fe/nice-gui.md',
+              ]
+            }, {
+              text: '웹 프레임워크',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/web-framework/README.md',
+                '/py/ecosystem/06/web-framework/bottle.md',
+                '/py/ecosystem/06/web-framework/cubic-web.md',
+                '/py/ecosystem/06/web-framework/django.md',
+                '/py/ecosystem/06/web-framework/falcon.md',
+                '/py/ecosystem/06/web-framework/fast-api.md',
+                '/py/ecosystem/06/web-framework/flask.md',
+                '/py/ecosystem/06/web-framework/py4web.md',
+                '/py/ecosystem/06/web-framework/pyramid.md',
+                '/py/ecosystem/06/web-framework/quart.md',
+                '/py/ecosystem/06/web-framework/reflex.md',
+                '/py/ecosystem/06/web-framework/sanic.md',
+                '/py/ecosystem/06/web-framework/starlette.md',
+                '/py/ecosystem/06/web-framework/streamlit.md',
+                '/py/ecosystem/06/web-framework/tornado.md',
+                '/py/ecosystem/06/web-framework/web2py.md',
+              ]
+            }, {
+              text: '유틸리티 및 기타',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/util/README.md',
+                '/py/ecosystem/06/util/idna.md',
+                '/py/ecosystem/06/util/jinja2.md',
+                '/py/ecosystem/06/util/markup-safe.md',
+                '/py/ecosystem/06/util/auth.md',
+                '/py/ecosystem/06/util/pydantic.md',
+                '/py/ecosystem/06/util/werkzeug.md',
+              ]
+            }, {
+              text: '정적 사이트 생성기',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/ssg/README.md',
+                '/py/ecosystem/06/ssg/nikola.md',
+                '/py/ecosystem/06/ssg/pelican.md',
+                '/py/ecosystem/06/ssg/mkdocs.md',
+              ]
+            }, {
+              text: '컨텐츠 관리 시스템 (CMS)',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/06/cms/README.md',
+                '/py/ecosystem/06/cms/django-cms.md',
+                '/py/ecosystem/06/cms/mezzanine.md',
+                '/py/ecosystem/06/cms/wagtail.md',
+                '/py/ecosystem/06/cms/python-wordpress-xmlrpc.md',
+                '/py/ecosystem/06/cms/g6.md',
+              ]
+            }, {
+              text: '07. 데이터베이스 및 파일 처리',
+              collapsible: true,
+              children: [
+                '/py/ecosystem/07.md',
+                
+              ]
+            }
+          ]
         }
       ]
     }, {

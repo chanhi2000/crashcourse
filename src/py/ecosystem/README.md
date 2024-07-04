@@ -31,7 +31,7 @@ cover: https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
 <SiteInfo
   name="함께해요 파이썬 생태계 | WikiDocs"
   desc="함께해요 파이썬 생태계"
-  url="https://wikidocs.net/book/14021"
+  url="https://wikidocs.net/14021"
   logo="https://wikidocs.net/static/img/favicon.ico"
   preview="https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98%ED%9D%A5%ED%95%B4%EB%9D%BC_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%A7%8C%EC%84%B8.jpg"/>
 
@@ -103,93 +103,94 @@ cover: https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
   - [nodezator: pygame 기반 노드 에디터](/py/ecosystem/04/nodezator.md)
   - [turtle: 교육용 거북이 그래픽스 라이브러리](/py/ecosystem/04/turtle.md)
 - [05. 머신 러닝 및 인공 지능](/py/ecosystem/05.md)
-    Bob: 기계 학습과 신호 처리를 위한 라이브러리
-    CNTK: 마이크로소프트에서 개발한 딥러닝 프레임워크
-    Datasets: 자연어 처리 및 기계 학습 프로젝트를 위한 데이터셋
-    ELI5: 머신러닝 모델 디버깅/해석 라이브러리
-    FastAI: 딥러닝 분야 신속한 프로토타이핑과 실험
-    Gymnasium: 강화학습 알고리즘의 개발과 비교 
-    Keras: Python을 위한 오픈 소스 신경망 라이브러리
-    LangChain: LLM 기반 체인 프레임워크
-    LightGBM: Gradient Boosting 프레임워크
-    Netron: 기계 학습 모델 포멧 시각화
-    NuPIC: 뇌의 신경망에서 영감을 받은 차세대 기계 학습
-    ONNX: 머신러닝 프레임워크 간의 모델 교환용 포멧
-    PyCaret: 기계 학습 라이브러리
-    PyMC: 통계 모델링 및 확률적 프로그래밍 라이브러리
-    PyTorch: 딥 러닝 모델
-    Scikit-learn: 다양한 머신 러닝 알고리즘
-    TensorFlow: Google이 개발한 오픈소스 머신 러닝 라이브러리
-    Whisper: OpenAI에서 만든 자동 음성 인식
-    XGBoost:  향상된 그라디언트 부스팅 알고리즘
-    diffusers: 딥러닝 기반의 생성 모델 도구
-    mxnet: Apache의 오픈소스 딥러닝 프레임워크
-    timm: PyTorch 이미지 모델들
-    transformers: Hugging Face팀의 ML 라이브러리
-06 파이썬 웹 개발
-    네트워킹 및 웹 스크래핑
-    BeautifulSoup: 웹 데이터 추출을 위한 도구
-    HTTPX: 최신 비동기 HTTP 클라이언트
-    MechanicalSoup: 자동화 + 웹 스크레이핑 라이브러리
-    PyQuery: HTML 문서 파싱 및 조작 라이브러리
-    PyZMQ: ZeroMQ 라이브러리의 Python 바인딩 
-    Requests: 간결한 HTTP 라이브러리
-    Scapy: 대화형 패킷 조작 프로그램
-    Scrapy: 강력한 웹 크롤링 및 스크래핑 프레임워크
-    Selenium: 웹 자동화 및 테스팅을 위한 강력한 도구
-    asyncio: 비동기 I/O 라이브러리
-    httpie: 커맨드라인 HTTP 클라이언트
-    impacket: 네트워크 프로토콜을 위한 컬렉션
-    socket: 저수준 네트워킹 인터페이스
-    urllib: URL 제어도구
-    webbrowser: 기본 웹 브라우저 제어 도구
-    실시간 통신
-    WebSockets: 웹 소켓 서버와 클라이언트 개발
-    paho-mqtt: MQTT 프로토콜의 Pub/Sub 클라이언트 
-    python-socketio: 파이썬 Socket.IO 서버 및 클라이언트
-    웹 애플리케이션 서버
-    Gunicorn: 파이썬 기반 WSGI 구현체
-    uWSGI: 범용 웹 서버
-    uvicorn: Python 기반 ASGI 서버
-    웹 어플리케이션 프론트엔드
-    FastUI: 더 빠르고 좋은 웹 애플리케이션 UI
-    JustPy: 객체 지향 고수준 파이썬 웹 프레임워크
-    NiceGUI: JustPy 기반 웹 프레임워크
-    웹 프레임워크
-    Bottle: 간단한 마이크로 웹 프레임워크
-    CubicWeb: 세맨틱 웹 프레임워크 
-    Django: 강력한 기능의 웹 프레임워크
-    Falcon: 고성능 마이크로서비스 웹 프레임워크
-    FastAPI: 빠르고 현대적인 API 개발
-    Flask: 경량화된 유연한 마이크로 웹 프레임워크
-    PY4WEB: 데이터베이스 기반 웹 App. 개발 프레임워크
-    Pyramid: 경량, 유연한 웹 프레임워크
-    Quart: 비동기 웹 프레임워크
-    Reflex: 모던 웹 개발의 새로운 지평
-    Sanic: 고성능 비동기 웹 프레임워크
-    Starlette: 파이썬 비동기 웹 프레임워크
-    Streamlit: 데이터 과학자의 쉬운 웹 제작 도구
-    Tornado: 네트워킹 라이브러리이자 웹 프레임워크
-    web2py: 오픈소스 웹 애플리케이션 프레임워크
-    유틸리티 및 기타
-    IDNA: 국제화 도메인 이름 처리
-    Jinja2: 파이썬 웹 템플릿 엔진
-    MarkupSafe: HTML 및 XML과 같은 마크업 언어를 안전하게 처리
-    OAuthLib, Authlib, PyJWT: 인증 프로토콜 라이브러리
-    Pydantic: 웹 프레임워크의 데이터 유효성 검사 도구
-    Werkzeug: WSGI 유틸리티 라이브러리
-    gevent: 비동기 프로그래밍을 위한 경량화된 코루틴 라이브러리
-    정적 사이트 생성기 
-    Nikola: 정적 사이트 생성기
-    Pelican: 정적 사이트 생성기
-    mkdocs: 마크다운 문서화 사이트 라이브러리
-    컨텐츠 관리 시스템 (CMS)
-    Django CMS: Django 기반 오픈 소스 CMS
-    Mezzanine: Django 기반 오픈 소스 CMS
-    Wagtail: Django 기반 오픈 소스 CMS
-    python-wordpress-xmlrpc: WordPress REST API 
-    그누보드6: 국내 오픈소스 CMS
-07 데이터베이스 및 파일 처리
+  - [Bob: 기계 학습과 신호 처리를 위한 라이브러리](/py/ecosystem/05/bob.md)
+  - [CNTK: 마이크로소프트에서 개발한 딥러닝 프레임워크](/py/ecosystem/05/cntk.md)
+  - [Caffe: 컴퓨터 비전 중심 딥러닝 프레임워크](/py/ecosystem/05/caffe.md)
+  - [Datasets: 자연어 처리 및 기계 학습 프로젝트를 위한 데이터셋](/py/ecosystem/05/datasets.md)
+  - [ELI5: 머신러닝 모델 디버깅/해석 라이브러리](/py/ecosystem/05/eli5.md)
+  - [FastAI: 딥러닝 분야 신속한 프로토타이핑과 실험](/py/ecosystem/05/fast-ai.md)
+  - [Gymnasium: 강화학습 알고리즘의 개발과 비교](/py/ecosystem/05/gymnasium.md)
+  - [Keras: Python을 위한 오픈 소스 신경망 라이브러리](/py/ecosystem/05/keras.md)
+  - [LangChain: LLM 기반 체인 프레임워크](/py/ecosystem/05/lang-chain.md)
+  - [LightGBM: Gradient Boosting 프레임워크](/py/ecosystem/05/light-gbm.md)
+  - [Netron: 기계 학습 모델 포멧 시각화](/py/ecosystem/05/netron.md)
+  - [NuPIC: 뇌의 신경망에서 영감을 받은 차세대 기계 학습](/py/ecosystem/05/nu-pic.md)
+  - [ONNX: 머신러닝 프레임워크 간의 모델 교환용 포멧](/py/ecosystem/05/onnx.md)
+  - [PyCaret: 기계 학습 라이브러리](/py/ecosystem/05/py-caret.md)
+  - [PyMC: 통계 모델링 및 확률적 프로그래밍 라이브러리](/py/ecosystem/05/py-mc.md)
+  - [PyTorch: 딥 러닝 모델](/py/ecosystem/05/py-torch.md)
+  - [Scikit-learn: 다양한 머신 러닝 알고리즘](/py/ecosystem/05/scikit-learn.md)
+  - [TensorFlow: Google이 개발한 오픈소스 머신 러닝 라이브러리](/py/ecosystem/05/tensorflow.md)
+  - [Whisper: OpenAI에서 만든 자동 음성 인식](/py/ecosystem/05/whisper.md)
+  - [XGBoost:  향상된 그라디언트 부스팅 알고리즘](/py/ecosystem/05/xg-boost.md)
+  - [diffusers: 딥러닝 기반의 생성 모델 도구](/py/ecosystem/05/diffusers.md)
+  - [mxnet: Apache의 오픈소스 딥러닝 프레임워크](/py/ecosystem/05/mxnet.md)
+  - [timm: PyTorch 이미지 모델들](/py/ecosystem/05/timm.md)
+  - [transformers: Hugging Face팀의 ML 라이브러리](/py/ecosystem/05/transformers.md)
+- [06. 파이썬 웹 개발](/py/ecosystem/06.md)
+  - [네트워킹 및 웹 스크래핑](/py/ecosystem/06/network-web-scraping/README.md)
+    - BeautifulSoup: 웹 데이터 추출을 위한 도구
+    - HTTPX: 최신 비동기 HTTP 클라이언트
+    - MechanicalSoup: 자동화 + 웹 스크레이핑 라이브러리
+    - PyQuery: HTML 문서 파싱 및 조작 라이브러리
+    - PyZMQ: ZeroMQ 라이브러리의 Python 바인딩
+    - Requests: 간결한 HTTP 라이브러리
+    - Scapy: 대화형 패킷 조작 프로그램
+    - Scrapy: 강력한 웹 크롤링 및 스크래핑 프레임워크
+    - Selenium: 웹 자동화 및 테스팅을 위한 강력한 도구
+    - asyncio: 비동기 I/O 라이브러리
+    - httpie: 커맨드라인 HTTP 클라이언트
+    - impacket: 네트워크 프로토콜을 위한 컬렉션
+    - socket: 저수준 네트워킹 인터페이스
+    - urllib: URL 제어도구
+    - webbrowser: 기본 웹 브라우저 제어 도구
+  - [실시간 통신](/py/ecosystem/06/rtc.md)
+    - WebSockets: 웹 소켓 서버와 클라이언트 개발
+    - paho-mqtt: MQTT 프로토콜의 Pub/Sub 클라이언트
+    - python-socketio: 파이썬 Socket.IO 서버 및 클라이언트
+  - [웹 애플리케이션 서버](/py/ecosystem/06/was.md)
+    - FastUI: 더 빠르고 좋은 웹 애플리케이션 UI
+    - JustPy: 객체 지향 고수준 파이썬 웹 프레임워크
+    - NiceGUI: JustPy 기반 웹 프레임워크
+  - [웹 어플리케이션 프론트엔드](/py/ecosystem/06/fe.md)
+    - Gunicorn: 파이썬 기반 WSGI 구현체
+    - uWSGI: 범용 웹 서버
+    - uvicorn: Python 기반 ASGI 서버
+  - [웹 프레임워크](/py/ecosystem/06/web-framework.md)
+    - Bottle: 간단한 마이크로 웹 프레임워크
+    - CubicWeb: 세맨틱 웹 프레임워크
+    - Django: 강력한 기능의 웹 프레임워크
+    - Falcon: 고성능 마이크로서비스 웹 프레임워크
+    - FastAPI: 빠르고 현대적인 API 개발
+    - Flask: 경량화된 유연한 마이크로 웹 프레임워크
+    - PY4WEB: 데이터베이스 기반 웹 App. 개발 프레임워크
+    - Pyramid: 경량, 유연한 웹 프레임워크
+    - Quart: 비동기 웹 프레임워크
+    - Reflex: 모던 웹 개발의 새로운 지평
+    - Sanic: 고성능 비동기 웹 프레임워크
+    - Starlette: 파이썬 비동기 웹 프레임워크
+    - Streamlit: 데이터 과학자의 쉬운 웹 제작 도구
+    - Tornado: 네트워킹 라이브러리이자 웹 프레임워크
+    - web2py: 오픈소스 웹 애플리케이션 프레임워크
+  - [유틸리티 및 기타](/py/ecosystem/06/util.md)
+    - IDNA: 국제화 도메인 이름 처리
+    - Jinja2: 파이썬 웹 템플릿 엔진
+    - MarkupSafe: HTML 및 XML과 같은 마크업 언어를 안전하게 처리
+    - OAuthLib, Authlib, PyJWT: 인증 프로토콜 라이브러리
+    - Pydantic: 웹 프레임워크의 데이터 유효성 검사 도구
+    - Werkzeug: WSGI 유틸리티 라이브러리
+    - gevent: 비동기 프로그래밍을 위한 경량화된 코루틴 라이브러리
+  - [정적 사이트 생성기](/py/ecosystem/06/ssg.md)
+    - Nikola: 정적 사이트 생성기
+    - Pelican: 정적 사이트 생성기
+    - mkdocs: 마크다운 문서화 사이트 라이브러리
+  - [컨텐츠 관리 시스템 (CMS)](/py/ecosystem/06/cms.md)
+    - Django CMS: Django 기반 오픈 소스 CM
+    - Mezzanine: Django 기반 오픈 소스 CMS
+    - Wagtail: Django 기반 오픈 소스 CMS
+    - python-wordpress-xmlrpc: WordPress REST API
+    - 그누보드6: 국내 오픈소스 CMS
+- [07. 데이터베이스 및 파일 처리](/py/ecosystem/07.md)
     DuckDB: 데이터 분석용 SQL 데이터베이스
     Elasticsearch: Elasticsearch의 파이썬 클라이언트
     ORM (Object-Relational Mapping)

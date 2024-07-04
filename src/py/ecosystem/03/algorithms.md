@@ -40,7 +40,7 @@ cover: https://wikidocs.net/images/page/227750/algorithms_logo.png
 <SiteInfo
   name="Algorithms: 알고리즘과 자료 구조 파이썬 구현체 | WikiDocs"
   desc="함께해요 파이썬 생태계"
-  url="https://wikidocs.net/book/227750"
+  url="https://wikidocs.net/227750"
   logo="https://wikidocs.net/static/img/favicon.ico"
   preview="https://wikidocs.net/images/page/227750/algorithms_logo.png"/>
 
