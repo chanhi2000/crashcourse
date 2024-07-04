@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "shutil: 고수준 파일 연산 라이브러리 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/227603",
+  "link": "https://wikidocs.net/227603",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

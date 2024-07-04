@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "os: 운영 체제와 상호 작용하는 라이브러리 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/227598",
+  "link": "https://wikidocs.net/227598",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

@@ -30,7 +30,7 @@ cover: https://wikidocs.net/images/page/228061/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
   "desc": "함께해요 파이썬 생태계",
   "link": "/py/ecosystem/README.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
-  "background": "rgba(51,122,183,0.2)",
+  "background": "rgba(51,122,183,0.2)"
   
 }
 ```

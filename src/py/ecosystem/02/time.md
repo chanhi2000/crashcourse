@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "time: 시간 액세스와 변환 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/229761",
+  "link": "https://wikidocs.net/229761",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "pathlib: 객체 지향 파일 시스템 경로 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/227604",
+  "link": "https://wikidocs.net/227604",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

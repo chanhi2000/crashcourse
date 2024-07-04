@@ -88,7 +88,15 @@ isOriginal: false
   logo="https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/favicon.ico"
   preview="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
 
-- [아마존 쿠버네티스 엘라스틱 컨테이너 서비스(EKS)](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/what-is-eks.html) <!-- TODO: add VPCard -->
+```component VPCard
+{
+  "title": "Amazon EKS란 무엇입니까? - Amazon EKS",
+  "desc": "Amazon Elastic Kubernetes Service(Amazon EKS)는 Amazon Web Services(AWS)에 Kubernetes 컨트롤 플레인을 설치, 운영 및 유지 관리할 필요가 없는 관리형 서비스입니다.",
+  "link": "https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/what-is-eks.html",
+  "logo": "https://docs.aws.amazon.com/assets/images/favicon.ico",
+  "background": "rgba(247,155,38,0.2)"
+}
+```
 
 <SiteInfo
   name="Azure Kubernetes Service (AKS) documentation"

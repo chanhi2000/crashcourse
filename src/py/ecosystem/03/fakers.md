@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "Faker: 가짜 데이터 생성 도구 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/230406",
+  "link": "https://wikidocs.net/230406",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

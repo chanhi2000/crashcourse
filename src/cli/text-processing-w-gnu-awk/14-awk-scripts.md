@@ -5,7 +5,7 @@ description: Text Processing with GNU awk > 14. awk scripts
 category: 
   - CLI
   - Linux
-tags:
+tag:
   - crashcourse
   - cli
   - sh
@@ -21,6 +21,8 @@ head:
       content: 14. awk scripts
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/cli/text-processing-w-gnu-awk/14-awk-scripts.html
+isOriginal: false
+cover: https://raw.githubusercontent.com/learnbyexample/learn_gnuawk/master/images/gawk_ls.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -43,10 +45,9 @@ head:
 
 So far, you've only seen how to provide `awk` scripts directly on the command line. In this chapter, you'll see basic examples for executing scripts saved in files.
 
-
 ::: info
 
-The [<FontIcon icon="iconfont icon-github"/> example_files](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in 
+The [example_files (<FontIcon icon="iconfont icon-github"/>`learnbyexample/learn_gnuawk`)](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in 
 the examples.
 
 :::
@@ -54,6 +55,7 @@ the examples.
 ---
 
 ## `-f` option
+
 The `-f` command line option allows you to pass the `awk` script via files instead of writing everything on the command line. Here's an one-liner seen earlier that's been converted to a multiline script. Note that `;` is no longer necessary to separate the commands, newline will do that too.
 
 ```sh
@@ -136,6 +138,7 @@ awk -o -v OFS='\t' 'NR==FNR{r[$1]=$2; next}
        {$(NF+1) = FNR==1 ? "Role" : r[$2]} 1' role.txt marks.txt
 # pretty printed version
 cat awkprof.out
+#
 # NR == FNR {
 #         r[$1] = $2
 #         next
@@ -182,7 +185,7 @@ Next chapter will discuss a few gotchas and tricks.
 
 ::: info 
 
-The [<FontIcon icon="iconfont icon-github"/> exercises](https://github.com/learnbyexample/learn_gnuawk/tree/master/exercises) directory has all the files used in this section.
+The [exercises (<FontIcon icon="iconfont icon-github"/>`learnbyexample/learn_gnuawk`)](https://github.com/learnbyexample/learn_gnuawk/tree/master/exercises) directory has all the files used in this section.
 
 :::
 
@@ -197,9 +200,9 @@ Before explaining the problem statement, here's an example of markdown headers a
 ## Summary
 
 * [Field separators](#field-separators)
-    * [Summary](#summary)
+  * [Summary](#summary)
 * [Gotchas and Tips](#gotchas-and-tips)
-    * [Summary](#summary-1)
+  * [Summary](#summary-1)
 ```
 
 For the input file <FontIcon icon="fa-brands fa-markdown"/> `gawk.md`, construct a Table of Content section as per the details described below:
@@ -232,24 +235,25 @@ diff -sq out.md toc_expected.md
 
 ```sh
 cat toc.awk 
-/^```bash$/ {
-    f = 1
-}
-
-/^```$/ {
-    f = 0
-}
-
-!f && /^#+ / {
-    m = tolower($0)
-    a[m]++ && m = m "-" (a[m]-1)
-    sub(/^#+ /, "", m)
-    gsub(/ /, "-", m)
-
-    /^# / ? sub(/^# /, "* ") : sub(/^## /, "    * ")
-    print gensub(/* (.+)/, "* [\\1](#" m ")", 1)
-}
-
+# 
+# /^```bash$/ {
+#     f = 1
+# }
+# 
+# /^```$/ {
+#     f = 0
+# }
+# 
+# !f && /^#+ / {
+#     m = tolower($0)
+#     a[m]++ && m = m "-" (a[m]-1)
+#     sub(/^#+ /, "", m)
+#     gsub(/ /, "-", m)
+# 
+#     /^# / ? sub(/^# /, "* ") : sub(/^## /, "    * ")
+#     print gensub(/* (.+)/, "* [\\1](#" m ")", 1)
+# }
+# 
 awk -f toc.awk gawk.md > out.md
 diff -sq out.md toc_expected.md
 # Files out.md and toc_expected.md are identical
@@ -267,10 +271,12 @@ For the input file <FontIcon icon="fas fa-file-lines"/> `odd.txt`, surround the 
 
 ```sh
 cat odd.txt
+# 
 # -oreo-not:a _a2_ roar<=>took%22
 # RoaR to wow-
 
 awk -f same.awk odd.txt
+#
 # -{oreo}-not:{a} _a2_ roar<=>took%22
 # {RoaR} to {wow}-
 ```
@@ -279,24 +285,26 @@ awk -f same.awk odd.txt
 
 ```sh
 cat odd.txt
+# 
 # -oreo-not:a _a2_ roar<=>took%22
 # RoaR to wow-
 
 cat same.awk 
-{
-    c = 0
-    n = split($0, a, /\W+/, seps)
-    for (i = 1; i <= n; i++) {
-        len = length(a[i])
-        if (len && substr(a[i], 1, 1) == substr(a[i], len) && c++ < 2) {
-            a[i] = "{" a[i] "}"
-        }
-        printf "%s%s", a[i], seps[i]
-    }
-    print ""
-}
+# {
+#     c = 0
+#     n = split($0, a, /\W+/, seps)
+#     for (i = 1; i <= n; i++) {
+#         len = length(a[i])
+#         if (len && substr(a[i], 1, 1) == substr(a[i], len) && c++ < 2) {
+#             a[i] = "{" a[i] "}"
+#         }
+#         printf "%s%s", a[i], seps[i]
+#     }
+#     print ""
+# }
 
 awk -f same.awk odd.txt
+# 
 # -{oreo}-not:{a} _a2_ roar<=>took%22
 # {RoaR} to {wow}-
 ```

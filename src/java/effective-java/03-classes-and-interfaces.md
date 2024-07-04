@@ -17,6 +17,7 @@ head:
       content: 클래스와 인터페이스
     - property: og:url
       content: https://chanhi2000.github.io/crashcourse/java/effective-java/03-classes-and-interfaces.html
+isOrignal: false
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -25,7 +26,7 @@ head:
 
 ---
 
-<!-- https://yangbongsoo.gitbook.io/study/java-effective-java/classes_and_interfaces -->
+<!-- https://yangbongsoo.gitbook.io/study/effective-java/classes_and_interfaces -->
 
 ---
 

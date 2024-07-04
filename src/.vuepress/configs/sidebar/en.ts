@@ -423,7 +423,20 @@ export const sidebarEn = sidebar({
       icon: 'fa-brands fa-java',
       children: [
         '/java/effective-java/README.md',
-        '/java/effective-java/01-creating-and-destroying-objects.md',
+        {
+          text: '객체의 생성과 삭제',
+          collapsible: true,
+          children: [
+            '/java/effective-java/01.md',
+            '/java/effective-java/02.md',
+            '/java/effective-java/03.md',
+            '/java/effective-java/04.md',
+            '/java/effective-java/05.md',
+            '/java/effective-java/06.md',
+            '/java/effective-java/07.md',
+            '/java/effective-java/08.md',
+          ]
+        },
         '/java/effective-java/02-methods-common-to-all-objects.md',
         '/java/effective-java/03-classes-and-interfaces.md',
         '/java/effective-java/04-generics.md',
@@ -878,16 +891,16 @@ export const sidebarEn = sidebar({
                 '/py/ecosystem/06/cms/python-wordpress-xmlrpc.md',
                 '/py/ecosystem/06/cms/g6.md',
               ]
-            }, {
-              text: '07. 데이터베이스 및 파일 처리',
-              collapsible: true,
-              children: [
-                '/py/ecosystem/07.md',
-                
-              ]
             }
           ]
-        }
+        }, {
+          text: '07. 데이터베이스 및 파일 처리',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/07.md',
+            
+          ]
+        },
       ]
     }, {
       text: 'Finance with Python',

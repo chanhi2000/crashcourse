@@ -40,7 +40,7 @@ isOriginal: false
 {
   "title": "tempfile: 임시 파일과 임시 폴더 생성 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/book/230414",
+  "link": "https://wikidocs.net/230414",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }
