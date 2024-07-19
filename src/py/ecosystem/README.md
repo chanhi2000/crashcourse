@@ -129,101 +129,99 @@ cover: https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
   - [transformers: Hugging Face팀의 ML 라이브러리](/py/ecosystem/05/transformers.md)
 - [06. 파이썬 웹 개발](/py/ecosystem/06.md)
   - [네트워킹 및 웹 스크래핑](/py/ecosystem/06/network-web-scraping/README.md)
-    - BeautifulSoup: 웹 데이터 추출을 위한 도구
-    - HTTPX: 최신 비동기 HTTP 클라이언트
-    - MechanicalSoup: 자동화 + 웹 스크레이핑 라이브러리
-    - PyQuery: HTML 문서 파싱 및 조작 라이브러리
-    - PyZMQ: ZeroMQ 라이브러리의 Python 바인딩
-    - Requests: 간결한 HTTP 라이브러리
-    - Scapy: 대화형 패킷 조작 프로그램
-    - Scrapy: 강력한 웹 크롤링 및 스크래핑 프레임워크
-    - Selenium: 웹 자동화 및 테스팅을 위한 강력한 도구
-    - asyncio: 비동기 I/O 라이브러리
-    - httpie: 커맨드라인 HTTP 클라이언트
-    - impacket: 네트워크 프로토콜을 위한 컬렉션
-    - socket: 저수준 네트워킹 인터페이스
-    - urllib: URL 제어도구
-    - webbrowser: 기본 웹 브라우저 제어 도구
-  - [실시간 통신](/py/ecosystem/06/rtc.md)
-    - WebSockets: 웹 소켓 서버와 클라이언트 개발
-    - paho-mqtt: MQTT 프로토콜의 Pub/Sub 클라이언트
-    - python-socketio: 파이썬 Socket.IO 서버 및 클라이언트
-  - [웹 애플리케이션 서버](/py/ecosystem/06/was.md)
-    - FastUI: 더 빠르고 좋은 웹 애플리케이션 UI
-    - JustPy: 객체 지향 고수준 파이썬 웹 프레임워크
-    - NiceGUI: JustPy 기반 웹 프레임워크
-  - [웹 어플리케이션 프론트엔드](/py/ecosystem/06/fe.md)
-    - Gunicorn: 파이썬 기반 WSGI 구현체
-    - uWSGI: 범용 웹 서버
-    - uvicorn: Python 기반 ASGI 서버
-  - [웹 프레임워크](/py/ecosystem/06/web-framework.md)
-    - Bottle: 간단한 마이크로 웹 프레임워크
-    - CubicWeb: 세맨틱 웹 프레임워크
-    - Django: 강력한 기능의 웹 프레임워크
-    - Falcon: 고성능 마이크로서비스 웹 프레임워크
-    - FastAPI: 빠르고 현대적인 API 개발
-    - Flask: 경량화된 유연한 마이크로 웹 프레임워크
-    - PY4WEB: 데이터베이스 기반 웹 App. 개발 프레임워크
-    - Pyramid: 경량, 유연한 웹 프레임워크
-    - Quart: 비동기 웹 프레임워크
-    - Reflex: 모던 웹 개발의 새로운 지평
-    - Sanic: 고성능 비동기 웹 프레임워크
-    - Starlette: 파이썬 비동기 웹 프레임워크
-    - Streamlit: 데이터 과학자의 쉬운 웹 제작 도구
-    - Tornado: 네트워킹 라이브러리이자 웹 프레임워크
-    - web2py: 오픈소스 웹 애플리케이션 프레임워크
-  - [유틸리티 및 기타](/py/ecosystem/06/util.md)
-    - IDNA: 국제화 도메인 이름 처리
-    - Jinja2: 파이썬 웹 템플릿 엔진
-    - MarkupSafe: HTML 및 XML과 같은 마크업 언어를 안전하게 처리
-    - OAuthLib, Authlib, PyJWT: 인증 프로토콜 라이브러리
-    - Pydantic: 웹 프레임워크의 데이터 유효성 검사 도구
-    - Werkzeug: WSGI 유틸리티 라이브러리
-    - gevent: 비동기 프로그래밍을 위한 경량화된 코루틴 라이브러리
-  - [정적 사이트 생성기](/py/ecosystem/06/ssg.md)
-    - Nikola: 정적 사이트 생성기
-    - Pelican: 정적 사이트 생성기
-    - mkdocs: 마크다운 문서화 사이트 라이브러리
-  - [컨텐츠 관리 시스템 (CMS)](/py/ecosystem/06/cms.md)
-    - Django CMS: Django 기반 오픈 소스 CM
-    - Mezzanine: Django 기반 오픈 소스 CMS
-    - Wagtail: Django 기반 오픈 소스 CMS
-    - python-wordpress-xmlrpc: WordPress REST API
-    - 그누보드6: 국내 오픈소스 CMS
+    - [BeautifulSoup: 웹 데이터 추출을 위한 도구](/py/ecosystem/06/network-web-scraping/beautiful-soup.md)
+    - [HTTPX: 최신 비동기 HTTP 클라이언트](/py/ecosystem/06/network-web-scraping/httpx.md)
+    - [MechanicalSoup: 자동화 + 웹 스크레이핑 라이브러리](/py/ecosystem/06/network-web-scraping/mechanical-soup.md)
+    - [PyQuery: HTML 문서 파싱 및 조작 라이브러리](/py/ecosystem/06/network-web-scraping/py-query.md)
+    - [PyZMQ: ZeroMQ 라이브러리의 Python 바인딩](/py/ecosystem/06/network-web-scraping/py-zmq.md)
+    - [Requests: 간결한 HTTP 라이브러리](/py/ecosystem/06/network-web-scraping/requests.md)
+    - [Scapy: 대화형 패킷 조작 프로그램](/py/ecosystem/06/network-web-scraping/scapy.md)
+    - [Scrapy: 강력한 웹 크롤링 및 스크래핑 프레임워크](/py/ecosystem/06/network-web-scraping/scrapy.md)
+    - [Selenium: 웹 자동화 및 테스팅을 위한 강력한 도구](/py/ecosystem/06/network-web-scraping/selenium.md)
+    - [WebSockets: 웹 소켓 서버와 클라이언트 개발](/py/ecosystem/06/network-web-scraping/web-sockets.md)
+    - [httpie: 커맨드라인 HTTP 클라이언트](/py/ecosystem/06/network-web-scraping/httpie.md)
+    - [impacket: 네트워크 프로토콜을 위한 컬렉션](/py/ecosystem/06/network-web-scraping/impacket.md)
+    - [paho-mqtt: MQTT 프로토콜의 Pub/Sub 클라이언트](/py/ecosystem/06/network-web-scraping/paho-mqtt.md)
+    - [python-socketio: 파이썬 Socket.IO 서버 및 클라이언트](/py/ecosystem/06/network-web-scraping/python-socketio.md)
+    - [socket: 저수준 네트워킹 인터페이스](/py/ecosystem/06/network-web-scraping/socket.md)
+    - [urllib: URL 제어도구](/py/ecosystem/06/network-web-scraping/urllib.md)
+    - [webbrowser: 기본 웹 브라우저 제어 도구](/py/ecosystem/06/network-web-scraping/webbrowser.md)
+    - [비동기 라이브러리 - asyncio 등](/py/ecosystem/06/network-web-scraping/asyncio.md)
+  - [웹 애플리케이션 서버](/py/ecosystem/06/was/README.md)
+    - [Gunicorn: 파이썬 기반 WSGI 구현체](/py/ecosystem/06/was/gunicorn.md)
+    - [uWSGI: 범용 웹 서버](/py/ecosystem/06/was/u-wsgi.md)
+    - [uvicorn: Python 기반 ASGI 서버](/py/ecosystem/06/was/uvicorn.md)
+  - [웹 어플리케이션 프론트엔드](/py/ecosystem/06/fe/README.md)
+    - [FastUI: 더 빠르고 좋은 웹 애플리케이션 UI](/py/ecosystem/06/fe/fast-ui.md)
+    - [JustPy: 객체 지향 고수준 파이썬 웹 프레임워크](/py/ecosystem/06/fe/just-py.md)
+    - [NiceGUI: JustPy 기반 웹 프레임워크](/py/ecosystem/06/fe/nice-gui.md)
+  - [웹 프레임워크](/py/ecosystem/06/web-framework/README.md)
+    - [Bottle: 간단한 마이크로 웹 프레임워크](/py/ecosystem/06/web-framework/bottle.md)
+    - [CubicWeb: 세맨틱 웹 프레임워크](/py/ecosystem/06/web-framework/cubic-web.md)
+    - [Django: 강력한 기능의 웹 프레임워크](/py/ecosystem/06/web-framework/django.md)
+    - [Falcon: 고성능 마이크로서비스 웹 프레임워크](/py/ecosystem/06/web-framework/falcon.md)
+    - [FastAPI: 빠르고 현대적인 API 개발](/py/ecosystem/06/web-framework/fast-api.md)
+    - [Flask: 경량화된 유연한 마이크로 웹 프레임워크](/py/ecosystem/06/web-framework/flask.md)
+    - [PY4WEB: 데이터베이스 기반 웹 App. 개발 프레임워크](/py/ecosystem/06/web-framework/py4web.md)
+    - [Pyramid: 경량, 유연한 웹 프레임워크](/py/ecosystem/06/web-framework/pyramid.md)
+    - [Quart: 비동기 웹 프레임워크](/py/ecosystem/06/web-framework/quart.md)
+    - [Reflex: 모던 웹 개발의 새로운 지평](/py/ecosystem/06/web-framework/reflex.md)
+    - [Sanic: 고성능 비동기 웹 프레임워크](/py/ecosystem/06/web-framework/sanic.md)
+    - [Starlette: 파이썬 비동기 웹 프레임워크](/py/ecosystem/06/web-framework/starlette.md)
+    - [Streamlit: 데이터 과학자의 쉬운 웹 제작 도구](/py/ecosystem/06/web-framework/streamlit.md)
+    - [Tornado: 네트워킹 라이브러리이자 웹 프레임워크](/py/ecosystem/06/web-framework/tornado.md)
+    - [web2py: 오픈소스 웹 애플리케이션 프레임워크](/py/ecosystem/06/web-framework/web2py.md)
+  - [유틸리티 및 기타](/py/ecosystem/06/util/README.md)
+    - [IDNA: 국제화 도메인 이름 처리](/py/ecosystem/06/util/idna.md)
+    - [Jinja2: 파이썬 웹 템플릿 엔진](/py/ecosystem/06/util/jinja2.md)
+    - [MarkupSafe: HTML 및 XML과 같은 마크업 언어를 안전하게 처리](/py/ecosystem/06/util/markup-safe.md)
+    - [OAuthLib, Authlib, PyJWT: 인증 프로토콜 라이브러리](/py/ecosystem/06/util/auth.md)
+    - [Pydantic: 웹 프레임워크의 데이터 유효성 검사 도구](/py/ecosystem/06/util/pydantic.md)
+    - [Werkzeug: WSGI 유틸리티 라이브러리](/py/ecosystem/06/util/werkzeug.md)
+  - [정적 사이트 생성기](/py/ecosystem/06/ssg/README.md)
+    - [Nikola: 정적 사이트 생성기](/py/ecosystem/06/ssg/nikola.md)
+    - [Pelican: 정적 사이트 생성기](/py/ecosystem/06/ssg/pelican.md)
+    - [mkdocs: 마크다운 문서화 사이트 라이브러리](/py/ecosystem/06/ssg/mkdocs.md)
+  - [컨텐츠 관리 시스템 (CMS)](/py/ecosystem/06/cms/README.md)
+    - [Django CMS: Django 기반 오픈 소스 CM](/py/ecosystem/06/cms/django-cms.md)
+    - [Mezzanine: Django 기반 오픈 소스 CMS](/py/ecosystem/06/cms/mezzanine.md)
+    - [Wagtail: Django 기반 오픈 소스 CMS](/py/ecosystem/06/cms/wagtail.md)
+    - [python-wordpress-xmlrpc: WordPress REST API](/py/ecosystem/06/cms/python-wordpress-xmlrpc.md)
+    - [그누보드6: 국내 오픈소스 CMS](/py/ecosystem/06/cms/g6.md)
 - [07. 데이터베이스 및 파일 처리](/py/ecosystem/07.md)
-    DuckDB: 데이터 분석용 SQL 데이터베이스
-    Elasticsearch: Elasticsearch의 파이썬 클라이언트
-    ORM (Object-Relational Mapping)
-    Pinecone: 벡터 데이터베이스 관리
-    Protobuf: 구글이 개발한 직렬화 데이터 구조
-    SQLite3: Python 표준 데이터베이스 모듈
-    Streamz: 실시간 데이터 스트림 처리 라이브러리
-    chardet: 바이트 문자열의 인코딩 감지 라이브러리
-    cx_Oracle: Oracle Database 인터페이스
-    h5py: HDF5 포멧의 파이썬 인터페이스
-    json: JSON 인코더와 디코더
-    kafka-python:  Apache Kafka, 분산 스트리밍 플랫폼을 위한 클라이언트 라이브러리
-    pymssql: Microsoft SQL Server 접근 라이브러리
-    python-dotenv: 환경 변수 관리 라이브러리
-    sqlmap: SQL 인젝션 테스트 자동화 툴
-    데이터베이스 드라이버
-08 문서 편집
-    Excel 데이터 처리
-    Markdown 관련
-    PDFMiner: PDF 문서의 텍스트, 이미지 추출 라이브러리
-    PyLaTeX: LaTeX 문서 생성 및 관리 도구
-    PyMuPDF: PDF 문서의 데이터 추출, 분석, 변환 및 조작
-    PyPDF: PDF 편집 라이브러리
-    PyYAML:  YAML 파서 및 생성기
-    csv: CSV 파일 읽기와 쓰기
-    csvkit: CSV 파일 처리 커맨드라인 도구 모음                        
-    html.parser: 간단한 HTML과 XHTML 구문 분석기                        
-    pikepdf: PDF 생성/편집/분석 라이브러리                        
-    python-docx: MS Word 문서 편집 라이브러리                        
-    python-pptx: MS PowerPoint 파일 편집
-    sphinx: 강력한 문서 생성 도구
-    tomllib: 표준 TOML 제어 도구
-    xml: XML 처리 모듈
+  - [ConnectorX: 데이터베이스에서 Pandas.DataFrame으로 빠르게 로드](/py/ecosystem/07/connector-x.md)
+  - [DuckDB: 데이터 분석용 SQL 데이터베이스](/py/ecosystem/07/duck-db.md)
+  - [Elasticsearch: Elasticsearch의 파이썬 클라이언트](/py/ecosystem/07/elasticsearch.md)
+  - [ORM (Object-Relational Mapping)](/py/ecosystem/07/orm.md)
+  - [Pinecone: 벡터 데이터베이스 관리](/py/ecosystem/07/pinecone.md)
+  - [Protobuf: 구글이 개발한 직렬화 데이터 구조](/py/ecosystem/07/protobuf.md)
+  - [SQLite3: Python 표준 데이터베이스 모듈](/py/ecosystem/07/sqlite3.md)
+  - [Streamz: 실시간 데이터 스트림 처리 라이브러리](/py/ecosystem/07/streamz.md)
+  - [chardet: 바이트 문자열의 인코딩 감지 라이브러리](/py/ecosystem/07/chardet.md)
+  - [cx_Oracle: Oracle Database 인터페이스](/py/ecosystem/07/cx-oracle.md)
+  - [h5py: HDF5 포멧의 파이썬 인터페이스](/py/ecosystem/07/h5py.md)
+  - [json: JSON 인코더와 디코더](/py/ecosystem/07/json.md)
+  - [kafka-python: Apache Kafka, 분산 스트리밍 플랫폼을 위한 클라이언트 라이브러리](/py/ecosystem/07/kafka-python.md)
+  - [pymssql: Microsoft SQL Server 접근 라이브러리](/py/ecosystem/07/pymssql.md)
+  - [python-dotenv: 환경 변수 관리 라이브러리](/py/ecosystem/07/python-dotenv.md)
+  - [sqlmap: SQL 인젝션 테스트 자동화 툴](/py/ecosystem/07/sqlmap.md)
+  - [데이터베이스 드라이버](/py/ecosystem/07/db-driver.md)
+- [08. 문서 편집](/py/ecosystem/08.md)
+  - [Excel 데이터 처리](/py/ecosystem/08/xls.md)
+  - [Markdown 관련](/py/ecosystem/08/markdown.md)
+  - [PDFMiner: PDF 문서의 텍스트, 이미지 추출 라이브러리](/py/ecosystem/08/pdf-miner.md)
+  - [PyLaTeX: LaTeX 문서 생성 및 관리 도구](/py/ecosystem/08/py-latex.md)
+  - [PyMuPDF: PDF 문서의 데이터 추출, 분석, 변환 및 조작](/py/ecosystem/08/py-mu-pdf.md)
+  - [PyPDF: PDF 편집 라이브러리](/py/ecosystem/08/py-pdf.md)
+  - [PyYAML:  YAML 파서 및 생성기](/py/ecosystem/08/py-yaml.md)
+  - [csv, csvkit: CSV 파일 제어 도구](/py/ecosystem/08/py-csv.md)
+  - [html.parser: 간단한 HTML과 XHTML 구문 분석기](/py/ecosystem/08/py-html-parser.md)
+  - [pikepdf: PDF 생성/편집/분석 라이브러리](/py/ecosystem/08/pikepdf.md)
+  - [python-docx: MS Word 문서 편집 라이브러리](/py/ecosystem/08/python-docs.md)
+  - [python-pptx: MS PowerPoint 파일 편집](/py/ecosystem/08/python-pptx.md)
+  - [sphinx: 강력한 문서 생성 도구](/py/ecosystem/08/sphinx.md)
+  - [tomllib toml: 표준 TOML 제어 도구](/py/ecosystem/08/toml.md)
+  - [xml lxml: XML 처리 모듈](/py/ecosystem/08/xml.md)
 09 GUI 개발
     DearPyGui: GUI 라이브러리
     Eel: Chrome 기반 GUI 라이브러리

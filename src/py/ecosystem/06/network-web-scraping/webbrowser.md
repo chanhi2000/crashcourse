@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "WebSockets: 웹 소켓 서버와 클라이언트 개발"
-description: "네트워킹 및 웹 스크래핑 > WebSockets: 웹 소켓 서버와 클라이언트 개발"
+title: "webbrowser: 기본 웹 브라우저 제어 도구"
+description: "실시간 통신 > webbrowser: 기본 웹 브라우저 제어 도구"
 category:
   - Python
 tag: 
@@ -11,12 +11,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "네트워킹 및 웹 스크래핑 > WebSockets: 웹 소켓 서버와 클라이언트 개발"
+      content: "실시간 통신 > webbrowser: 기본 웹 브라우저 제어 도구"
     - property: og:description
-      content: "WebSockets: 웹 소켓 서버와 클라이언트 개발"
+      content: "webbrowser: 기본 웹 브라우저 제어 도구"
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/rtc/web-sockets.html
-next: /py/ecosystem/06/rtc/README.md
+      content: https://chanhi2002.github.io/crashcourse/py/ecosystem/06/network-web-scraping/webbrowser.html
 date: 2024-05-06
 isOriginal: false
 ---
@@ -39,7 +38,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "WebSockets: 웹 소켓 서버와 클라이언트 개발 | WikiDocs",
+  "title": "webbrowser: 기본 웹 브라우저 제어 도구 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
   "link": "https://wikidocs.net/230409",
   "logo": "https://wikidocs.net/static/img/favicon.ico",

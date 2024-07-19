@@ -15,8 +15,8 @@ head:
     - property: og:description
       content: "python-socketio: 파이썬 Socket.IO 서버 및 클라이언트"
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/rtc/paho-mqtt.html
-date: 2024-05-05
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/network-web-scraping/paho-mqtt.html
+date: 2024-07-14
 isOriginal: false
 cover: https://wikidocs.net/images/page/236799/MQTT_logo.png
 ---

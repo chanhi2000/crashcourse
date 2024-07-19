@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "Scapy: 대화형 패킷 조작 프로그램"
-description: "함께해요 파이썬 생태계 > Scapy: 대화형 패킷 조작 프로그램"
+title: "h5py: HDF5 포멧의 파이썬 인터페이스"
+description: "함께해요 파이썬 생태계 > h5py: HDF5 포멧의 파이썬 인터페이스"
 category:
   - Python
 tag: 
@@ -11,14 +11,13 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "함께해요 파이썬 생태계 > Scapy: 대화형 패킷 조작 프로그램"
+      content: "함께해요 파이썬 생태계 > h5py: HDF5 포멧의 파이썬 인터페이스"
     - property: og:description
-      content: "Scapy: 대화형 패킷 조작 프로그램"
+      content: "h5py: HDF5 포멧의 파이썬 인터페이스"
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/network-web-scraping/scapy.html
-date: 2024-05-06
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/07/h5py.html
+date: 2024-05-02
 isOriginal: false
-cover: https://wikidocs.net/images/page/232949/scapy_logo.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -30,7 +29,6 @@ cover: https://wikidocs.net/images/page/232949/scapy_logo.png
   "link": "/py/ecosystem/README.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
-  
 }
 ```
 
@@ -40,9 +38,9 @@ cover: https://wikidocs.net/images/page/232949/scapy_logo.png
 
 ```component VPCard
 {
-  "title": "Scapy: 대화형 패킷 조작 프로그램 | WikiDocs",
+  "title": "h5py: HDF5 포멧의 파이썬 인터페이스 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/232949",
+  "link": "https://wikidocs.net/235782",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

@@ -804,21 +804,21 @@ export const sidebarEn = sidebar({
                 '/py/ecosystem/06/network-web-scraping/scapy.md',
                 '/py/ecosystem/06/network-web-scraping/scrapy.md',
                 '/py/ecosystem/06/network-web-scraping/selenium.md',
-                '/py/ecosystem/06/network-web-scraping/asyncio.md',
+                '/py/ecosystem/06/network-web-scraping/web-sockets.md',
                 '/py/ecosystem/06/network-web-scraping/httpie.md',
                 '/py/ecosystem/06/network-web-scraping/impacket.md',
+                '/py/ecosystem/06/network-web-scraping/paho-mqtt.md',
+                '/py/ecosystem/06/network-web-scraping/python-socketio.md',
                 '/py/ecosystem/06/network-web-scraping/socket.md',
                 '/py/ecosystem/06/network-web-scraping/urllib.md',
                 '/py/ecosystem/06/network-web-scraping/webbrowser.md',
+                '/py/ecosystem/06/network-web-scraping/async.md',
               ]
             }, {
               text: '실시간 통신',
               collapsible: true,
               children: [
                 '/py/ecosystem/06/rtc/README.md',
-                '/py/ecosystem/06/rtc/web-sockets.md',
-                '/py/ecosystem/06/rtc/paho-mqtt.md',
-                '/py/ecosystem/06/rtc/python-socketio.md',
               ]
             }, {
               text: '웹 애플리케이션 서버',
@@ -898,9 +898,46 @@ export const sidebarEn = sidebar({
           collapsible: true,
           children: [
             '/py/ecosystem/07.md',
-            
+            '/py/ecosystem/07/connector-x.md',
+            '/py/ecosystem/07/duck-db.md',
+            '/py/ecosystem/07/elasticsearch.md',
+            '/py/ecosystem/07/orm.md',
+            '/py/ecosystem/07/pinecone.md',
+            '/py/ecosystem/07/protobuf.md',
+            '/py/ecosystem/07/sqlite3.md',
+            '/py/ecosystem/07/streamz.md',
+            '/py/ecosystem/07/chardet.md',
+            '/py/ecosystem/07/cx-oracle.md',
+            '/py/ecosystem/07/h5py.md',
+            '/py/ecosystem/07/json.md',
+            '/py/ecosystem/07/kafka-python.md',
+            '/py/ecosystem/07/pymssql.md',
+            '/py/ecosystem/07/python-dotenv.md',
+            '/py/ecosystem/07/sqlmap.md',
+            '/py/ecosystem/07/db-driver.md',
           ]
-        },
+        }, {
+          text: '08. 문서 편집',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/08.md',
+            '/py/ecosystem/08/xls.md',
+            '/py/ecosystem/08/markdown.md',
+            '/py/ecosystem/08/pdf-miner.md',
+            '/py/ecosystem/08/py-latex.md',
+            '/py/ecosystem/08/py-mu-pdf.md',
+            '/py/ecosystem/08/py-pdf.md',
+            '/py/ecosystem/08/py-yaml.md',
+            '/py/ecosystem/08/py-csv.md',
+            '/py/ecosystem/08/py-html-parser.md',
+            '/py/ecosystem/08/pikepdf.md',
+            '/py/ecosystem/08/python-docs.md',
+            '/py/ecosystem/08/python-pptx.md',
+            '/py/ecosystem/08/sphinx.md',
+            '/py/ecosystem/08/toml.md',
+            '/py/ecosystem/08/xml.md',
+          ]
+        }
       ]
     }, {
       text: 'Finance with Python',

@@ -149,9 +149,9 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "asyncio: 비동기 I/O 라이브러리 | WikiDocs",
+  "title": "WebSockets: 웹 소켓 서버와 클라이언트 개발 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "/py/ecosystem/06/network-web-scraping/asyncio.md",
+  "link": "/py/ecosystem/06/rtc/web-sockets.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }
@@ -172,6 +172,26 @@ isOriginal: false
   "title": "impacket: 네트워크 프로토콜을 위한 컬렉션 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
   "link": "/py/ecosystem/06/network-web-scraping/impacket.md",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(51,122,183,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "paho-mqtt: MQTT 프로토콜의 Pub/Sub 클라이언트 | WikiDocs",
+  "desc": "함께해요 파이썬 생태계",
+  "link": "/py/ecosystem/06/rtc/paho-mqtt.md",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(51,122,183,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "python-socketio: 파이썬 Socket.IO 서버 및 클라이언트 | WikiDocs",
+  "desc": "함께해요 파이썬 생태계",
+  "link": "/py/ecosystem/06/rtc/python-socketio.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }
@@ -206,6 +226,18 @@ isOriginal: false
   "background": "rgba(51,122,183,0.2)"
 }
 ```
+
+```component VPCard
+{
+  "title": "비동기 라이브러리 - asyncio 등 | WikiDocs",
+  "desc": "함께해요 파이썬 생태계",
+  "link": "/py/ecosystem/06/network-web-scraping/async.md",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(51,122,183,0.2)"
+}
+```
+
+<!-- TODO: 찾아 이동 -->
 
 ---
 

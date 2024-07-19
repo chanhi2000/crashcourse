@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "python-socketio: 파이썬 Socket.IO 서버 및 클라이언트"
-description: "실시간 통신 > python-socketio: 파이썬 Socket.IO 서버 및 클라이언트"
+title: "Protobuf: 구글이 개발한 직렬화 데이터 구조"
+description: "함께해요 파이썬 생태계 > Protobuf: 구글이 개발한 직렬화 데이터 구조"
 category:
   - Python
 tag: 
@@ -11,13 +11,12 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "실시간 통신 > python-socketio: 파이썬 Socket.IO 서버 및 클라이언트"
+      content: "함께해요 파이썬 생태계 > Protobuf: 구글이 개발한 직렬화 데이터 구조"
     - property: og:description
-      content: "python-socketio: 파이썬 Socket.IO 서버 및 클라이언트"
+      content: "Protobuf: 구글이 개발한 직렬화 데이터 구조"
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/rtc/python-socketio.html
-next: /py/ecosystem/06/was/README.md
-date: 2024-05-02
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/07/protobuf.html
+date: 2024-05-06
 isOriginal: false
 ---
 
@@ -39,9 +38,9 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "python-socketio: 파이썬 Socket.IO 서버 및 클라이언트 | WikiDocs",
+  "title": "Protobuf: 구글이 개발한 직렬화 데이터 구조 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/236800",
+  "link": "https://wikidocs.net/235940",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }
