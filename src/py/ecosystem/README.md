@@ -31,7 +31,7 @@ cover: https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
 <SiteInfo
   name="함께해요 파이썬 생태계 | WikiDocs"
   desc="함께해요 파이썬 생태계"
-  url="https://wikidocs.net/14021"
+  url="https://wikidocs.net/book/14021"
   logo="https://wikidocs.net/static/img/favicon.ico"
   preview="https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98%ED%9D%A5%ED%95%B4%EB%9D%BC_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%A7%8C%EC%84%B8.jpg"/>
 
@@ -222,17 +222,17 @@ cover: https://wikidocs.net/images/page/226605/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
   - [sphinx: 강력한 문서 생성 도구](/py/ecosystem/08/sphinx.md)
   - [tomllib toml: 표준 TOML 제어 도구](/py/ecosystem/08/toml.md)
   - [xml lxml: XML 처리 모듈](/py/ecosystem/08/xml.md)
-09 GUI 개발
-    DearPyGui: GUI 라이브러리
-    Eel: Chrome 기반 GUI 라이브러리
-    Gooey: 커맨드 라인 프로그램을 GUI 애플리케이션으로 변환
-    Kivy: 크로스 플랫폼 GUI 라이브러리
-    PyGObject: GNOME 기반 GUI 라이브러리
-    PyQt/PySide: 풍부한 기능의 크로스 플랫폼 GUI
-    PySimpleGUI: GUI 개발 라이브러리
-    Tkinter: Tcl/Tk 파이썬 인터페이스
-    VTK: 3D 시각화 라이브러리
-    wxPython: 크로스 플랫폼 GUI 툴킷
+- [09 GUI 개발](/py/ecosystem/09/README.md)
+  - [DearPyGui: GUI 라이브러리](/py/ecosystem/09/dear-py-gui.md)
+  - [Eel: Chrome 기반 GUI 라이브러리](/py/ecosystem/09/eel.md)
+  - [Gooey: 커맨드 라인 프로그램을 GUI 애플리케이션으로 변환](/py/ecosystem/09/gooey.md)
+  - [Kivy: 크로스 플랫폼 GUI 라이브러리](/py/ecosystem/09/kivy.md)
+  - [PyGObject: GNOME 기반 GUI 라이브러리](/py/ecosystem/09/py-g-object.md)
+  - [PyQt/PySide: 풍부한 기능의 크로스 플랫폼 GUI](/py/ecosystem/09/py-qt.md)
+  - [PySimpleGUI: GUI 개발 라이브러리](/py/ecosystem/09/py-simple-gui.md)
+  - [Tkinter: Tcl/Tk 파이썬 인터페이스](/py/ecosystem/09/tkinter.md)
+  - [VTK: 3D 시각화 라이브러리](/py/ecosystem/09/v-tk.md)
+  - [wxPython: 크로스 플랫폼 GUI 툴킷](/py/ecosystem/09/wx-python.md)
 10 게임 개발
   Arcade: 2D 비디오 게임을 개발 라이브러리
   Blender Python API: 블렌더의 파이썬 API

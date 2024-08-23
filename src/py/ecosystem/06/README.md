@@ -15,7 +15,7 @@ head:
     - property: og:description
       content: 06. 파이썬 웹 개발
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06.html
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/06/
 prev: /py/ecosystem/05/transformers.md
 next: /py/ecosystem/06/network-web-scraping/README.md
 date: 2024-05-06

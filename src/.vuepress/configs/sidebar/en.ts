@@ -693,7 +693,7 @@ export const sidebarEn = sidebar({
           text: '02. 운영 체제 및 시스템 관련',
           collapsible: true,
           children: [
-            '/py/ecosystem/02.md',
+            '/py/ecosystem/02/README.md',
             '/py/ecosystem/02/datetime.md',
             '/py/ecosystem/02/glob.md',
             '/py/ecosystem/02/os.md',
@@ -707,15 +707,15 @@ export const sidebarEn = sidebar({
           text: '03. 데이터 과학 및 분석',
           collapsible: true,
           children: [
-            '/py/ecosystem/03.md',
+            '/py/ecosystem/03/README.md',
             '/py/ecosystem/03/algorithms.md',
             '/py/ecosystem/03/fakers.md',
             '/py/ecosystem/03/jupyter.md',
             '/py/ecosystem/03/pyvis.md',
             '/py/ecosystem/03/kiwisolver.md',
-            '/py/ecosystem/03/numpy.md',
+            '/py/ecosystem/03/num-py.md',
             '/py/ecosystem/03/pandas.md',
-            '/py/ecosystem/03/pyspark.md',
+            '/py/ecosystem/03/py-spark.md',
             '/py/ecosystem/03/shapely.md',
             '/py/ecosystem/03/taichi.md',
             '/py/ecosystem/03/the-algorithms.md',
@@ -731,7 +731,7 @@ export const sidebarEn = sidebar({
           text: '04. 데이터 시각화',
           collapsible: true,
           children: [
-            '/py/ecosystem/04.md',
+            '/py/ecosystem/04/README.md',
             '/py/ecosystem/04/apache-superset.md',
             '/py/ecosystem/04/bokeh.md',
             '/py/ecosystem/04/cartopy.md',
@@ -759,7 +759,7 @@ export const sidebarEn = sidebar({
           text: '05. 머신 러닝 및 인공 지능',
           collapsible: true,
           children: [
-            '/py/ecosystem/05.md',
+            '/py/ecosystem/05/README.md',
             '/py/ecosystem/05/bob.md',
             '/py/ecosystem/05/cntk.md',
             '/py/ecosystem/05/caffe.md',
@@ -789,7 +789,7 @@ export const sidebarEn = sidebar({
           text: '06. 파이썬 웹 개발',
           collapsible: true,
           children: [
-            '/py/ecosystem/06.md',
+            '/py/ecosystem/06/README.md',
             {
               text: '네트워킹 및 웹 스크래핑',
               collapsible: true,
@@ -897,7 +897,7 @@ export const sidebarEn = sidebar({
           text: '07. 데이터베이스 및 파일 처리',
           collapsible: true,
           children: [
-            '/py/ecosystem/07.md',
+            '/py/ecosystem/07/README.md',
             '/py/ecosystem/07/connector-x.md',
             '/py/ecosystem/07/duck-db.md',
             '/py/ecosystem/07/elasticsearch.md',
@@ -920,7 +920,7 @@ export const sidebarEn = sidebar({
           text: '08. 문서 편집',
           collapsible: true,
           children: [
-            '/py/ecosystem/08.md',
+            '/py/ecosystem/08/README.md',
             '/py/ecosystem/08/xls.md',
             '/py/ecosystem/08/markdown.md',
             '/py/ecosystem/08/pdf-miner.md',
@@ -928,14 +928,31 @@ export const sidebarEn = sidebar({
             '/py/ecosystem/08/py-mu-pdf.md',
             '/py/ecosystem/08/py-pdf.md',
             '/py/ecosystem/08/py-yaml.md',
+            '/py/ecosystem/08/report-lab.md',
             '/py/ecosystem/08/py-csv.md',
             '/py/ecosystem/08/py-html-parser.md',
             '/py/ecosystem/08/pikepdf.md',
-            '/py/ecosystem/08/python-docs.md',
+            '/py/ecosystem/08/python-docx.md',
             '/py/ecosystem/08/python-pptx.md',
             '/py/ecosystem/08/sphinx.md',
             '/py/ecosystem/08/toml.md',
             '/py/ecosystem/08/xml.md',
+          ]
+        }, {
+          text: '09. GUI 개발',
+          collapsible: true,
+          children: [
+            '/py/ecosystem/09/README.md',
+            '/py/ecosystem/09/dear-py-gui.md',
+            '/py/ecosystem/09/eel.md',
+            '/py/ecosystem/09/gooey.md',
+            '/py/ecosystem/09/kivy.md',
+            '/py/ecosystem/09/py-g-object.md',
+            '/py/ecosystem/09/py-qt.md',
+            '/py/ecosystem/09/py-simple-gui.md',
+            '/py/ecosystem/09/tkinter.md',
+            '/py/ecosystem/09/v-tk.md',
+            '/py/ecosystem/09/wx-python.md',
           ]
         }
       ]

@@ -16,7 +16,7 @@ head:
       content: "turtle: 교육용 거북이 그래픽스 라이브러리"
     - property: og:url
       content: https://chanhi2002.github.io/crashcourse/py/ecostystem/04/turtle.html
-next: /py/ecosystem/05.md
+next: /py/ecosystem/05/README.md
 date: 2024-05-06
 isOriginal: false
 cover: https://wikidocs.net/images/page/229757/tutle_star.png

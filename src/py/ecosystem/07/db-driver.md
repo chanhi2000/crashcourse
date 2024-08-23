@@ -16,6 +16,7 @@ head:
       content: "데이터베이스 드라이버"
     - property: og:url
       content: https://chanhi2002.github.io/crashcourse/py/ecostystem/07/db-driver.html
+next: /py/ecosystem/08/README.md
 date: 2024-04-13
 isOriginal: false
 ---

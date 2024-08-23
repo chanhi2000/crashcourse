@@ -15,7 +15,7 @@ head:
     - property: og:description
       content: 07. 데이터베이스 및 파일 처리
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/07.html
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/07/
 prev: /py/ecosystem/06/cms/g6.md
 date: 2024-05-02
 isOriginal: false

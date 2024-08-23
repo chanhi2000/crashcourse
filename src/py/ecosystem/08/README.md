@@ -15,7 +15,7 @@ head:
     - property: og:description
       content: 08. 문서 편집
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/08.html
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/08/
 prev: /py/ecosystem/07/db-driver.md
 date: 2024-05-06
 isOriginal: false
@@ -129,6 +129,16 @@ isOriginal: false
 
 ```component VPCard
 {
+  "title": "ReportLab: PDF 문서를 생성 라이브러리 | WikiDocs",
+  "desc": "함께해요 파이썬 생태계",
+  "link": "/py/ecosystem/08/report-lab.md",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(51,122,183,0.2)"
+}
+```
+
+```component VPCard
+{
   "title": "csv, csvkit: CSV 파일 제어 도구 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
   "link": "/py/ecosystem/08/py-csv.md",
@@ -161,7 +171,7 @@ isOriginal: false
 {
   "title": "python-docx: MS Word 문서 편집 라이브러리 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "/py/ecosystem/08/python-docs.md",
+  "link": "/py/ecosystem/08/python-docx.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

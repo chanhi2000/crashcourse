@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "pikepdf: PDF 생성/편집/분석 라이브러리"
-description: "함께해요 파이썬 생태계 > pikepdf: PDF 생성/편집/분석 라이브러리"
+title: "ReportLab: PDF 문서를 생성 라이브러리"
+description: "함께해요 파이썬 생태계 > ReportLab: PDF 문서를 생성 라이브러리"
 category:
   - Python
 tag: 
@@ -11,11 +11,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "함께해요 파이썬 생태계 > pikepdf: PDF 생성/편집/분석 라이브러리"
+      content: "함께해요 파이썬 생태계 > ReportLab: PDF 문서를 생성 라이브러리"
     - property: og:description
-      content: "pikepdf: PDF 생성/편집/분석 라이브러리"
+      content: "ReportLab: PDF 문서를 생성 라이브러리"
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/08/pikepdf.html
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/08/report-lab.html
 date: 2024-05-06
 isOriginal: false
 ---
@@ -38,9 +38,9 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "pikepdf: PDF 생성/편집/분석 라이브러리 | WikiDocs",
+  "title": "ReportLab: PDF 문서를 생성 라이브러리 | WikiDocs",
   "desc": "함께해요 파이썬 생태계",
-  "link": "https://wikidocs.net/226864",
+  "link": "https://wikidocs.net/236685",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

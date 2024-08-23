@@ -48,4 +48,20 @@ cover: https://wikidocs.net/images/page/226632/jupyter_logo.png
 
 ---
 
+## Pyvis: 대화형 네트워크 그래프 시각화
+
+```component VPCard
+{
+  "title": "Pyvis: 대화형 네트워크 그래프 시각화",
+  "desc": "함께해요 파이썬 생태계",
+  "link": "https://wikidocs.net/229297",
+  "logo": "https://wikidocs.net/static/img/favicon.ico",
+  "background": "rgba(51,122,183,0.2)"
+}
+```
+
+<!-- TODO: 작성 -->
+
+---
+
 <TagLinks />

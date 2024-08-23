@@ -16,6 +16,7 @@ head:
       content: "time: 시간 액세스와 변환"
     - property: og:url
       content: https://chanhi2002.github.io/crashcourse/py/ecostystem/02/time.html
+next: /py/ecosystem/03/README.md
 date: 2024-05-06
 isOriginal: false
 ---

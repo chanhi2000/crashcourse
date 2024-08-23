@@ -109,16 +109,6 @@ cover: https://wikidocs.net/images/page/226620/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
 
 ```component VPCard
 {
-  "title": "Pyvis: 대화형 네트워크 그래프 시각화",
-  "desc": "함께해요 파이썬 생태계",
-  "link": "/py/ecosystem/03/pyvis.md",
-  "logo": "https://wikidocs.net/static/img/favicon.ico",
-  "background": "rgba(51,122,183,0.2)"
-}
-```
-
-```component VPCard
-{
   "title": "Kiwisolver: 효율적인 제약 조건 해결 알고리즘",
   "desc": "함께해요 파이썬 생태계",
   "link": "/py/ecosystem/03/kiwisolver.md",
@@ -131,7 +121,7 @@ cover: https://wikidocs.net/images/page/226620/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
 {
   "title": "NumPy: 고성능의 수치 계산을 위한 라이브러리",
   "desc": "함께해요 파이썬 생태계",
-  "link": "/py/ecosystem/03/numPy.md",
+  "link": "/py/ecosystem/03/num-py.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }
@@ -151,7 +141,7 @@ cover: https://wikidocs.net/images/page/226620/%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99
 {
   "title": "PySpark: Apache Spark의 Python API",
   "desc": "함께해요 파이썬 생태계",
-  "link": "/py/ecosystem/03/pySpark.md",
+  "link": "/py/ecosystem/03/py-spark.md",
   "logo": "https://wikidocs.net/static/img/favicon.ico",
   "background": "rgba(51,122,183,0.2)"
 }

@@ -15,7 +15,7 @@ head:
     - property: og:description
       content: 05. 머신 러닝 및 인공 지능
     - property: og:url
-      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/05.html
+      content: https://chanhi2002.github.io/crashcourse/py/ecostystem/05/
 prev: /py/ecosystem/04/turtle.md
 date: 2024-01-25
 isOriginal: false
