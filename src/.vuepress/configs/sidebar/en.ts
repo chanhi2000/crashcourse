@@ -449,6 +449,15 @@ export const sidebarEn = sidebar({
         '/java/effective-java/11-serialization.md'
       ]
     }, {
+      text: 'JavaFX 게시판 프로그램',
+      collapsible: true,
+      icon: 'fa-brands fa-java',
+      children: [
+        '/java/aloha-javafx/README.md',
+        '/java/aloha-javafx/01.md',
+        '/java/aloha-javafx/02.md',
+      ]
+    }, {
       text: 'Jump to Spring Boot',
       collapsible: true,
       icon: 'iconfont icon-springboot',
@@ -520,6 +529,65 @@ export const sidebarEn = sidebar({
         '/java/jump-to-spring-boot/a.md',
       ]
     }, {
+      text: '개발자 유미 - 스프링 시큐리티',
+      collapsible: true,
+      icon: 'iconfont icon-springboot',
+      children: [
+        '/java/devyummi-spring-sec/README.md',
+        '/java/devyummi-spring-sec/01.md',
+        '/java/devyummi-spring-sec/02.md',
+        '/java/devyummi-spring-sec/03.md',
+        '/java/devyummi-spring-sec/04.md',
+        '/java/devyummi-spring-sec/05.md',
+        '/java/devyummi-spring-sec/06.md',
+        '/java/devyummi-spring-sec/07.md',
+        '/java/devyummi-spring-sec/08.md',
+        '/java/devyummi-spring-sec/09.md',
+        '/java/devyummi-spring-sec/10.md',
+        '/java/devyummi-spring-sec/11.md',
+        '/java/devyummi-spring-sec/12.md',
+        '/java/devyummi-spring-sec/13.md',
+        '/java/devyummi-spring-sec/14.md',
+      ] 
+    }, {
+      text: '개발자 유미 - 스프링 시큐리티 JWT',
+      collapsible: true,
+      icon: 'iconfont icon-springboot',
+      children: [
+        '/java/devyummi-spring-sec-jwt/README.md',
+        '/java/devyummi-spring-sec-jwt/01.md',
+        '/java/devyummi-spring-sec-jwt/02.md',
+        '/java/devyummi-spring-sec-jwt/03.md',
+        '/java/devyummi-spring-sec-jwt/04.md',
+        '/java/devyummi-spring-sec-jwt/05.md',
+        '/java/devyummi-spring-sec-jwt/06.md',
+        '/java/devyummi-spring-sec-jwt/07.md',
+        '/java/devyummi-spring-sec-jwt/08.md',
+        '/java/devyummi-spring-sec-jwt/09.md',
+        '/java/devyummi-spring-sec-jwt/10.md',
+        '/java/devyummi-spring-sec-jwt/11.md',
+        '/java/devyummi-spring-sec-jwt/12.md',
+        '/java/devyummi-spring-sec-jwt/13.md',
+        '/java/devyummi-spring-sec-jwt/14.md',
+      ] 
+    }, {
+      text: '개발자 유미 - 스프링 JWT 심화',
+      collapsible: true,
+      icon: 'iconfont icon-springboot',
+      children: [
+        '/java/devyummi-spring-sec-jwt-adv/README.md',
+        '/java/devyummi-spring-sec-jwt-adv/01.md',
+        '/java/devyummi-spring-sec-jwt-adv/02.md',
+        '/java/devyummi-spring-sec-jwt-adv/03.md',
+        '/java/devyummi-spring-sec-jwt-adv/04.md',
+        '/java/devyummi-spring-sec-jwt-adv/05.md',
+        '/java/devyummi-spring-sec-jwt-adv/06.md',
+        '/java/devyummi-spring-sec-jwt-adv/07.md',
+        '/java/devyummi-spring-sec-jwt-adv/08.md',
+        '/java/devyummi-spring-sec-jwt-adv/09.md',
+        '/java/devyummi-spring-sec-jwt-adv/10.md',
+      ] 
+    }, {
       text: '스프링부트 개념과 활용',
       collapsible: true,
       icon: 'iconfont icon-springboot',
@@ -532,27 +600,6 @@ export const sidebarEn = sidebar({
         '/java/spring-boot-whiteship/05.md',
         '/java/spring-boot-whiteship/06.md',
         '/java/spring-boot-whiteship/07.md',
-      ]
-    }, {
-      text: 'Java Web App with Quarkus and JPAStreamer',
-      collapsible: true,
-      icon: 'iconfont icon-quarkus',
-      children: [
-        '/java/freecodecamp-quarkus-jpastreamer/README.md',
-        '/java/freecodecamp-quarkus-jpastreamer/01.md',
-        '/java/freecodecamp-quarkus-jpastreamer/02.md',
-        '/java/freecodecamp-quarkus-jpastreamer/03.md',
-        '/java/freecodecamp-quarkus-jpastreamer/04.md',
-        '/java/freecodecamp-quarkus-jpastreamer/05.md',
-      ]
-    }, {
-      text: 'JavaFX 게시판 프로그램',
-      collapsible: true,
-      icon: 'fa-brands fa-java',
-      children: [
-        '/java/aloha-javafx/README.md',
-        '/java/aloha-javafx/01.md',
-        '/java/aloha-javafx/02.md',
       ]
     }, {
       text: '코틀린 테스팅 프레임워크 - Kotest',
@@ -2259,18 +2306,6 @@ export const sidebarEn = sidebar({
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/01.md',
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/02.md',
         '/devops/red-hat-containerize-your-application-w-buildah-and-podman/03.md'
-      ]
-    }, {
-      text: 'freecodecamp.org - DevOps with GitLab CI',
-      collapsible: true,
-      icon: 'fa-brands fa-gitlab',
-      children: [
-        '/devops/freecodecamp-gitlab-ci/README.md',
-        '/devops/freecodecamp-gitlab-ci/1.md',
-        '/devops/freecodecamp-gitlab-ci/2.md',
-        '/devops/freecodecamp-gitlab-ci/3.md',
-        '/devops/freecodecamp-gitlab-ci/4.md',
-        '/devops/freecodecamp-gitlab-ci/5.md',
       ]
     }, {
       text: 'Linux Journey',

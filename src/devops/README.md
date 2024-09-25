@@ -42,12 +42,6 @@ tag:
 
 :::
 
-::: details freecodecamp.org - DevOps with GitLab CI
-
-<ToCLocal basePath="/devops/freecodecamp-gitlab-ci" />
-
-:::
-
 ::: details DigitalOcean - Kubernetes
 
 <ToCLocal basePath="/devops/digitalocean-kubernetes" />

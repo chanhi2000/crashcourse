@@ -66,13 +66,21 @@ export const navbarEn = navbar([
         link: '/java/spring-boot-whiteship/README.md',
         icon: 'iconfont icon-springboot',
       }, {
-        text: 'Java Web App with Quarkus and JPAStreamer',
-        link: '/java/freecodecamp-quarkus-jpastreamer/README.md',
-        icon: 'iconfont icon-quarkus',
+        text: '스프링 시큐리티 JWT',
+        link: '/java/devyummi-spring-sec-jwt/README.md',
+        icon: 'iconfont icon-kotlin',
+      }, {
+        text: '스프링 JWT 심화',
+        link: '/java/devyummi-spring-sec-jwt-adv/README.md',
+        icon: 'iconfont icon-kotlin',
       }, {
         text: '코틀린 테스팅 프레임워크 - Kotest',
         link: '/java/devkuma-kotest/README.md',
         icon: 'iconfont icon-kotlin',
+      }, {
+        text: 'Get started with Quarkus and JPAStreamer',
+        link: 'https://chanhi2000.github.io/explore/articles/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/',
+        icon: 'iconfont icon-quarkus',
       }
     ]
   }, {
@@ -250,10 +258,6 @@ export const navbarEn = navbar([
         link: '/devops/red-hat-containerize-your-application-w-buildah-and-podman/README.md',
         icon: 'fa-brands fa-redhat'
       }, {
-        text: 'freecodecamp.org - DevOps with GitLab CI',
-        link: '/devops/freecodecamp-gitlab-ci/README.md',
-        icon: 'fa-brands fa-gitlab'
-      }, {
         text: 'Linux Journey',
         link: '/devops/linux-journey/README.md',
         icon: 'fa-brands fa-linux'
@@ -262,10 +266,10 @@ export const navbarEn = navbar([
         link: '/devops/digital-forensics-lab/README.md',
         icon: 'fas fa-shield-halved',
       }, {
-        text: '요즘 IT 블로그 - DevOps 관련',
-        link: '/devops/yozm/README.md',
-        icon: 'fas fa-cubes-stacked',
-      } 
+        text: 'DevOps with GitLab CI Course',
+        link: 'https://chanhi2000.github.io/explore/articles/freecodecamp.org/devops-with-gitlab-ci-course/',
+        icon: 'fa-brands fa-gitlab'
+      }
     ]
   }, {
     text: '',

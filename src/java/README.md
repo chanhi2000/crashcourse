@@ -19,7 +19,6 @@ tag:
 
 # {{ $frontmatter.description }} 관련
 
-
 <ShieldsGroup logos="youtube,openjdk,kotlin,intellijidea,jetbrains"/>
 
 ---
@@ -38,15 +37,39 @@ tag:
 
 :::
 
+::: details JavaFX 게시판 프로그램
+
+<ToCLocal basePath="/java/aloha-javafx" />
+
+:::
+
 ::: details Jump to Spring Boot
 
 <ToCLocal basePath="/java/jump-to-spring-boot" />
 
 :::
 
-::: details Java Web App with Quarkus and JPAStreamer
+::: details 스프링 시큐리티
 
-<ToCLocal basePath="/java/freecodecamp-quarkus-jpastreamer" />
+<ToCLocal basePath="/java/devyummi-spring-sec" />
+
+:::
+
+::: details 스프링 시큐리티 JWT
+
+<ToCLocal basePath="/java/devyummi-spring-sec-jwt" />
+
+:::
+
+::: details 스프링 JWT 심화
+
+<ToCLocal basePath="/java/devyummi-spring-sec-jwt-adv" />
+
+:::
+
+::: details 코틀린 테스팅 프레임워크 - Kotest
+
+<ToCLocal basePath="/java/devkuma-kotest" />
 
 :::
 

@@ -31,8 +31,6 @@ cover: https://yangbongsoo.gitbook.io/study/~gitbook/ogimage/-MEwtXaFwtHj0a5zzwB
   logo="https://81465973-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-Lej4tgjCgS0Wyj6JGe2%2Favatar.png?generation=1557720343650540&alt=media"
   preview="https://yangbongsoo.gitbook.io/study/~gitbook/ogimage/-MEwtXaFwtHj0a5zzwB4"/>
 
-[[toc]]
-
 ---
 
 ## Table of Contents
