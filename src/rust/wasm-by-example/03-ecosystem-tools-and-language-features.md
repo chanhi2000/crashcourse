@@ -42,5 +42,3 @@ Examples that highlight tools, libraries, and features of your selected programm
 ```
 
 ---
-
-<TagLinks />

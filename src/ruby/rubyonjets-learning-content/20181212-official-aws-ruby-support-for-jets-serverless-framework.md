@@ -176,5 +176,3 @@ More examples are in the [<FontIcon icon="iconfont icon-github"/>`tongueroo/jets
 Ruby serverless applications might also use native binary gems. Jets uses [Lambda Gems](https://www.lambdagems.com/) to make for a seamless and much easier deploy process. [Lambda Gems]() is currently in beta, and early signups will receive a special offer for their support.
 
 ---
-
-<TagLinks />

@@ -72,5 +72,3 @@ head:
   - [Helm으로 MySQL 설치하기](08B.md)
 
 ---
-
-<TagLinks />

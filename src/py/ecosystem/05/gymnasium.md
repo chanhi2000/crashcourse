@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/228050/gymnasium_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

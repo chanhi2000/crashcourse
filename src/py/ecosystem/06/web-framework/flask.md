@@ -60,5 +60,3 @@ cover: https://wikidocs.net/images/page/226650/flask_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

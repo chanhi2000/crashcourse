@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/227750/algorithms_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

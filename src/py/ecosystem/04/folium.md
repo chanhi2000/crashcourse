@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/234454/folium_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

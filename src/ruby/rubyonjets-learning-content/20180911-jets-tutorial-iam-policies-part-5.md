@@ -62,5 +62,3 @@ In this video, we continue the tutorials on the [Jets Ruby Serverless Framework]
 For an Jets Introduction: [Introducing Jets: A Ruby Serverless Framework](https://blog.boltops.com/2018/08/18/introducing-jets-a-ruby-serverless-framework/).
 
 ---
-
-<TagLinks />

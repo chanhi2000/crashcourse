@@ -51,5 +51,3 @@ next: /rust/rust-by-practice/type-conversion/as.md
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

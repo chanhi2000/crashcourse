@@ -278,5 +278,3 @@ If you want to dive deeper into more of the Fetch API, you can refer to the foll
 - [Fetch API vs Axios: Which Should You Choose](https://blog.bitsrc.io/fetch-api-vs-axios-js-for-making-http-requests-32bec2475d1b): This article compares the Fetch API and Axios, two popular web request tools, to help you choose the right tool for your project.
 
 ---
-
-<TagLinks />

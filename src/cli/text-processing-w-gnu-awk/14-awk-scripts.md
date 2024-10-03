@@ -47,8 +47,7 @@ So far, you've only seen how to provide `awk` scripts directly on the command li
 
 ::: info
 
-The [example_files (<FontIcon icon="iconfont icon-github"/>`learnbyexample/learn_gnuawk`)](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in 
-the examples.
+The [example_files (<FontIcon icon="iconfont icon-github"/>`learnbyexample/learn_gnuawk`)](https://github.com/learnbyexample/learn_gnuawk/tree/master/example_files) directory has all the files used in the examples.
 
 :::
 
@@ -182,8 +181,7 @@ Next chapter will discuss a few gotchas and tricks.
 
 ## Exercises
 
-
-::: info 
+::: info
 
 The [exercises (<FontIcon icon="iconfont icon-github"/>`learnbyexample/learn_gnuawk`)](https://github.com/learnbyexample/learn_gnuawk/tree/master/exercises) directory has all the files used in this section.
 

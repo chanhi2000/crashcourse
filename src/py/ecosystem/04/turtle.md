@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/229757/tutle_star.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

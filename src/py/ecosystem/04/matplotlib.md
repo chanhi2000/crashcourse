@@ -99,5 +99,3 @@ cover: https://wikidocs.net/images/page/226672/matplotlib_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

@@ -68,5 +68,3 @@ head:
 - [PHP : The Right Way 한국어 번역](https://modernpug.github.io/php-the-right-way/)
 
 ---
-
-<TagLinks />

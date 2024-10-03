@@ -56,5 +56,3 @@ cover: https://yangbongsoo.gitbook.io/study/~gitbook/ogimage/-MEwtXaFwtHj0a5zzwB
 - [직렬화](11-serialization.md)
 
 ---
-
-<TagLinks />

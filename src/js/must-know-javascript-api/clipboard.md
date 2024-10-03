@@ -226,5 +226,3 @@ The Clipboard API is a set of JavaScript APIs for manipulating the clipboard in 
 - [Can I Use: Clipboard API](https://caniuse.com/?search=Clipboard)
 
 ---
-
-<TagLinks />

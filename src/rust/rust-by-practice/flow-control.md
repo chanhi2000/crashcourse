@@ -50,5 +50,3 @@ isOriginal: false
   preview="https://github.com/sunface/rust-by-practice/blob/master/en/assets/header.jpg?raw=true"/>
 
 ---
-
-<TagLinks />

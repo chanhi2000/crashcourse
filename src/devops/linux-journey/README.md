@@ -72,5 +72,3 @@ head:
 - [DNS](03-networking-nomad/03g-dns.md)
 
 ---
-
-<TagLinks />

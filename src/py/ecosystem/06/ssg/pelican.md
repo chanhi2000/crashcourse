@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/228059/Pelican_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

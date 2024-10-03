@@ -301,5 +301,3 @@ sudo chmod 1755 mydir
 The numerical representation for the sticky bit is 1
 
 ---
-
-<TagLinks />

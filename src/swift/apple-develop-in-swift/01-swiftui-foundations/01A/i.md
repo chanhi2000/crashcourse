@@ -78,5 +78,3 @@ __Note__: You don’t need an iOS device. Xcode includes tools that show you how
 You can navigate using the bar at the top of the screen. Use the menus to choose a chapter or a section within a chapter. Click *Develop in Swift* to return to the table of contents.
 
 ---
-
-<TagLinks />

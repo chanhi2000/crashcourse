@@ -392,5 +392,3 @@ On a 64-bit machine, `Rc` and `Arc` add a 16 byte overhead on the heap.
 See the direct mapping from the Rust code to the assembly for [all the methods we have covered in this article.](https://godbolt.org/z/b344MYPc6)
 
 ---
-
-<TagLinks />

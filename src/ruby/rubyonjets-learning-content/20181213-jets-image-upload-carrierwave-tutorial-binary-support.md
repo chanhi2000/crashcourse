@@ -251,4 +251,3 @@ Go to the url provided at the end of the deploy.
 
 ---
 
-<TagLinks />

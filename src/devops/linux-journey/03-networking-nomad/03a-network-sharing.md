@@ -205,5 +205,3 @@ sudo mount -t cifs servername:directory mountpount -o user=username,pass=passwor
 Setup a Samba share, if you don't have one, open up <FontIcon icon="fas fa-file-lines"/>`smb.conf` and familiarize yourself with the options in the config file.
 
 ---
-
-<TagLinks />

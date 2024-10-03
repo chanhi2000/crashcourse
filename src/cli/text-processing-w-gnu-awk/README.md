@@ -267,5 +267,3 @@ Code snippets are available under [MIT License](https://github.com/learnbyexampl
 Resources mentioned in Acknowledgements section are available under original licenses.
 
 ---
-
-<TagLinks />

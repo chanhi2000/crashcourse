@@ -112,4 +112,3 @@ Ruby serverless applications might also use native binary gems. Jets uses [Lambd
 
 ---
 
-<TagLinks />

@@ -157,5 +157,3 @@ There are other logrotating tools you can use to manage your logs, but `logrotat
 Look at your `logrotate` configuration file and see how it manages some of your logs.
 
 ---
-
-<TagLinks />

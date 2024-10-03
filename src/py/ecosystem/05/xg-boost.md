@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/233727/XGBoost_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

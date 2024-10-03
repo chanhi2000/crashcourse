@@ -40,5 +40,3 @@ head:
 - build with: `java` / `gradle` / `lombok`
 
 ---
-
-<TagLinks />

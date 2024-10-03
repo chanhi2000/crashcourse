@@ -281,7 +281,7 @@ export const navbarEn = navbar([
         icon: 'fas fa-brain'
       }, {
         text: "DB Server 성능 향상 분석 및 튜닝 전문가 향상과정",
-        link: '/misc/oracle-sql-db-tuning/README.md',
+        link: '/assets/misc/oracle-sql-db-tuning/README.md',
         icon: 'fas fa-database'
       }
     ]

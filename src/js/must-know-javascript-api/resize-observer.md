@@ -237,5 +237,3 @@ In this article, we introduced the basic usage of Resize Observer API and provid
 - [W3C: Resize Observer](https://www.w3.org/TR/resize-observer)
 
 ---
-
-<TagLinks />

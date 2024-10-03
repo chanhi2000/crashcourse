@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/232682/FastUI_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

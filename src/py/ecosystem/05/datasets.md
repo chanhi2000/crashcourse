@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/229983/Datasets_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

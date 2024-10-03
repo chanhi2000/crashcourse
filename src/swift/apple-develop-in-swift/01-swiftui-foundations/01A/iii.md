@@ -80,5 +80,3 @@ Watch [<FontIcon icon="fas fa-play"/>Design with SwiftUI](https://developer.appl
 Every Xcode project comes with one view, `ContentView`. In the next tutorial, you’ll use a structure to create your own [<FontIcon icon="fas fa-globe"/>custom view](https://developer.apple.com/documentation/swiftui/declaring-a-custom-view).
 
 ---
-
-<TagLinks />

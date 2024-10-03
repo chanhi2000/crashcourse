@@ -35,5 +35,3 @@ head:
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

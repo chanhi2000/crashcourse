@@ -90,5 +90,3 @@ Welcome to the Must Know JavaScript API series, this series will learn the JavaS
 
 
 ---
-
-<TagLinks />

@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/226653/streamlit_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

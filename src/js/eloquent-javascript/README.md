@@ -265,5 +265,3 @@ Illustrations by various artists: Cover by [Péchane Sumi-e](http://www.pechane.
 ```
 
 ---
-
-<TagLinks />

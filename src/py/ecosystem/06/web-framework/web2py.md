@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/233730/web2py_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

@@ -79,5 +79,3 @@ The toy parser combinators developed in chapter “An Example: Writing Your Own 
 It would be impractical to try to cover all these libraries, and so we will focus on `megaparsec`. More precisely, we are going to cover the version 9, which by the time this book is published will probably have replaced the older versions almost everywhere.
 
 ---
-
-<TagLinks />

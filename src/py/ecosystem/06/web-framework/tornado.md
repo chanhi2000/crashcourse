@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/239405/Tornado_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

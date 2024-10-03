@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/226676/bokeh_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

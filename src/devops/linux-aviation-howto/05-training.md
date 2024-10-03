@@ -37,5 +37,3 @@ haed:
 ```
 
 ---
-
-<TagLinks />

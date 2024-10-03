@@ -101,5 +101,3 @@ I've also included some interactive examples, so you can try out different curl 
 ```
 
 ---
-
-<TagLinks />

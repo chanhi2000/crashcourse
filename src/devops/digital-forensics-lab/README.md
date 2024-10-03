@@ -142,5 +142,3 @@ This repository contains the course material for the digital forensics lab offer
 The repository will be regularly updated with new materials and exercises, so please make sure to regularly check for updates. If you have any questions or feedback, feel free to reach out.
 
 ---
-
-<TagLinks />

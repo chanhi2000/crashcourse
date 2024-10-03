@@ -523,5 +523,3 @@ Similar to a symlink creation, except this time you leave out the `-s`.
 Play around with making symlinks and hardlinks, delete a couple and see what happens.
 
 ---
-
-<TagLinks />

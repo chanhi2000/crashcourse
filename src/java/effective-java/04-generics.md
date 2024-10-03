@@ -28,5 +28,3 @@ head:
 <!-- https://yangbongsoo.gitbook.io/study/java-effective-java/generics -->
 
 ---
-
-<TagLinks />

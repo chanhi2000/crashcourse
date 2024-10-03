@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/226673/seaborn_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

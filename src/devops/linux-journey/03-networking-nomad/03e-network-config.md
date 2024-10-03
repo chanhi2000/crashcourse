@@ -239,5 +239,3 @@ ip neighbour show
 Observe what happens to your ARP cache when you reboot your machine and then do something on the network.
 
 ---
-
-<TagLinks />

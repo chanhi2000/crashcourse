@@ -134,5 +134,3 @@ head:
 - [08. 마치면서](08-final-note.md)
 
 ---
-
-<TagLinks />

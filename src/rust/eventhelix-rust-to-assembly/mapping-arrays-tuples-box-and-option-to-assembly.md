@@ -383,5 +383,3 @@ You can hover over the opcodes in the assembly code to learn about the individua
 - `pshufd` also supports fancy shuffling options that are explained in a [stack exchange article](https://reverseengineering.stackexchange.com/questions/20338/how-do-the-pshuflw-and-pshufd-instructions-work).
 
 ---
-
-<TagLinks />

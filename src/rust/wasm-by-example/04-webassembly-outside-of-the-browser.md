@@ -60,5 +60,3 @@ Examples that highlight the WebAssembly System Interface (WASI), standalone WebA
 ```
 
 ---
-
-<TagLinks />

@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/228051/BVLC_Caffe_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

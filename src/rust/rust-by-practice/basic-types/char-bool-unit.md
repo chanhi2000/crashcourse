@@ -387,5 +387,3 @@ fn main() {
 :::
 
 ---
-
-<TagLinks />

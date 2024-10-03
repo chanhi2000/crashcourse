@@ -225,5 +225,3 @@ After completing this lesson, check out our [Generative AI Learning collection](
 Head over to Lesson 3 where we will look at how to [build with Generative AI Responsibly](https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README)!
 
 ---
-
-<TagLinks />

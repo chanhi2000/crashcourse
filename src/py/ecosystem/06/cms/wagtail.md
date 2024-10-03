@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/227745/wagtail_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

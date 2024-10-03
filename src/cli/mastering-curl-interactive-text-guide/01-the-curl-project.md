@@ -84,5 +84,3 @@ To see the full version, try `curl --manual` (be careful, it's _huge_).
 There is also a book named [Everything curl](https://curl.se/book.html) available online, and [commercial support](https://curl.se/support.html) provided by the company Daniel works for.
 
 ---
-
-<TagLinks />

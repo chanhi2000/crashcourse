@@ -462,7 +462,6 @@ print(f"서울 시간: {seoul_time}")
 
 ---
 
-<TagLinks />
 
 [^1]: [https://docs.python.org/ko/3/library/datetime.html](https://docs.python.org/ko/3/library/datetime.html)
 [^2]: [https://arrow.readthedocs.io/](https://arrow.readthedocs.io/)

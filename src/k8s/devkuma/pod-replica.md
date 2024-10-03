@@ -52,5 +52,3 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

@@ -29,5 +29,3 @@ isOrignal: false
 <!-- https://yangbongsoo.gitbook.io/study/effective-java/classes_and_interfaces -->
 
 ---
-
-<TagLinks />

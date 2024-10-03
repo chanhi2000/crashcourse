@@ -78,5 +78,3 @@ To wrap up the CSS Grid tutorial, follow along as a common layout is built step-
 - [Building an Example Layout](07-building-an-example-layout.md)
 
 ---
-
-<TagLinks />

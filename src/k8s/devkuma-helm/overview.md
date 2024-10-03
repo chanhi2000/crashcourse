@@ -200,5 +200,3 @@ helm upgrade   # 새 차트로 업그레이드한다.
   preview="https://artifacthub.io/static/media/artifactHub_v2.png"/>
 
 ---
-
-<TagLinks />

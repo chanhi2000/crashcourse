@@ -56,5 +56,3 @@ Learn more about Wasm at the [WebAssembly Introduction](https://wasmbyexample.de
 - [04. WebAssembly Outside of the Browser](04-webassembly-outside-of-the-browser.md)
 
 ---
-
-<TagLinks />

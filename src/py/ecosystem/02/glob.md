@@ -82,6 +82,5 @@ Glob 라이브러리는 파일 시스템에서 패턴 기반의 파일 검색을
 
 ---
 
-<TagLinks />
 
 [^1]: [https://docs.python.org/ko/3/library/glob.html](https://docs.python.org/ko/3/library/glob.html)

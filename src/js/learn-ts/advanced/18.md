@@ -38,5 +38,3 @@ head:
 ```
 
 ---
-
-<TagLinks />

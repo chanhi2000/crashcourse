@@ -66,5 +66,3 @@ Dive into the chapters below to embark on your TypeScript journey. Each section 
 - [18. Abstract Classes](advanced/18.md)
 
 ---
-
-<TagLinks />

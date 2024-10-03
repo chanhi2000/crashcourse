@@ -585,5 +585,3 @@ console.log('This console.log is from wasm!')
 :::
 
 ---
-
-<TagLinks />

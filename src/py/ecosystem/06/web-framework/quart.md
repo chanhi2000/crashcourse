@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/236433/Quart_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

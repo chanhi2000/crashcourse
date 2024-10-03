@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/228947/nodezator_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

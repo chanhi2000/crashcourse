@@ -65,5 +65,3 @@ JETS_ENV_EXTRA=2 jets delete
 Note, you’ll be prompted with an ‘Are you sure?’ message.
 
 ---
-
-<TagLinks />

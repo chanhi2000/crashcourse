@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/229298/NetworkX_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

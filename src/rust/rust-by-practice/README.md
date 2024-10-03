@@ -110,5 +110,3 @@ __What we want to do is fill in the gap between learning and getting started wit
 - [30. Fighting with Compiler](30-fight-compiler.md)
 
 ---
-
-<TagLinks />

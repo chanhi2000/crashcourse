@@ -247,5 +247,3 @@ Our team produces other courses! Check out:
 - [XR Development for Beginners](https://aka.ms/ml-beginners)
 
 ---
-
-<TagLinks />

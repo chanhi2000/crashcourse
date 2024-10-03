@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/237065/Sanic_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

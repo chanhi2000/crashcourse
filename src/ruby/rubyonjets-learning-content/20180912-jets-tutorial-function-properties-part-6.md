@@ -73,5 +73,3 @@ For more info, refer to the [Function Properties](http://rubyonjets.com/docs/fun
 - Deploy and demo function properties in action with an example
 
 ---
-
-<TagLinks />

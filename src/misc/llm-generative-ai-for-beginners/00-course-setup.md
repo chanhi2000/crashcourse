@@ -185,5 +185,3 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 Now that you have completed the needed steps to complete this course, let's get started by getting an [introduction to Generative AI and LLMs](01-introduction-to-genai.md).
 
 ---
-
-<TagLinks />

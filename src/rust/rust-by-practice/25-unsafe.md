@@ -30,5 +30,3 @@ head:
 ---
 
 ---
-
-<TagLinks />

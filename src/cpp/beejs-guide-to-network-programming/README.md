@@ -113,5 +113,3 @@ head:
   - 10C. RFCs
 
 ---
-
-<TagLinks />

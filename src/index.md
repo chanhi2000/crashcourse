@@ -1,21 +1,24 @@
 ---
 layout: BlogHome
-title: Home
+title: 🥁Crashcourse
 home: true
 heroText: 🥁Crashcourse
 heroFullScreen: true
 bgImage: https://github.com/chanhi2000/chanhi2000/raw/main/imgs/coderman.gif
 heroImage: https://avatars.githubusercontent.com/u/6296241?v=4
 projects:
-  - name: Home
+  - icon: fas fa-wind
+    name: Home
     link: https://chanhi2000.github.io
-    icon: fas fa-wind
-  - name: CLI
-    link: /cli/
-    icon: iconfont icon-shell
-  - name: Swift
-    link: /swift/
-    icon: fa-brands fa-swift
+  - icon: fas fa-book-open-reader
+    name: 📚Bookshelf
+    link: https://chanhi2000.github.io/crashcourse/
+  - icon: iconfont icon-shell
+    name: CLI
+    link: /cli/README.md
+  - icon: fa-brands fa-swift
+    name: Swift
+    link: /swift/README.md
   - name: Java / Kotlin / Spring
     link: /java/
     icon: fa-brands fa-java

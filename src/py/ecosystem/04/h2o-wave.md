@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/234470/h2o-wave_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

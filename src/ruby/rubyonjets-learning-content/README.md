@@ -299,5 +299,3 @@ Ruby on Jets allows you to create and deploy serverless services with ease, and 
 ```
 
 ---
-
-<TagLinks />

@@ -747,5 +747,3 @@ public class CommentController {
 질문 댓글과 동일한 방법으로 구현 가능하므로 생략한다.
 
 ---
-
-<TagLinks />

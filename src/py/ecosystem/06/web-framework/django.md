@@ -76,5 +76,3 @@ cover: https://wikidocs.net/images/page/226649/django_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

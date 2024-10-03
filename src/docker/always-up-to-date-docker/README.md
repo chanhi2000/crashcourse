@@ -140,5 +140,3 @@ cover: https://pyrasis.com/assets/images/profile1.png
   - [wait](/docker/always-up-to-date-docker/13AK.md)
 
 ---
-
-<TagLinks />

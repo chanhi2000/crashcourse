@@ -128,5 +128,3 @@ Basic C/C++ competency including familiarity with variable types, loops, conditi
 ```
  
 ---
-
-<TagLinks />

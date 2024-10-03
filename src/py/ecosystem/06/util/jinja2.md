@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/235934/jinja_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

@@ -210,5 +210,3 @@ Kubernetes를 사용하면 컨테이너 단위 또는 어플리케이션 단위�
   preview="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F990BE94D5AFEF4A20F"/>
 
 ---
-
-<TagLinks />

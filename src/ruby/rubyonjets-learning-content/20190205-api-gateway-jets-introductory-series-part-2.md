@@ -53,4 +53,3 @@ In this video, we’ll walk through creating an API Gateway REST API from scratc
 
 ---
 
-<TagLinks />

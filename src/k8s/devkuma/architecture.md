@@ -201,5 +201,3 @@ Kubernetes에서는 클러스터 전체를 관리하는 컨트롤러로써 **마
   preview="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99172C485B02D9C82A"/>
 
 ---
-
-<TagLinks />

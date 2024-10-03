@@ -455,5 +455,3 @@ FieldType getField() {
 -->
 
 ---
-
-<TagLinks />

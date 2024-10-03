@@ -243,5 +243,3 @@ Our `backup.img` file is 10M, however, we are saying in this command to copy ove
 Use the `dd` command to make a backup of your drive and set the output to a `.img` file.
 
 ---
-
-<TagLinks />

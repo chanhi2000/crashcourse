@@ -79,5 +79,3 @@ Reasons not to use TH:
 TH helpers are often viewed as black boxes that do “magic”. It is not clear at all what a thing of the type Q [Dec] does, it might do anything (we will see that any code that generates declarations has the same Q [Dec] type, no matter what sort of declarations it generates). Documentation becomes the main source of information about semantics of TH code.
 
 TH imposes restrictions on where the user should define TH functions themselves and sometimes also how to order definitions in files where TH functions are used.
-
-<TagLinks />

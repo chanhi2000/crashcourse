@@ -203,5 +203,3 @@ A few Github open-source projects based on the Broadcast Channel API wrapper are
 The Broadcast Channel API is a Web API that enables easy sharing of data between different browser windows. We hope this article will help readers to use this API better.
 
 ---
-
-<TagLinks />

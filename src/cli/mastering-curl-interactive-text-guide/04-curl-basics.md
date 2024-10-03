@@ -572,5 +572,3 @@ curl http://httpbin:1313/get
 You can access the exit status through the `$?` shell variable.
 
 ---
-
-<TagLinks />

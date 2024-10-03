@@ -68,5 +68,3 @@ Here’s what an error looks like in the Lambda console:
 For an Jets Introduction: [Introducing Jets: A Ruby Serverless Framework](https://blog.boltops.com/2018/08/18/introducing-jets-a-ruby-serverless-framework/).
 
 ---
-
-<TagLinks />

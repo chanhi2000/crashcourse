@@ -111,5 +111,3 @@ isOriginal: false
 ```
 
 ---
-
-<TagLinks />

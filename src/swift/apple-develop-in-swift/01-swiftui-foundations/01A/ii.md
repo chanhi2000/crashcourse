@@ -334,5 +334,3 @@ struct ContentView: View {
 ```
 
 ---
-
-<TagLinks />

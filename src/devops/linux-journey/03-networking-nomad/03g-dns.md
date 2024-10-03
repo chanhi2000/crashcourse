@@ -202,5 +202,3 @@ dig www.google.com
 Read up on the manpage for `dig`.
 
 ---
-
-<TagLinks />

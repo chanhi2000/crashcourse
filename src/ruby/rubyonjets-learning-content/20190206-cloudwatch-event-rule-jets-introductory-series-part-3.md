@@ -45,4 +45,3 @@ In this video, we’ll walk through creating a CloudWatch Event Rule with the Cl
 
 ---
 
-<TagLinks />

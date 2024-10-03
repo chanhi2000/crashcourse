@@ -267,5 +267,4 @@ With Serverless, you will might run into the quirky binary gem issue. Most gems 
 
 ---
 
-<TagLinks />
 

@@ -197,5 +197,3 @@ This will allow you to change the password of yourself or another user (if you a
 Create a new user then change their password and login as the new user.
 
 ---
-
-<TagLinks />

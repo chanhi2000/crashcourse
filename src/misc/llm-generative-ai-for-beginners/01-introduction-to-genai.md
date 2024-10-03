@@ -175,5 +175,3 @@ After completing this lesson, check out our [Generative AI Learning collection](
 Head over to Lesson 2 where we will look at how to [explore and compare different LLM types](02-exploring-and-comparing-different-llms.md)!
 
 ---
-
-<TagLinks />

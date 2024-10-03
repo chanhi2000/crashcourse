@@ -208,5 +208,3 @@ We've heard the term IPv6 here and there, but what is it? Every device that conn
 Check `ifconfig` to see if you have an IPv6 address listed.
 
 ---
-
-<TagLinks />

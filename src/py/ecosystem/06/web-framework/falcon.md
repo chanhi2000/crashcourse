@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/236618/banner.jpg
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

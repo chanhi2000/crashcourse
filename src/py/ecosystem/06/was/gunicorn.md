@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/232892/gunicorn_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

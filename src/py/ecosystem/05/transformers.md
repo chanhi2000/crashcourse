@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/229780/transformers_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

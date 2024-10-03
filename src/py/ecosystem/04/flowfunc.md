@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/228940/flowfunc_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

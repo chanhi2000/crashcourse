@@ -181,5 +181,3 @@ You can also make sure a module does not load on bootup by adding a configuratio
 Unload your bluetooth module with modprobe and see what happens. How will you fix this?
 
 ---
-
-<TagLinks />

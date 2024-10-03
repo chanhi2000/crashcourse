@@ -124,5 +124,3 @@ curl -o /dev/null --write-out "type: %{content_type}" http://httpbin/uuid
 ```
 
 ---
-
-<TagLinks />

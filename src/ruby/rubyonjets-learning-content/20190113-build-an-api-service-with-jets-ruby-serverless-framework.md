@@ -212,5 +212,3 @@ That’s it! That’s all it took to create a RESTful API on AWS Lambda with the
 Hope you’ve enjoyed this article. If you find [Ruby on Jets](http://rubyonjets.com/) interesting, please give it ⭐️ on [<FontIcon icon="iconfont icon-github"/>`tongueroo/jets`](https://github.com/tongueroo/jets). I’d appreciate it. 👍
 
 ---
-
-<TagLinks />

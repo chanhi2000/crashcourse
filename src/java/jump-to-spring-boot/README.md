@@ -109,5 +109,3 @@ head:
 - [A: 부록](a.md)
 
 ---
-
-<TagLinks />

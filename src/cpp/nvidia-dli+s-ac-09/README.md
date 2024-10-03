@@ -135,5 +135,3 @@ In this interactive hands-on workshop, which is intended as a followup to [GPU A
 ```
 
 ---
-
-<TagLinks />

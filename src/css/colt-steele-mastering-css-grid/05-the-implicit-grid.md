@@ -24,5 +24,3 @@ head:
 [[toc]]
 
 ---
-
-<TagLinks />

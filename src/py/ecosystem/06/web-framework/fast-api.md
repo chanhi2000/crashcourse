@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/226651/fastapi_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

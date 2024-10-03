@@ -97,5 +97,3 @@ The goal of this project is to translate [the wonderful resource](https://e-maxx
   - [10D. Misc](10-misc/10D.md)
 
 ---
-
-<TagLinks />

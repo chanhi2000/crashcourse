@@ -143,5 +143,3 @@ This is the new standard for init, it is goal oriented. Basically you have a goa
 We have an entire course on Init systems where we will dive into each of these systems in more detail.
 
 ---
-
-<TagLinks />

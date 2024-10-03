@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/229250/pygal_ex.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

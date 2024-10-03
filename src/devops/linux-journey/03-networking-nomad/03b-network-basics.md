@@ -213,5 +213,3 @@ The way DHCP gets all your dynamic host information is:
 DHCP gets more involved than this, but this is the gist of it.
 
 ---
-
-<TagLinks />

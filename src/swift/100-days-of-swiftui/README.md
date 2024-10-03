@@ -306,7 +306,6 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 
 ---
 
-<TagLinks />
 
 [ask-me]: https://twitter.com/twostraws
 [swiftui-by-example]: https://www.hackingwithswift.com/quick-start/swiftui

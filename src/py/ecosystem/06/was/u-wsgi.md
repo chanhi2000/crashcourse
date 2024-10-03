@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/232894/uWSGI_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

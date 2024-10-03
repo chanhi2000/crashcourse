@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/234271/approach.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

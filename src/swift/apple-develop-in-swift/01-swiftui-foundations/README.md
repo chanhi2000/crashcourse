@@ -40,5 +40,3 @@ Get to know Xcode and SwiftUI by creating a prototype of a messaging app. Learn 
 ```
 
 ---
-
-<TagLinks />

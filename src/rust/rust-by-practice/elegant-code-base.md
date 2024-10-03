@@ -117,5 +117,3 @@ On [CodeCrafters](https://codecrafters.io/for/rust), you can recreate your favor
 [This online book (<FontIcon icon="iconfont icon-github"/>`rust-hosted-langs/book`)](https://github.com/rust-hosted-langs/book) will walk through the basics of interpreted language implementation in Rust with a focus on the challenges that are specific to using Rust.
 
 ---
-
-<TagLinks />

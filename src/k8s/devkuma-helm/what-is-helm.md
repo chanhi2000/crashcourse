@@ -52,5 +52,3 @@ cover: https://www.devkuma.com/docs/helm/helm-values-yaml-file-1.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

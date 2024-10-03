@@ -296,7 +296,6 @@ It’s time to see how much you remember from across the entire curriculum. Are 
 
 ---
 
-<TagLinks />
 
 [ask-me]: https://twitter.com/twostraws
 [100-days-of-swiftui]: ../100-days-of-swiftui/README.md

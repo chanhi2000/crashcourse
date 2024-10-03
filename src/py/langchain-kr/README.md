@@ -48,5 +48,3 @@ head:
 - [LangChain Document](https://python.langchain.com/docs/get_started/introduction)
 
 ---
-
-<TagLinks />

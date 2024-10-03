@@ -47,5 +47,3 @@ cover: https://wikidocs.net/images/page/236616/download.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

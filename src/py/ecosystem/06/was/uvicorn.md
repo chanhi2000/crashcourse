@@ -48,5 +48,3 @@ cover: https://wikidocs.net/images/page/228062/uvicorn_logo.png
 <!-- TODO: 작성 -->
 
 ---
-
-<TagLinks />

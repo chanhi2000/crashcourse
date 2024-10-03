@@ -46,5 +46,3 @@ In this video, we’ll create several hello world examples with Jets code. We’
 The full source code is available on GitHub: [<FontIcon icon="iconfont icon-github"/>`tongueroo/jets-hello-examples`](https://github.com/tongueroo/jets-hello-examples)
 
 ---
-
-<TagLinks />

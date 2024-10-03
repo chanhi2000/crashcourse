@@ -120,5 +120,3 @@ isOriginal: false
 7. 설치 확인
 
 ---
-
-<TagLinks />
